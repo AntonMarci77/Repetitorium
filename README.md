@@ -2,7 +2,8 @@
 
 Bezplatná webová (PWA) pomôcka na prípravu na **štátnice z účtovníctva** na FHI EU v Bratislave — pre študentov bakalárskeho (Účtovníctvo) aj inžinierskeho (Účtovníctvo a audítorstvo) štúdia, a pre členov skúšobnej komisie.
 
-Repozitár: https://github.com/AntonMarci77/Repetitorium
+🌐 **Live:** https://repetitorium.vercel.app
+📦 **Repozitár:** https://github.com/AntonMarci77/Repetitorium
 
 > ⚠️ **Neoficiálna, dobrovoľná študijná pomôcka. NIE je oficiálnou aplikáciou Ekonomickej univerzity v Bratislave ani Fakulty hospodárskej informatiky.** Obsah pripravil pedagóg vo voľnom čase a môže obsahovať chyby — nahláste ich, prosím. Pri štátnici je rozhodujúce platné znenie predpisov a pokyny komisie.
 
@@ -34,12 +35,29 @@ npm run build && npm start
 
 ## Štruktúra obsahu
 Obsah je statický (v `/public`):
-- `content/*.json` — tézy (zdroj pravdy).
-- `visuals/*.svg` — schémy a grafy.
-- `skratky.json` — slovník skratiek.
-- `mapy/*.json` — mentálne mapy.
+- `content/*.json` — 36 téz (BC 18 + ING 18), zdroj pravdy. Schéma vrátane MC distraktorov pre doplňujúce otázky.
+- `visuals/*.svg` — 71 schém a grafov (klikateľné, otvoria sa v lightboxe so zoomom).
+- `mapy/*.svg` — 36 grafických mentálnych máp (stred = názov tézy, vetva = bod osnovy + esencia odpovede).
+- `mapy/*.json` — JSON tree mapy (fallback ak by SVG zlyhal).
+- `mapy-esencie/*.json` — zdrojové esencie máp pre prípadné úpravy.
+- `skratky.json` — slovník skratiek (inline tooltipy v texte).
+- `changelog.md` — log opráv (rendrovaný na `/log-oprav`).
 
-Schéma tézy a podrobné zadanie: pozri `Podklad_pre_Claude_Code.md`.
+## Funkčné stránky
+- `/` — dashboard (odpočet dní, dnešná dávka, progres po okruhoch)
+- `/tezy` — zoznam s filtrami (program, okruh, stav)
+- `/tezy/[id]` — detail (jadro, rozšírená báza, príklady s MD/D, vizuály, doplňujúce, pasce, test, zdroje)
+- `/tezy/[id]/mapa` — grafická mentálna mapa so zoomom
+- `/tezy/[id]/test` — sebatestovanie (Korda-style MC + Leitner SR)
+- `/test` — hub režimov (dnes splatné / slabé miesta / nové)
+- `/simulacia` — náhodná téza + 10-min časovač
+- `/hladanie` — fulltext (FlexSearch) cez celý obsah
+- `/skratky` — slovník skratiek
+- `/opravy` — Formspree formulár
+- `/log-oprav` — changelog.md
+- `/nastavenia` — profil, dátum štátnice, export/import JSON zálohy
+
+Schéma tézy a podrobné zadanie: pozri `Podklad_pre_Claude_Code.md` (v zdrojovom OneDrive priečinku).
 
 ## Nahlásenie chyby / návrhu
 V appke tlačidlo **„Nahlásiť opravu"** (typ: chyba / vylepšenie / doplnenie). Každá zverejnená oprava je vidno v **[Logu opráv](./changelog.md)**.
