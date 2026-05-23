@@ -6,12 +6,14 @@ import { entry, getProfile, markFirstPassDone, noteSeenVersion } from "@/lib/sto
 import type { Profile, Teza } from "@/lib/types";
 import { WithAbbr } from "./abbr-inline";
 import { TtsButton } from "./tts-button";
+import { VisualLightbox } from "./visual-lightbox";
 
 export function TezaDetail({ id }: { id: string }) {
   const [teza, setTeza] = useState<Teza | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
   const [markedRead, setMarkedRead] = useState(false);
+  const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null);
 
   useEffect(() => {
     setError(null);
@@ -159,16 +161,33 @@ export function TezaDetail({ id }: { id: string }) {
 
       {teza.vizualy && teza.vizualy.length > 0 && (
         <section className="rp-section">
-          <h2 className="font-heading text-lg mb-3">Vizuály</h2>
+          <h2 className="font-heading text-lg mb-3">Vizuály <span className="text-xs font-normal text-[var(--rp-muted)]">(klik = priblížiť)</span></h2>
           <div className="grid md:grid-cols-2 gap-4">
-            {teza.vizualy.map((v, i) => (
-              <figure key={i} className="rounded-2xl border border-[var(--rp-border)] p-3 bg-white">
-                <img src={mapVisualSrc(v.subor)} alt={v.popis} loading="lazy" className="w-full h-auto" />
-                <figcaption className="text-xs text-[var(--rp-muted)] mt-2">{v.popis}</figcaption>
-              </figure>
-            ))}
+            {teza.vizualy.map((v, i) => {
+              const src = mapVisualSrc(v.subor);
+              return (
+                <figure key={i} className="rounded-2xl border border-[var(--rp-border)] p-3 bg-white">
+                  <button
+                    type="button"
+                    onClick={() => setLightbox({ src, alt: v.popis })}
+                    aria-label={`Priblížiť: ${v.popis}`}
+                    className="block w-full group relative"
+                  >
+                    <img src={src} alt={v.popis} loading="lazy" className="w-full h-auto transition group-hover:opacity-90" />
+                    <span aria-hidden className="absolute top-2 right-2 rounded-full bg-black/60 text-white p-1.5 opacity-80 group-hover:opacity-100">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg>
+                    </span>
+                  </button>
+                  <figcaption className="text-xs text-[var(--rp-muted)] mt-2 text-left">{v.popis}</figcaption>
+                </figure>
+              );
+            })}
           </div>
         </section>
+      )}
+
+      {lightbox && (
+        <VisualLightbox src={lightbox.src} alt={lightbox.alt} onClose={() => setLightbox(null)} />
       )}
 
       {teza.caste_doplnujuce_otazky && teza.caste_doplnujuce_otazky.length > 0 && (
