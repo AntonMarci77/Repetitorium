@@ -126,6 +126,9 @@ function Footer() {
           Obsah pripravil pedagóg vo voľnom čase; môže obsahovať chyby — <a className="rp-link" href="/opravy">nahláste ich cez formulár</a>. Pri štátnici je rozhodujúce platné znenie predpisov a pokyny skúšobnej komisie.
         </p>
         <p>
+          Autor obsahu: <strong className="text-[var(--rp-fg)]">Ing. Anton Marci, PhD.</strong>, Katedra účtovníctva a audítorstva, Fakulta hospodárskej informatiky, Ekonomická univerzita v Bratislave.
+        </p>
+        <p>
           Projekt je zadarmo. Ak ho chcete podporiť, dobrovoľný dar: <code className="px-1.5 py-0.5 rounded rp-softer-bg">SK9011000000002932588341</code>.
           {" · "}
           <a className="rp-link" href="/o-aplikacii">O aplikácii</a>
@@ -133,6 +136,9 @@ function Footer() {
           <a className="rp-link" href="/log-oprav">Log opráv</a>
           {" · "}
           <a className="rp-link" href="/skratky">Skratky</a>
+        </p>
+        <p className="text-[10px] text-[var(--rp-muted)]/80">
+          © {new Date().getFullYear()} Anton Marci · Kód: MIT · Obsah: CC BY-NC 4.0
         </p>
       </div>
     </footer>
