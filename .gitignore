@@ -23,3 +23,5 @@ public/fallback-*.js
 # Editor
 .vscode/
 .idea/
+
+.vercel
