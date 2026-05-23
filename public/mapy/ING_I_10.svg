@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 936" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="936" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING I 10 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 483.0 C 420.0 483.0, 540.0 146.8, 470.0 146.8" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 483.0 C 420.0 483.0, 540.0 320.2, 470.0 320.2" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 483.0 C 420.0 483.0, 540.0 493.8, 470.0 493.8" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 483.0 C 420.0 483.0, 540.0 657.8, 470.0 657.8" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 483.0 C 420.0 483.0, 540.0 820.5, 470.0 820.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 483.0 C 860.0 483.0, 740.0 206.2, 810.0 206.2" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 483.0 C 860.0 483.0, 740.0 388.0, 810.0 388.0" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 483.0 C 860.0 483.0, 740.0 569.8, 810.0 569.8" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 483.0 C 860.0 483.0, 740.0 759.8, 810.0 759.8" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="421.0" width="300" height="124.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="454.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Kalkulácie,</text>
+<text x="640.0" y="477.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">rozpočtovníctvo a</text>
+<text x="640.0" y="500.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">zodpovednostné</text>
+<text x="640.0" y="523.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">účtovníctvo</text>
+<rect x="90.0" y="70.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="153.5" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Vopred stanovené náklady a metóda</text>
+<text x="107.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">štandardných nákladov</text>
+<text x="107.0" y="140.0" font-size="13.0" fill="#374151">Vopred stanovené (štandardné) náklady = žiaduca</text>
+<text x="107.0" y="156.5" font-size="13.0" fill="#374151">úroveň pred výkonom; slúžia na ocenenie výkonov a</text>
+<text x="107.0" y="173.0" font-size="13.0" fill="#374151">ako norma hospodárnosti. Sú predpokladom rozboru</text>
+<text x="107.0" y="189.5" font-size="13.0" fill="#374151">odchýlok. Náročnosť: ideálne demotivujú,</text>
+<text x="107.0" y="206.0" font-size="13.0" fill="#374151">dosiahnuteľné sú najmotivačnejšie.</text>
+<rect x="90.0" y="243.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="243.5" width="7" height="153.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="270.5" font-size="14.5" font-weight="700" fill="#1a3868">2. Rozbor odchýlok – princíp rozkladu na cenu</text>
+<text x="107.0" y="289.5" font-size="14.5" font-weight="700" fill="#1a3868">a množstvo</text>
+<text x="107.0" y="313.5" font-size="13.0" fill="#374151">Odchýlka = skutočné − vopred stanovené náklady</text>
+<text x="107.0" y="330.0" font-size="13.0" fill="#374151">(riadenie podľa odchýlok mimo tolerancie).</text>
+<text x="107.0" y="346.5" font-size="13.0" fill="#374151">KVALITATÍVNA (cenová) = (ps − pp) × qs;</text>
+<text x="107.0" y="363.0" font-size="13.0" fill="#374151">KVANTITATÍVNA (množstvová) = (qs − qp) × pp. Celková</text>
+<text x="107.0" y="379.5" font-size="13.0" fill="#374151">= súčet. Záporná = úspora, kladná = prekročenie.</text>
+<rect x="90.0" y="417.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="417.0" width="7" height="153.5" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="444.0" font-size="14.5" font-weight="700" fill="#1a3868">3. Odchýlky jednotkových nákladov (materiál,</text>
+<text x="107.0" y="463.0" font-size="14.5" font-weight="700" fill="#1a3868">mzdy)</text>
+<text x="107.0" y="487.0" font-size="13.0" fill="#374151">Materiál: cenová odchýlka (nákup) + spotrebná</text>
+<text x="107.0" y="503.5" font-size="13.0" fill="#374151">(výroba; objemová/sortimentná/výťažnostná). Mzdy:</text>
+<text x="107.0" y="520.0" font-size="13.0" fill="#374151">tarifná (sadzba) + výkonová (hodiny). Príklad (2 kg</text>
+<text x="107.0" y="536.5" font-size="13.0" fill="#374151">á 5 € vs. 2,2 kg á 5,4 €): cenová +0,88, spotrebná</text>
+<text x="107.0" y="553.0" font-size="13.0" fill="#374151">+1,00, spolu +1,88 €.</text>
+<rect x="90.0" y="590.5" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="590.5" width="7" height="134.5" rx="3.5" fill="#803594"/>
+<text x="107.0" y="617.5" font-size="14.5" font-weight="700" fill="#1a3868">4. Odchýlky režijných nákladov</text>
+<text x="107.0" y="641.5" font-size="13.0" fill="#374151">Réžia sa rozvrhuje vopred stanovenou sadzbou.</text>
+<text x="107.0" y="658.0" font-size="13.0" fill="#374151">SPOTREBNÁ (rozpočtová) odchýlka = skutočná réžia −</text>
+<text x="107.0" y="674.5" font-size="13.0" fill="#374151">rozpočet na skutočný objem (hospodárnosť); OBJEMOVÁ</text>
+<text x="107.0" y="691.0" font-size="13.0" fill="#374151">(kapacitná) = neabsorbovaná fixná réžia (vedenie).</text>
+<text x="107.0" y="707.5" font-size="13.0" fill="#374151">VN sa porovnávajú s FLEXIBILNÝM rozpočtom.</text>
+<rect x="90.0" y="745.0" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="745.0" width="7" height="151.0" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="772.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Kalkulácia úplných nákladov (absorpčná)</text>
+<text x="107.0" y="796.0" font-size="13.0" fill="#374151">Úplná (absorpčná) kalkulácia priraďuje výkonu fixné</text>
+<text x="107.0" y="812.5" font-size="13.0" fill="#374151">aj variabilné náklady. Výhoda: jednoduchosť a</text>
+<text x="107.0" y="829.0" font-size="13.0" fill="#374151">vhodnosť pre závierku (ocenenie zásob). Nevýhoda:</text>
+<text x="107.0" y="845.5" font-size="13.0" fill="#374151">proporcionalizuje FN, skresľuje rozhodovanie;</text>
+<text x="107.0" y="862.0" font-size="13.0" fill="#374151">motivuje VÝROBU NA SKLAD (FN zaparkované v</text>
+<text x="107.0" y="878.5" font-size="13.0" fill="#374151">zásobách).</text>
+<rect x="810.0" y="121.2" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="121.2" width="7" height="170.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="148.2" font-size="14.5" font-weight="700" fill="#1a3868">6. Kalkulácia neúplných nákladov (variabilné</text>
+<text x="827.0" y="167.2" font-size="14.5" font-weight="700" fill="#1a3868">kalkulovanie)</text>
+<text x="827.0" y="191.2" font-size="13.0" fill="#374151">Neúplná (variabilná) kalkulácia oceňuje výkon len</text>
+<text x="827.0" y="207.8" font-size="13.0" fill="#374151">VN; cena − VN = krycí príspevok (marža) na FN a</text>
+<text x="827.0" y="224.2" font-size="13.0" fill="#374151">zisk. FN = náklad obdobia. Výhody: dolná cenová</text>
+<text x="827.0" y="240.8" font-size="13.0" fill="#374151">hranica, dodatočná zákazka, sortiment podľa marže na</text>
+<text x="827.0" y="257.2" font-size="13.0" fill="#374151">úzke miesto, make-or-buy. Pre závierku spravidla</text>
+<text x="827.0" y="273.8" font-size="13.0" fill="#374151">neprípustná.</text>
+<rect x="810.0" y="311.2" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="311.2" width="7" height="153.5" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="338.2" font-size="14.5" font-weight="700" fill="#1a3868">7. Vplyv na ocenenie zásob, súvahu a VH;</text>
+<text x="827.0" y="357.2" font-size="14.5" font-weight="700" fill="#1a3868">aktivácia nákladov</text>
+<text x="827.0" y="381.2" font-size="13.0" fill="#374151">Zásoby vlastnej výroby (121/122/123) sa oceňujú</text>
+<text x="827.0" y="397.8" font-size="13.0" fill="#374151">vlastnými nákladmi (priame + primeraná výrobná réžia</text>
+<text x="827.0" y="414.2" font-size="13.0" fill="#374151">≈ absorpčná). Pri raste zásob absorpčná vykáže VYŠŠÍ</text>
+<text x="827.0" y="430.8" font-size="13.0" fill="#374151">zisk než variabilná. Aktivácia: vlastné náklady do</text>
+<text x="827.0" y="447.2" font-size="13.0" fill="#374151">majetku (62x/611), náklad až cez spotrebu/odpisy.</text>
+<rect x="810.0" y="484.8" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="484.8" width="7" height="170.0" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="511.8" font-size="14.5" font-weight="700" fill="#1a3868">8. Zodpovednostné účtovníctvo a strediská</text>
+<text x="827.0" y="530.8" font-size="14.5" font-weight="700" fill="#1a3868">zodpovednosti</text>
+<text x="827.0" y="554.8" font-size="13.0" fill="#374151">Zodpovednostné účtovníctvo sleduje plán vs.</text>
+<text x="827.0" y="571.2" font-size="13.0" fill="#374151">skutočnosť a odchýlky podľa stredísk zodpovednosti.</text>
+<text x="827.0" y="587.8" font-size="13.0" fill="#374151">Typy podľa decentralizácie: nákladové, výnosové,</text>
+<text x="827.0" y="604.2" font-size="13.0" fill="#374151">ziskové (profit), investičné (ROI, RI, EVA). Odlíš</text>
+<text x="827.0" y="620.8" font-size="13.0" fill="#374151">miesto vzniku (KDE) od strediska (KTO).</text>
+<text x="827.0" y="637.2" font-size="13.0" fill="#374151">Jedno-/dvojokruhovo.</text>
+<rect x="810.0" y="674.8" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="674.8" width="7" height="170.0" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="701.8" font-size="14.5" font-weight="700" fill="#1a3868">9. Vnútropodnikové ceny na báze nákladov a na</text>
+<text x="827.0" y="720.8" font-size="14.5" font-weight="700" fill="#1a3868">báze zisku</text>
+<text x="827.0" y="744.8" font-size="13.0" fill="#374151">Vnútropodniková cena (VPC) = vopred stanovená cena</text>
+<text x="827.0" y="761.2" font-size="13.0" fill="#374151">za odovzdaný výkon. Na báze NÁKLADOV</text>
+<text x="827.0" y="777.8" font-size="13.0" fill="#374151">(variabilné/úplné/cost+) nevytvára zisk, slúži na</text>
+<text x="827.0" y="794.2" font-size="13.0" fill="#374151">kontrolu hospodárnosti. So ZISKOVOU prirážkou</text>
+<text x="827.0" y="810.8" font-size="13.0" fill="#374151">motivuje (ziskové/investičné strediská). Pri</text>
+<text x="827.0" y="827.2" font-size="13.0" fill="#374151">závislých osobách = transferové oceňovanie (OECD).</text>
+</svg>

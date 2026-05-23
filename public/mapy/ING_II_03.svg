@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 809" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="809" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING II 03 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 419.5 C 420.0 419.5, 540.0 130.2, 470.0 130.2" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 419.5 C 420.0 419.5, 540.0 279.0, 470.0 279.0" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 419.5 C 420.0 419.5, 540.0 427.8, 470.0 427.8" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 419.5 C 420.0 419.5, 540.0 568.2, 470.0 568.2" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 419.5 C 420.0 419.5, 540.0 708.8, 470.0 708.8" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 419.5 C 860.0 419.5, 740.0 200.5, 810.0 200.5" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 419.5 C 860.0 419.5, 740.0 357.5, 810.0 357.5" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 419.5 C 860.0 419.5, 740.0 506.2, 810.0 506.2" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 419.5 C 860.0 419.5, 740.0 646.8, 810.0 646.8" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="357.5" width="300" height="124.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="390.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Audítorská dokumentácia,</text>
+<text x="640.0" y="413.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">audítorské dôkazy a</text>
+<text x="640.0" y="436.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">významnosť v rámci</text>
+<text x="640.0" y="459.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">auditu účtovnej závierky</text>
+<rect x="90.0" y="70.0" width="380" height="120.5" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="120.5" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Audítorská dokumentácia (ISA 230) –</text>
+<text x="107.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">podstata a význam</text>
+<text x="107.0" y="140.0" font-size="13.0" fill="#374151">Working papers = záznam postupov, dôkazov a záverov;</text>
+<text x="107.0" y="156.5" font-size="13.0" fill="#374151">dôkaz súladu s ISA a základ názoru. Kritérium: test</text>
+<text x="107.0" y="173.0" font-size="13.0" fill="#374151">skúseného audítora; spis do 60 dní.</text>
+<rect x="90.0" y="210.5" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="210.5" width="7" height="137.0" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="237.5" font-size="14.5" font-weight="700" fill="#1a3868">2. Významnosť (ISA 320) – podstata a</text>
+<text x="107.0" y="256.5" font-size="14.5" font-weight="700" fill="#1a3868">stanovenie</text>
+<text x="107.0" y="280.5" font-size="13.0" fill="#374151">Hladina, nad ktorou nesprávnosti (jednotlivo aj v</text>
+<text x="107.0" y="297.0" font-size="13.0" fill="#374151">súhrne) ovplyvnia rozhodnutia používateľov.</text>
+<text x="107.0" y="313.5" font-size="13.0" fill="#374151">Kvantitatívna aj kvalitatívna; 3 úrovne: celok,</text>
+<text x="107.0" y="330.0" font-size="13.0" fill="#374151">špecifická, vykonávacia.</text>
+<rect x="90.0" y="367.5" width="380" height="120.5" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="367.5" width="7" height="120.5" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="394.5" font-size="14.5" font-weight="700" fill="#1a3868">3. Uplatňované základne (benchmarky) a</text>
+<text x="107.0" y="413.5" font-size="14.5" font-weight="700" fill="#1a3868">príklad výpočtu</text>
+<text x="107.0" y="437.5" font-size="13.0" fill="#374151">Významnosť = % z vhodnej základne: zisk pred</text>
+<text x="107.0" y="454.0" font-size="13.0" fill="#374151">zdanením 5–10 %, tržby 0,5–2 %, aktíva 1–2 %,</text>
+<text x="107.0" y="470.5" font-size="13.0" fill="#374151">vlastné imanie 1–5 %. Voľba % je odborný úsudok.</text>
+<rect x="90.0" y="508.0" width="380" height="120.5" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="508.0" width="7" height="120.5" rx="3.5" fill="#803594"/>
+<text x="107.0" y="535.0" font-size="14.5" font-weight="700" fill="#1a3868">4. Riziko auditu a jeho nepriamy vzťah k</text>
+<text x="107.0" y="554.0" font-size="14.5" font-weight="700" fill="#1a3868">významnosti</text>
+<text x="107.0" y="578.0" font-size="13.0" fill="#374151">Riziko auditu = inherentné × kontrolné × zisťovacie.</text>
+<text x="107.0" y="594.5" font-size="13.0" fill="#374151">Audítor ovplyvní len zisťovacie. Vzťah k významnosti</text>
+<text x="107.0" y="611.0" font-size="13.0" fill="#374151">je NEPRIAMY: nižšia významnosť → viac práce.</text>
+<rect x="90.0" y="648.5" width="380" height="120.5" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="648.5" width="7" height="120.5" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="675.5" font-size="14.5" font-weight="700" fill="#1a3868">5. Vyhodnotenie zistených nesprávností (ISA</text>
+<text x="107.0" y="694.5" font-size="14.5" font-weight="700" fill="#1a3868">450)</text>
+<text x="107.0" y="718.5" font-size="13.0" fill="#374151">Zaznamenať všetky okrem zjavne triviálnych; faktické</text>
+<text x="107.0" y="735.0" font-size="13.0" fill="#374151">/ úsudkové / extrapolované. Súhrn NEOPRAVENÝCH</text>
+<text x="107.0" y="751.5" font-size="13.0" fill="#374151">porovnať s významnosťou → vplyv na názor.</text>
+<rect x="810.0" y="132.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="132.0" width="7" height="137.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="159.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Audítorské dôkazy (ISA 500) – dostatočné a</text>
+<text x="827.0" y="178.0" font-size="14.5" font-weight="700" fill="#1a3868">vhodné, tvrdenia</text>
+<text x="827.0" y="202.0" font-size="13.0" fill="#374151">Cieľ: dostatočné (kvantita, podľa rizika) a vhodné</text>
+<text x="827.0" y="218.5" font-size="13.0" fill="#374151">(kvalita = relevantnosť + spoľahlivosť). Externý</text>
+<text x="827.0" y="235.0" font-size="13.0" fill="#374151">zdroj &gt; interný, písomný &gt; ústny. Testujú sa</text>
+<text x="827.0" y="251.5" font-size="13.0" fill="#374151">tvrdenia.</text>
+<rect x="810.0" y="289.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="289.0" width="7" height="137.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="316.0" font-size="14.5" font-weight="700" fill="#1a3868">7. Substantívne testy, analytické postupy</text>
+<text x="827.0" y="335.0" font-size="14.5" font-weight="700" fill="#1a3868">(ISA 520) a externé potvrdenia (ISA 505)</text>
+<text x="827.0" y="359.0" font-size="13.0" fill="#374151">Reakcia na riziká: testy kontrol + substantívne</text>
+<text x="827.0" y="375.5" font-size="13.0" fill="#374151">(testy detailov a analytické postupy). Analytika =</text>
+<text x="827.0" y="392.0" font-size="13.0" fill="#374151">vierohodné vzťahy; externé potvrdenia (ISA 505) sú</text>
+<text x="827.0" y="408.5" font-size="13.0" fill="#374151">silný dôkaz.</text>
+<rect x="810.0" y="446.0" width="380" height="120.5" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="446.0" width="7" height="120.5" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="473.0" font-size="14.5" font-weight="700" fill="#1a3868">8. Prvotná zákazka – začiatočné stavy (ISA</text>
+<text x="827.0" y="492.0" font-size="14.5" font-weight="700" fill="#1a3868">510)</text>
+<text x="827.0" y="516.0" font-size="13.0" fill="#374151">Pri prvom audite overiť začiatočné stavy: bez</text>
+<text x="827.0" y="532.5" font-size="13.0" fill="#374151">významných chýb, správne prenesené, konzistentné</text>
+<text x="827.0" y="549.0" font-size="13.0" fill="#374151">politiky. Pozrieť spis predchádzajúceho audítora.</text>
+<rect x="810.0" y="586.5" width="380" height="120.5" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="586.5" width="7" height="120.5" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="613.5" font-size="14.5" font-weight="700" fill="#1a3868">9. Výber vzorky (ISA 530), riziko vzorky a</text>
+<text x="827.0" y="632.5" font-size="14.5" font-weight="700" fill="#1a3868">vplyv rizika na jej veľkosť</text>
+<text x="827.0" y="656.5" font-size="13.0" fill="#374151">Testovanie menej než 100 % populácie so záverom o</text>
+<text x="827.0" y="673.0" font-size="13.0" fill="#374151">celku; štatistické (MUS) alebo neštatistické. Riziko</text>
+<text x="827.0" y="689.5" font-size="13.0" fill="#374151">vzorky: vyššie audítorské riziko → väčšia vzorka.</text>
+</svg>

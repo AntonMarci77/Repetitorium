@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 861" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="861" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING I 03 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 445.8 C 420.0 445.8, 540.0 196.2, 470.0 196.2" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 445.8 C 420.0 445.8, 540.0 359.0, 470.0 359.0" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 445.8 C 420.0 445.8, 540.0 521.8, 470.0 521.8" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 445.8 C 420.0 445.8, 540.0 694.0, 470.0 694.0" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 445.8 C 860.0 445.8, 740.0 155.0, 810.0 155.0" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 445.8 C 860.0 445.8, 740.0 343.8, 810.0 343.8" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 445.8 C 860.0 445.8, 740.0 531.2, 810.0 531.2" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 445.8 C 860.0 445.8, 740.0 728.2, 810.0 728.2" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="383.8" width="300" height="124.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="416.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Prenájom dlhodobého</text>
+<text x="640.0" y="439.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">hmotného majetku podľa</text>
+<text x="640.0" y="462.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">právnej úpravy v SR a</text>
+<text x="640.0" y="485.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">IFRS 16</text>
+<rect x="90.0" y="120.8" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="120.8" width="7" height="151.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="147.8" font-size="14.5" font-weight="700" fill="#1a3868">1. Vymedzenie prenájmu DHM a jeho druhy (SR)</text>
+<text x="107.0" y="171.8" font-size="13.0" fill="#374151">Nájomný vzťah (splátky za užívanie); tri formy</text>
+<text x="107.0" y="188.2" font-size="13.0" fill="#374151">obstarania DHM: finančný prenájom (oddelenie</text>
+<text x="107.0" y="204.8" font-size="13.0" fill="#374151">právneho a ekonomického vlastníctva, vlastníctvo</text>
+<text x="107.0" y="221.2" font-size="13.0" fill="#374151">prejde na konci), operatívny (kratší než životnosť,</text>
+<text x="107.0" y="237.8" font-size="13.0" fill="#374151">vlastníctvo neprechádza, odpisuje prenajímateľ) a</text>
+<text x="107.0" y="254.2" font-size="13.0" fill="#374151">spätný lízing (predaj a obratom prenájom).</text>
+<rect x="90.0" y="291.8" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="291.8" width="7" height="134.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="318.8" font-size="14.5" font-weight="700" fill="#1a3868">2. Kľúčové pojmy finančného prenájmu</text>
+<text x="107.0" y="342.8" font-size="13.0" fill="#374151">Dohodnuté platby sa delia na istinu a finančný</text>
+<text x="107.0" y="359.2" font-size="13.0" fill="#374151">náklad/výnos (úrok); istina = celkové platby mínus</text>
+<text x="107.0" y="375.8" font-size="13.0" fill="#374151">nerealizované finančné náklady; istina u nájomcu =</text>
+<text x="107.0" y="392.2" font-size="13.0" fill="#374151">istina u prenajímateľa. Členenie je v splátkovom</text>
+<text x="107.0" y="408.8" font-size="13.0" fill="#374151">kalendári a je základom celého účtovania.</text>
+<rect x="90.0" y="446.2" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="446.2" width="7" height="151.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="473.2" font-size="14.5" font-weight="700" fill="#1a3868">3. Odpisovanie pri finančnom prenájme (SR)</text>
+<text x="107.0" y="497.2" font-size="13.0" fill="#374151">Odpisuje nájomca (ekonomický vlastník) do výšky</text>
+<text x="107.0" y="513.8" font-size="13.0" fill="#374151">vstupnej ceny + náklady na obstaranie. Od 1.1.2015</text>
+<text x="107.0" y="530.2" font-size="13.0" fill="#374151">zrušená lízingová metóda – odpisuje sa štandardne</text>
+<text x="107.0" y="546.8" font-size="13.0" fill="#374151">rovnomerne (par.27) alebo zrýchlene (par.28) počas</text>
+<text x="107.0" y="563.2" font-size="13.0" fill="#374151">doby odpisovej skupiny. Daňová podmienka: doba nájmu</text>
+<text x="107.0" y="579.8" font-size="13.0" fill="#374151">min. 60 % doby odpisovania (par.2 s ZDP).</text>
+<rect x="90.0" y="617.2" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="617.2" width="7" height="153.5" rx="3.5" fill="#803594"/>
+<text x="107.0" y="644.2" font-size="14.5" font-weight="700" fill="#1a3868">4. Účtovanie finančného prenájmu u nájomcu</text>
+<text x="107.0" y="663.2" font-size="14.5" font-weight="700" fill="#1a3868">(SR)</text>
+<text x="107.0" y="687.2" font-size="13.0" fill="#374151">Pri prevzatí 042/474 v istine, zaradenie 022/042,</text>
+<text x="107.0" y="703.8" font-size="13.0" fill="#374151">odpis 551/082. Splátka sa delí: istina znižuje</text>
+<text x="107.0" y="720.2" font-size="13.0" fill="#374151">záväzok 474/221, úrok 562/474. Ku dňu závierky</text>
+<text x="107.0" y="736.8" font-size="13.0" fill="#374151">časové rozlíšenie úroku. Nájomca v nákladoch</text>
+<text x="107.0" y="753.2" font-size="13.0" fill="#374151">vykazuje ODPIS aj ÚROK, nie celé nájomné.</text>
+<rect x="810.0" y="70.0" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="810.0" y="70.0" width="7" height="170.0" rx="3.5" fill="#6a6eb3"/>
+<text x="827.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Účtovanie finančného prenájmu u</text>
+<text x="827.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">prenajímateľa (SR)</text>
+<text x="827.0" y="140.0" font-size="13.0" fill="#374151">Pri odovzdaní prenajímateľ vykáže istinu ako</text>
+<text x="827.0" y="156.5" font-size="13.0" fill="#374151">pohľadávku 374/výnos a vyradí majetok. Pri splátke</text>
+<text x="827.0" y="173.0" font-size="13.0" fill="#374151">finančný výnos 374/662 (úroky). Ku dňu závierky</text>
+<text x="827.0" y="189.5" font-size="13.0" fill="#374151">časové rozlíšenie výnosu (pri platbách vopred cez</text>
+<text x="827.0" y="206.0" font-size="13.0" fill="#374151">384). Kalendár delí platby na istinu a finančný</text>
+<text x="827.0" y="222.5" font-size="13.0" fill="#374151">výnos.</text>
+<rect x="810.0" y="260.0" width="380" height="167.5" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="260.0" width="7" height="167.5" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="287.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Vykazovanie finančného prenájmu (SR)</text>
+<text x="827.0" y="311.0" font-size="13.0" fill="#374151">Nájomca v súvahe: samostatné hnuteľné veci, oprávky</text>
+<text x="827.0" y="327.5" font-size="13.0" fill="#374151">a záväzok 474 členený na krátkodobú/dlhodobú časť;</text>
+<text x="827.0" y="344.0" font-size="13.0" fill="#374151">vo výsledovke odpisy + finančné náklady.</text>
+<text x="827.0" y="360.5" font-size="13.0" fill="#374151">Prenajímateľ: pohľadávka 374 (kr./dl. časť),</text>
+<text x="827.0" y="377.0" font-size="13.0" fill="#374151">finančné výnosy. Pri operatívnom prenájme majetok aj</text>
+<text x="827.0" y="393.5" font-size="13.0" fill="#374151">odpisy u prenajímateľa (602/315), nájomca len</text>
+<text x="827.0" y="410.0" font-size="13.0" fill="#374151">nájomné 518/325.</text>
+<rect x="810.0" y="447.5" width="380" height="167.5" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="447.5" width="7" height="167.5" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="474.5" font-size="14.5" font-weight="700" fill="#1a3868">7. Technické zhodnotenie u nájomcu (SR)</text>
+<text x="827.0" y="498.5" font-size="13.0" fill="#374151">TZ (par.29 ZDP) = nadstavby, rekonštrukcie,</text>
+<text x="827.0" y="515.0" font-size="13.0" fill="#374151">modernizácie nad 1 700 EUR za obdobie. Nájomca ho</text>
+<text x="827.0" y="531.5" font-size="13.0" fill="#374151">môže odpisovať, ak ho hradí sám a má písomný súhlas</text>
+<text x="827.0" y="548.0" font-size="13.0" fill="#374151">vlastníka; zaradí ho do odpisovej skupiny</text>
+<text x="827.0" y="564.5" font-size="13.0" fill="#374151">prenajatého majetku ako iný majetok. Posudzuje sa</text>
+<text x="827.0" y="581.0" font-size="13.0" fill="#374151">ako celok. Pri bezodplatnom prevzatí vlastníkovi mu</text>
+<text x="827.0" y="597.5" font-size="13.0" fill="#374151">vzniká nepeňažný príjem vo výške zostatkovej ceny.</text>
+<rect x="810.0" y="635.0" width="380" height="186.5" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="635.0" width="7" height="186.5" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="662.0" font-size="14.5" font-weight="700" fill="#1a3868">8. Predčasné ukončenie finančného prenájmu</text>
+<text x="827.0" y="681.0" font-size="14.5" font-weight="700" fill="#1a3868">(SR)</text>
+<text x="827.0" y="705.0" font-size="13.0" fill="#374151">Delí sa na ukončenie so zavinením nájomcu</text>
+<text x="827.0" y="721.5" font-size="13.0" fill="#374151">(odkúpenie, prevod zmluvy, konkurz) a bez zavinenia</text>
+<text x="827.0" y="738.0" font-size="13.0" fill="#374151">(totálna škoda, krádež). U nájomcu: doodpísanie</text>
+<text x="827.0" y="754.5" font-size="13.0" fill="#374151">zostatkovej ceny 551/08x, vyradenie 08x/majetok,</text>
+<text x="827.0" y="771.0" font-size="13.0" fill="#374151">vysporiadanie 474/325. U prenajímateľa: prevzatie</text>
+<text x="827.0" y="787.5" font-size="13.0" fill="#374151">majetku späť (majetok/325) a vysporiadanie</text>
+<text x="827.0" y="804.0" font-size="13.0" fill="#374151">pohľadávky 374.</text>
+</svg>

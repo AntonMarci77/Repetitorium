@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 933" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="933" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">BC II 09 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 481.8 C 420.0 481.8, 540.0 146.8, 470.0 146.8" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 481.8 C 420.0 481.8, 540.0 302.5, 470.0 302.5" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 481.8 C 420.0 481.8, 540.0 457.0, 470.0 457.0" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 481.8 C 420.0 481.8, 540.0 628.0, 470.0 628.0" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 481.8 C 420.0 481.8, 540.0 808.5, 470.0 808.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 481.8 C 860.0 481.8, 740.0 206.2, 810.0 206.2" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 481.8 C 860.0 481.8, 740.0 396.2, 810.0 396.2" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 481.8 C 860.0 481.8, 740.0 576.8, 810.0 576.8" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 481.8 C 860.0 481.8, 740.0 757.2, 810.0 757.2" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="396.8" width="300" height="170.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="429.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Účtovná závierka a</text>
+<text x="640.0" y="452.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">finančné výkazy</text>
+<text x="640.0" y="475.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">rozpočtových</text>
+<text x="640.0" y="498.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">organizácií,</text>
+<text x="640.0" y="521.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">príspevkových</text>
+<text x="640.0" y="544.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">organizácií a obcí</text>
+<rect x="90.0" y="70.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="153.5" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Individuálna účtovná závierka – pojem a</text>
+<text x="107.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">právny rámec</text>
+<text x="107.0" y="140.0" font-size="13.0" fill="#374151">Účtovná závierka RO, PO, štátnych fondov, obcí a VÚC</text>
+<text x="107.0" y="156.5" font-size="13.0" fill="#374151">podľa zák. 431/2002 a opatrenia MF/25755/2007-31 (v</text>
+<text x="107.0" y="173.0" font-size="13.0" fill="#374151">znení MF/13542/2023-36).</text>
+<text x="107.0" y="189.5" font-size="13.0" fill="#374151">Riadna/mimoriadna/priebežná, akruálne od r. 2008</text>
+<text x="107.0" y="206.0" font-size="13.0" fill="#374151">(ESA 2010, IPSAS), predkladá sa elektronicky do CKS.</text>
+<rect x="90.0" y="243.5" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="243.5" width="7" height="118.0" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="270.5" font-size="14.5" font-weight="700" fill="#1a3868">2. Tri súčasti účtovnej závierky</text>
+<text x="107.0" y="294.5" font-size="13.0" fill="#374151">Tri súčasti (3 S): súvaha Úč ROPO SFOV 1-01 (aktíva</text>
+<text x="107.0" y="311.0" font-size="13.0" fill="#374151">= pasíva), výkaz ziskov a strát Úč ROPO SFOV 2-01</text>
+<text x="107.0" y="327.5" font-size="13.0" fill="#374151">(trieda 5 a 6, VH), poznámky (textová + tabuľková</text>
+<text x="107.0" y="344.0" font-size="13.0" fill="#374151">časť). Výkaz peňažných tokov NIE je súčasťou.</text>
+<rect x="90.0" y="381.5" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="381.5" width="7" height="151.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="408.5" font-size="14.5" font-weight="700" fill="#1a3868">3. Osobitosti súvahy RO, PO a obcí</text>
+<text x="107.0" y="432.5" font-size="13.0" fill="#374151">Súvaha vychádza z rámcovej osnovy (triedy 0-9) so</text>
+<text x="107.0" y="449.0" font-size="13.0" fill="#374151">špecifikami: pohľadávky 318/319 u obcí, účty ŠP</text>
+<text x="107.0" y="465.5" font-size="13.0" fill="#374151">224/225, VH v skupine 43 (431), zúčtovanie medzi</text>
+<text x="107.0" y="482.0" font-size="13.0" fill="#374151">subjektmi VS (skupina 35) a najmä výnosy budúcich</text>
+<text x="107.0" y="498.5" font-size="13.0" fill="#374151">období 384 (nerozpustené kapitálové transfery</text>
+<text x="107.0" y="515.0" font-size="13.0" fill="#374151">rozpúšťané vo výške odpisov).</text>
+<rect x="90.0" y="552.5" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="552.5" width="7" height="151.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="579.5" font-size="14.5" font-weight="700" fill="#1a3868">4. Osobitosti výkazu ziskov a strát</text>
+<text x="107.0" y="603.5" font-size="13.0" fill="#374151">VZaS má skupinu 58 (náklady na transfery a odvod</text>
+<text x="107.0" y="620.0" font-size="13.0" fill="#374151">príjmov, napr. 588, 584, 585) a výnosy z transferov</text>
+<text x="107.0" y="636.5" font-size="13.0" fill="#374151">(skupina 68 u štátu: 681-684; skupina 69 u</text>
+<text x="107.0" y="653.0" font-size="13.0" fill="#374151">samosprávy: 691-694, daňové výnosy 632). U RO je VH</text>
+<text x="107.0" y="669.5" font-size="13.0" fill="#374151">spravidla blízky nule (rozpočtovo neutrálne); PO</text>
+<text x="107.0" y="686.0" font-size="13.0" fill="#374151">môže vykázať zisk aj stratu.</text>
+<rect x="90.0" y="723.5" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="723.5" width="7" height="170.0" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="750.5" font-size="14.5" font-weight="700" fill="#1a3868">5. Konsolidovaná účtovná závierka a</text>
+<text x="107.0" y="769.5" font-size="14.5" font-weight="700" fill="#1a3868">predkladanie</text>
+<text x="107.0" y="793.5" font-size="13.0" fill="#374151">Obce a VÚC zostavujú aj konsolidovanú závierku za</text>
+<text x="107.0" y="810.0" font-size="13.0" fill="#374151">konsolidovaný celok (obec + jej RO/PO + kontrolované</text>
+<text x="107.0" y="826.5" font-size="13.0" fill="#374151">obchodné spoločnosti) s elimináciou vzájomných</text>
+<text x="107.0" y="843.0" font-size="13.0" fill="#374151">vzťahov. Súhrnná závierka za ústrednú správu a celú</text>
+<text x="107.0" y="859.5" font-size="13.0" fill="#374151">VS. Predkladá sa do CKS, ukladá do registra</text>
+<text x="107.0" y="876.0" font-size="13.0" fill="#374151">závierok.</text>
+<rect x="810.0" y="121.2" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="121.2" width="7" height="170.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="148.2" font-size="14.5" font-weight="700" fill="#1a3868">6. Rozpočtová klasifikácia – štyri hľadiská</text>
+<text x="827.0" y="167.2" font-size="14.5" font-weight="700" fill="#1a3868">(DEFO)</text>
+<text x="827.0" y="191.2" font-size="13.0" fill="#374151">Rozpočtová klasifikácia DEFO: Druhová (aký tok -</text>
+<text x="827.0" y="207.8" font-size="13.0" fill="#374151">príjem/výdavok/finančná operácia), Ekonomická (na čo</text>
+<text x="827.0" y="224.2" font-size="13.0" fill="#374151">- 610 mzdy, 630 tovary a služby, 710 kapitálové</text>
+<text x="827.0" y="240.8" font-size="13.0" fill="#374151">aktíva), Funkčná/COFOG (na akú oblasť - 09</text>
+<text x="827.0" y="257.2" font-size="13.0" fill="#374151">vzdelávanie), Organizačná (kto spravuje). Opatrenie</text>
+<text x="827.0" y="273.8" font-size="13.0" fill="#374151">MF/010175/2004-42, COFOG vyhláška ŠÚ SR 257/2014.</text>
+<rect x="810.0" y="311.2" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="311.2" width="7" height="170.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="338.2" font-size="14.5" font-weight="700" fill="#1a3868">7. Význam rozpočtovej klasifikácie a väzba na</text>
+<text x="827.0" y="357.2" font-size="14.5" font-weight="700" fill="#1a3868">účtovníctvo</text>
+<text x="827.0" y="381.2" font-size="13.0" fill="#374151">Klasifikácia umožní jednotne zostaviť a schváliť</text>
+<text x="827.0" y="397.8" font-size="13.0" fill="#374151">rozpočet, sledovať jeho plnenie a porovnávať v čase</text>
+<text x="827.0" y="414.2" font-size="13.0" fill="#374151">aj medzinárodne (COFOG = štandard OSN/Eurostatu).</text>
+<text x="827.0" y="430.8" font-size="13.0" fill="#374151">Podľa nej sa členia údaje vo FIN 1-12; každý</text>
+<text x="827.0" y="447.2" font-size="13.0" fill="#374151">príjem/výdavok dostane rozpočtovú adresu (položka +</text>
+<text x="827.0" y="463.8" font-size="13.0" fill="#374151">oblasť + zdroj).</text>
+<rect x="810.0" y="501.2" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="501.2" width="7" height="151.0" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="528.2" font-size="14.5" font-weight="700" fill="#1a3868">8. Finančné výkazy FIN 1-12 až FIN 6-04</text>
+<text x="827.0" y="552.2" font-size="13.0" fill="#374151">Finančné výkazy FIN 1-12 až 6-04 (opatrenie</text>
+<text x="827.0" y="568.8" font-size="13.0" fill="#374151">MF/017353/2017-352). FIN 1-12 = rozpočtový výkaz</text>
+<text x="827.0" y="585.2" font-size="13.0" fill="#374151">(hotovostné príjmy, výdavky, finančné operácie;</text>
+<text x="827.0" y="601.8" font-size="13.0" fill="#374151">schválený/upravený rozpočet a skutočnosť) - podklad</text>
+<text x="827.0" y="618.2" font-size="13.0" fill="#374151">rozpočtového prebytku/schodku. FIN 5-04 =</text>
+<text x="827.0" y="634.8" font-size="13.0" fill="#374151">maastrichtský dlh. Vykazujú sa kumulatívne, do CKS.</text>
+<rect x="810.0" y="672.2" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="672.2" width="7" height="170.0" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="699.2" font-size="14.5" font-weight="700" fill="#1a3868">9. Vzťah finančných výkazov k rozpočtu a k</text>
+<text x="827.0" y="718.2" font-size="14.5" font-weight="700" fill="#1a3868">závierke</text>
+<text x="827.0" y="742.2" font-size="13.0" fill="#374151">FIN sú rozpočtovo-hotovostné (reálny pohyb peňazí</text>
+<text x="827.0" y="758.8" font-size="13.0" fill="#374151">proti rozpočtu), závierka je akruálna. FIN 1-12 je</text>
+<text x="827.0" y="775.2" font-size="13.0" fill="#374151">most k rozpočtu → záverečný účet (overuje hl.</text>
+<text x="827.0" y="791.8" font-size="13.0" fill="#374151">kontrolór a audítor). Účtovný VH ≠ rozpočtový</text>
+<text x="827.0" y="808.2" font-size="13.0" fill="#374151">prebytok/schodok, lebo VH zahŕňa nepeňažné javy</text>
+<text x="827.0" y="824.8" font-size="13.0" fill="#374151">(odpisy, OP, rezervy, časové rozlíšenie transferov).</text>
+</svg>

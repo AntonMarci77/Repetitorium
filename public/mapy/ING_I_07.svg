@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 715" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="715" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING I 07 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 372.8 C 420.0 372.8, 540.0 138.5, 470.0 138.5" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 372.8 C 420.0 372.8, 540.0 303.8, 470.0 303.8" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 372.8 C 420.0 372.8, 540.0 459.5, 470.0 459.5" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 372.8 C 420.0 372.8, 540.0 607.0, 470.0 607.0" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 372.8 C 860.0 372.8, 740.0 207.5, 810.0 207.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 372.8 C 860.0 372.8, 740.0 355.0, 810.0 355.0" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 372.8 C 860.0 372.8, 740.0 520.2, 810.0 520.2" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="299.2" width="300" height="147.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="332.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Akvizičná metóda</text>
+<text x="640.0" y="355.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">účtovania podľa IFRS a</text>
+<text x="640.0" y="378.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">jej uplatnenie v</text>
+<text x="640.0" y="401.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">konsolidovanej účtovnej</text>
+<text x="640.0" y="424.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">závierke</text>
+<rect x="90.0" y="70.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="137.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Identifikácia podnikovej kombinácie a</text>
+<text x="107.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">spôsoby jej vzniku</text>
+<text x="107.0" y="140.0" font-size="13.0" fill="#374151">Najprv overiť, či ide o PODNIK (vstupy + procesy =</text>
+<text x="107.0" y="156.5" font-size="13.0" fill="#374151">výstupy); ak nie, je to len nákup aktív podľa</text>
+<text x="107.0" y="173.0" font-size="13.0" fill="#374151">relatívnych RH a goodwill NEvzniká. Kombinácia môže</text>
+<text x="107.0" y="189.5" font-size="13.0" fill="#374151">nastať aj bez prevodu protihodnoty.</text>
+<rect x="90.0" y="227.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="227.0" width="7" height="153.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="254.0" font-size="14.5" font-weight="700" fill="#1a3868">2. Podstata akvizičnej metódy a jej štyri</text>
+<text x="107.0" y="273.0" font-size="14.5" font-weight="700" fill="#1a3868">kroky</text>
+<text x="107.0" y="297.0" font-size="13.0" fill="#374151">Pozeráme sa očami nadobúdateľa, aktíva/záväzky v RH</text>
+<text x="107.0" y="313.5" font-size="13.0" fill="#374151">k dňu akvizície. Štyri kroky: nadobúdateľ → deň</text>
+<text x="107.0" y="330.0" font-size="13.0" fill="#374151">akvizície → RH aktív/záväzkov/NCI → goodwill/zisk z</text>
+<text x="107.0" y="346.5" font-size="13.0" fill="#374151">výhodnej kúpy. Akvizičné náklady idú do nákladov</text>
+<text x="107.0" y="363.0" font-size="13.0" fill="#374151">obdobia.</text>
+<rect x="90.0" y="400.5" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="400.5" width="7" height="118.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="427.5" font-size="14.5" font-weight="700" fill="#1a3868">3. Krok 1 a 2: nadobúdateľ a deň akvizície</text>
+<text x="107.0" y="451.5" font-size="13.0" fill="#374151">Nadobúdateľ = ten, kto získa ovládanie (IFRS 10):</text>
+<text x="107.0" y="468.0" font-size="13.0" fill="#374151">pri hotovosti platiteľ, pri výmene podielov</text>
+<text x="107.0" y="484.5" font-size="13.0" fill="#374151">vydavateľ (pozor spätná akvizícia). Deň akvizície =</text>
+<text x="107.0" y="501.0" font-size="13.0" fill="#374151">deň získania kontroly, spravidla closing date.</text>
+<rect x="90.0" y="538.5" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="538.5" width="7" height="137.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="565.5" font-size="14.5" font-weight="700" fill="#1a3868">4. Krok 3a: vykázanie a ocenenie aktív a</text>
+<text x="107.0" y="584.5" font-size="14.5" font-weight="700" fill="#1a3868">záväzkov</text>
+<text x="107.0" y="608.5" font-size="13.0" fill="#374151">Identifikovateľné aktíva/záväzky sa vykážu ODDELENE</text>
+<text x="107.0" y="625.0" font-size="13.0" fill="#374151">od goodwillu v RH (IFRS 13) – aj tie, čo cieľ nemal</text>
+<text x="107.0" y="641.5" font-size="13.0" fill="#374151">(interné nehmotné aktíva). Výnimky: podmienené</text>
+<text x="107.0" y="658.0" font-size="13.0" fill="#374151">záväzky, IAS 12, IAS 19, IFRS 2/5.</text>
+<rect x="810.0" y="148.5" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="810.0" y="148.5" width="7" height="118.0" rx="3.5" fill="#6a6eb3"/>
+<text x="827.0" y="175.5" font-size="14.5" font-weight="700" fill="#1a3868">5. Krok 3b: nekontrolujúci podiel (NCI / NP)</text>
+<text x="827.0" y="199.5" font-size="13.0" fill="#374151">NCI = časť VI dcéry mimo materskej. VOĽBA pri každej</text>
+<text x="827.0" y="216.0" font-size="13.0" fill="#374151">kombinácii: RH = plný goodwill, alebo pomerný podiel</text>
+<text x="827.0" y="232.5" font-size="13.0" fill="#374151">na RH čistých aktív = čiastočný goodwill. NCI vo VI</text>
+<text x="827.0" y="249.0" font-size="13.0" fill="#374151">oddelene; môže byť záporný.</text>
+<rect x="810.0" y="286.5" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="286.5" width="7" height="137.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="313.5" font-size="14.5" font-weight="700" fill="#1a3868">6. Krok 4: goodwill alebo zisk z výhodnej</text>
+<text x="827.0" y="332.5" font-size="14.5" font-weight="700" fill="#1a3868">kúpy</text>
+<text x="827.0" y="356.5" font-size="13.0" fill="#374151">Goodwill = (protihodnota v RH + NCI + RH predtým</text>
+<text x="827.0" y="373.0" font-size="13.0" fill="#374151">držaného podielu) − RH čistých identifikovateľných</text>
+<text x="827.0" y="389.5" font-size="13.0" fill="#374151">aktív. Záporný výsledok = výhodná kúpa: po POVINNOM</text>
+<text x="827.0" y="406.0" font-size="13.0" fill="#374151">prehodnotení sa vykáže ako zisk vo VH.</text>
+<rect x="810.0" y="443.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="443.5" width="7" height="153.5" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="470.5" font-size="14.5" font-weight="700" fill="#1a3868">7. Uplatnenie pri KÚZ a následný test</text>
+<text x="827.0" y="489.5" font-size="14.5" font-weight="700" fill="#1a3868">goodwillu (IAS 36)</text>
+<text x="827.0" y="513.5" font-size="13.0" fill="#374151">Pri prvej konsolidácii kapitálu sa eliminuje</text>
+<text x="827.0" y="530.0" font-size="13.0" fill="#374151">investícia materskej proti VI dcéry (precenenom na</text>
+<text x="827.0" y="546.5" font-size="13.0" fill="#374151">RH); rozdiel = goodwill/zisk z výhodnej kúpy.</text>
+<text x="827.0" y="563.0" font-size="13.0" fill="#374151">Goodwill sa NEODPISUJE, len testuje (IAS 36) na CGU;</text>
+<text x="827.0" y="579.5" font-size="13.0" fill="#374151">zníženie sa nereverzuje.</text>
+</svg>

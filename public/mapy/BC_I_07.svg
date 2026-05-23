@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 801" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="801" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">BC I 07 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 415.8 C 420.0 415.8, 540.0 138.5, 470.0 138.5" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 415.8 C 420.0 415.8, 540.0 295.5, 470.0 295.5" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 415.8 C 420.0 415.8, 540.0 443.0, 470.0 443.0" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 415.8 C 420.0 415.8, 540.0 581.0, 470.0 581.0" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 415.8 C 420.0 415.8, 540.0 710.8, 470.0 710.8" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 415.8 C 860.0 415.8, 740.0 130.2, 810.0 130.2" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 415.8 C 860.0 415.8, 740.0 260.0, 810.0 260.0" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 415.8 C 860.0 415.8, 740.0 398.0, 810.0 398.0" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 415.8 C 860.0 415.8, 740.0 545.5, 810.0 545.5" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 415.8 C 860.0 415.8, 740.0 693.0, 810.0 693.0" stroke="#7c3aed" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="376.8" width="300" height="78.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="409.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Manažérske a nákladové</text>
+<text x="640.0" y="432.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">účtovníctvo</text>
+<rect x="90.0" y="70.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="137.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Finančné, nákladové a manažérske</text>
+<text x="107.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">účtovníctvo</text>
+<text x="107.0" y="140.0" font-size="13.0" fill="#374151">Finančné účtovníctvo = navonok, povinné, druhové,</text>
+<text x="107.0" y="156.5" font-size="13.0" fill="#374151">celok; manažérske = dovnútra, dobrovoľné, do</text>
+<text x="107.0" y="173.0" font-size="13.0" fill="#374151">budúcnosti. Manažérske = nákladové + rozhodovanie +</text>
+<text x="107.0" y="189.5" font-size="13.0" fill="#374151">controlling.</text>
+<rect x="90.0" y="227.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="227.0" width="7" height="137.0" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="254.0" font-size="14.5" font-weight="700" fill="#1a3868">2. Funkcie, ciele a využitie pri zisťovaní</text>
+<text x="107.0" y="273.0" font-size="14.5" font-weight="700" fill="#1a3868">vlastných nákladov</text>
+<text x="107.0" y="297.0" font-size="13.0" fill="#374151">Funkcia: informácie pre rozhodovanie, plánovanie,</text>
+<text x="107.0" y="313.5" font-size="13.0" fill="#374151">kontrolu a motiváciu. Kľúčový výstup = vlastné</text>
+<text x="107.0" y="330.0" font-size="13.0" fill="#374151">náklady kalkulačnej jednotky (tvorba cien,</text>
+<text x="107.0" y="346.5" font-size="13.0" fill="#374151">robiť/kúpiť, ocenenie zásob).</text>
+<rect x="90.0" y="384.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="384.0" width="7" height="118.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="411.0" font-size="14.5" font-weight="700" fill="#1a3868">3. Tri poňatia (koncepcie) nákladov</text>
+<text x="107.0" y="435.0" font-size="13.0" fill="#374151">Tri sústredné kruhy: finančné (účtovne doložené)</text>
+<text x="107.0" y="451.5" font-size="13.0" fill="#374151">podmnožina hodnotové (+ kalkulačné náklady)</text>
+<text x="107.0" y="468.0" font-size="13.0" fill="#374151">podmnožina manažérske/ekonomické (+ oportunitné</text>
+<text x="107.0" y="484.5" font-size="13.0" fill="#374151">náklady).</text>
+<rect x="90.0" y="522.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="522.0" width="7" height="118.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="549.0" font-size="14.5" font-weight="700" fill="#1a3868">4. Kalkulačné náklady (hodnotové poňatie)</text>
+<text x="107.0" y="573.0" font-size="13.0" fill="#374151">Kalkulačné náklady (hodnotové poňatie), líšia sa od</text>
+<text x="107.0" y="589.5" font-size="13.0" fill="#374151">účtovných. O-Ú-R-M: Odpisy (reálne opotrebenie),</text>
+<text x="107.0" y="606.0" font-size="13.0" fill="#374151">Úroky (aj z vlastného kapitálu), Riziko (rezerva),</text>
+<text x="107.0" y="622.5" font-size="13.0" fill="#374151">podnikateľská Mzda.</text>
+<rect x="90.0" y="660.0" width="380" height="101.5" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="660.0" width="7" height="101.5" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="687.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Oportunitné a relevantné náklady</text>
+<text x="107.0" y="711.0" font-size="13.0" fill="#374151">Oportunitný náklad = ušlý prospech z nezvolenej</text>
+<text x="107.0" y="727.5" font-size="13.0" fill="#374151">alternatívy (neúčtuje sa). Relevantné = budúce a</text>
+<text x="107.0" y="744.0" font-size="13.0" fill="#374151">odlišné; utopené (sunk) náklady ignoruj.</text>
+<rect x="810.0" y="79.5" width="380" height="101.5" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="79.5" width="7" height="101.5" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="106.5" font-size="14.5" font-weight="700" fill="#1a3868">6. Členenie nákladov podľa druhu (druhové)</text>
+<text x="827.0" y="130.5" font-size="13.0" fill="#374151">Druhové = ČO sa spotrebovalo (materiál, mzdy,</text>
+<text x="827.0" y="147.0" font-size="13.0" fill="#374151">odpisy, úroky); prvotné členenie finančného</text>
+<text x="827.0" y="163.5" font-size="13.0" fill="#374151">účtovníctva (trieda 5). Nehovorí na čo a kde.</text>
+<rect x="810.0" y="201.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="201.0" width="7" height="118.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="228.0" font-size="14.5" font-weight="700" fill="#1a3868">7. Členenie nákladov podľa účelu (účelové)</text>
+<text x="827.0" y="252.0" font-size="13.0" fill="#374151">Účelové = NA ČO/KDE: priame (jednicové) vs. nepriame</text>
+<text x="827.0" y="268.5" font-size="13.0" fill="#374151">(réžia); strediská</text>
+<text x="827.0" y="285.0" font-size="13.0" fill="#374151">zásobovacie/výrobné/správne/odbytové; technologické</text>
+<text x="827.0" y="301.5" font-size="13.0" fill="#374151">vs. na obsluhu a riadenie. Základ kalkulácií.</text>
+<rect x="810.0" y="339.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="339.0" width="7" height="118.0" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="366.0" font-size="14.5" font-weight="700" fill="#1a3868">8. Členenie podľa závislosti od objemu výroby</text>
+<text x="827.0" y="390.0" font-size="13.0" fill="#374151">Podľa objemu: fixné (v rámci kapacity nemenné, na</text>
+<text x="827.0" y="406.5" font-size="13.0" fill="#374151">jednotku klesajú = degresia) a variabilné</text>
+<text x="827.0" y="423.0" font-size="13.0" fill="#374151">(proporcionálne/progresívne/degresívne/regresívne);</text>
+<text x="827.0" y="439.5" font-size="13.0" fill="#374151">zmiešané. Základ bodu zvratu.</text>
+<rect x="810.0" y="477.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="477.0" width="7" height="137.0" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="504.0" font-size="14.5" font-weight="700" fill="#1a3868">9. Miesto vzniku nákladov vs. stredisko</text>
+<text x="827.0" y="523.0" font-size="14.5" font-weight="700" fill="#1a3868">zodpovednosti</text>
+<text x="827.0" y="547.0" font-size="13.0" fill="#374151">Miesto vzniku = KDE náklad fyzicky vznikol;</text>
+<text x="827.0" y="563.5" font-size="13.0" fill="#374151">stredisko zodpovednosti = KTO zaň zodpovedá. Nemusia</text>
+<text x="827.0" y="580.0" font-size="13.0" fill="#374151">sa kryť (zmätky vznikajú vo výrobe, zodpovedá</text>
+<text x="827.0" y="596.5" font-size="13.0" fill="#374151">zásobovanie).</text>
+<rect x="810.0" y="634.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#7c3aed" stroke-width="2.5"/>
+<rect x="810.0" y="634.0" width="7" height="118.0" rx="3.5" fill="#7c3aed"/>
+<text x="827.0" y="661.0" font-size="14.5" font-weight="700" fill="#1a3868">10. Vnútropodnikové (vopred stanovené) ceny</text>
+<text x="827.0" y="685.0" font-size="13.0" fill="#374151">Vnútropodniková cena oceňuje výkony medzi</text>
+<text x="827.0" y="701.5" font-size="13.0" fill="#374151">strediskami; odchýlka adresuje zodpovednosť.</text>
+<text x="827.0" y="718.0" font-size="13.0" fill="#374151">Nákladová = kontrola, so ziskom = motivácia. Par. 6:</text>
+<text x="827.0" y="734.5" font-size="13.0" fill="#374151">jedno-/dvojokruhovo (59/69, triedy 8 a 9).</text>
+</svg>

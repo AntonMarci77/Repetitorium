@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 749" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="749" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING I 02 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 389.8 C 420.0 389.8, 540.0 120.8, 470.0 120.8" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 389.8 C 420.0 389.8, 540.0 242.2, 470.0 242.2" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 389.8 C 420.0 389.8, 540.0 363.8, 470.0 363.8" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 389.8 C 420.0 389.8, 540.0 503.0, 470.0 503.0" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 389.8 C 420.0 389.8, 540.0 650.5, 470.0 650.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 389.8 C 860.0 389.8, 740.0 199.2, 810.0 199.2" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 389.8 C 860.0 389.8, 740.0 338.5, 810.0 338.5" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 389.8 C 860.0 389.8, 740.0 468.2, 810.0 468.2" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 389.8 C 860.0 389.8, 740.0 589.8, 810.0 589.8" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="350.8" width="300" height="78.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="383.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Splatná a odložená daň z</text>
+<text x="640.0" y="406.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">príjmov</text>
+<rect x="90.0" y="70.0" width="380" height="101.5" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="101.5" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Splatná daň z príjmov – podstata</text>
+<text x="107.0" y="121.0" font-size="13.0" fill="#374151">Splatná daň = daň za bežné obdobie zo základu dane</text>
+<text x="107.0" y="137.5" font-size="13.0" fill="#374151">(nie z účtovného zisku), účtuje 591/341; ZD u PO sa</text>
+<text x="107.0" y="154.0" font-size="13.0" fill="#374151">zisťuje z VH pred zdanením (r. 100).</text>
+<rect x="90.0" y="191.5" width="380" height="101.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="191.5" width="7" height="101.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="218.5" font-size="14.5" font-weight="700" fill="#1a3868">2. Transformácia VH na základ dane</text>
+<text x="107.0" y="242.5" font-size="13.0" fill="#374151">VH pred zdanením + pripočítateľné − odpočítateľné =</text>
+<text x="107.0" y="259.0" font-size="13.0" fill="#374151">ZD; kľúč je odlíšiť trvalý rozdiel (nikdy sa</text>
+<text x="107.0" y="275.5" font-size="13.0" fill="#374151">nevyrovná) od dočasného (vyvolá odloženú daň).</text>
+<rect x="90.0" y="313.0" width="380" height="101.5" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="313.0" width="7" height="101.5" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="340.0" font-size="14.5" font-weight="700" fill="#1a3868">3. Odložená daň – podstata a dôvod vzniku</text>
+<text x="107.0" y="364.0" font-size="13.0" fill="#374151">Odložená daň napĺňa akruál a opatrnosť; vzniká z</text>
+<text x="107.0" y="380.5" font-size="13.0" fill="#374151">dočasných rozdielov. Trvalé rozdiely (pokuta,</text>
+<text x="107.0" y="397.0" font-size="13.0" fill="#374151">oslobodená dividenda) odloženú daň NEVYVOLÁVAJÚ.</text>
+<rect x="90.0" y="434.5" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="434.5" width="7" height="137.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="461.5" font-size="14.5" font-weight="700" fill="#1a3868">4. Záväzková súvahová metóda a daňová</text>
+<text x="107.0" y="480.5" font-size="14.5" font-weight="700" fill="#1a3868">základňa</text>
+<text x="107.0" y="504.5" font-size="13.0" fill="#374151">Záväzková súvahová metóda: dočasný rozdiel = ÚH</text>
+<text x="107.0" y="521.0" font-size="13.0" fill="#374151">(súvaha netto) − daňová základňa, násobí sa BUDÚCOU</text>
+<text x="107.0" y="537.5" font-size="13.0" fill="#374151">sadzbou; pri zmene sadzby sa prepočíta. NEdiskontuje</text>
+<text x="107.0" y="554.0" font-size="13.0" fill="#374151">sa.</text>
+<rect x="90.0" y="591.5" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="591.5" width="7" height="118.0" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="618.5" font-size="14.5" font-weight="700" fill="#1a3868">5. Smer rozdielu: záväzok vs. pohľadávka</text>
+<text x="107.0" y="642.5" font-size="13.0" fill="#374151">ÚH aktíva &gt; daňová základňa = zdaniteľný rozdiel →</text>
+<text x="107.0" y="659.0" font-size="13.0" fill="#374151">odložený ZÁVÄZOK (592/481); ÚH aktíva &lt; daňová</text>
+<text x="107.0" y="675.5" font-size="13.0" fill="#374151">základňa = odpočítateľný → POHĽADÁVKA (481/592, len</text>
+<text x="107.0" y="692.0" font-size="13.0" fill="#374151">ak bude dosť ZD).</text>
+<rect x="810.0" y="139.0" width="380" height="120.5" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="139.0" width="7" height="120.5" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="166.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Postup zisťovania a účtovanie odloženej</text>
+<text x="827.0" y="185.0" font-size="14.5" font-weight="700" fill="#1a3868">dane</text>
+<text x="827.0" y="209.0" font-size="13.0" fill="#374151">Päť krokov; účtuje sa ZMENA stavu tak, aby zostatok</text>
+<text x="827.0" y="225.5" font-size="13.0" fill="#374151">481 sedel ku dňu závierky. Záväzok 592/481,</text>
+<text x="827.0" y="242.0" font-size="13.0" fill="#374151">pohľadávka 481/592; ak z VI, súvzťažne 414/428/429.</text>
+<rect x="810.0" y="279.5" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="279.5" width="7" height="118.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="306.5" font-size="14.5" font-weight="700" fill="#1a3868">7. Vykazovanie v účtovnej závierke</text>
+<text x="827.0" y="330.5" font-size="13.0" fill="#374151">Súvaha: pohľadávka v dlhodobých pohľadávkach,</text>
+<text x="827.0" y="347.0" font-size="13.0" fill="#374151">záväzok v dlhodobých záväzkoch; pri tom istom DÚ</text>
+<text x="827.0" y="363.5" font-size="13.0" fill="#374151">možno saldo 481. Neúčtuje sa o odloženej dani z</text>
+<text x="827.0" y="380.0" font-size="13.0" fill="#374151">goodwillu.</text>
+<rect x="810.0" y="417.5" width="380" height="101.5" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="417.5" width="7" height="101.5" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="444.5" font-size="14.5" font-weight="700" fill="#1a3868">8. Základné konštrukčné prvky dane a daň PO</text>
+<text x="827.0" y="468.5" font-size="13.0" fill="#374151">Sadzby DPPO: 10 % (príjmy do 100 000), 21 %, 24 %</text>
+<text x="827.0" y="485.0" font-size="13.0" fill="#374151">(nad 5 mil.) podľa PRÍJMOV. Daňová strata § 30 (5</text>
+<text x="827.0" y="501.5" font-size="13.0" fill="#374151">období, 50 % ZD). Minimálna daň § 46b.</text>
+<rect x="810.0" y="539.0" width="380" height="101.5" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="539.0" width="7" height="101.5" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="566.0" font-size="14.5" font-weight="700" fill="#1a3868">9. Závislé osoby, dividendy a zrážková daň</text>
+<text x="827.0" y="590.0" font-size="13.0" fill="#374151">Závislé osoby = arm's length (§ 17/5, § 18, medián,</text>
+<text x="827.0" y="606.5" font-size="13.0" fill="#374151">OECD). Dividenda u PO mimo predmetu (trvalý</text>
+<text x="827.0" y="623.0" font-size="13.0" fill="#374151">rozdiel), u FO zrážka 7 % zo zisku 2025.</text>
+</svg>

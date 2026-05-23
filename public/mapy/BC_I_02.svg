@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 781" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="781" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">BC I 02 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 405.8 C 420.0 405.8, 540.0 137.2, 470.0 137.2" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 405.8 C 420.0 405.8, 540.0 301.2, 470.0 301.2" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 405.8 C 420.0 405.8, 540.0 474.8, 470.0 474.8" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 405.8 C 420.0 405.8, 540.0 656.5, 470.0 656.5" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 405.8 C 860.0 405.8, 740.0 155.0, 810.0 155.0" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 405.8 C 860.0 405.8, 740.0 317.8, 810.0 317.8" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 405.8 C 860.0 405.8, 740.0 481.8, 810.0 481.8" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 405.8 C 860.0 405.8, 740.0 655.2, 810.0 655.2" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="366.8" width="300" height="78.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="399.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Vymedzenie základných</text>
+<text x="640.0" y="422.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">účtovných kategórií</text>
+<rect x="90.0" y="70.0" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="134.5" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Majetok a aktíva (§ 2 ods. 4 písm. a, i)</text>
+<text x="107.0" y="121.0" font-size="13.0" fill="#374151">Aktíva (širší pojem) = ekonomické prostriedky z</text>
+<text x="107.0" y="137.5" font-size="13.0" fill="#374151">minulých udalostí s budúcim úžitkom; majetok = časť</text>
+<text x="107.0" y="154.0" font-size="13.0" fill="#374151">aktív s takmer istým úžitkom, spoľahlivo oceniteľná,</text>
+<text x="107.0" y="170.5" font-size="13.0" fill="#374151">účtovaná na účtoch. Iné aktíva len v poznámkach.</text>
+<text x="107.0" y="187.0" font-size="13.0" fill="#374151">Členenie: neobežný vs. obežný.</text>
+<rect x="90.0" y="224.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="224.5" width="7" height="153.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="251.5" font-size="14.5" font-weight="700" fill="#1a3868">2. Záväzky a pasíva (§ 2 ods. 4 písm. b, k,</text>
+<text x="107.0" y="270.5" font-size="14.5" font-weight="700" fill="#1a3868">l)</text>
+<text x="107.0" y="294.5" font-size="13.0" fill="#374151">Záväzok = existujúca povinnosť z minulých udalostí,</text>
+<text x="107.0" y="311.0" font-size="13.0" fill="#374151">pravdepodobne zníži úžitky, spoľahlivo oceniteľná.</text>
+<text x="107.0" y="327.5" font-size="13.0" fill="#374151">Pasíva = zdroje = VI (vlastné) + cudzie zdroje</text>
+<text x="107.0" y="344.0" font-size="13.0" fill="#374151">(záväzky vrátane rezerv). Neistá suma/termín záväzku</text>
+<text x="107.0" y="360.5" font-size="13.0" fill="#374151">= rezerva.</text>
+<rect x="90.0" y="398.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="398.0" width="7" height="153.5" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="425.0" font-size="14.5" font-weight="700" fill="#1a3868">3. Vlastné imanie (rozdiel majetku a</text>
+<text x="107.0" y="444.0" font-size="14.5" font-weight="700" fill="#1a3868">záväzkov)</text>
+<text x="107.0" y="468.0" font-size="13.0" fill="#374151">VI zákon nedefinuje, používa rozdiel majetku a</text>
+<text x="107.0" y="484.5" font-size="13.0" fill="#374151">záväzkov: VI = Majetok - Záväzky. Trieda 4: ZI (411;</text>
+<text x="107.0" y="501.0" font-size="13.0" fill="#374151">min. 5 000 sro, 25 000 as), kap. fondy, ZRF (421; 10</text>
+<text x="107.0" y="517.5" font-size="13.0" fill="#374151">% sro, 20 % as), VH minulých rokov (428/429) a bežný</text>
+<text x="107.0" y="534.0" font-size="13.0" fill="#374151">(431). Záporné VI = signál krízy.</text>
+<rect x="90.0" y="571.5" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="571.5" width="7" height="170.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="598.5" font-size="14.5" font-weight="700" fill="#1a3868">4. Rezervy (§ 26 ods. 5 zákona, § 19</text>
+<text x="107.0" y="617.5" font-size="14.5" font-weight="700" fill="#1a3868">Postupov)</text>
+<text x="107.0" y="641.5" font-size="13.0" fill="#374151">Rezerva (§ 26 ods. 5) = záväzok s neistým</text>
+<text x="107.0" y="658.0" font-size="13.0" fill="#374151">časom/výškou, tvorba zo zásady opatrnosti, ocenenie</text>
+<text x="107.0" y="674.5" font-size="13.0" fill="#374151">odhadom. Tvorba na ťarchu nákladu / v prospech</text>
+<text x="107.0" y="691.0" font-size="13.0" fill="#374151">rezerv (323 krátkodobé, 451/459 dlhodobé), použitie</text>
+<text x="107.0" y="707.5" font-size="13.0" fill="#374151">cez záväzok. Nezamieňať s OP (znižuje majetok) ani</text>
+<text x="107.0" y="724.0" font-size="13.0" fill="#374151">dohadnou (388/389).</text>
+<rect x="810.0" y="79.5" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="810.0" y="79.5" width="7" height="151.0" rx="3.5" fill="#6a6eb3"/>
+<text x="827.0" y="106.5" font-size="14.5" font-weight="700" fill="#1a3868">5. Oceňovanie kategórií (§ 25 zákona)</text>
+<text x="827.0" y="130.5" font-size="13.0" fill="#374151">§ 25: kúpa = obstarávacia cena, vlastná výroba =</text>
+<text x="827.0" y="147.0" font-size="13.0" fill="#374151">vlastné náklady, peniaze/pohľadávky/záväzky =</text>
+<text x="827.0" y="163.5" font-size="13.0" fill="#374151">menovitá hodnota, dar a vybrané položky = reálna</text>
+<text x="827.0" y="180.0" font-size="13.0" fill="#374151">hodnota (§ 27). Rezervy a OP odhadom. Ku dňu</text>
+<text x="827.0" y="196.5" font-size="13.0" fill="#374151">závierky povinná úprava OP a tvorba rezerv (§ 26</text>
+<text x="827.0" y="213.0" font-size="13.0" fill="#374151">ods. 3).</text>
+<rect x="810.0" y="250.5" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="250.5" width="7" height="134.5" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="277.5" font-size="14.5" font-weight="700" fill="#1a3868">6. Náklady a výnosy (§ 2 ods. 4 písm. c, e)</text>
+<text x="827.0" y="301.5" font-size="13.0" fill="#374151">Náklad = zníženie úžitkov v období (úbytok</text>
+<text x="827.0" y="318.0" font-size="13.0" fill="#374151">majetku/vznik záväzku), výnos = zvýšenie úžitkov.</text>
+<text x="827.0" y="334.5" font-size="13.0" fill="#374151">Pozor: náklad sa nerovná výdavku, výnos sa nerovná</text>
+<text x="827.0" y="351.0" font-size="13.0" fill="#374151">príjmu (nákup zásob = výdavok bez nákladu; náklad až</text>
+<text x="827.0" y="367.5" font-size="13.0" fill="#374151">spotrebou). Triedy 5 a 6, rozdiel = VH.</text>
+<rect x="810.0" y="405.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="405.0" width="7" height="153.5" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="432.0" font-size="14.5" font-weight="700" fill="#1a3868">7. Akruálny princíp pri vykazovaní nákladov a</text>
+<text x="827.0" y="451.0" font-size="14.5" font-weight="700" fill="#1a3868">výnosov (§ 3, § 5 Postupov)</text>
+<text x="827.0" y="475.0" font-size="13.0" fill="#374151">Akruál (§ 3 ods. 1, § 5 Postupov): N a V do obdobia</text>
+<text x="827.0" y="491.5" font-size="13.0" fill="#374151">vecnej a časovej súvislosti bez ohľadu na úhradu.</text>
+<text x="827.0" y="508.0" font-size="13.0" fill="#374151">Nástroje: rezervy a dohadné položky (chýba</text>
+<text x="827.0" y="524.5" font-size="13.0" fill="#374151">doklad/suma) a časové rozlíšenie (suma známa). Cieľ</text>
+<text x="827.0" y="541.0" font-size="13.0" fill="#374151">= porovnateľnosť období.</text>
+<rect x="810.0" y="578.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="578.5" width="7" height="153.5" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="605.5" font-size="14.5" font-weight="700" fill="#1a3868">8. Časové rozlíšenie nákladov a výnosov (§ 56</text>
+<text x="827.0" y="624.5" font-size="14.5" font-weight="700" fill="#1a3868">Postupov, účty 381–385)</text>
+<text x="827.0" y="648.5" font-size="13.0" fill="#374151">Časové rozlíšenie (§ 56, suma aj obdobie známe): 381</text>
+<text x="827.0" y="665.0" font-size="13.0" fill="#374151">náklady budúcich období a 385 príjmy budúcich období</text>
+<text x="827.0" y="681.5" font-size="13.0" fill="#374151">= aktíva; 383 výdavky a 384 výnosy budúcich období =</text>
+<text x="827.0" y="698.0" font-size="13.0" fill="#374151">pasíva; 382 komplexné. Pomôcka: aktíva 381/382/385,</text>
+<text x="827.0" y="714.5" font-size="13.0" fill="#374151">pasíva 383/384.</text>
+</svg>

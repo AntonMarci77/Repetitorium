@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1200" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="1200" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING I 05 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 615.0 C 420.0 615.0, 540.0 177.2, 470.0 177.2" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 615.0 C 420.0 615.0, 540.0 382.5, 470.0 382.5" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 615.0 C 420.0 615.0, 540.0 597.2, 470.0 597.2" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 615.0 C 420.0 615.0, 540.0 828.5, 470.0 828.5" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 615.0 C 420.0 615.0, 540.0 1051.5, 470.0 1051.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 615.0 C 860.0 615.0, 740.0 170.2, 810.0 170.2" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 615.0 C 860.0 615.0, 740.0 392.0, 810.0 392.0" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 615.0 C 860.0 615.0, 740.0 622.0, 810.0 622.0" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 615.0 C 860.0 615.0, 740.0 835.5, 810.0 835.5" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 615.0 C 860.0 615.0, 740.0 1050.2, 810.0 1050.2" stroke="#7c3aed" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="587.5" width="300" height="55.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="620.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Daň z pridanej hodnoty</text>
+<rect x="90.0" y="85.2" width="380" height="184.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="85.2" width="7" height="184.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="112.2" font-size="14.5" font-weight="700" fill="#1a3868">1. Predmet dane a zdaniteľné obchody (§ 2)</text>
+<text x="107.0" y="136.2" font-size="13.0" fill="#374151">Predmetom dane sú štyri zdaniteľné obchody: a)</text>
+<text x="107.0" y="152.8" font-size="13.0" fill="#374151">dodanie tovaru za protihodnotu v tuzemsku</text>
+<text x="107.0" y="169.2" font-size="13.0" fill="#374151">zdaniteľnou osobou, b) dodanie služby v tuzemsku, c)</text>
+<text x="107.0" y="185.8" font-size="13.0" fill="#374151">nadobudnutie tovaru z iného členského štátu EÚ a d)</text>
+<text x="107.0" y="202.2" font-size="13.0" fill="#374151">dovoz tovaru z tretích štátov. Spoločné znaky a) a</text>
+<text x="107.0" y="218.8" font-size="13.0" fill="#374151">b): odplatnosť, miesto v tuzemsku, postavenie</text>
+<text x="107.0" y="235.2" font-size="13.0" fill="#374151">zdaniteľnej osoby. Pri dovoze daň vzniká pri</text>
+<text x="107.0" y="251.8" font-size="13.0" fill="#374151">prepustení do colného režimu.</text>
+<rect x="90.0" y="289.2" width="380" height="186.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="289.2" width="7" height="186.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="316.2" font-size="14.5" font-weight="700" fill="#1a3868">2. Zdaniteľná osoba a platiteľ dane (§ 3, §</text>
+<text x="107.0" y="335.2" font-size="14.5" font-weight="700" fill="#1a3868">4)</text>
+<text x="107.0" y="359.2" font-size="13.0" fill="#374151">Zdaniteľná osoba (par.3) = každý, kto nezávisle</text>
+<text x="107.0" y="375.8" font-size="13.0" fill="#374151">vykonáva ekonomickú činnosť (závislá činnosť</text>
+<text x="107.0" y="392.2" font-size="13.0" fill="#374151">zamestnancov nie). Platiteľom sa stáva až</text>
+<text x="107.0" y="408.8" font-size="13.0" fill="#374151">registráciou – má IČ DPH, pripočítava daň, má nárok</text>
+<text x="107.0" y="425.2" font-size="13.0" fill="#374151">na odpočet a podáva priznanie aj kontrolný výkaz.</text>
+<text x="107.0" y="441.8" font-size="13.0" fill="#374151">Neplatiteľ fakturuje bez dane a daň na vstupe je</text>
+<text x="107.0" y="458.2" font-size="13.0" fill="#374151">preňho nákladom.</text>
+<rect x="90.0" y="495.8" width="380" height="203.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="495.8" width="7" height="203.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="522.8" font-size="14.5" font-weight="700" fill="#1a3868">3. Registračná povinnosť a zrušenie</text>
+<text x="107.0" y="541.8" font-size="14.5" font-weight="700" fill="#1a3868">registrácie (§ 4, § 5, § 81)</text>
+<text x="107.0" y="565.8" font-size="13.0" fill="#374151">Obrat sa od 2025 sleduje za KALENDÁRNY ROK, dva</text>
+<text x="107.0" y="582.2" font-size="13.0" fill="#374151">limity: pri prekročení 50 000 EUR platiteľom od 1.</text>
+<text x="107.0" y="598.8" font-size="13.0" fill="#374151">dňa nasledujúceho roka; pri prekročení 62 500 EUR v</text>
+<text x="107.0" y="615.2" font-size="13.0" fill="#374151">prebiehajúcom roku platiteľom hneď dodaním, ktorým</text>
+<text x="107.0" y="631.8" font-size="13.0" fill="#374151">sa limit prekročí. Žiadosť do 5 prac. dní, DÚ</text>
+<text x="107.0" y="648.2" font-size="13.0" fill="#374151">rozhodne do 10 dní. Zahraničná osoba (par.5) bez</text>
+<text x="107.0" y="664.8" font-size="13.0" fill="#374151">limitu. Zrušenie registrácie (par.81) najskôr po</text>
+<text x="107.0" y="681.2" font-size="13.0" fill="#374151">roku, ak obrat nepresiahol 50 000 EUR.</text>
+<rect x="90.0" y="718.8" width="380" height="219.5" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="718.8" width="7" height="219.5" rx="3.5" fill="#803594"/>
+<text x="107.0" y="745.8" font-size="14.5" font-weight="700" fill="#1a3868">4. Základ dane, sadzby, prepočet meny a</text>
+<text x="107.0" y="764.8" font-size="14.5" font-weight="700" fill="#1a3868">zaokrúhľovanie (§ 22, § 26, § 27)</text>
+<text x="107.0" y="788.8" font-size="13.0" fill="#374151">Základ dane (par.22) = všetko, čo tvorí</text>
+<text x="107.0" y="805.2" font-size="13.0" fill="#374151">protihodnotu, bez dane, ale vrátane iných daní, ciel</text>
+<text x="107.0" y="821.8" font-size="13.0" fill="#374151">a vedľajších výdavkov (provízie, balné, doprava,</text>
+<text x="107.0" y="838.2" font-size="13.0" fill="#374151">poistenie). Sadzby (par.27): základná 23 %, znížené</text>
+<text x="107.0" y="854.8" font-size="13.0" fill="#374151">19 % (väčšina potravín, elektrina) a 5 % (lieky,</text>
+<text x="107.0" y="871.2" font-size="13.0" fill="#374151">knihy, ubytovanie). Pri zmene sadzby rozhoduje deň</text>
+<text x="107.0" y="887.8" font-size="13.0" fill="#374151">vzniku daňovej povinnosti. Cudzia mena referenčným</text>
+<text x="107.0" y="904.2" font-size="13.0" fill="#374151">kurzom ECB/NBS deň pred vznikom DP; zaokrúhľuje sa</text>
+<text x="107.0" y="920.8" font-size="13.0" fill="#374151">na eurocenty.</text>
+<rect x="90.0" y="958.2" width="380" height="186.5" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="958.2" width="7" height="186.5" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="985.2" font-size="14.5" font-weight="700" fill="#1a3868">5. Mechanizmus DPH: daň na výstupe −</text>
+<text x="107.0" y="1004.2" font-size="14.5" font-weight="700" fill="#1a3868">odpočítanie dane na vstupe</text>
+<text x="107.0" y="1028.2" font-size="13.0" fill="#374151">Jadro systému: daň na výstupe (pripočítaná k cene</text>
+<text x="107.0" y="1044.8" font-size="13.0" fill="#374151">dodávok – povinnosť odviesť) mínus daň na vstupe</text>
+<text x="107.0" y="1061.2" font-size="13.0" fill="#374151">(zaplatená dodávateľom – nárok na odpočet). Vlastná</text>
+<text x="107.0" y="1077.8" font-size="13.0" fill="#374151">daňová povinnosť = výstup &gt; vstup (odvod); nadmerný</text>
+<text x="107.0" y="1094.2" font-size="13.0" fill="#374151">odpočet = vstup &gt; výstup (vrátenie). V reťazci sa</text>
+<text x="107.0" y="1110.8" font-size="13.0" fill="#374151">zdaňuje len pridaná hodnota a výber štátu sa rovná</text>
+<text x="107.0" y="1127.2" font-size="13.0" fill="#374151">dani z konečnej ceny pre spotrebiteľa.</text>
+<rect x="810.0" y="70.0" width="380" height="200.5" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="70.0" width="7" height="200.5" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Miesto zdaniteľného obchodu (§ 13–16)</text>
+<text x="827.0" y="121.0" font-size="13.0" fill="#374151">Miesto určuje, ktorému štátu daň patrí. Tovar bez</text>
+<text x="827.0" y="137.5" font-size="13.0" fill="#374151">prepravy (par.13) – kde sa nachádza pri dodaní; s</text>
+<text x="827.0" y="154.0" font-size="13.0" fill="#374151">prepravou – kde sa preprava začína; montáž – miesto</text>
+<text x="827.0" y="170.5" font-size="13.0" fill="#374151">montáže. Služby: B2B (par.15/1) – sídlo príjemcu;</text>
+<text x="827.0" y="187.0" font-size="13.0" fill="#374151">B2C (par.15/2) – sídlo poskytovateľa. Par.16 výnimky</text>
+<text x="827.0" y="203.5" font-size="13.0" fill="#374151">(nehnuteľnosti, preprava osôb, reštauračné,</text>
+<text x="827.0" y="220.0" font-size="13.0" fill="#374151">kultúrne, nájom dopravných prostriedkov,</text>
+<text x="827.0" y="236.5" font-size="13.0" fill="#374151">elektronické služby pre nezdaniteľné osoby podľa</text>
+<text x="827.0" y="253.0" font-size="13.0" fill="#374151">bydliska).</text>
+<rect x="810.0" y="290.5" width="380" height="203.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="290.5" width="7" height="203.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="317.5" font-size="14.5" font-weight="700" fill="#1a3868">7. Daňová povinnosť, oslobodenia a osoby</text>
+<text x="827.0" y="336.5" font-size="14.5" font-weight="700" fill="#1a3868">povinné platiť daň (§ 19, § 28–42, § 69)</text>
+<text x="827.0" y="360.5" font-size="13.0" fill="#374151">Daňová povinnosť (par.19) vzniká dňom dodania</text>
+<text x="827.0" y="377.0" font-size="13.0" fill="#374151">tovaru/služby, pri platbe vopred dňom prijatia</text>
+<text x="827.0" y="393.5" font-size="13.0" fill="#374151">platby. Oslobodenia BEZ nároku na odpočet (par.28–42</text>
+<text x="827.0" y="410.0" font-size="13.0" fill="#374151">– zdravotné, finančné, poisťovacie, nájom a predaj</text>
+<text x="827.0" y="426.5" font-size="13.0" fill="#374151">starších nehnuteľností) – vstup sa odpočítať nedá.</text>
+<text x="827.0" y="443.0" font-size="13.0" fill="#374151">Oslobodenia S nárokom (par.43–48 – dodanie do EÚ,</text>
+<text x="827.0" y="459.5" font-size="13.0" fill="#374151">vývoz) – nárok zostáva. Daň zvyčajne platí dodávateľ</text>
+<text x="827.0" y="476.0" font-size="13.0" fill="#374151">(par.69/1), pri reverse-charge príjemca.</text>
+<rect x="810.0" y="513.5" width="380" height="217.0" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="513.5" width="7" height="217.0" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="540.5" font-size="14.5" font-weight="700" fill="#1a3868">8. Odpočítanie dane a koeficient (§ 49–51)</text>
+<text x="827.0" y="564.5" font-size="13.0" fill="#374151">Právo na odpočet vzniká dňom vzniku daňovej</text>
+<text x="827.0" y="581.0" font-size="13.0" fill="#374151">povinnosti (par.49/1), uplatní sa len s faktúrou</text>
+<text x="827.0" y="597.5" font-size="13.0" fill="#374151">(par.51). Plný odpočet pri zdaniteľných plneniach,</text>
+<text x="827.0" y="614.0" font-size="13.0" fill="#374151">žiadny pri oslobodených bez nároku, pomerný cez</text>
+<text x="827.0" y="630.5" font-size="13.0" fill="#374151">KOEFICIENT, ak vstup slúži na oboje. Koeficient =</text>
+<text x="827.0" y="647.0" font-size="13.0" fill="#374151">plnenia s nárokom / všetky plnenia za rok,</text>
+<text x="827.0" y="663.5" font-size="13.0" fill="#374151">zaokrúhlený na dve miesta NAHOR; počas roka</text>
+<text x="827.0" y="680.0" font-size="13.0" fill="#374151">predbežný z minulého roka, po roku ročné</text>
+<text x="827.0" y="696.5" font-size="13.0" fill="#374151">vysporiadanie konečným. Od 2026 pri autách M1</text>
+<text x="827.0" y="713.0" font-size="13.0" fill="#374151">paušálny 50 % odpočet.</text>
+<rect x="810.0" y="750.5" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="750.5" width="7" height="170.0" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="777.5" font-size="14.5" font-weight="700" fill="#1a3868">9. Účtovné zobrazenie a zistenie vlastnej DP</text>
+<text x="827.0" y="796.5" font-size="14.5" font-weight="700" fill="#1a3868">/ nadmerného odpočtu</text>
+<text x="827.0" y="820.5" font-size="13.0" fill="#374151">DPH sa účtuje na účte 343. Daň na vstupe (nárok) na</text>
+<text x="827.0" y="837.0" font-size="13.0" fill="#374151">stranu MÁ DAŤ (343/321), daň na výstupe (povinnosť)</text>
+<text x="827.0" y="853.5" font-size="13.0" fill="#374151">na stranu DAL (311/343). Kreditný zostatok (DAL &gt; MÁ</text>
+<text x="827.0" y="870.0" font-size="13.0" fill="#374151">DAŤ) = vlastná daňová povinnosť (odvod 343/221),</text>
+<text x="827.0" y="886.5" font-size="13.0" fill="#374151">debetný (MÁ DAŤ &gt; DAL) = nadmerný odpočet (vrátenie</text>
+<text x="827.0" y="903.0" font-size="13.0" fill="#374151">221/343). Po vysporiadaní je zostatok 343 nulový.</text>
+<rect x="810.0" y="940.5" width="380" height="219.5" rx="12" fill="#ffffff" stroke="#7c3aed" stroke-width="2.5"/>
+<rect x="810.0" y="940.5" width="7" height="219.5" rx="3.5" fill="#7c3aed"/>
+<text x="827.0" y="967.5" font-size="14.5" font-weight="700" fill="#1a3868">10. Vedenie záznamov a nástroje proti daňovým</text>
+<text x="827.0" y="986.5" font-size="14.5" font-weight="700" fill="#1a3868">únikom (§ 70, § 78a, § 69)</text>
+<text x="827.0" y="1010.5" font-size="13.0" fill="#374151">Platiteľ vedie záznamy podľa zdaňovacích období</text>
+<text x="827.0" y="1027.0" font-size="13.0" fill="#374151">(par.70). Nástroje proti únikom: 1) kontrolný výkaz</text>
+<text x="827.0" y="1043.5" font-size="13.0" fill="#374151">(par.78a) – elektronicky do 25 dní, krížová kontrola</text>
+<text x="827.0" y="1060.0" font-size="13.0" fill="#374151">odberateľ-dodávateľ; 2) reverse-charge (par.69) –</text>
+<text x="827.0" y="1076.5" font-size="13.0" fill="#374151">pri rizikových tuzemských plneniach (stavebné práce,</text>
+<text x="827.0" y="1093.0" font-size="13.0" fill="#374151">šrot, mobily) a od zahraničných osôb daň platí</text>
+<text x="827.0" y="1109.5" font-size="13.0" fill="#374151">príjemca; 3) ručenie za daň (par.69/14) – odberateľ</text>
+<text x="827.0" y="1126.0" font-size="13.0" fill="#374151">ručí, ak vedel/mal vedieť o nezaplatení dane</text>
+<text x="827.0" y="1142.5" font-size="13.0" fill="#374151">dodávateľom.</text>
+</svg>

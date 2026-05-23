@@ -1,0 +1,14 @@
+{
+  "subor": "ING_II_03.json",
+  "esencie": [
+    "Working papers = záznam postupov, dôkazov a záverov; dôkaz súladu s ISA a základ názoru. Kritérium: test skúseného audítora; spis do 60 dní.",
+    "Hladina, nad ktorou nesprávnosti (jednotlivo aj v súhrne) ovplyvnia rozhodnutia používateľov. Kvantitatívna aj kvalitatívna; 3 úrovne: celok, špecifická, vykonávacia.",
+    "Významnosť = % z vhodnej základne: zisk pred zdanením 5–10 %, tržby 0,5–2 %, aktíva 1–2 %, vlastné imanie 1–5 %. Voľba % je odborný úsudok.",
+    "Riziko auditu = inherentné × kontrolné × zisťovacie. Audítor ovplyvní len zisťovacie. Vzťah k významnosti je NEPRIAMY: nižšia významnosť → viac práce.",
+    "Zaznamenať všetky okrem zjavne triviálnych; faktické / úsudkové / extrapolované. Súhrn NEOPRAVENÝCH porovnať s významnosťou → vplyv na názor.",
+    "Cieľ: dostatočné (kvantita, podľa rizika) a vhodné (kvalita = relevantnosť + spoľahlivosť). Externý zdroj > interný, písomný > ústny. Testujú sa tvrdenia.",
+    "Reakcia na riziká: testy kontrol + substantívne (testy detailov a analytické postupy). Analytika = vierohodné vzťahy; externé potvrdenia (ISA 505) sú silný dôkaz.",
+    "Pri prvom audite overiť začiatočné stavy: bez významných chýb, správne prenesené, konzistentné politiky. Pozrieť spis predchádzajúceho audítora.",
+    "Testovanie menej než 100 % populácie so záverom o celku; štatistické (MUS) alebo neštatistické. Riziko vzorky: vyššie audítorské riziko → väčšia vzorka."
+  ]
+}

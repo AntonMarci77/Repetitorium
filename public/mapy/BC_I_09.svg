@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 718" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="718" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">BC I 09 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 374.0 C 420.0 374.0, 540.0 157.5, 470.0 157.5" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 374.0 C 420.0 374.0, 540.0 303.8, 470.0 303.8" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 374.0 C 420.0 374.0, 540.0 441.8, 470.0 441.8" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 374.0 C 420.0 374.0, 540.0 589.2, 470.0 589.2" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 374.0 C 860.0 374.0, 740.0 138.5, 810.0 138.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 374.0 C 860.0 374.0, 740.0 295.5, 810.0 295.5" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 374.0 C 860.0 374.0, 740.0 452.5, 810.0 452.5" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 374.0 C 860.0 374.0, 740.0 609.5, 810.0 609.5" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="312.0" width="300" height="124.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="345.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Účtovníctvo rozpočtových</text>
+<text x="640.0" y="368.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">organizácií,</text>
+<text x="640.0" y="391.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">príspevkových</text>
+<text x="640.0" y="414.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">organizácií a obcí</text>
+<rect x="90.0" y="90.2" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="90.2" width="7" height="134.5" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="117.2" font-size="14.5" font-weight="700" fill="#1a3868">1. Vymedzenie RO a PO a ich zriaďovanie</text>
+<text x="107.0" y="141.2" font-size="13.0" fill="#374151">RO = napojená brutto (príjmy aj výdavky cez</text>
+<text x="107.0" y="157.8" font-size="13.0" fill="#374151">rozpočet, par. 21 z. 523/2004); PO = netto</text>
+<text x="107.0" y="174.2" font-size="13.0" fill="#374151">(príspevkom), vlastné tržby kryjú menej než 50 %</text>
+<text x="107.0" y="190.8" font-size="13.0" fill="#374151">nákladov, zvyšok dorovná zriaďovateľ</text>
+<text x="107.0" y="207.2" font-size="13.0" fill="#374151">(štát/obec/VÚC).</text>
+<rect x="90.0" y="244.8" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="244.8" width="7" height="118.0" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="271.8" font-size="14.5" font-weight="700" fill="#1a3868">2. Podstata financovania RO vs. PO</text>
+<text x="107.0" y="295.8" font-size="13.0" fill="#374151">RO sa financuje brutto: príjmy nie sú jej zdrojom,</text>
+<text x="107.0" y="312.2" font-size="13.0" fill="#374151">odvádza ich (štát cez ŠP 224/225, obec 221). PO</text>
+<text x="107.0" y="328.8" font-size="13.0" fill="#374151">netto: príspevok + vlastné výnosy, cieľ vyrovnaný</text>
+<text x="107.0" y="345.2" font-size="13.0" fill="#374151">rozpočet; zo zlepšeného VH tvorí fondy.</text>
+<rect x="90.0" y="382.8" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="382.8" width="7" height="118.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="409.8" font-size="14.5" font-weight="700" fill="#1a3868">3. Charakteristika účtovníctva RO</text>
+<text x="107.0" y="433.8" font-size="13.0" fill="#374151">Podvojne, akruálne, triedy 0–9 + verejné skupiny: 35</text>
+<text x="107.0" y="450.2" font-size="13.0" fill="#374151">= peniaze medzi verejnými subjektmi, 58 = dávam</text>
+<text x="107.0" y="466.8" font-size="13.0" fill="#374151">transfer/odvádzam príjem, 68x (štát)/69x</text>
+<text x="107.0" y="483.2" font-size="13.0" fill="#374151">(samospráva) = dostávam. VH cez 710 na 431.</text>
+<rect x="90.0" y="520.8" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="520.8" width="7" height="137.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="547.8" font-size="14.5" font-weight="700" fill="#1a3868">4. Účtovanie príjmov a výdavkov v štátnej RO</text>
+<text x="107.0" y="566.8" font-size="14.5" font-weight="700" fill="#1a3868">a v RO obce/VÚC</text>
+<text x="107.0" y="590.8" font-size="13.0" fill="#374151">Štátna RO: príjmy 224, výdavky 225. Obecná/VÚC RO:</text>
+<text x="107.0" y="607.2" font-size="13.0" fill="#374151">221 s kódmi zdroja. Bežný transfer od obce/VÚC cez</text>
+<text x="107.0" y="623.8" font-size="13.0" fill="#374151">skupinu 35x do výnosov 691 (kapitálový 692); štátna</text>
+<text x="107.0" y="640.2" font-size="13.0" fill="#374151">do 681 (bežný)/682 (kapitálový).</text>
+<rect x="810.0" y="70.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="810.0" y="70.0" width="7" height="137.0" rx="3.5" fill="#6a6eb3"/>
+<text x="827.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Výnosy z transferov a ich účtovné</text>
+<text x="827.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">zobrazenie</text>
+<text x="827.0" y="140.0" font-size="13.0" fill="#374151">Zrkadlo: poskytovateľ náklad 58 (584 bežný, 585</text>
+<text x="827.0" y="156.5" font-size="13.0" fill="#374151">kapitálový), prijímateľ výnos 68x/69x, tok cez 35x.</text>
+<text x="827.0" y="173.0" font-size="13.0" fill="#374151">Kapitálový transfer cez 384 do výnosov vo výške</text>
+<text x="827.0" y="189.5" font-size="13.0" fill="#374151">odpisu; štát 681–684, samospráva 691–694.</text>
+<rect x="810.0" y="227.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="227.0" width="7" height="137.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="254.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Pohľadávky z daňových a nedaňových</text>
+<text x="827.0" y="273.0" font-size="14.5" font-weight="700" fill="#1a3868">príjmov; daňové výnosy obce</text>
+<text x="827.0" y="297.0" font-size="13.0" fill="#374151">Obec: pohľadávky 319 (daňové) a 318 (nedaňové).</text>
+<text x="827.0" y="313.5" font-size="13.0" fill="#374151">Predpis dane MD 319 / D 632 (daňové výnosy</text>
+<text x="827.0" y="330.0" font-size="13.0" fill="#374151">samosprávy = podielové + miestne dane), inkaso MD</text>
+<text x="827.0" y="346.5" font-size="13.0" fill="#374151">221 / D 319.</text>
+<rect x="810.0" y="384.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="384.0" width="7" height="137.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="411.0" font-size="14.5" font-weight="700" fill="#1a3868">7. Náklady z odvodu príjmov a zúčtovanie</text>
+<text x="827.0" y="430.0" font-size="14.5" font-weight="700" fill="#1a3868">odvodu RO do rozpočtu zriaďovateľa</text>
+<text x="827.0" y="454.0" font-size="13.0" fill="#374151">RO nie je vlastníkom príjmov, odvod je nákladom: MD</text>
+<text x="827.0" y="470.5" font-size="13.0" fill="#374151">588 / D 351; úhrada MD 351 / D 221 (štát 224).</text>
+<text x="827.0" y="487.0" font-size="13.0" fill="#374151">Zrkadlovo výnos zriaďovateľa. Pomôcka: 588 do 351 =</text>
+<text x="827.0" y="503.5" font-size="13.0" fill="#374151">odovzdávam cez medziúčet 35.</text>
+<rect x="810.0" y="541.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="541.0" width="7" height="137.0" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="568.0" font-size="14.5" font-weight="700" fill="#1a3868">8. Podstata účtovného VH RO a PO; OP a</text>
+<text x="827.0" y="587.0" font-size="14.5" font-weight="700" fill="#1a3868">rezervy v PO</text>
+<text x="827.0" y="611.0" font-size="13.0" fill="#374151">Účtovný VH = výnosy (6) − náklady (5); u RO blízky</text>
+<text x="827.0" y="627.5" font-size="13.0" fill="#374151">nule (transfer kryje náklad, príjmy odvedie). PO má</text>
+<text x="827.0" y="644.0" font-size="13.0" fill="#374151">VH +/−, tvorí OP (558/39x) a rezervy. Odlíš ho od</text>
+<text x="827.0" y="660.5" font-size="13.0" fill="#374151">rozpočtového prebytku/schodku.</text>
+</svg>

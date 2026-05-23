@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 966" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="966" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">BC I 04 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 498.2 C 420.0 498.2, 540.0 145.5, 470.0 145.5" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 498.2 C 420.0 498.2, 540.0 326.0, 470.0 326.0" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 498.2 C 420.0 498.2, 540.0 498.2, 470.0 498.2" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 498.2 C 420.0 498.2, 540.0 661.0, 470.0 661.0" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 498.2 C 420.0 498.2, 540.0 841.5, 470.0 841.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 498.2 C 860.0 498.2, 740.0 247.5, 810.0 247.5" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 498.2 C 860.0 498.2, 740.0 402.0, 810.0 402.0" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 498.2 C 860.0 498.2, 740.0 566.0, 810.0 566.0" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 498.2 C 860.0 498.2, 740.0 739.5, 810.0 739.5" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="447.8" width="300" height="101.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="480.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Dlhodobý hmotný majetok,</text>
+<text x="640.0" y="503.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">dlhodobý nehmotný</text>
+<text x="640.0" y="526.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">majetok a zásoby</text>
+<rect x="90.0" y="70.0" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="151.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Obsahové vymedzenie DHM, DNM a zásob</text>
+<text x="107.0" y="121.0" font-size="13.0" fill="#374151">DHM (trieda 0, sk. 02 odpisovaný, 03 neodpisovaný):</text>
+<text x="107.0" y="137.5" font-size="13.0" fill="#374151">hnuteľné veci nad rok a nad hranicu (daňovo &gt; 1</text>
+<text x="107.0" y="154.0" font-size="13.0" fill="#374151">700), stavby (021), pozemky (031), základné stádo</text>
+<text x="107.0" y="170.5" font-size="13.0" fill="#374151">(026). DNM (sk. 01): vývoj (012), softvér (013),</text>
+<text x="107.0" y="187.0" font-size="13.0" fill="#374151">goodwill (015), daňovo &gt; 2 400. Zásoby (trieda 1) do</text>
+<text x="107.0" y="203.5" font-size="13.0" fill="#374151">roka: 112, 132, 121-124.</text>
+<rect x="90.0" y="241.0" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="241.0" width="7" height="170.0" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="268.0" font-size="14.5" font-weight="700" fill="#1a3868">2. Oceňovanie (§ 25 a § 26 zákona o</text>
+<text x="107.0" y="287.0" font-size="14.5" font-weight="700" fill="#1a3868">účtovníctve)</text>
+<text x="107.0" y="311.0" font-size="13.0" fill="#374151">Oceňovanie (§ 25-26): kúpa = obstarávacia cena (cena</text>
+<text x="107.0" y="327.5" font-size="13.0" fill="#374151">+ doprava, montáž, clo), vlastná výroba a príchovky</text>
+<text x="107.0" y="344.0" font-size="13.0" fill="#374151">= vlastné náklady, dar = reálna hodnota. Do OC</text>
+<text x="107.0" y="360.5" font-size="13.0" fill="#374151">nepatria pokuty, úroky z omeškania, kurzové</text>
+<text x="107.0" y="377.0" font-size="13.0" fill="#374151">rozdiely. Ku dňu závierky OP a čistá realizačná</text>
+<text x="107.0" y="393.5" font-size="13.0" fill="#374151">hodnota zásob.</text>
+<rect x="90.0" y="431.0" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="431.0" width="7" height="134.5" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="458.0" font-size="14.5" font-weight="700" fill="#1a3868">3. Obstaranie a zaradenie DHM a DNM</text>
+<text x="107.0" y="482.0" font-size="13.0" fill="#374151">Obstaranie cez kalkulačný účet 042 (DHM) / 041</text>
+<text x="107.0" y="498.5" font-size="13.0" fill="#374151">(DNM): 042/321 cena aj vedľajšie náklady, 343/321</text>
+<text x="107.0" y="515.0" font-size="13.0" fill="#374151">odpočet DPH. Zaradenie do užívania 022/042, 021/042,</text>
+<text x="107.0" y="531.5" font-size="13.0" fill="#374151">013/041. Vlastnou činnosťou cez 042/624. Odpisovanie</text>
+<text x="107.0" y="548.0" font-size="13.0" fill="#374151">začína až zaradením.</text>
+<rect x="90.0" y="585.5" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="585.5" width="7" height="151.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="612.5" font-size="14.5" font-weight="700" fill="#1a3868">4. Odpisovanie – účtovné odpisy</text>
+<text x="107.0" y="636.5" font-size="13.0" fill="#374151">Účtovný odpis vyjadruje opotrebenie: 551 / oprávky</text>
+<text x="107.0" y="653.0" font-size="13.0" fill="#374151">(081 stavby, 082 hnuteľné veci, 073 softvér, 086</text>
+<text x="107.0" y="669.5" font-size="13.0" fill="#374151">stádo). Oprávky = korekčný pasívny účet, znižujú</text>
+<text x="107.0" y="686.0" font-size="13.0" fill="#374151">majetok nepriamo (brutto - oprávky = ZC). ÚJ určuje</text>
+<text x="107.0" y="702.5" font-size="13.0" fill="#374151">odpisy v odpisovom pláne (§ 28 PÚ), časové aj</text>
+<text x="107.0" y="719.0" font-size="13.0" fill="#374151">výkonové.</text>
+<rect x="90.0" y="756.5" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="756.5" width="7" height="170.0" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="783.5" font-size="14.5" font-weight="700" fill="#1a3868">5. Odpisovanie – daňové odpisy a ich vzťah k</text>
+<text x="107.0" y="802.5" font-size="14.5" font-weight="700" fill="#1a3868">účtovným</text>
+<text x="107.0" y="826.5" font-size="13.0" fill="#374151">Daňové odpisy (ZDP § 22-28): 7 skupín 0-6 s pevnou</text>
+<text x="107.0" y="843.0" font-size="13.0" fill="#374151">dobou (0=2 r., 1=4 r., 6=40 r.), metóda rovnomerná</text>
+<text x="107.0" y="859.5" font-size="13.0" fill="#374151">alebo zrýchlená (sk. 2 a 3). DNM daňovo v súlade s</text>
+<text x="107.0" y="876.0" font-size="13.0" fill="#374151">účtovnými. V účtovníctve sa účtujú LEN účtovné</text>
+<text x="107.0" y="892.5" font-size="13.0" fill="#374151">odpisy; rozdiel = pripočítateľná/odpočítateľná</text>
+<text x="107.0" y="909.0" font-size="13.0" fill="#374151">položka a odložená daň.</text>
+<rect x="810.0" y="180.2" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="180.2" width="7" height="134.5" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="207.2" font-size="14.5" font-weight="700" fill="#1a3868">6. Opravné položky k DHM a DNM (§ 26 ods. 4)</text>
+<text x="827.0" y="231.2" font-size="13.0" fill="#374151">OP k DHM/DNM (§ 26 ods. 4) pri DOČASNOM znížení</text>
+<text x="827.0" y="247.8" font-size="13.0" fill="#374151">hodnoty: tvorba 553 / sk. 09 (091 DNM, 092 DHM).</text>
+<text x="827.0" y="264.2" font-size="13.0" fill="#374151">Nemá aktívny zostatok, znižuje majetok nepriamo, pri</text>
+<text x="827.0" y="280.8" font-size="13.0" fill="#374151">zániku dôvodu sa zruší (09x/553). Pri vyradení sa OP</text>
+<text x="827.0" y="297.2" font-size="13.0" fill="#374151">najprv zruší. Odpis = trvalé opotrebenie.</text>
+<rect x="810.0" y="334.8" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="334.8" width="7" height="134.5" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="361.8" font-size="14.5" font-weight="700" fill="#1a3868">7. Vyraďovanie DHM a DNM</text>
+<text x="827.0" y="385.8" font-size="13.0" fill="#374151">Vyradenie dvojkrokovo: zrušiť OP a doúčtovať odpis;</text>
+<text x="827.0" y="402.2" font-size="13.0" fill="#374151">potom ZC podľa dôvodu - predaj 541, likvidácia 551,</text>
+<text x="827.0" y="418.8" font-size="13.0" fill="#374151">dar 543, škoda/manko 549, vklad 367. Súčasne oprávky</text>
+<text x="827.0" y="435.2" font-size="13.0" fill="#374151">08x/02x a ZC cez nákladový účet/02x. Pri predaji</text>
+<text x="827.0" y="451.8" font-size="13.0" fill="#374151">výnos 311/641. Plne odpísaný len 082/022.</text>
+<rect x="810.0" y="489.2" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="489.2" width="7" height="153.5" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="516.2" font-size="14.5" font-weight="700" fill="#1a3868">8. Zásoby nakupované a vlastnej výroby –</text>
+<text x="827.0" y="535.2" font-size="14.5" font-weight="700" fill="#1a3868">vymedzenie a oceňovanie</text>
+<text x="827.0" y="559.2" font-size="13.0" fill="#374151">Nakupované zásoby = obstarávacia cena, vlastná</text>
+<text x="827.0" y="575.8" font-size="13.0" fill="#374151">výroba = vlastné náklady. Úbytok VAP alebo FIFO. Ku</text>
+<text x="827.0" y="592.2" font-size="13.0" fill="#374151">dňu závierky ak čistá realizačná hodnota (predajná</text>
+<text x="827.0" y="608.8" font-size="13.0" fill="#374151">cena - náklady na dokončenie a predaj, § 26 ods. 1)</text>
+<text x="827.0" y="625.2" font-size="13.0" fill="#374151">nižšia, tvorí sa OP (sk. 19: 191, 196).</text>
+<rect x="810.0" y="662.8" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="662.8" width="7" height="153.5" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="689.8" font-size="14.5" font-weight="700" fill="#1a3868">9. Účtovné zobrazenie zásob – spôsob A a</text>
+<text x="827.0" y="708.8" font-size="14.5" font-weight="700" fill="#1a3868">spôsob B</text>
+<text x="827.0" y="732.8" font-size="13.0" fill="#374151">Spôsob A: zásoby cez súvahové účty počas obdobia</text>
+<text x="827.0" y="749.2" font-size="13.0" fill="#374151">(111/112/501). Spôsob B: nákup priamo do nákladov</text>
+<text x="827.0" y="765.8" font-size="13.0" fill="#374151">(501/321), súvahové účty len pri uzávierke (ZS do</text>
+<text x="827.0" y="782.2" font-size="13.0" fill="#374151">spotreby, KS späť 112/501). Výsledok hospodárenia</text>
+<text x="827.0" y="798.8" font-size="13.0" fill="#374151">rovnaký; B vyžaduje skladovú evidenciu mimo HK.</text>
+</svg>

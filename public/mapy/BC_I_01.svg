@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 848" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="848" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">BC I 01 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 439.2 C 420.0 439.2, 540.0 129.0, 470.0 129.0" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 439.2 C 420.0 439.2, 540.0 275.2, 470.0 275.2" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 439.2 C 420.0 439.2, 540.0 439.2, 470.0 439.2" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 439.2 C 420.0 439.2, 540.0 603.2, 470.0 603.2" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 439.2 C 420.0 439.2, 540.0 749.5, 470.0 749.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 439.2 C 860.0 439.2, 740.0 180.2, 810.0 180.2" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 439.2 C 860.0 439.2, 740.0 344.2, 810.0 344.2" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 439.2 C 860.0 439.2, 740.0 516.5, 810.0 516.5" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 439.2 C 860.0 439.2, 740.0 688.8, 810.0 688.8" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="400.2" width="300" height="78.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="433.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Podstata účtovníctva a</text>
+<text x="640.0" y="456.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">jej legislatívny rámec</text>
+<rect x="90.0" y="70.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="118.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Podstata, význam a funkcie účtovníctva</text>
+<text x="107.0" y="121.0" font-size="13.0" fill="#374151">Účtovníctvo meria v peniazoch majetok, záväzky, VI,</text>
+<text x="107.0" y="137.5" font-size="13.0" fill="#374151">N, V a VH; cieľ = verný a pravdivý obraz. Funkcie:</text>
+<text x="107.0" y="154.0" font-size="13.0" fill="#374151">informačná, dokumentačná/dôkazná, kontrolná,</text>
+<text x="107.0" y="170.5" font-size="13.0" fill="#374151">registračná. Základ pre § 17 ZDP.</text>
+<rect x="90.0" y="208.0" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="208.0" width="7" height="134.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="235.0" font-size="14.5" font-weight="700" fill="#1a3868">2. Nadnárodná právna úprava (EÚ a IFRS)</text>
+<text x="107.0" y="259.0" font-size="13.0" fill="#374151">Najvyššia vrstva = právo EÚ: smernica 2013/34/EÚ</text>
+<text x="107.0" y="275.5" font-size="13.0" fill="#374151">(verný obraz, kategórie ÚJ) sa transponuje; IFRS</text>
+<text x="107.0" y="292.0" font-size="13.0" fill="#374151">prijaté nariadením ES 1606/2002 platia priamo,</text>
+<text x="107.0" y="308.5" font-size="13.0" fill="#374151">povinné pre konsolidované závierky kótovaných</text>
+<text x="107.0" y="325.0" font-size="13.0" fill="#374151">firiem.</text>
+<rect x="90.0" y="362.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="362.5" width="7" height="153.5" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="389.5" font-size="14.5" font-weight="700" fill="#1a3868">3. Národná právna úprava (zákon 431/2002 a</text>
+<text x="107.0" y="408.5" font-size="14.5" font-weight="700" fill="#1a3868">opatrenia MF SR)</text>
+<text x="107.0" y="432.5" font-size="13.0" fill="#374151">Jadro = rámcový zákon 431/2002 (ÚJ, predmet,</text>
+<text x="107.0" y="449.0" font-size="13.0" fill="#374151">obdobie, sústavy, § 8, dokumentácia, závierka).</text>
+<text x="107.0" y="465.5" font-size="13.0" fill="#374151">Podrobnosti (§ 4 ods. 2) určuje MF SR opatreniami</text>
+<text x="107.0" y="482.0" font-size="13.0" fill="#374151">(postupy, osnova 23054/2002-92, opatrenia k</text>
+<text x="107.0" y="498.5" font-size="13.0" fill="#374151">závierke).</text>
+<rect x="90.0" y="536.0" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="536.0" width="7" height="134.5" rx="3.5" fill="#803594"/>
+<text x="107.0" y="563.0" font-size="14.5" font-weight="700" fill="#1a3868">4. Účtovná jednotka a predmet účtovníctva</text>
+<text x="107.0" y="587.0" font-size="13.0" fill="#374151">ÚJ (§ 1): PO v SR, zahraničné podnikajúce v SR, FO</text>
+<text x="107.0" y="603.5" font-size="13.0" fill="#374151">preukazujúce výdavky. Predmet (§ 2 ods. 2): stav a</text>
+<text x="107.0" y="620.0" font-size="13.0" fill="#374151">pohyb majetku, záväzkov, VI, V, N, príjmov,</text>
+<text x="107.0" y="636.5" font-size="13.0" fill="#374151">výdavkov, VH a vykázanie v závierke. Triedi sa na</text>
+<text x="107.0" y="653.0" font-size="13.0" fill="#374151">mikro/malá/veľká.</text>
+<rect x="90.0" y="690.5" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="690.5" width="7" height="118.0" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="717.5" font-size="14.5" font-weight="700" fill="#1a3868">5. Účtovné obdobie</text>
+<text x="107.0" y="741.5" font-size="13.0" fill="#374151">Obdobie (§ 3) = spravidla kalendárny rok, možný aj</text>
+<text x="107.0" y="758.0" font-size="13.0" fill="#374151">hospodársky (12 mesiacov, oznámiť DÚ); akruál: N a V</text>
+<text x="107.0" y="774.5" font-size="13.0" fill="#374151">do obdobia vecnej a časovej súvislosti, nie podľa</text>
+<text x="107.0" y="791.0" font-size="13.0" fill="#374151">úhrady. Verejná správa hosp. rok nemôže.</text>
+<rect x="810.0" y="113.0" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="113.0" width="7" height="134.5" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="140.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Sústavy účtovníctva (JÚ a PÚ)</text>
+<text x="827.0" y="164.0" font-size="13.0" fill="#374151">Pravidlom je PÚ; JÚ len taxatívny okruh (§ 9 ods.</text>
+<text x="827.0" y="180.5" font-size="13.0" fill="#374151">2): FO podnikateľ, vybrané neziskové (ak nepodnikajú</text>
+<text x="827.0" y="197.0" font-size="13.0" fill="#374151">a príjmy do 200 000 eur), cirkvi. PÚ = podvojne</text>
+<text x="827.0" y="213.5" font-size="13.0" fill="#374151">MD/D, akruál; JÚ = peňažný princíp. Prechod len k 1.</text>
+<text x="827.0" y="230.0" font-size="13.0" fill="#374151">dňu obdobia.</text>
+<rect x="810.0" y="267.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="267.5" width="7" height="153.5" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="294.5" font-size="14.5" font-weight="700" fill="#1a3868">7. Účet, rámcová účtová osnova a účtový</text>
+<text x="827.0" y="313.5" font-size="14.5" font-weight="700" fill="#1a3868">rozvrh</text>
+<text x="827.0" y="337.5" font-size="13.0" fill="#374151">Účet = dvojstranný (MD/D); v PÚ syntetické,</text>
+<text x="827.0" y="354.0" font-size="13.0" fill="#374151">analytické, podsúvahové. Rámcová osnova (§ 13,</text>
+<text x="827.0" y="370.5" font-size="13.0" fill="#374151">opatrenie 23054/2002-92) = záväzné triedy 0-7. Z nej</text>
+<text x="827.0" y="387.0" font-size="13.0" fill="#374151">si ÚJ zostaví vlastný účtový rozvrh; mimo rozvrhu sa</text>
+<text x="827.0" y="403.5" font-size="13.0" fill="#374151">účtovať nesmie.</text>
+<rect x="810.0" y="441.0" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="441.0" width="7" height="151.0" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="468.0" font-size="14.5" font-weight="700" fill="#1a3868">8. Účtovná dokumentácia a účtovné doklady</text>
+<text x="827.0" y="492.0" font-size="13.0" fill="#374151">Dokumentácia (§ 31) = doklady, zápisy, knihy,</text>
+<text x="827.0" y="508.5" font-size="13.0" fill="#374151">odpisový plán, súpisy, rozvrh, závierka. Doklad (§</text>
+<text x="827.0" y="525.0" font-size="13.0" fill="#374151">10) má 6 náležitostí vrátane dátumu uskutočnenia (ak</text>
+<text x="827.0" y="541.5" font-size="13.0" fill="#374151">odlišný) a podpisu (ak nie je EDI/VKS). Obeh:</text>
+<text x="827.0" y="558.0" font-size="13.0" fill="#374151">vyhotovenie - preskúmanie - predkontácia -</text>
+<text x="827.0" y="574.5" font-size="13.0" fill="#374151">zaúčtovanie - archivácia.</text>
+<rect x="810.0" y="612.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="612.0" width="7" height="153.5" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="639.0" font-size="14.5" font-weight="700" fill="#1a3868">9. Preukázateľnosť, uchovávanie a ochrana</text>
+<text x="827.0" y="658.0" font-size="14.5" font-weight="700" fill="#1a3868">dokumentácie</text>
+<text x="827.0" y="682.0" font-size="13.0" fill="#374151">Preukázateľnosť (§ 8 ods. 4, § 32): obsah dokazuje</text>
+<text x="827.0" y="698.5" font-size="13.0" fill="#374151">skutočnosť; vierohodnosť cez podpis, EDI alebo VKS;</text>
+<text x="827.0" y="715.0" font-size="13.0" fill="#374151">možná transformácia (§ 33). Ochrana proti strate (§</text>
+<text x="827.0" y="731.5" font-size="13.0" fill="#374151">35 ods. 1). Lehota uchovávania závierky aj dokladov</text>
+<text x="827.0" y="748.0" font-size="13.0" fill="#374151">a kníh = 10 rokov.</text>
+</svg>

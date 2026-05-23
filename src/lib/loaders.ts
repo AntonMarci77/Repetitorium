@@ -68,3 +68,23 @@ export function mapVisualSrc(subor: string): string {
   const m = subor.match(/([^\/\\]+\.svg)$/i);
   return m ? `/visuals/${m[1]}` : subor;
 }
+
+// Cesta k SVG mentálnej mapy pre danú tézu. Súbor je rovnaký ako index file
+// (napr. BC_I_01.svg) v /public/mapy/.
+export function mapSvgPath(id: string): string | null {
+  const item = THESIS_INDEX.find((t) => t.id === id);
+  if (!item) return null;
+  return `/mapy/${item.file.replace(/\.json$/i, ".svg")}`;
+}
+
+// Skontroluj či SVG mapa existuje (HEAD request).
+export async function svgMapaExists(id: string): Promise<boolean> {
+  const url = mapSvgPath(id);
+  if (!url) return false;
+  try {
+    const r = await fetch(url, { method: "HEAD", cache: "force-cache" });
+    return r.ok;
+  } catch {
+    return false;
+  }
+}

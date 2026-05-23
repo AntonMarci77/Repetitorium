@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1021" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="1021" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">BC I 05 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 525.5 C 420.0 525.5, 540.0 155.0, 470.0 155.0" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 525.5 C 420.0 525.5, 540.0 345.0, 470.0 345.0" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 525.5 C 420.0 525.5, 540.0 525.5, 470.0 525.5" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 525.5 C 420.0 525.5, 540.0 706.0, 470.0 706.0" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 525.5 C 420.0 525.5, 540.0 896.0, 470.0 896.0" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 525.5 C 860.0 525.5, 740.0 224.0, 810.0 224.0" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 525.5 C 860.0 525.5, 740.0 414.0, 810.0 414.0" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 525.5 C 860.0 525.5, 740.0 612.2, 810.0 612.2" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 525.5 C 860.0 525.5, 740.0 818.8, 810.0 818.8" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="475.0" width="300" height="101.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="508.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Dlhodobý a krátkodobý</text>
+<text x="640.0" y="531.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">finančný majetok a</text>
+<text x="640.0" y="554.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">finančné záväzky</text>
+<rect x="90.0" y="70.0" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="170.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Členenie a obsahové vymedzenie finančného</text>
+<text x="107.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">majetku</text>
+<text x="107.0" y="140.0" font-size="13.0" fill="#374151">Členenie podľa zámeru a doby držby: dlhodobý FM (sk.</text>
+<text x="107.0" y="156.5" font-size="13.0" fill="#374151">06: 061 dcéra, 062 podstatný vplyv, 063</text>
+<text x="107.0" y="173.0" font-size="13.0" fill="#374151">realizovateľné, 065 do splatnosti, 066/067 pôžičky),</text>
+<text x="107.0" y="189.5" font-size="13.0" fill="#374151">krátkodobý FM (sk. 25: 251/253 na obchodovanie, 257,</text>
+<text x="107.0" y="206.0" font-size="13.0" fill="#374151">258 kryptoaktíva), peniaze a ekvivalenty (trieda 2:</text>
+<text x="107.0" y="222.5" font-size="13.0" fill="#374151">211, 213, 221, 222 tokeny e-peňazí).</text>
+<rect x="90.0" y="260.0" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="260.0" width="7" height="170.0" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="287.0" font-size="14.5" font-weight="700" fill="#1a3868">2. Rozhodujúci je zámer a charakter cenného</text>
+<text x="107.0" y="306.0" font-size="14.5" font-weight="700" fill="#1a3868">papiera</text>
+<text x="107.0" y="330.0" font-size="13.0" fill="#374151">O zaradení rozhoduje zámer (§ 14 Postupov): na</text>
+<text x="107.0" y="346.5" font-size="13.0" fill="#374151">obchodovanie (sk. 25, krátkodobý zisk), držaný do</text>
+<text x="107.0" y="363.0" font-size="13.0" fill="#374151">splatnosti (065/256, dlhový), realizovateľný</text>
+<text x="107.0" y="379.5" font-size="13.0" fill="#374151">(zvyšková kategória 063/257), podiel v dcére (061,</text>
+<text x="107.0" y="396.0" font-size="13.0" fill="#374151">nad 50 %) vs. podstatný vplyv (062). Členenie určuje</text>
+<text x="107.0" y="412.5" font-size="13.0" fill="#374151">spôsob preceňovania.</text>
+<rect x="90.0" y="450.0" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="450.0" width="7" height="151.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="477.0" font-size="14.5" font-weight="700" fill="#1a3868">3. Oceňovanie pri obstaraní</text>
+<text x="107.0" y="501.0" font-size="13.0" fill="#374151">Pri obstaraní CP a podiely = obstarávacia cena</text>
+<text x="107.0" y="517.5" font-size="13.0" fill="#374151">(vrátane poplatkov a provízií); do OC NEvstupujú</text>
+<text x="107.0" y="534.0" font-size="13.0" fill="#374151">úroky z úveru a kurzové rozdiely. Obstaranie cez 043</text>
+<text x="107.0" y="550.5" font-size="13.0" fill="#374151">(dlhodobý) / 259 (krátkodobý), potom 06x/25x.</text>
+<text x="107.0" y="567.0" font-size="13.0" fill="#374151">Peniaze, tokeny e-peňazí a ceniny = menovitá</text>
+<text x="107.0" y="583.5" font-size="13.0" fill="#374151">hodnota.</text>
+<rect x="90.0" y="621.0" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="621.0" width="7" height="170.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="648.0" font-size="14.5" font-weight="700" fill="#1a3868">4. Oceňovanie ku dňu závierky – reálna</text>
+<text x="107.0" y="667.0" font-size="14.5" font-weight="700" fill="#1a3868">hodnota (§ 27)</text>
+<text x="107.0" y="691.0" font-size="13.0" fill="#374151">Ku dňu závierky reálnou hodnotou (§ 27 ods. 1 písm.</text>
+<text x="107.0" y="707.5" font-size="13.0" fill="#374151">a) sa preceňujú CP a podiely OKREM troch výnimiek:</text>
+<text x="107.0" y="724.0" font-size="13.0" fill="#374151">CP do splatnosti, vlastné emitované CP, podiely v</text>
+<text x="107.0" y="740.5" font-size="13.0" fill="#374151">dcére/s podielovou účasťou (možná metóda VI). RH =</text>
+<text x="107.0" y="757.0" font-size="13.0" fill="#374151">trhová cena, model, znalec. Mikro ÚJ, neziskovky a</text>
+<text x="107.0" y="773.5" font-size="13.0" fill="#374151">JÚ nepreceňujú (§ 27 ods. 11).</text>
+<rect x="90.0" y="811.0" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="811.0" width="7" height="170.0" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="838.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Kam ide zmena ocenenia – výsledok vs.</text>
+<text x="107.0" y="857.0" font-size="14.5" font-weight="700" fill="#1a3868">vlastné imanie</text>
+<text x="107.0" y="881.0" font-size="13.0" fill="#374151">Jadro témy: kam ide zmena ocenenia. CP na</text>
+<text x="107.0" y="897.5" font-size="13.0" fill="#374151">obchodovanie cez VÝSLEDOK (251 pokles 564 / nárast</text>
+<text x="107.0" y="914.0" font-size="13.0" fill="#374151">664; dlhové 253 cez 566/666). Realizovateľné CP</text>
+<text x="107.0" y="930.5" font-size="13.0" fill="#374151">(063, 257) a metóda VI (061, 062) cez VLASTNÉ IMANIE</text>
+<text x="107.0" y="947.0" font-size="13.0" fill="#374151">na účet 414, bez vplyvu na zisk; do výsledku až pri</text>
+<text x="107.0" y="963.5" font-size="13.0" fill="#374151">predaji.</text>
+<rect x="810.0" y="139.0" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="139.0" width="7" height="170.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="166.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Účtovanie cenných papierov – nákup,</text>
+<text x="827.0" y="185.0" font-size="14.5" font-weight="700" fill="#1a3868">výnosy, predaj</text>
+<text x="827.0" y="209.0" font-size="13.0" fill="#374151">Nákup 043/221 alebo 259/221, zaradenie 06x/25x.</text>
+<text x="827.0" y="225.5" font-size="13.0" fill="#374151">Výnosy z držby: dividendy 221/665 (dlhodobý) alebo</text>
+<text x="827.0" y="242.0" font-size="13.0" fill="#374151">221/666, úroky 662. PREDAJ vždy dva kroky: úbytok v</text>
+<text x="827.0" y="258.5" font-size="13.0" fill="#374151">účtovnej hodnote 561/06x(25x) a tržba 221/661;</text>
+<text x="827.0" y="275.0" font-size="13.0" fill="#374151">rozdiel = výsledok. Pri realizovateľných sa zruší aj</text>
+<text x="827.0" y="291.5" font-size="13.0" fill="#374151">414.</text>
+<rect x="810.0" y="329.0" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="329.0" width="7" height="170.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="356.0" font-size="14.5" font-weight="700" fill="#1a3868">7. Peniaze, bankové účty a ceniny (finančné</text>
+<text x="827.0" y="375.0" font-size="14.5" font-weight="700" fill="#1a3868">účty triedy 2)</text>
+<text x="827.0" y="399.0" font-size="13.0" fill="#374151">Trieda 2: 211 pokladnica (pokladničná kniha), 213</text>
+<text x="827.0" y="415.5" font-size="13.0" fill="#374151">ceniny (pred vydaním), 221 banka (môže byť aj</text>
+<text x="827.0" y="432.0" font-size="13.0" fill="#374151">pasívny - prečerpanie), 261 peniaze na ceste</text>
+<text x="827.0" y="448.5" font-size="13.0" fill="#374151">premosťuje časový nesúlad. Cudzia mena ku dňu</text>
+<text x="827.0" y="465.0" font-size="13.0" fill="#374151">závierky referenčným kurzom ECB - kurzové rozdiely</text>
+<text x="827.0" y="481.5" font-size="13.0" fill="#374151">563/663.</text>
+<rect x="810.0" y="519.0" width="380" height="186.5" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="519.0" width="7" height="186.5" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="546.0" font-size="14.5" font-weight="700" fill="#1a3868">8. Moderné platobné prostriedky a ich účtovné</text>
+<text x="827.0" y="565.0" font-size="14.5" font-weight="700" fill="#1a3868">zobrazenie</text>
+<text x="827.0" y="589.0" font-size="13.0" fill="#374151">Debetná karta čerpá vlastné prostriedky (221,</text>
+<text x="827.0" y="605.5" font-size="13.0" fill="#374151">poplatok 568; v praxi cez 261). Kreditná karta =</text>
+<text x="827.0" y="622.0" font-size="13.0" fill="#374151">krátkodobý úver, úhrada v prospech 231. Od 2025</text>
+<text x="827.0" y="638.5" font-size="13.0" fill="#374151">(novela MF/014948/2024-74): tokeny e-peňazí na 222 v</text>
+<text x="827.0" y="655.0" font-size="13.0" fill="#374151">menovitej hodnote bez precenenia; kryptoaktíva</text>
+<text x="827.0" y="671.5" font-size="13.0" fill="#374151">(Bitcoin) na 258 v reálnej hodnote pri obstaraní,</text>
+<text x="827.0" y="688.0" font-size="13.0" fill="#374151">počas držby bez precenenia.</text>
+<rect x="810.0" y="725.5" width="380" height="186.5" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="725.5" width="7" height="186.5" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="752.5" font-size="14.5" font-weight="700" fill="#1a3868">9. Finančné záväzky – vymedzenie, oceňovanie,</text>
+<text x="827.0" y="771.5" font-size="14.5" font-weight="700" fill="#1a3868">zobrazenie</text>
+<text x="827.0" y="795.5" font-size="13.0" fill="#374151">Finančný záväzok = prijaté cudzie zdroje na</text>
+<text x="827.0" y="812.0" font-size="13.0" fill="#374151">splatenie: úvery (231 krátkodobé, 461 dlhodobé),</text>
+<text x="827.0" y="828.5" font-size="13.0" fill="#374151">eskontné (232), vydané dlhopisy (241/473), výpomoci</text>
+<text x="827.0" y="845.0" font-size="13.0" fill="#374151">(249), zmenky (322/478). Ocenenie menovitou hodnotou</text>
+<text x="827.0" y="861.5" font-size="13.0" fill="#374151">pri vzniku, úroky finančný náklad 562, cudzia mena</text>
+<text x="827.0" y="878.0" font-size="13.0" fill="#374151">ku dňu závierky kurzom ECB (563/663). V súvahe</text>
+<text x="827.0" y="894.5" font-size="13.0" fill="#374151">delené na dlhodobé a krátkodobé.</text>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 818" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="818" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">BC I 08 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 424.0 C 420.0 424.0, 540.0 129.0, 470.0 129.0" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 424.0 C 420.0 424.0, 540.0 267.0, 470.0 267.0" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 424.0 C 420.0 424.0, 540.0 405.0, 470.0 405.0" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 424.0 C 420.0 424.0, 540.0 552.5, 470.0 552.5" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 424.0 C 420.0 424.0, 540.0 709.5, 470.0 709.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 424.0 C 860.0 424.0, 740.0 129.0, 810.0 129.0" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 424.0 C 860.0 424.0, 740.0 276.5, 810.0 276.5" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 424.0 C 860.0 424.0, 740.0 424.0, 810.0 424.0" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 424.0 C 860.0 424.0, 740.0 571.5, 810.0 571.5" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 424.0 C 860.0 424.0, 740.0 719.0, 810.0 719.0" stroke="#7c3aed" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="373.5" width="300" height="101.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="406.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Kalkulačný systém a</text>
+<text x="640.0" y="429.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">zodpovednostné</text>
+<text x="640.0" y="452.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">účtovníctvo</text>
+<rect x="90.0" y="70.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="118.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Predbežné kalkulácie (pred výkonom)</text>
+<text x="107.0" y="121.0" font-size="13.0" fill="#374151">Predbežné kalkulácie PRED výkonom podľa presnosti:</text>
+<text x="107.0" y="137.5" font-size="13.0" fill="#374151">prepočtová (nový výrobok, hrubý odhad, najmenej</text>
+<text x="107.0" y="154.0" font-size="13.0" fill="#374151">presná), plánová (priemer obdobia), operatívna</text>
+<text x="107.0" y="170.5" font-size="13.0" fill="#374151">(aktuálne podmienky, najpresnejšia).</text>
+<rect x="90.0" y="208.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="208.0" width="7" height="118.0" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="235.0" font-size="14.5" font-weight="700" fill="#1a3868">2. Výsledná kalkulácia a využitie (po výkone)</text>
+<text x="107.0" y="259.0" font-size="13.0" fill="#374151">Výsledná kalkulácia PO výkone = skutočné náklady na</text>
+<text x="107.0" y="275.5" font-size="13.0" fill="#374151">jednotku. Porovnaním s predbežnou sa zistí odchýlka</text>
+<text x="107.0" y="292.0" font-size="13.0" fill="#374151">(úspora/prekročenie); podmienka = porovnateľnosť.</text>
+<text x="107.0" y="308.5" font-size="13.0" fill="#374151">Slúži aj na ocenenie zásob.</text>
+<rect x="90.0" y="346.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="346.0" width="7" height="118.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="373.0" font-size="14.5" font-weight="700" fill="#1a3868">3. Typový kalkulačný vzorec a jeho štruktúra</text>
+<text x="107.0" y="397.0" font-size="13.0" fill="#374151">Typový vzorec retrográdne: priame náklady + výrobná</text>
+<text x="107.0" y="413.5" font-size="13.0" fill="#374151">réžia = VN výroby, + správna = VN výkonu, + odbytová</text>
+<text x="107.0" y="430.0" font-size="13.0" fill="#374151">= úplné VN výkonu, + zisk = cena. Prirážka z</text>
+<text x="107.0" y="446.5" font-size="13.0" fill="#374151">nákladov, marža z ceny.</text>
+<rect x="90.0" y="484.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="484.0" width="7" height="137.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="511.0" font-size="14.5" font-weight="700" fill="#1a3868">4. Kalkulačné metódy – nezdružená výroba:</text>
+<text x="107.0" y="530.0" font-size="14.5" font-weight="700" fill="#1a3868">delenie</text>
+<text x="107.0" y="554.0" font-size="13.0" fill="#374151">Nezdružená, delenie pri rovnorodej produkcii:</text>
+<text x="107.0" y="570.5" font-size="13.0" fill="#374151">jednoduché (1 výrobok = náklady/počet) a pomerovými</text>
+<text x="107.0" y="587.0" font-size="13.0" fill="#374151">(ekvivalenčnými) číslami (rovnorodé výrobky</text>
+<text x="107.0" y="603.5" font-size="13.0" fill="#374151">prepočítané na základný).</text>
+<rect x="90.0" y="641.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="641.0" width="7" height="137.0" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="668.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Kalkulačné metódy – nezdružená výroba:</text>
+<text x="107.0" y="687.0" font-size="14.5" font-weight="700" fill="#1a3868">prirážková kalkulácia</text>
+<text x="107.0" y="711.0" font-size="13.0" fill="#374151">Prirážková pri rôznorodých výkonoch: réžia cez</text>
+<text x="107.0" y="727.5" font-size="13.0" fill="#374151">rozvrhovú základňu ako prirážka (% z peňažnej</text>
+<text x="107.0" y="744.0" font-size="13.0" fill="#374151">základne) alebo sadzba (eur na naturálnu jednotku).</text>
+<text x="107.0" y="760.5" font-size="13.0" fill="#374151">Základňa musí byť príčinná.</text>
+<rect x="810.0" y="70.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="70.0" width="7" height="118.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Kalkulácia v združenej výrobe</text>
+<text x="827.0" y="121.0" font-size="13.0" fill="#374151">Združená výroba (z 1 procesu viac produktov):</text>
+<text x="827.0" y="137.5" font-size="13.0" fill="#374151">rozčítavacia (viac rovnocenných hlavných, rozdelenie</text>
+<text x="827.0" y="154.0" font-size="13.0" fill="#374151">v pomere), zostatková (1 hlavný + vedľajšie, odpočet</text>
+<text x="827.0" y="170.5" font-size="13.0" fill="#374151">ich hodnoty), kombinovaná.</text>
+<rect x="810.0" y="208.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="208.0" width="7" height="137.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="235.0" font-size="14.5" font-weight="700" fill="#1a3868">7. Kalkulácia podľa čiastkových činností</text>
+<text x="827.0" y="254.0" font-size="14.5" font-weight="700" fill="#1a3868">(ABC)</text>
+<text x="827.0" y="278.0" font-size="13.0" fill="#374151">ABC: aktivity spotrebúvajú zdroje, výkony</text>
+<text x="827.0" y="294.5" font-size="13.0" fill="#374151">spotrebúvajú aktivity. Réžia cez cost driver (počet</text>
+<text x="827.0" y="311.0" font-size="13.0" fill="#374151">objednávok, nastavení) do nákladových súborov.</text>
+<text x="827.0" y="327.5" font-size="13.0" fill="#374151">Presnejšia pri vysokých réžiách a rôznorodosti.</text>
+<rect x="810.0" y="365.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="365.0" width="7" height="118.0" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="392.0" font-size="14.5" font-weight="700" fill="#1a3868">8. Zodpovednostné účtovníctvo a strediská</text>
+<text x="827.0" y="416.0" font-size="13.0" fill="#374151">Strediská podľa rastúcej zodpovednosti: nákladové</text>
+<text x="827.0" y="432.5" font-size="13.0" fill="#374151">(Náklady), výnosové (Výnosy), ziskové/profit center</text>
+<text x="827.0" y="449.0" font-size="13.0" fill="#374151">(Zisk), investičné (zisk + kapitál, ROI/RI/EVA).</text>
+<text x="827.0" y="465.5" font-size="13.0" fill="#374151">Vedenie 59/69 alebo triedy 8 a 9.</text>
+<rect x="810.0" y="503.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="503.0" width="7" height="137.0" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="530.0" font-size="14.5" font-weight="700" fill="#1a3868">9. Vnútropodnikové ceny na báze nákladov a na</text>
+<text x="827.0" y="549.0" font-size="14.5" font-weight="700" fill="#1a3868">báze zisku</text>
+<text x="827.0" y="573.0" font-size="13.0" fill="#374151">VP cena na báze nákladov = bez vnútorného zisku,</text>
+<text x="827.0" y="589.5" font-size="13.0" fill="#374151">kontrola (nákladové strediská); na báze zisku =</text>
+<text x="827.0" y="606.0" font-size="13.0" fill="#374151">náklady + prirážka, motivácia (ziskové/investičné),</text>
+<text x="827.0" y="622.5" font-size="13.0" fill="#374151">riziko suboptimalizácie.</text>
+<rect x="810.0" y="660.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#7c3aed" stroke-width="2.5"/>
+<rect x="810.0" y="660.0" width="7" height="118.0" rx="3.5" fill="#7c3aed"/>
+<text x="827.0" y="687.0" font-size="14.5" font-weight="700" fill="#1a3868">10. Rozpočty – význam, typy a kontrola</text>
+<text x="827.0" y="711.0" font-size="13.0" fill="#374151">Rozpočet = plán nákladov/výnosov na CELOK a obdobie</text>
+<text x="827.0" y="727.5" font-size="13.0" fill="#374151">(kalkulácia na KUS). Funkcie: plánovanie,</text>
+<text x="827.0" y="744.0" font-size="13.0" fill="#374151">koordinácia, kontrola (odchýlky). Prevádzkové +</text>
+<text x="827.0" y="760.5" font-size="13.0" fill="#374151">finančné = master; flexibilný, ZBB, kĺzavý.</text>
+</svg>

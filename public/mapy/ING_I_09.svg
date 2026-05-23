@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 776" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="776" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING I 09 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 403.2 C 420.0 403.2, 540.0 162.0, 470.0 162.0" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 403.2 C 420.0 403.2, 540.0 326.0, 470.0 326.0" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 403.2 C 420.0 403.2, 540.0 490.0, 470.0 490.0" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 403.2 C 420.0 403.2, 540.0 644.5, 470.0 644.5" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 403.2 C 860.0 403.2, 740.0 145.5, 810.0 145.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 403.2 C 860.0 403.2, 740.0 316.5, 810.0 316.5" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 403.2 C 860.0 403.2, 740.0 479.2, 810.0 479.2" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 403.2 C 860.0 403.2, 740.0 651.5, 810.0 651.5" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="329.8" width="300" height="147.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="362.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Zahŕňanie pridružených</text>
+<text x="640.0" y="385.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">podnikov a spoločných</text>
+<text x="640.0" y="408.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">podnikov do</text>
+<text x="640.0" y="431.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">konsolidovanej účtovnej</text>
+<text x="640.0" y="454.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">závierky podľa IFRS</text>
+<rect x="90.0" y="94.8" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="94.8" width="7" height="134.5" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="121.8" font-size="14.5" font-weight="700" fill="#1a3868">1. Spoločná kontrola podľa IFRS 11</text>
+<text x="107.0" y="145.8" font-size="13.0" fill="#374151">Spoločná kontrola (IFRS 11) = zmluvne dohodnuté</text>
+<text x="107.0" y="162.2" font-size="13.0" fill="#374151">spoluovládanie, ktoré existuje LEN keď rozhodnutia o</text>
+<text x="107.0" y="178.8" font-size="13.0" fill="#374151">relevantných činnostiach vyžadujú JEDNOMYSEĽNÝ</text>
+<text x="107.0" y="195.2" font-size="13.0" fill="#374151">súhlas spoluovládajúcich strán. Bez zmluvy nejde o</text>
+<text x="107.0" y="211.8" font-size="13.0" fill="#374151">spoločnú dohodu.</text>
+<rect x="90.0" y="249.2" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="249.2" width="7" height="153.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="276.2" font-size="14.5" font-weight="700" fill="#1a3868">2. Dva typy spoločných dohôd a posúdenie</text>
+<text x="107.0" y="295.2" font-size="14.5" font-weight="700" fill="#1a3868">úsudkom</text>
+<text x="107.0" y="319.2" font-size="13.0" fill="#374151">Dva typy: spoločná prevádzka a spoločný podnik –</text>
+<text x="107.0" y="335.8" font-size="13.0" fill="#374151">klasifikuje sa ÚSUDKOM, nie podľa názvu. Bez</text>
+<text x="107.0" y="352.2" font-size="13.0" fill="#374151">osobitného subjektu = vždy prevádzka; s osobitným</text>
+<text x="107.0" y="368.8" font-size="13.0" fill="#374151">subjektom oboje (rozhoduje právna forma, zmluva,</text>
+<text x="107.0" y="385.2" font-size="13.0" fill="#374151">ručenie vs. právo na čisté aktíva).</text>
+<rect x="90.0" y="422.8" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="422.8" width="7" height="134.5" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="449.8" font-size="14.5" font-weight="700" fill="#1a3868">3. Spoločná prevádzka – účtovanie podielu</text>
+<text x="107.0" y="473.8" font-size="13.0" fill="#374151">Spoločná prevádzka = priame práva na aktíva a</text>
+<text x="107.0" y="490.2" font-size="13.0" fill="#374151">povinnosti za záväzky. Prevádzkovateľ vykáže POMERNE</text>
+<text x="107.0" y="506.8" font-size="13.0" fill="#374151">priamo v riadkoch (podiel na aktívach, záväzkoch,</text>
+<text x="107.0" y="523.2" font-size="13.0" fill="#374151">výnosoch, nákladoch); žiadna investícia. NEjde o</text>
+<text x="107.0" y="539.8" font-size="13.0" fill="#374151">zrušenú pomernú konsolidáciu.</text>
+<rect x="90.0" y="577.2" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="577.2" width="7" height="134.5" rx="3.5" fill="#803594"/>
+<text x="107.0" y="604.2" font-size="14.5" font-weight="700" fill="#1a3868">4. Spoločný podnik – metóda vlastného imania</text>
+<text x="107.0" y="628.2" font-size="13.0" fill="#374151">Spoločný podnik = právo len na ČISTÉ AKTÍVA dohody.</text>
+<text x="107.0" y="644.8" font-size="13.0" fill="#374151">Spoločník ho zahŕňa METÓDOU VLASTNÉHO IMANIA (IAS</text>
+<text x="107.0" y="661.2" font-size="13.0" fill="#374151">28) – jedna preceňovaná investícia. Rozdiel:</text>
+<text x="107.0" y="677.8" font-size="13.0" fill="#374151">prevádzka = aktíva/záväzky (pomerne), podnik = čisté</text>
+<text x="107.0" y="694.2" font-size="13.0" fill="#374151">aktíva (equity).</text>
+<rect x="810.0" y="70.0" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="810.0" y="70.0" width="7" height="151.0" rx="3.5" fill="#6a6eb3"/>
+<text x="827.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Podstatný vplyv podľa IAS 28</text>
+<text x="827.0" y="121.0" font-size="13.0" fill="#374151">Podstatný vplyv = podiel na rozhodovaní o</text>
+<text x="827.0" y="137.5" font-size="13.0" fill="#374151">finančných/prevádzkových zámeroch BEZ</text>
+<text x="827.0" y="154.0" font-size="13.0" fill="#374151">ovládania/spoluovládania. Vyvrátiteľná domnienka: 20</text>
+<text x="827.0" y="170.5" font-size="13.0" fill="#374151">% a viac hlasov → vplyv, menej → bez vplyvu;</text>
+<text x="827.0" y="187.0" font-size="13.0" fill="#374151">rozhoduje podstata. Pridružený podnik = jednotka s</text>
+<text x="827.0" y="203.5" font-size="13.0" fill="#374151">podstatným vplyvom.</text>
+<rect x="810.0" y="241.0" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="241.0" width="7" height="151.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="268.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Podstata metódy vlastného imania</text>
+<text x="827.0" y="292.0" font-size="13.0" fill="#374151">Equity metóda: investícia PRVOTNE v obstarávacej</text>
+<text x="827.0" y="308.5" font-size="13.0" fill="#374151">cene, potom úprava o podiel na zmene čistých aktív.</text>
+<text x="827.0" y="325.0" font-size="13.0" fill="#374151">(+) podiel na zisku do VH, (+/-) podiel na OSKV, (-)</text>
+<text x="827.0" y="341.5" font-size="13.0" fill="#374151">dividendy znižujú investíciu (NIE výnos). Goodwill</text>
+<text x="827.0" y="358.0" font-size="13.0" fill="#374151">je v investícii (neamortizuje sa); testuje sa celá</text>
+<text x="827.0" y="374.5" font-size="13.0" fill="#374151">investícia.</text>
+<rect x="810.0" y="412.0" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="412.0" width="7" height="134.5" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="439.0" font-size="14.5" font-weight="700" fill="#1a3868">7. Zahŕňanie do KÚZ a vykazovanie strát</text>
+<text x="827.0" y="463.0" font-size="13.0" fill="#374151">Equity metóda od nadobudnutia vplyvu do straty;</text>
+<text x="827.0" y="479.5" font-size="13.0" fill="#374151">rovnaký deň (max. 3 mesiace), jednotná politika.</text>
+<text x="827.0" y="496.0" font-size="13.0" fill="#374151">Nerealizované zisky/straty sa eliminujú v rozsahu</text>
+<text x="827.0" y="512.5" font-size="13.0" fill="#374151">podielu. Pri stratách hodnota neklesne pod nulu;</text>
+<text x="827.0" y="529.0" font-size="13.0" fill="#374151">zisk sa vykazuje až po vyrovnaní nevykázaných strát.</text>
+<rect x="810.0" y="566.5" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="566.5" width="7" height="170.0" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="593.5" font-size="14.5" font-weight="700" fill="#1a3868">8. Výnimky z uplatnenia metódy vlastného</text>
+<text x="827.0" y="612.5" font-size="14.5" font-weight="700" fill="#1a3868">imania</text>
+<text x="827.0" y="636.5" font-size="13.0" fill="#374151">Equity metódu netreba uplatniť, ak je investor</text>
+<text x="827.0" y="653.0" font-size="13.0" fill="#374151">materskou oslobodenou od KÚZ alebo spĺňa obdobné</text>
+<text x="827.0" y="669.5" font-size="13.0" fill="#374151">podmienky (dcéra bez námietok, neverejný, vyššia</text>
+<text x="827.0" y="686.0" font-size="13.0" fill="#374151">materská robí KÚZ podľa IFRS). Rizikový</text>
+<text x="827.0" y="702.5" font-size="13.0" fill="#374151">kapitál/fondy môžu oceniť v RH cez VH (IFRS 9);</text>
+<text x="827.0" y="719.0" font-size="13.0" fill="#374151">držaná na predaj → IFRS 5.</text>
+</svg>

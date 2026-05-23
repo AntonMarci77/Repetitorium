@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 837" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="837" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING II 04 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 433.5 C 420.0 433.5, 540.0 138.5, 470.0 138.5" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 433.5 C 420.0 433.5, 540.0 295.5, 470.0 295.5" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 433.5 C 420.0 433.5, 540.0 452.5, 470.0 452.5" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 433.5 C 420.0 433.5, 540.0 600.0, 470.0 600.0" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 433.5 C 420.0 433.5, 540.0 738.0, 470.0 738.0" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 433.5 C 860.0 433.5, 740.0 148.0, 810.0 148.0" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 433.5 C 860.0 433.5, 740.0 295.5, 810.0 295.5" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 433.5 C 860.0 433.5, 740.0 433.5, 810.0 433.5" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 433.5 C 860.0 433.5, 740.0 581.0, 810.0 581.0" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 433.5 C 860.0 433.5, 740.0 728.5, 810.0 728.5" stroke="#7c3aed" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="394.5" width="300" height="78.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="427.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Audit konsolidovanej</text>
+<text x="640.0" y="450.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">účtovnej závierky</text>
+<rect x="90.0" y="70.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="137.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Skupinový audítor, audítor komponentu,</text>
+<text x="107.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">komponent (ISA 600 revidovaný)</text>
+<text x="107.0" y="140.0" font-size="13.0" fill="#374151">Skupinový (poverený) audítor nesie PLNÚ a</text>
+<text x="107.0" y="156.5" font-size="13.0" fill="#374151">nedeliteľnú zodpovednosť za výrok. Revízia ISA 600:</text>
+<text x="107.0" y="173.0" font-size="13.0" fill="#374151">audítor komponentu je ČLEN tímu zákazky, nie subjekt</text>
+<text x="107.0" y="189.5" font-size="13.0" fill="#374151">na spoľahnutie.</text>
+<rect x="90.0" y="227.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="227.0" width="7" height="137.0" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="254.0" font-size="14.5" font-weight="700" fill="#1a3868">2. Rizikovo orientovaný prístup zhora nadol a</text>
+<text x="107.0" y="273.0" font-size="14.5" font-weight="700" fill="#1a3868">rozsah (scoping)</text>
+<text x="107.0" y="297.0" font-size="13.0" fill="#374151">Zrušené delenie komponentov podľa veľkosti. Najprv</text>
+<text x="107.0" y="313.5" font-size="13.0" fill="#374151">riziká na úrovni konsolidovanej ÚZ, potom scoping</text>
+<text x="107.0" y="330.0" font-size="13.0" fill="#374151">komponentov rizikovo zhora nadol. Významnosť pre</text>
+<text x="107.0" y="346.5" font-size="13.0" fill="#374151">komponent je nižšia než pre skupinu.</text>
+<rect x="90.0" y="384.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="384.0" width="7" height="137.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="411.0" font-size="14.5" font-weight="700" fill="#1a3868">3. Komunikácia, dohľad a vyhodnotenie práce</text>
+<text x="107.0" y="430.0" font-size="14.5" font-weight="700" fill="#1a3868">audítora komponentu</text>
+<text x="107.0" y="454.0" font-size="13.0" fill="#374151">Skupinový audítor komunikuje požiadavky, posúdi a</text>
+<text x="107.0" y="470.5" font-size="13.0" fill="#374151">preverí prácu audítora komponentu. Konsolidačný</text>
+<text x="107.0" y="487.0" font-size="13.0" fill="#374151">proces (eliminácie, meny, goodwill, NCI) audituje</text>
+<text x="107.0" y="503.5" font-size="13.0" fill="#374151">priamo skupinový tím.</text>
+<rect x="90.0" y="541.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="541.0" width="7" height="118.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="568.0" font-size="14.5" font-weight="700" fill="#1a3868">4. Využitie práce interného auditu (ISA 610)</text>
+<text x="107.0" y="592.0" font-size="13.0" fill="#374151">ISA 610: využitie PRÁCE interného auditu (ak</text>
+<text x="107.0" y="608.5" font-size="13.0" fill="#374151">objektívny, kompetentný, systematický) alebo PRIAMA</text>
+<text x="107.0" y="625.0" font-size="13.0" fill="#374151">POMOC pod dohľadom. Zodpovednosť ostáva na</text>
+<text x="107.0" y="641.5" font-size="13.0" fill="#374151">audítorovi; vysoký úsudok/riziko si robí sám.</text>
+<rect x="90.0" y="679.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="679.0" width="7" height="118.0" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="706.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Využitie práce experta audítora (ISA 620)</text>
+<text x="107.0" y="730.0" font-size="13.0" fill="#374151">ISA 620: expert audítora pri odbornosti mimo auditu.</text>
+<text x="107.0" y="746.5" font-size="13.0" fill="#374151">Posúdiť kompetentnosť, objektivitu a primeranosť</text>
+<text x="107.0" y="763.0" font-size="13.0" fill="#374151">zistení (údaje, predpoklady, metódy). V</text>
+<text x="107.0" y="779.5" font-size="13.0" fill="#374151">nemodifikovanej správe sa nespomína.</text>
+<rect x="810.0" y="79.5" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="79.5" width="7" height="137.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="106.5" font-size="14.5" font-weight="700" fill="#1a3868">6. Audit účtovných odhadov (ISA 540</text>
+<text x="827.0" y="125.5" font-size="14.5" font-weight="700" fill="#1a3868">revidovaný)</text>
+<text x="827.0" y="149.5" font-size="13.0" fill="#374151">ISA 540 (rev.): porozumieť odhadu manažmentu; IR cez</text>
+<text x="827.0" y="166.0" font-size="13.0" fill="#374151">neistotu, zložitosť, subjektívnosť, zaujatosť.</text>
+<text x="827.0" y="182.5" font-size="13.0" fill="#374151">Reakcia: test postupu, vlastný odhad/rozpätie alebo</text>
+<text x="827.0" y="199.0" font-size="13.0" fill="#374151">udalosti po závierke. Skepticizmus.</text>
+<rect x="810.0" y="236.5" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="236.5" width="7" height="118.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="263.5" font-size="14.5" font-weight="700" fill="#1a3868">7. Spriaznené osoby (ISA 550)</text>
+<text x="827.0" y="287.5" font-size="13.0" fill="#374151">ISA 550: spriaznené osoby nesú riziko podvodu a</text>
+<text x="827.0" y="304.0" font-size="13.0" fill="#374151">netrhových podmienok. Pri skupine sú vnútroskupinové</text>
+<text x="827.0" y="320.5" font-size="13.0" fill="#374151">vzťahy spriaznené - kľúčové je úplné zachytenie a</text>
+<text x="827.0" y="337.0" font-size="13.0" fill="#374151">správna eliminácia.</text>
+<rect x="810.0" y="374.5" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="374.5" width="7" height="118.0" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="401.5" font-size="14.5" font-weight="700" fill="#1a3868">8. Následné udalosti (ISA 560)</text>
+<text x="827.0" y="425.5" font-size="13.0" fill="#374151">ISA 560: upravujúce udalosti (dôkaz o stave k</text>
+<text x="827.0" y="442.0" font-size="13.0" fill="#374151">súvahovému dňu) → do závierky; neupravujúce → len</text>
+<text x="827.0" y="458.5" font-size="13.0" fill="#374151">zverejniť. Po dátume správy bez povinnosti pátrať,</text>
+<text x="827.0" y="475.0" font-size="13.0" fill="#374151">ale ak sa dozvie, koná.</text>
+<rect x="810.0" y="512.5" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="512.5" width="7" height="137.0" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="539.5" font-size="14.5" font-weight="700" fill="#1a3868">9. Going concern – nepretržité pokračovanie</text>
+<text x="827.0" y="558.5" font-size="14.5" font-weight="700" fill="#1a3868">(ISA 570)</text>
+<text x="827.0" y="582.5" font-size="13.0" fill="#374151">ISA 570: posúdiť vhodnosť predpokladu a významnú</text>
+<text x="827.0" y="599.0" font-size="13.0" fill="#374151">pochybnosť (min. 12 mes.). Vhodný + zverejnená</text>
+<text x="827.0" y="615.5" font-size="13.0" fill="#374151">neistota → osobitný odsek; nezverejnená →</text>
+<text x="827.0" y="632.0" font-size="13.0" fill="#374151">výhrada/záporný; nevhodný → záporný.</text>
+<rect x="810.0" y="669.5" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#7c3aed" stroke-width="2.5"/>
+<rect x="810.0" y="669.5" width="7" height="118.0" rx="3.5" fill="#7c3aed"/>
+<text x="827.0" y="696.5" font-size="14.5" font-weight="700" fill="#1a3868">10. Písomné vyhlásenia manažmentu (ISA 580)</text>
+<text x="827.0" y="720.5" font-size="13.0" fill="#374151">ISA 580: vyhlásenia potvrdzujú zodpovednosť</text>
+<text x="827.0" y="737.0" font-size="13.0" fill="#374151">manažmentu a tvrdenia (550, 570, 560, 540). Nutný,</text>
+<text x="827.0" y="753.5" font-size="13.0" fill="#374151">ale NIE postačujúci dôkaz; odmietnutie môže viesť až</text>
+<text x="827.0" y="770.0" font-size="13.0" fill="#374151">k odmietnutiu vyjadrenia výroku.</text>
+</svg>

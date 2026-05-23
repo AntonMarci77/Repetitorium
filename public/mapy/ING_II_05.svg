@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 875" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="875" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING II 05 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 452.5 C 420.0 452.5, 540.0 165.8, 470.0 165.8" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 452.5 C 420.0 452.5, 540.0 303.8, 470.0 303.8" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 452.5 C 420.0 452.5, 540.0 451.2, 470.0 451.2" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 452.5 C 420.0 452.5, 540.0 598.8, 470.0 598.8" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 452.5 C 420.0 452.5, 540.0 738.0, 470.0 738.0" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 452.5 C 860.0 452.5, 740.0 138.5, 810.0 138.5" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 452.5 C 860.0 452.5, 740.0 286.0, 810.0 286.0" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 452.5 C 860.0 452.5, 740.0 433.5, 810.0 433.5" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 452.5 C 860.0 452.5, 740.0 600.0, 810.0 600.0" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 452.5 C 860.0 452.5, 740.0 766.5, 810.0 766.5" stroke="#7c3aed" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="402.0" width="300" height="101.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="435.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Správa nezávislého</text>
+<text x="640.0" y="458.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">audítora a jeho</text>
+<text x="640.0" y="481.0" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">komunikácia</text>
+<rect x="90.0" y="106.8" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="106.8" width="7" height="118.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="133.8" font-size="14.5" font-weight="700" fill="#1a3868">1. Formovanie názoru a obsah správy (ISA 700)</text>
+<text x="107.0" y="157.8" font-size="13.0" fill="#374151">ISA 700: audítor formuje názor (pravdivý a verný</text>
+<text x="107.0" y="174.2" font-size="13.0" fill="#374151">obraz). Po revízii 2016 je NÁZOR prvým vecným</text>
+<text x="107.0" y="190.8" font-size="13.0" fill="#374151">blokom, nasleduje Základ pre názor, going concern,</text>
+<text x="107.0" y="207.2" font-size="13.0" fill="#374151">KAM, zodpovednosti, podpis partnera.</text>
+<rect x="90.0" y="244.8" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="244.8" width="7" height="118.0" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="271.8" font-size="14.5" font-weight="700" fill="#1a3868">2. Nemodifikovaný (čistý) názor</text>
+<text x="107.0" y="295.8" font-size="13.0" fill="#374151">Nemodifikovaný (čistý) názor: dostatočné dôkazy,</text>
+<text x="107.0" y="312.2" font-size="13.0" fill="#374151">závierka bez VÝZNAMNÝCH nesprávností. Neznamená</text>
+<text x="107.0" y="328.8" font-size="13.0" fill="#374151">bezchybnosť. Možno doplniť Emphasis/Other Matter bez</text>
+<text x="107.0" y="345.2" font-size="13.0" fill="#374151">zmeny názoru.</text>
+<rect x="90.0" y="382.8" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="382.8" width="7" height="137.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="409.8" font-size="14.5" font-weight="700" fill="#1a3868">3. Dve osi modifikácie: charakter ×</text>
+<text x="107.0" y="428.8" font-size="14.5" font-weight="700" fill="#1a3868">všeobsiahlosť (ISA 705)</text>
+<text x="107.0" y="452.8" font-size="13.0" fill="#374151">Dve osi: charakter (závierka významne NESPRÁVNA vs.</text>
+<text x="107.0" y="469.2" font-size="13.0" fill="#374151">NEDOSTATOK dôkazov) × všeobsiahlosť (materiálne</text>
+<text x="107.0" y="485.8" font-size="13.0" fill="#374151">ohraničené vs. všeobsiahle = preniká alebo zásadné</text>
+<text x="107.0" y="502.2" font-size="13.0" fill="#374151">zverejnenia).</text>
+<rect x="90.0" y="539.8" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="539.8" width="7" height="118.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="566.8" font-size="14.5" font-weight="700" fill="#1a3868">4. Tri typy modifikovaného názoru (ISA 705)</text>
+<text x="107.0" y="590.8" font-size="13.0" fill="#374151">Z prieniku: VÝHRADA (materiálne, nie všeobsiahle),</text>
+<text x="107.0" y="607.2" font-size="13.0" fill="#374151">ZÁPORNÝ (nesprávnosť materiálna A všeobsiahla),</text>
+<text x="107.0" y="623.8" font-size="13.0" fill="#374151">ODMIETNUTIE (nedostatok dôkazov materiálny A</text>
+<text x="107.0" y="640.2" font-size="13.0" fill="#374151">všeobsiahly). Upraví sa Základ pre názor.</text>
+<rect x="90.0" y="677.8" width="380" height="120.5" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="677.8" width="7" height="120.5" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="704.8" font-size="14.5" font-weight="700" fill="#1a3868">5. Odsek so zdôraznením skutočností (Emphasis</text>
+<text x="107.0" y="723.8" font-size="14.5" font-weight="700" fill="#1a3868">of Matter, ISA 706)</text>
+<text x="107.0" y="747.8" font-size="13.0" fill="#374151">Emphasis of Matter: upozorní na skutočnosť SPRÁVNE</text>
+<text x="107.0" y="764.2" font-size="13.0" fill="#374151">zverejnenú V závierke, zásadnú pre pochopenie; bez</text>
+<text x="107.0" y="780.8" font-size="13.0" fill="#374151">novej informácie, nemodifikuje názor, nie je KAM.</text>
+<rect x="810.0" y="70.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="70.0" width="7" height="137.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Odsek o inej skutočnosti (Other Matter,</text>
+<text x="827.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">ISA 706)</text>
+<text x="827.0" y="140.0" font-size="13.0" fill="#374151">Other Matter: skutočnosť, ktorá NIE JE v závierke,</text>
+<text x="827.0" y="156.5" font-size="13.0" fill="#374151">ale je relevantná pre audit/správu (napr. predch.</text>
+<text x="827.0" y="173.0" font-size="13.0" fill="#374151">obdobie auditoval iný audítor). Test: v poznámke →</text>
+<text x="827.0" y="189.5" font-size="13.0" fill="#374151">Emphasis; mimo → Other.</text>
+<rect x="810.0" y="227.0" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="227.0" width="7" height="118.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="254.0" font-size="14.5" font-weight="700" fill="#1a3868">7. Kľúčové záležitosti auditu – KAM (ISA 701)</text>
+<text x="827.0" y="278.0" font-size="13.0" fill="#374151">KAM (ISA 701): najvýznamnejšie záležitosti pri</text>
+<text x="827.0" y="294.5" font-size="13.0" fill="#374151">audite bežného obdobia z vecí komunikovaných správe;</text>
+<text x="827.0" y="311.0" font-size="13.0" fill="#374151">opísať prečo kľúčové a ako sa audítor zaoberal.</text>
+<text x="827.0" y="327.5" font-size="13.0" fill="#374151">Povinné pre kótované; nie sú modifikáciou.</text>
+<rect x="810.0" y="365.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="365.0" width="7" height="137.0" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="392.0" font-size="14.5" font-weight="700" fill="#1a3868">8. Porovnávacie informácie – zodpovedajúce</text>
+<text x="827.0" y="411.0" font-size="14.5" font-weight="700" fill="#1a3868">údaje (ISA 710)</text>
+<text x="827.0" y="435.0" font-size="13.0" fill="#374151">ISA 710: zodpovedajúce údaje = porovnávacie sú</text>
+<text x="827.0" y="451.5" font-size="13.0" fill="#374151">súčasťou bežnej závierky, názor sa vzťahuje LEN na</text>
+<text x="827.0" y="468.0" font-size="13.0" fill="#374151">bežné obdobie. Comparative FS = názor ku každému</text>
+<text x="827.0" y="484.5" font-size="13.0" fill="#374151">obdobiu. Predch. iný audítor → Other Matter.</text>
+<rect x="810.0" y="522.0" width="380" height="156.0" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="522.0" width="7" height="156.0" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="549.0" font-size="14.5" font-weight="700" fill="#1a3868">9. Komunikácia s manažmentom a osobami</text>
+<text x="827.0" y="568.0" font-size="14.5" font-weight="700" fill="#1a3868">poverenými správou a riadením (ISA 260) a</text>
+<text x="827.0" y="587.0" font-size="14.5" font-weight="700" fill="#1a3868">podvody (ISA 240)</text>
+<text x="827.0" y="611.0" font-size="13.0" fill="#374151">ISA 260: priebežne komunikovať s osobami poverenými</text>
+<text x="827.0" y="627.5" font-size="13.0" fill="#374151">správou (rozsah, zistenia, nezávislosť). ISA 240:</text>
+<text x="827.0" y="644.0" font-size="13.0" fill="#374151">skepticizmus, riziko podvodu (výnosy, obchádzanie</text>
+<text x="827.0" y="660.5" font-size="13.0" fill="#374151">kontrol); zistenia komunikovať.</text>
+<rect x="810.0" y="698.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#7c3aed" stroke-width="2.5"/>
+<rect x="810.0" y="698.0" width="7" height="137.0" rx="3.5" fill="#7c3aed"/>
+<text x="827.0" y="725.0" font-size="14.5" font-weight="700" fill="#1a3868">10. Osobitosti správy pre subjekty verejného</text>
+<text x="827.0" y="744.0" font-size="14.5" font-weight="700" fill="#1a3868">záujmu (nariadenie 537/2014)</text>
+<text x="827.0" y="768.0" font-size="13.0" fill="#374151">SVZ (nariadenie 537/2014, čl. 10): navyše</text>
+<text x="827.0" y="784.5" font-size="13.0" fill="#374151">vymenovanie a dĺžka zákazky, opis najzávažnejších</text>
+<text x="827.0" y="801.0" font-size="13.0" fill="#374151">rizík, konzistentnosť s dodatočnou správou (čl. 11),</text>
+<text x="827.0" y="817.5" font-size="13.0" fill="#374151">zakázané služby. KAM povinné.</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 938" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="938" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">BC I 03 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 484.2 C 420.0 484.2, 540.0 137.2, 470.0 137.2" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 484.2 C 420.0 484.2, 540.0 301.2, 470.0 301.2" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 484.2 C 420.0 484.2, 540.0 474.8, 470.0 474.8" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 484.2 C 420.0 484.2, 540.0 648.2, 470.0 648.2" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 484.2 C 420.0 484.2, 540.0 821.8, 470.0 821.8" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 484.2 C 860.0 484.2, 740.0 215.8, 810.0 215.8" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 484.2 C 860.0 484.2, 740.0 379.8, 810.0 379.8" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 484.2 C 860.0 484.2, 740.0 553.2, 810.0 553.2" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 484.2 C 860.0 484.2, 740.0 735.0, 810.0 735.0" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="445.2" width="300" height="78.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="478.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Oceňovanie, účtovné</text>
+<text x="640.0" y="501.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">zásady a účtovné metódy</text>
+<rect x="90.0" y="70.0" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="134.5" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Dva dni ocenenia (§ 24 ods. 1)</text>
+<text x="107.0" y="121.0" font-size="13.0" fill="#374151">Dva dni ocenenia (§ 24 ods. 1): a) deň uskutočnenia</text>
+<text x="107.0" y="137.5" font-size="13.0" fill="#374151">účtovného prípadu - ocenenie podľa § 25 (vstupná</text>
+<text x="107.0" y="154.0" font-size="13.0" fill="#374151">cena); b) deň zostavenia závierky - ocenenie podľa §</text>
+<text x="107.0" y="170.5" font-size="13.0" fill="#374151">27 (precenenie na RH, OP, rezervy, kurzy). Vstup</text>
+<text x="107.0" y="187.0" font-size="13.0" fill="#374151">fixuje historickú cenu, závierka ho aktualizuje.</text>
+<rect x="90.0" y="224.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="224.5" width="7" height="153.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="251.5" font-size="14.5" font-weight="700" fill="#1a3868">2. Oceňovacie veličiny pri prírastku (§ 25</text>
+<text x="107.0" y="270.5" font-size="14.5" font-weight="700" fill="#1a3868">ods. 1 a 6)</text>
+<text x="107.0" y="294.5" font-size="13.0" fill="#374151">Veličina pri prírastku podľa spôsobu nadobudnutia (§</text>
+<text x="107.0" y="311.0" font-size="13.0" fill="#374151">25): kúpa = obstarávacia cena (cena + súvisiace</text>
+<text x="107.0" y="327.5" font-size="13.0" fill="#374151">náklady - zľavy), vlastná výroba = vlastné náklady,</text>
+<text x="107.0" y="344.0" font-size="13.0" fill="#374151">peniaze/pohľadávky/záväzky = menovitá hodnota,</text>
+<text x="107.0" y="360.5" font-size="13.0" fill="#374151">dar/prebytok/vklad podniku = reálna hodnota.</text>
+<rect x="90.0" y="398.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="398.0" width="7" height="153.5" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="425.0" font-size="14.5" font-weight="700" fill="#1a3868">3. Reprodukčná obstarávacia cena – historická</text>
+<text x="107.0" y="444.0" font-size="14.5" font-weight="700" fill="#1a3868">veličina</text>
+<text x="107.0" y="468.0" font-size="13.0" fill="#374151">Reprodukčná obstarávacia cena = historická veličina;</text>
+<text x="107.0" y="484.5" font-size="13.0" fill="#374151">do 31. 12. 2015 sa ňou oceňoval dar, preradenie z</text>
+<text x="107.0" y="501.0" font-size="13.0" fill="#374151">osobného vlastníctva a prebytok. Od 1. 1. 2016 ju</text>
+<text x="107.0" y="517.5" font-size="13.0" fill="#374151">nahradila reálna hodnota - v platnom zákone pojem už</text>
+<text x="107.0" y="534.0" font-size="13.0" fill="#374151">nie je.</text>
+<rect x="90.0" y="571.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="571.5" width="7" height="153.5" rx="3.5" fill="#803594"/>
+<text x="107.0" y="598.5" font-size="14.5" font-weight="700" fill="#1a3868">4. Reálna hodnota – charakteristika (§ 27</text>
+<text x="107.0" y="617.5" font-size="14.5" font-weight="700" fill="#1a3868">ods. 2)</text>
+<text x="107.0" y="641.5" font-size="13.0" fill="#374151">Reálna hodnota (§ 27 ods. 2) hierarchicky: a) trhová</text>
+<text x="107.0" y="658.0" font-size="13.0" fill="#374151">cena; b) model z aktívneho trhu; c) model z</text>
+<text x="107.0" y="674.5" font-size="13.0" fill="#374151">neaktívneho trhu; d) posudok znalca ako posledná</text>
+<text x="107.0" y="691.0" font-size="13.0" fill="#374151">možnosť. Trhová cena = záverečná burzová cena v deň</text>
+<text x="107.0" y="707.5" font-size="13.0" fill="#374151">ocenenia (§ 27 ods. 3).</text>
+<rect x="90.0" y="745.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="745.0" width="7" height="153.5" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="772.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Aký majetok sa oceňuje reálnou hodnotou ku</text>
+<text x="107.0" y="791.0" font-size="14.5" font-weight="700" fill="#1a3868">dňu závierky (§ 27 ods. 1)</text>
+<text x="107.0" y="815.0" font-size="13.0" fill="#374151">RH ku dňu závierky (§ 27 ods. 1): najmä CP a</text>
+<text x="107.0" y="831.5" font-size="13.0" fill="#374151">podiely, deriváty, komodity, drahé kovy, podielové</text>
+<text x="107.0" y="848.0" font-size="13.0" fill="#374151">listy. NEpreceňujú sa CP držané do splatnosti,</text>
+<text x="107.0" y="864.5" font-size="13.0" fill="#374151">vlastné CP a podiely v dcére/pridruženej. Zásoby a</text>
+<text x="107.0" y="881.0" font-size="13.0" fill="#374151">DM rieši OP, nie RH.</text>
+<rect x="810.0" y="148.5" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="148.5" width="7" height="134.5" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="175.5" font-size="14.5" font-weight="700" fill="#1a3868">6. Oceňovanie cudzou menou (§ 24 ods. 2 – 6)</text>
+<text x="827.0" y="199.5" font-size="13.0" fill="#374151">Cudzia mena (§ 24 ods. 2-6): referenčný kurz</text>
+<text x="827.0" y="216.0" font-size="13.0" fill="#374151">ECB/NBS; pri prípade kurz dňa PREDCHÁDZAJÚCEHO, ku</text>
+<text x="827.0" y="232.5" font-size="13.0" fill="#374151">dňu závierky kurz tohto dňa. Úbytok rovnakej meny</text>
+<text x="827.0" y="249.0" font-size="13.0" fill="#374151">VAP alebo FIFO. Pri precenení neuhradených</text>
+<text x="827.0" y="265.5" font-size="13.0" fill="#374151">pohľadávok/záväzkov kurzový rozdiel (563/663).</text>
+<rect x="810.0" y="303.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="303.0" width="7" height="153.5" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="330.0" font-size="14.5" font-weight="700" fill="#1a3868">7. Ocenenie ku dňu závierky a zásada</text>
+<text x="827.0" y="349.0" font-size="14.5" font-weight="700" fill="#1a3868">opatrnosti (§ 26)</text>
+<text x="827.0" y="373.0" font-size="13.0" fill="#374151">Ku dňu závierky zásada opatrnosti (§ 26): zásoby na</text>
+<text x="827.0" y="389.5" font-size="13.0" fill="#374151">čistú realizačnú hodnotu ak nižšia, vyššie záväzky</text>
+<text x="827.0" y="406.0" font-size="13.0" fill="#374151">vo zvýšenom ocenení, povinné OP pri dočasnom</text>
+<text x="827.0" y="422.5" font-size="13.0" fill="#374151">znížení, rezervy, odpisy. Aktíva nenadhodnocovať,</text>
+<text x="827.0" y="439.0" font-size="13.0" fill="#374151">záväzky nepodhodnocovať.</text>
+<rect x="810.0" y="476.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="476.5" width="7" height="153.5" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="503.5" font-size="14.5" font-weight="700" fill="#1a3868">8. Účtovné zásady a účtovné metódy (§ 7, § 4</text>
+<text x="827.0" y="522.5" font-size="14.5" font-weight="700" fill="#1a3868">ods. 2)</text>
+<text x="827.0" y="546.5" font-size="13.0" fill="#374151">Zásady = princípy, metódy = postupy ich napĺňania.</text>
+<text x="827.0" y="563.0" font-size="13.0" fill="#374151">Kľúčové: verný obraz (§ 7 ods. 1), going concern</text>
+<text x="827.0" y="579.5" font-size="13.0" fill="#374151">(min. 12 mesiacov), stálosť metód (§ 7 ods. 3),</text>
+<text x="827.0" y="596.0" font-size="13.0" fill="#374151">zákaz vzájomného započítania (§ 7 ods. 5), akruál,</text>
+<text x="827.0" y="612.5" font-size="13.0" fill="#374151">opatrnosť, bilančná kontinuita.</text>
+<rect x="810.0" y="650.0" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="650.0" width="7" height="170.0" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="677.0" font-size="14.5" font-weight="700" fill="#1a3868">9. Zmeny zásad/metód, zmeny odhadov a oprava</text>
+<text x="827.0" y="696.0" font-size="14.5" font-weight="700" fill="#1a3868">chýb</text>
+<text x="827.0" y="720.0" font-size="13.0" fill="#374151">Zmena zásady/metódy len od 1. dňa obdobia, v</text>
+<text x="827.0" y="736.5" font-size="13.0" fill="#374151">poznámkach, významný rozdiel cez 428/429. Zmena</text>
+<text x="827.0" y="753.0" font-size="13.0" fill="#374151">odhadu (OP, rezerva, doba/spôsob odpisovania)</text>
+<text x="827.0" y="769.5" font-size="13.0" fill="#374151">PROSPEKTÍVNE cez bežné N/V, nie je chyba. Oprava</text>
+<text x="827.0" y="786.0" font-size="13.0" fill="#374151">chyby: nevýznamná cez bežný VH, významná</text>
+<text x="827.0" y="802.5" font-size="13.0" fill="#374151">RETROSPEKTÍVNE cez 428/429.</text>
+</svg>

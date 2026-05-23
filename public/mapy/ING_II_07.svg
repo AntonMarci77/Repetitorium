@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 734" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="734" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING II 07 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 382.2 C 420.0 382.2, 540.0 156.2, 470.0 156.2" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 382.2 C 420.0 382.2, 540.0 303.8, 470.0 303.8" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 382.2 C 420.0 382.2, 540.0 451.2, 470.0 451.2" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 382.2 C 420.0 382.2, 540.0 608.2, 470.0 608.2" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 382.2 C 860.0 382.2, 740.0 138.5, 810.0 138.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 382.2 C 860.0 382.2, 740.0 295.5, 810.0 295.5" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 382.2 C 860.0 382.2, 740.0 452.5, 810.0 452.5" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 382.2 C 860.0 382.2, 740.0 617.8, 810.0 617.8" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="331.8" width="300" height="101.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="364.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Postup audítora v</text>
+<text x="640.0" y="387.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">oblasti pohľadávok a</text>
+<text x="640.0" y="410.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">záväzkov</text>
+<rect x="90.0" y="87.8" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="87.8" width="7" height="137.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="114.8" font-size="14.5" font-weight="700" fill="#1a3868">1. Rizikovo orientovaný rámec (ISA 315 → ISA</text>
+<text x="107.0" y="133.8" font-size="14.5" font-weight="700" fill="#1a3868">330) a tvrdenia</text>
+<text x="107.0" y="157.8" font-size="13.0" fill="#374151">Spoločná kostra: ISA 315 (riziko podľa tvrdení) →</text>
+<text x="107.0" y="174.2" font-size="13.0" fill="#374151">ISA 330 (kontrolné a substantívne testy, analytika</text>
+<text x="107.0" y="190.8" font-size="13.0" fill="#374151">ISA 520) → vyhodnotenie nesprávností. Každý postup</text>
+<text x="107.0" y="207.2" font-size="13.0" fill="#374151">priradiť ku konkrétnemu tvrdeniu.</text>
+<rect x="90.0" y="244.8" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="244.8" width="7" height="118.0" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="271.8" font-size="14.5" font-weight="700" fill="#1a3868">2. Pohľadávky – hlavné riziko NADHODNOTENIA</text>
+<text x="107.0" y="295.8" font-size="13.0" fill="#374151">Pohľadávky/výnosy: dominantné riziko NADHODNOTENIA.</text>
+<text x="107.0" y="312.2" font-size="13.0" fill="#374151">Ťažisko: EXISTENCIA (nie fiktívne) a</text>
+<text x="107.0" y="328.8" font-size="13.0" fill="#374151">OCENENIE/vymožiteľnosť, plus CUT-OFF tržieb. Riziko</text>
+<text x="107.0" y="345.2" font-size="13.0" fill="#374151">podvodu pri výnosoch je predpokladané (ISA 240).</text>
+<rect x="90.0" y="382.8" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="382.8" width="7" height="137.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="409.8" font-size="14.5" font-weight="700" fill="#1a3868">3. Pohľadávky – externé potvrdenia (ISA 505):</text>
+<text x="107.0" y="428.8" font-size="14.5" font-weight="700" fill="#1a3868">pozitívne vs. negatívne</text>
+<text x="107.0" y="452.8" font-size="13.0" fill="#374151">ISA 505: konfirmácie testujú najmä EXISTENCIU a</text>
+<text x="107.0" y="469.2" font-size="13.0" fill="#374151">práva. Pozitívne pre veľké saldá; negatívne pre veľa</text>
+<text x="107.0" y="485.8" font-size="13.0" fill="#374151">malých. Audítor má KONTROLU nad procesom; pri</text>
+<text x="107.0" y="502.2" font-size="13.0" fill="#374151">neodpovedi alternatívy (následné inkaso).</text>
+<rect x="90.0" y="539.8" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="539.8" width="7" height="137.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="566.8" font-size="14.5" font-weight="700" fill="#1a3868">4. Pohľadávky – ocenenie a vymožiteľnosť</text>
+<text x="107.0" y="585.8" font-size="14.5" font-weight="700" fill="#1a3868">(opravné položky, veková štruktúra)</text>
+<text x="107.0" y="609.8" font-size="13.0" fill="#374151">Ocenenie (ISA 540): veková štruktúra a primeranosť</text>
+<text x="107.0" y="626.2" font-size="13.0" fill="#374151">opravných položiek. Postupy: následné inkaso</text>
+<text x="107.0" y="642.8" font-size="13.0" fill="#374151">(najsilnejší dôkaz, ISA 560), bonita odberateľov,</text>
+<text x="107.0" y="659.2" font-size="13.0" fill="#374151">upomienky, sporné pohľadávky.</text>
+<rect x="810.0" y="70.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="810.0" y="70.0" width="7" height="137.0" rx="3.5" fill="#6a6eb3"/>
+<text x="827.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Pohľadávky – existencia, cut-off a</text>
+<text x="827.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">analytické postupy</text>
+<text x="827.0" y="140.0" font-size="13.0" fill="#374151">Existenciu podporí aj odsúhlasenie saldokonta na</text>
+<text x="827.0" y="156.5" font-size="13.0" fill="#374151">hlavnú knihu a dobropisy (signál fiktívnych tržieb).</text>
+<text x="827.0" y="173.0" font-size="13.0" fill="#374151">Cut-off: dátum dodacieho listu vs. zaúčtovania.</text>
+<text x="827.0" y="189.5" font-size="13.0" fill="#374151">Analytika: obrátkovosť, DSO, podiel OP.</text>
+<rect x="810.0" y="227.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="227.0" width="7" height="137.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="254.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Záväzky – hlavné riziko PODHODNOTENIA</text>
+<text x="827.0" y="273.0" font-size="14.5" font-weight="700" fill="#1a3868">(úplnosť)</text>
+<text x="827.0" y="297.0" font-size="13.0" fill="#374151">Záväzky/náklady: smer rizika sa OBRACIA - dominantné</text>
+<text x="827.0" y="313.5" font-size="13.0" fill="#374151">riziko PODHODNOTENIA. Kľúčové tvrdenie ÚPLNOSŤ.</text>
+<text x="827.0" y="330.0" font-size="13.0" fill="#374151">Audítor pátra po tom, čo CHÝBA: nezaúčtované</text>
+<text x="827.0" y="346.5" font-size="13.0" fill="#374151">faktúry, dohadné položky, posunuté náklady.</text>
+<rect x="810.0" y="384.0" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="384.0" width="7" height="137.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="411.0" font-size="14.5" font-weight="700" fill="#1a3868">7. Záväzky – test úplnosti: vyhľadávanie</text>
+<text x="827.0" y="430.0" font-size="14.5" font-weight="700" fill="#1a3868">nezaúčtovaných záväzkov</text>
+<text x="827.0" y="454.0" font-size="13.0" fill="#374151">Test úplnosti: vyhľadávanie nezaúčtovaných záväzkov</text>
+<text x="827.0" y="470.5" font-size="13.0" fill="#374151">- test následných platieb (platby/faktúry po dni</text>
+<text x="827.0" y="487.0" font-size="13.0" fill="#374151">voči dodacím listom, či plnenie prijaté PRED dňom).</text>
+<text x="827.0" y="503.5" font-size="13.0" fill="#374151">Dodávateľské výpisy lepšie než konfirmácie.</text>
+<rect x="810.0" y="541.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="541.0" width="7" height="153.5" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="568.0" font-size="14.5" font-weight="700" fill="#1a3868">8. Záväzky – existencia, ocenenie, externé</text>
+<text x="827.0" y="587.0" font-size="14.5" font-weight="700" fill="#1a3868">potvrdenia a analytické postupy</text>
+<text x="827.0" y="611.0" font-size="13.0" fill="#374151">Aj existencia/ocenenie: saldokonto na hlavnú knihu,</text>
+<text x="827.0" y="627.5" font-size="13.0" fill="#374151">faktúry, zmluvy, prepočet meny. Pozor na nulové</text>
+<text x="827.0" y="644.0" font-size="13.0" fill="#374151">saldá u významných dodávateľov. Analytika:</text>
+<text x="827.0" y="660.5" font-size="13.0" fill="#374151">obrátkovosť, doba úhrady. Prezentácia:</text>
+<text x="827.0" y="677.0" font-size="13.0" fill="#374151">krátkodobé/dlhodobé.</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 919" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="919" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">BC II 06 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 474.8 C 420.0 474.8, 540.0 146.8, 470.0 146.8" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 474.8 C 420.0 474.8, 540.0 310.8, 470.0 310.8" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 474.8 C 420.0 474.8, 540.0 465.2, 470.0 465.2" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 474.8 C 420.0 474.8, 540.0 629.2, 470.0 629.2" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 474.8 C 420.0 474.8, 540.0 802.8, 470.0 802.8" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 474.8 C 860.0 474.8, 740.0 225.2, 810.0 225.2" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 474.8 C 860.0 474.8, 740.0 389.2, 810.0 389.2" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 474.8 C 860.0 474.8, 740.0 552.0, 810.0 552.0" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 474.8 C 860.0 474.8, 740.0 716.0, 810.0 716.0" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="435.8" width="300" height="78.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="468.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Fyzická osoba –</text>
+<text x="640.0" y="491.8" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">podnikateľ</text>
+<rect x="90.0" y="70.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="153.5" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Vymedzenie FO podnikateľa a začatie</text>
+<text x="107.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">podnikania</text>
+<text x="107.0" y="140.0" font-size="13.0" fill="#374151">FO podnikateľ (živnostník, SHR, slobodné povolanie)</text>
+<text x="107.0" y="156.5" font-size="13.0" fill="#374151">podniká sústavne, samostatne, vo vlastnom mene za</text>
+<text x="107.0" y="173.0" font-size="13.0" fill="#374151">účelom zisku. Pri štarte: oprávnenie, registrácia na</text>
+<text x="107.0" y="189.5" font-size="13.0" fill="#374151">DÚ (cez JKM), ZP do 8 dní, SP od 1.7. nasl. roka,</text>
+<text x="107.0" y="206.0" font-size="13.0" fill="#374151">DPH pri obrate nad 50 000 €.</text>
+<rect x="90.0" y="243.5" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="243.5" width="7" height="134.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="270.5" font-size="14.5" font-weight="700" fill="#1a3868">2. Povinnosti pri skončení podnikania</text>
+<text x="107.0" y="294.5" font-size="13.0" fill="#374151">Pri skončení: oznámiť úradu, odhlásiť sa z</text>
+<text x="107.0" y="311.0" font-size="13.0" fill="#374151">poisťovní, zrušiť DPH, podať posledné DP a podľa §</text>
+<text x="107.0" y="327.5" font-size="13.0" fill="#374151">17 ods. 8 ZDP upraviť ZD o nespotrebované zásoby,</text>
+<text x="107.0" y="344.0" font-size="13.0" fill="#374151">rezervy, OP, pohľadávky a záväzky (dodaniť hodnoty,</text>
+<text x="107.0" y="360.5" font-size="13.0" fill="#374151">čo neprešli do ZD).</text>
+<rect x="90.0" y="398.0" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="398.0" width="7" height="134.5" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="425.0" font-size="14.5" font-weight="700" fill="#1a3868">3. Sústava daní v SR – priame vs. nepriame</text>
+<text x="107.0" y="449.0" font-size="13.0" fill="#374151">Priame dane znáša daňovník priamo z príjmu/majetku</text>
+<text x="107.0" y="465.5" font-size="13.0" fill="#374151">(DPFO, DPPO, miestne dane); nepriame sú v cene a</text>
+<text x="107.0" y="482.0" font-size="13.0" fill="#374151">znáša ich spotrebiteľ (DPH zák. 222/2004, spotrebné</text>
+<text x="107.0" y="498.5" font-size="13.0" fill="#374151">dane). FO platiteľ DPH ju len odvádza, neplatiteľ ju</text>
+<text x="107.0" y="515.0" font-size="13.0" fill="#374151">znáša v cene vstupov.</text>
+<rect x="90.0" y="552.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="552.5" width="7" height="153.5" rx="3.5" fill="#803594"/>
+<text x="107.0" y="579.5" font-size="14.5" font-weight="700" fill="#1a3868">4. Vplyv daní na finančnú situáciu FO</text>
+<text x="107.0" y="598.5" font-size="14.5" font-weight="700" fill="#1a3868">podnikateľa</text>
+<text x="107.0" y="622.5" font-size="13.0" fill="#374151">Priame dane priamo znižujú čistý príjem (od 2026</text>
+<text x="107.0" y="639.0" font-size="13.0" fill="#374151">progresia až 35 %); voľba výdavkov mení zaťaženie.</text>
+<text x="107.0" y="655.5" font-size="13.0" fill="#374151">Platiteľ DPH má odpočet, neplatiteľ nie. K daniam</text>
+<text x="107.0" y="672.0" font-size="13.0" fill="#374151">pristupujú odvody SZČO (od 2026 ZP 16 %, SP 33,15 %</text>
+<text x="107.0" y="688.5" font-size="13.0" fill="#374151">z VZ) ako daňový výdavok.</text>
+<rect x="90.0" y="726.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="726.0" width="7" height="153.5" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="753.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Základné daňové náležitosti DPFO a</text>
+<text x="107.0" y="772.0" font-size="14.5" font-weight="700" fill="#1a3868">štruktúra základu dane (§ 4)</text>
+<text x="107.0" y="796.0" font-size="13.0" fill="#374151">Daňovníkom DPFO je FO, zdaňovacie obdobie kalendárny</text>
+<text x="107.0" y="812.5" font-size="13.0" fill="#374151">rok. ZD (§ 4) = súčet ČZD z aktívnych (§ 5, § 6/1,2,</text>
+<text x="107.0" y="829.0" font-size="13.0" fill="#374151">znížený o NČZD a stratu) + pasívnych príjmov (§</text>
+<text x="107.0" y="845.5" font-size="13.0" fill="#374151">6/3,4, § 8). § 7 (kapitál) je samostatný OZD mimo</text>
+<text x="107.0" y="862.0" font-size="13.0" fill="#374151">tohto základu.</text>
+<rect x="810.0" y="156.8" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="156.8" width="7" height="137.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="183.8" font-size="14.5" font-weight="700" fill="#1a3868">6. ČZD zo závislej činnosti (§ 5) a OZD z</text>
+<text x="827.0" y="202.8" font-size="14.5" font-weight="700" fill="#1a3868">kapitálového majetku (§ 7)</text>
+<text x="827.0" y="226.8" font-size="13.0" fill="#374151">§ 5 (závislá činnosť): ČZD = zdaniteľné príjmy −</text>
+<text x="827.0" y="243.2" font-size="13.0" fill="#374151">povinné poistné zamestnanca; vstupuje do súčtu a</text>
+<text x="827.0" y="259.8" font-size="13.0" fill="#374151">možno odpočítať NČZD. § 7 (kapitál) = OZD, sadzba 19</text>
+<text x="827.0" y="276.2" font-size="13.0" fill="#374151">%, spravidla zrážkou (§ 43), NESČÍTAVA sa.</text>
+<rect x="810.0" y="313.8" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="313.8" width="7" height="151.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="340.8" font-size="14.5" font-weight="700" fill="#1a3868">7. ČZD z ostatných príjmov (§ 8)</text>
+<text x="827.0" y="364.8" font-size="13.0" fill="#374151">§ 8 (ostatné príjmy) je zostatková kategória</text>
+<text x="827.0" y="381.2" font-size="13.0" fill="#374151">(príležitostné, predaj nehnuteľností/vecí, prevod</text>
+<text x="827.0" y="397.8" font-size="13.0" fill="#374151">podielu, výhry). ČZD = príjem − preukázateľné</text>
+<text x="827.0" y="414.2" font-size="13.0" fill="#374151">výdavky (max do výšky príjmu, nemožno stratu);</text>
+<text x="827.0" y="430.8" font-size="13.0" fill="#374151">niektoré oslobodené (príležitostné do 500 €). Bez</text>
+<text x="827.0" y="447.2" font-size="13.0" fill="#374151">NČZD a straty.</text>
+<rect x="810.0" y="484.8" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="484.8" width="7" height="134.5" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="511.8" font-size="14.5" font-weight="700" fill="#1a3868">8. ČZD z príjmov podľa § 6 a spôsoby výdavkov</text>
+<text x="827.0" y="535.8" font-size="13.0" fill="#374151">§ 6: ods. 1 podnikanie, ods. 2 iná SZČ, ods. 3</text>
+<text x="827.0" y="552.2" font-size="13.0" fill="#374151">prenájom, ods. 4 použitie diela. ČZD = príjmy −</text>
+<text x="827.0" y="568.8" font-size="13.0" fill="#374151">daňové výdavky. Pri ods. 1 a 2 tri spôsoby výdavkov:</text>
+<text x="827.0" y="585.2" font-size="13.0" fill="#374151">skutočné, paušál, daňová evidencia; pri prenájme</text>
+<text x="827.0" y="601.8" font-size="13.0" fill="#374151">(ods. 3) paušál NEDÁ.</text>
+<rect x="810.0" y="639.2" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="639.2" width="7" height="153.5" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="666.2" font-size="14.5" font-weight="700" fill="#1a3868">9. Skutočné výdavky, daňová evidencia a</text>
+<text x="827.0" y="685.2" font-size="14.5" font-weight="700" fill="#1a3868">paušálne výdavky</text>
+<text x="827.0" y="709.2" font-size="13.0" fill="#374151">Skutočné výdavky = JÚ/PÚ podľa § 19. Daňová</text>
+<text x="827.0" y="725.8" font-size="13.0" fill="#374151">evidencia (§ 6/11) = zjednodušená evidencia bez</text>
+<text x="827.0" y="742.2" font-size="13.0" fill="#374151">účtovníctva, bez limitu príjmov. Paušál (§ 6/10) =</text>
+<text x="827.0" y="758.8" font-size="13.0" fill="#374151">60 % z príjmov, max 20 000 €, len neplatiteľ DPH,</text>
+<text x="827.0" y="775.2" font-size="13.0" fill="#374151">plus zaplatené odvody navyše.</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 814" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="814" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING I 11 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 422.2 C 420.0 422.2, 540.0 172.8, 470.0 172.8" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 422.2 C 420.0 422.2, 540.0 336.8, 470.0 336.8" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 422.2 C 420.0 422.2, 540.0 500.8, 470.0 500.8" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 422.2 C 420.0 422.2, 540.0 663.5, 470.0 663.5" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 422.2 C 860.0 422.2, 740.0 137.2, 810.0 137.2" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 422.2 C 860.0 422.2, 740.0 309.5, 810.0 309.5" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 422.2 C 860.0 422.2, 740.0 499.5, 810.0 499.5" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 422.2 C 860.0 422.2, 740.0 689.5, 810.0 689.5" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="383.2" width="300" height="78.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="416.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Strategické úlohy</text>
+<text x="640.0" y="439.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">manažérskeho účtovníctva</text>
+<rect x="90.0" y="105.5" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="105.5" width="7" height="134.5" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="132.5" font-size="14.5" font-weight="700" fill="#1a3868">1. Podstata analýzy bodu zvratu</text>
+<text x="107.0" y="156.5" font-size="13.0" fill="#374151">Bod zvratu = objem, pri ktorom tržby uhradia náklady</text>
+<text x="107.0" y="173.0" font-size="13.0" fill="#374151">(VH = 0). Krycí príspevok cj − Nvj kryje najprv FN.</text>
+<text x="107.0" y="189.5" font-size="13.0" fill="#374151">Množstvový BZ = FN / (cj − Nvj); BZ v eurách = FN /</text>
+<text x="107.0" y="206.0" font-size="13.0" fill="#374151">(1 − Nvj/cj). Pre cieľový zisk sa do čitateľa pridá</text>
+<text x="107.0" y="222.5" font-size="13.0" fill="#374151">FN + zisk.</text>
+<rect x="90.0" y="260.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="260.0" width="7" height="153.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="287.0" font-size="14.5" font-weight="700" fill="#1a3868">2. Bezpečnostné rozpätie, koridor a</text>
+<text x="107.0" y="306.0" font-size="14.5" font-weight="700" fill="#1a3868">koeficient</text>
+<text x="107.0" y="330.0" font-size="13.0" fill="#374151">Bezpečnostné rozpätie (ks) = objem − BZ; koridor (€)</text>
+<text x="107.0" y="346.5" font-size="13.0" fill="#374151">= tržby − tržby v BZ; koeficient (%) =</text>
+<text x="107.0" y="363.0" font-size="13.0" fill="#374151">rozpätie/objem (alebo koridor/tržby) × 100 = o koľko</text>
+<text x="107.0" y="379.5" font-size="13.0" fill="#374151">% môže predaj klesnúť bez straty. Vyšší koeficient =</text>
+<text x="107.0" y="396.0" font-size="13.0" fill="#374151">bezpečnejší podnik.</text>
+<rect x="90.0" y="433.5" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="433.5" width="7" height="134.5" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="460.5" font-size="14.5" font-weight="700" fill="#1a3868">3. Analýza citlivosti</text>
+<text x="107.0" y="484.5" font-size="13.0" fill="#374151">Analýza citlivosti zisťuje, o koľko sa môže zmeniť</text>
+<text x="107.0" y="501.0" font-size="13.0" fill="#374151">jeden parameter (cj, Nvj, FN) bez straty / pri</text>
+<text x="107.0" y="517.5" font-size="13.0" fill="#374151">cieľovom zisku (ceteris paribus). Rast ceny → BZ</text>
+<text x="107.0" y="534.0" font-size="13.0" fill="#374151">klesá; rast VN, FN, zisku či dane → BZ rastie.</text>
+<text x="107.0" y="550.5" font-size="13.0" fill="#374151">Postup: rozpätie, koeficient, riziká do VH = 0.</text>
+<rect x="90.0" y="588.0" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="588.0" width="7" height="151.0" rx="3.5" fill="#803594"/>
+<text x="107.0" y="615.0" font-size="14.5" font-weight="700" fill="#1a3868">4. Prevádzková (operačná) páka</text>
+<text x="107.0" y="639.0" font-size="13.0" fill="#374151">Pomer FN a VN určuje prevádzkové riziko – stupeň</text>
+<text x="107.0" y="655.5" font-size="13.0" fill="#374151">prevádzkovej páky SPP = celková marža / EBIT</text>
+<text x="107.0" y="672.0" font-size="13.0" fill="#374151">(citlivosť EBIT na zmenu tržieb). Vysoká páka =</text>
+<text x="107.0" y="688.5" font-size="13.0" fill="#374151">vyšší zisk pri raste, vyššie riziko pri poklese.</text>
+<text x="107.0" y="705.0" font-size="13.0" fill="#374151">Obmedzenia BZ: zhoda výroby a predaja, linearita,</text>
+<text x="107.0" y="721.5" font-size="13.0" fill="#374151">jeden výrobok.</text>
+<rect x="810.0" y="70.0" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="810.0" y="70.0" width="7" height="134.5" rx="3.5" fill="#6a6eb3"/>
+<text x="827.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Využitie MÚ pri zvyšovaní efektivity</text>
+<text x="827.0" y="121.0" font-size="13.0" fill="#374151">Strategické MÚ (1) vopred určí životaschopnosť</text>
+<text x="827.0" y="137.5" font-size="13.0" fill="#374151">projektu/výrobku (kapitálové rozpočtovanie, cieľové</text>
+<text x="827.0" y="154.0" font-size="13.0" fill="#374151">náklady) a (2) eliminuje náklady zabudované v</text>
+<text x="827.0" y="170.5" font-size="13.0" fill="#374151">systéme (target costing, hodnotová analýza, ABC).</text>
+<text x="827.0" y="187.0" font-size="13.0" fill="#374151">Prínos = orientácia EX ANTE s dôrazom na cash flow.</text>
+<rect x="810.0" y="224.5" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="224.5" width="7" height="170.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="251.5" font-size="14.5" font-weight="700" fill="#1a3868">6. Kalkulácia podľa čiastkových činností</text>
+<text x="827.0" y="270.5" font-size="14.5" font-weight="700" fill="#1a3868">(ABC)</text>
+<text x="827.0" y="294.5" font-size="13.0" fill="#374151">ABC: výkony spotrebúvajú aktivity, aktivity</text>
+<text x="827.0" y="311.0" font-size="13.0" fill="#374151">spotrebúvajú zdroje – réžia sa najprv priradí</text>
+<text x="827.0" y="327.5" font-size="13.0" fill="#374151">aktivitám, potom výkonom podľa skutočnej spotreby.</text>
+<text x="827.0" y="344.0" font-size="13.0" fill="#374151">Cez cost driver a náklad na jednotku aktivity.</text>
+<text x="827.0" y="360.5" font-size="13.0" fill="#374151">Nadväzuje ABM. Prácne – len pre dôležité</text>
+<text x="827.0" y="377.0" font-size="13.0" fill="#374151">rozhodnutia.</text>
+<rect x="810.0" y="414.5" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="414.5" width="7" height="170.0" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="441.5" font-size="14.5" font-weight="700" fill="#1a3868">7. Kalkulácia cieľových nákladov (Target</text>
+<text x="827.0" y="460.5" font-size="14.5" font-weight="700" fill="#1a3868">costing)</text>
+<text x="827.0" y="484.5" font-size="13.0" fill="#374151">Target costing (Japonsko, hodnotová analýza) obracia</text>
+<text x="827.0" y="501.0" font-size="13.0" fill="#374151">smer: cieľové náklady = trhová cena − požadovaný</text>
+<text x="827.0" y="517.5" font-size="13.0" fill="#374151">zisk (= max. prípustné náklady). Robí sa PRED</text>
+<text x="827.0" y="534.0" font-size="13.0" fill="#374151">zaradením výrobku. Cez ROS: náklady = cena − (cena ×</text>
+<text x="827.0" y="550.5" font-size="13.0" fill="#374151">ROS). Pri prekročení: vzdať sa, nižší zisk, znížiť</text>
+<text x="827.0" y="567.0" font-size="13.0" fill="#374151">náklady alebo diferencovať.</text>
+<rect x="810.0" y="604.5" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="604.5" width="7" height="170.0" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="631.5" font-size="14.5" font-weight="700" fill="#1a3868">8. Balanced Scorecard – podstata a 4</text>
+<text x="827.0" y="650.5" font-size="14.5" font-weight="700" fill="#1a3868">perspektívy</text>
+<text x="827.0" y="674.5" font-size="13.0" fill="#374151">Balanced Scorecard (Kaplan a Norton, 1992) dopĺňa</text>
+<text x="827.0" y="691.0" font-size="13.0" fill="#374151">finančné ukazovatele o nefinančné a dlhodobé;</text>
+<text x="827.0" y="707.5" font-size="13.0" fill="#374151">prekladá stratégiu do cieľov v 4 perspektívach:</text>
+<text x="827.0" y="724.0" font-size="13.0" fill="#374151">FINANČNÁ, ZÁKAZNÍCKA, INTERNÉ PROCESY, UČENIE SA A</text>
+<text x="827.0" y="740.5" font-size="13.0" fill="#374151">RAST. Reťazec zdola: učenie → procesy → zákazníci →</text>
+<text x="827.0" y="757.0" font-size="13.0" fill="#374151">financie.</text>
+</svg>

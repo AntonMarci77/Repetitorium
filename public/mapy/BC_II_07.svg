@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="760" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">BC II 07 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 395.0 C 420.0 395.0, 540.0 134.8, 470.0 134.8" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 395.0 C 420.0 395.0, 540.0 282.2, 470.0 282.2" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 395.0 C 420.0 395.0, 540.0 455.8, 470.0 455.8" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 395.0 C 420.0 395.0, 540.0 637.5, 470.0 637.5" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 395.0 C 860.0 395.0, 740.0 145.5, 810.0 145.5" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 395.0 C 860.0 395.0, 740.0 326.0, 810.0 326.0" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 395.0 C 860.0 395.0, 740.0 498.2, 810.0 498.2" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 395.0 C 860.0 395.0, 740.0 652.8, 810.0 652.8" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="344.5" width="300" height="101.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="377.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Nezdaniteľné časti</text>
+<text x="640.0" y="400.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">základu dane z príjmov</text>
+<text x="640.0" y="423.5" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">fyzických osôb</text>
+<rect x="90.0" y="75.8" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="75.8" width="7" height="118.0" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="102.8" font-size="14.5" font-weight="700" fill="#1a3868">1. Tri druhy NČZD a na čo sa vzťahujú</text>
+<text x="107.0" y="126.8" font-size="13.0" fill="#374151">Tri NČZD (§ 11): na daňovníka, na manželku/manžela,</text>
+<text x="107.0" y="143.2" font-size="13.0" fill="#374151">na príspevky DDS/PEPP. Znižujú len súčet ČZD z</text>
+<text x="107.0" y="159.8" font-size="13.0" fill="#374151">aktívnych príjmov (§ 5 a § 6/1,2); najprv ZD z § 5,</text>
+<text x="107.0" y="176.2" font-size="13.0" fill="#374151">potom z § 6. Na pasívne príjmy a § 7 sa NEUPLATNIA.</text>
+<rect x="90.0" y="213.8" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="213.8" width="7" height="137.0" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="240.8" font-size="14.5" font-weight="700" fill="#1a3868">2. NČZD na daňovníka – základná suma a</text>
+<text x="107.0" y="259.8" font-size="14.5" font-weight="700" fill="#1a3868">krátenie</text>
+<text x="107.0" y="283.8" font-size="13.0" fill="#374151">NČZD na daňovníka = 21× ŽM (2025: 5 753,79 €; 2026:</text>
+<text x="107.0" y="300.2" font-size="13.0" fill="#374151">5 966,73 €) do ZD 91,8× ŽM. Nad to lineárne krátenie</text>
+<text x="107.0" y="316.8" font-size="13.0" fill="#374151">51,6× ŽM − 1/3 ZD, nula pri ZD 154,8× ŽM (2026: 43</text>
+<text x="107.0" y="333.2" font-size="13.0" fill="#374151">983,32 €). Dôchodca len do rozdielu.</text>
+<rect x="90.0" y="370.8" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="370.8" width="7" height="170.0" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="397.8" font-size="14.5" font-weight="700" fill="#1a3868">3. NČZD na manželku/manžela – podmienky a</text>
+<text x="107.0" y="416.8" font-size="14.5" font-weight="700" fill="#1a3868">dvojité krátenie</text>
+<text x="107.0" y="440.8" font-size="13.0" fill="#374151">NČZD na manželku = 19,2× ŽM (2026: 5 455,30 €) −</text>
+<text x="107.0" y="457.2" font-size="13.0" fill="#374151">vlastný príjem (znížený o poistné); pri ZD daňovníka</text>
+<text x="107.0" y="473.8" font-size="13.0" fill="#374151">nad 154,8× ŽM ešte krátenie 70,8× ŽM − 1/3 ZD.</text>
+<text x="107.0" y="490.2" font-size="13.0" fill="#374151">Podmienka (§ 11/4): dieťa do 3/6 r., opatrovanie,</text>
+<text x="107.0" y="506.8" font-size="13.0" fill="#374151">evidencia uchádzačov alebo ZŤP. Uplatní sa pomerne</text>
+<text x="107.0" y="523.2" font-size="13.0" fill="#374151">1/12 mesačne.</text>
+<rect x="90.0" y="560.8" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="560.8" width="7" height="153.5" rx="3.5" fill="#803594"/>
+<text x="107.0" y="587.8" font-size="14.5" font-weight="700" fill="#1a3868">4. NČZD na príspevky na DDS a PEPP (max 180</text>
+<text x="107.0" y="606.8" font-size="14.5" font-weight="700" fill="#1a3868">€)</text>
+<text x="107.0" y="630.8" font-size="13.0" fill="#374151">NČZD na DDS/PEPP = preukázateľne zaplatené</text>
+<text x="107.0" y="647.2" font-size="13.0" fill="#374151">príspevky, max 180 €/rok (pevná suma, nie násobok</text>
+<text x="107.0" y="663.8" font-size="13.0" fill="#374151">ŽM); zmluva po 31.12.2013 so zrušením dávkového</text>
+<text x="107.0" y="680.2" font-size="13.0" fill="#374151">plánu. Pri predčasnom výbere sa výhoda do 3 rokov</text>
+<text x="107.0" y="696.8" font-size="13.0" fill="#374151">dodaňuje.</text>
+<rect x="810.0" y="70.0" width="380" height="151.0" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="810.0" y="70.0" width="7" height="151.0" rx="3.5" fill="#6a6eb3"/>
+<text x="827.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Daňové výdavky FO a ich vplyv na ZD</text>
+<text x="827.0" y="121.0" font-size="13.0" fill="#374151">Daňový výdavok (§ 2 písm. i, § 19) je preukázateľne</text>
+<text x="827.0" y="137.5" font-size="13.0" fill="#374151">vynaložený na zdaniteľné príjmy; znižuje ZD ešte</text>
+<text x="827.0" y="154.0" font-size="13.0" fill="#374151">pred NČZD. § 21 vylučuje nedaňové (osobná spotreba,</text>
+<text x="827.0" y="170.5" font-size="13.0" fill="#374151">reprezentácia okrem reklamných predmetov do 17 €,</text>
+<text x="827.0" y="187.0" font-size="13.0" fill="#374151">pokuty od štátu). Alternatíva: paušál 60 %, max 20</text>
+<text x="827.0" y="203.5" font-size="13.0" fill="#374151">000 €.</text>
+<rect x="810.0" y="241.0" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="241.0" width="7" height="170.0" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="268.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Výdavky na majetok pri podnikaní – paušál</text>
+<text x="827.0" y="287.0" font-size="14.5" font-weight="700" fill="#1a3868">80 % (§ 19 ods. 2 písm. t)</text>
+<text x="827.0" y="311.0" font-size="13.0" fill="#374151">Pri majetku používanom aj súkromne (auto, IKT,</text>
+<text x="827.0" y="327.5" font-size="13.0" fill="#374151">stroje) sa výdavky (obstaranie, TZ, prevádzka,</text>
+<text x="827.0" y="344.0" font-size="13.0" fill="#374151">opravy) uplatnia paušálom 80 % (§ 19/2/t) bez knihy</text>
+<text x="827.0" y="360.5" font-size="13.0" fill="#374151">jázd, alebo preukázateľným pomerom. Pri PHL paušál</text>
+<text x="827.0" y="377.0" font-size="13.0" fill="#374151">80 % z nákupu (§ 19/2/l bod 3). Nehnuteľnosti sú</text>
+<text x="827.0" y="393.5" font-size="13.0" fill="#374151">vylúčené.</text>
+<rect x="810.0" y="431.0" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="431.0" width="7" height="134.5" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="458.0" font-size="14.5" font-weight="700" fill="#1a3868">7. Operatívny a finančný prenájom</text>
+<text x="827.0" y="482.0" font-size="13.0" fill="#374151">Operatívny prenájom: nájomné je výdavok (pri</text>
+<text x="827.0" y="498.5" font-size="13.0" fill="#374151">prenajímateľovi FO až po zaplatení, § 17/19).</text>
+<text x="827.0" y="515.0" font-size="13.0" fill="#374151">Finančný prenájom: nájomca odpisuje majetok počas</text>
+<text x="827.0" y="531.5" font-size="13.0" fill="#374151">nájmu (min. doba odpisovania) + úroková zložka;</text>
+<text x="827.0" y="548.0" font-size="13.0" fill="#374151">istina je obstaranie, nie náklad.</text>
+<rect x="810.0" y="585.5" width="380" height="134.5" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="585.5" width="7" height="134.5" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="612.5" font-size="14.5" font-weight="700" fill="#1a3868">8. Cestovné náhrady a stravovanie</text>
+<text x="827.0" y="636.5" font-size="13.0" fill="#374151">Cestovné náhrady sú daňové do výšky nároku podľa</text>
+<text x="827.0" y="653.0" font-size="13.0" fill="#374151">zák. 283/2002 (§ 19/2/d), nad to nedaňové. Stravné</text>
+<text x="827.0" y="669.5" font-size="13.0" fill="#374151">od 1.12.2025: 9,30 / 13,80 / 20,60 €; základná</text>
+<text x="827.0" y="686.0" font-size="13.0" fill="#374151">náhrada za km od 1.1.2026: 0,313 €. SZČO si dá</text>
+<text x="827.0" y="702.5" font-size="13.0" fill="#374151">stravné 5,12 € za odpracovaný deň.</text>
+</svg>

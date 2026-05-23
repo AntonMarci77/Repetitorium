@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 957" font-family="Segoe UI, Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="1280" height="957" fill="#f7f6f3"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1a3868">Mentálna mapa</text>
+<text x="32" y="59" font-size="12.5" fill="#6b7280">ING I 08 · esencia odpovede k bodom tézy</text>
+<path d="M 490.0 493.8 C 420.0 493.8, 540.0 146.8, 470.0 146.8" stroke="#00adbd" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 493.8 C 420.0 493.8, 540.0 320.2, 470.0 320.2" stroke="#f26539" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 493.8 C 420.0 493.8, 540.0 493.8, 470.0 493.8" stroke="#28b065" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 493.8 C 420.0 493.8, 540.0 667.2, 470.0 667.2" stroke="#803594" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 490.0 493.8 C 420.0 493.8, 540.0 840.8, 470.0 840.8" stroke="#6a6eb3" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 493.8 C 860.0 493.8, 740.0 225.2, 810.0 225.2" stroke="#9a562a" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 493.8 C 860.0 493.8, 740.0 408.2, 810.0 408.2" stroke="#e6251e" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 493.8 C 860.0 493.8, 740.0 581.8, 810.0 581.8" stroke="#0e7490" stroke-width="2.5" fill="none" opacity="0.85"/>
+<path d="M 790.0 493.8 C 860.0 493.8, 740.0 763.5, 810.0 763.5" stroke="#b45309" stroke-width="2.5" fill="none" opacity="0.85"/>
+<rect x="490.0" y="443.2" width="300" height="101.0" rx="15" fill="#1a3868"/>
+<text x="640.0" y="476.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">Model kontroly a postupy</text>
+<text x="640.0" y="499.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">konsolidácie dcérskych</text>
+<text x="640.0" y="522.2" font-size="18.0" font-weight="700" fill="#ffffff" text-anchor="middle">podnikov podľa IFRS</text>
+<rect x="90.0" y="70.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#00adbd" stroke-width="2.5"/>
+<rect x="90.0" y="70.0" width="7" height="153.5" rx="3.5" fill="#00adbd"/>
+<text x="107.0" y="97.0" font-size="14.5" font-weight="700" fill="#1a3868">1. Model kontroly – tri prvky ovládania (IFRS</text>
+<text x="107.0" y="116.0" font-size="14.5" font-weight="700" fill="#1a3868">10.6–7)</text>
+<text x="107.0" y="140.0" font-size="13.0" fill="#374151">Ovládanie (IFRS 10) = SÚČASNE tri prvky: MOC nad</text>
+<text x="107.0" y="156.5" font-size="13.0" fill="#374151">relevantnými činnosťami, EXPOZÍCIA voči variabilným</text>
+<text x="107.0" y="173.0" font-size="13.0" fill="#374151">výnosom, VÄZBA – schopnosť mocou ovplyvniť výnosy</text>
+<text x="107.0" y="189.5" font-size="13.0" fill="#374151">(principál vs. agent). Chýba jeden → nie je</text>
+<text x="107.0" y="206.0" font-size="13.0" fill="#374151">ovládanie.</text>
+<rect x="90.0" y="243.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#f26539" stroke-width="2.5"/>
+<rect x="90.0" y="243.5" width="7" height="153.5" rx="3.5" fill="#f26539"/>
+<text x="107.0" y="270.5" font-size="14.5" font-weight="700" fill="#1a3868">2. Výnimky z pôsobnosti a oslobodenie od</text>
+<text x="107.0" y="289.5" font-size="14.5" font-weight="700" fill="#1a3868">konsolidácie (IFRS 10.4–4B)</text>
+<text x="107.0" y="313.5" font-size="13.0" fill="#374151">Materská NEMUSÍ zostaviť KÚZ (oslobodenie 10.4a), ak</text>
+<text x="107.0" y="330.0" font-size="13.0" fill="#374151">SÚČASNE: je dcérou bez námietok vlastníkov, nie je</text>
+<text x="107.0" y="346.5" font-size="13.0" fill="#374151">verejne obchodovaná, nepodáva závierku regulátorovi</text>
+<text x="107.0" y="363.0" font-size="13.0" fill="#374151">a vyššia materská robí verejnú KÚZ podľa IFRS.</text>
+<text x="107.0" y="379.5" font-size="13.0" fill="#374151">Investičná jednotka KÚZ nezostavuje.</text>
+<rect x="90.0" y="417.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
+<rect x="90.0" y="417.0" width="7" height="153.5" rx="3.5" fill="#28b065"/>
+<text x="107.0" y="444.0" font-size="14.5" font-weight="700" fill="#1a3868">3. Deň zostavenia KÚZ – pravidlo troch</text>
+<text x="107.0" y="463.0" font-size="14.5" font-weight="700" fill="#1a3868">mesiacov (IFRS 10 B92)</text>
+<text x="107.0" y="487.0" font-size="13.0" fill="#374151">Závierky do KÚZ k ROVNAKÉMU dátumu. Pri inom konci</text>
+<text x="107.0" y="503.5" font-size="13.0" fill="#374151">obdobia dcéra pripraví medzitýmne údaje; ak</text>
+<text x="107.0" y="520.0" font-size="13.0" fill="#374151">nevykonateľné, najnovšia závierka upravená o</text>
+<text x="107.0" y="536.5" font-size="13.0" fill="#374151">významné udalosti. Rozdiel dátumov NESMIE byť VIAC</text>
+<text x="107.0" y="553.0" font-size="13.0" fill="#374151">AKO 3 MESIACE.</text>
+<rect x="90.0" y="590.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
+<rect x="90.0" y="590.5" width="7" height="153.5" rx="3.5" fill="#803594"/>
+<text x="107.0" y="617.5" font-size="14.5" font-weight="700" fill="#1a3868">4. Jednotná účtovná politika a oceňovanie</text>
+<text x="107.0" y="636.5" font-size="14.5" font-weight="700" fill="#1a3868">(IFRS 10 B87)</text>
+<text x="107.0" y="660.5" font-size="13.0" fill="#374151">V skupine JEDNOTNÁ účtovná politika – odlišnú treba</text>
+<text x="107.0" y="677.0" font-size="13.0" fill="#374151">pred konsolidáciou upraviť. KÚZ v mene materskej</text>
+<text x="107.0" y="693.5" font-size="13.0" fill="#374151">(IAS 21). Výnosy/náklady dcéry od dňa kontroly do</text>
+<text x="107.0" y="710.0" font-size="13.0" fill="#374151">jej straty, na báze RH aktív k dňu akvizície (odpisy</text>
+<text x="107.0" y="726.5" font-size="13.0" fill="#374151">z RH).</text>
+<rect x="90.0" y="764.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
+<rect x="90.0" y="764.0" width="7" height="153.5" rx="3.5" fill="#6a6eb3"/>
+<text x="107.0" y="791.0" font-size="14.5" font-weight="700" fill="#1a3868">5. Postupy úplnej konsolidácie I. – agregácia</text>
+<text x="107.0" y="810.0" font-size="14.5" font-weight="700" fill="#1a3868">a konsolidácia kapitálu (IFRS 10 B86)</text>
+<text x="107.0" y="834.0" font-size="13.0" fill="#374151">Úplná konsolidácia od dňa kontroly do straty. Krok 1</text>
+<text x="107.0" y="850.5" font-size="13.0" fill="#374151">AGREGÁCIA: rovnaké položky riadok po riadku v 100 %</text>
+<text x="107.0" y="867.0" font-size="13.0" fill="#374151">bez ohľadu na podiel (po precenení na RH). Krok 2</text>
+<text x="107.0" y="883.5" font-size="13.0" fill="#374151">KONSOLIDÁCIA KAPITÁLU: eliminácia investície proti</text>
+<text x="107.0" y="900.0" font-size="13.0" fill="#374151">VI dcéry → goodwill/zisk z výhodnej kúpy.</text>
+<rect x="810.0" y="139.0" width="380" height="172.5" rx="12" fill="#ffffff" stroke="#9a562a" stroke-width="2.5"/>
+<rect x="810.0" y="139.0" width="7" height="172.5" rx="3.5" fill="#9a562a"/>
+<text x="827.0" y="166.0" font-size="14.5" font-weight="700" fill="#1a3868">6. Postupy úplnej konsolidácie II. –</text>
+<text x="827.0" y="185.0" font-size="14.5" font-weight="700" fill="#1a3868">eliminácia vnútroskupinových vzťahov a</text>
+<text x="827.0" y="204.0" font-size="14.5" font-weight="700" fill="#1a3868">medzivýsledku (B86)</text>
+<text x="827.0" y="228.0" font-size="13.0" fill="#374151">Krok 3 ELIMINÁCIA vnútroskupinových vzťahov v PLNEJ</text>
+<text x="827.0" y="244.5" font-size="13.0" fill="#374151">výške: vzájomné pohľadávky/záväzky, výnosy/náklady a</text>
+<text x="827.0" y="261.0" font-size="13.0" fill="#374151">nerealizovaný medzivýsledok v majetku. Reálne straty</text>
+<text x="827.0" y="277.5" font-size="13.0" fill="#374151">z hodnoty sa neeliminujú (IAS 12). Pri ďalších</text>
+<text x="827.0" y="294.0" font-size="13.0" fill="#374151">konsolidáciách len ZMENA medzivýsledku.</text>
+<rect x="810.0" y="331.5" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#e6251e" stroke-width="2.5"/>
+<rect x="810.0" y="331.5" width="7" height="153.5" rx="3.5" fill="#e6251e"/>
+<text x="827.0" y="358.5" font-size="14.5" font-weight="700" fill="#1a3868">7. Nekontrolujúce podiely (NCI) – vyčlenenie</text>
+<text x="827.0" y="377.5" font-size="14.5" font-weight="700" fill="#1a3868">cudzieho vlastníctva</text>
+<text x="827.0" y="401.5" font-size="13.0" fill="#374151">NCI = časť VI a VH patriaca cudzím (agreguje sa 100</text>
+<text x="827.0" y="418.0" font-size="13.0" fill="#374151">%). Vykazuje sa ODDELENE od VI materskej – zvlášť na</text>
+<text x="827.0" y="434.5" font-size="13.0" fill="#374151">čisté aktíva a na zisk/stratu. Ocenenie: RH (plný</text>
+<text x="827.0" y="451.0" font-size="13.0" fill="#374151">goodwill) alebo pomerný podiel (čiastkový). VH aj</text>
+<text x="827.0" y="467.5" font-size="13.0" fill="#374151">OSKV sa delia.</text>
+<rect x="810.0" y="505.0" width="380" height="153.5" rx="12" fill="#ffffff" stroke="#0e7490" stroke-width="2.5"/>
+<rect x="810.0" y="505.0" width="7" height="153.5" rx="3.5" fill="#0e7490"/>
+<text x="827.0" y="532.0" font-size="14.5" font-weight="700" fill="#1a3868">8. Investičné jednotky – výnimka z</text>
+<text x="827.0" y="551.0" font-size="14.5" font-weight="700" fill="#1a3868">konsolidácie (IFRS 10.27–33)</text>
+<text x="827.0" y="575.0" font-size="13.0" fill="#374151">Investičná jednotka SÚČASNE: získava prostriedky na</text>
+<text x="827.0" y="591.5" font-size="13.0" fill="#374151">správu investícií, investuje len kvôli</text>
+<text x="827.0" y="608.0" font-size="13.0" fill="#374151">zhodnoteniu/výnosu a oceňuje výkonnosť v RH. Dcéry</text>
+<text x="827.0" y="624.5" font-size="13.0" fill="#374151">NEKONSOLIDUJE (RH cez VH, IFRS 9). Výnimka: dcéru</text>
+<text x="827.0" y="641.0" font-size="13.0" fill="#374151">poskytujúcu súvisiace služby konsoliduje.</text>
+<rect x="810.0" y="678.5" width="380" height="170.0" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<rect x="810.0" y="678.5" width="7" height="170.0" rx="3.5" fill="#b45309"/>
+<text x="827.0" y="705.5" font-size="14.5" font-weight="700" fill="#1a3868">9. Zmeny vlastníckeho podielu – so stratou a</text>
+<text x="827.0" y="724.5" font-size="14.5" font-weight="700" fill="#1a3868">bez straty kontroly (IFRS 10.23, 10.25–26)</text>
+<text x="827.0" y="748.5" font-size="13.0" fill="#374151">BEZ straty kontroly (10.23) = transakcia s</text>
+<text x="827.0" y="765.0" font-size="13.0" fill="#374151">vlastníkmi: rozdiel PRIAMO VO VI, bez goodwillu a</text>
+<text x="827.0" y="781.5" font-size="13.0" fill="#374151">bez vplyvu na VH. SO stratou (10.25-26) =</text>
+<text x="827.0" y="798.0" font-size="13.0" fill="#374151">odkonsolidácia: prestane vykazovať</text>
+<text x="827.0" y="814.5" font-size="13.0" fill="#374151">aktíva/goodwill/záväzky/NCI, vykáže RH protihodnoty</text>
+<text x="827.0" y="831.0" font-size="13.0" fill="#374151">aj ponechaného podielu, rozdiel VÝSLEDKOVO.</text>
+</svg>
