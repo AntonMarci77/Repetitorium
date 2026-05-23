@@ -1,0 +1,138 @@
+{
+  "id": "ING-I-5",
+  "subor": "ING_I_05.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 5,
+  "nazov": "Daň z pridanej hodnoty",
+  "koren": {
+    "nazov": "Daň z pridanej hodnoty",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "DPH je nepriama univerzálna spotrebná daň, ktorá v každom článku reťazca zdaňuje len PRIDANÚ hodnotu, no reálne ju znáša až KONEČNÝ spotrebiteľ v cene. Mechanizmus je samočistiaci: platiteľ vyberie daň na výstupe…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Predmet dane a zdaniteľné obchody (§ 2)"
+          },
+          {
+            "nazov": "Zdaniteľná osoba a platiteľ dane (§ 3, § 4)"
+          },
+          {
+            "nazov": "Registračná povinnosť a zrušenie registrácie (§ 4, § 5, § 81)"
+          },
+          {
+            "nazov": "Základ dane, sadzby, prepočet meny a zaokrúhľovanie (§ 22, § 26, § 27)"
+          },
+          {
+            "nazov": "Mechanizmus DPH: daň na výstupe − odpočítanie dane na vstupe"
+          },
+          {
+            "nazov": "Miesto zdaniteľného obchodu (§ 13–16)"
+          },
+          {
+            "nazov": "Daňová povinnosť, oslobodenia a osoby povinné platiť daň (§ 19, § 28–42, § 69)"
+          },
+          {
+            "nazov": "Odpočítanie dane a koeficient (§ 49–51)"
+          },
+          {
+            "nazov": "Účtovné zobrazenie a zistenie vlastnej DP / nadmerného odpočtu"
+          },
+          {
+            "nazov": "Vedenie záznamov a nástroje proti daňovým únikom (§ 70, § 78a, § 69)"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "DPH ako nepriama univerzálna spotrebná daň"
+          },
+          {
+            "nazov": "daň na výstupe vs. daň na vstupe"
+          },
+          {
+            "nazov": "vlastná daňová povinnosť vs. nadmerný odpočet"
+          },
+          {
+            "nazov": "predmet dane (§ 2)"
+          },
+          {
+            "nazov": "zdaniteľná osoba (§ 3)"
+          },
+          {
+            "nazov": "platiteľ dane / registrácia (§ 4, § 5, § 7, § 7a)"
+          },
+          {
+            "nazov": "základ dane (§ 22)"
+          },
+          {
+            "nazov": "sadzby dane 23 / 19 / 5 % (§ 27)"
+          },
+          {
+            "nazov": "miesto zdaniteľného obchodu (§ 13–16)"
+          },
+          {
+            "nazov": "daňová povinnosť (§ 19)"
+          },
+          {
+            "nazov": "oslobodenie od dane (§ 28–42)"
+          },
+          {
+            "nazov": "odpočítanie dane (§ 49–51)"
+          },
+          {
+            "nazov": "koeficient a pomerné odpočítanie (§ 50)"
+          },
+          {
+            "nazov": "účet 343 – Daň z pridanej hodnoty"
+          },
+          {
+            "nazov": "kontrolný výkaz (§ 78a), prenos daňovej povinnosti / reverse-charge (§ 69), ručenie za daň (§ 69 ods. 14)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať zdaniteľnú osobu a platiteľa – platiteľom sa stáva až registráciou."
+          },
+          {
+            "nazov": "Tvrdiť, že DPH platí firma – reálne ju znáša konečný spotrebiteľ; firma ju len vyberie a odvedie."
+          },
+          {
+            "nazov": "Pliesť si dva registračné limity – 50 000 € (platiteľ od nového roka) vs. 62 500 € (platiteľ hneď dodaním)."
+          },
+          {
+            "nazov": "Myslieť si, že obrat sa sleduje za 12 po sebe idúcich mesiacov – od 2025 sa sleduje za kalendárny rok."
+          },
+          {
+            "nazov": "Zaokrúhľovať koeficient na dve miesta matematicky – zaokrúhľuje sa vždy NAHOR (§ 50)."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Predmet dane a zdaniteľné obchody (§ 2)",
+    "Zdaniteľná osoba a platiteľ dane (§ 3, § 4)",
+    "Registračná povinnosť a zrušenie registrácie (§ 4, § 5, § 81)",
+    "Základ dane, sadzby, prepočet meny a zaokrúhľovanie (§ 22, § 26, § 27)",
+    "Mechanizmus DPH: daň na výstupe − odpočítanie dane na vstupe",
+    "Miesto zdaniteľného obchodu (§ 13–16)",
+    "Daňová povinnosť, oslobodenia a osoby povinné platiť daň (§ 19, § 28–42, § 69)",
+    "Odpočítanie dane a koeficient (§ 49–51)",
+    "Účtovné zobrazenie a zistenie vlastnej DP / nadmerného odpočtu",
+    "Vedenie záznamov a nástroje proti daňovým únikom (§ 70, § 78a, § 69)"
+  ]
+}

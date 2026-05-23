@@ -1,0 +1,25 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel/
+.DS_Store
+*.log
+npm-debug.log*
+
+# Env – TAJNÉ, nikdy do repa
+.env
+.env.local
+.env.*.local
+
+# PWA generované súbory
+public/sw.js
+public/sw.js.map
+public/workbox-*.js
+public/workbox-*.js.map
+public/fallback-*.js
+
+# Editor
+.vscode/
+.idea/

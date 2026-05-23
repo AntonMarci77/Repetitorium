@@ -1,0 +1,55 @@
+<svg viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="580" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1f2d3d">Sústava daní v Slovenskej republike</text>
+  <text x="450" y="56" text-anchor="middle" font-size="13" fill="#5a6b7b">a ich vplyv na fyzickú osobu – podnikateľa (sadzby 2026)</text>
+
+  <!-- root -->
+  <rect x="350" y="76" width="200" height="46" rx="8" fill="#1f2d3d"/>
+  <text x="450" y="105" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">DANE V SR</text>
+
+  <line x1="450" y1="122" x2="230" y2="160" stroke="#888" stroke-width="2"/>
+  <line x1="450" y1="122" x2="670" y2="160" stroke="#888" stroke-width="2"/>
+
+  <!-- DIRECT -->
+  <rect x="40" y="160" width="380" height="56" rx="8" fill="#e3edf7" stroke="#2b6cb0" stroke-width="2.5"/>
+  <text x="230" y="186" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4e89">PRIAME DANE</text>
+  <text x="230" y="206" text-anchor="middle" font-size="11.5" fill="#26425f">znáša ich daňovník priamo z príjmu/majetku</text>
+
+  <rect x="55" y="232" width="350" height="58" rx="6" fill="#ffffff" stroke="#2b6cb0"/>
+  <text x="70" y="254" font-size="13" font-weight="bold" fill="#1f2d3d">Daň z príjmov FO (DPFO) – § 595/2003</text>
+  <text x="70" y="273" font-size="11.5" fill="#445">2026: 19/25/30/35 % • podnikanie ≤ 100 000 €: 15 %</text>
+  <text x="70" y="286" font-size="11.5" fill="#445">§ 7 kapitálový majetok: 19 % (osobitný ZD)</text>
+
+  <rect x="55" y="298" width="350" height="40" rx="6" fill="#ffffff" stroke="#2b6cb0"/>
+  <text x="70" y="318" font-size="13" font-weight="bold" fill="#1f2d3d">Daň z príjmov PO (DPPO)</text>
+  <text x="70" y="333" font-size="11" fill="#445">10 % (≤100 000 €) / 21 % / 24 % (&gt;5 mil. €)</text>
+
+  <rect x="55" y="346" width="350" height="58" rx="6" fill="#ffffff" stroke="#2b6cb0"/>
+  <text x="70" y="368" font-size="13" font-weight="bold" fill="#1f2d3d">Miestne dane – § 582/2004</text>
+  <text x="70" y="386" font-size="11.5" fill="#445">daň z nehnuteľností, za psa, z motorových</text>
+  <text x="70" y="400" font-size="11.5" fill="#445">vozidiel, miestne poplatky</text>
+
+  <!-- INDIRECT -->
+  <rect x="480" y="160" width="380" height="56" rx="8" fill="#fdeaea" stroke="#c23b3b" stroke-width="2.5"/>
+  <text x="670" y="186" text-anchor="middle" font-size="16" font-weight="bold" fill="#9c2b2b">NEPRIAME DANE</text>
+  <text x="670" y="206" text-anchor="middle" font-size="11.5" fill="#7a2222">sú v cene tovaru; znáša ich spotrebiteľ</text>
+
+  <rect x="495" y="232" width="350" height="72" rx="6" fill="#ffffff" stroke="#c23b3b"/>
+  <text x="510" y="254" font-size="13" font-weight="bold" fill="#1f2d3d">Daň z pridanej hodnoty (DPH) – § 222/2004</text>
+  <text x="510" y="273" font-size="11.5" fill="#445">sadzby 23 % / 19 % / 5 %</text>
+  <text x="510" y="290" font-size="11.5" fill="#445">registrácia pri obrate 50 000 € / kal. rok</text>
+
+  <rect x="495" y="312" width="350" height="92" rx="6" fill="#ffffff" stroke="#c23b3b"/>
+  <text x="510" y="334" font-size="13" font-weight="bold" fill="#1f2d3d">Spotrebné dane</text>
+  <text x="510" y="353" font-size="11.5" fill="#445">minerálny olej, lieh, pivo, víno,</text>
+  <text x="510" y="370" font-size="11.5" fill="#445">tabakové výrobky, elektrina,</text>
+  <text x="510" y="387" font-size="11.5" fill="#445">uhlie a zemný plyn</text>
+
+  <!-- impact bar -->
+  <rect x="40" y="430" width="820" height="118" rx="10" fill="#f4f6f8" stroke="#c3ccd6" stroke-width="1.5"/>
+  <text x="60" y="456" font-size="14" font-weight="bold" fill="#1f2d3d">Vplyv na finančnú situáciu FO podnikateľa:</text>
+  <text x="60" y="480" font-size="12" fill="#334">• Priame dane priamo znižujú čistý zisk; voľba výdavkov (skutočné vs. paušál) mení daň.</text>
+  <text x="60" y="502" font-size="12" fill="#334">• DPH: platiteľ má nárok na odpočet, neplatiteľ ju znáša v cene vstupov. Od 2026 pri osobných autách M1 odpočet len 50 %.</text>
+  <text x="60" y="524" font-size="12" fill="#334">• K daniam sa pridávajú odvody (2026 SZČO: zdravotné 16 %, sociálne 33,15 % z VZ) – sú daňovo uznaným výdavkom.</text>
+  <text x="60" y="543" font-size="10.5" fill="#7a8794">Stav: legislatíva SR k 1. 1. 2026 (tretí konsolidačný balík – zákon č. 261/2025 Z. z.).</text>
+</svg>

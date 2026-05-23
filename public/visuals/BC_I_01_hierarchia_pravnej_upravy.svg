@@ -1,0 +1,43 @@
+<svg viewBox="0 0 760 560" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Hierarchia právnej úpravy účtovníctva v SR</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#5a6b85">od nadnárodnej po vnútornú úroveň (sila predpisu klesá zhora nadol)</text>
+
+  <!-- Level 1: EU / IFRS -->
+  <rect x="80" y="78" width="600" height="86" rx="10" fill="#e8f0fe" stroke="#3b6fd6" stroke-width="2"/>
+  <text x="380" y="102" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a3a78">1. Nadnárodná úprava (EÚ a IFRS)</text>
+  <text x="380" y="124" text-anchor="middle" font-size="12.5" fill="#23375c">Smernica 2013/34/EÚ (ročná a konsolidovaná závierka, verný a pravdivý obraz)</text>
+  <text x="380" y="143" text-anchor="middle" font-size="12.5" fill="#23375c">IFRS v znení EÚ — nariadenie ES č. 1606/2002 (priama účinnosť)</text>
+
+  <!-- Level 2: Zakon -->
+  <rect x="80" y="186" width="600" height="86" rx="10" fill="#e6f6ec" stroke="#2e9e57" stroke-width="2"/>
+  <text x="380" y="210" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d6e3c">2. Národná zákonná úprava</text>
+  <text x="380" y="232" text-anchor="middle" font-size="12.5" fill="#1f4d31">Zákon č. 431/2002 Z. z. o účtovníctve (rámcový — KTO, ČO, KEDY, AKO)</text>
+  <text x="380" y="251" text-anchor="middle" font-size="12.5" fill="#1f4d31">Obchodný zákonník (513/1991) — povinnosť viesť účtovníctvo</text>
+
+  <!-- Level 3: Opatrenia MF SR -->
+  <rect x="80" y="294" width="600" height="98" rx="10" fill="#fff3e0" stroke="#e08a1e" stroke-width="2"/>
+  <text x="380" y="318" text-anchor="middle" font-size="16" font-weight="bold" fill="#9a5c0e">3. Vykonávacie opatrenia MF SR (§ 4 ods. 2)</text>
+  <text x="380" y="340" text-anchor="middle" font-size="12.5" fill="#7a4a0d">Postupy účtovania + rámcová účtová osnova pre podnikateľov</text>
+  <text x="380" y="358" text-anchor="middle" font-size="12.5" fill="#7a4a0d">(Opatrenie č. 23054/2002-92, účtové triedy 0–7)</text>
+  <text x="380" y="378" text-anchor="middle" font-size="12.5" fill="#7a4a0d">Opatrenia k závierke (mikro / malé / veľké ÚJ); postupy pre NO, banky, VS</text>
+
+  <!-- Level 4: Vnutorne predpisy -->
+  <rect x="80" y="414" width="600" height="84" rx="10" fill="#f3e8fb" stroke="#8a4bc9" stroke-width="2"/>
+  <text x="380" y="438" text-anchor="middle" font-size="16" font-weight="bold" fill="#5e2b94">4. Vnútorné predpisy účtovnej jednotky</text>
+  <text x="380" y="460" text-anchor="middle" font-size="12.5" fill="#46226e">Účtový rozvrh, smernica o obehu účtovných dokladov, odpisový plán</text>
+  <text x="380" y="479" text-anchor="middle" font-size="12.5" fill="#46226e">Nesmú byť v rozpore s nadradenými predpismi</text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#7a8aa3"/>
+    </marker>
+  </defs>
+  <line x1="380" y1="164" x2="380" y2="184" stroke="#7a8aa3" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="380" y1="272" x2="380" y2="292" stroke="#7a8aa3" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="380" y1="392" x2="380" y2="412" stroke="#7a8aa3" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <text x="380" y="528" text-anchor="middle" font-size="12" fill="#5a6b85">Smernice sa transponujú do národného práva; nariadenia EÚ a IFRS prijaté nariadením platia priamo.</text>
+  <text x="380" y="546" text-anchor="middle" font-size="11" fill="#94a1b5">Zdroj: zákon 431/2002 § 4; smernica 2013/34/EÚ; Opatrenie MF SR 23054/2002-92</text>
+</svg>

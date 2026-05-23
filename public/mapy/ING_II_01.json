@@ -1,0 +1,134 @@
+{
+  "id": "ING-II-1",
+  "subor": "ING_II_01.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "II",
+  "cislo": 1,
+  "nazov": "Podstata, cieľ, právna úprava a základné princípy auditu účtovnej závierky",
+  "koren": {
+    "nazov": "Podstata, cieľ, právna úprava a základné princípy auditu účtovnej závierky",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Audit nie je tvorba účtovníctva, ale jeho NEZÁVISLÉ OVEROVANIE. Účtovnú závierku zostavuje a zodpovedá za ňu manažment; audítor k nej iba vyjadruje názor. Cieľom auditu nie je odhaliť každú chybu (to by bola absolútna…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Podstata a cieľ auditu – primeraná istota a názor"
+          },
+          {
+            "nazov": "Zodpovednosť audítora vs. zodpovednosť manažmentu"
+          },
+          {
+            "nazov": "Nadnárodná a národná úprava štatutárneho auditu"
+          },
+          {
+            "nazov": "Inštitúcie vo svete – IFAC, IAASB, IESBA"
+          },
+          {
+            "nazov": "Inštitúcie na Slovensku – SKAU a ÚDVA"
+          },
+          {
+            "nazov": "Etický kódex audítora"
+          },
+          {
+            "nazov": "Nezávislosť audítora – základná požiadavka"
+          },
+          {
+            "nazov": "Profesionálny skepticizmus a odborný úsudok"
+          },
+          {
+            "nazov": "Kontrola kvality – ISQM 1, ISQM 2, ISA 220"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "štatutárny (zákonný) audit účtovnej závierky"
+          },
+          {
+            "nazov": "primeraná (nie absolútna) istota"
+          },
+          {
+            "nazov": "pravdivý a verný obraz / verné zobrazenie"
+          },
+          {
+            "nazov": "vyjadrenie názoru (výrok) audítora"
+          },
+          {
+            "nazov": "významná nesprávnosť (chyba alebo podvod)"
+          },
+          {
+            "nazov": "ISA – Medzinárodné audítorské štandardy"
+          },
+          {
+            "nazov": "ISQM 1 a ISQM 2, ISA 220 (revidovaný)"
+          },
+          {
+            "nazov": "Etický kódex IESBA / Etický kódex audítora"
+          },
+          {
+            "nazov": "nezávislosť audítora"
+          },
+          {
+            "nazov": "profesionálny skepticizmus"
+          },
+          {
+            "nazov": "zodpovednosť audítora vs. zodpovednosť manažmentu"
+          },
+          {
+            "nazov": "subjekt verejného záujmu (SVZ)"
+          },
+          {
+            "nazov": "IFAC, IAASB, IESBA"
+          },
+          {
+            "nazov": "SKAU – Slovenská komora audítorov"
+          },
+          {
+            "nazov": "ÚDVA – Úrad pre dohľad nad výkonom auditu"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Tvrdiť, že audit zaručuje bezchybnosť závierky – poskytuje len PRIMERANÚ istotu o absencii VÝZNAMNEJ nesprávnosti."
+          },
+          {
+            "nazov": "Zamieňať zodpovednosť: závierku zostavuje a zodpovedá za ňu manažment, NIE audítor; audítor ju len overuje."
+          },
+          {
+            "nazov": "Pliesť si IAASB (audítorské a kvalitatívne štandardy) s IESBA (etika a nezávislosť) a obe s IFAC (strešná federácia)."
+          },
+          {
+            "nazov": "Zamieňať SKAU (samospráva profesie) s ÚDVA (verejný dohľad, primárne pri SVZ)."
+          },
+          {
+            "nazov": "Považovať nezávislosť a profesionálny skepticizmus za to isté – nezávislosť je vzťah k subjektu, skepticizmus je…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Podstata a cieľ auditu – primeraná istota a názor",
+    "Zodpovednosť audítora vs. zodpovednosť manažmentu",
+    "Nadnárodná a národná úprava štatutárneho auditu",
+    "Inštitúcie vo svete – IFAC, IAASB, IESBA",
+    "Inštitúcie na Slovensku – SKAU a ÚDVA",
+    "Etický kódex audítora",
+    "Nezávislosť audítora – základná požiadavka",
+    "Profesionálny skepticizmus a odborný úsudok",
+    "Kontrola kvality – ISQM 1, ISQM 2, ISA 220"
+  ]
+}

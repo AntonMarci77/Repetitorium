@@ -1,0 +1,132 @@
+{
+  "id": "BC-I-7",
+  "subor": "BC_I_07.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "I",
+  "cislo": 7,
+  "nazov": "Manažérske a nákladové účtovníctvo",
+  "koren": {
+    "nazov": "Manažérske a nákladové účtovníctvo",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Účtovníctvo má dve vetvy: finančné (pohľad NAVONOK a DO MINULOSTI – povinné, pravidlá určuje zákon, slúži externým používateľom) a manažérske (pohľad DOVNÚTRA a DO BUDÚCNOSTI – dobrovoľné, pravidlá si určuje firma,…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Finančné, nákladové a manažérske účtovníctvo"
+          },
+          {
+            "nazov": "Funkcie, ciele a využitie pri zisťovaní vlastných nákladov"
+          },
+          {
+            "nazov": "Tri poňatia (koncepcie) nákladov"
+          },
+          {
+            "nazov": "Kalkulačné náklady (hodnotové poňatie)"
+          },
+          {
+            "nazov": "Oportunitné a relevantné náklady"
+          },
+          {
+            "nazov": "Členenie nákladov podľa druhu (druhové)"
+          },
+          {
+            "nazov": "Členenie nákladov podľa účelu (účelové)"
+          },
+          {
+            "nazov": "Členenie podľa závislosti od objemu výroby"
+          },
+          {
+            "nazov": "Miesto vzniku nákladov vs. stredisko zodpovednosti"
+          },
+          {
+            "nazov": "Vnútropodnikové (vopred stanovené) ceny"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "finančné účtovníctvo"
+          },
+          {
+            "nazov": "nákladové účtovníctvo"
+          },
+          {
+            "nazov": "manažérske účtovníctvo"
+          },
+          {
+            "nazov": "finančné poňatie nákladov"
+          },
+          {
+            "nazov": "hodnotové poňatie nákladov"
+          },
+          {
+            "nazov": "manažérske (ekonomické) poňatie nákladov"
+          },
+          {
+            "nazov": "kalkulačné náklady (kalkulačné odpisy, úroky, riziko, mzda)"
+          },
+          {
+            "nazov": "oportunitné (alternatívne) náklady"
+          },
+          {
+            "nazov": "druhové členenie nákladov"
+          },
+          {
+            "nazov": "účelové členenie nákladov (priame/nepriame, réžia)"
+          },
+          {
+            "nazov": "fixné a variabilné náklady"
+          },
+          {
+            "nazov": "miesto vzniku nákladov vs. stredisko zodpovednosti"
+          },
+          {
+            "nazov": "vnútropodnikové (vopred stanovené) ceny"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať nákladové a manažérske účtovníctvo – nákladové je len jadrom (podmnožinou) širšieho manažérskeho účtovníctva."
+          },
+          {
+            "nazov": "Stotožňovať náklad s výdavkom – odpis je náklad, ale nie výdavok; nákup zásob je výdavok, nákladom sa stane až pri…"
+          },
+          {
+            "nazov": "Tvrdiť, že hodnotové poňatie pridáva oportunitné náklady – oportunitné náklady pridáva až manažérske (ekonomické)…"
+          },
+          {
+            "nazov": "Myslieť si, že kalkulačné a oportunitné náklady vstupujú do daňového základu – sú to čisto interné/manažérske koncepty,…"
+          },
+          {
+            "nazov": "Zamieňať druhové a účelové členenie – druhové = ČO (materiál, mzdy), účelové = NA ČO/KDE (priame/réžia,…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Finančné, nákladové a manažérske účtovníctvo",
+    "Funkcie, ciele a využitie pri zisťovaní vlastných nákladov",
+    "Tri poňatia (koncepcie) nákladov",
+    "Kalkulačné náklady (hodnotové poňatie)",
+    "Oportunitné a relevantné náklady",
+    "Členenie nákladov podľa druhu (druhové)",
+    "Členenie nákladov podľa účelu (účelové)",
+    "Členenie podľa závislosti od objemu výroby",
+    "Miesto vzniku nákladov vs. stredisko zodpovednosti",
+    "Vnútropodnikové (vopred stanovené) ceny"
+  ]
+}

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 540" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="820" height="540" fill="#ffffff"/>
+  <text x="410" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a2b4a">Členenie nákladov podľa troch hľadísk</text>
+
+  <!-- Column 1: Druhové -->
+  <rect x="30" y="70" width="240" height="430" rx="10" fill="#eef4fb" stroke="#3a6fb0" stroke-width="2"/>
+  <rect x="30" y="70" width="240" height="58" rx="10" fill="#3a6fb0"/>
+  <text x="150" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">DRUHOVÉ</text>
+  <text x="150" y="120" text-anchor="middle" font-size="14" fill="#dce8f6">otázka: ČO sa spotrebovalo?</text>
+  <text x="150" y="160" text-anchor="middle" font-size="12.5" fill="#5a6b85">pohľad finančného účtovníctva</text>
+  <text x="50" y="200" font-size="13.5" fill="#1f3a5c">&#8226; spotreba materiálu a energie</text>
+  <text x="50" y="228" font-size="13.5" fill="#1f3a5c">&#8226; služby</text>
+  <text x="50" y="256" font-size="13.5" fill="#1f3a5c">&#8226; osobné náklady (mzdy)</text>
+  <text x="50" y="284" font-size="13.5" fill="#1f3a5c">&#8226; odpisy</text>
+  <text x="50" y="312" font-size="13.5" fill="#1f3a5c">&#8226; finančné náklady (úroky)</text>
+  <text x="50" y="340" font-size="13.5" fill="#1f3a5c">&#8226; dane a poplatky</text>
+  <text x="150" y="475" text-anchor="middle" font-size="12" fill="#5a6b85" font-style="italic">prvotné členenie</text>
+
+  <!-- Column 2: Účelové -->
+  <rect x="290" y="70" width="240" height="430" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <rect x="290" y="70" width="240" height="58" rx="10" fill="#2e8b57"/>
+  <text x="410" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">ÚČELOVÉ</text>
+  <text x="410" y="120" text-anchor="middle" font-size="14" fill="#d8efe0">otázka: NA ČO / KDE?</text>
+  <text x="410" y="160" text-anchor="middle" font-size="12.5" fill="#5a6b85">základ kalkulácií</text>
+  <text x="310" y="195" font-size="13.5" font-weight="bold" fill="#1d5c39">k výkonu:</text>
+  <text x="310" y="218" font-size="13" fill="#1d5c39">&#8226; priame (jednicové)</text>
+  <text x="310" y="240" font-size="13" fill="#1d5c39">&#8226; nepriame (režijné)</text>
+  <text x="310" y="278" font-size="13.5" font-weight="bold" fill="#1d5c39">k miestu / stredisku:</text>
+  <text x="310" y="301" font-size="13" fill="#1d5c39">&#8226; zásobovacie</text>
+  <text x="310" y="323" font-size="13" fill="#1d5c39">&#8226; výrobné</text>
+  <text x="310" y="345" font-size="13" fill="#1d5c39">&#8226; správne</text>
+  <text x="310" y="367" font-size="13" fill="#1d5c39">&#8226; odbytové</text>
+  <text x="410" y="475" text-anchor="middle" font-size="12" fill="#5a6b85" font-style="italic">priame + réžie</text>
+
+  <!-- Column 3: Podľa objemu -->
+  <rect x="550" y="70" width="240" height="430" rx="10" fill="#fbf1e8" stroke="#c47d2c" stroke-width="2"/>
+  <rect x="550" y="70" width="240" height="58" rx="10" fill="#c47d2c"/>
+  <text x="670" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">PODĽA OBJEMU</text>
+  <text x="670" y="120" text-anchor="middle" font-size="14" fill="#f4e2cf">otázka: MENÍ SA s výrobou?</text>
+  <text x="670" y="160" text-anchor="middle" font-size="12.5" fill="#5a6b85">základ bodu zvratu</text>
+  <text x="570" y="198" font-size="13.5" font-weight="bold" fill="#7a4d12">FIXNÉ (stále):</text>
+  <text x="570" y="221" font-size="13" fill="#7a4d12">&#8226; nemenia sa s objemom</text>
+  <text x="570" y="243" font-size="13" fill="#7a4d12">&#8226; na ks klesajú (degresia)</text>
+  <text x="570" y="265" font-size="13" fill="#7a4d12">&#8226; nájom, odpisy, poistenie</text>
+  <text x="570" y="303" font-size="13.5" font-weight="bold" fill="#7a4d12">VARIABILNÉ:</text>
+  <text x="570" y="326" font-size="13" fill="#7a4d12">&#8226; proporcionálne</text>
+  <text x="570" y="348" font-size="13" fill="#7a4d12">&#8226; progresívne / degresívne</text>
+  <text x="570" y="370" font-size="13" fill="#7a4d12">&#8226; (regresívne)</text>
+  <text x="670" y="475" text-anchor="middle" font-size="12" fill="#5a6b85" font-style="italic">+ zmiešané (polovariabilné)</text>
+</svg>

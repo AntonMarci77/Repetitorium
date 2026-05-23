@@ -1,0 +1,137 @@
+{
+  "id": "BC-II-9",
+  "subor": "BC_II_09.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "II",
+  "cislo": 9,
+  "nazov": "Účtovná závierka a finančné výkazy rozpočtových organizácií, príspevkových organizácií a obcí",
+  "koren": {
+    "nazov": "Účtovná závierka a finančné výkazy rozpočtových organizácií, príspevkových organizácií a obcí",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Verejný subjekt (RO, PO, obec, VÚC) zostavuje DVA paralelné a principiálne odlišné výstupy o tom istom hospodárení. PRVÝ je účtovná závierka – akruálny pohľad: čo subjekt VLASTNÍ a DLŽÍ (súvaha) a aké NÁKLADY a VÝNOSY…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Individuálna účtovná závierka – pojem a právny rámec"
+          },
+          {
+            "nazov": "Tri súčasti účtovnej závierky"
+          },
+          {
+            "nazov": "Osobitosti súvahy RO, PO a obcí"
+          },
+          {
+            "nazov": "Osobitosti výkazu ziskov a strát"
+          },
+          {
+            "nazov": "Konsolidovaná účtovná závierka a predkladanie"
+          },
+          {
+            "nazov": "Rozpočtová klasifikácia – štyri hľadiská (DEFO)"
+          },
+          {
+            "nazov": "Význam rozpočtovej klasifikácie a väzba na účtovníctvo"
+          },
+          {
+            "nazov": "Finančné výkazy FIN 1-12 až FIN 6-04"
+          },
+          {
+            "nazov": "Vzťah finančných výkazov k rozpočtu a k závierke"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "individuálna účtovná závierka (riadna, mimoriadna)"
+          },
+          {
+            "nazov": "súvaha Úč ROPO SFOV 1-01"
+          },
+          {
+            "nazov": "výkaz ziskov a strát Úč ROPO SFOV 2-01"
+          },
+          {
+            "nazov": "poznámky (textová a tabuľková časť)"
+          },
+          {
+            "nazov": "akruálny princíp závierky"
+          },
+          {
+            "nazov": "konsolidovaná účtovná závierka (obec + RO/PO)"
+          },
+          {
+            "nazov": "Centrálny konsolidačný systém (CKS)"
+          },
+          {
+            "nazov": "rozpočtová klasifikácia (DEFO – druhová, ekonomická, funkčná, organizačná)"
+          },
+          {
+            "nazov": "COFOG (funkčná klasifikácia)"
+          },
+          {
+            "nazov": "ekonomická klasifikácia (610, 630, 640, 710)"
+          },
+          {
+            "nazov": "finančné výkazy FIN 1-12 až FIN 6-04"
+          },
+          {
+            "nazov": "FIN 1-12 – rozpočtový výkaz (plnenie rozpočtu)"
+          },
+          {
+            "nazov": "hotovostný princíp finančných výkazov"
+          },
+          {
+            "nazov": "kumulatívne vykazovanie"
+          },
+          {
+            "nazov": "účtovný VH vs. rozpočtový prebytok/schodok"
+          },
+          {
+            "nazov": "záverečný účet obce"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať účtovnú závierku s finančnými výkazmi FIN – závierka je akruálna (majetok a výsledok), FIN sú…"
+          },
+          {
+            "nazov": "Tvrdiť, že účtovný VH sa rovná rozpočtovému prebytku/schodku – sú to dve rôzne čísla z dvoch systémov."
+          },
+          {
+            "nazov": "Zabudnúť na poznámky ako tretiu súčasť závierky (závierka = 3 S: súvaha, VZaS, poznámky); výkaz peňažných tokov NIE je…"
+          },
+          {
+            "nazov": "Pliesť si rozpočtovú klasifikáciu s účtovou osnovou – klasifikácia triedi rozpočtové príjmy/výdavky, účtová osnova účty."
+          },
+          {
+            "nazov": "Mýliť hľadiská klasifikácie: ekonomická (na čo – položky 610/630/710) vs. funkčná/COFOG (na akú oblasť – školstvo,…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Individuálna účtovná závierka – pojem a právny rámec",
+    "Tri súčasti účtovnej závierky",
+    "Osobitosti súvahy RO, PO a obcí",
+    "Osobitosti výkazu ziskov a strát",
+    "Konsolidovaná účtovná závierka a predkladanie",
+    "Rozpočtová klasifikácia – štyri hľadiská (DEFO)",
+    "Význam rozpočtovej klasifikácie a väzba na účtovníctvo",
+    "Finančné výkazy FIN 1-12 až FIN 6-04",
+    "Vzťah finančných výkazov k rozpočtu a k závierke"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "ING-I-3",
+  "subor": "ING_I_03.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 3,
+  "nazov": "Prenájom dlhodobého hmotného majetku podľa právnej úpravy v SR a IFRS 16",
+  "koren": {
+    "nazov": "Prenájom dlhodobého hmotného majetku podľa právnej úpravy v SR a IFRS 16",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Celá téza stojí na jednom kontraste. V SR sa pri DHM rozlišuje, KTO ekonomicky 'vlastní' predmet a KTO ho má v súvahe: pri finančnom prenájme je to nájomca (aktivuje majetok 042→022 a záväzok 474, odpisuje, splátku delí…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Vymedzenie prenájmu DHM a jeho druhy (SR)"
+          },
+          {
+            "nazov": "Kľúčové pojmy finančného prenájmu"
+          },
+          {
+            "nazov": "Odpisovanie pri finančnom prenájme (SR)"
+          },
+          {
+            "nazov": "Účtovanie finančného prenájmu u nájomcu (SR)"
+          },
+          {
+            "nazov": "Účtovanie finančného prenájmu u prenajímateľa (SR)"
+          },
+          {
+            "nazov": "Vykazovanie finančného prenájmu (SR)"
+          },
+          {
+            "nazov": "Technické zhodnotenie u nájomcu (SR)"
+          },
+          {
+            "nazov": "Predčasné ukončenie finančného prenájmu (SR)"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "prenájom (nájom) DHM"
+          },
+          {
+            "nazov": "finančný prenájom (lízing)"
+          },
+          {
+            "nazov": "operatívny prenájom"
+          },
+          {
+            "nazov": "spätný prenájom (sale and leaseback)"
+          },
+          {
+            "nazov": "istina a finančný náklad/výnos (nájomné)"
+          },
+          {
+            "nazov": "60 % doby odpisovania (§ 2 písm. s ZDP)"
+          },
+          {
+            "nazov": "technické zhodnotenie u nájomcu (§ 29 ZDP)"
+          },
+          {
+            "nazov": "predčasné ukončenie finančného prenájmu"
+          },
+          {
+            "nazov": "IFRS 16"
+          },
+          {
+            "nazov": "právo užívať aktívum (right-of-use, RoU)"
+          },
+          {
+            "nazov": "záväzok z lízingu"
+          },
+          {
+            "nazov": "krátkodobý lízing (≤ 12 mesiacov)"
+          },
+          {
+            "nazov": "lízing s nízkou hodnotou podkladového aktíva"
+          },
+          {
+            "nazov": "čistá investícia do lízingu"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Tvrdiť, že IFRS 16 zrušil rozlíšenie finančný/operatívny aj u prenajímateľa – zrušil ho LEN u nájomcu; prenajímateľ…"
+          },
+          {
+            "nazov": "Aktivovať u nájomcu (SR) celkovú sumu dohodnutých platieb vrátane úrokov – aktivuje sa len ISTINA; úroky idú postupne…"
+          },
+          {
+            "nazov": "Odpisovať v SR predmet finančného prenájmu počas trvania nájmu (stará lízingová metóda) – od r. 2015 sa odpisuje…"
+          },
+          {
+            "nazov": "Zamieňať dobu odpisu RoU (IFRS – doba lízingu, ak nie je prevod vlastníctva) s daňovou dobou odpisovania (SR – odpisová…"
+          },
+          {
+            "nazov": "Tvrdiť, že IFRS 16 má pevný číselný limit nízkej hodnoty – štandard limit neuvádza; ~5 000 USD je len orientačný údaj z…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Vymedzenie prenájmu DHM a jeho druhy (SR)",
+    "Kľúčové pojmy finančného prenájmu",
+    "Odpisovanie pri finančnom prenájme (SR)",
+    "Účtovanie finančného prenájmu u nájomcu (SR)",
+    "Účtovanie finančného prenájmu u prenajímateľa (SR)",
+    "Vykazovanie finančného prenájmu (SR)",
+    "Technické zhodnotenie u nájomcu (SR)",
+    "Predčasné ukončenie finančného prenájmu (SR)"
+  ]
+}

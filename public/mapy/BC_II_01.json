@@ -1,0 +1,134 @@
+{
+  "id": "BC-II-1",
+  "subor": "BC_II_01.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "II",
+  "cislo": 1,
+  "nazov": "Účtovná závierka a účtovná uzávierka v SR",
+  "koren": {
+    "nazov": "Účtovná závierka a účtovná uzávierka v SR",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Najdôležitejšie je nezamieňať dva podobne znejúce pojmy. Účtovná UZÁVIERKA je ČINNOSŤ – súbor prác, ktorými na konci obdobia uzatvoríme účtovné knihy: doúčtujeme všetko, čo patrí do obdobia (uzávierkové operácie –…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Účtovná uzávierka – uzatvorenie účtovných kníh"
+          },
+          {
+            "nazov": "Uzávierkové operácie"
+          },
+          {
+            "nazov": "Uzatvorenie účtov cez uzávierkové účty"
+          },
+          {
+            "nazov": "Účtovná závierka – charakteristika a náležitosti"
+          },
+          {
+            "nazov": "Súvaha a výkaz ziskov a strát"
+          },
+          {
+            "nazov": "Poznámky – význam a obsah"
+          },
+          {
+            "nazov": "Kontrola vecnej a formálnej správnosti účtovníctva"
+          },
+          {
+            "nazov": "Inventarizácia – charakteristika a priebeh"
+          },
+          {
+            "nazov": "Druhy inventúr, súpis, rozdiely a zápis"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "účtovná uzávierka (uzatvorenie účtovných kníh)"
+          },
+          {
+            "nazov": "účtovná závierka (výkazy)"
+          },
+          {
+            "nazov": "uzávierkové operácie"
+          },
+          {
+            "nazov": "súvaha"
+          },
+          {
+            "nazov": "výkaz ziskov a strát"
+          },
+          {
+            "nazov": "poznámky"
+          },
+          {
+            "nazov": "uzávierkové účty 702 a 710"
+          },
+          {
+            "nazov": "začiatočný účet súvahový 701"
+          },
+          {
+            "nazov": "inventarizácia"
+          },
+          {
+            "nazov": "inventúra (fyzická, dokladová, kombinovaná)"
+          },
+          {
+            "nazov": "inventúrny súpis"
+          },
+          {
+            "nazov": "inventarizačný rozdiel (manko, schodok, prebytok)"
+          },
+          {
+            "nazov": "inventarizačný zápis"
+          },
+          {
+            "nazov": "kontrola vecnej a formálnej správnosti"
+          },
+          {
+            "nazov": "register účtovných závierok"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať účtovnú uzávierku (činnosť, uzatvorenie kníh) a účtovnú závierku (výkazy). Toto je najčastejšia chyba na…"
+          },
+          {
+            "nazov": "Zabúdať na poznámky ako rovnocennú tretiu súčasť závierky (nie sú len nepovinný doplnok)."
+          },
+          {
+            "nazov": "Pliesť účet 710 (výsledkové účty, VH) s účtom 702 (súvahové účty). 710 = výkaz ziskov a strát, 702 = súvaha."
+          },
+          {
+            "nazov": "Zamieňať inventúru (zistenie skutočného stavu) a inventarizáciu (celý proces overenia vrátane porovnania a zápisu)."
+          },
+          {
+            "nazov": "Myslieť si, že manko z pokladnice je 'manko' – pri peniazoch a ceninách je to schodok."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Účtovná uzávierka – uzatvorenie účtovných kníh",
+    "Uzávierkové operácie",
+    "Uzatvorenie účtov cez uzávierkové účty",
+    "Účtovná závierka – charakteristika a náležitosti",
+    "Súvaha a výkaz ziskov a strát",
+    "Poznámky – význam a obsah",
+    "Kontrola vecnej a formálnej správnosti účtovníctva",
+    "Inventarizácia – charakteristika a priebeh",
+    "Druhy inventúr, súpis, rozdiely a zápis"
+  ]
+}

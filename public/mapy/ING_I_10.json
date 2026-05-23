@@ -1,0 +1,143 @@
+{
+  "id": "ING-I-10",
+  "subor": "ING_I_10.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 10,
+  "nazov": "Kalkulácie, rozpočtovníctvo a zodpovednostné účtovníctvo",
+  "koren": {
+    "nazov": "Kalkulácie, rozpočtovníctvo a zodpovednostné účtovníctvo",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Manažérske účtovníctvo riadi podnik cez cyklus PLÁNUJ → MERAJ → POROVNAJ → REAGUJ. 'Plánuj' = vopred stanovené (štandardné) náklady v kalkulácii a rozpočte; 'meraj' = skutočné náklady; 'porovnaj' = rozbor odchýlok;…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Vopred stanovené náklady a metóda štandardných nákladov"
+          },
+          {
+            "nazov": "Rozbor odchýlok – princíp rozkladu na cenu a množstvo"
+          },
+          {
+            "nazov": "Odchýlky jednotkových nákladov (materiál, mzdy)"
+          },
+          {
+            "nazov": "Odchýlky režijných nákladov"
+          },
+          {
+            "nazov": "Kalkulácia úplných nákladov (absorpčná)"
+          },
+          {
+            "nazov": "Kalkulácia neúplných nákladov (variabilné kalkulovanie)"
+          },
+          {
+            "nazov": "Vplyv na ocenenie zásob, súvahu a VH; aktivácia nákladov"
+          },
+          {
+            "nazov": "Zodpovednostné účtovníctvo a strediská zodpovednosti"
+          },
+          {
+            "nazov": "Vnútropodnikové ceny na báze nákladov a na báze zisku"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "vopred stanovené (štandardné) náklady"
+          },
+          {
+            "nazov": "rozbor (analýza) odchýlok"
+          },
+          {
+            "nazov": "kvalitatívna (cenová) odchýlka"
+          },
+          {
+            "nazov": "kvantitatívna (množstvová) odchýlka"
+          },
+          {
+            "nazov": "cenová a spotrebná odchýlka materiálu"
+          },
+          {
+            "nazov": "tarifná a výkonová odchýlka miezd"
+          },
+          {
+            "nazov": "režijné odchýlky (spotrebná, objemová, kapacitná)"
+          },
+          {
+            "nazov": "kalkulácia úplných nákladov (absorpčná)"
+          },
+          {
+            "nazov": "kalkulácia neúplných nákladov (variabilné kalkulovanie)"
+          },
+          {
+            "nazov": "príspevok na úhradu (krycí príspevok, marža)"
+          },
+          {
+            "nazov": "oceňovanie zásob vlastnej výroby vlastnými nákladmi"
+          },
+          {
+            "nazov": "aktivácia nákladov"
+          },
+          {
+            "nazov": "zodpovednostné účtovníctvo a strediská zodpovednosti"
+          },
+          {
+            "nazov": "vnútropodniková cena na báze nákladov / na báze zisku"
+          },
+          {
+            "nazov": "prevádzkový rozpočet"
+          },
+          {
+            "nazov": "inkrementálne rozpočtovanie"
+          },
+          {
+            "nazov": "rozpočtovanie s nulovým základom (ZBB)"
+          },
+          {
+            "nazov": "rozpočtovanie podľa čiastkových činností (ABB)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať cenovú a množstvovú odchýlku alebo ich váhovať nesprávnym množstvom (cenová sa násobí SKUTOČNÝM množstvom,…"
+          },
+          {
+            "nazov": "Myslieť si, že úplná a neúplná kalkulácia dávajú vždy rovnaký VH – líšia sa práve pri zmene stavu zásob (rast zásob →…"
+          },
+          {
+            "nazov": "Tvrdiť, že zásoby vlastnej výroby sa pre závierku oceňujú len variabilnými nákladmi – oceňujú sa vlastnými nákladmi…"
+          },
+          {
+            "nazov": "Zamieňať aktiváciu (vznik majetku, kompenzácia nákladu) so vznikom výnosu z predaja – aktivácia nie je tržba, je to…"
+          },
+          {
+            "nazov": "Pliesť miesto vzniku nákladu (KDE) so strediskom zodpovednosti (KTO) – náklad môže vzniknúť inde, než je zodpovednosť."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Vopred stanovené náklady a metóda štandardných nákladov",
+    "Rozbor odchýlok – princíp rozkladu na cenu a množstvo",
+    "Odchýlky jednotkových nákladov (materiál, mzdy)",
+    "Odchýlky režijných nákladov",
+    "Kalkulácia úplných nákladov (absorpčná)",
+    "Kalkulácia neúplných nákladov (variabilné kalkulovanie)",
+    "Vplyv na ocenenie zásob, súvahu a VH; aktivácia nákladov",
+    "Zodpovednostné účtovníctvo a strediská zodpovednosti",
+    "Vnútropodnikové ceny na báze nákladov a na báze zisku"
+  ]
+}

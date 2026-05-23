@@ -1,0 +1,131 @@
+{
+  "id": "BC-I-6",
+  "subor": "BC_I_06.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "I",
+  "cislo": 6,
+  "nazov": "Zúčtovacie vzťahy",
+  "koren": {
+    "nazov": "Zúčtovacie vzťahy",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Účtová trieda 3 'Zúčtovacie vzťahy' je most medzi účtovnou jednotkou a jej okolím: zachytáva, KOMU firma dlhuje a KTO dlhuje jej, v krátkodobom horizonte. Mentálny model: každý vzťah má dve strany toho istého dokladu –…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Obsah a štruktúra účtovej triedy 3"
+          },
+          {
+            "nazov": "Obchodné pohľadávky a záväzky (311, 321) a ich oceňovanie"
+          },
+          {
+            "nazov": "Mzda: tri sumy a ich zaúčtovanie (331, 336, 342)"
+          },
+          {
+            "nazov": "Ďalšie mzdové účty: 333, 335, 366"
+          },
+          {
+            "nazov": "Povinnosti zamestnávateľa pri vzniku pracovného pomeru"
+          },
+          {
+            "nazov": "Povinnosti pri zániku pracovného pomeru"
+          },
+          {
+            "nazov": "Špecifiká dohôd o prácach mimo pracovného pomeru (§ 223–228a)"
+          },
+          {
+            "nazov": "Náhrada príjmu pri PN a ošetrovné (OČR)"
+          },
+          {
+            "nazov": "Náhrada mzdy za dovolenku, odstupné a odchodné"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "zúčtovacie vzťahy (účtová trieda 3)"
+          },
+          {
+            "nazov": "pohľadávky z obchodného styku (311)"
+          },
+          {
+            "nazov": "záväzky z obchodného styku (321)"
+          },
+          {
+            "nazov": "zamestnanci – záväzky z miezd (331)"
+          },
+          {
+            "nazov": "ostatné záväzky voči zamestnancom (333)"
+          },
+          {
+            "nazov": "pohľadávky voči zamestnancom (335)"
+          },
+          {
+            "nazov": "zúčtovanie so SP a ZP (336)"
+          },
+          {
+            "nazov": "daň zo závislej činnosti (342)"
+          },
+          {
+            "nazov": "hrubá mzda vs. čistá mzda vs. cena práce"
+          },
+          {
+            "nazov": "vymeriavací základ (VZ)"
+          },
+          {
+            "nazov": "denný vymeriavací základ (DVZ)"
+          },
+          {
+            "nazov": "dohody mimo pracovného pomeru (§ 223–228a)"
+          },
+          {
+            "nazov": "odstupné (§ 76) a odchodné (§ 76a)"
+          },
+          {
+            "nazov": "náhrada príjmu pri PN, ošetrovné (OČR)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Považovať odvody a daň zamestnanca za náklad firmy – sú strhnuté z hrubej mzdy (331), nákladom je len hrubá mzda (521)…"
+          },
+          {
+            "nazov": "Zamieňať čistú mzdu s cenou práce – cena práce je hrubá mzda + odvody zamestnávateľa, čistá mzda je hrubá mínus odvody…"
+          },
+          {
+            "nazov": "Použiť staré zdravotné poistné zamestnanca 4 % aj pre rok 2026 – od 1. 1. 2026 je to 5 % (sociálne ostáva 9,4 %)."
+          },
+          {
+            "nazov": "Tvrdiť, že pri PN platí zamestnávateľ 10 dní aj v roku 2026 – od 2026 platí 14 dní, nemocenské zo SP až od 15. dňa."
+          },
+          {
+            "nazov": "Zameniť limity dohôd: DoVP 350 h/rok (výsledok), DoPČ 10 h/týždeň (druh práce), DoBPŠ 20 h/týždeň – nezamieňať hodiny…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Obsah a štruktúra účtovej triedy 3",
+    "Obchodné pohľadávky a záväzky (311, 321) a ich oceňovanie",
+    "Mzda: tri sumy a ich zaúčtovanie (331, 336, 342)",
+    "Ďalšie mzdové účty: 333, 335, 366",
+    "Povinnosti zamestnávateľa pri vzniku pracovného pomeru",
+    "Povinnosti pri zániku pracovného pomeru",
+    "Špecifiká dohôd o prácach mimo pracovného pomeru (§ 223–228a)",
+    "Náhrada príjmu pri PN a ošetrovné (OČR)",
+    "Náhrada mzdy za dovolenku, odstupné a odchodné"
+  ]
+}

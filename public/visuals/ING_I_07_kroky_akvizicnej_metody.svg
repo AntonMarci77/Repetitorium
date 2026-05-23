@@ -1,0 +1,54 @@
+<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="560" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Akvizičná metóda podľa IFRS 3 – štyri kroky</text>
+  <text x="450" y="58" text-anchor="middle" font-size="14" fill="#55607a">Jediná povolená metóda účtovania podnikovej kombinácie (pohľad nadobúdateľa)</text>
+
+  <!-- step 1 -->
+  <rect x="50" y="86" width="800" height="64" rx="10" fill="#e8f1fb" stroke="#2f6db5" stroke-width="2"/>
+  <circle cx="86" cy="118" r="18" fill="#2f6db5"/>
+  <text x="86" y="124" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">1</text>
+  <text x="120" y="112" font-size="15" font-weight="bold" fill="#1a4d8f">Identifikácia nadobúdateľa</text>
+  <text x="120" y="134" font-size="12.5" fill="#2a3a55">subjekt, ktorý získa OVLÁDANIE (kontrolu) podľa IFRS 10</text>
+
+  <line x1="450" y1="150" x2="450" y2="166" stroke="#55607a" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <!-- step 2 -->
+  <rect x="50" y="170" width="800" height="64" rx="10" fill="#eef6ee" stroke="#3f8f3f" stroke-width="2"/>
+  <circle cx="86" cy="202" r="18" fill="#3f8f3f"/>
+  <text x="86" y="208" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">2</text>
+  <text x="120" y="196" font-size="15" font-weight="bold" fill="#23631f">Určenie dňa akvizície</text>
+  <text x="120" y="218" font-size="12.5" fill="#234b1f">deň získania kontroly (spravidla deň uzavretia); k tomuto dňu sa všetko oceňuje</text>
+
+  <line x1="450" y1="234" x2="450" y2="250" stroke="#55607a" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <!-- step 3 -->
+  <rect x="50" y="254" width="800" height="84" rx="10" fill="#f0ecf8" stroke="#6a4ca0" stroke-width="2"/>
+  <circle cx="86" cy="296" r="18" fill="#6a4ca0"/>
+  <text x="86" y="302" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">3</text>
+  <text x="120" y="282" font-size="15" font-weight="bold" fill="#4a2f80">Vykázanie a ocenenie v reálnej hodnote</text>
+  <text x="120" y="304" font-size="12.5" fill="#3a2a55">identifikovateľné aktíva + prevzaté záväzky v RH (oddelene od goodwillu)</text>
+  <text x="120" y="324" font-size="12.5" fill="#3a2a55">+ NCI: voľba RH (plný GW) alebo pomerný podiel na čistých aktívach (čiastočný GW)</text>
+
+  <line x1="450" y1="338" x2="450" y2="354" stroke="#55607a" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <!-- step 4 -->
+  <rect x="50" y="358" width="800" height="84" rx="10" fill="#fff4d6" stroke="#c79a17" stroke-width="2.5"/>
+  <circle cx="86" cy="400" r="18" fill="#c79a17"/>
+  <text x="86" y="406" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">4</text>
+  <text x="120" y="386" font-size="15" font-weight="bold" fill="#7a5b00">Goodwill alebo zisk z výhodnej kúpy</text>
+  <text x="120" y="408" font-size="12.5" fill="#5a4500">GW = protihodnota + NCI + RH predtým drž. podielu − RH čistých identif. aktív</text>
+  <text x="120" y="428" font-size="12.5" fill="#5a4500">záporný výsledok → po prehodnotení zisk z výhodnej kúpy vo VzaS</text>
+
+  <line x1="450" y1="442" x2="450" y2="458" stroke="#b03030" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- follow-up IAS 36 -->
+  <rect x="50" y="462" width="800" height="74" rx="10" fill="#fdeaea" stroke="#b03030" stroke-width="2"/>
+  <text x="450" y="488" text-anchor="middle" font-size="15" font-weight="bold" fill="#8a1f1f">Po dni akvizície: goodwill sa NEODPISUJE (IAS 36)</text>
+  <text x="450" y="510" text-anchor="middle" font-size="12.5" fill="#5a1414">alokácia na CGU → test raz ročne a pri náznaku: ÚH vrátane GW vs. spätne získateľná suma</text>
+  <text x="450" y="528" text-anchor="middle" font-size="12" font-style="italic" fill="#5a1414">strata sa najprv odpočíta od goodwillu; zníženie goodwillu sa NIKDY nereverzuje</text>
+
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#55607a"/></marker>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#b03030"/></marker>
+  </defs>
+</svg>

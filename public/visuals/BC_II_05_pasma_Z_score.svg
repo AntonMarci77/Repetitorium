@@ -1,0 +1,41 @@
+<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="440" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Pásma Altmanovho Z-score a Z'-score</text>
+  <text x="380" y="58" text-anchor="middle" font-size="14" fill="#5a6b82">Vyššie skóre = zdravšia firma. Tri pásma: bankrotová / sivá / bezpečná</text>
+
+  <!-- ===== Kótované Z-score ===== -->
+  <text x="40" y="108" font-size="16" font-weight="bold" fill="#1a2b4a">Kótované a. s. – Z-score (prahy 1,81 a 2,99)</text>
+  <!-- bar -->
+  <rect x="40" y="120" width="220" height="40" fill="#e35d5b"/>
+  <rect x="260" y="120" width="240" height="40" fill="#f3c14a"/>
+  <rect x="500" y="120" width="220" height="40" fill="#4caa6e"/>
+  <text x="150" y="145" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Bankrotová zóna</text>
+  <text x="380" y="145" text-anchor="middle" font-size="13" font-weight="bold" fill="#5a4500">Sivá (šedá) zóna</text>
+  <text x="610" y="145" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Bezpečná zóna</text>
+  <!-- tick labels -->
+  <line x1="260" y1="120" x2="260" y2="178" stroke="#1a2b4a" stroke-width="1.5"/>
+  <line x1="500" y1="120" x2="500" y2="178" stroke="#1a2b4a" stroke-width="1.5"/>
+  <text x="260" y="194" text-anchor="middle" font-size="13" fill="#1a2b4a">Z = 1,81</text>
+  <text x="500" y="194" text-anchor="middle" font-size="13" fill="#1a2b4a">Z = 2,99</text>
+  <text x="48" y="194" font-size="12" fill="#5a6b82">nižšie riziko →</text>
+
+  <!-- ===== Nekótované Z'-score ===== -->
+  <text x="40" y="252" font-size="16" font-weight="bold" fill="#1a2b4a">Nekótované s. r. o. – Z'-score (prahy 1,23 a 2,9)</text>
+  <rect x="40" y="264" width="180" height="40" fill="#e35d5b"/>
+  <rect x="220" y="264" width="290" height="40" fill="#f3c14a"/>
+  <rect x="510" y="264" width="210" height="40" fill="#4caa6e"/>
+  <text x="130" y="289" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Vážne problémy</text>
+  <text x="365" y="289" text-anchor="middle" font-size="13" font-weight="bold" fill="#5a4500">Sivá (šedá) zóna</text>
+  <text x="615" y="289" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Uspokojivá situácia</text>
+  <line x1="220" y1="264" x2="220" y2="322" stroke="#1a2b4a" stroke-width="1.5"/>
+  <line x1="510" y1="264" x2="510" y2="322" stroke="#1a2b4a" stroke-width="1.5"/>
+  <text x="220" y="338" text-anchor="middle" font-size="13" fill="#1a2b4a">Z' = 1,23</text>
+  <text x="510" y="338" text-anchor="middle" font-size="13" fill="#1a2b4a">Z' = 2,9</text>
+
+  <!-- example marker Z' = 2,12 in grey zone -->
+  <polygon points="400,360 392,348 408,348" fill="#1a2b4a"/>
+  <line x1="400" y1="264" x2="400" y2="348" stroke="#1a2b4a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="400" y="378" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Príklad: Z' = 2,12 → sivá zóna</text>
+
+  <text x="40" y="418" font-size="12.5" fill="#5a6b82">Pozn.: skóre je pravdepodobnostné varovanie 1–5 rokov dopredu, nie dôkaz úpadku. Sledovať trend a kombinovať modely.</text>
+</svg>

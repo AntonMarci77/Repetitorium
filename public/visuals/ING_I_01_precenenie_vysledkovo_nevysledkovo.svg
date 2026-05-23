@@ -1,0 +1,50 @@
+<svg viewBox="0 0 920 560" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="920" height="560" fill="#ffffff"/>
+  <text x="460" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Preceňovanie na reálnu (férovú) hodnotu: KAM ide zmena ocenenia?</text>
+  <text x="460" y="58" text-anchor="middle" font-size="14" fill="#55607a">Dve cesty zaúčtovania zmeny hodnoty majetku podľa kategórie a štandardu IFRS</text>
+
+  <!-- Left column: NEVÝSLEDKOVO -->
+  <rect x="30" y="80" width="410" height="200" rx="10" fill="#e8f1fb" stroke="#2f6db5" stroke-width="2"/>
+  <text x="235" y="108" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a4d8f">NEVÝSLEDKOVO</text>
+  <text x="235" y="130" text-anchor="middle" font-size="13" fill="#1a4d8f">cez ostatné súčasti komplexného výsledku (OSKV/OCI)</text>
+  <text x="235" y="148" text-anchor="middle" font-size="13" fill="#1a4d8f">→ prebytok (fond) z precenenia vo vlastnom imaní</text>
+  <text x="50" y="178" font-size="13" fill="#13345e" font-weight="bold">IAS 16 – DHM (model precenenia)</text>
+  <text x="50" y="198" font-size="13" fill="#13345e" font-weight="bold">IAS 38 – DNM (len pri aktívnom trhu)</text>
+  <text x="50" y="222" font-size="12.5" fill="#2a3a55">ZVÝŠENIE hodnoty → OSKV / prebytok z precenenia</text>
+  <text x="50" y="242" font-size="12.5" fill="#2a3a55">ZNÍŽENIE → najprv proti prebytku, zvyšok výsledkovo</text>
+  <text x="50" y="266" font-size="12" fill="#7a5200" font-style="italic">VH neovplyvní priamo (nepriamo cez vyššie odpisy + odložená daň)</text>
+
+  <!-- Right column: VÝSLEDKOVO -->
+  <rect x="480" y="80" width="410" height="200" rx="10" fill="#fdeee6" stroke="#c2691f" stroke-width="2"/>
+  <text x="685" y="108" text-anchor="middle" font-size="17" font-weight="bold" fill="#9c4e10">VÝSLEDKOVO</text>
+  <text x="685" y="130" text-anchor="middle" font-size="13" fill="#9c4e10">priamo do výsledku hospodárenia (VZaS)</text>
+  <text x="685" y="148" text-anchor="middle" font-size="13" fill="#9c4e10">zmena hodnoty = zisk/strata bežného obdobia</text>
+  <text x="500" y="178" font-size="13" fill="#7a3c0a" font-weight="bold">IAS 40 – investičné nehnuteľnosti</text>
+  <text x="500" y="196" font-size="12" fill="#7a3c0a">(model reálnej hodnoty – VŽDY výsledkovo, NEODPISuje sa)</text>
+  <text x="500" y="218" font-size="13" fill="#7a3c0a" font-weight="bold">IFRS 5 – majetok určený na predaj</text>
+  <text x="500" y="236" font-size="12" fill="#7a3c0a">(nižšia z ÚH a FV − náklady na predaj, NEODPISuje sa)</text>
+  <text x="500" y="258" font-size="13" fill="#7a3c0a" font-weight="bold">IAS 36 – straty zo zníženia hodnoty</text>
+  <text x="500" y="276" font-size="12" fill="#7a3c0a">(opravné položky – výsledkovo)</text>
+
+  <!-- Asset box center top -->
+  <rect x="360" y="300" width="200" height="46" rx="8" fill="#f3f5f9" stroke="#55607a" stroke-width="1.5"/>
+  <text x="460" y="328" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a2b4a">Zmena reálnej hodnoty majetku</text>
+
+  <!-- arrows -->
+  <line x1="360" y1="323" x2="245" y2="282" stroke="#2f6db5" stroke-width="2.5" marker-end="url(#ab)"/>
+  <line x1="560" y1="323" x2="675" y2="282" stroke="#c2691f" stroke-width="2.5" marker-end="url(#ao)"/>
+
+  <!-- bottom note: principle -->
+  <rect x="30" y="372" width="860" height="158" rx="10" fill="#eef6ee" stroke="#3f8f3f" stroke-width="1.5"/>
+  <text x="50" y="398" font-size="15" font-weight="bold" fill="#23631f">Prečo to tak je – zachovanie majetkovej podstaty (kapitálu)</text>
+  <text x="50" y="424" font-size="13" fill="#234b1f">• Majetok v používaní (IAS 16/38): nerealizovaný nárast hodnoty by umelo zvýšil zisk a základ na dividendy →</text>
+  <text x="64" y="444" font-size="13" fill="#234b1f">aby sa nerozdelilo to, čo je len udržaním hodnoty kapitálu, zvýšenie ide do OSKV (nevýsledkovo).</text>
+  <text x="50" y="470" font-size="13" fill="#234b1f">• Investičná nehnuteľnosť (IAS 40): je držaná práve na výnos z hodnoty → zmena hodnoty JE výsledkom →</text>
+  <text x="64" y="490" font-size="13" fill="#234b1f">účtuje sa výsledkovo a majetok sa neodpisuje.</text>
+  <text x="50" y="516" font-size="13" fill="#234b1f" font-weight="bold">Pamäť: ZVÝŠENIE IAS 16/38 = OSKV ; IAS 40 = VŽDY VH ; IFRS 5 = nižšia z ÚH a FVLCS ; IAS 36 = strata výsledkovo.</text>
+
+  <defs>
+    <marker id="ab" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2f6db5"/></marker>
+    <marker id="ao" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#c2691f"/></marker>
+  </defs>
+</svg>

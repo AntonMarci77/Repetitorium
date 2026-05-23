@@ -1,0 +1,137 @@
+{
+  "id": "BC-II-5",
+  "subor": "BC_II_05.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "II",
+  "cislo": 5,
+  "nazov": "Predikčné a bankrotové modely a udržateľnosť",
+  "koren": {
+    "nazov": "Predikčné a bankrotové modely a udržateľnosť",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Pomerové ukazovatele (likvidita, rentabilita, zadlženosť, aktivita) hovoria každý o jednom aspekte – sú ako jednotlivé prístroje na palubnej doske. Predikčný/bankrotový model je 'jeden výsledný gombík': diskriminačnou…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Bonitné vs. bankrotové modely"
+          },
+          {
+            "nazov": "Ako modely vznikli – diskriminačná analýza"
+          },
+          {
+            "nazov": "Altmanovo Z-score – pôvodná verzia (kótované a. s.)"
+          },
+          {
+            "nazov": "Altmanovo Z'-score – pre nekótované podniky"
+          },
+          {
+            "nazov": "Index IN05 (manželia Neumaierovci, ČR)"
+          },
+          {
+            "nazov": "Tafflerov a Beaverov model"
+          },
+          {
+            "nazov": "Interpretácia, obmedzenia a kombinovanie"
+          },
+          {
+            "nazov": "Udržateľnosť vo výročnej správe – CSRD a ESRS"
+          },
+          {
+            "nazov": "Aktuálny stav CSRD v SR (2025/2026): Stop-the-clock a Omnibus I"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "predikčný (predikčný) model"
+          },
+          {
+            "nazov": "bankrotový model"
+          },
+          {
+            "nazov": "bonitný model"
+          },
+          {
+            "nazov": "syntetický (sústavový) ukazovateľ"
+          },
+          {
+            "nazov": "diskriminačná analýza"
+          },
+          {
+            "nazov": "Altmanovo Z-score (kótované)"
+          },
+          {
+            "nazov": "Altmanovo Z'-score (nekótované)"
+          },
+          {
+            "nazov": "index IN05 (Neumaierovci)"
+          },
+          {
+            "nazov": "Tafflerov model"
+          },
+          {
+            "nazov": "Beaverova analýza"
+          },
+          {
+            "nazov": "bezpečná zóna / sivá zóna / bankrotová zóna"
+          },
+          {
+            "nazov": "finančné zdravie účtovnej jednotky"
+          },
+          {
+            "nazov": "výročná správa"
+          },
+          {
+            "nazov": "správa o udržateľnosti (ESG)"
+          },
+          {
+            "nazov": "CSRD / ESRS"
+          },
+          {
+            "nazov": "Omnibus / Stop-the-clock"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Použiť pôvodné Altmanovo Z-score (s trhovou hodnotou v x4) na nekótovanú s. r. o. – treba verziu Z' s účtovnou hodnotou…"
+          },
+          {
+            "nazov": "Zamieňať prahy: kótované Z (1,81 a 2,99) vs. nekótované Z' (1,23 a 2,9) vs. IN05 (0,9 a 1,6) – majú odlišné hranice…"
+          },
+          {
+            "nazov": "Považovať nízke/záporné skóre za istý bankrot – je to len pravdepodobnostné varovanie (nutná, nie postačujúca podmienka…"
+          },
+          {
+            "nazov": "Pri Tafflerovi hľadať pásma ako pri Altmanovi – rozhoduje len ZNAMIENKO výsledku (plus = zdravie, mínus = riziko)."
+          },
+          {
+            "nazov": "Pri Beaverovi čakať jedno skóre – Beaver je jednorozmerný a sleduje TREND viacerých ukazovateľov, nie jedno číslo."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Bonitné vs. bankrotové modely",
+    "Ako modely vznikli – diskriminačná analýza",
+    "Altmanovo Z-score – pôvodná verzia (kótované a. s.)",
+    "Altmanovo Z'-score – pre nekótované podniky",
+    "Index IN05 (manželia Neumaierovci, ČR)",
+    "Tafflerov a Beaverov model",
+    "Interpretácia, obmedzenia a kombinovanie",
+    "Udržateľnosť vo výročnej správe – CSRD a ESRS",
+    "Aktuálny stav CSRD v SR (2025/2026): Stop-the-clock a Omnibus I"
+  ]
+}

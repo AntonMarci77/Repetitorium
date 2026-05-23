@@ -1,0 +1,59 @@
+<svg viewBox="0 0 860 560" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="860" height="560" fill="#ffffff"/>
+  <text x="430" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1f2d3d">Konsolidovaný celok → konsolidovaná účtovná závierka (KÚZ)</text>
+  <text x="430" y="56" text-anchor="middle" font-size="13" fill="#5b6b7b">„Akoby skupina bola jeden podnik" — eliminácia duplicít a vnútroskupinových vzťahov</text>
+
+  <!-- Materská UJ -->
+  <rect x="330" y="80" width="200" height="60" rx="8" fill="#1d6fb8" stroke="#13507f" stroke-width="2"/>
+  <text x="430" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Materská ÚJ (MÚJ)</text>
+  <text x="430" y="126" text-anchor="middle" font-size="11" fill="#dceaf6">zostavuje KÚZ</text>
+
+  <!-- connecting lines -->
+  <line x1="430" y1="140" x2="430" y2="170" stroke="#7a8b9b" stroke-width="2"/>
+  <line x1="130" y1="170" x2="730" y2="170" stroke="#7a8b9b" stroke-width="2"/>
+  <line x1="130" y1="170" x2="130" y2="200" stroke="#7a8b9b" stroke-width="2"/>
+  <line x1="340" y1="170" x2="340" y2="200" stroke="#7a8b9b" stroke-width="2"/>
+  <line x1="540" y1="170" x2="540" y2="200" stroke="#7a8b9b" stroke-width="2"/>
+  <line x1="730" y1="170" x2="730" y2="200" stroke="#7a8b9b" stroke-width="2"/>
+
+  <!-- Dcera 100% -->
+  <rect x="40" y="200" width="180" height="78" rx="8" fill="#2e9e6b" stroke="#1f7350" stroke-width="2"/>
+  <text x="130" y="224" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Dcéra D1 (100 %)</text>
+  <text x="130" y="244" text-anchor="middle" font-size="11" fill="#e6f5ee">rozhodujúci vplyv / ovládanie</text>
+  <text x="130" y="262" text-anchor="middle" font-size="11" fill="#e6f5ee">úplná konsolidácia (IFRS 10)</text>
+
+  <!-- Dcera 80% + NP -->
+  <rect x="250" y="200" width="180" height="78" rx="8" fill="#2e9e6b" stroke="#1f7350" stroke-width="2"/>
+  <text x="340" y="224" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Dcéra D2 (80 %)</text>
+  <text x="340" y="244" text-anchor="middle" font-size="11" fill="#e6f5ee">úplná konsolidácia (100 %)</text>
+  <text x="340" y="262" text-anchor="middle" font-size="11" fill="#fff2cc">+ nekontrolujúce podiely 20 %</text>
+
+  <!-- Spolocny podnik -->
+  <rect x="450" y="200" width="180" height="78" rx="8" fill="#c9822b" stroke="#9a6420" stroke-width="2"/>
+  <text x="540" y="224" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Spoločný podnik</text>
+  <text x="540" y="244" text-anchor="middle" font-size="11" fill="#fbe6d3">spoločné ovládanie</text>
+  <text x="540" y="262" text-anchor="middle" font-size="11" fill="#fbe6d3">metóda VI (IAS 28)</text>
+
+  <!-- Pridruzeny -->
+  <rect x="640" y="200" width="180" height="78" rx="8" fill="#c9822b" stroke="#9a6420" stroke-width="2"/>
+  <text x="730" y="224" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Pridružený podnik</text>
+  <text x="730" y="244" text-anchor="middle" font-size="11" fill="#fbeeda">podstatný vplyv</text>
+  <text x="730" y="262" text-anchor="middle" font-size="11" fill="#fbeeda">metóda VI (IAS 28)</text>
+
+  <!-- Eliminacie box -->
+  <rect x="60" y="310" width="740" height="86" rx="8" fill="#fdecec" stroke="#d9534f" stroke-width="1.5"/>
+  <text x="430" y="332" text-anchor="middle" font-size="14" font-weight="bold" fill="#a73330">Konsolidačné úpravy – eliminácia v plnej výške</text>
+  <text x="430" y="354" text-anchor="middle" font-size="12" fill="#7a2c2a">• investícia MÚJ × podiel na VI dcéry (konsolidácia kapitálu → goodwill / zisk z výhodnej kúpy, IFRS 3)</text>
+  <text x="430" y="372" text-anchor="middle" font-size="12" fill="#7a2c2a">• vzájomné pohľadávky a záväzky • medzizisk v zásobách • vzájomné náklady a výnosy a peňažné toky</text>
+  <text x="430" y="390" text-anchor="middle" font-size="11" fill="#7a2c2a">(pridružené a spoločné podniky sa neeliminujú agregáciou – len metóda vlastného imania)</text>
+
+  <!-- arrow down -->
+  <polygon points="425,396 435,396 430,418" fill="#7a8b9b"/>
+
+  <!-- KUZ box -->
+  <rect x="180" y="430" width="500" height="100" rx="10" fill="#13507f" stroke="#0c3a5c" stroke-width="2"/>
+  <text x="430" y="456" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">Konsolidovaná účtovná závierka (IAS 1, IAS 7)</text>
+  <text x="430" y="480" text-anchor="middle" font-size="12" fill="#dceaf6">súvaha • výkaz ziskov a strát a komplexného výsledku • zmeny VI • cash flow • poznámky</text>
+  <text x="430" y="500" text-anchor="middle" font-size="12" fill="#fff2cc">navyše: goodwill • nekontrolujúce podiely • investície metódou VI</text>
+  <text x="430" y="520" text-anchor="middle" font-size="12" fill="#fff2cc">zverejnenia podľa IFRS 12 • daňovo neúčinná</text>
+</svg>

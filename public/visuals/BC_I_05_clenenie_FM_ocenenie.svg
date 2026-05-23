@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="960" height="620" fill="#ffffff"/>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Finančný majetok – členenie a oceňovanie</text>
+  <text x="480" y="56" text-anchor="middle" font-size="13" fill="#64748b">Zákon 431/2002 § 25 (obstaranie) a § 27 (závierka) · Postupy podnikatelia § 14</text>
+
+  <!-- three category columns -->
+  <!-- DLHODOBY -->
+  <rect x="24" y="78" width="296" height="246" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="172" y="104" text-anchor="middle" font-size="16" font-weight="700" fill="#1d4ed8">Dlhodobý FM (skupina 06)</text>
+  <text x="172" y="123" text-anchor="middle" font-size="11.5" fill="#475569">držba &gt; 1 rok / strategický zámer</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="40" y="148">061 – podiely v dcére (ovládanie)</text>
+    <text x="40" y="170">062 – podiely s podstatným vplyvom</text>
+    <text x="40" y="192">063 – realizovateľné CP a podiely</text>
+    <text x="40" y="214">065 – dlhové CP držané do splatnosti</text>
+    <text x="40" y="236">066/067 – pôžičky</text>
+    <text x="40" y="258">069 – ostatný dlhodobý FM</text>
+    <text x="40" y="284" font-style="italic" fill="#475569">+ umelecké diela, drahé kovy,</text>
+    <text x="40" y="302" font-style="italic" fill="#475569">pozemky na uloženie voľných peňazí</text>
+  </g>
+
+  <!-- KRATKODOBY -->
+  <rect x="332" y="78" width="296" height="246" rx="12" fill="#fef9c3" stroke="#fde68a"/>
+  <text x="480" y="104" text-anchor="middle" font-size="16" font-weight="700" fill="#a16207">Krátkodobý FM (skupina 25)</text>
+  <text x="480" y="123" text-anchor="middle" font-size="11.5" fill="#475569">obchodovanie / zisk z cenových rozdielov</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="348" y="148">251 – majetkové CP na obchodovanie</text>
+    <text x="348" y="170">252 – vlastné akcie a podiely</text>
+    <text x="348" y="192">253 – dlhové CP na obchodovanie</text>
+    <text x="348" y="214">255 – vlastné dlhopisy</text>
+    <text x="348" y="236">256 – dlhové CP do splatnosti (&lt;1 r.)</text>
+    <text x="348" y="258">257 – ostatné realizovateľné CP</text>
+    <text x="348" y="280">258 – kryptoaktíva (od 2025)</text>
+    <text x="348" y="302">259 – obstaranie krátkodobého FM</text>
+  </g>
+
+  <!-- PENIAZE -->
+  <rect x="640" y="78" width="296" height="246" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="788" y="104" text-anchor="middle" font-size="16" font-weight="700" fill="#15803d">Peniaze a ekvivalenty (trieda 2)</text>
+  <text x="788" y="123" text-anchor="middle" font-size="11.5" fill="#475569">finančné účty – likvidné prostriedky</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="656" y="148">211 – pokladnica (hotovosť)</text>
+    <text x="656" y="170">213 – ceniny (známky, kolky, lístky)</text>
+    <text x="656" y="192">221 – bankové účty</text>
+    <text x="656" y="214">222 – tokeny e-peňazí (od 2025)</text>
+    <text x="656" y="236">261 – peniaze na ceste</text>
+    <text x="656" y="262" font-style="italic" fill="#475569">moderné platobné prostriedky:</text>
+    <text x="656" y="282" font-style="italic" fill="#475569">debetná karta → 221, kreditná → 231</text>
+    <text x="656" y="302" font-style="italic" fill="#475569">(úver)</text>
+  </g>
+
+  <!-- valuation band -->
+  <text x="480" y="358" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Oceňovanie</text>
+
+  <rect x="24" y="372" width="912" height="60" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="40" y="396" font-size="13" font-weight="700" fill="#0f172a">Pri obstaraní (§ 25):</text>
+  <text x="40" y="418" font-size="12.5" fill="#0f172a">CP a podiely → obstarávacia cena (vrátane poplatkov, provízií; bez úrokov z úveru a kurz. rozdielov) · peniaze, ceniny, tokeny e-peňazí → menovitá hodnota</text>
+
+  <rect x="24" y="442" width="912" height="150" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="40" y="466" font-size="13" font-weight="700" fill="#0f172a">Ku dňu závierky (§ 27): vybrané CP reálnou hodnotou – KAM ide zmena?</text>
+
+  <rect x="40" y="478" width="436" height="100" rx="8" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="258" y="500" text-anchor="middle" font-size="13" font-weight="700" fill="#b91c1c">cez VÝSLEDOK</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="56" y="522">• majetkové CP na obchodovanie (251):</text>
+    <text x="68" y="540">pokles 564 / nárast 664</text>
+    <text x="56" y="560">• dlhové CP na obchodovanie (253): 566/666</text>
+  </g>
+
+  <rect x="484" y="478" width="436" height="100" rx="8" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="702" y="500" text-anchor="middle" font-size="13" font-weight="700" fill="#4338ca">cez VLASTNÉ IMANIE (účet 414)</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="500" y="522">• realizovateľné CP a podiely (063, 257)</text>
+    <text x="500" y="542">• metóda vlastného imania (061, 062)</text>
+    <text x="500" y="562" font-style="italic" fill="#475569">do výsledku až pri predaji</text>
+  </g>
+</svg>

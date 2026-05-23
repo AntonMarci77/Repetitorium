@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 600" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="940" height="600" fill="#ffffff"/>
+  <text x="470" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Metódy finančnej analýzy účtovnej závierky</text>
+  <text x="470" y="56" text-anchor="middle" font-size="13" fill="#64748b">vstup → metóda → výstup (ukazovatele + porovnanie + interpretácia)</text>
+
+  <!-- VSTUP -->
+  <rect x="30" y="80" width="240" height="120" rx="12" fill="#1e293b"/>
+  <text x="150" y="106" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">VSTUP – účtovná závierka</text>
+  <g font-size="12" fill="#cbd5e1">
+    <text x="50" y="130">• Súvaha (stavová veličina)</text>
+    <text x="50" y="150">• Výkaz ziskov a strát (toková)</text>
+    <text x="50" y="170">• Poznámky (cash flow, VI)</text>
+    <text x="50" y="190">• Doplnkovo: plán, odvetvie</text>
+  </g>
+
+  <!-- VYSTUP -->
+  <rect x="670" y="80" width="240" height="120" rx="12" fill="#0e7490"/>
+  <text x="790" y="106" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">VÝSTUP – diagnóza</text>
+  <g font-size="12" fill="#cffafe">
+    <text x="690" y="130">• Sústava ukazovateľov</text>
+    <text x="690" y="150">• Porovnanie: čas / plán /</text>
+    <text x="690" y="168">  odvetvie / konkurencia</text>
+    <text x="690" y="190">• Slovná interpretácia, opatrenia</text>
+  </g>
+
+  <line x1="270" y1="140" x2="300" y2="140" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="306,140 294,134 294,146" fill="#94a3b8"/>
+  <line x1="640" y1="140" x2="670" y2="140" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="670,140 658,134 658,146" fill="#94a3b8"/>
+
+  <!-- METODY title -->
+  <text x="470" y="246" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">METÓDY</text>
+
+  <!-- 4 method boxes -->
+  <rect x="30" y="262" width="210" height="150" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="135" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">Horizontálna</text>
+  <text x="135" y="308" text-anchor="middle" font-size="11.5" fill="#1e3a8a">vývoj v ČASE</text>
+  <g font-size="11" fill="#0f172a">
+    <text x="45" y="332">„o koľko sa zmenila?"</text>
+    <text x="45" y="354">abs. zmena = bežné −</text>
+    <text x="55" y="370">minulé obdobie</text>
+    <text x="45" y="392">rel. zmena = abs. /</text>
+    <text x="55" y="408">minulé × 100 (%)</text>
+  </g>
+
+  <rect x="256" y="262" width="210" height="150" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="361" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#15803d">Vertikálna</text>
+  <text x="361" y="308" text-anchor="middle" font-size="11.5" fill="#14532d">ŠTRUKTÚRA</text>
+  <g font-size="11" fill="#0f172a">
+    <text x="271" y="332">„aký podiel tvorí?"</text>
+    <text x="271" y="354">položka / základňa × 100</text>
+    <text x="271" y="376">súvaha: aktíva = 100 %</text>
+    <text x="271" y="398">výsledovka: tržby = 100 %</text>
+  </g>
+
+  <rect x="482" y="262" width="210" height="150" rx="10" fill="#fefce8" stroke="#fde68a"/>
+  <text x="587" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#a16207">Pomerová</text>
+  <text x="587" y="308" text-anchor="middle" font-size="11.5" fill="#854d0e">pomer dvoch položiek</text>
+  <g font-size="11" fill="#0f172a">
+    <text x="497" y="332">rentabilita, likvidita,</text>
+    <text x="497" y="354">aktivita, zadlženosť</text>
+    <text x="497" y="380">+ nákladovosť / účinnosť</text>
+    <text x="497" y="398">/ viazanosť (téza II.4)</text>
+  </g>
+
+  <rect x="708" y="262" width="202" height="150" rx="10" fill="#faf5ff" stroke="#e9d5ff"/>
+  <text x="809" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#7e22ce">Sústavová</text>
+  <text x="809" y="308" text-anchor="middle" font-size="11.5" fill="#6b21a8">jedno skóre / rozklad</text>
+  <g font-size="11" fill="#0f172a">
+    <text x="723" y="332">pyramídy: DuPont (ROE)</text>
+    <text x="723" y="358">bonitné a bankrotové:</text>
+    <text x="723" y="378">Altman Z, IN05,</text>
+    <text x="723" y="398">Taffler, Beaver</text>
+  </g>
+
+  <!-- absolute indicators band -->
+  <rect x="30" y="438" width="880" height="58" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="48" y="460" font-size="13" font-weight="700" fill="#0f172a">Absolútne ukazovatele:</text>
+  <text x="48" y="480" font-size="11.5" fill="#334155">Súvaha → majetková a finančná štruktúra, čistý pracovný kapitál (OM − krátkodobé záväzky).</text>
+  <text x="490" y="480" font-size="11.5" fill="#334155">Výsledovka → stupne VH (prevádzkový, finančný, EBT, čistý zisk), EBIT, EBITDA.</text>
+
+  <!-- mnemonic band -->
+  <rect x="30" y="510" width="880" height="62" rx="10" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="48" y="534" font-size="12.5" font-weight="700" fill="#9a3412">Pamäťová pomôcka</text>
+  <text x="48" y="554" font-size="12" fill="#7c2d12">Horizontálna = „doľava-doprava" v čase (riadky za roky). Vertikálna = „zhora-nadol" na štruktúru jedného stĺpca (% z celku).</text>
+</svg>

@@ -1,0 +1,137 @@
+{
+  "id": "ING-I-6",
+  "subor": "ING_I_06.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 6,
+  "nazov": "Konsolidovaná účtovná závierka podľa IFRS a jej právna úprava v SR",
+  "koren": {
+    "nazov": "Konsolidovaná účtovná závierka podľa IFRS a jej právna úprava v SR",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Konsolidovaná závierka odpovedá na jednu otázku: ako keby skupina (materská + všetky dcéry) bola JEDEN podnik. Individuálne závierky kapitálovo prepojených firiem nedávajú verný obraz – obsahujú duplicity (investícia…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Podstata, účel a využitie informácií"
+          },
+          {
+            "nazov": "Kto a koho konsoliduje – ovládanie podľa IFRS 10 a § 22"
+          },
+          {
+            "nazov": "Proces prípravy a zostavenia KÚZ"
+          },
+          {
+            "nazov": "Štruktúra a obsah KÚZ podľa IFRS a osobitosti oproti individuálnej ÚZ matky"
+          },
+          {
+            "nazov": "Zverejňovanie v poznámkach podľa IFRS 12"
+          },
+          {
+            "nazov": "Individuálna/separátna ÚZ podľa IAS 27"
+          },
+          {
+            "nazov": "Povinnosť zostaviť KÚZ v SR a oslobodenia (§ 22)"
+          },
+          {
+            "nazov": "Osobitosti konsolidácie vo verejnej správe (§ 22a)"
+          },
+          {
+            "nazov": "Ďalšie povinnosti matky v SR (výročná správa, výkaz, CbCR)"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "konsolidovaná účtovná závierka (KÚZ)"
+          },
+          {
+            "nazov": "konsolidovaný celok (§ 6 ods. 4)"
+          },
+          {
+            "nazov": "materská účtovná jednotka (MÚJ)"
+          },
+          {
+            "nazov": "dcérska účtovná jednotka (DÚJ)"
+          },
+          {
+            "nazov": "rozhodujúci vplyv / ovládanie (control, IFRS 10)"
+          },
+          {
+            "nazov": "metóda úplnej konsolidácie"
+          },
+          {
+            "nazov": "metóda vlastného imania (IAS 28)"
+          },
+          {
+            "nazov": "nekontrolujúce podiely (NP)"
+          },
+          {
+            "nazov": "goodwill / zisk z výhodnej kúpy (IFRS 3)"
+          },
+          {
+            "nazov": "individuálna (separátna) ÚZ (IAS 27)"
+          },
+          {
+            "nazov": "zverejnenia podielov v iných ÚJ (IFRS 12)"
+          },
+          {
+            "nazov": "oslobodenia od povinnosti zostaviť KÚZ (§ 22)"
+          },
+          {
+            "nazov": "konsolidovaná ÚZ verejnej správy / súhrnná ÚZ verejnej správy (§ 22a)"
+          },
+          {
+            "nazov": "konsolidovaná výročná správa"
+          },
+          {
+            "nazov": "výkaz vybraných údajov"
+          },
+          {
+            "nazov": "správa s informáciami o dani z príjmov (CbCR, § 21a)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať konsolidovanú ÚZ s individuálnou/separátnou ÚZ matky (IAS 27) – v separátnej sa investície len oceňujú…"
+          },
+          {
+            "nazov": "Myslieť si, že úplná konsolidácia preberá len podiel matky – preberá 100 % položiek dcéry, cudzí podiel sa vykáže ako…"
+          },
+          {
+            "nazov": "Aplikovať úplnú konsolidáciu na pridružené a spoločné podniky – tie sa vykazujú metódou vlastného imania (IAS 28), nie…"
+          },
+          {
+            "nazov": "Tvrdiť, že KÚZ je podkladom pre daň alebo rozdelenie zisku – je daňovo neúčinná a neslúži na výpočet podielov na zisku."
+          },
+          {
+            "nazov": "Považovať veľkostné prahy za jediné kritérium – treba splniť aspoň DVE z troch; a oslobodenie podľa kritérií neplatí…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Podstata, účel a využitie informácií",
+    "Kto a koho konsoliduje – ovládanie podľa IFRS 10 a § 22",
+    "Proces prípravy a zostavenia KÚZ",
+    "Štruktúra a obsah KÚZ podľa IFRS a osobitosti oproti individuálnej ÚZ matky",
+    "Zverejňovanie v poznámkach podľa IFRS 12",
+    "Individuálna/separátna ÚZ podľa IAS 27",
+    "Povinnosť zostaviť KÚZ v SR a oslobodenia (§ 22)",
+    "Osobitosti konsolidácie vo verejnej správe (§ 22a)",
+    "Ďalšie povinnosti matky v SR (výročná správa, výkaz, CbCR)"
+  ]
+}

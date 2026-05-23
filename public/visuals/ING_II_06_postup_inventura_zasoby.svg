@@ -1,0 +1,80 @@
+<svg viewBox="0 0 940 640" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="940" height="640" fill="#ffffff"/>
+  <text x="470" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1f3a27">Postup auditu zásob vrátane účasti na inventúre (ISA 501)</text>
+  <text x="470" y="56" text-anchor="middle" font-size="13" fill="#5a7a62">tri fázy: pred inventúrou → počas inventúry → po inventúre a vyhodnotenie</text>
+
+  <!-- Phase 1 -->
+  <rect x="30" y="80" width="270" height="220" rx="10" fill="#eef6f0" stroke="#9cc2a6" stroke-width="2"/>
+  <rect x="30" y="80" width="270" height="38" rx="10" fill="#2e5e3a"/>
+  <text x="165" y="105" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">1 · PRED inventúrou</text>
+  <text x="46" y="142" font-size="12.5" fill="#1f3a27">• posúdenie rizík významnej</text>
+  <text x="56" y="160" font-size="12.5" fill="#1f3a27">nesprávnosti (ISA 315)</text>
+  <text x="46" y="184" font-size="12.5" fill="#1f3a27">• vyhodnotenie pokynov a</text>
+  <text x="56" y="202" font-size="12.5" fill="#1f3a27">procedúr manažmentu</text>
+  <text x="46" y="226" font-size="12.5" fill="#1f3a27">• plán účasti, miesta, časovanie</text>
+  <text x="46" y="250" font-size="12.5" fill="#1f3a27">• je inventúra významná a</text>
+  <text x="56" y="268" font-size="12.5" fill="#1f3a27">uskutočniteľná?</text>
+  <text x="46" y="290" font-size="11.5" font-style="italic" fill="#5a7a62">ak neuskutočniteľná → alternatívy</text>
+
+  <!-- Phase 2 -->
+  <rect x="335" y="80" width="270" height="220" rx="10" fill="#eef6f0" stroke="#9cc2a6" stroke-width="2"/>
+  <rect x="335" y="80" width="270" height="38" rx="10" fill="#2e5e3a"/>
+  <text x="470" y="105" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">2 · POČAS inventúry</text>
+  <text x="351" y="142" font-size="12.5" fill="#1f3a27">• pozorovanie dodržiavania</text>
+  <text x="361" y="160" font-size="12.5" fill="#1f3a27">procedúr manažmentu</text>
+  <text x="351" y="184" font-size="12.5" fill="#1f3a27">• inšpekcia existencie a stavu</text>
+  <text x="351" y="208" font-size="12.5" fill="#1f3a27">• testovacie počty obojsmerne:</text>
+  <text x="361" y="226" font-size="11.5" fill="#264a73">sklad → záznam = úplnosť</text>
+  <text x="361" y="244" font-size="11.5" fill="#264a73">záznam → sklad = existencia</text>
+  <text x="351" y="268" font-size="12.5" fill="#1f3a27">• zápis cut-off dokladov</text>
+  <text x="361" y="286" font-size="11.5" fill="#5a7a62">(posledné príjemky/výdajky)</text>
+
+  <!-- Phase 3 -->
+  <rect x="640" y="80" width="270" height="220" rx="10" fill="#eef6f0" stroke="#9cc2a6" stroke-width="2"/>
+  <rect x="640" y="80" width="270" height="38" rx="10" fill="#2e5e3a"/>
+  <text x="775" y="105" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">3 · PO inventúre</text>
+  <text x="656" y="142" font-size="12.5" fill="#1f3a27">• ocenenie: nižšia z OC a NRV</text>
+  <text x="656" y="166" font-size="12.5" fill="#1f3a27">• opravné položky k zastaraným</text>
+  <text x="666" y="184" font-size="12.5" fill="#1f3a27">a pomaly obrátkovým zásobám</text>
+  <text x="656" y="208" font-size="12.5" fill="#1f3a27">• test cut-off: príjemky/výdajky</text>
+  <text x="666" y="226" font-size="12.5" fill="#1f3a27">vs. záväzky a pohľadávky</text>
+  <text x="656" y="250" font-size="12.5" fill="#1f3a27">• analytické postupy (obrátka,</text>
+  <text x="666" y="268" font-size="12.5" fill="#1f3a27">hrubá marža) – ISA 520</text>
+  <text x="656" y="290" font-size="12.5" fill="#1f3a27">• vyhodnotenie zistení (ISA 450)</text>
+
+  <!-- arrows between phases -->
+  <path d="M300 190 L335 190" stroke="#2e5e3a" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+  <path d="M605 190 L640 190" stroke="#2e5e3a" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0 0 L7 3 L0 6 Z" fill="#2e5e3a"/>
+    </marker>
+  </defs>
+
+  <!-- Alternative branch -->
+  <rect x="30" y="330" width="575" height="86" rx="10" fill="#fdf3e8" stroke="#e0b07a" stroke-width="2"/>
+  <text x="46" y="356" font-size="14" font-weight="700" fill="#8a5210">Ak je účasť NEuskutočniteľná (nie len nepohodlná):</text>
+  <text x="46" y="380" font-size="12.5" fill="#5a3a10">• alternatívne postupy – napr. inšpekcia dokladov o následnom predaji konkrétnych položiek;</text>
+  <text x="46" y="402" font-size="12.5" fill="#5a3a10">• ak ani tie nestačia → obmedzenie rozsahu → modifikácia názoru (ISA 705).</text>
+
+  <!-- Typical findings -->
+  <rect x="640" y="330" width="270" height="200" rx="10" fill="#fdeef0" stroke="#d99aa4" stroke-width="2"/>
+  <text x="775" y="356" text-anchor="middle" font-size="14" font-weight="700" fill="#7a2030">Typické zistenia</text>
+  <text x="656" y="384" font-size="12" fill="#5a1a26">• nadhodnotené zásoby (nad NRV)</text>
+  <text x="656" y="408" font-size="12" fill="#5a1a26">• chýbajúca OP k zastaraným</text>
+  <text x="666" y="426" font-size="12" fill="#5a1a26">a pomaly obrátkovým zásobám</text>
+  <text x="656" y="450" font-size="12" fill="#5a1a26">• chyby v cut-off (tovar na ceste,</text>
+  <text x="666" y="468" font-size="12" fill="#5a1a26">nevyfakturované dodávky)</text>
+  <text x="656" y="492" font-size="12" fill="#5a1a26">• cudzí (komisionálny) tovar</text>
+  <text x="666" y="510" font-size="12" fill="#5a1a26">nesprávne zahrnutý v zásobách</text>
+
+  <!-- Outcome -->
+  <rect x="30" y="446" width="575" height="84" rx="10" fill="#eef2f8" stroke="#9bb0d0" stroke-width="2"/>
+  <text x="46" y="472" font-size="14" font-weight="700" fill="#1a2a44">Výsledok auditu zásob</text>
+  <text x="46" y="496" font-size="12.5" fill="#22344f">Dostatočné a vhodné dôkazy o existencii, úplnosti, ocenení, právach a prezentácii (ISA 500).</text>
+  <text x="46" y="518" font-size="12.5" fill="#22344f">Zistenia sa hodnotia voči významnosti; významné a neopravené → modifikácia názoru audítora.</text>
+
+  <text x="470" y="565" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2e5e3a">Inventúru vykonáva účtovná jednotka – audítor sa jej zúčastňuje, pozoruje a robí vlastné testovacie počty.</text>
+  <text x="470" y="588" text-anchor="middle" font-size="12" fill="#5a7a62">Ocenenie ku dňu závierky = nižšia z obstarávacej ceny a čistej realizačnej hodnoty (NRV = predajná cena − náklady na dokončenie a predaj).</text>
+  <text x="470" y="612" text-anchor="middle" font-size="11.5" fill="#8a98ac">ISA 315 · ISA 330 · ISA 500 · ISA 501 · ISA 505 · ISA 520 · ISA 450 · ISA 705</text>
+</svg>

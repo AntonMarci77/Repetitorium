@@ -1,0 +1,128 @@
+{
+  "id": "BC-II-2",
+  "subor": "BC_II_02.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "II",
+  "cislo": 2,
+  "nazov": "Osobitosti obsahu a rozsahu účtovných závierok podnikateľov v SR podľa veľkostných kritérií",
+  "koren": {
+    "nazov": "Osobitosti obsahu a rozsahu účtovných závierok podnikateľov v SR podľa veľkostných kritérií",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Jedna firma – jeden zákon o účtovníctve, ale TRI rôzne 'veľkosti obleku' závierky. Veľkostná skupina (mikro / malá / veľká, plus automaticky veľká = subjekt verejného záujmu) sa určuje podľa TROCH kritérií: koľko firma…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Veľkostné skupiny a kto sa triedi (§ 2 ods. 5)"
+          },
+          {
+            "nazov": "Tri kritériá a pravidlo 2 z 3"
+          },
+          {
+            "nazov": "Konkrétne prahy mikro / malá / veľká (aktuálne hodnoty)"
+          },
+          {
+            "nazov": "Subjekt verejného záujmu a postup pri zatriedení"
+          },
+          {
+            "nazov": "Časový test: prvý deň obdobia a dve po sebe idúce obdobia (§ 2 ods. 10)"
+          },
+          {
+            "nazov": "Tri zložky závierky a spoločný základ (§ 17)"
+          },
+          {
+            "nazov": "Rozdiely v súvahe podľa veľkosti"
+          },
+          {
+            "nazov": "Rozdiely vo výkaze ziskov a strát"
+          },
+          {
+            "nazov": "Rozdiely v poznámkach – najväčší rozdiel"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "veľkostná skupina účtovnej jednotky"
+          },
+          {
+            "nazov": "mikro účtovná jednotka"
+          },
+          {
+            "nazov": "malá účtovná jednotka"
+          },
+          {
+            "nazov": "veľká účtovná jednotka"
+          },
+          {
+            "nazov": "subjekt verejného záujmu (SVZ)"
+          },
+          {
+            "nazov": "celková suma majetku (netto)"
+          },
+          {
+            "nazov": "čistý obrat"
+          },
+          {
+            "nazov": "priemerný prepočítaný počet zamestnancov"
+          },
+          {
+            "nazov": "podmienka 2 z 3 kritérií"
+          },
+          {
+            "nazov": "dve po sebe idúce účtovné obdobia"
+          },
+          {
+            "nazov": "individuálna účtovná závierka (súvaha, výkaz ziskov a strát, poznámky)"
+          },
+          {
+            "nazov": "rozsah a obsah poznámok"
+          },
+          {
+            "nazov": "register účtovných závierok"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Používať staré (nižšie) prahy 350 000 / 700 000 / 4 mil. / 8 mil. – aktuálne sú 450 000 / 900 000 / 5 mil. / 10 mil. od…"
+          },
+          {
+            "nazov": "Myslieť si, že stačí splniť jedno kritérium – treba splniť aspoň DVE z troch, a to za dve po sebe idúce obdobia."
+          },
+          {
+            "nazov": "Zamieňať celkovú sumu majetku 'brutto' za 'netto' – pre zatriedenie sa berie majetok v ocenení NETTO (po oprávkach a…"
+          },
+          {
+            "nazov": "Zahŕňať do čistého obratu predaj majetku (641), dotácie a poistné plnenia (648), zmenu stavu zásob či aktiváciu – tie…"
+          },
+          {
+            "nazov": "Tvrdiť, že subjekt verejného záujmu sa triedi podľa veľkosti – SVZ je vždy veľká účtovná jednotka."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Veľkostné skupiny a kto sa triedi (§ 2 ods. 5)",
+    "Tri kritériá a pravidlo 2 z 3",
+    "Konkrétne prahy mikro / malá / veľká (aktuálne hodnoty)",
+    "Subjekt verejného záujmu a postup pri zatriedení",
+    "Časový test: prvý deň obdobia a dve po sebe idúce obdobia (§ 2 ods. 10)",
+    "Tri zložky závierky a spoločný základ (§ 17)",
+    "Rozdiely v súvahe podľa veľkosti",
+    "Rozdiely vo výkaze ziskov a strát",
+    "Rozdiely v poznámkach – najväčší rozdiel"
+  ]
+}

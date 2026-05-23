@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 620" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="940" height="620" fill="#ffffff"/>
+  <text x="470" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Účtovná UZÁVIERKA vs. účtovná ZÁVIERKA</text>
+  <text x="470" y="56" text-anchor="middle" font-size="13" fill="#64748b">Dva odlišné pojmy: uzávierka = ČINNOSŤ (uzatvorenie kníh) · závierka = VÝSTUP (výkazy)</text>
+
+  <!-- Step 1: priebezne uctovnictvo -->
+  <rect x="40" y="78" width="860" height="48" rx="10" fill="#e2e8f0"/>
+  <text x="470" y="101" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Priebežné účtovanie počas účtovného obdobia (obraty na účtoch hlavnej knihy)</text>
+  <text x="470" y="118" text-anchor="middle" font-size="11.5" fill="#475569">predvaha · kontrola formálnej a vecnej správnosti účtovníctva</text>
+
+  <line x1="470" y1="126" x2="470" y2="150" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="470,156 464,144 476,144" fill="#94a3b8"/>
+
+  <!-- UZAVIERKA box (process) -->
+  <rect x="40" y="160" width="860" height="232" rx="12" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="60" y="186" font-size="17" font-weight="700" fill="#c2410c">1) ÚČTOVNÁ UZÁVIERKA — uzatvorenie účtovných kníh (§ 16 ZÚ, § 8 Postupov)</text>
+
+  <!-- a) uzavierkove operacie -->
+  <rect x="60" y="200" width="400" height="172" rx="10" fill="#ffffff" stroke="#fed7aa"/>
+  <text x="80" y="222" font-size="13.5" font-weight="700" fill="#9a3412">a) Uzávierkové (závierkové) operácie</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="80" y="244">• inventarizácia → úprava ocenenia</text>
+    <text x="80" y="263">• odpisy, opravné položky, rezervy</text>
+    <text x="80" y="282">• kurzové rozdiely k 31. 12. (563/663)</text>
+    <text x="80" y="301">• časové rozlíšenie N a V (381–385)</text>
+    <text x="80" y="320">• dohadné položky, manká a škody</text>
+    <text x="80" y="339">• zaúčtovanie splatnej dane (591/341)</text>
+    <text x="80" y="358">→ zistí sa výsledok hospodárenia</text>
+  </g>
+
+  <!-- b) uzatvorenie uctov -->
+  <rect x="480" y="200" width="400" height="172" rx="10" fill="#ffffff" stroke="#fed7aa"/>
+  <text x="500" y="222" font-size="13.5" font-weight="700" fill="#9a3412">b) Uzatvorenie účtov (uzávierkové účty)</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="500" y="246">náklady (tr. 5) → MD 710 Účet ziskov a strát</text>
+    <text x="500" y="266">výnosy (tr. 6) → D 710 Účet ziskov a strát</text>
+    <text x="500" y="290">majetok (A) → MD 702 Konečný účet súvahový</text>
+    <text x="500" y="310">záväzky + VI (P) → D 702 Konečný účet súv.</text>
+    <text x="500" y="334">VH z účtu 710 → preúčtuje na 702</text>
+    <text x="500" y="358">otvorenie nasl. obdobia: 701 Začiatočný účet</text>
+  </g>
+
+  <line x1="470" y1="392" x2="470" y2="416" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="470,422 464,410 476,410" fill="#94a3b8"/>
+
+  <!-- ZAVIERKA box (output) -->
+  <rect x="40" y="426" width="860" height="150" rx="12" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="60" y="452" font-size="17" font-weight="700" fill="#1d4ed8">2) ÚČTOVNÁ ZÁVIERKA — štruktúrovaná prezentácia (§ 17 ods. 3 ZÚ)</text>
+
+  <rect x="70" y="466" width="250" height="96" rx="10" fill="#ffffff" stroke="#bfdbfe"/>
+  <text x="195" y="490" text-anchor="middle" font-size="14" font-weight="700" fill="#1e40af">Súvaha</text>
+  <text x="195" y="512" text-anchor="middle" font-size="11.5" fill="#334155">majetok = vlastné imanie</text>
+  <text x="195" y="528" text-anchor="middle" font-size="11.5" fill="#334155">+ záväzky (stav k 31. 12.)</text>
+  <text x="195" y="548" text-anchor="middle" font-size="11" fill="#64748b">aktíva = pasíva</text>
+
+  <rect x="345" y="466" width="250" height="96" rx="10" fill="#ffffff" stroke="#bfdbfe"/>
+  <text x="470" y="490" text-anchor="middle" font-size="14" font-weight="700" fill="#1e40af">Výkaz ziskov a strát</text>
+  <text x="470" y="512" text-anchor="middle" font-size="11.5" fill="#334155">náklady, výnosy a VH</text>
+  <text x="470" y="528" text-anchor="middle" font-size="11.5" fill="#334155">za účtovné obdobie (tok)</text>
+  <text x="470" y="548" text-anchor="middle" font-size="11" fill="#64748b">druhové členenie</text>
+
+  <rect x="620" y="466" width="250" height="96" rx="10" fill="#ffffff" stroke="#bfdbfe"/>
+  <text x="745" y="490" text-anchor="middle" font-size="14" font-weight="700" fill="#1e40af">Poznámky</text>
+  <text x="745" y="512" text-anchor="middle" font-size="11.5" fill="#334155">vysvetľujú a dopĺňajú</text>
+  <text x="745" y="528" text-anchor="middle" font-size="11.5" fill="#334155">súvahu a VZS (§ 18/5)</text>
+  <text x="745" y="548" text-anchor="middle" font-size="11" fill="#64748b">zásady, metódy, riziká</text>
+
+  <text x="470" y="600" text-anchor="middle" font-size="12" fill="#475569">Všeobecné náležitosti (§ 17 ods. 2): názov, IČO, deň ku ktorému / deň zostavenia, obdobie, podpis štatutára · ÚZ tvorí jeden celok.</text>
+</svg>

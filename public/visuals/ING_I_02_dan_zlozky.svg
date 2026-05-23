@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 540" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="540" fill="#ffffff"/>
+  <text x="460" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Dve zložky dane z príjmov</text>
+  <text x="460" y="58" text-anchor="middle" font-size="13" fill="#64748b">Daň z príjmov ako náklad účtovnej jednotky vo výkaze ziskov a strát</text>
+
+  <!-- starting box -->
+  <rect x="310" y="78" width="300" height="54" rx="10" fill="#1f2937"/>
+  <text x="460" y="102" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Výsledok hospodárenia</text>
+  <text x="460" y="121" text-anchor="middle" font-size="12" fill="#cbd5e1">pred zdanením (účtovný VH)</text>
+
+  <line x1="460" y1="132" x2="460" y2="158" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="240" y1="158" x2="680" y2="158" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="240" y1="158" x2="240" y2="180" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="680" y1="158" x2="680" y2="180" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="240,186 234,174 246,174" fill="#94a3b8"/>
+  <polygon points="680,186 674,174 686,174" fill="#94a3b8"/>
+
+  <!-- splatna -->
+  <rect x="40" y="192" width="400" height="210" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="240" y="220" text-anchor="middle" font-size="17" font-weight="700" fill="#1d4ed8">SPLATNÁ daň</text>
+  <text x="240" y="244" text-anchor="middle" font-size="13" fill="#1e3a8a">externý vzťah voči štátu za bežné obdobie</text>
+  <text x="240" y="270" text-anchor="middle" font-size="13" fill="#334155">VH ± pripočítateľné / odpočítateľné položky</text>
+  <text x="240" y="290" text-anchor="middle" font-size="13" fill="#334155">= základ dane × sadzba (10 / 21 / 24 %)</text>
+  <line x1="80" y1="306" x2="400" y2="306" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="240" y="332" text-anchor="middle" font-size="13" fill="#475569">reálny záväzok, ktorý sa zaplatí</text>
+  <rect x="120" y="348" width="240" height="40" rx="6" fill="#dbeafe"/>
+  <text x="240" y="374" text-anchor="middle" font-size="15" font-weight="700" fill="#1d4ed8">591 / 341</text>
+
+  <!-- odlozena -->
+  <rect x="480" y="192" width="400" height="210" rx="12" fill="#faf5ff" stroke="#e9d5ff"/>
+  <text x="680" y="220" text-anchor="middle" font-size="17" font-weight="700" fill="#7e22ce">ODLOŽENÁ daň</text>
+  <text x="680" y="244" text-anchor="middle" font-size="13" fill="#6b21a8">interný nástroj účtovníctva (akruálny princíp)</text>
+  <text x="680" y="270" text-anchor="middle" font-size="13" fill="#334155">dočasný rozdiel (ÚH − daňová základňa)</text>
+  <text x="680" y="290" text-anchor="middle" font-size="13" fill="#334155">× budúca sadzba dane</text>
+  <line x1="520" y1="306" x2="840" y2="306" stroke="#e9d5ff" stroke-width="1"/>
+  <text x="680" y="332" text-anchor="middle" font-size="13" fill="#475569">súvahový účet 481 (záväzok / pohľadávka)</text>
+  <rect x="560" y="348" width="240" height="40" rx="6" fill="#f3e8ff"/>
+  <text x="680" y="374" text-anchor="middle" font-size="15" font-weight="700" fill="#7e22ce">592 / 481  ·  481 / 592</text>
+
+  <!-- merge to result -->
+  <line x1="240" y1="402" x2="240" y2="430" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="680" y1="402" x2="680" y2="430" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="240" y1="430" x2="680" y2="430" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="460" y1="430" x2="460" y2="452" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="460,458 454,446 466,446" fill="#94a3b8"/>
+
+  <rect x="260" y="464" width="400" height="54" rx="10" fill="#0f172a"/>
+  <text x="460" y="488" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Náklad na daň z príjmov vo VZaS</text>
+  <text x="460" y="507" text-anchor="middle" font-size="12" fill="#cbd5e1">splatná (591) + odložená (592) → VH po zdanení</text>
+</svg>

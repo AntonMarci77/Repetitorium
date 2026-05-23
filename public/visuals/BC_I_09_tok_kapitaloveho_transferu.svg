@@ -1,0 +1,56 @@
+<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="860" height="500" fill="#ffffff"/>
+  <text x="430" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4a">Tok kapitálového transferu (obec) – rozpočtovo neutrálny</text>
+  <text x="430" y="54" text-anchor="middle" font-size="13" fill="#5a6b7b">Výnos sa rozpúšťa do výnosov vo výške ODPISU obstaraného majetku</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="80" width="200" height="70" rx="9" fill="#eef4fb" stroke="#2f6fb0" stroke-width="2"/>
+  <text x="140" y="106" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">1) Prijatie transferu</text>
+  <text x="140" y="128" text-anchor="middle" font-size="14" fill="#2f6fb0" font-weight="bold">221 / 357</text>
+  <text x="140" y="144" text-anchor="middle" font-size="11" fill="#5a6b7b">peniaze na účet obce</text>
+
+  <!-- Step 2 -->
+  <rect x="330" y="80" width="200" height="70" rx="9" fill="#eef4fb" stroke="#2f6fb0" stroke-width="2"/>
+  <text x="430" y="106" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">2) Časové rozlíšenie</text>
+  <text x="430" y="128" text-anchor="middle" font-size="14" fill="#2f6fb0" font-weight="bold">357 / 384</text>
+  <text x="430" y="144" text-anchor="middle" font-size="11" fill="#5a6b7b">výnosy budúcich období</text>
+
+  <!-- Step 3 -->
+  <rect x="620" y="80" width="200" height="70" rx="9" fill="#eef4fb" stroke="#2f6fb0" stroke-width="2"/>
+  <text x="720" y="106" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">3) Obstaranie majetku</text>
+  <text x="720" y="128" text-anchor="middle" font-size="14" fill="#2f6fb0" font-weight="bold">042/321 → 021/042</text>
+  <text x="720" y="144" text-anchor="middle" font-size="11" fill="#5a6b7b">zaradenie do používania</text>
+
+  <line x1="240" y1="115" x2="328" y2="115" stroke="#2f6fb0" stroke-width="2.5" marker-end="url(#b1)"/>
+  <line x1="530" y1="115" x2="618" y2="115" stroke="#2f6fb0" stroke-width="2.5" marker-end="url(#b1)"/>
+
+  <!-- park box -->
+  <rect x="300" y="200" width="260" height="58" rx="9" fill="#fff4e0" stroke="#d99a2b" stroke-width="2"/>
+  <text x="430" y="225" text-anchor="middle" font-size="13" font-weight="bold" fill="#8a5a00">Účet 384 – „parkovisko“ transferu</text>
+  <text x="430" y="245" text-anchor="middle" font-size="11.5" fill="#8a5a00">rozpúšťa sa po častiach, počas životnosti</text>
+  <line x1="430" y1="150" x2="430" y2="200" stroke="#d99a2b" stroke-width="2.5" marker-end="url(#b2)"/>
+
+  <!-- Each year: odpis vs rozpustenie -->
+  <text x="430" y="300" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a2b4a">KAŽDÝ ROK – súčasne a v rovnakej sume:</text>
+
+  <rect x="90" y="320" width="300" height="90" rx="9" fill="#fdeeee" stroke="#b03a3a" stroke-width="2"/>
+  <text x="240" y="346" text-anchor="middle" font-size="14" font-weight="bold" fill="#b03a3a">NÁKLAD: ročný odpis</text>
+  <text x="240" y="372" text-anchor="middle" font-size="16" font-weight="bold" fill="#b03a3a">551 / 081</text>
+  <text x="240" y="396" text-anchor="middle" font-size="12" fill="#7a2a2a">napr. 2 880 € (−)</text>
+
+  <rect x="470" y="320" width="300" height="90" rx="9" fill="#eefaf2" stroke="#2e9e6b" stroke-width="2"/>
+  <text x="620" y="346" text-anchor="middle" font-size="14" font-weight="bold" fill="#2e9e6b">VÝNOS: rozpustenie transferu</text>
+  <text x="620" y="372" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e9e6b">384 / 694</text>
+  <text x="620" y="396" text-anchor="middle" font-size="12" fill="#1f6b48">napr. 2 880 € (+)</text>
+
+  <line x1="390" y1="365" x2="468" y2="365" stroke="#5a6b7b" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="429" y="358" text-anchor="middle" font-size="13" font-weight="bold" fill="#5a6b7b">=</text>
+
+  <rect x="230" y="440" width="400" height="44" rx="9" fill="#1a2b4a"/>
+  <text x="430" y="468" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">Dopad na výsledok hospodárenia = 0</text>
+
+  <defs>
+    <marker id="b1" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2f6fb0"/></marker>
+    <marker id="b2" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#d99a2b"/></marker>
+  </defs>
+</svg>

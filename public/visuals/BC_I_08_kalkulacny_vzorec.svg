@@ -1,0 +1,50 @@
+<svg viewBox="0 0 560 560" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="560" height="560" fill="#ffffff"/>
+  <text x="280" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2d3d">Typový kalkulačný vzorec</text>
+  <text x="280" y="52" text-anchor="middle" font-size="12" fill="#5a6b7b">retrográdne smerom k cene – réžie sa pridávajú postupne</text>
+
+  <!-- Priame náklady block -->
+  <rect x="60" y="70" width="320" height="96" rx="6" fill="#e8f1fb" stroke="#3b78c3" stroke-width="1.5"/>
+  <text x="74" y="90" font-size="13" fill="#1f2d3d">1. Priamy materiál</text>
+  <text x="74" y="110" font-size="13" fill="#1f2d3d">2. Priame mzdy</text>
+  <text x="74" y="130" font-size="13" fill="#1f2d3d">3. Ostatné priame náklady</text>
+  <text x="74" y="156" font-size="13" font-weight="bold" fill="#1f4e85">= PRIAME NÁKLADY VÝROBY</text>
+
+  <!-- + výrobná réžia -->
+  <rect x="60" y="176" width="320" height="38" rx="6" fill="#fdf3e3" stroke="#d79a2b" stroke-width="1.5"/>
+  <text x="74" y="200" font-size="13" fill="#1f2d3d">+ 4. Výrobná réžia</text>
+  <text x="120" y="234" font-size="13" font-weight="bold" fill="#1f4e85">= VLASTNÉ NÁKLADY VÝROBY</text>
+
+  <!-- + správna réžia -->
+  <rect x="60" y="246" width="320" height="38" rx="6" fill="#fdf3e3" stroke="#d79a2b" stroke-width="1.5"/>
+  <text x="74" y="270" font-size="13" fill="#1f2d3d">+ 5. Správna réžia</text>
+  <text x="120" y="304" font-size="13" font-weight="bold" fill="#1f4e85">= VLASTNÉ NÁKLADY VÝKONU</text>
+
+  <!-- + odbytová réžia -->
+  <rect x="60" y="316" width="320" height="38" rx="6" fill="#fdf3e3" stroke="#d79a2b" stroke-width="1.5"/>
+  <text x="74" y="340" font-size="13" fill="#1f2d3d">+ 6. Odbytová réžia (odbytové náklady)</text>
+  <rect x="60" y="362" width="320" height="34" rx="6" fill="#e3f4ea" stroke="#3a9d6a" stroke-width="2"/>
+  <text x="74" y="384" font-size="13" font-weight="bold" fill="#1f6b43">= ÚPLNÉ VLASTNÉ NÁKLADY VÝKONU</text>
+
+  <!-- + zisk -->
+  <rect x="60" y="408" width="320" height="38" rx="6" fill="#f3e8fb" stroke="#8a4fbf" stroke-width="1.5"/>
+  <text x="74" y="432" font-size="13" fill="#1f2d3d">+ 7. Zisk (zisková prirážka)</text>
+  <rect x="60" y="454" width="320" height="34" rx="6" fill="#fde8ee" stroke="#c0392b" stroke-width="2"/>
+  <text x="74" y="476" font-size="13" font-weight="bold" fill="#9b271b">= PREDAJNÁ CENA (bez DPH)</text>
+
+  <text x="74" y="514" font-size="12" fill="#5a6b7b">+ 8. zľavy / prirážky / DPH = kalkulovaná cena</text>
+
+  <!-- side note -->
+  <rect x="400" y="176" width="140" height="218" rx="6" fill="#f7f9fb" stroke="#aab7c4" stroke-width="1"/>
+  <text x="470" y="198" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2d3d">Réžie</text>
+  <text x="470" y="220" text-anchor="middle" font-size="11" fill="#5a6b7b">výrobná</text>
+  <text x="470" y="238" text-anchor="middle" font-size="14" fill="#d79a2b">↓</text>
+  <text x="470" y="258" text-anchor="middle" font-size="11" fill="#5a6b7b">správna</text>
+  <text x="470" y="276" text-anchor="middle" font-size="14" fill="#d79a2b">↓</text>
+  <text x="470" y="296" text-anchor="middle" font-size="11" fill="#5a6b7b">odbytová</text>
+  <text x="470" y="330" text-anchor="middle" font-size="10" fill="#5a6b7b">Prirážka z</text>
+  <text x="470" y="346" text-anchor="middle" font-size="10" fill="#5a6b7b">nákladov,</text>
+  <text x="470" y="362" text-anchor="middle" font-size="10" fill="#5a6b7b">marža z ceny</text>
+  <text x="470" y="382" text-anchor="middle" font-size="10" fill="#5a6b7b">(125/100 →</text>
+  <text x="470" y="396" text-anchor="middle" font-size="10" fill="#5a6b7b">25% vs 20%)</text>
+</svg>

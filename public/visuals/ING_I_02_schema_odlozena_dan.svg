@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="620" fill="#ffffff"/>
+  <text x="460" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Vznik odloženej dane z dočasných rozdielov</text>
+  <text x="460" y="58" text-anchor="middle" font-size="13" fill="#64748b">Záväzková súvahová metóda · porovnanie účtovnej hodnoty (súvaha NETTO) a daňovej základne</text>
+
+  <!-- top: two compared values -->
+  <rect x="200" y="80" width="240" height="60" rx="10" fill="#1f2937"/>
+  <text x="320" y="106" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Účtovná hodnota (ÚH)</text>
+  <text x="320" y="126" text-anchor="middle" font-size="12" fill="#cbd5e1">aktíva / záväzku v súvahe NETTO</text>
+
+  <rect x="480" y="80" width="240" height="60" rx="10" fill="#334155"/>
+  <text x="600" y="106" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Daňová základňa (DZ)</text>
+  <text x="600" y="126" text-anchor="middle" font-size="12" fill="#cbd5e1">čo z položky daňovo „prejde"</text>
+
+  <text x="460" y="118" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">−</text>
+
+  <!-- arrow down to difference -->
+  <line x1="460" y1="140" x2="460" y2="170" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="460,176 454,164 466,164" fill="#94a3b8"/>
+
+  <rect x="300" y="178" width="320" height="48" rx="10" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="460" y="208" text-anchor="middle" font-size="15" font-weight="700" fill="#3730a3">Dočasný rozdiel = ÚH − DZ</text>
+
+  <!-- split -->
+  <line x1="460" y1="226" x2="460" y2="248" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="240" y1="248" x2="680" y2="248" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="240" y1="248" x2="240" y2="270" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="680" y1="248" x2="680" y2="270" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="240,276 234,264 246,264" fill="#94a3b8"/>
+  <polygon points="680,276 674,264 686,264" fill="#94a3b8"/>
+
+  <!-- left column: zdanitelny -> zavazok -->
+  <rect x="40" y="282" width="400" height="190" rx="12" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="240" y="310" text-anchor="middle" font-size="16" font-weight="700" fill="#b91c1c">ZDANITEĽNÝ rozdiel</text>
+  <text x="240" y="334" text-anchor="middle" font-size="13" fill="#7f1d1d">ÚH aktíva &gt; DZ  (alebo ÚH záväzku &lt; DZ)</text>
+  <text x="240" y="358" text-anchor="middle" font-size="13" fill="#7f1d1d">napr. daňové odpisy rýchlejšie než účtovné</text>
+  <line x1="80" y1="372" x2="400" y2="372" stroke="#fecaca" stroke-width="1"/>
+  <text x="240" y="398" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">Odložený daňový ZÁVÄZOK</text>
+  <text x="240" y="420" text-anchor="middle" font-size="13" fill="#475569">v budúcnosti zaplatím VIAC dane</text>
+  <rect x="120" y="434" width="240" height="28" rx="6" fill="#fee2e2"/>
+  <text x="240" y="453" text-anchor="middle" font-size="14" font-weight="700" fill="#b91c1c">účtovanie 592 / 481</text>
+
+  <!-- right column: odpocitatelny -> pohladavka -->
+  <rect x="480" y="282" width="400" height="190" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="680" y="310" text-anchor="middle" font-size="16" font-weight="700" fill="#15803d">ODPOČÍTATEĽNÝ rozdiel</text>
+  <text x="680" y="334" text-anchor="middle" font-size="13" fill="#166534">ÚH aktíva &lt; DZ  (alebo ÚH záväzku &gt; DZ)</text>
+  <text x="680" y="358" text-anchor="middle" font-size="13" fill="#166534">napr. účtovná OP/rezerva zatiaľ daňovo neuznaná</text>
+  <line x1="520" y1="372" x2="840" y2="372" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="680" y="398" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">Odložená daňová POHĽADÁVKA</text>
+  <text x="680" y="420" text-anchor="middle" font-size="13" fill="#475569">v budúcnosti zaplatím MENEJ dane</text>
+  <rect x="560" y="434" width="240" height="28" rx="6" fill="#dcfce7"/>
+  <text x="680" y="453" text-anchor="middle" font-size="14" font-weight="700" fill="#15803d">účtovanie 481 / 592</text>
+
+  <!-- formula bar -->
+  <rect x="160" y="498" width="600" height="40" rx="8" fill="#1f2937"/>
+  <text x="460" y="523" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Odložená daň = dočasný rozdiel × BUDÚCA sadzba dane (neodúročuje sa)</text>
+
+  <!-- note: trvale rozdiely -->
+  <rect x="160" y="552" width="600" height="48" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="460" y="572" text-anchor="middle" font-size="13" font-weight="700" fill="#92400e">Trvalé rozdiely (pokuta od štátu, oslobodená dividenda) odloženú daň NEVYVOLÁVAJÚ</text>
+  <text x="460" y="590" text-anchor="middle" font-size="12" fill="#a16207">— nikdy sa nevyrovnajú, ovplyvňujú len splatnú daň</text>
+</svg>

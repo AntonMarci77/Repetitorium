@@ -1,0 +1,52 @@
+<svg viewBox="0 0 880 540" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="880" height="540" fill="#ffffff"/>
+  <text x="440" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">IAS 36 – test zníženia hodnoty majetku</text>
+  <text x="440" y="58" text-anchor="middle" font-size="14" fill="#55607a">Spätne získateľná suma = VYŠŠIA z dvoch hodnôt; porovná sa s účtovnou hodnotou</text>
+
+  <!-- two source boxes -->
+  <rect x="60" y="86" width="320" height="92" rx="10" fill="#e8f1fb" stroke="#2f6db5" stroke-width="2"/>
+  <text x="220" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a4d8f">Reálna hodnota − náklady na vyradenie</text>
+  <text x="220" y="136" text-anchor="middle" font-size="13" fill="#1a4d8f">(FVLCS / FV less costs of disposal)</text>
+  <text x="220" y="160" text-anchor="middle" font-size="12.5" fill="#2a3a55">úžitok z PREDAJA majetku tretej strane</text>
+
+  <rect x="500" y="86" width="320" height="92" rx="10" fill="#eef6ee" stroke="#3f8f3f" stroke-width="2"/>
+  <text x="660" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#23631f">Hodnota z používania</text>
+  <text x="660" y="136" text-anchor="middle" font-size="13" fill="#23631f">(VIU / value in use)</text>
+  <text x="660" y="160" text-anchor="middle" font-size="12.5" fill="#234b1f">DISKONTOVANÉ budúce čisté toky (časová hodnota peňazí)</text>
+
+  <!-- MAX node -->
+  <line x1="220" y1="178" x2="380" y2="226" stroke="#2f6db5" stroke-width="2.5" marker-end="url(#a1)"/>
+  <line x1="660" y1="178" x2="500" y2="226" stroke="#3f8f3f" stroke-width="2.5" marker-end="url(#a2)"/>
+  <rect x="320" y="230" width="240" height="58" rx="10" fill="#fff4d6" stroke="#c79a17" stroke-width="2"/>
+  <text x="440" y="256" text-anchor="middle" font-size="16" font-weight="bold" fill="#7a5b00">Spätne získateľná suma</text>
+  <text x="440" y="278" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a5b00">= max ( FVLCS , VIU )</text>
+
+  <!-- compare -->
+  <line x1="440" y1="288" x2="440" y2="320" stroke="#55607a" stroke-width="2.5" marker-end="url(#a3)"/>
+  <rect x="300" y="324" width="280" height="50" rx="10" fill="#f3f5f9" stroke="#55607a" stroke-width="1.5"/>
+  <text x="440" y="354" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a2b4a">porovnaj s ÚČTOVNOU HODNOTOU</text>
+
+  <!-- outcomes -->
+  <line x1="380" y1="374" x2="240" y2="408" stroke="#b03030" stroke-width="2.5" marker-end="url(#a4)"/>
+  <line x1="500" y1="374" x2="640" y2="408" stroke="#3f8f3f" stroke-width="2.5" marker-end="url(#a5)"/>
+
+  <rect x="40" y="412" width="380" height="100" rx="10" fill="#fdeaea" stroke="#b03030" stroke-width="2"/>
+  <text x="230" y="438" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a1f1f">Spätne získateľná &lt; účtovná hodnota</text>
+  <text x="230" y="460" text-anchor="middle" font-size="13" fill="#5a1414">→ STRATA zo zníženia hodnoty (opravná položka)</text>
+  <text x="230" y="480" text-anchor="middle" font-size="12.5" fill="#5a1414">výsledkovo (resp. najprv proti prebytku z precenenia)</text>
+  <text x="230" y="500" text-anchor="middle" font-size="12" fill="#5a1414" font-style="italic">goodwill: zníženie sa NIKDY nereverzuje</text>
+
+  <rect x="460" y="412" width="380" height="100" rx="10" fill="#eef6ee" stroke="#3f8f3f" stroke-width="2"/>
+  <text x="650" y="438" text-anchor="middle" font-size="14" font-weight="bold" fill="#23631f">Spätne získateľná ≥ účtovná hodnota</text>
+  <text x="650" y="460" text-anchor="middle" font-size="13" fill="#234b1f">→ žiadne zníženie sa neúčtuje</text>
+  <text x="650" y="482" text-anchor="middle" font-size="12.5" fill="#234b1f">Pozor: NEPLATÍ pre IAS 40 (RH výsledkovo)</text>
+  <text x="650" y="500" text-anchor="middle" font-size="12.5" fill="#234b1f">ani pre zásoby; IFRS 5 = nižšia z ÚH a FVLCS</text>
+
+  <defs>
+    <marker id="a1" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2f6db5"/></marker>
+    <marker id="a2" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#3f8f3f"/></marker>
+    <marker id="a3" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#55607a"/></marker>
+    <marker id="a4" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#b03030"/></marker>
+    <marker id="a5" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#3f8f3f"/></marker>
+  </defs>
+</svg>

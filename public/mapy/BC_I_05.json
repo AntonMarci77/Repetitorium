@@ -1,0 +1,125 @@
+{
+  "id": "BC-I-5",
+  "subor": "BC_I_05.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "I",
+  "cislo": 5,
+  "nazov": "Dlhodobý a krátkodobý finančný majetok a finančné záväzky",
+  "koren": {
+    "nazov": "Dlhodobý a krátkodobý finančný majetok a finančné záväzky",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Finančný majetok = peniaze a nároky na peniaze, ktoré držíme s cieľom zhodnotiť voľné prostriedky alebo ovplyvniť inú firmu – nie s cieľom prevádzkovo ich \"spotrebovať\". Mentálny model stojí na troch otázkach. Po PRVÉ –…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Členenie a obsahové vymedzenie finančného majetku"
+          },
+          {
+            "nazov": "Rozhodujúci je zámer a charakter cenného papiera"
+          },
+          {
+            "nazov": "Oceňovanie pri obstaraní"
+          },
+          {
+            "nazov": "Oceňovanie ku dňu závierky – reálna hodnota (§ 27)"
+          },
+          {
+            "nazov": "Kam ide zmena ocenenia – výsledok vs. vlastné imanie"
+          },
+          {
+            "nazov": "Účtovanie cenných papierov – nákup, výnosy, predaj"
+          },
+          {
+            "nazov": "Peniaze, bankové účty a ceniny (finančné účty triedy 2)"
+          },
+          {
+            "nazov": "Moderné platobné prostriedky a ich účtovné zobrazenie"
+          },
+          {
+            "nazov": "Finančné záväzky – vymedzenie, oceňovanie, zobrazenie"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "dlhodobý finančný majetok (účtová skupina 06)"
+          },
+          {
+            "nazov": "krátkodobý finančný majetok (účtová skupina 25)"
+          },
+          {
+            "nazov": "finančné účty (trieda 2 – peniaze, bankové účty, ceniny)"
+          },
+          {
+            "nazov": "podielové cenné papiere a podiely (061, 062)"
+          },
+          {
+            "nazov": "realizovateľné cenné papiere (063, 257)"
+          },
+          {
+            "nazov": "dlhové cenné papiere držané do splatnosti (065)"
+          },
+          {
+            "nazov": "cenné papiere na obchodovanie (251, 253)"
+          },
+          {
+            "nazov": "obstarávacia cena vs. menovitá hodnota vs. reálna hodnota"
+          },
+          {
+            "nazov": "metóda vlastného imania (§ 27 ods. 8)"
+          },
+          {
+            "nazov": "precenenie na reálnu hodnotu (414, 564/664)"
+          },
+          {
+            "nazov": "moderné platobné prostriedky (platobné karty, tokeny elektronických peňazí 222, kryptoaktíva 258)"
+          },
+          {
+            "nazov": "finančné záväzky (bankové úvery 231/461, vydané dlhopisy 241/473, finančné výpomoci)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať smerovanie precenenia: CP na obchodovanie idú cez výsledok (564/664), realizovateľné CP a metóda vlastného…"
+          },
+          {
+            "nazov": "Myslieť si, že sa preceňujú všetky cenné papiere – podiely v dcére/s podstatným vplyvom, CP do splatnosti a vlastné CP…"
+          },
+          {
+            "nazov": "Zahŕňať úroky z úveru na nákup CP a kurzové rozdiely do obstarávacej ceny – tie do nej NEvstupujú."
+          },
+          {
+            "nazov": "Považovať debetnú a kreditnú kartu za to isté – debetná čerpá vlastné prostriedky (221), kreditná cudzí úver (231)."
+          },
+          {
+            "nazov": "Pliesť tokeny elektronických peňazí (222, menovitá hodnota, ako peniaze) s ostatnými kryptoaktívami (258, reálna…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Členenie a obsahové vymedzenie finančného majetku",
+    "Rozhodujúci je zámer a charakter cenného papiera",
+    "Oceňovanie pri obstaraní",
+    "Oceňovanie ku dňu závierky – reálna hodnota (§ 27)",
+    "Kam ide zmena ocenenia – výsledok vs. vlastné imanie",
+    "Účtovanie cenných papierov – nákup, výnosy, predaj",
+    "Peniaze, bankové účty a ceniny (finančné účty triedy 2)",
+    "Moderné platobné prostriedky a ich účtovné zobrazenie",
+    "Finančné záväzky – vymedzenie, oceňovanie, zobrazenie"
+  ]
+}

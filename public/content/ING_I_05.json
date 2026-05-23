@@ -1,0 +1,388 @@
+{
+  "id": "ING-I-5",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 5,
+  "nazov": "Daň z pridanej hodnoty",
+  "cas_na_odpoved_min": 10,
+  "verzia": "1.0",
+  "stav_legislativy": "Zákon č. 222/2004 Z. z. o DPH v znení účinnom k 1. 1. 2026 (vrátane tretieho konsolidačného balíka – zákon č. 261/2025 Z. z.). Sadzby a registračné limity overené k máju 2026: základná 23 %, znížené 19 % a 5 %; obrat 50 000 € / 62 500 € za kalendárny rok. Smernica Rady 2006/112/ES.",
+  "klucove_pojmy": [
+    "DPH ako nepriama univerzálna spotrebná daň",
+    "daň na výstupe vs. daň na vstupe",
+    "vlastná daňová povinnosť vs. nadmerný odpočet",
+    "predmet dane (§ 2)",
+    "zdaniteľná osoba (§ 3)",
+    "platiteľ dane / registrácia (§ 4, § 5, § 7, § 7a)",
+    "základ dane (§ 22)",
+    "sadzby dane 23 / 19 / 5 % (§ 27)",
+    "miesto zdaniteľného obchodu (§ 13–16)",
+    "daňová povinnosť (§ 19)",
+    "oslobodenie od dane (§ 28–42)",
+    "odpočítanie dane (§ 49–51)",
+    "koeficient a pomerné odpočítanie (§ 50)",
+    "účet 343 – Daň z pridanej hodnoty",
+    "kontrolný výkaz (§ 78a), prenos daňovej povinnosti / reverse-charge (§ 69), ručenie za daň (§ 69 ods. 14)"
+  ],
+  "princip_mentalny_model": "DPH je nepriama univerzálna spotrebná daň, ktorá v každom článku reťazca zdaňuje len PRIDANÚ hodnotu, no reálne ju znáša až KONEČNÝ spotrebiteľ v cene. Mechanizmus je samočistiaci: platiteľ vyberie daň na výstupe (pripočíta ju k svojej predajnej cene) a od nej si odpočíta daň na vstupe (ktorú sám zaplatil dodávateľom v cene nákupov). Štátu odvedie len rozdiel. Preto sa daň po reťazci neduplikuje – štát postupne vyberie presne toľko, koľko by vybral jednou daňou z konečnej ceny. Vlastná daňová povinnosť = daň na výstupe > daň na vstupe (firma odvádza); nadmerný odpočet = daň na vstupe > daň na výstupe (štát vracia). Účtovne celý mechanizmus beží cez jediný účet 343: na strane MÁ DAŤ daň na vstupe (nárok na odpočet), na strane DAL daň na výstupe (povinnosť odviesť); kreditný zostatok = odvod, debetný = nadmerný odpočet. Odpočítať daň smie len platiteľ, len z nákupov použitých na svoje zdaniteľné plnenia, a len ak má doklad; ak používa vstup zároveň na oslobodené plnenia bez nároku, kráti odpočet koeficientom. Neplatiteľ daň na vstupe odpočítať nemôže – je pre neho nákladom.",
+  "jadro_odpovede_10min": {
+    "cielova_dlzka_slov": 1450,
+    "uvod": "Daň z pridanej hodnoty je podľa zákona č. 222/2004 Z. z. nepriama, univerzálna a všeobecná spotrebná daň, harmonizovaná v rámci EÚ smernicou 2006/112/ES. Je nepriama, lebo platiteľ daň len vyberie a odvedie, no skutočne ju znáša konečný spotrebiteľ v cene. Je univerzálna, lebo dopadá takmer na všetky tovary a služby. Jej podstatou je zdanenie iba pridanej hodnoty v každom článku reťazca: platiteľ odvedie štátu rozdiel medzi daňou na výstupe a daňou na vstupe. Vďaka tomu sa daň neduplikuje a jej bremeno sa neúmerne nekumuluje. V odpovedi vysvetlím predmet a subjekty dane, registráciu, základ a sadzby, mechanizmus výstup–vstup, miesto a vznik daňovej povinnosti, oslobodenia, odpočítanie vrátane koeficientu, účtovanie a nástroje proti daňovým únikom.",
+    "casti": [
+      {
+        "nadpis": "Predmet dane a zdaniteľné obchody (§ 2)",
+        "text": "Predmetom dane sú štyri druhy zdaniteľných obchodov: a) dodanie tovaru za protihodnotu v tuzemsku zdaniteľnou osobou konajúcou ako taká, b) dodanie (poskytnutie) služby za protihodnotu v tuzemsku, c) nadobudnutie tovaru za protihodnotu v tuzemsku z iného členského štátu EÚ a d) dovoz tovaru do tuzemska. Spoločné znaky prvých dvoch sú: protihodnota (odplatnosť), miesto v tuzemsku a postavenie zdaniteľnej osoby. Pri dovoze (z tretích štátov) nie je rozhodujúce postavenie osoby – daň vzniká pri prepustení tovaru do colného režimu. Tuzemskom je územie SR, územím EÚ tuzemsko a územia ostatných členských štátov, územím tretích štátov územie mimo EÚ."
+      },
+      {
+        "nadpis": "Zdaniteľná osoba a platiteľ dane (§ 3, § 4)",
+        "text": "Zdaniteľnou osobou je každý, kto nezávisle vykonáva ekonomickú činnosť (podnikanie) bez ohľadu na účel a výsledok – výrobcovia, obchodníci, poskytovatelia služieb, slobodné povolania, využívanie majetku na dosahovanie príjmu. Závislá činnosť (zamestnanci) zdaniteľnou osobou nie je. Nie každá zdaniteľná osoba je platiteľom: platiteľom sa stáva až registráciou. Platiteľ má pridelené IČ DPH, k cene pripočítava daň, má nárok na odpočet a podáva daňové priznanie aj kontrolný výkaz. Neplatiteľ fakturuje bez dane, nemá nárok na odpočet (daň na vstupe je preňho nákladom)."
+      },
+      {
+        "nadpis": "Registračná povinnosť a zrušenie registrácie (§ 4, § 5, § 81)",
+        "text": "Od 1. 1. 2025 (platí aj 2026) sa obrat sleduje za KALENDÁRNY ROK a sú dva limity. Pri prekročení obratu 50 000 € za kalendárny rok sa osoba stáva platiteľom prvým dňom NASLEDUJÚCEHO kalendárneho roka. Ak v prebiehajúcom roku prekročí 62 500 €, stáva sa platiteľom už dodaním, ktorým tento obrat prekročí. Žiadosť o registráciu treba podať do 5 pracovných dní od prekročenia limitu; daňový úrad rozhodne do 10 dní. Platiteľom je aj právny nástupca zaniknutého platiteľa, nadobúdateľ podniku platiteľa a dobrovoľne registrovaná osoba. § 5 rieši zahraničnú osobu (registruje DÚ Bratislava, bez obratového limitu – už prvou dodávkou v SR). Zrušiť registráciu (§ 81) možno najskôr po roku od registrácie, ak obrat za predchádzajúci kalendárny rok nepresiahol 50 000 €; v poslednom období treba vysporiadať daň z majetku (§ 81 ods. 5)."
+      },
+      {
+        "nadpis": "Základ dane, sadzby, prepočet meny a zaokrúhľovanie (§ 22, § 26, § 27)",
+        "text": "Základom dane (§ 22) je všetko, čo tvorí protihodnotu, ktorú dodávateľ prijal alebo má prijať – bez samotnej dane, ale vrátane iných daní, ciel a vedľajších výdavkov (provízie, balné, doprava, poistenie). Sadzby (§ 27): základná 23 %, znížené 19 % (väčšina potravín, elektrina, nealko nápoje v reštauráciách) a 5 % (lieky, vybrané základné potraviny, knihy, ubytovanie, vstup do fitnescentra, podporované nájomné bývanie). Pri zmene sadzby rozhoduje deň vzniku daňovej povinnosti, nie deň zmluvy. Cudzia mena sa prepočíta referenčným kurzom ECB/NBS platným v deň predchádzajúci vzniku daňovej povinnosti (alebo colným kurzom pri dovoze). Daň sa zaokrúhľuje na dve desatinné miesta (na eurocenty)."
+      },
+      {
+        "nadpis": "Mechanizmus DPH: daň na výstupe − odpočítanie dane na vstupe",
+        "text": "Jadro celého systému: daň na výstupe je daň, ktorú platiteľ pripočítal k cene svojich dodávok (povinnosť odviesť); daň na vstupe je daň, ktorú zaplatil dodávateľom v cene nákupov (nárok na odpočet). Vlastná daňová povinnosť = daň na výstupe − odpočítateľná daň na vstupe, keď je výstup vyšší. Ak je vstup vyšší než výstup, vzniká nadmerný odpočet, ktorý štát za podmienok vráti. Vďaka tomuto mechanizmu sa v reťazci (výrobca → veľkoobchod → maloobchod → spotrebiteľ) zdaňuje len pridaná hodnota a celkový výber štátu sa rovná dani z konečnej ceny pre spotrebiteľa."
+      },
+      {
+        "nadpis": "Miesto zdaniteľného obchodu (§ 13–16)",
+        "text": "Miesto určuje, ktorému štátu daň patrí. Pri tovare bez prepravy (§ 13) je to miesto, kde sa tovar nachádza pri dodaní; pri tovare s prepravou miesto, kde sa preprava začína; pri inštalácii/montáži miesto montáže. Pri službách je základné pravidlo dvojaké: B2B (zdaniteľnej osobe, § 15 ods. 1) – miesto, kde má príjemca sídlo/prevádzkareň; B2C (nezdaniteľnej osobe, § 15 ods. 2) – miesto, kde má sídlo poskytovateľ. § 16 obsahuje výnimky (nehnuteľnosti – miesto nehnuteľnosti; preprava osôb; reštauračné a kultúrne služby; nájom dopravných prostriedkov; elektronické a virtuálne služby pre nezdaniteľné osoby – podľa bydliska zákazníka)."
+      },
+      {
+        "nadpis": "Daňová povinnosť, oslobodenia a osoby povinné platiť daň (§ 19, § 28–42, § 69)",
+        "text": "Daňová povinnosť (§ 19) vzniká dňom dodania tovaru (deň nadobudnutia práva nakladať s tovarom ako vlastník) alebo dňom dodania služby; pri platbe vopred dňom prijatia platby. Oslobodenia sú dvojaké. Oslobodenia BEZ nároku na odpočet (§ 28–42) – poštové, zdravotné, sociálne a vzdelávacie služby, finančné a poisťovacie služby, nájom a predaj starších nehnuteľností; daň na vstupe sa tu odpočítať nedá. Oslobodenia S nárokom na odpočet (§ 43–48) – dodanie tovaru do iného členského štátu, vývoz do tretích štátov; tu nárok zostáva (chráni konkurencieschopnosť exportu). Daň zvyčajne platí dodávateľ (§ 69 ods. 1), no v režime prenosu daňovej povinnosti (reverse-charge) ju platí príjemca."
+      },
+      {
+        "nadpis": "Odpočítanie dane a koeficient (§ 49–51)",
+        "text": "Právo odpočítať daň vzniká platiteľovi v deň, keď pri tovare/službe vznikla daňová povinnosť (§ 49 ods. 1); uplatniť ho možno, len ak má faktúru podľa § 71 (§ 51). Odpočítať možno daň z nákupov použitých na zdaniteľné dodávky platiteľa. Plný odpočet – vstupy len pre zdaniteľné plnenia. Žiadny odpočet – vstupy len pre oslobodené plnenia bez nároku (§ 49 ods. 3). Pomerné odpočítanie (§ 49 ods. 4, § 50) – ak vstup slúži zároveň na plnenia s nárokom aj bez nároku, odpočíta sa len pomerná časť cez KOEFICIENT. Koeficient = (hodnota plnení s nárokom na odpočet) / (hodnota všetkých plnení) za kalendárny rok, zaokrúhlený na dve desatinné miesta NAHOR. Počas roka sa používa koeficient z predchádzajúceho roka (predbežný), po skončení roka sa vykoná ROČNÉ VYSPORIADANIE konečným koeficientom (§ 50 ods. 4). Od 1. 1. 2026 platí pri osobných autách kategórie M1 paušálny 50 % odpočet (plný len pri preukázateľnom výlučne podnikateľskom použití s elektronickou evidenciou jázd)."
+      },
+      {
+        "nadpis": "Účtovné zobrazenie a zistenie vlastnej DP / nadmerného odpočtu",
+        "text": "DPH sa účtuje na syntetickom účte 343 – Daň z pridanej hodnoty. Daň na vstupe (nárok na odpočet) ide na stranu MÁ DAŤ účtu 343 (napr. 343/321 pri prijatej faktúre), daň na výstupe (povinnosť odviesť) na stranu DAL (napr. 311/343 pri vystavenej faktúre). Na konci zdaňovacieho obdobia sa porovná zostatok účtu 343: kreditný (DAL > MÁ DAŤ) = vlastná daňová povinnosť → odvod štátu 343/221; debetný (MÁ DAŤ > DAL) = nadmerný odpočet → pohľadávka voči štátu (vrátenie 221/343). Po vysporiadaní je zostatok 343 nulový."
+      },
+      {
+        "nadpis": "Vedenie záznamov a nástroje proti daňovým únikom (§ 70, § 78a, § 69)",
+        "text": "Platiteľ vedie podrobné záznamy podľa zdaňovacích období (§ 70) v členení na plnenia s možnosťou odpočtu, bez nej a s pomerným odpočtom. Hlavné nástroje proti únikom: 1) Kontrolný výkaz (§ 78a) – podáva sa elektronicky za každé zdaňovacie obdobie do 25 dní; obsahuje detailné údaje o faktúrach a umožňuje krížovú kontrolu odberateľ–dodávateľ (boj proti fiktívnym odpočtom). 2) Prenos daňovej povinnosti (reverse-charge, § 69) – pri vybraných tuzemských dodávkach (stavebné práce, kovový šrot, mobily a pod.) a pri službách/tovare od zahraničných osôb daň priznáva a platí PRÍJEMCA, čím sa zabráni tomu, aby dodávateľ daň vybral a neodviedol. 3) Ručenie za daň (§ 69 ods. 14) – odberateľ ručí za daň nezaplatenú dodávateľom, ak vedel alebo mal vedieť, že daň nebude zaplatená."
+      },
+      {
+        "zaver": "DPH stojí na jednoduchej rovnici: odvod = daň na výstupe − daň na vstupe. Aby fungovala spravodlivo, zákon presne vymedzuje, KTO (zdaniteľná osoba/platiteľ), ČO (predmet a miesto), KOĽKO (základ a sadzba), KEDY (daňová povinnosť) a ČO SI MOŽNO ODPOČÍTAŤ (vrátane koeficientu). Účtovne sa to celé premieta cez účet 343 do vlastnej daňovej povinnosti alebo nadmerného odpočtu, pričom kontrolný výkaz, reverse-charge a ručenie za daň majú brániť únikom."
+      }
+    ]
+  },
+  "rozsirena_baza": [
+    {
+      "nadpis": "Trojsadzbový systém a zmeny od 1. 1. 2026",
+      "text": "Od 1. 1. 2025 platí trojsadzbový systém 23 / 19 / 5 % (predtým 20 / 10 %). Tretí konsolidačný balík (zákon č. 261/2025 Z. z.) od 1. 1. 2026 preradil potraviny s vyšším obsahom cukru alebo soli zo zníženej 19 % do základnej 23 % (čokolády, sušienky, cukríky, zmrzliny, džemy, sladené nealko nápoje, slané pochutiny ako chipsy a tyčinky). Výnimka: samotný cukor a soľ ako suroviny, detská výživa, 100 % džúsy, mliečne nápoje, jogurty a DIA potraviny si ponechávajú pôvodnú sadzbu. Trojsadzbová štruktúra (23/19/5) zostáva."
+    },
+    {
+      "nadpis": "Obmedzenie odpočtu DPH pri osobných autách od 1. 1. 2026",
+      "text": "Pri obstaraní osobného motorového vozidla kategórie M1 (a L1e, L3e) so vstupnou cenou nad 1 700 € v období od 1. 1. 2026 do 30. 6. 2028 si platiteľ uplatní odpočet DPH len v rozsahu 50 % – rovnako pri súvisiacich tovaroch a službách (palivo, údržba, pneumatiky). Plný (100 %) odpočet len pri preukázateľnom výlučne podnikateľskom použití a vedení podrobnej elektronickej evidencie jázd. Výnimky (vždy 100 %): krátkodobý prenájom, taxislužba, autoškoly, predvádzacie/testovacie/náhradné vozidlá. Opatrenie vychádza z vykonávacieho rozhodnutia Rady EÚ z 14. 4. 2025."
+    },
+    {
+      "nadpis": "Registrácia kvôli obchodu v rámci EÚ (§ 7, § 7a)",
+      "text": "Aj neplatiteľ sa musí registrovať pri cezhraničných obchodoch, no nestáva sa „plným“ platiteľom. § 7 – nadobudnutie tovaru z iných členských štátov nad 14 000 € za kalendárny rok (samozdanenie pri nadobudnutí). § 7a – pred prvým prijatím služby z iného ČŠ s prenosom daňovej povinnosti alebo pred prvým poskytnutím služby do iného ČŠ, bez obratového limitu. Tieto osoby odvedú daň zo zahraničných plnení, no z tuzemských dodávok ostávajú neplatiteľmi."
+    },
+    {
+      "nadpis": "Úprava odpočítanej dane pri investičnom majetku (§ 54)",
+      "text": "Pri investičnom (dlhodobom) majetku, pri ktorom sa zmení rozsah použitia na účely s nárokom a bez nároku počas obdobia na úpravu (hnuteľný majetok 5 rokov, nehnuteľnosti 20 rokov), sa pôvodne odpočítaná daň každoročne dodatočne upravuje (vráti alebo doodpočíta) podľa prílohy č. 1 zákona. Bráni to jednorazovému nadmernému odpočtu pri majetku, ktorý sa neskôr začne používať aj na oslobodené plnenia."
+    },
+    {
+      "nadpis": "Zdaňovacie obdobie a daňové priznanie",
+      "text": "Zdaňovacím obdobím je kalendárny mesiac; štvrťrok môže platiteľ použiť, ak uplynulo viac ako 12 mesiacov od registrácie a jeho obrat za predchádzajúcich 12 mesiacov nedosiahol 100 000 €. Daňové priznanie aj kontrolný výkaz sa podávajú do 25 dní po skončení obdobia; v tej istej lehote je splatná aj vlastná daňová povinnosť. Nadmerný odpočet sa zvyčajne vráti do 30 dní po lehote na podanie priznania za nasledujúce obdobie (resp. skôr pri spoľahlivých platiteľoch)."
+    }
+  ],
+  "priklady": [
+    {
+      "nazov": "Výpočet vlastnej daňovej povinnosti (mechanizmus výstup − vstup)",
+      "zadanie": "Platiteľ DPH v zdaňovacom období nakúpil tovar a služby za 100 000 € + 23 % DPH a predal tovar za 150 000 € + 23 % DPH. Všetky vstupy aj výstupy podliehajú základnej sadzbe a sú s plným nárokom na odpočet.",
+      "uctovanie": [
+        {
+          "rok": "obdobie",
+          "md": "343",
+          "d": "321",
+          "suma": 23000,
+          "popis": "DPH na vstupe (nárok na odpočet) z prijatých faktúr"
+        },
+        {
+          "rok": "obdobie",
+          "md": "311",
+          "d": "343",
+          "suma": 34500,
+          "popis": "DPH na výstupe (povinnosť odviesť) z vystavených faktúr"
+        },
+        {
+          "rok": "obdobie",
+          "md": "343",
+          "d": "221",
+          "suma": 11500,
+          "popis": "Odvod vlastnej daňovej povinnosti štátu"
+        }
+      ],
+      "riesenie": "Daň na výstupe = 150 000 × 0,23 = 34 500 €. Daň na vstupe = 100 000 × 0,23 = 23 000 €. Vlastná daňová povinnosť = 34 500 − 23 000 = 11 500 €. Účet 343 má kreditný zostatok 11 500 € (DAL > MÁ DAŤ) → odvod štátu. Po odvode je zostatok nulový.",
+      "dopad_na_zd": "Vlastná daňová povinnosť 11 500 € (odvod štátu)."
+    },
+    {
+      "nazov": "Nadmerný odpočet",
+      "zadanie": "Začínajúci platiteľ v prvom mesiaci nakúpil zásoby a vybavenie za 80 000 € + 23 % DPH, no predal len za 20 000 € + 23 % DPH (rozbeh činnosti).",
+      "riesenie": "Daň na výstupe = 20 000 × 0,23 = 4 600 €. Daň na vstupe = 80 000 × 0,23 = 18 400 €. Keďže daň na vstupe (18 400 €) prevyšuje daň na výstupe (4 600 €), vzniká NADMERNÝ ODPOČET = 18 400 − 4 600 = 13 800 €. Účet 343 má debetný zostatok (MÁ DAŤ > DAL) → pohľadávka voči štátu, ktorú daňový úrad za podmienok vráti.",
+      "dopad_na_zd": "Nadmerný odpočet 13 800 € (vrátenie zo štátu)."
+    },
+    {
+      "nazov": "Pomerné odpočítanie koeficientom (§ 50)",
+      "zadanie": "Platiteľ poskytuje zdaniteľné služby aj služby oslobodené od dane bez nároku na odpočet (napr. finančné). Za rok dosiahol plnenia s nárokom na odpočet 805 000 € a oslobodené plnenia bez nároku 195 000 €. Daň na vstupe z réžie (spoločné náklady – energie, nájom, účtovníctvo), ktorú nemožno priradiť, je 10 000 €.",
+      "uctovanie": [
+        {
+          "rok": "obdobie",
+          "md": "343",
+          "d": "321",
+          "suma": 8100,
+          "popis": "Pomerne odpočítaná DPH (koeficient 0,81 × 10 000)"
+        },
+        {
+          "rok": "obdobie",
+          "md": "518",
+          "d": "321",
+          "suma": 1900,
+          "popis": "Neodpočítaná časť DPH ako súčasť nákladu"
+        }
+      ],
+      "riesenie": "Koeficient = 805 000 / (805 000 + 195 000) = 0,805 → zaokrúhli sa na dve desatinné miesta NAHOR = 0,81 (zaokrúhlenie nahor je vždy v prospech platiteľa). Odpočítateľná daň = 10 000 × 0,81 = 8 100 €. Neodpočítateľná časť 1 900 € sa zaúčtuje do nákladov. Počas roka sa použije predbežný koeficient z minulého roka, po skončení roka sa vykoná ročné vysporiadanie konečným koeficientom (0,81).",
+      "dopad_na_zd": "Odpočet len 8 100 € z 10 000 €; 1 900 € je nákladom."
+    },
+    {
+      "nazov": "Účtovanie nákupu a predaja tovaru (účet 343)",
+      "zadanie": "Platiteľ kúpi tovar za 1 000 € + 230 € DPH a predá ho za 1 500 € + 345 € DPH (sadzba 23 %).",
+      "uctovanie": [
+        {
+          "rok": "nákup",
+          "md": "132",
+          "d": "321",
+          "suma": 1000,
+          "popis": "Tovar na sklad"
+        },
+        {
+          "rok": "nákup",
+          "md": "343",
+          "d": "321",
+          "suma": 230,
+          "popis": "DPH na vstupe"
+        },
+        {
+          "rok": "predaj",
+          "md": "311",
+          "d": "604",
+          "suma": 1500,
+          "popis": "Tržba za tovar"
+        },
+        {
+          "rok": "predaj",
+          "md": "311",
+          "d": "343",
+          "suma": 345,
+          "popis": "DPH na výstupe"
+        },
+        {
+          "rok": "predaj",
+          "md": "504",
+          "d": "132",
+          "suma": 1000,
+          "popis": "Vyradenie predaného tovaru zo skladu"
+        }
+      ],
+      "riesenie": "Na účte 343: MÁ DAŤ 230 € (vstup), DAL 345 € (výstup). Zostatok 115 € na strane DAL = vlastná daňová povinnosť. Odvod 343/221 vo výške 115 €.",
+      "dopad_na_zd": "Vlastná daňová povinnosť 115 € (345 − 230)."
+    }
+  ],
+  "vizualy": [
+    {
+      "subor": "03_Vizualy/ING_I_05_mechanizmus_dph.svg",
+      "typ": "schéma",
+      "popis": "Mechanizmus DPH v reťazci: daň na výstupe minus daň na vstupe; v každom článku sa odvádza len daň z pridanej hodnoty, spotrebiteľ znáša celú daň."
+    },
+    {
+      "subor": "03_Vizualy/ING_I_05_343_vlastna_dp_vs_nadmerny_odpocet.svg",
+      "typ": "schéma",
+      "popis": "Účet 343: na strane MÁ DAŤ daň na vstupe, na strane DAL daň na výstupe; kreditný zostatok = vlastná daňová povinnosť (odvod), debetný zostatok = nadmerný odpočet (vrátenie)."
+    }
+  ],
+  "caste_doplnujuce_otazky": [
+    {
+      "otazka": "Aký je rozdiel medzi zdaniteľnou osobou a platiteľom dane?",
+      "odpoved": "Zdaniteľná osoba je každý, kto nezávisle vykonáva ekonomickú činnosť (§ 3). Platiteľom sa stane až registráciou (§ 4, 5): až vtedy má IČ DPH, pripočítava daň, má nárok na odpočet a podáva priznanie aj kontrolný výkaz. Nie každá zdaniteľná osoba je platiteľom."
+    },
+    {
+      "otazka": "Kedy vzniká povinnosť registrácie a aké sú dva obratové limity?",
+      "odpoved": "Pri prekročení obratu 50 000 € za kalendárny rok – platiteľom od 1. dňa nasledujúceho roka; pri prekročení 62 500 € v prebiehajúcom roku – platiteľom hneď dodaním, ktorým sa limit prekročí. Žiadosť do 5 pracovných dní, DÚ rozhodne do 10 dní."
+    },
+    {
+      "otazka": "Ako sa počíta a používa koeficient pri pomernom odpočítaní?",
+      "odpoved": "Koeficient = hodnota plnení s nárokom na odpočet / hodnota všetkých plnení za kalendárny rok, zaokrúhlený na dve desatinné miesta nahor (§ 50). Počas roka sa použije predbežný koeficient z minulého roka, po skončení roka sa odpočet vysporiada konečným koeficientom."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi oslobodením s nárokom a bez nároku na odpočet?",
+      "odpoved": "Pri oslobodení bez nároku (§ 28–42 – zdravotné, finančné, nájom) platiteľ daň neúčtuje, ale ani si nemôže odpočítať daň na vstupe. Pri oslobodení s nárokom (§ 43–48 – dodanie do EÚ, vývoz) daň neúčtuje, ale nárok na odpočet zostáva – preto je výhodnejšie."
+    },
+    {
+      "otazka": "Čo je reverse-charge a prečo sa zaviedol?",
+      "odpoved": "Prenos daňovej povinnosti na príjemcu (§ 69): pri vybraných tuzemských plneniach (stavebné práce, šrot, mobily) a pri plneniach od zahraničných osôb daň prizná a odvedie odberateľ, nie dodávateľ. Bráni podvodom, keď dodávateľ daň vyberie, ale neodvedie."
+    },
+    {
+      "otazka": "Ako sa na účte 343 rozlíši vlastná daňová povinnosť od nadmerného odpočtu?",
+      "odpoved": "Daň na výstupe sa účtuje v prospech (DAL), daň na vstupe na ťarchu (MÁ DAŤ) účtu 343. Kreditný zostatok (DAL > MÁ DAŤ) = vlastná daňová povinnosť (odvod 343/221); debetný (MÁ DAŤ > DAL) = nadmerný odpočet (vrátenie zo štátu)."
+    },
+    {
+      "otazka": "Aké zmeny v DPH priniesol rok 2026?",
+      "odpoved": "Preradenie potravín s vyšším obsahom cukru/soli z 19 % do 23 % a paušálny 50 % odpočet DPH pri osobných autách M1 (od 1. 1. 2026 do 30. 6. 2028); plný odpočet len pri výlučne podnikateľskom použití s elektronickou evidenciou. Sadzby 23/19/5 % aj limity 50 000/62 500 € ostali."
+    }
+  ],
+  "pasce_caste_chyby": [
+    "Zamieňať zdaniteľnú osobu a platiteľa – platiteľom sa stáva až registráciou.",
+    "Tvrdiť, že DPH platí firma – reálne ju znáša konečný spotrebiteľ; firma ju len vyberie a odvedie.",
+    "Pliesť si dva registračné limity – 50 000 € (platiteľ od nového roka) vs. 62 500 € (platiteľ hneď dodaním).",
+    "Myslieť si, že obrat sa sleduje za 12 po sebe idúcich mesiacov – od 2025 sa sleduje za kalendárny rok.",
+    "Zaokrúhľovať koeficient na dve miesta matematicky – zaokrúhľuje sa vždy NAHOR (§ 50).",
+    "Zamieňať oslobodenie s nárokom (vývoz, dodanie do EÚ) a bez nároku (zdravotné, finančné, nájom).",
+    "Domnievať sa, že neplatiteľ si odpočíta daň na vstupe – nemôže, je preňho nákladom.",
+    "Pri pomernom odpočítaní použiť koeficient na všetky vstupy – aplikuje sa len na spoločné (nepriradené) vstupy.",
+    "Mylne uvádzať základnú sadzbu 20 % – od 1. 1. 2025 je 23 %.",
+    "Tvrdiť, že od 2026 je odpočet DPH na všetky autá 50 % – týka sa osobných áut M1; pri výlučne podnikateľskom použití s evidenciou je 100 %."
+  ],
+  "test": {
+    "vyber_z_moznosti": [
+      {
+        "otazka": "Základná sadzba DPH na Slovensku k roku 2026 je:",
+        "moznosti": [
+          "20 %",
+          "21 %",
+          "23 %",
+          "25 %"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "§ 27 zákona o DPH – od 1. 1. 2025 je základná sadzba 23 % (predtým 20 %); znížené sadzby sú 19 % a 5 %."
+      },
+      {
+        "otazka": "Vlastná daňová povinnosť vzniká, keď:",
+        "moznosti": [
+          "daň na vstupe prevyšuje daň na výstupe",
+          "daň na výstupe prevyšuje daň na vstupe",
+          "platiteľ nemá žiadne plnenia",
+          "platiteľ je oslobodený od dane"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Vlastná DP = daň na výstupe − daň na vstupe, keď je výstup vyšší; opačný prípad je nadmerný odpočet."
+      },
+      {
+        "otazka": "Tuzemská osoba sa stáva platiteľom DPH okamžite (dodaním), ak v prebiehajúcom kalendárnom roku prekročí obrat:",
+        "moznosti": [
+          "50 000 €",
+          "62 500 €",
+          "75 000 €",
+          "100 000 €"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 4 – pri prekročení 62 500 € sa stáva platiteľom hneď dodaním; pri 50 000 € až od 1. dňa nasledujúceho roka."
+      },
+      {
+        "otazka": "Koeficient na pomerné odpočítanie dane (§ 50) sa zaokrúhľuje:",
+        "moznosti": [
+          "na dve desatinné miesta matematicky",
+          "na dve desatinné miesta nahor",
+          "na celé číslo",
+          "na štyri desatinné miesta nadol"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 50 ods. 1 – koeficient sa zaokrúhľuje na dve desatinné miesta nahor (v prospech platiteľa)."
+      },
+      {
+        "otazka": "Na ktorom účte sa účtuje DPH a kde sa zachytí daň na vstupe?",
+        "moznosti": [
+          "343, na strane DAL",
+          "343, na strane MÁ DAŤ",
+          "345, na strane MÁ DAŤ",
+          "321, na strane DAL"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "DPH = účet 343. Daň na vstupe (nárok na odpočet) je na strane MÁ DAŤ, daň na výstupe na strane DAL."
+      },
+      {
+        "otazka": "Ktoré oslobodenie zachováva nárok na odpočet dane na vstupe?",
+        "moznosti": [
+          "nájom nehnuteľnosti",
+          "poskytovanie zdravotnej starostlivosti",
+          "dodanie tovaru do iného členského štátu EÚ",
+          "finančné služby"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Dodanie do EÚ a vývoz (§ 43–48) sú oslobodené S nárokom na odpočet; zdravotné, finančné a nájom (§ 28–42) sú bez nároku."
+      },
+      {
+        "otazka": "Hlavný nástroj na krížovú kontrolu faktúr medzi dodávateľom a odberateľom je:",
+        "moznosti": [
+          "súhrnný výkaz",
+          "kontrolný výkaz (§ 78a)",
+          "daňové priznanie k dani z príjmov",
+          "intrastat"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Kontrolný výkaz (§ 78a) obsahuje detailné údaje o faktúrach a umožňuje finančnej správe párovať vstup a výstup u oboch strán."
+      }
+    ],
+    "otvorene": [
+      {
+        "otazka": "Vysvetlite mechanizmus DPH (daň na výstupe − daň na vstupe) a prečo sa daň v reťazci neduplikuje.",
+        "vzorova_odpoved": "Každý platiteľ pripočíta daň na výstupe k svojej predajnej cene a odpočíta si daň na vstupe zaplatenú dodávateľom. Štátu odvedie len rozdiel, t. j. daň pripadajúcu na pridanú hodnotu, ktorú on sám vytvoril. Súčet odvodov všetkých článkov reťazca sa rovná dani z konečnej ceny pre spotrebiteľa, ktorý ako neplatiteľ daň reálne znáša a nemôže si ju odpočítať. Tým sa daň nekumuluje (neduplikuje)."
+      },
+      {
+        "otazka": "Opíšte pomerné odpočítanie dane a výpočet koeficientu vrátane ročného vysporiadania.",
+        "vzorova_odpoved": "Ak platiteľ použije vstup zároveň na plnenia s nárokom aj bez nároku na odpočet a nemožno ho priradiť, odpočíta len pomernú časť (§ 49 ods. 4, § 50). Koeficient = hodnota plnení s nárokom / hodnota všetkých plnení za kalendárny rok, zaokrúhlený na dve desatinné miesta nahor. Počas roka sa používa predbežný koeficient z minulého roka; po skončení roka sa odpočet prepočíta konečným koeficientom – rozdiel sa vysporiada (doodpočíta alebo vráti)."
+      },
+      {
+        "otazka": "Aké legislatívne a administratívne nástroje slúžia na elimináciu daňových únikov pri DPH?",
+        "vzorova_odpoved": "Kontrolný výkaz (§ 78a) – detailné údaje o faktúrach na krížovú kontrolu odberateľ–dodávateľ. Prenos daňovej povinnosti / reverse-charge (§ 69) – pri rizikových tuzemských plneniach a plneniach od zahraničných osôb platí daň príjemca, takže ju dodávateľ nemôže vybrať a neodviesť. Ručenie za daň (§ 69 ods. 14) – odberateľ ručí za daň nezaplatenú dodávateľom, ak vedel/mal vedieť o nezaplatení. Doplnkovo: register platiteľov, kontrola obratu a registrácia z úradnej moci."
+      }
+    ],
+    "priklad": [
+      {
+        "zadanie": "Platiteľ DPH za zdaňovacie obdobie eviduje: tržby z predaja tovaru 200 000 € + 23 % DPH; oslobodené finančné služby bez nároku na odpočet 50 000 €; nákup tovaru 120 000 € + 23 % DPH (plný nárok); spoločná réžia (energie, nájom, účtovníctvo) s DPH na vstupe 5 000 €, ktorú nemožno priradiť. Vypočítajte vlastnú daňovú povinnosť, resp. nadmerný odpočet.",
+        "riesenie": "Daň na výstupe = 200 000 × 0,23 = 46 000 € (finančné služby sú oslobodené, bez dane). Daň na vstupe s plným nárokom = 120 000 × 0,23 = 27 600 €. Koeficient = 200 000 / (200 000 + 50 000) = 0,80 → nahor 0,80. Pomerný odpočet z réžie = 5 000 × 0,80 = 4 000 €. Odpočítateľná daň spolu = 27 600 + 4 000 = 31 600 €. Vlastná daňová povinnosť = 46 000 − 31 600 = 14 400 € (odvod štátu). Neodpočítaná réžia 1 000 € ide do nákladov."
+      }
+    ]
+  },
+  "zdroje": [
+    {
+      "nazov": "Zákon č. 222/2004 Z. z. o dani z pridanej hodnoty (§ 2, 3, 4, 5, 13–16, 19, 22, 27, 28–42, 49, 50, 51, 69, 70, 78a), znenie k 1. 1. 2026",
+      "kde": "01_Zdroje/Zakony/ZZ_2004_222_20260101_metalex.asice",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Prednáška PR-12 – Daň z pridanej hodnoty: podstata, účtovanie a zmeny od 2025 (účet 343, registrácia, sadzby)",
+      "kde": "01_Zdroje/PR-12 DPH_prezentacia_studenti.pptx",
+      "typ": "prednáška"
+    },
+    {
+      "nazov": "Aktuálne čísla SR 2025/2026 – sadzby DPH, registračný obrat, zmeny 2026 (cukor/soľ, autá)",
+      "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Podnikajte.sk – sadzby DPH od 1. 1. 2026 (preradenie potravín s cukrom/soľou do 23 %)",
+      "kde": "https://www.podnikajte.sk/dan-z-pridanej-hodnoty/sadzby-dph-od-1-1-2026",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Podnikajte.sk – obmedzenie odpočtu DPH na autá od 2026 (50 % paušál, M1, 1.1.2026–30.6.2028)",
+      "kde": "https://www.podnikajte.sk/dan-z-pridanej-hodnoty/obmedzenie-odpoctu-dph-na-auta-od-2026",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Smernica Rady 2006/112/ES o spoločnom systéme dane z pridanej hodnoty",
+      "kde": "harmonizácia DPH v EÚ",
+      "typ": "primárny"
+    }
+  ]
+}

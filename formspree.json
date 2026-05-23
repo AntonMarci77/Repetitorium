@@ -1,0 +1,16 @@
+{
+  "$schema": "https://formspree.io/schemas/v1/project.json",
+  "forms": [
+    {
+      "name": "opravy",
+      "fields": [
+        { "name": "typ",        "type": "select",   "values": ["chyba", "vylepsenie", "doplnenie"] },
+        { "name": "teza_id",    "type": "text" },
+        { "name": "teza_nazov", "type": "text" },
+        { "name": "text",       "type": "text",     "required": true },
+        { "name": "citacia",    "type": "text" },
+        { "name": "email",      "type": "email" }
+      ]
+    }
+  ]
+}

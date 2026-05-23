@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 580" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="580" fill="#ffffff"/>
+  <text x="460" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Rozsah účtovnej závierky podľa veľkostnej skupiny</text>
+  <text x="460" y="58" text-anchor="middle" font-size="13" fill="#64748b">3 zložky pre všetkých: súvaha · výkaz ziskov a strát · poznámky (§ 17 ods. 3) – líši sa podrobnosť</text>
+
+  <!-- three columns -->
+  <!-- MIKRO -->
+  <rect x="40" y="80" width="270" height="430" rx="10" fill="#eff6ff" stroke="#1e3a8a" stroke-width="1.5"/>
+  <rect x="40" y="80" width="270" height="44" rx="10" fill="#1e3a8a"/>
+  <text x="175" y="109" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">MIKRO</text>
+  <text x="175" y="144" text-anchor="middle" font-size="11" fill="#1e3a8a">Opatrenie MF/15464/2013-74</text>
+  <text x="175" y="160" text-anchor="middle" font-size="11" font-weight="600" fill="#1e3a8a">tlačivá Úč MÚJ</text>
+
+  <text x="56" y="190" font-size="13" font-weight="700" fill="#0f172a">Súvaha</text>
+  <text x="56" y="208" font-size="11.5" fill="#334155">• skrátená, aktíva len NETTO</text>
+  <text x="56" y="224" font-size="11.5" fill="#334155">• bez stĺpcov brutto/korekcia</text>
+  <text x="56" y="252" font-size="13" font-weight="700" fill="#0f172a">Výkaz ziskov a strát</text>
+  <text x="56" y="270" font-size="11.5" fill="#334155">• skrátený, menej položiek</text>
+  <text x="56" y="298" font-size="13" font-weight="700" fill="#0f172a">Poznámky</text>
+  <text x="56" y="316" font-size="11.5" fill="#334155">• najstručnejšie (Úč MÚJ)</text>
+  <text x="56" y="332" font-size="11.5" fill="#334155">• len bežné obdobie</text>
+  <text x="56" y="362" font-size="13" font-weight="700" fill="#0f172a">Úľavy</text>
+  <text x="56" y="380" font-size="11.5" fill="#334155">• neúčtuje o odloženej dani</text>
+  <text x="56" y="396" font-size="11.5" fill="#334155">• bez reálnej hodnoty</text>
+  <text x="56" y="412" font-size="11.5" fill="#334155">• zjednodušené deriváty</text>
+  <rect x="56" y="436" width="238" height="56" rx="6" fill="#dbeafe"/>
+  <text x="175" y="460" text-anchor="middle" font-size="12" font-weight="600" fill="#1e3a8a">Najmenší rozsah</text>
+  <text x="175" y="478" text-anchor="middle" font-size="11" fill="#1e40af">mikro môže dobrovoľne ako malá</text>
+
+  <!-- MALA -->
+  <rect x="325" y="80" width="270" height="430" rx="10" fill="#eef2ff" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="325" y="80" width="270" height="44" rx="10" fill="#1d4ed8"/>
+  <text x="460" y="109" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">MALÁ</text>
+  <text x="460" y="144" text-anchor="middle" font-size="11" fill="#1d4ed8">Opatrenie MF/23378/2014-74</text>
+  <text x="460" y="160" text-anchor="middle" font-size="11" font-weight="600" fill="#1d4ed8">tlačivá Úč POD</text>
+
+  <text x="341" y="190" font-size="13" font-weight="700" fill="#0f172a">Súvaha</text>
+  <text x="341" y="208" font-size="11.5" fill="#334155">• plná: brutto / korekcia / netto</text>
+  <text x="341" y="224" font-size="11.5" fill="#334155">• + stĺpec predch. obdobia</text>
+  <text x="341" y="252" font-size="13" font-weight="700" fill="#0f172a">Výkaz ziskov a strát</text>
+  <text x="341" y="270" font-size="11.5" fill="#334155">• plný vzor (rovnaký ako veľká)</text>
+  <text x="341" y="298" font-size="13" font-weight="700" fill="#0f172a">Poznámky</text>
+  <text x="341" y="316" font-size="11.5" fill="#334155">• širšie ako mikro</text>
+  <text x="341" y="332" font-size="11.5" fill="#334155">• vrátane predch. obdobia</text>
+  <text x="341" y="362" font-size="13" font-weight="700" fill="#0f172a">Nemusí (oproti veľkej)</text>
+  <text x="341" y="380" font-size="11.5" fill="#334155">• počet vedúcich zamestnancov</text>
+  <text x="341" y="396" font-size="11.5" fill="#334155">• pohyb rezerv, zákazková výroba</text>
+  <text x="341" y="412" font-size="11.5" fill="#334155">• členenie podľa prepojenosti</text>
+  <rect x="341" y="436" width="238" height="56" rx="6" fill="#e0e7ff"/>
+  <text x="460" y="460" text-anchor="middle" font-size="12" font-weight="600" fill="#1d4ed8">Stredný rozsah</text>
+  <text x="460" y="478" text-anchor="middle" font-size="11" fill="#3730a3">výkazy zhodné s veľkou ÚJ</text>
+
+  <!-- VELKA -->
+  <rect x="610" y="80" width="270" height="430" rx="10" fill="#fef2f2" stroke="#7c2d12" stroke-width="1.5"/>
+  <rect x="610" y="80" width="270" height="44" rx="10" fill="#7c2d12"/>
+  <text x="745" y="109" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">VEĽKÁ + SVZ</text>
+  <text x="745" y="144" text-anchor="middle" font-size="11" fill="#7c2d12">Opatrenie MF/23377/2014-74</text>
+  <text x="745" y="160" text-anchor="middle" font-size="11" font-weight="600" fill="#7c2d12">tlačivá Úč POD · novela 2026</text>
+
+  <text x="626" y="190" font-size="13" font-weight="700" fill="#0f172a">Súvaha</text>
+  <text x="626" y="208" font-size="11.5" fill="#334155">• plná (rovnaká ako malá)</text>
+  <text x="626" y="224" font-size="11.5" fill="#334155">• + členenie podľa prepojenosti</text>
+  <text x="626" y="252" font-size="13" font-weight="700" fill="#0f172a">Výkaz ziskov a strát</text>
+  <text x="626" y="270" font-size="11.5" fill="#334155">• plný vzor (rovnaký ako malá)</text>
+  <text x="626" y="298" font-size="13" font-weight="700" fill="#0f172a">Poznámky</text>
+  <text x="626" y="316" font-size="11.5" fill="#b91c1c" font-weight="600">• ~ 2× rozsah oproti malej</text>
+  <text x="626" y="332" font-size="11.5" fill="#334155">• vedúci zamestnanci, rezervy,</text>
+  <text x="626" y="348" font-size="11.5" fill="#334155">  zákazková výroba, prepojenosť</text>
+  <text x="626" y="376" font-size="13" font-weight="700" fill="#0f172a">SVZ</text>
+  <text x="626" y="394" font-size="11.5" fill="#334155">• vždy veľká bez ohľadu</text>
+  <text x="626" y="410" font-size="11.5" fill="#334155">  na číselné prahy (§ 2/14)</text>
+  <rect x="626" y="436" width="238" height="56" rx="6" fill="#fee2e2"/>
+  <text x="745" y="460" text-anchor="middle" font-size="12" font-weight="600" fill="#b91c1c">Najväčší rozsah</text>
+  <text x="745" y="478" text-anchor="middle" font-size="11" fill="#7f1d1d">podrobný a porovnateľný obraz</text>
+
+  <text x="460" y="540" text-anchor="middle" font-size="12" fill="#475569">Spoločné pre všetky: verný a pravdivý obraz · všeobecné náležitosti · zostavenie do 6 mesiacov · register účtovných závierok</text>
+  <text x="460" y="562" text-anchor="middle" font-size="11" fill="#94a3b8">Hlavný rozdiel medzi malou a veľkou nie je vo vzore výkazov, ale v rozsahu poznámok a analytickom členení.</text>
+</svg>

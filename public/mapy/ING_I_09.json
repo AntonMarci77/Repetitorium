@@ -1,0 +1,121 @@
+{
+  "id": "ING-I-9",
+  "subor": "ING_I_09.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 9,
+  "nazov": "Zahŕňanie pridružených podnikov a spoločných podnikov do konsolidovanej účtovnej závierky podľa IFRS",
+  "koren": {
+    "nazov": "Zahŕňanie pridružených podnikov a spoločných podnikov do konsolidovanej účtovnej závierky podľa IFRS",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Stupeň vplyvu určuje účtovnú metódu – je to rebrík. 1. Kontrola (rozhodujúci vplyv, spravidla > 50 % hlasov, IFRS 10) → metóda úplnej konsolidácie (preberie sa 100 % aktív, záväzkov, výnosov a nákladov, riešia sa…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Spoločná kontrola podľa IFRS 11"
+          },
+          {
+            "nazov": "Dva typy spoločných dohôd a posúdenie úsudkom"
+          },
+          {
+            "nazov": "Spoločná prevádzka – účtovanie podielu"
+          },
+          {
+            "nazov": "Spoločný podnik – metóda vlastného imania"
+          },
+          {
+            "nazov": "Podstatný vplyv podľa IAS 28"
+          },
+          {
+            "nazov": "Podstata metódy vlastného imania"
+          },
+          {
+            "nazov": "Zahŕňanie do KÚZ a vykazovanie strát"
+          },
+          {
+            "nazov": "Výnimky z uplatnenia metódy vlastného imania"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "spoločná kontrola (spoluovládanie)"
+          },
+          {
+            "nazov": "spoločná dohoda / spoločné usporiadanie (IFRS 11)"
+          },
+          {
+            "nazov": "spoločná prevádzka (joint operation)"
+          },
+          {
+            "nazov": "spoločný podnik (joint venture)"
+          },
+          {
+            "nazov": "spoločný prevádzkovateľ vs. spoločník"
+          },
+          {
+            "nazov": "osobitný subjekt (separate vehicle)"
+          },
+          {
+            "nazov": "podstatný vplyv (IAS 28)"
+          },
+          {
+            "nazov": "pridružený podnik (associate)"
+          },
+          {
+            "nazov": "metóda vlastného imania (equity method)"
+          },
+          {
+            "nazov": "obstarávacia cena + podiel na zmene čistých aktív"
+          },
+          {
+            "nazov": "goodwill v rámci hodnoty investície"
+          },
+          {
+            "nazov": "konsolidovaná účtovná závierka (KÚZ)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať spoločnú prevádzku a spoločný podnik – prevádzka = právo na aktíva/záväzky (pomerné vykázanie), podnik = právo…"
+          },
+          {
+            "nazov": "Myslieť si, že existencia osobitného subjektu automaticky znamená spoločný podnik – môže ísť aj o spoločnú prevádzku…"
+          },
+          {
+            "nazov": "Účtovať prijatú dividendu od pridruženého/spoločného podniku ako výnos – pri equity method znižuje hodnotu investície."
+          },
+          {
+            "nazov": "Považovať domnienku 20 % za absolútne pravidlo – je to vyvrátiteľná domnienka; podstatný vplyv môže existovať aj pod 20…"
+          },
+          {
+            "nazov": "Spájať spoločnú prevádzku so zrušenou pomernou (podielovou) konsolidáciou – pomerná konsolidácia celých subjektov bola…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Spoločná kontrola podľa IFRS 11",
+    "Dva typy spoločných dohôd a posúdenie úsudkom",
+    "Spoločná prevádzka – účtovanie podielu",
+    "Spoločný podnik – metóda vlastného imania",
+    "Podstatný vplyv podľa IAS 28",
+    "Podstata metódy vlastného imania",
+    "Zahŕňanie do KÚZ a vykazovanie strát",
+    "Výnimky z uplatnenia metódy vlastného imania"
+  ]
+}

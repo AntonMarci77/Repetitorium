@@ -1,0 +1,56 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="620" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1f2d3d">Skladba základu dane fyzickej osoby (§ 5 – § 8 ZDP)</text>
+  <text x="450" y="56" text-anchor="middle" font-size="13" fill="#5a6b7b">Čiastkové základy dane sa sčítavajú; § 7 stojí samostatne ako osobitný základ dane</text>
+
+  <!-- Active income box -->
+  <rect x="40" y="80" width="380" height="180" rx="10" fill="#e8f4ea" stroke="#3a8a4f" stroke-width="2"/>
+  <text x="230" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#256b39">AKTÍVNE PRÍJMY (možno znížiť o NČZD § 11)</text>
+  <rect x="60" y="118" width="340" height="58" rx="6" fill="#ffffff" stroke="#3a8a4f"/>
+  <text x="74" y="140" font-size="13" font-weight="bold" fill="#1f2d3d">§ 5 – Príjmy zo závislej činnosti</text>
+  <text x="74" y="160" font-size="11.5" fill="#445">mzda, dohody; ČZD = príjem − poistné zamestnanca</text>
+  <rect x="60" y="184" width="340" height="62" rx="6" fill="#ffffff" stroke="#3a8a4f"/>
+  <text x="74" y="206" font-size="13" font-weight="bold" fill="#1f2d3d">§ 6 ods. 1 a 2 – Podnikanie a iná SZČ</text>
+  <text x="74" y="225" font-size="11.5" fill="#445">živnosť, slobodné povolanie; výdavky: skutočné /</text>
+  <text x="74" y="240" font-size="11.5" fill="#445">daňová evidencia / paušál 60 %, max 20 000 €</text>
+
+  <!-- Passive income box -->
+  <rect x="40" y="280" width="380" height="150" rx="10" fill="#fdf3e3" stroke="#c8881f" stroke-width="2"/>
+  <text x="230" y="304" text-anchor="middle" font-size="15" font-weight="bold" fill="#9c6a14">PASÍVNE PRÍJMY (bez NČZD, bez straty)</text>
+  <rect x="60" y="318" width="340" height="48" rx="6" fill="#ffffff" stroke="#c8881f"/>
+  <text x="74" y="338" font-size="13" font-weight="bold" fill="#1f2d3d">§ 6 ods. 3 a 4 – Prenájom, použitie diela</text>
+  <text x="74" y="356" font-size="11.5" fill="#445">prenájom: bez paušálu (skutočné / daň. evidencia)</text>
+  <rect x="60" y="372" width="340" height="48" rx="6" fill="#ffffff" stroke="#c8881f"/>
+  <text x="74" y="392" font-size="13" font-weight="bold" fill="#1f2d3d">§ 8 – Ostatné príjmy</text>
+  <text x="74" y="410" font-size="11.5" fill="#445">predaj majetku, príležitostné príjmy, výhry</text>
+
+  <!-- Arrows to sum -->
+  <line x1="420" y1="170" x2="500" y2="300" stroke="#3a8a4f" stroke-width="2.5"/>
+  <line x1="420" y1="355" x2="500" y2="340" stroke="#c8881f" stroke-width="2.5"/>
+  <polygon points="500,320 488,310 489,326" fill="#3a8a4f"/>
+
+  <!-- Sum box -->
+  <rect x="505" y="280" width="355" height="120" rx="10" fill="#e3edf7" stroke="#2b6cb0" stroke-width="2.5"/>
+  <text x="682" y="312" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4e89">SÚČTOVÝ ZÁKLAD DANE</text>
+  <text x="682" y="336" text-anchor="middle" font-size="12.5" fill="#26425f">§ 5 + § 6 (1–4) + § 8</text>
+  <text x="682" y="362" text-anchor="middle" font-size="12.5" fill="#26425f">2026: progresia 19 / 25 / 30 / 35 %</text>
+  <text x="682" y="382" text-anchor="middle" font-size="11.5" fill="#26425f">(podnikanie ≤ 100 000 € obrat: 15 %)</text>
+
+  <!-- Special base (separate) -->
+  <rect x="505" y="80" width="355" height="150" rx="10" fill="#f3e8f7" stroke="#7a3b9c" stroke-width="2.5"/>
+  <text x="682" y="108" text-anchor="middle" font-size="15" font-weight="bold" fill="#5e2c7a">§ 7 – KAPITÁLOVÝ MAJETOK</text>
+  <text x="682" y="132" text-anchor="middle" font-size="13" font-weight="bold" fill="#5e2c7a">OSOBITNÝ ZÁKLAD DANE</text>
+  <text x="682" y="156" text-anchor="middle" font-size="12" fill="#43275a">úroky z vkladov, výnosy z CP, pôžičky</text>
+  <text x="682" y="178" text-anchor="middle" font-size="12" fill="#43275a">sadzba 19 %, spravidla zrážkou (§ 43)</text>
+  <text x="682" y="202" text-anchor="middle" font-size="12" font-weight="bold" fill="#9c2b2b">NESČÍTAVA SA s ostatnými ČZD</text>
+
+  <!-- Final tax box -->
+  <rect x="280" y="455" width="340" height="120" rx="10" fill="#1f2d3d" stroke="#1f2d3d"/>
+  <text x="450" y="487" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">DAŇOVÁ POVINNOSŤ FO</text>
+  <text x="450" y="512" text-anchor="middle" font-size="12.5" fill="#cfe0ee">základ dane × sadzba − daňový bonus</text>
+  <text x="450" y="534" text-anchor="middle" font-size="12.5" fill="#cfe0ee">− zrazené preddavky = daň na úhradu</text>
+  <text x="450" y="558" text-anchor="middle" font-size="11.5" fill="#9fb8cf">stav: ZDP 595/2003 k 1. 1. 2026 (zák. 261/2025)</text>
+  <line x1="682" y1="400" x2="540" y2="455" stroke="#2b6cb0" stroke-width="2.5"/>
+  <polygon points="540,455 552,450 549,465" fill="#2b6cb0"/>
+  <line x1="600" y1="600" x2="600" y2="600" stroke="none"/>
+</svg>

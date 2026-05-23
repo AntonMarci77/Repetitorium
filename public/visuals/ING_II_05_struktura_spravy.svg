@@ -1,0 +1,62 @@
+<svg viewBox="0 0 820 640" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="820" height="640" fill="#ffffff"/>
+  <text x="410" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#1a2b4a">Štruktúra správy nezávislého audítora (ISA 700, revízia 2016)</text>
+
+  <!-- main blocks -->
+  <g>
+    <rect x="220" y="52" width="380" height="40" rx="5" fill="#1a2b4a"/>
+    <text x="410" y="77" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Názov: „Správa nezávislého audítora" + Adresát</text>
+
+    <rect x="220" y="100" width="380" height="48" rx="5" fill="#2e6da4"/>
+    <text x="410" y="122" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">1. NÁZOR (výrok) audítora</text>
+    <text x="410" y="140" text-anchor="middle" font-size="11" fill="#dce8f5">prvý vecný blok – najdôležitejšia informácia</text>
+
+    <rect x="220" y="156" width="380" height="42" rx="5" fill="#3f7cb8"/>
+    <text x="410" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">2. Základ pre názor</text>
+    <text x="410" y="193" text-anchor="middle" font-size="11" fill="#dce8f5">+ vyhlásenie o nezávislosti a etike</text>
+
+    <rect x="220" y="206" width="380" height="38" rx="5" fill="#e8eef7" stroke="#9bb2d6"/>
+    <text x="410" y="230" text-anchor="middle" font-size="13" fill="#1a2b4a">3. Významná neistota – nepretržité pokračovanie (going concern)</text>
+
+    <rect x="220" y="252" width="380" height="44" rx="5" fill="#dff0e0" stroke="#5a9c63"/>
+    <text x="410" y="273" text-anchor="middle" font-size="14" font-weight="700" fill="#1d5e2a">4. Kľúčové záležitosti auditu – KAM (ISA 701)</text>
+    <text x="410" y="289" text-anchor="middle" font-size="11" fill="#1d5e2a">povinné pre kótované subjekty</text>
+
+    <rect x="220" y="304" width="380" height="38" rx="5" fill="#e8eef7" stroke="#9bb2d6"/>
+    <text x="410" y="328" text-anchor="middle" font-size="13" fill="#1a2b4a">5. Zodpovednosť štat. orgánu / osôb poverených správou a riadením</text>
+
+    <rect x="220" y="350" width="380" height="38" rx="5" fill="#e8eef7" stroke="#9bb2d6"/>
+    <text x="410" y="374" text-anchor="middle" font-size="13" fill="#1a2b4a">6. Zodpovednosť audítora za audit závierky</text>
+
+    <rect x="220" y="396" width="380" height="38" rx="5" fill="#e8eef7" stroke="#9bb2d6"/>
+    <text x="410" y="420" text-anchor="middle" font-size="13" fill="#1a2b4a">7. Ďalšie požiadavky (výročná správa – ISA 720)</text>
+
+    <rect x="220" y="442" width="380" height="40" rx="5" fill="#1a2b4a"/>
+    <text x="410" y="467" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Meno kľúč. audít. partnera · podpis · adresa · DÁTUM</text>
+  </g>
+
+  <!-- side: emphasis / other matter -->
+  <rect x="615" y="156" width="190" height="90" rx="6" fill="#fff4d6" stroke="#d9a300"/>
+  <text x="710" y="178" text-anchor="middle" font-size="12" font-weight="700" fill="#8a6b00">Emphasis of Matter</text>
+  <text x="710" y="196" text-anchor="middle" font-size="10" fill="#6b5500">skutočnosť V závierke</text>
+  <text x="710" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#8a6b00">Other Matter</text>
+  <text x="710" y="234" text-anchor="middle" font-size="10" fill="#6b5500">skutočnosť MIMO závierky</text>
+  <text x="710" y="246" text-anchor="middle" font-size="9" fill="#6b5500">(ISA 706 – nemodifikuje názor)</text>
+
+  <!-- side: PIE -->
+  <rect x="615" y="304" width="190" height="130" rx="6" fill="#f0e6f5" stroke="#7a4a99"/>
+  <text x="710" y="324" text-anchor="middle" font-size="12" font-weight="700" fill="#5a3076">SVZ – nariadenie 537/2014</text>
+  <text x="710" y="344" text-anchor="middle" font-size="10" fill="#5a3076">+ vymenovanie a dĺžka zákazky</text>
+  <text x="710" y="360" text-anchor="middle" font-size="10" fill="#5a3076">+ najzávažnejšie posúdené</text>
+  <text x="710" y="374" text-anchor="middle" font-size="10" fill="#5a3076">  riziká + reakcia (rozšír. KAM)</text>
+  <text x="710" y="390" text-anchor="middle" font-size="10" fill="#5a3076">+ schopnosť odhaliť podvod</text>
+  <text x="710" y="406" text-anchor="middle" font-size="10" fill="#5a3076">+ konzistentnosť s dodatočnou</text>
+  <text x="710" y="420" text-anchor="middle" font-size="10" fill="#5a3076">  správou výboru pre audit (čl.11)</text>
+
+  <!-- footer -->
+  <rect x="40" y="510" width="740" height="100" rx="6" fill="#f7f9fc" stroke="#cdd8e8"/>
+  <text x="60" y="534" font-size="13" font-weight="700" fill="#1a2b4a">Komunikácia (pozadie názoru):</text>
+  <text x="60" y="558" font-size="12" fill="#33445e">ISA 260 – povinná komunikácia s osobami poverenými správou a riadením (rozsah a načasovanie auditu,</text>
+  <text x="60" y="576" font-size="12" fill="#33445e">významné zistenia, nezávislosť).</text>
+  <text x="60" y="598" font-size="12" fill="#33445e">ISA 240 – posudzovanie podvodov: identifikácia a reakcia na riziká, komunikácia zistených/predpokladaných podvodov.</text>
+</svg>

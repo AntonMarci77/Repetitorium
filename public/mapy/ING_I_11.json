@@ -1,0 +1,130 @@
+{
+  "id": "ING-I-11",
+  "subor": "ING_I_11.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 11,
+  "nazov": "Strategické úlohy manažérskeho účtovníctva",
+  "koren": {
+    "nazov": "Strategické úlohy manažérskeho účtovníctva",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Strategické manažérske účtovníctvo sa pýta inak než finančné: nie 'koľko sme zarobili minulý rok', ale 'oplatí sa to do budúcnosti a kde máme rezervy'. Tri otázky tvoria os témy. 1. KOĽKO MUSÍME PREDAŤ, ABY SME NEBOLI V…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Podstata analýzy bodu zvratu"
+          },
+          {
+            "nazov": "Bezpečnostné rozpätie, koridor a koeficient"
+          },
+          {
+            "nazov": "Analýza citlivosti"
+          },
+          {
+            "nazov": "Prevádzková (operačná) páka"
+          },
+          {
+            "nazov": "Využitie MÚ pri zvyšovaní efektivity"
+          },
+          {
+            "nazov": "Kalkulácia podľa čiastkových činností (ABC)"
+          },
+          {
+            "nazov": "Kalkulácia cieľových nákladov (Target costing)"
+          },
+          {
+            "nazov": "Balanced Scorecard – podstata a 4 perspektívy"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "bod zvratu (break-even point)"
+          },
+          {
+            "nazov": "príspevok na úhradu (krycí príspevok, marža)"
+          },
+          {
+            "nazov": "fixné a variabilné náklady"
+          },
+          {
+            "nazov": "bezpečnostné rozpätie"
+          },
+          {
+            "nazov": "bezpečnostný koeficient"
+          },
+          {
+            "nazov": "bezpečnostný koridor"
+          },
+          {
+            "nazov": "analýza citlivosti"
+          },
+          {
+            "nazov": "prevádzková (operačná) páka"
+          },
+          {
+            "nazov": "kalkulácia podľa čiastkových činností (ABC)"
+          },
+          {
+            "nazov": "nositeľ nákladov (cost driver)"
+          },
+          {
+            "nazov": "Activity Based Management (ABM)"
+          },
+          {
+            "nazov": "kalkulácia cieľových nákladov (Target costing)"
+          },
+          {
+            "nazov": "cieľová cena – cieľový zisk = cieľové náklady"
+          },
+          {
+            "nazov": "Balanced Scorecard (BSC)"
+          },
+          {
+            "nazov": "finančná / zákaznícka / procesná perspektíva / učenie sa a rast"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať bod zvratu v kusoch (FN / marža na kus) a v eurách (FN / koeficient krycieho príspevku) – sú to dva rôzne…"
+          },
+          {
+            "nazov": "Počítať bod zvratu z hrubého zisku alebo z celkovej ceny namiesto z krycieho príspevku (cena − variabilný náklad)."
+          },
+          {
+            "nazov": "Mýliť si bezpečnostné rozpätie (ks/€) s bezpečnostným koeficientom (%) – koeficient je rozpätie vyjadrené v percentách."
+          },
+          {
+            "nazov": "Tvrdiť, že rast ceny zvýši bod zvratu – naopak ho znižuje (vyššia marža); bod zvratu zvyšuje rast nákladov, dane či…"
+          },
+          {
+            "nazov": "Pri analýze citlivosti meniť viac parametrov naraz – mení sa vždy len jeden, ostatné ceteris paribus."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Podstata analýzy bodu zvratu",
+    "Bezpečnostné rozpätie, koridor a koeficient",
+    "Analýza citlivosti",
+    "Prevádzková (operačná) páka",
+    "Využitie MÚ pri zvyšovaní efektivity",
+    "Kalkulácia podľa čiastkových činností (ABC)",
+    "Kalkulácia cieľových nákladov (Target costing)",
+    "Balanced Scorecard – podstata a 4 perspektívy"
+  ]
+}

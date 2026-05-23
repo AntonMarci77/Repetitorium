@@ -1,0 +1,122 @@
+{
+  "id": "ING-I-1",
+  "subor": "ING_I_01.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 1,
+  "nazov": "Oceňovanie a osobitosti jeho využitia v účtovníctve",
+  "koren": {
+    "nazov": "Oceňovanie a osobitosti jeho využitia v účtovníctve",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Oceňovanie je voľba ČÍSLA, ktorým vyjadríme majetok a záväzok – a táto voľba určuje, ako vyzerá súvaha aj výsledok hospodárenia. Mentálny model má dve osi. Prvá os – AKÚ veličinu použijem: historické ceny (čo ma to…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Význam oceňovania a oceňovacie základne"
+          },
+          {
+            "nazov": "Oceňovacie veličiny vo finančnom účtovníctve (SR)"
+          },
+          {
+            "nazov": "Časová hodnota peňazí"
+          },
+          {
+            "nazov": "Vplyv oceňovania na zachovanie majetkovej podstaty (kapitálu)"
+          },
+          {
+            "nazov": "DHM podľa IAS 16 – prvotné a následné ocenenie"
+          },
+          {
+            "nazov": "Preceňovanie nevýsledkovo vs. výsledkovo – mechanika (IAS 16, IAS 40)"
+          },
+          {
+            "nazov": "Investičné nehnuteľnosti podľa IAS 40"
+          },
+          {
+            "nazov": "Nehmotný majetok podľa IAS 38 a neobežný majetok na predaj podľa IFRS 5"
+          },
+          {
+            "nazov": "Zníženie hodnoty podľa IAS 36 (opravné položky)"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "oceňovanie a oceňovacia veličina"
+          },
+          {
+            "nazov": "oceňovacie základne (historické ceny / ceny prítomnosti / ceny budúcnosti)"
+          },
+          {
+            "nazov": "obstarávacia cena, vlastné náklady, menovitá hodnota, reálna (férová) hodnota"
+          },
+          {
+            "nazov": "časová hodnota peňazí a diskontovanie"
+          },
+          {
+            "nazov": "zachovanie majetkovej podstaty (finančné vs. fyzické)"
+          },
+          {
+            "nazov": "model obstarávacej ceny vs. model precenenia (IAS 16, IAS 38)"
+          },
+          {
+            "nazov": "model reálnej hodnoty výsledkovo (IAS 40)"
+          },
+          {
+            "nazov": "neobežný majetok určený na predaj (IFRS 5) – nižšia z ÚH a FVLCS"
+          },
+          {
+            "nazov": "zníženie hodnoty – spätne získateľná suma (IAS 36) = max(VIU, FVLCS)"
+          },
+          {
+            "nazov": "preceňovanie nevýsledkovo (cez OSKV / prebytok z precenenia) vs. výsledkovo"
+          },
+          {
+            "nazov": "ostatné súčasti komplexného výsledku (OSKV / OCI)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať smer účtovania: zvýšenie IAS 16 ide NEVÝSLEDKOVO (OSKV/prebytok z precenenia), nie do zisku; zmena IAS 40 ide…"
+          },
+          {
+            "nazov": "Tvrdiť, že investičná nehnuteľnosť v modeli reálnej hodnoty sa odpisuje – NEODPISuje sa."
+          },
+          {
+            "nazov": "Zamieňať spätne získateľnú sumu (vyššia z VIU a FVLCS) s nižšou z nich – v IAS 36 je to VYŠŠIA hodnota."
+          },
+          {
+            "nazov": "Pliesť IFRS 5 (nižšia z ÚH a FVLCS) s IAS 36 (vyššia z VIU a FVLCS) – sú to opačné logiky."
+          },
+          {
+            "nazov": "Myslieť si, že nevýsledkové precenenie nemá vplyv na zisk – nepriamo ho ovplyvní cez vyššie odpisy a odloženú daň."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Význam oceňovania a oceňovacie základne",
+    "Oceňovacie veličiny vo finančnom účtovníctve (SR)",
+    "Časová hodnota peňazí",
+    "Vplyv oceňovania na zachovanie majetkovej podstaty (kapitálu)",
+    "DHM podľa IAS 16 – prvotné a následné ocenenie",
+    "Preceňovanie nevýsledkovo vs. výsledkovo – mechanika (IAS 16, IAS 40)",
+    "Investičné nehnuteľnosti podľa IAS 40",
+    "Nehmotný majetok podľa IAS 38 a neobežný majetok na predaj podľa IFRS 5",
+    "Zníženie hodnoty podľa IAS 36 (opravné položky)"
+  ]
+}

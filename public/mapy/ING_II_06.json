@@ -1,0 +1,133 @@
+{
+  "id": "ING-II-6",
+  "subor": "ING_II_06.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "II",
+  "cislo": 6,
+  "nazov": "Postup audítora v oblasti dlhodobého nehmotného a hmotného majetku a zásob",
+  "koren": {
+    "nazov": "Postup audítora v oblasti dlhodobého nehmotného a hmotného majetku a zásob",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Audítor neoveruje 'majetok' a 'zásoby' ako celok, ale rozkladá zostatok účtu na audítorské tvrdenia (assertions) podľa ISA 315 a ku každému tvrdeniu navrhuje konkrétny postup. Mentálna mapa: EXISTENCIA = je to naozaj…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Rizikovo orientovaný rámec a tvrdenia (ISA 315, 330)"
+          },
+          {
+            "nazov": "DNM a DHM – existencia a práva (vlastníctvo)"
+          },
+          {
+            "nazov": "DNM a DHM – ocenenie a alokácia (odpisy, zníženie hodnoty)"
+          },
+          {
+            "nazov": "DNM a DHM – úplnosť, obstaranie a vyradenie"
+          },
+          {
+            "nazov": "Zásoby – účasť audítora na inventúre (ISA 501)"
+          },
+          {
+            "nazov": "Zásoby – ocenenie (nižšia z OC a NRV), zastarané zásoby"
+          },
+          {
+            "nazov": "Zásoby – cut-off, úplnosť a prezentácia"
+          },
+          {
+            "nazov": "Výsledky auditu – typické zistenia a ich dôsledok"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "audítorské tvrdenia (assertions, ISA 315)"
+          },
+          {
+            "nazov": "existencia"
+          },
+          {
+            "nazov": "úplnosť"
+          },
+          {
+            "nazov": "ocenenie a alokácia (valuation)"
+          },
+          {
+            "nazov": "práva a záväzky (rights and obligations)"
+          },
+          {
+            "nazov": "prezentácia a zverejnenie"
+          },
+          {
+            "nazov": "fyzická obhliadka / inšpekcia"
+          },
+          {
+            "nazov": "účasť audítora na inventúre (ISA 501)"
+          },
+          {
+            "nazov": "test detailov a substantívne analytické postupy (ISA 330, ISA 520)"
+          },
+          {
+            "nazov": "externé potvrdenie (ISA 505)"
+          },
+          {
+            "nazov": "nižšia z obstarávacej ceny a čistej realizačnej hodnoty (NRV)"
+          },
+          {
+            "nazov": "opravná položka / zníženie hodnoty (impairment)"
+          },
+          {
+            "nazov": "pomaly obrátkové a zastarané zásoby"
+          },
+          {
+            "nazov": "cut-off (časové rozlíšenie operácií)"
+          },
+          {
+            "nazov": "register dlhodobého majetku"
+          },
+          {
+            "nazov": "odpisy a odpisový plán"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať smer testovania: existencia sa testuje od záznamu k realite, úplnosť od reality k záznamu – nie naopak."
+          },
+          {
+            "nazov": "Tvrdiť, že audítor 'robí inventúru'. Inventúru vykonáva účtovná jednotka; audítor sa na nej zúčastňuje, pozoruje a robí…"
+          },
+          {
+            "nazov": "Považovať účasť na inventúre za nepovinnú. Pri významných zásobách je povinná, ak je uskutočniteľná; samotná…"
+          },
+          {
+            "nazov": "Oceňovať zásoby vždy obstarávacou cenou. Ku dňu závierky platí nižšia z OC a čistej realizačnej hodnoty – inak hrozí…"
+          },
+          {
+            "nazov": "Zabúdať na opravné položky k zastaraným/pomaly obrátkovým zásobám a na impairment nevyužívaného majetku."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Rizikovo orientovaný rámec a tvrdenia (ISA 315, 330)",
+    "DNM a DHM – existencia a práva (vlastníctvo)",
+    "DNM a DHM – ocenenie a alokácia (odpisy, zníženie hodnoty)",
+    "DNM a DHM – úplnosť, obstaranie a vyradenie",
+    "Zásoby – účasť audítora na inventúre (ISA 501)",
+    "Zásoby – ocenenie (nižšia z OC a NRV), zastarané zásoby",
+    "Zásoby – cut-off, úplnosť a prezentácia",
+    "Výsledky auditu – typické zistenia a ich dôsledok"
+  ]
+}

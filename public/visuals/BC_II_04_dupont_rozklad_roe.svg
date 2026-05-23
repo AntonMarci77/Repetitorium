@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a2a4a">DuPont rozklad ROE</text>
+  <text x="450" y="62" text-anchor="middle" font-size="15" fill="#5a6a85">ROE = ROS × obrat aktív × finančná páka</text>
+
+  <!-- ROE top box -->
+  <rect x="320" y="90" width="260" height="76" rx="10" fill="#1f7340" stroke="#155029" stroke-width="2"/>
+  <text x="450" y="120" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">ROE</text>
+  <text x="450" y="144" text-anchor="middle" font-size="13" fill="#dff3e6">čistý zisk / vlastné imanie</text>
+  <text x="450" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">≈ 15,6 %</text>
+
+  <!-- connectors -->
+  <line x1="450" y1="166" x2="160" y2="230" stroke="#888" stroke-width="2"/>
+  <line x1="450" y1="166" x2="450" y2="230" stroke="#888" stroke-width="2"/>
+  <line x1="450" y1="166" x2="740" y2="230" stroke="#888" stroke-width="2"/>
+  <text x="300" y="210" text-anchor="middle" font-size="22" font-weight="bold" fill="#555">×</text>
+  <text x="595" y="210" text-anchor="middle" font-size="22" font-weight="bold" fill="#555">×</text>
+
+  <!-- ROS -->
+  <rect x="40" y="230" width="240" height="110" rx="10" fill="#eef8f0" stroke="#2f8f4e" stroke-width="2"/>
+  <text x="160" y="258" text-anchor="middle" font-size="17" font-weight="bold" fill="#1f7340">ROS (marža)</text>
+  <text x="160" y="282" text-anchor="middle" font-size="13" fill="#222">čistý zisk / tržby</text>
+  <text x="160" y="306" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">5 %</text>
+  <text x="160" y="328" text-anchor="middle" font-size="12" fill="#2f8f4e">RENTABILITA</text>
+
+  <!-- Obrat -->
+  <rect x="330" y="230" width="240" height="110" rx="10" fill="#eef4fb" stroke="#2e6fb0" stroke-width="2"/>
+  <text x="450" y="258" text-anchor="middle" font-size="17" font-weight="bold" fill="#1d4e89">Obrat aktív</text>
+  <text x="450" y="282" text-anchor="middle" font-size="13" fill="#222">tržby / aktíva</text>
+  <text x="450" y="306" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">1,25</text>
+  <text x="450" y="328" text-anchor="middle" font-size="12" fill="#2e6fb0">AKTIVITA</text>
+
+  <!-- Paka -->
+  <rect x="620" y="230" width="240" height="110" rx="10" fill="#fdf0ee" stroke="#c0492e" stroke-width="2"/>
+  <text x="740" y="258" text-anchor="middle" font-size="17" font-weight="bold" fill="#a8381f">Finančná páka</text>
+  <text x="740" y="282" text-anchor="middle" font-size="13" fill="#222">aktíva / vlastné imanie</text>
+  <text x="740" y="306" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">2,5</text>
+  <text x="740" y="328" text-anchor="middle" font-size="12" fill="#c0492e">ZADLŽENOSŤ</text>
+
+  <!-- computation -->
+  <rect x="150" y="385" width="600" height="56" rx="10" fill="#f5f7fa" stroke="#1a2a4a" stroke-width="1.5"/>
+  <text x="450" y="412" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a2a4a">0,05 × 1,25 × 2,5 = 0,15625 ≈ 15,6 %</text>
+  <text x="450" y="432" text-anchor="middle" font-size="12" fill="#5a6a85">Kontrola: 50 000 / 320 000 = 15,625 %  (sedí)</text>
+
+  <text x="450" y="478" text-anchor="middle" font-size="13" fill="#5a6a85">ROE rastie z lepšej marže, vyššieho obratu alebo vyššej páky –</text>
+  <text x="450" y="498" text-anchor="middle" font-size="13" fill="#5a6a85">páka však zvyšuje aj riziko (fixné úroky a záväzky)</text>
+</svg>

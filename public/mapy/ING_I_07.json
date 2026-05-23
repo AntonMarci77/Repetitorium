@@ -1,0 +1,126 @@
+{
+  "id": "ING-I-7",
+  "subor": "ING_I_07.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 7,
+  "nazov": "Akvizičná metóda účtovania podľa IFRS a jej uplatnenie v konsolidovanej účtovnej závierke",
+  "koren": {
+    "nazov": "Akvizičná metóda účtovania podľa IFRS a jej uplatnenie v konsolidovanej účtovnej závierke",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Akvizičná metóda je JEDINÁ povolená metóda účtovania podnikovej kombinácie podľa IFRS 3 (zrušila sa metóda spojenia podielov). Mentálny model: na podnikovú kombináciu sa pozeráme očami NADOBÚDATEĽA, ktorý 'kupuje'…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Identifikácia podnikovej kombinácie a spôsoby jej vzniku"
+          },
+          {
+            "nazov": "Podstata akvizičnej metódy a jej štyri kroky"
+          },
+          {
+            "nazov": "Krok 1 a 2: nadobúdateľ a deň akvizície"
+          },
+          {
+            "nazov": "Krok 3a: vykázanie a ocenenie aktív a záväzkov"
+          },
+          {
+            "nazov": "Krok 3b: nekontrolujúci podiel (NCI / NP)"
+          },
+          {
+            "nazov": "Krok 4: goodwill alebo zisk z výhodnej kúpy"
+          },
+          {
+            "nazov": "Uplatnenie pri KÚZ a následný test goodwillu (IAS 36)"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "podniková kombinácia"
+          },
+          {
+            "nazov": "ovládanie (kontrola podľa IFRS 10)"
+          },
+          {
+            "nazov": "akvizičná metóda (metóda nadobudnutia)"
+          },
+          {
+            "nazov": "nadobúdateľ"
+          },
+          {
+            "nazov": "deň akvizície"
+          },
+          {
+            "nazov": "prevedená protihodnota v reálnej hodnote"
+          },
+          {
+            "nazov": "identifikovateľné aktíva a prevzaté záväzky v RH"
+          },
+          {
+            "nazov": "nekontrolujúci podiel (NCI / NP)"
+          },
+          {
+            "nazov": "goodwill"
+          },
+          {
+            "nazov": "zisk z výhodnej kúpy"
+          },
+          {
+            "nazov": "metóda úplnej konsolidácie"
+          },
+          {
+            "nazov": "konsolidácia kapitálu"
+          },
+          {
+            "nazov": "peňazotvorná jednotka (CGU)"
+          },
+          {
+            "nazov": "spätne získateľná suma"
+          },
+          {
+            "nazov": "test zníženia hodnoty goodwillu (IAS 36)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Myslieť si, že goodwill sa podľa IFRS odpisuje – podľa IFRS sa NEodpisuje, len testuje (na rozdiel od slovenskej…"
+          },
+          {
+            "nazov": "Zabudnúť pripočítať NCI vo vzorci goodwillu – goodwill = protihodnota + NCI + RH predtým držaného podielu − čisté…"
+          },
+          {
+            "nazov": "Zamieňať obe ocenenia NCI: RH = plný goodwill, pomerný podiel = čiastočný goodwill; voľba mení výšku goodwillu."
+          },
+          {
+            "nazov": "Vykázať zisk z výhodnej kúpy bez povinného prehodnotenia identifikácie a ocenenia aktív, záväzkov, NCI a protihodnoty."
+          },
+          {
+            "nazov": "Zahrnúť náklady súvisiace s akvizíciou (poradcovia, právnici) do protihodnoty alebo goodwillu – patria do nákladov…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Identifikácia podnikovej kombinácie a spôsoby jej vzniku",
+    "Podstata akvizičnej metódy a jej štyri kroky",
+    "Krok 1 a 2: nadobúdateľ a deň akvizície",
+    "Krok 3a: vykázanie a ocenenie aktív a záväzkov",
+    "Krok 3b: nekontrolujúci podiel (NCI / NP)",
+    "Krok 4: goodwill alebo zisk z výhodnej kúpy",
+    "Uplatnenie pri KÚZ a následný test goodwillu (IAS 36)"
+  ]
+}

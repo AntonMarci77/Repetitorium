@@ -1,0 +1,140 @@
+{
+  "id": "BC-II-6",
+  "subor": "BC_II_06.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "II",
+  "cislo": 6,
+  "nazov": "Fyzická osoba – podnikateľ",
+  "koren": {
+    "nazov": "Fyzická osoba – podnikateľ",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Daň z príjmov FO je 'krájaná podľa zdroja príjmu'. Najprv si predstav FO ako podnikateľa, ktorý vznikol zápisom (živnosť, OR, register) a má povinnosti pri ŠTARTE (registrácia na DÚ, Sociálnej poisťovni, zdravotnej…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Vymedzenie FO podnikateľa a začatie podnikania"
+          },
+          {
+            "nazov": "Povinnosti pri skončení podnikania"
+          },
+          {
+            "nazov": "Sústava daní v SR – priame vs. nepriame"
+          },
+          {
+            "nazov": "Vplyv daní na finančnú situáciu FO podnikateľa"
+          },
+          {
+            "nazov": "Základné daňové náležitosti DPFO a štruktúra základu dane (§ 4)"
+          },
+          {
+            "nazov": "ČZD zo závislej činnosti (§ 5) a OZD z kapitálového majetku (§ 7)"
+          },
+          {
+            "nazov": "ČZD z ostatných príjmov (§ 8)"
+          },
+          {
+            "nazov": "ČZD z príjmov podľa § 6 a spôsoby výdavkov"
+          },
+          {
+            "nazov": "Skutočné výdavky, daňová evidencia a paušálne výdavky"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "fyzická osoba – podnikateľ (živnostník, SHR, slobodné povolanie)"
+          },
+          {
+            "nazov": "obchodný register / živnostenský register"
+          },
+          {
+            "nazov": "registračná povinnosť (DÚ, Sociálna poisťovňa, ZP)"
+          },
+          {
+            "nazov": "priame dane (DPFO, DPPO, miestne dane)"
+          },
+          {
+            "nazov": "nepriame dane (DPH, spotrebné dane)"
+          },
+          {
+            "nazov": "základ dane FO (§ 4)"
+          },
+          {
+            "nazov": "čiastkový základ dane (ČZD)"
+          },
+          {
+            "nazov": "osobitný základ dane (OZD)"
+          },
+          {
+            "nazov": "závislá činnosť (§ 5)"
+          },
+          {
+            "nazov": "príjmy z podnikania a inej SZČ, prenájmu, použitia diela (§ 6)"
+          },
+          {
+            "nazov": "kapitálový majetok – OZD (§ 7)"
+          },
+          {
+            "nazov": "ostatné príjmy (§ 8)"
+          },
+          {
+            "nazov": "skutočné (preukázateľné) výdavky"
+          },
+          {
+            "nazov": "paušálne výdavky (§ 6 ods. 10 – 60 %, max 20 000 €)"
+          },
+          {
+            "nazov": "daňová evidencia (§ 6 ods. 11)"
+          },
+          {
+            "nazov": "nezdaniteľné časti základu dane (§ 11)"
+          },
+          {
+            "nazov": "daňový bonus na dieťa"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Sčítavať osobitný základ dane § 7 s ostatnými ČZD – § 7 je OSOBITNÝ základ dane, zdaňuje sa samostatne (19 %, zrážkou)…"
+          },
+          {
+            "nazov": "Tvrdiť, že paušál je 60 % bez stropu – strop je 20 000 € ročne; nad príjem cca 33 333 € sa už 60 % obmedzí."
+          },
+          {
+            "nazov": "Uplatniť paušál ako platiteľ DPH – paušál podľa § 6 ods. 10 môže len neplatiteľ DPH (alebo platiteľ len časť roka)."
+          },
+          {
+            "nazov": "Zabudnúť, že k paušálu sa NAVYŠE pripočítavajú zaplatené odvody (sociálne a zdravotné poistné)."
+          },
+          {
+            "nazov": "Uplatniť paušál pri prenájme (§ 6 ods. 3) – tam sa paušál uplatniť nedá, len skutočné výdavky alebo daňová evidencia."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Vymedzenie FO podnikateľa a začatie podnikania",
+    "Povinnosti pri skončení podnikania",
+    "Sústava daní v SR – priame vs. nepriame",
+    "Vplyv daní na finančnú situáciu FO podnikateľa",
+    "Základné daňové náležitosti DPFO a štruktúra základu dane (§ 4)",
+    "ČZD zo závislej činnosti (§ 5) a OZD z kapitálového majetku (§ 7)",
+    "ČZD z ostatných príjmov (§ 8)",
+    "ČZD z príjmov podľa § 6 a spôsoby výdavkov",
+    "Skutočné výdavky, daňová evidencia a paušálne výdavky"
+  ]
+}

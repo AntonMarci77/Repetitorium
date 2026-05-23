@@ -1,0 +1,16 @@
+{
+  "name": "Repetitórium — štátnice z účtovníctva",
+  "short_name": "Repetitórium",
+  "description": "Neoficiálna pomôcka na bakalárske a inžinierske štátnice z účtovníctva (FHI EU v Bratislave).",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f0eee9",
+  "theme_color": "#1a3868",
+  "lang": "sk",
+  "icons": [
+    { "src": "/icons/icon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" },
+    { "src": "/icons/icon-192.png", "type": "image/png", "sizes": "192x192", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "any maskable" }
+  ]
+}

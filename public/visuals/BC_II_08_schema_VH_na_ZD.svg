@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 600" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="600" fill="#ffffff"/>
+  <text x="460" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Úprava výsledku hospodárenia na základ dane</text>
+  <text x="460" y="58" text-anchor="middle" font-size="13" fill="#64748b">§ 17 ods. 1 a 2 ZDP · úpravu robí daňovník v daňovom priznaní (nie daňový úrad)</text>
+
+  <!-- VH box -->
+  <rect x="310" y="78" width="300" height="56" rx="10" fill="#1f2937"/>
+  <text x="460" y="104" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Výsledok hospodárenia pred zdanením</text>
+  <text x="460" y="123" text-anchor="middle" font-size="12" fill="#cbd5e1">(účtovný VH = výnosy − náklady)</text>
+
+  <!-- arrow -->
+  <line x1="460" y1="134" x2="460" y2="166" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="460,172 454,160 466,160" fill="#94a3b8"/>
+
+  <!-- two columns -->
+  <!-- pripocitatelne -->
+  <rect x="40" y="178" width="400" height="250" rx="12" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="240" y="206" text-anchor="middle" font-size="16" font-weight="700" fill="#b91c1c">+ Pripočítateľné položky</text>
+  <text x="240" y="226" text-anchor="middle" font-size="12" fill="#7f1d1d">zvyšujú základ dane</text>
+  <g font-size="12.5" fill="#0f172a">
+    <text x="60" y="252">• Sankcie voči štátu – pokuty, penále (§ 21/2/a)</text>
+    <text x="60" y="274">• Nezaplatené náklady § 17/19 (nájom FO, marketing…)</text>
+    <text x="60" y="296">• Záväzky po splatnosti 20/50/100 % (§ 17/27)</text>
+    <text x="60" y="318">• Manká a škody nad náhrady (§ 21/2/e)</text>
+    <text x="60" y="340">• Účtovné rezervy a OP mimo § 20</text>
+    <text x="60" y="362">• Reprezentácia (§ 21/1/h)</text>
+    <text x="60" y="384">• Rozdiel ÚZC &gt; DZC pri vyradení majetku</text>
+    <text x="60" y="406">• Odpisy „luxusného“ auta nad limit (§ 17/34)</text>
+  </g>
+
+  <!-- odpocitatelne -->
+  <rect x="480" y="178" width="400" height="250" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="680" y="206" text-anchor="middle" font-size="16" font-weight="700" fill="#15803d">− Odpočítateľné položky</text>
+  <text x="680" y="226" text-anchor="middle" font-size="12" fill="#14532d">znižujú základ dane</text>
+  <g font-size="12.5" fill="#0f172a">
+    <text x="500" y="252">• Úhrada predtým pripočítaného nákladu § 17/19</text>
+    <text x="500" y="274">• Úhrada predtým zdaneného záväzku (§ 17/32)</text>
+    <text x="500" y="296">• Tvorba daňovej OP podľa § 20 (časový test)</text>
+    <text x="500" y="318">• Daňový odpis pohľadávky (§ 19/2)</text>
+    <text x="500" y="340">• Rozdiel DZC &gt; ÚZC pri vyradení majetku</text>
+    <text x="500" y="362">• Použitie/zrušenie predtým pripočítanej rezervy</text>
+    <text x="500" y="384">• Prijatá dividenda (oslobodená) a výnosy mimo ZD</text>
+  </g>
+
+  <!-- arrows to ZD -->
+  <line x1="240" y1="428" x2="420" y2="486" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="680" y1="428" x2="500" y2="486" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- ZD box -->
+  <rect x="310" y="486" width="300" height="56" rx="10" fill="#0e7490"/>
+  <text x="460" y="512" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">= Základ dane (ZD)</text>
+  <text x="460" y="531" text-anchor="middle" font-size="12" fill="#cffafe">→ daň z príjmov po sadzbe</text>
+
+  <!-- legend trvale vs docasne -->
+  <rect x="40" y="556" width="840" height="34" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <circle cx="60" cy="573" r="6" fill="#b91c1c"/>
+  <text x="74" y="577" font-size="12" fill="#0f172a"><tspan font-weight="700">Trvalý rozdiel</tspan> = nikdy sa nevyrovná (pokuta, oslobodená dividenda) → bez odloženej dane.</text>
+  <circle cx="500" cy="573" r="6" fill="#15803d"/>
+  <text x="514" y="577" font-size="12" fill="#0f172a"><tspan font-weight="700">Dočasný rozdiel</tspan> = vyrovná sa neskôr (OP, rezerva, § 17/19) → odložená daň.</text>
+</svg>

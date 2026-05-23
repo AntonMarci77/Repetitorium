@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="560" fill="#ffffff"/>
+  <text x="460" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Ukazovatele hospodárnosti: nákladovosť · účinnosť · viazanosť</text>
+  <text x="460" y="56" text-anchor="middle" font-size="13" fill="#64748b">absolútne vstupy: náklady (N), výnosy/tržby (V/T), celkové aktíva (A)</text>
+
+  <!-- NAKLADOVOST -->
+  <rect x="30" y="86" width="270" height="200" rx="12" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="165" y="116" text-anchor="middle" font-size="17" font-weight="700" fill="#b91c1c">NÁKLADOVOSŤ</text>
+  <rect x="60" y="132" width="210" height="40" rx="8" fill="#ffffff" stroke="#fecaca"/>
+  <text x="165" y="158" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">N / V</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="50" y="196">koľko € nákladov na</text>
+    <text x="50" y="214">1 € výnosov</text>
+  </g>
+  <text x="50" y="244" font-size="13" font-weight="700" fill="#b91c1c">čím NIŽŠIE, tým lepšie ↓</text>
+  <text x="50" y="270" font-size="12" fill="#7f1d1d">1 − nákladovosť = zisková marža</text>
+
+  <!-- UCINNOST -->
+  <rect x="325" y="86" width="270" height="200" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="460" y="116" text-anchor="middle" font-size="17" font-weight="700" fill="#15803d">ÚČINNOSŤ</text>
+  <rect x="355" y="132" width="210" height="40" rx="8" fill="#ffffff" stroke="#bbf7d0"/>
+  <text x="460" y="158" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">V / N</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="345" y="196">koľko € výnosov z</text>
+    <text x="345" y="214">1 € nákladov</text>
+  </g>
+  <text x="345" y="244" font-size="13" font-weight="700" fill="#15803d">čím VYŠŠIE, tým lepšie ↑</text>
+  <text x="345" y="270" font-size="12" fill="#14532d">musí byť &gt; 1 (inak strata)</text>
+
+  <!-- VIAZANOST -->
+  <rect x="620" y="86" width="270" height="200" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="755" y="116" text-anchor="middle" font-size="17" font-weight="700" fill="#1d4ed8">VIAZANOSŤ AKTÍV</text>
+  <rect x="650" y="132" width="210" height="40" rx="8" fill="#ffffff" stroke="#bfdbfe"/>
+  <text x="755" y="158" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">A / T</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="640" y="196">koľko € majetku na</text>
+    <text x="640" y="214">1 € tržieb</text>
+  </g>
+  <text x="640" y="244" font-size="13" font-weight="700" fill="#1d4ed8">čím NIŽŠIE, tým lepšie ↓</text>
+  <text x="640" y="270" font-size="12" fill="#1e3a8a">„štíhlosť" podniku</text>
+
+  <!-- inverse relationships -->
+  <text x="312" y="318" text-anchor="middle" font-size="13" font-weight="700" fill="#475569">⇄ prevrátené hodnoty ⇄</text>
+  <text x="755" y="318" text-anchor="middle" font-size="13" font-weight="700" fill="#475569">⇄ prevrátená k obratu aktív ⇄</text>
+
+  <!-- inverse band -->
+  <rect x="30" y="334" width="860" height="58" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="48" y="358" font-size="12.5" fill="#0f172a"><tspan font-weight="700">Vzťahy:</tspan>  účinnosť = 1 / nákladovosť    ·    obrat aktív = T / A = 1 / viazanosť aktív</text>
+  <text x="48" y="380" font-size="12.5" fill="#0f172a">DuPont väzba:  ROA = rentabilita tržieb × obrat aktív = ROS / viazanosť aktív</text>
+
+  <!-- example -->
+  <rect x="30" y="406" width="860" height="86" rx="10" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="48" y="430" font-size="13" font-weight="700" fill="#92400e">Príklad: N = 900 000 €, V = T = 1 000 000 €, A = 800 000 €</text>
+  <g font-size="12.5" fill="#0f172a">
+    <text x="48" y="454">Nákladovosť = 900 000 / 1 000 000 = 0,90   →  marža = 0,10 (10 %)</text>
+    <text x="48" y="474">Účinnosť = 1 000 000 / 900 000 = 1,11 (= 1/0,90)   ·   Viazanosť = 800 000 / 1 000 000 = 0,80 (obrat 1,25)</text>
+  </g>
+
+  <!-- mnemonic -->
+  <rect x="30" y="506" width="860" height="40" rx="10" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="48" y="531" font-size="12" fill="#7c2d12"><tspan font-weight="700">Pomôcka:</tspan> nákladovosť = „koľko ma to stojí", viazanosť = „koľko majetku v tom mám zamrznuté" – obe stláčame dolu; účinnosť a obrat hore.</text>
+</svg>

@@ -1,0 +1,100 @@
+<svg viewBox="0 0 980 660" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="660" fill="#ffffff"/>
+  <text x="490" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1a2a44">Audítorské tvrdenia → riziká a postupy: DNM/DHM a zásoby</text>
+  <text x="490" y="56" text-anchor="middle" font-size="13" fill="#5a6a82">ISA 315 (tvrdenia) · ISA 330 (reakcia) · ISA 500/501/505/520/540</text>
+
+  <!-- header row -->
+  <rect x="20" y="72" width="200" height="44" fill="#1a2a44"/>
+  <text x="120" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Tvrdenie (assertion)</text>
+  <rect x="220" y="72" width="380" height="44" fill="#264a73"/>
+  <text x="410" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">DNM / DHM</text>
+  <text x="410" y="109" text-anchor="middle" font-size="11" fill="#cdd9ea">typické riziko → postup</text>
+  <rect x="600" y="72" width="360" height="44" fill="#2e5e3a"/>
+  <text x="780" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">ZÁSOBY</text>
+  <text x="780" y="109" text-anchor="middle" font-size="11" fill="#cfe6d4">typické riziko → postup</text>
+
+  <!-- row template: 5 rows -->
+  <!-- EXISTENCIA -->
+  <rect x="20" y="116" width="200" height="100" fill="#eef2f8" stroke="#c5d0e0"/>
+  <text x="30" y="142" font-size="14" font-weight="700" fill="#1a2a44">Existencia</text>
+  <text x="30" y="162" font-size="11" fill="#5a6a82">je to naozaj tam?</text>
+  <text x="30" y="180" font-size="11" fill="#5a6a82">riziko: nadhodnotenie</text>
+  <text x="30" y="198" font-size="11" fill="#5a6a82">smer: záznam → realita</text>
+  <rect x="220" y="116" width="380" height="100" fill="#f4f8fc" stroke="#c5d0e0"/>
+  <text x="232" y="140" font-size="11.5" fill="#22344f">Riziko: fiktívny / už vyradený majetok</text>
+  <text x="232" y="160" font-size="11.5" fill="#22344f">v evidencii.</text>
+  <text x="232" y="184" font-size="12" font-weight="600" fill="#264a73">Postup: výber z registra DHM →</text>
+  <text x="232" y="202" font-size="12" font-weight="600" fill="#264a73">fyzická obhliadka (inšpekcia).</text>
+  <rect x="600" y="116" width="360" height="100" fill="#f1f8f3" stroke="#bcd6c2"/>
+  <text x="612" y="140" font-size="11.5" fill="#1f3a27">Riziko: neexistujúce / cudzie zásoby.</text>
+  <text x="612" y="166" font-size="12" font-weight="600" fill="#2e5e3a">Postup: účasť na inventúre (ISA 501),</text>
+  <text x="612" y="184" font-size="12" font-weight="600" fill="#2e5e3a">testovacie počty zo záznamu → sklad,</text>
+  <text x="612" y="202" font-size="12" font-weight="600" fill="#2e5e3a">externé potvrdenie u tretej strany (505).</text>
+
+  <!-- UPLNOST -->
+  <rect x="20" y="216" width="200" height="92" fill="#e7edf6" stroke="#c5d0e0"/>
+  <text x="30" y="242" font-size="14" font-weight="700" fill="#1a2a44">Úplnosť</text>
+  <text x="30" y="262" font-size="11" fill="#5a6a82">je tam všetko?</text>
+  <text x="30" y="280" font-size="11" fill="#5a6a82">riziko: podhodnotenie</text>
+  <text x="30" y="298" font-size="11" fill="#5a6a82">smer: realita → záznam</text>
+  <rect x="220" y="216" width="380" height="92" fill="#f4f8fc" stroke="#c5d0e0"/>
+  <text x="232" y="240" font-size="11.5" fill="#22344f">Riziko: oprava zaúčtovaná namiesto</text>
+  <text x="232" y="258" font-size="11.5" fill="#22344f">technického zhodnotenia (nekapitalizované).</text>
+  <text x="232" y="282" font-size="12" font-weight="600" fill="#264a73">Postup: od dokladu/obstarania → záznam;</text>
+  <text x="232" y="300" font-size="12" font-weight="600" fill="#264a73">test kapitalizácie a zaradenia.</text>
+  <rect x="600" y="216" width="360" height="92" fill="#f1f8f3" stroke="#bcd6c2"/>
+  <text x="612" y="240" font-size="11.5" fill="#1f3a27">Riziko: tovar na ceste / v sklade tretej</text>
+  <text x="612" y="258" font-size="11.5" fill="#1f3a27">strany nezahrnutý.</text>
+  <text x="612" y="282" font-size="12" font-weight="600" fill="#2e5e3a">Postup: počty zo skladu → záznam,</text>
+  <text x="612" y="300" font-size="12" font-weight="600" fill="#2e5e3a">overenie tovaru na ceste a konsignácie.</text>
+
+  <!-- OCENENIE -->
+  <rect x="20" y="308" width="200" height="100" fill="#fdf2e3" stroke="#e6cfa8"/>
+  <text x="30" y="334" font-size="14" font-weight="700" fill="#7a4a10">Ocenenie a alokácia</text>
+  <text x="30" y="354" font-size="11" fill="#8a6a3a">je suma správna?</text>
+  <text x="30" y="372" font-size="11" fill="#8a6a3a">najviac úsudku</text>
+  <text x="30" y="390" font-size="11" fill="#8a6a3a">(ISA 540 odhady)</text>
+  <rect x="220" y="308" width="380" height="100" fill="#fdf7ee" stroke="#e6cfa8"/>
+  <text x="232" y="332" font-size="11.5" fill="#5a3a10">Riziko: nesprávne odpisy; chýbajúce</text>
+  <text x="232" y="350" font-size="11.5" fill="#5a3a10">zníženie hodnoty (impairment).</text>
+  <text x="232" y="374" font-size="12" font-weight="600" fill="#9a5a10">Postup: overenie OC, prepočet odpisov,</text>
+  <text x="232" y="392" font-size="12" font-weight="600" fill="#9a5a10">indikátory impairmentu → opravná položka.</text>
+  <rect x="600" y="308" width="360" height="100" fill="#fdf7ee" stroke="#e6cfa8"/>
+  <text x="612" y="332" font-size="11.5" fill="#5a3a10">Riziko: zásoby nad NRV; zastarané</text>
+  <text x="612" y="350" font-size="11.5" fill="#5a3a10">a pomaly obrátkové zásoby.</text>
+  <text x="612" y="374" font-size="12" font-weight="600" fill="#9a5a10">Postup: nižšia z OC a NRV, prepočet NRV,</text>
+  <text x="612" y="392" font-size="12" font-weight="600" fill="#9a5a10">veková štruktúra → opravná položka.</text>
+
+  <!-- PRAVA -->
+  <rect x="20" y="408" width="200" height="84" fill="#e7edf6" stroke="#c5d0e0"/>
+  <text x="30" y="434" font-size="14" font-weight="700" fill="#1a2a44">Práva a záväzky</text>
+  <text x="30" y="454" font-size="11" fill="#5a6a82">patrí to firme?</text>
+  <text x="30" y="472" font-size="11" fill="#5a6a82">vlastníctvo</text>
+  <rect x="220" y="408" width="380" height="84" fill="#f4f8fc" stroke="#c5d0e0"/>
+  <text x="232" y="432" font-size="11.5" fill="#22344f">Riziko: leasing / záloh / cudzí majetok.</text>
+  <text x="232" y="456" font-size="12" font-weight="600" fill="#264a73">Postup: listy vlastníctva, kúpne, leasingové</text>
+  <text x="232" y="474" font-size="12" font-weight="600" fill="#264a73">a úverové zmluvy; záložné práva.</text>
+  <rect x="600" y="408" width="360" height="84" fill="#f1f8f3" stroke="#bcd6c2"/>
+  <text x="612" y="432" font-size="11.5" fill="#1f3a27">Riziko: komisionálny (cudzí) tovar</text>
+  <text x="612" y="450" font-size="11.5" fill="#1f3a27">zahrnutý do zásob.</text>
+  <text x="612" y="474" font-size="12" font-weight="600" fill="#2e5e3a">Postup: overenie vlastníctva, konsignácia.</text>
+
+  <!-- PREZENTACIA -->
+  <rect x="20" y="492" width="200" height="80" fill="#eef2f8" stroke="#c5d0e0"/>
+  <text x="30" y="518" font-size="14" font-weight="700" fill="#1a2a44">Prezentácia a</text>
+  <text x="30" y="536" font-size="14" font-weight="700" fill="#1a2a44">zverejnenie</text>
+  <text x="30" y="558" font-size="11" fill="#5a6a82">správne vykázané?</text>
+  <rect x="220" y="492" width="380" height="80" fill="#f4f8fc" stroke="#c5d0e0"/>
+  <text x="232" y="520" font-size="12" font-weight="600" fill="#264a73">Postup: zatriedenie, zverejnenie metód</text>
+  <text x="232" y="538" font-size="12" font-weight="600" fill="#264a73">odpisovania, opravných položiek</text>
+  <text x="232" y="556" font-size="12" font-weight="600" fill="#264a73">a založeného majetku.</text>
+  <rect x="600" y="492" width="360" height="80" fill="#f1f8f3" stroke="#bcd6c2"/>
+  <text x="612" y="520" font-size="12" font-weight="600" fill="#2e5e3a">Postup: členenie (materiál, NV, výrobky,</text>
+  <text x="612" y="538" font-size="12" font-weight="600" fill="#2e5e3a">tovar), zverejnenie ocenenia, OP</text>
+  <text x="612" y="556" font-size="12" font-weight="600" fill="#2e5e3a">a založených zásob.</text>
+
+  <text x="20" y="602" font-size="12" font-weight="700" fill="#1a2a44">Smer testovania je kľúč:</text>
+  <text x="200" y="602" font-size="12" fill="#5a6a82">nadhodnotenie testuj od záznamu k realite (existencia) · podhodnotenie od reality k záznamu (úplnosť).</text>
+  <text x="20" y="628" font-size="12" font-weight="700" fill="#9a5a10">Najrizikovejšie tvrdenie:</text>
+  <text x="200" y="628" font-size="12" fill="#5a6a82">pri majetku ocenenie (odpisy, impairment) a existencia · pri zásobách ocenenie (NRV) a inventúra/cut-off.</text>
+</svg>

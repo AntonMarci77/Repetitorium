@@ -1,0 +1,127 @@
+{
+  "id": "BC-II-4",
+  "subor": "BC_II_04.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "II",
+  "cislo": 4,
+  "nazov": "Aktivita a zadlženosť, rentabilita a likvidita",
+  "koren": {
+    "nazov": "Aktivita a zadlženosť, rentabilita a likvidita",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Pomerová analýza je o tom, že jedno číslo z účtovnej závierky samo o sebe nič nehovorí – zmysel dostane až v POMERE k inému číslu. Štyri základné skupiny ukazovateľov odpovedajú na štyri prirodzené otázky o podniku.…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Ukazovatele AKTIVITY – ako pracuje majetok"
+          },
+          {
+            "nazov": "Aktivita – súvis s viazanosťou a obchodným úverom"
+          },
+          {
+            "nazov": "Ukazovatele ZADLŽENOSTI – z čoho je podnik financovaný"
+          },
+          {
+            "nazov": "Zadlženosť – ekonomická interpretácia a efekt páky"
+          },
+          {
+            "nazov": "Ukazovatele RENTABILITY – koľko zisku to tvorí"
+          },
+          {
+            "nazov": "DuPont rozklad ROE a ekonomická pridaná hodnota (EVA)"
+          },
+          {
+            "nazov": "Ukazovatele LIKVIDITY – schopnosť hradiť záväzky"
+          },
+          {
+            "nazov": "Likvidita na báze cash flow a interpretácia"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "pomerová analýza"
+          },
+          {
+            "nazov": "ukazovatele aktivity (obrátky a doby obratu)"
+          },
+          {
+            "nazov": "obrat celkových aktív"
+          },
+          {
+            "nazov": "doba obratu zásob / inkasa pohľadávok / úhrady záväzkov"
+          },
+          {
+            "nazov": "ukazovatele zadlženosti"
+          },
+          {
+            "nazov": "celková zadlženosť a stupeň samofinancovania"
+          },
+          {
+            "nazov": "úrokové krytie"
+          },
+          {
+            "nazov": "finančná páka"
+          },
+          {
+            "nazov": "ukazovatele rentability (ROA, ROE, ROS, ROCE)"
+          },
+          {
+            "nazov": "DuPont rozklad ROE"
+          },
+          {
+            "nazov": "ekonomická pridaná hodnota (EVA)"
+          },
+          {
+            "nazov": "ukazovatele likvidity (L1, L2, L3)"
+          },
+          {
+            "nazov": "likvidita na báze cash flow"
+          },
+          {
+            "nazov": "čistý pracovný kapitál"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Hodnotiť ukazovateľ izolovane bez porovnania v čase, s odvetvím alebo plánom – jedno číslo samo o sebe nič nehovorí."
+          },
+          {
+            "nazov": "Zamieňať obrátku a dobu obratu – sú prevrátené (doba = 365 / obrátka)."
+          },
+          {
+            "nazov": "Myslieť si, že vyššia likvidita je vždy lepšia – priveľa viazaných peňazí znižuje rentabilitu; optimum je rozpätie, nie…"
+          },
+          {
+            "nazov": "Považovať vysokú zadlženosť automaticky za zlú – cudzí kapitál cez pozitívnu páku a daňový štít môže zvyšovať ROE;…"
+          },
+          {
+            "nazov": "Pliecť stupne likvidity: L1 = len finančný majetok, L2 = obežný majetok bez zásob, L3 = celý obežný majetok."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Ukazovatele AKTIVITY – ako pracuje majetok",
+    "Aktivita – súvis s viazanosťou a obchodným úverom",
+    "Ukazovatele ZADLŽENOSTI – z čoho je podnik financovaný",
+    "Zadlženosť – ekonomická interpretácia a efekt páky",
+    "Ukazovatele RENTABILITY – koľko zisku to tvorí",
+    "DuPont rozklad ROE a ekonomická pridaná hodnota (EVA)",
+    "Ukazovatele LIKVIDITY – schopnosť hradiť záväzky",
+    "Likvidita na báze cash flow a interpretácia"
+  ]
+}

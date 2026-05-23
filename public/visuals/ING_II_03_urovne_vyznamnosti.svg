@@ -1,0 +1,35 @@
+<svg viewBox="0 0 760 470" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="470" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#1a2b4a">Tri úrovne významnosti (ISA 320)</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#5a6b85">Príklad: zisk pred zdanením 1 000 000 €</text>
+
+  <!-- Pyramid as stacked trapezoids -->
+  <!-- Level 1: total materiality (widest) -->
+  <polygon points="120,110 640,110 590,180 170,180" fill="#1f4e79"/>
+  <text x="380" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Celková významnosť (pre závierku ako celok)</text>
+  <text x="380" y="164" text-anchor="middle" font-size="13" fill="#dce6f1">5 % × 1 000 000 = 50 000 €</text>
+
+  <!-- Level 2: performance materiality -->
+  <polygon points="180,196 580,196 540,266 220,266" fill="#2e75b6"/>
+  <text x="380" y="226" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Výkonová významnosť (50–75 %)</text>
+  <text x="380" y="250" text-anchor="middle" font-size="13" fill="#e7f0fa">75 % × 50 000 = 37 500 €  (vankúš)</text>
+
+  <!-- Level 3: clearly trivial threshold -->
+  <polygon points="230,282 530,282 495,352 265,352" fill="#9dc3e6"/>
+  <text x="380" y="312" text-anchor="middle" font-size="15" font-weight="700" fill="#13335a">Prah triviálnosti (clearly trivial)</text>
+  <text x="380" y="336" text-anchor="middle" font-size="13" fill="#13335a">≈ 5 % celkovej = 2 500 €</text>
+
+  <!-- side annotations -->
+  <text x="660" y="148" font-size="12" fill="#1f4e79">prah dôležitosti</text>
+  <text x="660" y="162" font-size="12" fill="#1f4e79">pre používateľov</text>
+  <text x="600" y="234" font-size="12" fill="#2e75b6">riadi rozsah</text>
+  <text x="600" y="248" font-size="12" fill="#2e75b6">testovania oblastí</text>
+  <text x="545" y="318" font-size="12" fill="#3a6ea5">pod ňou sa</text>
+  <text x="545" y="332" font-size="12" fill="#3a6ea5">nesprávnosti nezbierajú</text>
+
+  <!-- bottom note: inverse relationship -->
+  <rect x="120" y="378" width="520" height="72" rx="8" fill="#fdf2e1" stroke="#e0a96d"/>
+  <text x="380" y="402" text-anchor="middle" font-size="14" font-weight="700" fill="#8a5a13">Nepriamy (inverzný) vzťah s rizikom auditu</text>
+  <text x="380" y="424" text-anchor="middle" font-size="12.5" fill="#5a4012">Nižšia významnosť → nižšie cieľové riziko → VIAC dôkazov a VÄČŠIE vzorky.</text>
+  <text x="380" y="442" text-anchor="middle" font-size="12.5" fill="#5a4012">Pri vyššom riziku audítor významnosť (najmä výkonovú) zníži.</text>
+</svg>

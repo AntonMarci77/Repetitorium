@@ -1,0 +1,147 @@
+{
+  "id": "ING-II-5",
+  "subor": "ING_II_05.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "II",
+  "cislo": 5,
+  "nazov": "Správa nezávislého audítora a jeho komunikácia",
+  "koren": {
+    "nazov": "Správa nezávislého audítora a jeho komunikácia",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Správa audítora je VÝSTUP a komunikačný produkt celého auditu – audítor v nej vyjadruje uistenie (názor), či účtovná závierka poskytuje pravdivý a verný obraz v súlade s rámcom finančného výkazníctva. Kľúč k celej téze…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Formovanie názoru a obsah správy (ISA 700)"
+          },
+          {
+            "nazov": "Nemodifikovaný (čistý) názor"
+          },
+          {
+            "nazov": "Dve osi modifikácie: charakter × všeobsiahlosť (ISA 705)"
+          },
+          {
+            "nazov": "Tri typy modifikovaného názoru (ISA 705)"
+          },
+          {
+            "nazov": "Odsek so zdôraznením skutočností (Emphasis of Matter, ISA 706)"
+          },
+          {
+            "nazov": "Odsek o inej skutočnosti (Other Matter, ISA 706)"
+          },
+          {
+            "nazov": "Kľúčové záležitosti auditu – KAM (ISA 701)"
+          },
+          {
+            "nazov": "Porovnávacie informácie – zodpovedajúce údaje (ISA 710)"
+          },
+          {
+            "nazov": "Komunikácia s manažmentom a osobami poverenými správou a riadením (ISA 260) a podvody (ISA 240)"
+          },
+          {
+            "nazov": "Osobitosti správy pre subjekty verejného záujmu (nariadenie 537/2014)"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "správa nezávislého audítora (ISA 700)"
+          },
+          {
+            "nazov": "názor (výrok) audítora"
+          },
+          {
+            "nazov": "nemodifikovaný (čistý) názor"
+          },
+          {
+            "nazov": "modifikovaný názor (ISA 705)"
+          },
+          {
+            "nazov": "názor s výhradou"
+          },
+          {
+            "nazov": "záporný názor"
+          },
+          {
+            "nazov": "odmietnutie vyjadrenia názoru"
+          },
+          {
+            "nazov": "významnosť (materialita)"
+          },
+          {
+            "nazov": "všeobsiahlosť (pervasiveness)"
+          },
+          {
+            "nazov": "obmedzenie rozsahu auditu"
+          },
+          {
+            "nazov": "významná nesprávnosť"
+          },
+          {
+            "nazov": "odsek so zdôraznením skutočností (Emphasis of Matter, ISA 706)"
+          },
+          {
+            "nazov": "odsek o inej skutočnosti (Other Matter, ISA 706)"
+          },
+          {
+            "nazov": "kľúčové záležitosti auditu – KAM (ISA 701)"
+          },
+          {
+            "nazov": "porovnávacie informácie – zodpovedajúce údaje (ISA 710)"
+          },
+          {
+            "nazov": "komunikácia s osobami poverenými správou a riadením (ISA 260)"
+          },
+          {
+            "nazov": "posudzovanie podvodov (ISA 240)"
+          },
+          {
+            "nazov": "subjekt verejného záujmu (nariadenie 537/2014)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať záporný názor a odmietnutie: záporný = audítor VIE, že je závierka zle (nesprávnosť); odmietnutie = audítor…"
+          },
+          {
+            "nazov": "Myslieť si, že nemodifikovaný (čistý) názor znamená bezchybnú závierku – znamená len, že nie sú VÝZNAMNÉ nesprávnosti."
+          },
+          {
+            "nazov": "Považovať odsek so zdôraznením/o inej skutočnosti za modifikáciu názoru – NEmodifikujú názor."
+          },
+          {
+            "nazov": "Zamieňať Emphasis of Matter (skutočnosť V závierke) a Other Matter (skutočnosť MIMO závierky)."
+          },
+          {
+            "nazov": "Tvrdiť, že KAM sú povinné pre všetky subjekty – sú povinné pre kótované subjekty; inde dobrovoľne alebo podľa predpisu."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Formovanie názoru a obsah správy (ISA 700)",
+    "Nemodifikovaný (čistý) názor",
+    "Dve osi modifikácie: charakter × všeobsiahlosť (ISA 705)",
+    "Tri typy modifikovaného názoru (ISA 705)",
+    "Odsek so zdôraznením skutočností (Emphasis of Matter, ISA 706)",
+    "Odsek o inej skutočnosti (Other Matter, ISA 706)",
+    "Kľúčové záležitosti auditu – KAM (ISA 701)",
+    "Porovnávacie informácie – zodpovedajúce údaje (ISA 710)",
+    "Komunikácia s manažmentom a osobami poverenými správou a riadením (ISA 260) a podvody (ISA 240)",
+    "Osobitosti správy pre subjekty verejného záujmu (nariadenie 537/2014)"
+  ]
+}

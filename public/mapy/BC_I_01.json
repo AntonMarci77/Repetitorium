@@ -1,0 +1,128 @@
+{
+  "id": "BC-I-1",
+  "subor": "BC_I_01.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "I",
+  "cislo": 1,
+  "nazov": "Podstata účtovníctva a jej legislatívny rámec",
+  "koren": {
+    "nazov": "Podstata účtovníctva a jej legislatívny rámec",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Účtovníctvo je usporiadaný informačný systém, ktorý meria a zaznamenáva hospodárenie účtovnej jednotky tak, aby podal VERNÝ A PRAVDIVÝ OBRAZ o jej majetku, záväzkoch, vlastnom imaní, nákladoch, výnosoch a výsledku…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Podstata, význam a funkcie účtovníctva"
+          },
+          {
+            "nazov": "Nadnárodná právna úprava (EÚ a IFRS)"
+          },
+          {
+            "nazov": "Národná právna úprava (zákon 431/2002 a opatrenia MF SR)"
+          },
+          {
+            "nazov": "Účtovná jednotka a predmet účtovníctva"
+          },
+          {
+            "nazov": "Účtovné obdobie"
+          },
+          {
+            "nazov": "Sústavy účtovníctva (JÚ a PÚ)"
+          },
+          {
+            "nazov": "Účet, rámcová účtová osnova a účtový rozvrh"
+          },
+          {
+            "nazov": "Účtovná dokumentácia a účtovné doklady"
+          },
+          {
+            "nazov": "Preukázateľnosť, uchovávanie a ochrana dokumentácie"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "účtovníctvo"
+          },
+          {
+            "nazov": "verný a pravdivý obraz"
+          },
+          {
+            "nazov": "účtovná jednotka"
+          },
+          {
+            "nazov": "predmet účtovníctva"
+          },
+          {
+            "nazov": "účtovné obdobie (kalendárny / hospodársky rok)"
+          },
+          {
+            "nazov": "sústava jednoduchého a podvojného účtovníctva"
+          },
+          {
+            "nazov": "účet (syntetický, analytický, podsúvahový)"
+          },
+          {
+            "nazov": "rámcová účtová osnova"
+          },
+          {
+            "nazov": "účtový rozvrh"
+          },
+          {
+            "nazov": "účtovná dokumentácia"
+          },
+          {
+            "nazov": "účtovný doklad a jeho náležitosti (§ 10)"
+          },
+          {
+            "nazov": "preukázateľnosť účtovného záznamu (§ 32)"
+          },
+          {
+            "nazov": "uchovávanie a ochrana účtovnej dokumentácie (§ 35, § 36)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať účtovníctvo (verný a pravdivý obraz) s daňami (vyčíslenie dane) – sú to dva odlišné systémy s odlišným cieľom."
+          },
+          {
+            "nazov": "Tvrdiť, že podvojné účtovníctvo je dobrovoľné – pravidlom je PÚ, jednoduché smie len taxatívne vymenovaný okruh (§ 9)."
+          },
+          {
+            "nazov": "Zamieňať rámcovú účtovú osnovu (záväzný rámec od MF SR) s účtovým rozvrhom (konkrétny zoznam účtov jednotky)."
+          },
+          {
+            "nazov": "Myslieť si, že hospodársky rok môže mať ktokoľvek a kedykoľvek – treba ho oznámiť daňovému úradu a nemôže ho mať…"
+          },
+          {
+            "nazov": "Vynechať dátum uskutočnenia prípadu vždy – uvádza sa len ak je odlišný od dátumu vyhotovenia (§ 10 ods. 1 písm. e)."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Podstata, význam a funkcie účtovníctva",
+    "Nadnárodná právna úprava (EÚ a IFRS)",
+    "Národná právna úprava (zákon 431/2002 a opatrenia MF SR)",
+    "Účtovná jednotka a predmet účtovníctva",
+    "Účtovné obdobie",
+    "Sústavy účtovníctva (JÚ a PÚ)",
+    "Účet, rámcová účtová osnova a účtový rozvrh",
+    "Účtovná dokumentácia a účtovné doklady",
+    "Preukázateľnosť, uchovávanie a ochrana dokumentácie"
+  ]
+}

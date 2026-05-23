@@ -1,0 +1,41 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="500" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a3c5e">Účet 343 – Daň z pridanej hodnoty</text>
+  <text x="450" y="58" text-anchor="middle" font-size="13" fill="#555">MÁ DAŤ = daň na vstupe (nárok na odpočet) · DAL = daň na výstupe (povinnosť odviesť)</text>
+
+  <!-- T-ucet -->
+  <rect x="270" y="90" width="360" height="190" fill="#f7f9fc" stroke="#1a3c5e" stroke-width="2"/>
+  <line x1="450" y1="90" x2="450" y2="280" stroke="#1a3c5e" stroke-width="2"/>
+  <line x1="270" y1="120" x2="630" y2="120" stroke="#1a3c5e" stroke-width="2"/>
+  <text x="360" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a3c5e">MÁ DAŤ (vstup)</text>
+  <text x="540" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a3c5e">DAL (výstup)</text>
+  <text x="360" y="150" text-anchor="middle" font-size="13" fill="#0a4a8a">prijaté faktúry</text>
+  <text x="360" y="172" text-anchor="middle" font-size="13" fill="#0a4a8a">343 / 321</text>
+  <text x="540" y="150" text-anchor="middle" font-size="13" fill="#0a4a8a">vystavené faktúry</text>
+  <text x="540" y="172" text-anchor="middle" font-size="13" fill="#0a4a8a">311 / 343</text>
+
+  <text x="450" y="332" text-anchor="middle" font-size="15" font-weight="bold" fill="#333">Zostatok účtu 343 na konci zdaňovacieho obdobia</text>
+
+  <!-- Vetva 1: vlastna DP -->
+  <rect x="40" y="360" width="380" height="115" rx="10" fill="#fdeeee" stroke="#c0392b" stroke-width="2"/>
+  <text x="230" y="386" text-anchor="middle" font-size="15" font-weight="bold" fill="#922">Kreditný zostatok (DAL &gt; MÁ DAŤ)</text>
+  <text x="230" y="410" text-anchor="middle" font-size="14" fill="#333">výstup &gt; vstup</text>
+  <text x="230" y="434" text-anchor="middle" font-size="15" font-weight="bold" fill="#c0392b">= VLASTNÁ DAŇOVÁ POVINNOSŤ</text>
+  <text x="230" y="458" text-anchor="middle" font-size="13" fill="#333">odvod štátu: 343 / 221</text>
+
+  <!-- Vetva 2: nadmerny odpocet -->
+  <rect x="480" y="360" width="380" height="115" rx="10" fill="#eef7ee" stroke="#27884a" stroke-width="2"/>
+  <text x="670" y="386" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f6e3a">Debetný zostatok (MÁ DAŤ &gt; DAL)</text>
+  <text x="670" y="410" text-anchor="middle" font-size="14" fill="#333">vstup &gt; výstup</text>
+  <text x="670" y="434" text-anchor="middle" font-size="15" font-weight="bold" fill="#27884a">= NADMERNÝ ODPOČET</text>
+  <text x="670" y="458" text-anchor="middle" font-size="13" fill="#333">vrátenie zo štátu: 221 / 343</text>
+
+  <!-- Sipky -->
+  <defs>
+    <marker id="a2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#666"/>
+    </marker>
+  </defs>
+  <line x1="380" y1="290" x2="230" y2="356" stroke="#c0392b" stroke-width="2" marker-end="url(#a2)"/>
+  <line x1="520" y1="290" x2="670" y2="356" stroke="#27884a" stroke-width="2" marker-end="url(#a2)"/>
+</svg>

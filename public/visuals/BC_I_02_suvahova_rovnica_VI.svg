@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 600" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="600" fill="#ffffff"/>
+  <text x="460" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Súvahová rovnica a štruktúra vlastného imania</text>
+  <text x="460" y="56" text-anchor="middle" font-size="13" fill="#64748b">Majetok = Vlastné imanie + Záväzky · § 2 ods. 4 zákona o účtovníctve · trieda 4</text>
+
+  <!-- AKTIVA -->
+  <rect x="40" y="80" width="360" height="320" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="220" y="106" text-anchor="middle" font-size="17" font-weight="700" fill="#1d4ed8">AKTÍVA = MAJETOK</text>
+  <text x="220" y="124" text-anchor="middle" font-size="11.5" fill="#475569">budúci ekonomický úžitok, takmer istý</text>
+  <g font-size="13" fill="#0f172a">
+    <rect x="60" y="140" width="320" height="110" rx="8" fill="#dbeafe"/>
+    <text x="74" y="162" font-weight="700">Neobežný (dlhodobý) majetok</text>
+    <text x="84" y="184">• dlhodobý nehmotný majetok</text>
+    <text x="84" y="206">• dlhodobý hmotný majetok</text>
+    <text x="84" y="228">• dlhodobý finančný majetok</text>
+    <rect x="60" y="262" width="320" height="120" rx="8" fill="#dbeafe"/>
+    <text x="74" y="284" font-weight="700">Obežný majetok</text>
+    <text x="84" y="306">• zásoby</text>
+    <text x="84" y="328">• pohľadávky</text>
+    <text x="84" y="350">• krátkodobý fin. majetok, peniaze</text>
+  </g>
+
+  <!-- = -->
+  <text x="420" y="248" text-anchor="middle" font-size="34" font-weight="700" fill="#0f172a">=</text>
+
+  <!-- PASIVA -->
+  <rect x="440" y="80" width="440" height="320" rx="12" fill="#fef9c3" stroke="#fde68a"/>
+  <text x="660" y="106" text-anchor="middle" font-size="17" font-weight="700" fill="#a16207">PASÍVA = zdroje krytia</text>
+  <text x="660" y="124" text-anchor="middle" font-size="11.5" fill="#475569">vlastné + cudzie zdroje</text>
+
+  <!-- Vlastne imanie -->
+  <rect x="458" y="140" width="404" height="150" rx="8" fill="#dcfce7" stroke="#86efac"/>
+  <text x="472" y="162" font-size="14" font-weight="700" fill="#15803d">VLASTNÉ IMANIE = Majetok − Záväzky</text>
+  <g font-size="12.5" fill="#0f172a">
+    <text x="482" y="184">• základné imanie (411) – s.r.o. min. 5 000 €, a.s. 25 000 €</text>
+    <text x="482" y="204">• kapitálové fondy (412 ážio, 413)</text>
+    <text x="482" y="224">• fondy zo zisku (421 zák. rezervný fond)</text>
+    <text x="482" y="244">• oceňovacie rozdiely (414, 416)</text>
+    <text x="482" y="264">• VH minulých rokov (428/429) a bežného obdobia (431)</text>
+  </g>
+
+  <!-- Cudzie zdroje -->
+  <rect x="458" y="300" width="404" height="84" rx="8" fill="#fee2e2" stroke="#fca5a5"/>
+  <text x="472" y="322" font-size="14" font-weight="700" fill="#b91c1c">ZÁVÄZKY (cudzie zdroje)</text>
+  <g font-size="12.5" fill="#0f172a">
+    <text x="482" y="344">• úvery a pôžičky, dodávatelia, iné záväzky</text>
+    <text x="482" y="366">• REZERVY (323/451/459) – záväzok s neistým termínom/sumou</text>
+  </g>
+
+  <!-- Vysledkovy pohlad -->
+  <rect x="40" y="424" width="840" height="150" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="460" y="450" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">Výsledkový pohľad → preklápa sa do vlastného imania</text>
+  <rect x="70" y="466" width="340" height="44" rx="8" fill="#fee2e2"/>
+  <text x="240" y="488" text-anchor="middle" font-size="13" font-weight="700" fill="#b91c1c">NÁKLADY (trieda 5)</text>
+  <text x="240" y="504" text-anchor="middle" font-size="11" fill="#7f1d1d">zníženie ekonomických úžitkov</text>
+  <text x="460" y="495" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">→</text>
+  <rect x="510" y="466" width="340" height="44" rx="8" fill="#dcfce7"/>
+  <text x="680" y="488" text-anchor="middle" font-size="13" font-weight="700" fill="#15803d">VÝNOSY (trieda 6)</text>
+  <text x="680" y="504" text-anchor="middle" font-size="11" fill="#14532d">zvýšenie ekonomických úžitkov</text>
+  <text x="460" y="540" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0e7490">Výnosy − Náklady = Výsledok hospodárenia (zisk/strata) → vlastné imanie (431)</text>
+  <text x="460" y="562" text-anchor="middle" font-size="11.5" fill="#64748b">akruálny princíp: náklad/výnos do obdobia vecnej a časovej súvislosti (§ 3, § 5 Postupov)</text>
+</svg>

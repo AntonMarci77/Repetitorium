@@ -1,0 +1,79 @@
+<svg viewBox="0 0 920 540" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="920" height="540" fill="#ffffff"/>
+  <text x="460" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#1a2b4a">Rizikovo orientovaný postup audítora (ISA 315 → 330 → vyhodnotenie)</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="70" width="250" height="110" rx="12" fill="#e8f0fb" stroke="#2f6fb0" stroke-width="2"/>
+  <text x="165" y="98" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a4a7a">1) POROZUMENIE a RIZIKO</text>
+  <text x="165" y="120" text-anchor="middle" font-size="12" fill="#22364f">ISA 315 (revidovaný)</text>
+  <text x="165" y="140" text-anchor="middle" font-size="12" fill="#22364f">procesy predaj/inkaso,</text>
+  <text x="165" y="156" text-anchor="middle" font-size="12" fill="#22364f">nákup/úhrada + kontroly;</text>
+  <text x="165" y="172" text-anchor="middle" font-size="12" fill="#22364f">riziko podľa TVRDENÍ</text>
+
+  <!-- Step 2 -->
+  <rect x="335" y="70" width="250" height="110" rx="12" fill="#eaf6ee" stroke="#2f8a4f" stroke-width="2"/>
+  <text x="460" y="98" text-anchor="middle" font-size="15" font-weight="bold" fill="#1c5a32">2) REAKCIA</text>
+  <text x="460" y="120" text-anchor="middle" font-size="12" fill="#22364f">ISA 330</text>
+  <text x="460" y="140" text-anchor="middle" font-size="12" fill="#22364f">kontrolné testy +</text>
+  <text x="460" y="156" text-anchor="middle" font-size="12" fill="#22364f">substantívne: analytika</text>
+  <text x="460" y="172" text-anchor="middle" font-size="12" fill="#22364f">(ISA 520) + testy detailov</text>
+
+  <!-- Step 3 -->
+  <rect x="630" y="70" width="250" height="110" rx="12" fill="#fdf2e6" stroke="#c0832f" stroke-width="2"/>
+  <text x="755" y="98" text-anchor="middle" font-size="15" font-weight="bold" fill="#8a5b18">3) VYHODNOTENIE</text>
+  <text x="755" y="120" text-anchor="middle" font-size="12" fill="#3f3018">zistené nesprávnosti</text>
+  <text x="755" y="140" text-anchor="middle" font-size="12" fill="#3f3018">vs. významnosť</text>
+  <text x="755" y="156" text-anchor="middle" font-size="12" fill="#3f3018">→ dopad na VÝROK</text>
+  <text x="755" y="172" text-anchor="middle" font-size="12" fill="#3f3018">(modifikácia / nemodif.)</text>
+
+  <!-- arrows between steps -->
+  <line x1="290" y1="125" x2="333" y2="125" stroke="#7a8aa3" stroke-width="3"/>
+  <polygon points="333,125 322,119 322,131" fill="#7a8aa3"/>
+  <line x1="585" y1="125" x2="628" y2="125" stroke="#7a8aa3" stroke-width="3"/>
+  <polygon points="628,125 617,119 617,131" fill="#7a8aa3"/>
+
+  <!-- assertion mapping table -->
+  <text x="460" y="226" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a2b4a">Priradenie kľúčových postupov k tvrdeniam</text>
+
+  <!-- headers -->
+  <rect x="40" y="244" width="200" height="40" fill="#1a4a7a"/>
+  <rect x="240" y="244" width="320" height="40" fill="#1a4a7a"/>
+  <rect x="560" y="244" width="320" height="40" fill="#1a4a7a"/>
+  <text x="140" y="269" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Tvrdenie</text>
+  <text x="400" y="269" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">POHĽADÁVKY (nadhodnotenie)</text>
+  <text x="720" y="269" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">ZÁVÄZKY (podhodnotenie)</text>
+
+  <!-- row 1 existencia/uplnost -->
+  <rect x="40" y="284" width="200" height="58" fill="#eef5ff" stroke="#cdd9e8"/>
+  <rect x="240" y="284" width="320" height="58" fill="#f6faff" stroke="#cdd9e8"/>
+  <rect x="560" y="284" width="320" height="58" fill="#fdf3ef" stroke="#e8d2c8"/>
+  <text x="50" y="308" font-size="12" font-weight="bold" fill="#1a2b4a">Existencia /</text>
+  <text x="50" y="324" font-size="12" font-weight="bold" fill="#1a2b4a">Úplnosť</text>
+  <text x="250" y="308" font-size="11.5" fill="#22364f">Externé potvrdenia ISA 505</text>
+  <text x="250" y="324" font-size="11.5" fill="#22364f">(existencia); odsúhl. saldokonta</text>
+  <text x="570" y="308" font-size="11.5" fill="#3f2418">Vyhľadávanie nezaúčt. záväzkov,</text>
+  <text x="570" y="324" font-size="11.5" fill="#3f2418">test následných platieb (úplnosť)</text>
+
+  <!-- row 2 ocenenie -->
+  <rect x="40" y="342" width="200" height="58" fill="#eef5ff" stroke="#cdd9e8"/>
+  <rect x="240" y="342" width="320" height="58" fill="#f6faff" stroke="#cdd9e8"/>
+  <rect x="560" y="342" width="320" height="58" fill="#fdf3ef" stroke="#e8d2c8"/>
+  <text x="50" y="375" font-size="12" font-weight="bold" fill="#1a2b4a">Ocenenie</text>
+  <text x="250" y="366" font-size="11.5" fill="#22364f">Veková štruktúra + opravné</text>
+  <text x="250" y="382" font-size="11.5" fill="#22364f">položky (ISA 540), nás. inkaso</text>
+  <text x="570" y="366" font-size="11.5" fill="#3f2418">Dodávateľské výpisy, kontrola</text>
+  <text x="570" y="382" font-size="11.5" fill="#3f2418">faktúr/zmlúv, dohadné položky</text>
+
+  <!-- row 3 cutoff -->
+  <rect x="40" y="400" width="200" height="58" fill="#eef5ff" stroke="#cdd9e8"/>
+  <rect x="240" y="400" width="320" height="58" fill="#f6faff" stroke="#cdd9e8"/>
+  <rect x="560" y="400" width="320" height="58" fill="#fdf3ef" stroke="#e8d2c8"/>
+  <text x="50" y="433" font-size="12" font-weight="bold" fill="#1a2b4a">Cut-off</text>
+  <text x="250" y="424" font-size="11.5" fill="#22364f">Tržby: dodací list vs. dátum</text>
+  <text x="250" y="440" font-size="11.5" fill="#22364f">zaúčtovania (riziko natiahnutia)</text>
+  <text x="570" y="424" font-size="11.5" fill="#3f2418">Nákupy: prijatie plnenia vs.</text>
+  <text x="570" y="440" font-size="11.5" fill="#3f2418">zaúčtovanie (riziko posunu)</text>
+
+  <text x="460" y="492" text-anchor="middle" font-size="12.5" fill="#5a6b85">Pravidlo: každý postup priraď ku konkrétnemu tvrdeniu — to je jadro rizikovo orientovaného auditu.</text>
+  <text x="460" y="514" text-anchor="middle" font-size="12.5" fill="#8a3318" font-weight="bold">Pohľadávky test smeruje OD záznamu k tretej strane; záväzky ZVONKA dnu — hľadáme, čo chýba.</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+  <text x="380" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Metóda úplnej konsolidácie – 4 kroky</text>
+  <text x="380" y="60" text-anchor="middle" font-size="13.5" fill="#5a6b8a">Fikcia právnickej jednotky: na skupinu hľadíme ako na jeden podnik</text>
+
+  <!-- Step 1 -->
+  <rect x="60" y="86" width="640" height="86" rx="10" fill="#e8f0fb" stroke="#2f5fa8" stroke-width="2"/>
+  <circle cx="100" cy="129" r="22" fill="#2f5fa8"/>
+  <text x="100" y="137" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">1</text>
+  <text x="145" y="116" font-size="17" font-weight="bold" fill="#1a2b4a">AGREGÁCIA (súčet 100 %)</text>
+  <text x="145" y="138" font-size="12.5" fill="#42526e">Riadok po riadku sčítame aktíva, záväzky, VI, výnosy a náklady materskej a všetkých dcér</text>
+  <text x="145" y="156" font-size="12.5" fill="#42526e">v 100 % výške, bez ohľadu na podiel. Pred súčtom: jednotná politika, mena, ocenenie (RH podľa IFRS 3).</text>
+
+  <line x1="380" y1="174" x2="380" y2="190" stroke="#1a2b4a" stroke-width="2"/>
+  <polygon points="380,196 373,182 387,182" fill="#1a2b4a"/>
+
+  <!-- Step 2 -->
+  <rect x="60" y="198" width="640" height="86" rx="10" fill="#e9f6ee" stroke="#2e8b57" stroke-width="2"/>
+  <circle cx="100" cy="241" r="22" fill="#2e8b57"/>
+  <text x="100" y="249" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">2</text>
+  <text x="145" y="228" font-size="17" font-weight="bold" fill="#1a4a2b">KONSOLIDÁCIA KAPITÁLU</text>
+  <text x="145" y="250" font-size="12.5" fill="#3a5a44">Eliminujeme investíciu materskej proti podielu na VI dcéry. Rozdiel (IFRS 3):</text>
+  <text x="145" y="268" font-size="12.5" fill="#3a5a44">investícia &gt; RH čistých aktív → GOODWILL; investícia &lt; RH → ZISK Z VÝHODNEJ KÚPY.</text>
+
+  <line x1="380" y1="286" x2="380" y2="302" stroke="#1a2b4a" stroke-width="2"/>
+  <polygon points="380,308 373,294 387,294" fill="#1a2b4a"/>
+
+  <!-- Step 3 -->
+  <rect x="60" y="310" width="640" height="100" rx="10" fill="#fbf0e6" stroke="#c8741a" stroke-width="2"/>
+  <circle cx="100" cy="360" r="22" fill="#c8741a"/>
+  <text x="100" y="368" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">3</text>
+  <text x="145" y="338" font-size="17" font-weight="bold" fill="#5a3410">ELIMINÁCIA VNÚTROSKUPINOVÝCH VZŤAHOV (100 %)</text>
+  <text x="145" y="360" font-size="12.5" fill="#6a4a28">Vzájomné pohľadávky a záväzky · vnútroskupinové výnosy a náklady ·</text>
+  <text x="145" y="378" font-size="12.5" fill="#6a4a28">nerealizovaný MEDZIVÝSLEDOK v zásobách a majetku (s odloženou daňou – IAS 12).</text>
+  <text x="145" y="396" font-size="12.5" fill="#6a4a28">Vždy v úplnej výške; straty z trvalého zníženia hodnoty sa neeliminujú.</text>
+
+  <line x1="380" y1="412" x2="380" y2="428" stroke="#1a2b4a" stroke-width="2"/>
+  <polygon points="380,434 373,420 387,420" fill="#1a2b4a"/>
+
+  <!-- Step 4 -->
+  <rect x="60" y="436" width="640" height="86" rx="10" fill="#efe8fb" stroke="#6a3fb0" stroke-width="2"/>
+  <circle cx="100" cy="479" r="22" fill="#6a3fb0"/>
+  <text x="100" y="487" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">4</text>
+  <text x="145" y="466" font-size="17" font-weight="bold" fill="#3a2060">VYČLENENIE NEKONTROLUJÚCICH PODIELOV (NCI)</text>
+  <text x="145" y="488" font-size="12.5" fill="#4a3070">Cudzia časť VI a VH dcéry sa vykáže oddelene od vlastníkov materskej –</text>
+  <text x="145" y="506" font-size="12.5" fill="#4a3070">samostatne na čisté aktíva a na zisk/stratu. Voľba: RH (plný GW) / proporcia (čiastkový GW).</text>
+
+  <text x="380" y="545" text-anchor="middle" font-size="11" fill="#8a98b0">Zdroj: IFRS 10, ods. B86–B89 (nariadenie EÚ 2023/1803); ocenenie NP a goodwill – IFRS 3</text>
+</svg>

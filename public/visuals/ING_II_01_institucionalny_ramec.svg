@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 640" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="640" fill="#ffffff"/>
+  <text x="460" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Inštitucionálny a právny rámec auditu účtovnej závierky</text>
+  <text x="460" y="56" text-anchor="middle" font-size="13" fill="#64748b">od globálnych štandardov k národnému dohľadu (stav k r. 2026)</text>
+
+  <rect x="30" y="78" width="860" height="190" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="50" y="100" font-size="14" font-weight="700" fill="#1d4ed8">SVET – globálna úroveň</text>
+
+  <rect x="350" y="110" width="220" height="48" rx="10" fill="#1e3a8a"/>
+  <text x="460" y="130" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">IFAC</text>
+  <text x="460" y="148" text-anchor="middle" font-size="11" fill="#dbeafe">svetová strešná federácia profesie</text>
+
+  <line x1="430" y1="158" x2="230" y2="196" stroke="#60a5fa" stroke-width="2"/>
+  <line x1="490" y1="158" x2="690" y2="196" stroke="#60a5fa" stroke-width="2"/>
+
+  <rect x="60" y="196" width="320" height="60" rx="10" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="220" y="218" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">IAASB</text>
+  <text x="220" y="237" text-anchor="middle" font-size="11.5" fill="#1e3a8a">ISA · ISQM 1 · ISQM 2 (audit a kvalita)</text>
+
+  <rect x="540" y="196" width="320" height="60" rx="10" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="700" y="218" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">IESBA</text>
+  <text x="700" y="237" text-anchor="middle" font-size="11.5" fill="#1e3a8a">Etický kódex · normy nezávislosti</text>
+
+  <text x="460" y="262" text-anchor="middle" font-size="10.5" fill="#64748b">dohľad vo verejnom záujme: PIOB · rady pôsobia pod nadáciou IFEA</text>
+
+  <rect x="30" y="284" width="860" height="92" rx="12" fill="#fefce8" stroke="#fde68a"/>
+  <text x="50" y="306" font-size="14" font-weight="700" fill="#a16207">EÚ – nadnárodná právna úprava</text>
+  <rect x="60" y="316" width="380" height="48" rx="10" fill="#fef9c3" stroke="#eab308"/>
+  <text x="250" y="336" text-anchor="middle" font-size="13" font-weight="700" fill="#854d0e">Smernica 2006/43/ES</text>
+  <text x="250" y="354" text-anchor="middle" font-size="11" fill="#854d0e">rámec štatutárneho auditu, verejný dohľad</text>
+  <rect x="480" y="316" width="380" height="48" rx="10" fill="#fef9c3" stroke="#eab308"/>
+  <text x="670" y="336" text-anchor="middle" font-size="13" font-weight="700" fill="#854d0e">Nariadenie EÚ 537/2014</text>
+  <text x="670" y="354" text-anchor="middle" font-size="11" fill="#854d0e">subjekty verejného záujmu (rotácia, zákazy)</text>
+
+  <line x1="460" y1="376" x2="460" y2="398" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="460,404 454,392 466,392" fill="#94a3b8"/>
+
+  <rect x="30" y="408" width="860" height="200" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="50" y="430" font-size="14" font-weight="700" fill="#15803d">SLOVENSKO – národná úprava a inštitúcie</text>
+
+  <rect x="290" y="440" width="340" height="46" rx="10" fill="#166534"/>
+  <text x="460" y="460" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Zákon č. 423/2015 Z. z. o štatutárnom audite</text>
+  <text x="460" y="478" text-anchor="middle" font-size="11" fill="#dcfce7">transpozícia smernice 2006/43/ES · vykonávanie podľa ISA</text>
+
+  <line x1="380" y1="486" x2="240" y2="512" stroke="#86efac" stroke-width="2"/>
+  <line x1="540" y1="486" x2="680" y2="512" stroke="#86efac" stroke-width="2"/>
+
+  <rect x="60" y="512" width="370" height="84" rx="10" fill="#dcfce7" stroke="#22c55e"/>
+  <text x="245" y="534" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">SKAU – Slovenská komora audítorov</text>
+  <text x="245" y="554" text-anchor="middle" font-size="11.5" fill="#166534">SAMOSPRÁVA profesie (povinné členstvo)</text>
+  <text x="245" y="572" text-anchor="middle" font-size="11" fill="#166534">zoznam členov · vzdelávanie · Etický kódex</text>
+  <text x="245" y="588" text-anchor="middle" font-size="11" fill="#166534">disciplína · previerky kvality u ne-SVZ</text>
+
+  <rect x="490" y="512" width="370" height="84" rx="10" fill="#dcfce7" stroke="#22c55e"/>
+  <text x="675" y="534" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">ÚDVA – Úrad pre dohľad nad výkonom auditu</text>
+  <text x="675" y="554" text-anchor="middle" font-size="11.5" fill="#166534">VEREJNÝ DOHĽAD nad profesiou</text>
+  <text x="675" y="572" text-anchor="middle" font-size="11" fill="#166534">audítorské skúšky · register · predpisy komory</text>
+  <text x="675" y="588" text-anchor="middle" font-size="11" fill="#166534">dohľad a previerky kvality pri SVZ · sankcie</text>
+</svg>

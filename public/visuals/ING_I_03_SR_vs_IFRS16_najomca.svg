@@ -1,0 +1,56 @@
+<svg viewBox="0 0 920 560" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="920" height="560" fill="#ffffff"/>
+  <text x="460" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Prenájom DHM u NÁJOMCU: SR vs. IFRS 16</text>
+  <text x="460" y="56" text-anchor="middle" font-size="13" fill="#5a6a85">SR rozlišuje finančný a operatívny prenájom · IFRS 16 u nájomcu rozlíšenie ruší</text>
+
+  <!-- SR panel -->
+  <rect x="30" y="80" width="410" height="440" rx="12" fill="#eef4fb" stroke="#9bb8da" stroke-width="2"/>
+  <text x="235" y="108" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a4a7a">SR – právna úprava (postupy, ZDP)</text>
+
+  <!-- SR financny -->
+  <rect x="50" y="124" width="370" height="180" rx="9" fill="#ffffff" stroke="#3a78c2" stroke-width="2"/>
+  <text x="235" y="146" text-anchor="middle" font-size="14" font-weight="bold" fill="#27557f">FINANČNÝ prenájom</text>
+  <text x="64" y="170" font-size="12.5" fill="#27343f">Majetok V SÚVAHE nájomcu (ekonom. vlastník)</text>
+  <text x="64" y="192" font-size="12.5" fill="#27343f">042 / 474 (aktivácia v istine) → 022 / 042</text>
+  <text x="64" y="214" font-size="12.5" fill="#27343f">Odpisy: 551 / 082 (§ 27 / § 28, odp. skupina)</text>
+  <text x="64" y="236" font-size="12.5" fill="#27343f">Splátka = istina (474/221) + úrok (562/474)</text>
+  <text x="64" y="262" font-size="12" fill="#7a3a3a">Náklady: ODPIS + ÚROK (nie celé nájomné)</text>
+  <text x="64" y="286" font-size="11.5" fill="#5a6a85">Podmienka § 2 s): doba nájmu ≥ 60 % doby odpisovania</text>
+
+  <!-- SR operativny -->
+  <rect x="50" y="318" width="370" height="186" rx="9" fill="#ffffff" stroke="#8a8f99" stroke-width="2"/>
+  <text x="235" y="340" text-anchor="middle" font-size="14" font-weight="bold" fill="#555c66">OPERATÍVNY prenájom</text>
+  <text x="64" y="364" font-size="12.5" fill="#27343f">Majetok zostáva u PRENAJÍMATEĽA</text>
+  <text x="64" y="386" font-size="12.5" fill="#27343f">Nájomca: len nájomné 518 / 325</text>
+  <text x="64" y="408" font-size="12.5" fill="#27343f">Žiadne aktívum ani záväzok v súvahe nájomcu</text>
+  <text x="64" y="430" font-size="12" fill="#7a3a3a">Náklad: nájomné (mimo súvahy = off-balance)</text>
+  <text x="64" y="462" font-size="11.5" fill="#5a6a85">TZ na prenajatom majetku môže odpisovať nájomca</text>
+  <text x="64" y="482" font-size="11.5" fill="#5a6a85">(úhrada sám + písomný súhlas vlastníka, &gt; 1 700 €)</text>
+
+  <!-- IFRS panel -->
+  <rect x="480" y="80" width="410" height="440" rx="12" fill="#f3eefb" stroke="#b89bda" stroke-width="2"/>
+  <text x="685" y="108" text-anchor="middle" font-size="17" font-weight="bold" fill="#5a2f8a">IFRS 16 – nájomca</text>
+
+  <!-- IFRS jeden model -->
+  <rect x="500" y="124" width="370" height="200" rx="9" fill="#ffffff" stroke="#7a3ac2" stroke-width="2"/>
+  <text x="685" y="146" text-anchor="middle" font-size="14" font-weight="bold" fill="#5a2f8a">JEDEN MODEL pre takmer každý lízing</text>
+  <text x="514" y="172" font-size="12.5" fill="#27343f">Právo užívať aktívum (right-of-use, RoU)</text>
+  <text x="514" y="194" font-size="12.5" fill="#27343f">+ Záväzok z lízingu (SH splátok, diskont.)</text>
+  <text x="514" y="218" font-size="12.5" fill="#27343f">RoU / Záväzok z lízingu (prvotné vykázanie)</text>
+  <text x="514" y="240" font-size="12.5" fill="#27343f">RoU sa odpisuje (doba lízingu / životnosť)</text>
+  <text x="514" y="262" font-size="12.5" fill="#27343f">Záväzok sa úročí (úrok do nákladov)</text>
+  <text x="514" y="288" font-size="12" fill="#7a3a3a">Náklady: ODPIS RoU + ÚROK</text>
+  <text x="514" y="310" font-size="11.5" fill="#5a6a85">Mizne pojem operatívny vs. finančný u nájomcu</text>
+
+  <!-- IFRS vynimky -->
+  <rect x="500" y="338" width="370" height="166" rx="9" fill="#fff6e8" stroke="#d8a23a" stroke-width="2"/>
+  <text x="685" y="360" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a5a1a">2 VÝNIMKY (voliteľné)</text>
+  <text x="514" y="384" font-size="12.5" fill="#27343f">1) Krátkodobý lízing ≤ 12 mesiacov</text>
+  <text x="528" y="404" font-size="11.5" fill="#5a6a85">(bez kúpnej opcie; voľba za celú triedu)</text>
+  <text x="514" y="426" font-size="12.5" fill="#27343f">2) Lízing s NÍZKOU hodnotou aktíva</text>
+  <text x="528" y="446" font-size="11.5" fill="#5a6a85">(hodnota nového aktíva; ~5 000 USD orientačne)</text>
+  <text x="514" y="472" font-size="12" fill="#7a3a3a">→ splátka rovno do nákladov (ako op. nájom)</text>
+  <text x="514" y="492" font-size="11.5" fill="#5a6a85">U PRENAJÍMATEĽA rozlíšenie fin./op. ZOSTÁVA</text>
+
+  <text x="460" y="544" text-anchor="middle" font-size="12" fill="#8a3a3a" font-weight="bold">Asymetria: nájomca IFRS = jeden svet (RoU) · prenajímateľ IFRS = dva svety (fin./op.)</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="560" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Metódy zostavovania prevádzkových rozpočtov</text>
+  <text x="450" y="56" text-anchor="middle" font-size="13" fill="#5a6b85">Tri prístupy: odkiaľ rozpočet vychádza, jeho výhody a nevýhody</text>
+
+  <!-- column 1: inkrementalne -->
+  <rect x="24" y="78" width="278" height="430" rx="10" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <rect x="24" y="78" width="278" height="56" rx="10" fill="#2f6db0"/>
+  <text x="163" y="104" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">INKREMENTÁLNE</text>
+  <text x="163" y="124" text-anchor="middle" font-size="12" fill="#dceaf8">minulosť + index</text>
+
+  <text x="40" y="160" font-size="12.5" font-weight="bold" fill="#234e85">Východisko</text>
+  <text x="40" y="180" font-size="12" fill="#33475f">Minuloročný rozpočet</text>
+  <text x="40" y="198" font-size="12" fill="#33475f">upravený o index (inflácia,</text>
+  <text x="40" y="216" font-size="12" fill="#33475f">aktivita), príp. variátory.</text>
+  <text x="40" y="240" font-size="12.5" fill="#7a8aa3">Príklad: 100 000 × 1,03</text>
+  <text x="40" y="258" font-size="12.5" font-weight="bold" fill="#234e85">= 103 000 €</text>
+
+  <text x="40" y="292" font-size="12.5" font-weight="bold" fill="#1f6b41">+ Výhody</text>
+  <text x="40" y="312" font-size="11.5" fill="#2e6b48">stabilita, jednoduchosť,</text>
+  <text x="40" y="329" font-size="11.5" fill="#2e6b48">nízka prácnosť</text>
+
+  <text x="40" y="364" font-size="12.5" font-weight="bold" fill="#b3261e">− Nevýhody</text>
+  <text x="40" y="384" font-size="11.5" fill="#9c3a2f">konzervuje neefektívnosť</text>
+  <text x="40" y="401" font-size="11.5" fill="#9c3a2f">z minulosti; tlak „minúť</text>
+  <text x="40" y="418" font-size="11.5" fill="#9c3a2f">za každú cenu";</text>
+  <text x="40" y="435" font-size="11.5" fill="#9c3a2f">ignoruje zmeny predpokladov</text>
+  <rect x="40" y="456" width="246" height="40" rx="6" fill="#dce7f5"/>
+  <text x="163" y="481" text-anchor="middle" font-size="11.5" fill="#234e85">Bežné, rýchle – pre stabilné útvary</text>
+
+  <!-- column 2: ZBB -->
+  <rect x="311" y="78" width="278" height="430" rx="10" fill="#fdf3ec" stroke="#c87f2a" stroke-width="2"/>
+  <rect x="311" y="78" width="278" height="56" rx="10" fill="#c87f2a"/>
+  <text x="450" y="104" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">ZBB (nulový základ)</text>
+  <text x="450" y="124" text-anchor="middle" font-size="12" fill="#f6e2ce">od nuly s odôvodnením</text>
+
+  <text x="327" y="160" font-size="12.5" font-weight="bold" fill="#9c5e16">Východisko</text>
+  <text x="327" y="180" font-size="12" fill="#33475f">Každá položka sa zdôvodní</text>
+  <text x="327" y="198" font-size="12" fill="#33475f">od nuly (akoby útvar vznikal</text>
+  <text x="327" y="216" font-size="12" fill="#33475f">nanovo) + priority.</text>
+  <text x="327" y="240" font-size="12" fill="#7a8aa3">Minimum na „prežitie" +</text>
+  <text x="327" y="258" font-size="12" fill="#7a8aa3">scenáre pri vyššej aktivite.</text>
+
+  <text x="327" y="292" font-size="12.5" font-weight="bold" fill="#1f6b41">+ Výhody</text>
+  <text x="327" y="312" font-size="11.5" fill="#2e6b48">odhalí neefektívne/duplicitné</text>
+  <text x="327" y="329" font-size="11.5" fill="#2e6b48">činnosti; zastaví automatické</text>
+  <text x="327" y="346" font-size="11.5" fill="#2e6b48">čerpanie</text>
+
+  <text x="327" y="380" font-size="12.5" font-weight="bold" fill="#b3261e">− Nevýhody</text>
+  <text x="327" y="400" font-size="11.5" fill="#9c3a2f">veľmi prácne; strata</text>
+  <text x="327" y="417" font-size="11.5" fill="#9c3a2f">nadväznosti na aktuálny stav;</text>
+  <text x="327" y="434" font-size="11.5" fill="#9c3a2f">veľa informácií</text>
+  <rect x="327" y="456" width="246" height="40" rx="6" fill="#f6e2ce"/>
+  <text x="450" y="481" text-anchor="middle" font-size="11.5" fill="#9c5e16">Periodicky – pre režijné útvary</text>
+
+  <!-- column 3: ABB -->
+  <rect x="598" y="78" width="278" height="430" rx="10" fill="#edf6ef" stroke="#2e8b57" stroke-width="2"/>
+  <rect x="598" y="78" width="278" height="56" rx="10" fill="#2e8b57"/>
+  <text x="737" y="104" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">ABB (čiastkové činnosti)</text>
+  <text x="737" y="124" text-anchor="middle" font-size="12" fill="#d5ecdd">cez náklady aktivít</text>
+
+  <text x="614" y="160" font-size="12.5" font-weight="bold" fill="#1f6b41">Východisko</text>
+  <text x="614" y="180" font-size="12" fill="#33475f">Náklady jednotlivých činností</text>
+  <text x="614" y="198" font-size="12" fill="#33475f">(aktivít) × predpokladaný</text>
+  <text x="614" y="216" font-size="12" fill="#33475f">objem výkonov.</text>
+  <text x="614" y="240" font-size="12" fill="#7a8aa3">Nadväzuje na kalkuláciu ABC</text>
+  <text x="614" y="258" font-size="12" fill="#7a8aa3">(nositeľ nákladov = cost driver).</text>
+
+  <text x="614" y="292" font-size="12.5" font-weight="bold" fill="#1f6b41">+ Výhody</text>
+  <text x="614" y="312" font-size="11.5" fill="#2e6b48">presné rozpočtovanie réžií pri</text>
+  <text x="614" y="329" font-size="11.5" fill="#2e6b48">rôznorodej produkcii; príčinná</text>
+  <text x="614" y="346" font-size="11.5" fill="#2e6b48">logika</text>
+
+  <text x="614" y="380" font-size="12.5" font-weight="bold" fill="#b3261e">− Nevýhody</text>
+  <text x="614" y="400" font-size="11.5" fill="#9c3a2f">náročné na dáta o nositeľoch</text>
+  <text x="614" y="417" font-size="11.5" fill="#9c3a2f">nákladov a na údržbu modelu</text>
+  <rect x="614" y="456" width="246" height="40" rx="6" fill="#d5ecdd"/>
+  <text x="737" y="481" text-anchor="middle" font-size="11.5" fill="#1f6b41">Pri vysokých réžiách a rôznorodosti</text>
+
+  <text x="450" y="532" text-anchor="middle" font-size="12.5" fill="#5a6b85">Rozpočet = plán na celý útvar/obdobie · Kalkulácia = na 1 kalkulačnú jednotku · Kontrola: flexibilný rozpočet na skutočný objem</text>
+</svg>

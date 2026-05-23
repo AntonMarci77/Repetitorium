@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="900" height="640" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Precenenie cenných papierov ku dňu závierky (§ 27)</text>
+  <text x="450" y="56" text-anchor="middle" font-size="13" fill="#64748b">Rozhodovací strom – preceňovať reálnou hodnotou? a kam ide zmena?</text>
+
+  <!-- Q1 -->
+  <rect x="300" y="80" width="300" height="64" rx="12" fill="#1f2937"/>
+  <text x="450" y="106" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Ide o CP držaný do splatnosti,</text>
+  <text x="450" y="126" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">vlastný CP, alebo podiel v dcére/podst. vplyv?</text>
+
+  <!-- branch ANO (no revaluation) -->
+  <line x1="300" y1="112" x2="150" y2="180" stroke="#94a3b8" stroke-width="2"/>
+  <text x="200" y="160" font-size="13" font-weight="700" fill="#b91c1c">ÁNO</text>
+  <rect x="24" y="180" width="252" height="150" rx="12" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="150" y="206" text-anchor="middle" font-size="14" font-weight="700" fill="#b91c1c">NEpreceňuje sa reálnou h.</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="40" y="232">• CP do splatnosti → amortizovaná</text>
+    <text x="52" y="248">obstarávacia cena (úrok cez 66)</text>
+    <text x="40" y="270">• vlastné akcie / dlhopisy</text>
+    <text x="40" y="292">• podiel v dcére (061) / s podst.</text>
+    <text x="52" y="308">vplyvom (062): obst. cena alebo</text>
+    <text x="52" y="324">metóda vlastného imania → 414</text>
+  </g>
+
+  <!-- branch NIE (revaluation) -->
+  <line x1="600" y1="112" x2="700" y2="180" stroke="#94a3b8" stroke-width="2"/>
+  <text x="660" y="160" font-size="13" font-weight="700" fill="#15803d">NIE</text>
+  <rect x="560" y="180" width="316" height="64" rx="12" fill="#0e7490"/>
+  <text x="718" y="206" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Preceňuje sa REÁLNOU HODNOTOU</text>
+  <text x="718" y="226" text-anchor="middle" font-size="12" fill="#cffafe">(§ 27 ods. 1 písm. a) – kam ide zmena?)</text>
+
+  <!-- Q2: kam ide zmena -->
+  <line x1="650" y1="244" x2="430" y2="300" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="780" y1="244" x2="730" y2="300" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- via vysledok -->
+  <rect x="180" y="300" width="320" height="150" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="340" y="326" text-anchor="middle" font-size="14" font-weight="700" fill="#c2410c">CP na obchodovanie → cez VÝSLEDOK</text>
+  <g font-size="12.5" fill="#0f172a">
+    <text x="198" y="354">• majetkové CP (251):</text>
+    <text x="214" y="374">nárast 251/664, pokles 564/251</text>
+    <text x="198" y="400">• dlhové CP (253, kupónové):</text>
+    <text x="214" y="420">nárast 253/666, pokles 566/253</text>
+    <text x="198" y="442" font-style="italic" fill="#475569">→ ovplyvní zisk hneď</text>
+  </g>
+
+  <!-- via vlastne imanie -->
+  <rect x="540" y="300" width="336" height="150" rx="12" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="708" y="326" text-anchor="middle" font-size="14" font-weight="700" fill="#4338ca">Realizovateľné CP → cez VI (414)</text>
+  <g font-size="12.5" fill="#0f172a">
+    <text x="558" y="354">• realizovateľné CP a podiely</text>
+    <text x="570" y="374">(063, 257): zmena ↔ účet 414</text>
+    <text x="558" y="400">• metóda vlastného imania</text>
+    <text x="570" y="420">(061, 062): zmena ↔ účet 414</text>
+    <text x="558" y="442" font-style="italic" fill="#475569">→ zisk neovplyvní; do výsledku pri predaji</text>
+  </g>
+
+  <!-- note micro -->
+  <rect x="24" y="478" width="852" height="58" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="40" y="502" font-size="13" font-weight="700" fill="#0f172a">Výnimka (§ 27 ods. 11):</text>
+  <text x="40" y="522" font-size="12.5" fill="#0f172a">Mikro účtovná jednotka, neziskové organizácie a jednoduché účtovníctvo NEpreceňujú reálnou hodnotou ani metódou vlastného imania – oceňujú obstarávacou cenou.</text>
+
+  <!-- note krypto -->
+  <rect x="24" y="548" width="852" height="64" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="40" y="572" font-size="13" font-weight="700" fill="#15803d">Moderné platobné prostriedky (od 2025):</text>
+  <text x="40" y="592" font-size="12.5" fill="#0f172a">Tokeny elektronických peňazí (222) = peniaze, menovitá hodnota, bez precenenia. Ostatné kryptoaktíva (258) = krátkodobý FM,</text>
+  <text x="40" y="608" font-size="12.5" fill="#0f172a">reálna hodnota pri obstaraní, počas držby sa nepreceňujú.</text>
+</svg>

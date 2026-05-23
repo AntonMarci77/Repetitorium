@@ -1,0 +1,76 @@
+<svg viewBox="0 0 780 500" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="780" height="500" fill="#ffffff"/>
+  <text x="390" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Reťaz auditu: významnosť → riziko → dôkazy → dokumentácia</text>
+
+  <!-- Box 1 Vyznamnost -->
+  <rect x="30" y="60" width="170" height="80" rx="8" fill="#1f4e79"/>
+  <text x="115" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">VÝZNAMNOSŤ</text>
+  <text x="115" y="112" text-anchor="middle" font-size="11.5" fill="#dce6f1">ISA 320 – čo je dosť</text>
+  <text x="115" y="128" text-anchor="middle" font-size="11.5" fill="#dce6f1">veľké, aby záležalo</text>
+
+  <!-- Box 2 Riziko -->
+  <rect x="305" y="60" width="170" height="80" rx="8" fill="#c0504d"/>
+  <text x="390" y="88" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">RIZIKO AUDITU</text>
+  <text x="390" y="108" text-anchor="middle" font-size="11" fill="#fde3e2">inherentné × kontrolné</text>
+  <text x="390" y="124" text-anchor="middle" font-size="11" fill="#fde3e2">× zisťovacie</text>
+
+  <!-- Box 3 Dokazy -->
+  <rect x="580" y="60" width="170" height="80" rx="8" fill="#2e7d4f"/>
+  <text x="665" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">DÔKAZY</text>
+  <text x="665" y="112" text-anchor="middle" font-size="11.5" fill="#dff2e6">ISA 500 – dostatočné</text>
+  <text x="665" y="128" text-anchor="middle" font-size="11.5" fill="#dff2e6">+ vhodné (k tvrdeniam)</text>
+
+  <!-- arrows top row -->
+  <line x1="200" y1="100" x2="300" y2="100" stroke="#444" stroke-width="2.5"/>
+  <polygon points="300,100 290,95 290,105" fill="#444"/>
+  <line x1="475" y1="100" x2="575" y2="100" stroke="#444" stroke-width="2.5"/>
+  <polygon points="575,100 565,95 565,105" fill="#444"/>
+
+  <!-- inverse relationship label between vyznamnost and riziko -->
+  <text x="250" y="56" text-anchor="middle" font-size="11" font-weight="700" fill="#8a5a13">nepriamy vzťah</text>
+  <!-- direct relationship riziko->dokazy/vzorka -->
+  <text x="525" y="56" text-anchor="middle" font-size="11" font-weight="700" fill="#2e7d4f">priamy vzťah</text>
+
+  <!-- Dokumentacia box (bottom, full width) -->
+  <rect x="30" y="420" width="720" height="58" rx="8" fill="#5b4b8a"/>
+  <text x="390" y="446" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">DOKUMENTÁCIA (ISA 230) – test skúseného audítora; spis zostavený ≈ do 60 dní</text>
+  <text x="390" y="466" text-anchor="middle" font-size="11.5" fill="#e3dcf2">záznam o povahe, načasovaní a rozsahu postupov, dôkazoch a záveroch</text>
+
+  <!-- arrows down to dokumentacia -->
+  <line x1="115" y1="140" x2="115" y2="412" stroke="#5b4b8a" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="390" y1="140" x2="390" y2="412" stroke="#5b4b8a" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="665" y1="350" x2="665" y2="412" stroke="#5b4b8a" stroke-width="2" stroke-dasharray="5,4"/>
+  <polygon points="390,412 385,402 395,402" fill="#5b4b8a"/>
+
+  <!-- Evidence-gathering procedures under DOKAZY -->
+  <rect x="510" y="170" width="240" height="180" rx="8" fill="#eaf3ee" stroke="#2e7d4f"/>
+  <text x="630" y="192" text-anchor="middle" font-size="13" font-weight="700" fill="#1e5235">Získavanie dôkazov</text>
+  <text x="525" y="216" font-size="11.5" fill="#234a35">• substantívne testy (detaily)</text>
+  <text x="525" y="238" font-size="11.5" fill="#234a35">• analytické postupy – ISA 520</text>
+  <text x="525" y="260" font-size="11.5" fill="#234a35">• externé potvrdenia – ISA 505</text>
+  <text x="525" y="282" font-size="11.5" fill="#234a35">• začiatočné stavy – ISA 510</text>
+  <text x="525" y="304" font-size="11.5" fill="#234a35">• výber vzorky – ISA 530</text>
+  <text x="525" y="326" font-size="11.5" fill="#234a35">• inšpekcia, prepočet, dopyt</text>
+
+  <!-- Sample size box under RIZIKO -->
+  <rect x="290" y="170" width="200" height="180" rx="8" fill="#fbeceb" stroke="#c0504d"/>
+  <text x="390" y="192" text-anchor="middle" font-size="13" font-weight="700" fill="#7a302e">Veľkosť vzorky (ISA 530)</text>
+  <text x="302" y="216" font-size="11.5" fill="#5a201f">vyššie riziko →</text>
+  <text x="302" y="234" font-size="11.5" fill="#5a201f">VÄČŠIA vzorka</text>
+  <text x="302" y="258" font-size="11.5" fill="#5a201f">riziko vzorky:</text>
+  <text x="312" y="276" font-size="11" fill="#5a201f">– pri subst. testoch</text>
+  <text x="312" y="292" font-size="11" fill="#5a201f">– pri testoch kontrol</text>
+  <text x="302" y="316" font-size="11" fill="#5a201f">α (zamietnutie) /</text>
+  <text x="302" y="332" font-size="11" fill="#5a201f">β (prijatie – horšie)</text>
+
+  <!-- Materiality detail under VYZNAMNOST -->
+  <rect x="30" y="170" width="200" height="180" rx="8" fill="#e8eef5" stroke="#1f4e79"/>
+  <text x="130" y="192" text-anchor="middle" font-size="13" font-weight="700" fill="#163a5c">Úrovne + základne</text>
+  <text x="42" y="216" font-size="11.5" fill="#1d3550">celková (5–10% zisk;</text>
+  <text x="42" y="232" font-size="11.5" fill="#1d3550">0,5–2% výnosy; 1–2% aktíva)</text>
+  <text x="42" y="256" font-size="11.5" fill="#1d3550">výkonová (50–75%)</text>
+  <text x="42" y="280" font-size="11.5" fill="#1d3550">prah triviálnosti</text>
+  <text x="42" y="306" font-size="11.5" fill="#1d3550">ISA 450: súhrn</text>
+  <text x="42" y="322" font-size="11.5" fill="#1d3550">nesprávností vs.</text>
+  <text x="42" y="338" font-size="11.5" fill="#1d3550">významnosť → názor</text>
+</svg>

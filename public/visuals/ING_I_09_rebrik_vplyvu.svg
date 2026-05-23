@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="880" height="560" fill="#ffffff"/>
+  <text x="440" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Rebrík vplyvu → účtovná metóda (IFRS 10 / IFRS 11 / IAS 28)</text>
+
+  <!-- Level 1: Control -->
+  <rect x="40" y="70" width="800" height="100" rx="10" fill="#e8f0fe" stroke="#3367d6" stroke-width="2"/>
+  <text x="60" y="100" font-size="18" font-weight="bold" fill="#1a2b4a">1. KONTROLA (rozhodujúci vplyv)</text>
+  <text x="60" y="124" font-size="14" fill="#333">spravidla &gt; 50 % hlasov · IFRS 10</text>
+  <text x="60" y="148" font-size="14" fill="#333">Dcérsky podnik (subsidiary)</text>
+  <rect x="540" y="92" width="280" height="60" rx="8" fill="#3367d6"/>
+  <text x="680" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">ÚPLNÁ KONSOLIDÁCIA</text>
+  <text x="680" y="140" text-anchor="middle" font-size="12" fill="#dce6fb">100 % aktív, záväzkov, V, N + NP</text>
+
+  <!-- Level 2: Joint control -->
+  <rect x="40" y="186" width="800" height="186" rx="10" fill="#fef3e0" stroke="#e8820c" stroke-width="2"/>
+  <text x="60" y="216" font-size="18" font-weight="bold" fill="#7a4a05">2. SPOLOČNÁ KONTROLA (spoluovládanie)</text>
+  <text x="60" y="240" font-size="14" fill="#333">zmluvne dohodnuté · jednomyseľný súhlas strán · IFRS 11</text>
+  <text x="60" y="264" font-size="13" font-style="italic" fill="#7a4a05">Otázka: na ČO majú strany právo?</text>
+
+  <rect x="58" y="280" width="370" height="78" rx="8" fill="#ffffff" stroke="#e8820c" stroke-width="1.5"/>
+  <text x="74" y="304" font-size="14" font-weight="bold" fill="#7a4a05">Spoločná prevádzka (joint operation)</text>
+  <text x="74" y="324" font-size="12" fill="#333">právo na aktíva + povinnosti za záväzky</text>
+  <text x="74" y="346" font-size="12" font-weight="bold" fill="#b35900">→ POMERNÉ vykázanie A / Z / V / N</text>
+
+  <rect x="452" y="280" width="370" height="78" rx="8" fill="#ffffff" stroke="#e8820c" stroke-width="1.5"/>
+  <text x="468" y="304" font-size="14" font-weight="bold" fill="#7a4a05">Spoločný podnik (joint venture)</text>
+  <text x="468" y="324" font-size="12" fill="#333">právo len na ČISTÉ AKTÍVA</text>
+  <text x="468" y="346" font-size="12" font-weight="bold" fill="#b35900">→ METÓDA VLASTNÉHO IMANIA (IAS 28)</text>
+
+  <!-- Level 3: Significant influence -->
+  <rect x="40" y="388" width="800" height="100" rx="10" fill="#e6f4ea" stroke="#1e8e3e" stroke-width="2"/>
+  <text x="60" y="418" font-size="18" font-weight="bold" fill="#0d5223">3. PODSTATNÝ VPLYV</text>
+  <text x="60" y="442" font-size="14" fill="#333">spravidla 20–50 % hlasov (vyvrátiteľná domnienka) · IAS 28</text>
+  <text x="60" y="466" font-size="14" fill="#333">Pridružený podnik (associate)</text>
+  <rect x="540" y="410" width="280" height="60" rx="8" fill="#1e8e3e"/>
+  <text x="680" y="436" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">METÓDA VLAST. IMANIA</text>
+  <text x="680" y="458" text-anchor="middle" font-size="12" fill="#d6ecdd">jedna preceňovaná položka investície</text>
+
+  <text x="440" y="520" text-anchor="middle" font-size="13" fill="#555">Pod 20 % a bez podstatného vplyvu → bežná finančná investícia (IFRS 9)</text>
+  <text x="440" y="544" text-anchor="middle" font-size="12" fill="#888">Spoločný podnik aj pridružený podnik sa do KÚZ zahŕňajú rovnako – metódou vlastného imania.</text>
+</svg>

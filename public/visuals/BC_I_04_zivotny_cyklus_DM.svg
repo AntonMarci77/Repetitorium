@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="960" height="620" fill="#ffffff"/>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Životný cyklus dlhodobého majetku v účtovníctve</text>
+  <text x="480" y="58" text-anchor="middle" font-size="13" fill="#64748b">DHM/DNM · od obstarania po vyradenie · zákon 431/2002 (§ 25–26) + Postupy účtovania</text>
+
+  <!-- Phase 1: Obstaranie -->
+  <rect x="30" y="90" width="210" height="120" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="135" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#1d4ed8">1 · OBSTARANIE</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="46" y="140">Kalkulačný účet 042 (DHM)</text>
+    <text x="46" y="158">resp. 041 (DNM)</text>
+    <text x="46" y="180" font-weight="600">042 / 321</text>
+    <text x="120" y="180">cena + doprava</text>
+    <text x="46" y="198" font-weight="600">343 / 321</text>
+    <text x="120" y="198">odpočet DPH</text>
+  </g>
+
+  <!-- Phase 2: Zaradenie -->
+  <rect x="270" y="90" width="210" height="120" rx="12" fill="#ecfeff" stroke="#a5f3fc"/>
+  <text x="375" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#0e7490">2 · ZARADENIE</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="286" y="140">do užívania v OC</text>
+    <text x="286" y="162" font-weight="600">022 / 042</text>
+    <text x="360" y="162">hnuteľná vec</text>
+    <text x="286" y="182" font-weight="600">021 / 042</text>
+    <text x="360" y="182">stavba</text>
+    <text x="286" y="200" font-weight="600">013 / 041</text>
+    <text x="360" y="200">softvér</text>
+  </g>
+
+  <!-- Phase 3: Uzivanie -->
+  <rect x="510" y="90" width="420" height="120" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="720" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#15803d">3 · UŽÍVANIE</text>
+  <g font-size="12" fill="#0f172a">
+    <text x="526" y="140" font-weight="600">Odpisy (trvalé opotrebenie)</text>
+    <text x="526" y="160" font-weight="600">551 / 082</text>
+    <text x="600" y="160">účtovný odpis → oprávky</text>
+    <text x="526" y="184" font-weight="600">Opravná položka (dočasné zníženie)</text>
+    <text x="526" y="204" font-weight="600">553 / 092</text>
+    <text x="600" y="204">tvorba · zrušenie 092 / 553</text>
+  </g>
+
+  <!-- arrows row 1 -->
+  <line x1="240" y1="150" x2="268" y2="150" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="270,150 260,145 260,155" fill="#94a3b8"/>
+  <line x1="480" y1="150" x2="508" y2="150" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="510,150 500,145 500,155" fill="#94a3b8"/>
+
+  <!-- down arrow to phase 4 -->
+  <line x1="720" y1="210" x2="720" y2="250" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="720,256 714,244 726,244" fill="#94a3b8"/>
+
+  <!-- Phase 4: Vyradenie -->
+  <rect x="120" y="258" width="720" height="180" rx="12" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="480" y="284" text-anchor="middle" font-size="15" font-weight="700" fill="#b91c1c">4 · VYRADENIE — zostatková cena podľa dôvodu</text>
+  <text x="480" y="304" text-anchor="middle" font-size="12" fill="#7f1d1d">najprv zrušiť OP a doúčtovať odpis · potom vyradiť oprávky (08x/02x) a zostatkovú cenu</text>
+
+  <g font-size="12.5" fill="#0f172a">
+    <rect x="145" y="320" width="160" height="48" rx="8" fill="#ffffff" stroke="#fecaca"/>
+    <text x="225" y="340" text-anchor="middle" font-weight="700" fill="#b91c1c">PREDAJ</text>
+    <text x="225" y="358" text-anchor="middle" font-weight="600">541 / 022</text>
+
+    <rect x="325" y="320" width="160" height="48" rx="8" fill="#ffffff" stroke="#fecaca"/>
+    <text x="405" y="340" text-anchor="middle" font-weight="700" fill="#b91c1c">LIKVIDÁCIA</text>
+    <text x="405" y="358" text-anchor="middle" font-weight="600">551 / 022</text>
+
+    <rect x="505" y="320" width="160" height="48" rx="8" fill="#ffffff" stroke="#fecaca"/>
+    <text x="585" y="340" text-anchor="middle" font-weight="700" fill="#b91c1c">DAROVANIE</text>
+    <text x="585" y="358" text-anchor="middle" font-weight="600">543 / 022</text>
+
+    <rect x="685" y="320" width="135" height="48" rx="8" fill="#ffffff" stroke="#fecaca"/>
+    <text x="752" y="340" text-anchor="middle" font-weight="700" fill="#b91c1c">ŠKODA / MANKO</text>
+    <text x="752" y="358" text-anchor="middle" font-weight="600">549 / 022</text>
+  </g>
+  <text x="480" y="396" text-anchor="middle" font-size="12" fill="#0f172a">Vyradenie oprávok: <tspan font-weight="700">082 / 022</tspan>  ·  pri predaji výnos: <tspan font-weight="700">311 / 641</tspan></text>
+  <text x="480" y="418" text-anchor="middle" font-size="11.5" fill="#64748b">Plne odpísaný majetok: jednoduchý zápis 082 / 022 (zostatková cena = 0)</text>
+
+  <!-- legenda principy -->
+  <rect x="30" y="462" width="900" height="130" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="48" y="486" font-size="14" font-weight="700" fill="#0f172a">Princíp na zapamätanie</text>
+  <g font-size="12.5" fill="#334155">
+    <text x="48" y="510">• OCENENIE pri vstupe: kúpa → obstarávacia cena (cena + vedľajšie náklady) · vlastná výroba → vlastné náklady (§ 25)</text>
+    <text x="48" y="532">• ODPIS = trvalé opotrebenie (nepriamo cez oprávky 08x/07x) ≠ OPRAVNÁ POLOŽKA = dočasné zníženie (09x, zruší sa)</text>
+    <text x="48" y="554">• Účtovné odpisy (551, odpisový plán ÚJ) ≠ daňové odpisy (skupiny 0–6 podľa ZDP) — v účtovníctve len účtovné</text>
+    <text x="48" y="576">• Vyradenie = dvojkrok: zruš OP a doúčtuj odpis → vyraď oprávky a zostatkovú cenu na 541/551/543/549</text>
+  </g>
+</svg>

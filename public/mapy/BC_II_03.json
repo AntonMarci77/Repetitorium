@@ -1,0 +1,127 @@
+{
+  "id": "BC-II-3",
+  "subor": "BC_II_03.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "II",
+  "cislo": 3,
+  "nazov": "Finančná analýza individuálnej účtovnej závierky",
+  "koren": {
+    "nazov": "Finančná analýza individuálnej účtovnej závierky",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Účtovná závierka je len SUROVINA; finančná analýza ju mení na DIAGNÓZU. Najprv si treba uvedomiť rozdiel medzi dvoma výkazmi: súvaha je 'fotka' k jednému dňu (stavová veličina – čo podnik vlastní a z čoho to financuje),…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Charakteristika a používatelia FA"
+          },
+          {
+            "nazov": "Vstupné a výstupné údaje"
+          },
+          {
+            "nazov": "Metódy FA: horizontálna analýza"
+          },
+          {
+            "nazov": "Metódy FA: vertikálna analýza"
+          },
+          {
+            "nazov": "Metódy FA: pomerová a sústavová analýza"
+          },
+          {
+            "nazov": "Analýza finančnej situácie z absolútnych ukazovateľov súvahy"
+          },
+          {
+            "nazov": "Analýza VH, nákladov a výnosov z absolútnych ukazovateľov výsledovky"
+          },
+          {
+            "nazov": "Ukazovatele nákladovosti, účinnosti a viazanosti"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "finančná analýza (FA)"
+          },
+          {
+            "nazov": "vstupné a výstupné údaje"
+          },
+          {
+            "nazov": "súvaha (stavová veličina)"
+          },
+          {
+            "nazov": "výkaz ziskov a strát (toková veličina)"
+          },
+          {
+            "nazov": "horizontálna analýza (vývoj v čase)"
+          },
+          {
+            "nazov": "vertikálna analýza (štruktúra)"
+          },
+          {
+            "nazov": "pomerová analýza"
+          },
+          {
+            "nazov": "absolútne ukazovatele"
+          },
+          {
+            "nazov": "majetková a finančná štruktúra"
+          },
+          {
+            "nazov": "čistý pracovný kapitál (ČPK)"
+          },
+          {
+            "nazov": "výsledok hospodárenia (stupne VH, EBIT, EBITDA)"
+          },
+          {
+            "nazov": "nákladovosť (náklady / výnosy)"
+          },
+          {
+            "nazov": "účinnosť (výnosy / náklady)"
+          },
+          {
+            "nazov": "viazanosť aktív (aktíva / tržby)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať horizontálnu (vývoj v čase) a vertikálnu (štruktúra) analýzu – horizontálna = riadky za roky, vertikálna = % z…"
+          },
+          {
+            "nazov": "Zameniť nákladovosť (náklady/výnosy) a účinnosť (výnosy/náklady) – sú navzájom prevrátené hodnoty, opačný žiaduci smer."
+          },
+          {
+            "nazov": "Pliesť si viazanosť aktív (aktíva/tržby, čím nižšie tým lepšie) s obratom aktív (tržby/aktíva, čím vyššie tým lepšie) –…"
+          },
+          {
+            "nazov": "Interpretovať jedno číslo bez porovnania – ukazovateľ má zmysel až v čase, s plánom, s odvetvím alebo s odporúčanou…"
+          },
+          {
+            "nazov": "Pri ukazovateľoch kombinujúcich súvahu a výsledovku brať len koncový (a nie priemerný) stav súvahovej položky –…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Charakteristika a používatelia FA",
+    "Vstupné a výstupné údaje",
+    "Metódy FA: horizontálna analýza",
+    "Metódy FA: vertikálna analýza",
+    "Metódy FA: pomerová a sústavová analýza",
+    "Analýza finančnej situácie z absolútnych ukazovateľov súvahy",
+    "Analýza VH, nákladov a výnosov z absolútnych ukazovateľov výsledovky",
+    "Ukazovatele nákladovosti, účinnosti a viazanosti"
+  ]
+}

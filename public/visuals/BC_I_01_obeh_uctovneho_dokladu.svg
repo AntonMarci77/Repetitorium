@@ -1,0 +1,65 @@
+<svg viewBox="0 0 820 470" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="820" height="470" fill="#ffffff"/>
+  <text x="410" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Obeh účtovného dokladu</text>
+  <text x="410" y="56" text-anchor="middle" font-size="13" fill="#5a6b85">od vzniku skutočnosti po uchovanie (zákon 431/2002, postupy účtovania)</text>
+
+  <defs>
+    <marker id="a2" markerWidth="11" markerHeight="11" refX="6" refY="5.5" orient="auto">
+      <path d="M0,0 L11,5.5 L0,11 Z" fill="#3b6fd6"/>
+    </marker>
+  </defs>
+
+  <!-- Step boxes (top row) -->
+  <rect x="30" y="92" width="170" height="92" rx="10" fill="#e8f0fe" stroke="#3b6fd6" stroke-width="2"/>
+  <text x="115" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3a78">1. Vyhotovenie /</text>
+  <text x="115" y="137" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3a78">prijatie</text>
+  <text x="115" y="160" text-anchor="middle" font-size="11.5" fill="#23375c">bez zbytočného odkladu</text>
+  <text x="115" y="176" text-anchor="middle" font-size="11.5" fill="#23375c">(§ 10 ods. 2)</text>
+
+  <rect x="240" y="92" width="170" height="92" rx="10" fill="#e8f0fe" stroke="#3b6fd6" stroke-width="2"/>
+  <text x="325" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3a78">2. Preskúmanie</text>
+  <text x="325" y="141" text-anchor="middle" font-size="11.5" fill="#23375c">vecná správnosť</text>
+  <text x="325" y="158" text-anchor="middle" font-size="11.5" fill="#23375c">formálna správnosť</text>
+  <text x="325" y="175" text-anchor="middle" font-size="11.5" fill="#23375c">(náležitosti § 10)</text>
+
+  <rect x="450" y="92" width="170" height="92" rx="10" fill="#e8f0fe" stroke="#3b6fd6" stroke-width="2"/>
+  <text x="535" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3a78">3. Príprava</text>
+  <text x="535" y="141" text-anchor="middle" font-size="11.5" fill="#23375c">predkontácia (MD/D)</text>
+  <text x="535" y="158" text-anchor="middle" font-size="11.5" fill="#23375c">číslovanie, triedenie</text>
+  <text x="535" y="175" text-anchor="middle" font-size="11.5" fill="#23375c">podpisový záznam</text>
+
+  <rect x="630" y="92" width="160" height="92" rx="10" fill="#e8f0fe" stroke="#3b6fd6" stroke-width="2"/>
+  <text x="710" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3a78">4. Zaúčtovanie</text>
+  <text x="710" y="141" text-anchor="middle" font-size="11.5" fill="#23375c">zápis do denníka</text>
+  <text x="710" y="158" text-anchor="middle" font-size="11.5" fill="#23375c">a hlavnej knihy</text>
+  <text x="710" y="175" text-anchor="middle" font-size="11.5" fill="#23375c">(§ 11, § 12)</text>
+
+  <!-- arrows between top boxes -->
+  <line x1="200" y1="138" x2="238" y2="138" stroke="#3b6fd6" stroke-width="2.5" marker-end="url(#a2)"/>
+  <line x1="410" y1="138" x2="448" y2="138" stroke="#3b6fd6" stroke-width="2.5" marker-end="url(#a2)"/>
+  <line x1="620" y1="138" x2="628" y2="138" stroke="#3b6fd6" stroke-width="2.5" marker-end="url(#a2)"/>
+
+  <!-- down arrow -->
+  <line x1="710" y1="184" x2="710" y2="226" stroke="#3b6fd6" stroke-width="2.5" marker-end="url(#a2)"/>
+
+  <!-- Step 5: archivacia -->
+  <rect x="500" y="232" width="290" height="84" rx="10" fill="#e6f6ec" stroke="#2e9e57" stroke-width="2"/>
+  <text x="645" y="258" text-anchor="middle" font-size="15" font-weight="bold" fill="#1d6e3c">5. Uchovávanie a ochrana</text>
+  <text x="645" y="280" text-anchor="middle" font-size="11.5" fill="#1f4d31">ochrana proti strate, zničeniu (§ 35 ods. 1)</text>
+  <text x="645" y="298" text-anchor="middle" font-size="11.5" fill="#1f4d31">doklady a knihy: 10 rokov (§ 35 ods. 3)</text>
+
+  <!-- Preukazatelnost note box -->
+  <rect x="30" y="232" width="430" height="84" rx="10" fill="#fff3e0" stroke="#e08a1e" stroke-width="2"/>
+  <text x="245" y="256" text-anchor="middle" font-size="14" font-weight="bold" fill="#9a5c0e">Prierezová požiadavka: PREUKÁZATEĽNOSŤ (§ 32)</text>
+  <text x="245" y="278" text-anchor="middle" font-size="11.5" fill="#7a4a0d">vierohodnosť pôvodu + neporušenosť obsahu + čitateľnosť</text>
+  <text x="245" y="296" text-anchor="middle" font-size="11.5" fill="#7a4a0d">zabezpečí: podpis / EDI / vnútorný kontrolný systém</text>
+
+  <!-- bottom: nalezitosti dokladu -->
+  <rect x="30" y="346" width="760" height="86" rx="10" fill="#f5f7fa" stroke="#94a1b5" stroke-width="1.5"/>
+  <text x="410" y="368" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a2b4a">Povinné náležitosti účtovného dokladu (§ 10 ods. 1)</text>
+  <text x="410" y="390" text-anchor="middle" font-size="11.5" fill="#33405a">a) slovné a číselné označenie  ·  b) obsah prípadu a účastníci  ·  c) suma alebo cena za jednotku a množstvo</text>
+  <text x="410" y="409" text-anchor="middle" font-size="11.5" fill="#33405a">d) dátum vyhotovenia  ·  e) dátum uskutočnenia prípadu (ak je odlišný)  ·  f) podpisový záznam zodpovednej osoby</text>
+  <text x="410" y="427" text-anchor="middle" font-size="11" fill="#7a8aa3">f) možno nahradiť elektronickou výmenou údajov alebo vnútorným kontrolným systémom (§ 32 ods. 3)</text>
+
+  <text x="410" y="456" text-anchor="middle" font-size="11" fill="#94a1b5">Zdroj: zákon č. 431/2002 Z. z. § 10, § 11, § 12, § 32, § 35</text>
+</svg>

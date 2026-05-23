@@ -1,0 +1,51 @@
+<svg viewBox="0 0 860 520" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="860" height="520" fill="#ffffff"/>
+  <text x="430" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#1a2c50">Krátenie NČZD na daňovníka podľa výšky základu dane (rok 2026)</text>
+  <text x="430" y="56" text-anchor="middle" font-size="13" fill="#475569">ŽM 284,13 € · plná 21× ŽM · vzorec krátenia 51,6× ŽM − 1/3 ZD · nula pri 154,8× ŽM</text>
+
+  <!-- axes -->
+  <line x1="90" y1="420" x2="800" y2="420" stroke="#334155" stroke-width="2"/>
+  <line x1="90" y1="420" x2="90" y2="90" stroke="#334155" stroke-width="2"/>
+  <text x="445" y="468" text-anchor="middle" font-size="13" fill="#334155">Základ dane (€)</text>
+  <text x="40" y="255" text-anchor="middle" font-size="13" fill="#334155" transform="rotate(-90 40 255)">NČZD na daňovníka (€)</text>
+
+  <!-- y gridlines: 0,2000,4000,6000 ; map 6000->y=110, 0->y=420 -->
+  <line x1="90" y1="110" x2="800" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="84" y="114" text-anchor="end" font-size="11" fill="#64748b">6 000</text>
+  <line x1="90" y1="213" x2="800" y2="213" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="84" y="217" text-anchor="end" font-size="11" fill="#64748b">4 000</text>
+  <line x1="90" y1="317" x2="800" y2="317" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="84" y="321" text-anchor="end" font-size="11" fill="#64748b">2 000</text>
+  <text x="84" y="424" text-anchor="end" font-size="11" fill="#64748b">0</text>
+
+  <!-- x scale: ZD 0..50000 over x 90..800 (710px). 5966.73->y ; breakpoints 26083, 43983 -->
+  <!-- plateau: NCZD=5966.73 (y = 420 - 5966.73/6000*310 = 420-308.3=111.7) from ZD0 to 26083 (x=90+26083/50000*710=90+370.4=460.4) -->
+  <polyline points="90,111.7 460,111.7 715,420" fill="none" stroke="#16a34a" stroke-width="3.5"/>
+  <!-- flat zero after 43983 (x=90+43983/50000*710=90+624.6=714.6) -->
+  <line x1="715" y1="420" x2="800" y2="420" stroke="#16a34a" stroke-width="3.5"/>
+
+  <!-- breakpoint markers -->
+  <line x1="460" y1="111.7" x2="460" y2="420" stroke="#2563eb" stroke-width="1.3" stroke-dasharray="5,4"/>
+  <circle cx="460" cy="111.7" r="5" fill="#16a34a"/>
+  <text x="460" y="438" text-anchor="middle" font-size="11" fill="#2563eb">26 083 €</text>
+  <text x="460" y="452" text-anchor="middle" font-size="10" fill="#2563eb">(91,8× ŽM)</text>
+
+  <line x1="715" y1="420" x2="715" y2="420" stroke="#dc2626" stroke-width="1.3" stroke-dasharray="5,4"/>
+  <circle cx="715" cy="420" r="5" fill="#16a34a"/>
+  <text x="715" y="438" text-anchor="middle" font-size="11" fill="#dc2626">43 983 €</text>
+  <text x="715" y="452" text-anchor="middle" font-size="10" fill="#dc2626">(154,8× ŽM)</text>
+
+  <!-- plateau label -->
+  <text x="250" y="100" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14532d">plná NČZD = 5 966,73 € (21× ŽM)</text>
+  <!-- slope label -->
+  <text x="600" y="250" text-anchor="middle" font-size="12" fill="#166534" transform="rotate(28 600 250)">51,6× ŽM − 1/3 ZD</text>
+
+  <!-- legend / 2025 comparison box -->
+  <rect x="540" y="95" width="252" height="92" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="556" y="116" font-size="12.5" font-weight="700" fill="#334155">Porovnanie 2025 (ŽM 273,99 €)</text>
+  <text x="556" y="137" font-size="11.5" fill="#475569">plná NČZD: 5 753,79 €</text>
+  <text x="556" y="155" font-size="11.5" fill="#475569">krátenie od: 25 152,28 €</text>
+  <text x="556" y="173" font-size="11.5" fill="#475569">nula od: 42 413,65 €</text>
+
+  <text x="430" y="500" text-anchor="middle" font-size="11" fill="#94a3b8">Zdroj: ZDP č. 595/2003 Z. z. § 11 ods. 2; ŽM a sumy overené k máju 2026</text>
+</svg>

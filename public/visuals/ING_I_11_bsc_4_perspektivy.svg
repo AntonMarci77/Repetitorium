@@ -1,0 +1,55 @@
+<svg viewBox="0 0 760 560" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Balanced Scorecard – štyri perspektívy</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#5a6b85">Kaplan – Norton: vyvážené finančné a nefinančné hodnotenie výkonnosti</text>
+
+  <!-- Central vision/strategy -->
+  <ellipse cx="380" cy="295" rx="92" ry="56" fill="#1a2b4a"/>
+  <text x="380" y="289" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">VÍZIA a</text>
+  <text x="380" y="309" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">STRATÉGIA</text>
+
+  <!-- FINANCIAL (top) -->
+  <rect x="250" y="78" width="260" height="92" rx="10" fill="#2f8f5b" opacity="0.14" stroke="#2f8f5b" stroke-width="2"/>
+  <text x="380" y="100" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e7a45">FINANČNÁ</text>
+  <text x="380" y="120" text-anchor="middle" font-size="11" fill="#33415c">„Ako nás vidia vlastníci?"</text>
+  <text x="380" y="139" text-anchor="middle" font-size="11" fill="#5a6b85">zisk · rentabilita (ROE/ROS) · EVA</text>
+  <text x="380" y="155" text-anchor="middle" font-size="11" fill="#5a6b85">cash flow · rast tržieb</text>
+
+  <!-- CUSTOMER (left) -->
+  <rect x="34" y="248" width="250" height="94" rx="10" fill="#d9822b" opacity="0.14" stroke="#d9822b" stroke-width="2"/>
+  <text x="159" y="270" text-anchor="middle" font-size="16" font-weight="bold" fill="#b8651b">ZÁKAZNÍCKA</text>
+  <text x="159" y="290" text-anchor="middle" font-size="11" fill="#33415c">„Ako nás vidia zákazníci?"</text>
+  <text x="159" y="309" text-anchor="middle" font-size="11" fill="#5a6b85">spokojnosť · podiel na trhu</text>
+  <text x="159" y="325" text-anchor="middle" font-size="11" fill="#5a6b85">udržanie · získanie zákazníkov</text>
+
+  <!-- INTERNAL PROCESSES (right) -->
+  <rect x="476" y="248" width="250" height="94" rx="10" fill="#3a6ea5" opacity="0.16" stroke="#3a6ea5" stroke-width="2"/>
+  <text x="601" y="270" text-anchor="middle" font-size="16" font-weight="bold" fill="#2a5485">INTERNÉ PROCESY</text>
+  <text x="601" y="290" text-anchor="middle" font-size="11" fill="#33415c">„V čom musíme vynikať?"</text>
+  <text x="601" y="309" text-anchor="middle" font-size="11" fill="#5a6b85">kvalita · dodacie lehoty</text>
+  <text x="601" y="325" text-anchor="middle" font-size="11" fill="#5a6b85">chybovosť · inovácie</text>
+
+  <!-- LEARNING & GROWTH (bottom) -->
+  <rect x="250" y="420" width="260" height="94" rx="10" fill="#7d4fc4" opacity="0.14" stroke="#7d4fc4" stroke-width="2"/>
+  <text x="380" y="442" text-anchor="middle" font-size="16" font-weight="bold" fill="#5e36a0">UČENIE SA A RAST</text>
+  <text x="380" y="462" text-anchor="middle" font-size="11" fill="#33415c">„Ako sa zlepšujeme a rastieme?"</text>
+  <text x="380" y="481" text-anchor="middle" font-size="11" fill="#5a6b85">školenia · spokojnosť zamestnancov</text>
+  <text x="380" y="497" text-anchor="middle" font-size="11" fill="#5a6b85">fluktuácia · investície do V&amp;V</text>
+
+  <!-- Connectors center to each -->
+  <line x1="380" y1="239" x2="380" y2="172" stroke="#9aa7bd" stroke-width="2"/>
+  <line x1="288" y1="295" x2="286" y2="295" stroke="#9aa7bd" stroke-width="2"/>
+  <line x1="295" y1="295" x2="284" y2="295" stroke="#9aa7bd" stroke-width="2"/>
+  <line x1="288" y1="290" x2="284" y2="295" stroke="#9aa7bd" stroke-width="2"/>
+  <line x1="288" y1="295" x2="159" y2="295" stroke="#9aa7bd" stroke-width="2"/>
+  <line x1="472" y1="295" x2="601" y2="295" stroke="#9aa7bd" stroke-width="2"/>
+  <line x1="380" y1="351" x2="380" y2="418" stroke="#9aa7bd" stroke-width="2"/>
+
+  <!-- Causal chain arrow bottom-up -->
+  <text x="730" y="500" text-anchor="end" font-size="11" fill="#5e36a0" font-weight="bold">kauzálny reťazec ↑</text>
+  <text x="730" y="516" text-anchor="end" font-size="10" fill="#5a6b85">učenie → procesy → zákazník → financie</text>
+
+  <!-- caption -->
+  <rect x="34" y="528" width="692" height="26" rx="5" fill="#eef2f8"/>
+  <text x="380" y="545" text-anchor="middle" font-size="12" fill="#1a2b4a">Strategická mapa: tri predstihové (nefinančné) perspektívy vytvárajú podmienky pre finančné výsledky</text>
+</svg>

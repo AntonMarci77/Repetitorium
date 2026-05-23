@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="560" fill="#ffffff"/>
+  <text x="460" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Veľkostné skupiny účtovných jednotiek – prahy kritérií</text>
+  <text x="460" y="58" text-anchor="middle" font-size="13" fill="#64748b">§ 2 zákona č. 431/2002 Z. z. · znenie po novele 105/2024 (od 1. 6. 2024) · platí pre 2025 a 2026</text>
+
+  <!-- header row -->
+  <rect x="40" y="80" width="280" height="46" fill="#0f172a"/>
+  <rect x="320" y="80" width="200" height="46" fill="#1e3a8a"/>
+  <rect x="520" y="80" width="200" height="46" fill="#1d4ed8"/>
+  <rect x="720" y="80" width="160" height="46" fill="#7c2d12"/>
+  <text x="180" y="108" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Kritérium (2 z 3)</text>
+  <text x="420" y="108" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">MIKRO</text>
+  <text x="620" y="108" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">MALÁ</text>
+  <text x="800" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">VEĽKÁ</text>
+  <text x="800" y="120" text-anchor="middle" font-size="10" fill="#fde68a">+ SVZ vždy</text>
+
+  <!-- row 1: majetok -->
+  <rect x="40" y="126" width="280" height="60" fill="#f1f5f9"/>
+  <rect x="320" y="126" width="200" height="60" fill="#eff6ff"/>
+  <rect x="520" y="126" width="200" height="60" fill="#eff6ff"/>
+  <rect x="720" y="126" width="160" height="60" fill="#fef2f2"/>
+  <text x="56" y="152" font-size="13" font-weight="600" fill="#0f172a">Celková suma majetku</text>
+  <text x="56" y="170" font-size="11" fill="#64748b">(netto, zo súvahy)</text>
+  <text x="420" y="161" text-anchor="middle" font-size="13" fill="#1e293b">≤ 450 000 €</text>
+  <text x="620" y="154" text-anchor="middle" font-size="13" fill="#1e293b">&gt; 450 000 €</text>
+  <text x="620" y="172" text-anchor="middle" font-size="12" fill="#475569">a ≤ 5 000 000 €</text>
+  <text x="800" y="161" text-anchor="middle" font-size="13" fill="#1e293b">&gt; 5 000 000 €</text>
+
+  <!-- row 2: obrat -->
+  <rect x="40" y="186" width="280" height="60" fill="#ffffff"/>
+  <rect x="320" y="186" width="200" height="60" fill="#f8fbff"/>
+  <rect x="520" y="186" width="200" height="60" fill="#f8fbff"/>
+  <rect x="720" y="186" width="160" height="60" fill="#fffafa"/>
+  <text x="56" y="212" font-size="13" font-weight="600" fill="#0f172a">Čistý obrat</text>
+  <text x="56" y="230" font-size="11" fill="#64748b">(601/602/604 – zľavy)</text>
+  <text x="420" y="221" text-anchor="middle" font-size="13" fill="#1e293b">≤ 900 000 €</text>
+  <text x="620" y="214" text-anchor="middle" font-size="13" fill="#1e293b">&gt; 900 000 €</text>
+  <text x="620" y="232" text-anchor="middle" font-size="12" fill="#475569">a ≤ 10 000 000 €</text>
+  <text x="800" y="221" text-anchor="middle" font-size="13" fill="#1e293b">&gt; 10 000 000 €</text>
+
+  <!-- row 3: zamestnanci -->
+  <rect x="40" y="246" width="280" height="60" fill="#f1f5f9"/>
+  <rect x="320" y="246" width="200" height="60" fill="#eff6ff"/>
+  <rect x="520" y="246" width="200" height="60" fill="#eff6ff"/>
+  <rect x="720" y="246" width="160" height="60" fill="#fef2f2"/>
+  <text x="56" y="272" font-size="13" font-weight="600" fill="#0f172a">Priemerný prepočítaný</text>
+  <text x="56" y="290" font-size="13" font-weight="600" fill="#0f172a">počet zamestnancov</text>
+  <text x="420" y="281" text-anchor="middle" font-size="13" fill="#1e293b">≤ 10</text>
+  <text x="620" y="281" text-anchor="middle" font-size="13" fill="#1e293b">&gt; 10 a ≤ 50</text>
+  <text x="800" y="281" text-anchor="middle" font-size="13" fill="#1e293b">&gt; 50</text>
+
+  <!-- grid border -->
+  <rect x="40" y="80" width="840" height="226" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="320" y1="80" x2="320" y2="306" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="520" y1="80" x2="520" y2="306" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="720" y1="80" x2="720" y2="306" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- rule boxes -->
+  <rect x="40" y="334" width="400" height="86" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="60" y="360" font-size="14" font-weight="700" fill="#166534">Pravidlo zaradenia</text>
+  <text x="60" y="382" font-size="12" fill="#14532d">Splniť aspoň 2 z 3 podmienok danej skupiny,</text>
+  <text x="60" y="400" font-size="12" fill="#14532d">a to za 2 po sebe idúce účtovné obdobia.</text>
+
+  <rect x="460" y="334" width="420" height="86" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5"/>
+  <text x="480" y="360" font-size="14" font-weight="700" fill="#9a3412">Kedy a ako</text>
+  <text x="480" y="382" font-size="12" fill="#7c2d12">Posudzuje sa k 1. dňu obdobia za 2 predchádzajúce roky.</text>
+  <text x="480" y="400" font-size="12" fill="#7c2d12">Zmena až od ďalšieho obdobia. Kto sa nezaradí = malá.</text>
+
+  <!-- logic strip -->
+  <rect x="40" y="436" width="840" height="44" rx="8" fill="#0f172a"/>
+  <text x="460" y="463" text-anchor="middle" font-size="14" font-weight="600" fill="#ffffff">Logika: mikro  /  nie mikro a nie veľká = malá  /  veľká    ·    SVZ je vždy veľká bez ohľadu na prahy</text>
+
+  <text x="460" y="512" text-anchor="middle" font-size="11" fill="#94a3b8">Pôvodné (neaktuálne) prahy boli 350 000 / 700 000 a 4 mil. / 8 mil. – novelou 105/2024 zvýšené na hodnoty vyššie.</text>
+  <text x="460" y="532" text-anchor="middle" font-size="11" fill="#94a3b8">Veľkostná skupina (§ 2) je iná vec ako povinnosť auditu (§ 19) – posudzujú sa samostatne.</text>
+</svg>

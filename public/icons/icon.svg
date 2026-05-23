@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Repetitórium">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a3868"/>
+      <stop offset="100%" stop-color="#00adbd"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="92" fill="url(#bg)"/>
+  <g fill="none" stroke="#f0eee9" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 380V160a36 36 0 0 1 36-36h140"/>
+    <path d="M392 380V160a36 36 0 0 0-36-36H216"/>
+    <path d="M120 380h140a36 36 0 0 1 36 36 36 36 0 0 1 36-36h60"/>
+    <line x1="156" y1="200" x2="280" y2="200"/>
+    <line x1="156" y1="244" x2="260" y2="244"/>
+    <line x1="156" y1="288" x2="240" y2="288"/>
+    <line x1="332" y1="200" x2="360" y2="200"/>
+    <line x1="316" y1="244" x2="360" y2="244"/>
+    <line x1="300" y1="288" x2="360" y2="288"/>
+  </g>
+  <text x="256" y="464" text-anchor="middle" fill="#f0eee9" font-family="ui-sans-serif, system-ui, sans-serif" font-weight="700" font-size="64" letter-spacing="-0.02em">R</text>
+</svg>

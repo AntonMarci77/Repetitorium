@@ -1,0 +1,118 @@
+{
+  "id": "BC-I-2",
+  "subor": "BC_I_02.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "I",
+  "cislo": 2,
+  "nazov": "Vymedzenie základných účtovných kategórií",
+  "koren": {
+    "nazov": "Vymedzenie základných účtovných kategórií",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Všetko v účtovníctve sa dá zaradiť do dvoch pohľadov na podnik. SÚVAHOVÝ pohľad (statický, k dátumu): čo podnik MÁ (majetok = aktíva) a komu to PATRÍ / z čoho je to financované (pasíva = vlastné imanie + cudzie zdroje).…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Majetok a aktíva (§ 2 ods. 4 písm. a, i)"
+          },
+          {
+            "nazov": "Záväzky a pasíva (§ 2 ods. 4 písm. b, k, l)"
+          },
+          {
+            "nazov": "Vlastné imanie (rozdiel majetku a záväzkov)"
+          },
+          {
+            "nazov": "Rezervy (§ 26 ods. 5 zákona, § 19 Postupov)"
+          },
+          {
+            "nazov": "Oceňovanie kategórií (§ 25 zákona)"
+          },
+          {
+            "nazov": "Náklady a výnosy (§ 2 ods. 4 písm. c, e)"
+          },
+          {
+            "nazov": "Akruálny princíp pri vykazovaní nákladov a výnosov (§ 3, § 5 Postupov)"
+          },
+          {
+            "nazov": "Časové rozlíšenie nákladov a výnosov (§ 56 Postupov, účty 381–385)"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "majetok (aktíva)"
+          },
+          {
+            "nazov": "záväzok"
+          },
+          {
+            "nazov": "pasíva"
+          },
+          {
+            "nazov": "vlastné imanie (rozdiel majetku a záväzkov)"
+          },
+          {
+            "nazov": "rezerva (záväzok s neistým časovým vymedzením alebo výškou)"
+          },
+          {
+            "nazov": "opravná položka"
+          },
+          {
+            "nazov": "náklad"
+          },
+          {
+            "nazov": "výnos"
+          },
+          {
+            "nazov": "akruálny princíp (vecná a časová súvislosť)"
+          },
+          {
+            "nazov": "časové rozlíšenie (381, 382, 383, 384, 385)"
+          },
+          {
+            "nazov": "oceňovanie (§ 25 – OC, vlastné náklady, menovitá a reálna hodnota)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať náklad s výdavkom a výnos s príjmom – v podvojnom účtovníctve to nie je to isté (ani sumou, ani obdobím)."
+          },
+          {
+            "nazov": "Považovať rezervu za majetok alebo za opravnú položku – rezerva je ZÁVÄZOK (pasívum) s neistým termínom/sumou; OP…"
+          },
+          {
+            "nazov": "Tvrdiť, že vlastné imanie sa samostatne oceňuje – je to len rozdiel Majetok − Záväzky, dôsledok ocenenia ostatných…"
+          },
+          {
+            "nazov": "Zamieňať rezervu (neistá suma/termín) s dohadnou položkou (známy účel, takmer istá suma, chýba doklad – účty 388/389)."
+          },
+          {
+            "nazov": "Účtovať časové rozlíšenie, keď nie je známa suma alebo obdobie – vtedy patrí rezerva/dohadná položka, nie 381–385."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Majetok a aktíva (§ 2 ods. 4 písm. a, i)",
+    "Záväzky a pasíva (§ 2 ods. 4 písm. b, k, l)",
+    "Vlastné imanie (rozdiel majetku a záväzkov)",
+    "Rezervy (§ 26 ods. 5 zákona, § 19 Postupov)",
+    "Oceňovanie kategórií (§ 25 zákona)",
+    "Náklady a výnosy (§ 2 ods. 4 písm. c, e)",
+    "Akruálny princíp pri vykazovaní nákladov a výnosov (§ 3, § 5 Postupov)",
+    "Časové rozlíšenie nákladov a výnosov (§ 56 Postupov, účty 381–385)"
+  ]
+}

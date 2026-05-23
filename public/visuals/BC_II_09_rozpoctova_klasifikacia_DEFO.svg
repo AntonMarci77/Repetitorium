@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 600" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="940" height="600" fill="#ffffff"/>
+  <text x="470" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Rozpočtová klasifikácia – štyri hľadiská (DEFO)</text>
+  <text x="470" y="58" text-anchor="middle" font-size="13" fill="#64748b">opatrenie MF/010175/2004-42 (D, O, E) · funkčná: vyhláška ŠÚ SR 257/2014 (COFOG)</text>
+  <text x="470" y="78" text-anchor="middle" font-size="12.5" fill="#475569">každý príjem a výdavok nesie kombináciu kódov všetkých štyroch klasifikácií</text>
+
+  <!-- D -->
+  <rect x="40" y="100" width="420" height="170" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <circle cx="78" cy="138" r="20" fill="#1d4ed8"/>
+  <text x="78" y="145" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">D</text>
+  <text x="112" y="132" font-size="16" font-weight="700" fill="#1d4ed8">Druhová</text>
+  <text x="112" y="152" font-size="12.5" fill="#1e40af">„Aký je to tok?“</text>
+  <g font-size="12.5" fill="#0f172a">
+    <text x="62" y="186">• príjmy</text>
+    <text x="62" y="208">• výdavky</text>
+    <text x="62" y="230">• finančné operácie (úvery, splátky, fondy)</text>
+  </g>
+  <text x="62" y="256" font-size="11" fill="#475569">členenie: bežné · kapitálové · fin. operácie</text>
+
+  <!-- E -->
+  <rect x="480" y="100" width="420" height="170" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <circle cx="518" cy="138" r="20" fill="#15803d"/>
+  <text x="518" y="145" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">E</text>
+  <text x="552" y="132" font-size="16" font-weight="700" fill="#15803d">Ekonomická</text>
+  <text x="552" y="152" font-size="12.5" fill="#14532d">„Na čo konkrétne?“</text>
+  <g font-size="12.5" fill="#0f172a">
+    <text x="502" y="186">• 610 mzdy · 620 odvody</text>
+    <text x="502" y="208">• 630 tovary a služby · 640 bežné transfery</text>
+    <text x="502" y="230">• 710 kapitálové aktíva · 720 kap. transfery</text>
+  </g>
+  <text x="502" y="256" font-size="11" fill="#475569">položky a podpoložky (kódy)</text>
+
+  <!-- F -->
+  <rect x="40" y="288" width="420" height="170" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+  <circle cx="78" cy="326" r="20" fill="#c2410c"/>
+  <text x="78" y="333" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">F</text>
+  <text x="112" y="320" font-size="16" font-weight="700" fill="#c2410c">Funkčná (COFOG)</text>
+  <text x="112" y="340" font-size="12.5" fill="#9a3412">„Na akú oblasť/funkciu?“</text>
+  <g font-size="12.5" fill="#0f172a">
+    <text x="62" y="374">• 01 všeobecné verejné služby</text>
+    <text x="62" y="396">• 09 vzdelávanie</text>
+    <text x="62" y="418">• 04 ekonomická oblasť (doprava…)</text>
+  </g>
+  <text x="62" y="444" font-size="11" fill="#475569">medzinárodný štandard (OSN/Eurostat)</text>
+
+  <!-- O -->
+  <rect x="480" y="288" width="420" height="170" rx="12" fill="#faf5ff" stroke="#e9d5ff"/>
+  <circle cx="518" cy="326" r="20" fill="#7c3aed"/>
+  <text x="518" y="333" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">O</text>
+  <text x="552" y="320" font-size="16" font-weight="700" fill="#7c3aed">Organizačná</text>
+  <text x="552" y="340" font-size="12.5" fill="#5b21b6">„Kto to spravuje?“</text>
+  <g font-size="12.5" fill="#0f172a">
+    <text x="502" y="374">• kapitoly štátneho rozpočtu</text>
+    <text x="502" y="396">• správcovia rozpočtu</text>
+    <text x="502" y="418">• konkrétne subjekty (RO/PO, obec)</text>
+  </g>
+  <text x="502" y="444" font-size="11" fill="#475569">+ kód zdroja (41 z rozpočtu obce…)</text>
+
+  <!-- arrow down to FIN -->
+  <line x1="470" y1="458" x2="470" y2="486" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="470,492 464,480 476,480" fill="#94a3b8"/>
+
+  <!-- FIN 1-12 box -->
+  <rect x="250" y="494" width="440" height="74" rx="12" fill="#0e7490"/>
+  <text x="470" y="522" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Výkaz FIN 1-12 – plnenie rozpočtu</text>
+  <text x="470" y="544" text-anchor="middle" font-size="11.5" fill="#cffafe">príjmy, výdavky a fin. operácie podľa rozpočtovej klasifikácie</text>
+  <text x="470" y="561" text-anchor="middle" font-size="11.5" fill="#cffafe">→ rozpočtový prebytok/schodok do záverečného účtu obce</text>
+</svg>

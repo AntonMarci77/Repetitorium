@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 540" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="780" height="540" fill="#ffffff"/>
+  <text x="390" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Prehľad ISA k audítu konsolidovanej závierky</text>
+  <text x="390" y="59" text-anchor="middle" font-size="13.5" fill="#5a6b8a">Téza ING II.4 – súvisiace audítorské štandardy a ich dopad na správu audítora</text>
+
+  <!-- Group 1: organizing the group audit -->
+  <rect x="30" y="80" width="350" height="150" rx="12" fill="#e8f0fb" stroke="#2f5fa8" stroke-width="2"/>
+  <text x="205" y="104" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#1a2b4a">A) Organizácia skupinového auditu</text>
+  <text x="48" y="130" font-size="12.5" fill="#1a2b4a"><tspan font-weight="bold">ISA 600 (rev.)</tspan> audit závierky skupiny;</text>
+  <text x="48" y="147" font-size="12" fill="#42526e">audítori komponentov, rizikový scoping</text>
+  <text x="48" y="170" font-size="12.5" fill="#1a2b4a"><tspan font-weight="bold">ISA 610</tspan> využitie práce interného auditu</text>
+  <text x="48" y="187" font-size="12" fill="#42526e">(a priama pomoc)</text>
+  <text x="48" y="210" font-size="12.5" fill="#1a2b4a"><tspan font-weight="bold">ISA 620</tspan> využitie práce experta audítora</text>
+
+  <!-- Group 2: high-judgement cross-cutting areas -->
+  <rect x="400" y="80" width="350" height="290" rx="12" fill="#e9f6ee" stroke="#2e8b57" stroke-width="2"/>
+  <text x="575" y="104" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#1a4a2b">B) Oblasti zvýšeného úsudku a rizika</text>
+  <text x="418" y="132" font-size="12.5" fill="#1a4a2b"><tspan font-weight="bold">ISA 540 (rev.)</tspan> účtovné odhady a zverejnenia</text>
+  <text x="418" y="149" font-size="11.5" fill="#3a5a44">neistota, zložitosť, subjektívnosť, bias</text>
+  <text x="418" y="178" font-size="12.5" fill="#1a4a2b"><tspan font-weight="bold">ISA 550</tspan> spriaznené osoby</text>
+  <text x="418" y="195" font-size="11.5" fill="#3a5a44">vnútroskupinové transakcie, trhové podmienky</text>
+  <text x="418" y="224" font-size="12.5" fill="#1a4a2b"><tspan font-weight="bold">ISA 560</tspan> následné udalosti</text>
+  <text x="418" y="241" font-size="11.5" fill="#3a5a44">upravujúce vs. neupravujúce</text>
+  <text x="418" y="270" font-size="12.5" fill="#1a4a2b"><tspan font-weight="bold">ISA 570</tspan> nepretržité pokračovanie (going concern)</text>
+  <text x="418" y="287" font-size="11.5" fill="#3a5a44">významná pochybnosť / neistota</text>
+  <text x="418" y="316" font-size="12.5" fill="#1a4a2b"><tspan font-weight="bold">ISA 580</tspan> písomné vyhlásenia manažmentu</text>
+  <text x="418" y="333" font-size="11.5" fill="#3a5a44">nutný, NIE postačujúci dôkaz</text>
+  <text x="418" y="357" font-size="11" fill="#7a8a98" font-style="italic">ISA 570 (rev. 2024) účinný až od 15. 12. 2026</text>
+
+  <!-- arrow from A down -->
+  <line x1="205" y1="230" x2="205" y2="410" stroke="#1a2b4a" stroke-width="2.5"/>
+  <polygon points="205,422 197,406 213,406" fill="#1a2b4a"/>
+  <!-- arrow from B down -->
+  <line x1="575" y1="370" x2="575" y2="410" stroke="#1a2b4a" stroke-width="2.5"/>
+  <polygon points="575,422 567,406 583,406" fill="#1a2b4a"/>
+
+  <!-- result box: report -->
+  <rect x="120" y="424" width="540" height="64" rx="10" fill="#1a2b4a"/>
+  <text x="390" y="449" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#ffffff">SPRÁVA NEZÁVISLÉHO AUDÍTORA (väzba na tézu II.5)</text>
+  <text x="390" y="470" text-anchor="middle" font-size="11.5" fill="#c5d2ea">nemodifikovaný · osobitný odsek (going concern) · výhrada · záporný · odmietnutie výroku</text>
+
+  <text x="390" y="512" text-anchor="middle" font-size="11" fill="#8a98b0">Zdroj: Medzinárodné audítorské štandardy (ISA), IAASB; KAREŠ (2020) Audítorstvo. Stav k máju 2026.</text>
+</svg>

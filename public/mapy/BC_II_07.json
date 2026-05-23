@@ -1,0 +1,127 @@
+{
+  "id": "BC-II-7",
+  "subor": "BC_II_07.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "II",
+  "cislo": 7,
+  "nazov": "Nezdaniteľné časti základu dane z príjmov fyzických osôb",
+  "koren": {
+    "nazov": "Nezdaniteľné časti základu dane z príjmov fyzických osôb",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "NČZD je 'odpočet zo základu dane' – nie zľava na dani. Funguje ako sito v dvoch krokoch. Krok 1: na ktorý ZD sa vôbec dá uplatniť? NČZD znižujú len čiastkový ZD z AKTÍVNYCH príjmov – zo závislej činnosti (§ 5) a z…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Tri druhy NČZD a na čo sa vzťahujú"
+          },
+          {
+            "nazov": "NČZD na daňovníka – základná suma a krátenie"
+          },
+          {
+            "nazov": "NČZD na manželku/manžela – podmienky a dvojité krátenie"
+          },
+          {
+            "nazov": "NČZD na príspevky na DDS a PEPP (max 180 €)"
+          },
+          {
+            "nazov": "Daňové výdavky FO a ich vplyv na ZD"
+          },
+          {
+            "nazov": "Výdavky na majetok pri podnikaní – paušál 80 % (§ 19 ods. 2 písm. t)"
+          },
+          {
+            "nazov": "Operatívny a finančný prenájom"
+          },
+          {
+            "nazov": "Cestovné náhrady a stravovanie"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "nezdaniteľná časť základu dane (NČZD)"
+          },
+          {
+            "nazov": "životné minimum (ŽM)"
+          },
+          {
+            "nazov": "NČZD na daňovníka (21× ŽM)"
+          },
+          {
+            "nazov": "krátenie NČZD (51,6× ŽM − 1/3 ZD)"
+          },
+          {
+            "nazov": "NČZD na manželku/manžela (19,2× ŽM)"
+          },
+          {
+            "nazov": "vlastný príjem manželky/manžela"
+          },
+          {
+            "nazov": "príspevky na DDS / PEPP (max 180 €)"
+          },
+          {
+            "nazov": "čiastkový základ dane (§ 5, § 6 ods. 1 a 2)"
+          },
+          {
+            "nazov": "aktívne vs. pasívne príjmy"
+          },
+          {
+            "nazov": "daňový výdavok (§ 19)"
+          },
+          {
+            "nazov": "nedaňový výdavok (§ 21)"
+          },
+          {
+            "nazov": "paušál 80 % (§ 19 ods. 2 písm. t)"
+          },
+          {
+            "nazov": "cestovné náhrady (§ 19 ods. 2 písm. d)"
+          },
+          {
+            "nazov": "stravné a stravovanie (§ 152 ZP)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Uplatňovať NČZD aj na pasívne príjmy (prenájom, kapitál, ostatné) – nedá sa, len na § 5 a § 6 ods. 1 a 2."
+          },
+          {
+            "nazov": "Zamieňať NČZD (odpočet od ZD) s daňovým bonusom (zľava na dani)."
+          },
+          {
+            "nazov": "Brať krátenie NČZD ako skokové – je lineárne (51,6× ŽM − 1/3 ZD), nula až pri 154,8× ŽM."
+          },
+          {
+            "nazov": "Použiť ŽM nesprávneho roka – rozhoduje ŽM platné k 1. 1. (273,99 € pre 2025, 284,13 € pre 2026)."
+          },
+          {
+            "nazov": "Zabúdať na podmienky NČZD na manželku (dieťa do 3/6 r., evidencia, ZŤP) – bez nich nárok nevzniká."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Tri druhy NČZD a na čo sa vzťahujú",
+    "NČZD na daňovníka – základná suma a krátenie",
+    "NČZD na manželku/manžela – podmienky a dvojité krátenie",
+    "NČZD na príspevky na DDS a PEPP (max 180 €)",
+    "Daňové výdavky FO a ich vplyv na ZD",
+    "Výdavky na majetok pri podnikaní – paušál 80 % (§ 19 ods. 2 písm. t)",
+    "Operatívny a finančný prenájom",
+    "Cestovné náhrady a stravovanie"
+  ]
+}

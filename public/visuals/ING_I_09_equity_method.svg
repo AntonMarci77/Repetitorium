@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 480" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="860" height="480" fill="#ffffff"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Metóda vlastného imania – mechanika hodnoty investície (IAS 28)</text>
+
+  <!-- Initial -->
+  <rect x="40" y="80" width="200" height="80" rx="10" fill="#e8f0fe" stroke="#3367d6" stroke-width="2"/>
+  <text x="140" y="112" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a2b4a">Obstarávacia cena</text>
+  <text x="140" y="134" text-anchor="middle" font-size="13" fill="#333">prvotné ocenenie</text>
+  <text x="140" y="151" text-anchor="middle" font-size="12" fill="#666">(vrátane goodwillu)</text>
+
+  <!-- plus profit -->
+  <text x="270" y="128" text-anchor="middle" font-size="30" font-weight="bold" fill="#1e8e3e">+</text>
+  <rect x="300" y="70" width="220" height="64" rx="10" fill="#e6f4ea" stroke="#1e8e3e" stroke-width="2"/>
+  <text x="410" y="96" text-anchor="middle" font-size="14" font-weight="bold" fill="#0d5223">podiel na zisku/strate</text>
+  <text x="410" y="118" text-anchor="middle" font-size="12" fill="#333">→ do VH investora (V/N)</text>
+
+  <!-- plus/minus OSKV -->
+  <text x="270" y="186" text-anchor="middle" font-size="26" font-weight="bold" fill="#7a4a05">±</text>
+  <rect x="300" y="150" width="220" height="60" rx="10" fill="#fef3e0" stroke="#e8820c" stroke-width="2"/>
+  <text x="410" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a4a05">podiel na OSKV</text>
+  <text x="410" y="197" text-anchor="middle" font-size="12" fill="#333">→ do OSKV investora</text>
+
+  <!-- minus dividends -->
+  <text x="270" y="252" text-anchor="middle" font-size="30" font-weight="bold" fill="#c5221f">−</text>
+  <rect x="300" y="222" width="220" height="62" rx="10" fill="#fce8e6" stroke="#c5221f" stroke-width="2"/>
+  <text x="410" y="248" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a0e0a">prijaté dividendy</text>
+  <text x="410" y="269" text-anchor="middle" font-size="12" fill="#333">NIE výnos – znižujú investíciu</text>
+
+  <!-- equals -->
+  <text x="560" y="186" text-anchor="middle" font-size="34" font-weight="bold" fill="#1a2b4a">=</text>
+  <rect x="600" y="120" width="220" height="100" rx="10" fill="#1a2b4a"/>
+  <text x="710" y="158" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Účtovná hodnota</text>
+  <text x="710" y="182" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">investície</text>
+  <text x="710" y="204" text-anchor="middle" font-size="12" fill="#b9c6e0">k dátumu závierky</text>
+
+  <!-- worked example -->
+  <rect x="40" y="320" width="780" height="130" rx="10" fill="#f5f7fa" stroke="#9aa7bd" stroke-width="1.5"/>
+  <text x="60" y="348" font-size="15" font-weight="bold" fill="#1a2b4a">Príklad (30 % v BETA, cena 100 000 €; zisk BETA 50 000 €; dividendy spolu 20 000 €):</text>
+  <text x="60" y="378" font-size="14" fill="#0d5223">+ podiel na zisku 30 % × 50 000 = +15 000 €  → 100 000 + 15 000 = 115 000 €</text>
+  <text x="60" y="404" font-size="14" fill="#8a0e0a">− prijatá dividenda 30 % × 20 000 = −6 000 €  → 115 000 − 6 000 = 109 000 €</text>
+  <text x="60" y="432" font-size="15" font-weight="bold" fill="#1a2b4a">Účtovná hodnota investície k 31. 12. = 109 000 €</text>
+</svg>

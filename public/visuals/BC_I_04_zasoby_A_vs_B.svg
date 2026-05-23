@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 600" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="600" fill="#ffffff"/>
+  <text x="460" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Účtovanie zásob: spôsob A vs. spôsob B</text>
+  <text x="460" y="58" text-anchor="middle" font-size="13" fill="#64748b">Postupy účtovania § 43–44 · príklad: nákup 5 000 €, spotreba 4 000 €, na sklade ostane 1 000 €</text>
+
+  <!-- SPOSOB A -->
+  <rect x="30" y="84" width="410" height="380" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="235" y="112" text-anchor="middle" font-size="17" font-weight="700" fill="#1d4ed8">SPÔSOB A</text>
+  <text x="235" y="132" text-anchor="middle" font-size="12" fill="#1e3a8a">zásoby cez súvahové účty počas celého obdobia</text>
+
+  <g font-size="13" fill="#0f172a">
+    <rect x="55" y="148" width="360" height="44" rx="8" fill="#ffffff" stroke="#bfdbfe"/>
+    <text x="70" y="166" font-weight="700">Nákup</text>
+    <text x="70" y="184">111 / 321 = 5 000  (obstaranie materiálu)</text>
+
+    <rect x="55" y="204" width="360" height="44" rx="8" fill="#ffffff" stroke="#bfdbfe"/>
+    <text x="70" y="222" font-weight="700">Prevzatie na sklad</text>
+    <text x="70" y="240">112 / 111 = 5 000  (sklad v OC)</text>
+
+    <rect x="55" y="260" width="360" height="44" rx="8" fill="#ffffff" stroke="#bfdbfe"/>
+    <text x="70" y="278" font-weight="700">Spotreba</text>
+    <text x="70" y="296">501 / 112 = 4 000  (do nákladov)</text>
+  </g>
+  <line x1="235" y1="192" x2="235" y2="204" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="235,210 229,198 241,198" fill="#94a3b8"/>
+  <line x1="235" y1="248" x2="235" y2="260" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="235,266 229,254 241,254" fill="#94a3b8"/>
+
+  <rect x="55" y="324" width="360" height="120" rx="8" fill="#dbeafe" stroke="#93c5fd"/>
+  <text x="70" y="348" font-size="13" font-weight="700" fill="#1e3a8a">Stav po roku</text>
+  <g font-size="12.5" fill="#1e3a8a">
+    <text x="70" y="372">Náklady (501): 4 000 €</text>
+    <text x="70" y="394">Sklad (112): 1 000 €</text>
+    <text x="70" y="424" font-style="italic">Vlastná výroba: prírastky 12x / 61x,</text>
+    <text x="70" y="440" font-style="italic">vyskladnenie 61x / 12x</text>
+  </g>
+
+  <!-- SPOSOB B -->
+  <rect x="480" y="84" width="410" height="380" rx="12" fill="#fefce8" stroke="#fde68a"/>
+  <text x="685" y="112" text-anchor="middle" font-size="17" font-weight="700" fill="#a16207">SPÔSOB B</text>
+  <text x="685" y="132" text-anchor="middle" font-size="12" fill="#854d0e">nákup priamo do nákladov, súvahové účty až pri uzávierke</text>
+
+  <g font-size="13" fill="#0f172a">
+    <rect x="505" y="148" width="360" height="44" rx="8" fill="#ffffff" stroke="#fde68a"/>
+    <text x="520" y="166" font-weight="700">Nákup (počas roka)</text>
+    <text x="520" y="184">501 / 321 = 5 000  (priamo do spotreby)</text>
+
+    <rect x="505" y="204" width="360" height="60" rx="8" fill="#ffffff" stroke="#fde68a"/>
+    <text x="520" y="224" font-weight="700">Uzávierka – inventarizácia</text>
+    <text x="520" y="244">konečný stav na sklad späť:</text>
+    <text x="520" y="260">112 / 501 = 1 000</text>
+  </g>
+  <line x1="685" y1="192" x2="685" y2="204" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="685,210 679,198 691,198" fill="#94a3b8"/>
+
+  <rect x="505" y="280" width="360" height="60" rx="8" fill="#ffffff" stroke="#fde68a"/>
+  <text x="520" y="302" font-size="12.5" font-weight="700" fill="#854d0e">Pozn.: začiatočný stav skladu</text>
+  <text x="520" y="322" font-size="12.5" fill="#0f172a">sa na začiatku roka rozúčtuje do spotreby (501 / 112)</text>
+
+  <rect x="505" y="356" width="360" height="88" rx="8" fill="#fef9c3" stroke="#fde047"/>
+  <text x="520" y="380" font-size="13" font-weight="700" fill="#854d0e">Stav po roku</text>
+  <g font-size="12.5" fill="#854d0e">
+    <text x="520" y="404">Náklady (501): 5 000 − 1 000 = 4 000 €</text>
+    <text x="520" y="426">Sklad (112): 1 000 €</text>
+  </g>
+
+  <!-- zaver -->
+  <rect x="30" y="486" width="860" height="92" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="460" y="512" text-anchor="middle" font-size="15" font-weight="700" fill="#15803d">Výsledok hospodárenia je pri oboch spôsoboch ROVNAKÝ (náklad = 4 000 €)</text>
+  <text x="460" y="536" text-anchor="middle" font-size="12.5" fill="#166534">Líši sa len priebeh účtovania a nároky na evidenciu — spôsob B vyžaduje skladovú evidenciu mimo hlavnej knihy (§ 43 ods. 6).</text>
+  <text x="460" y="558" text-anchor="middle" font-size="12.5" fill="#166534">Oceňovanie: nakupované zásoby → obstarávacia cena · zásoby vlastnej výroby → vlastné náklady (§ 25 ods. 6).</text>
+</svg>

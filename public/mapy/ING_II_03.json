@@ -1,0 +1,143 @@
+{
+  "id": "ING-II-3",
+  "subor": "ING_II_03.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "II",
+  "cislo": 3,
+  "nazov": "Audítorská dokumentácia, audítorské dôkazy a významnosť v rámci auditu účtovnej závierky",
+  "koren": {
+    "nazov": "Audítorská dokumentácia, audítorské dôkazy a významnosť v rámci auditu účtovnej závierky",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Audit je systematické ZNIŽOVANIE NEISTOTY k akceptovateľne nízkej úrovni. Tri piliere tézy do seba zapadajú ako reťaz: VÝZNAMNOSŤ hovorí, čo je dosť veľké na to, aby na tom záležalo (kde hľadať a aký prah nesprávnosti…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Audítorská dokumentácia (ISA 230) – podstata a význam"
+          },
+          {
+            "nazov": "Významnosť (ISA 320) – podstata a stanovenie"
+          },
+          {
+            "nazov": "Uplatňované základne (benchmarky) a príklad výpočtu"
+          },
+          {
+            "nazov": "Riziko auditu a jeho nepriamy vzťah k významnosti"
+          },
+          {
+            "nazov": "Vyhodnotenie zistených nesprávností (ISA 450)"
+          },
+          {
+            "nazov": "Audítorské dôkazy (ISA 500) – dostatočné a vhodné, tvrdenia"
+          },
+          {
+            "nazov": "Substantívne testy, analytické postupy (ISA 520) a externé potvrdenia (ISA 505)"
+          },
+          {
+            "nazov": "Prvotná zákazka – začiatočné stavy (ISA 510)"
+          },
+          {
+            "nazov": "Výber vzorky (ISA 530), riziko vzorky a vplyv rizika na jej veľkosť"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "audítorská dokumentácia (ISA 230)"
+          },
+          {
+            "nazov": "test skúseného audítora (experienced auditor test)"
+          },
+          {
+            "nazov": "zostavenie spisu (do 60 dní)"
+          },
+          {
+            "nazov": "významnosť / materialita (ISA 320)"
+          },
+          {
+            "nazov": "významnosť pre účtovnú závierku ako celok"
+          },
+          {
+            "nazov": "uplatňovaná základňa (benchmark)"
+          },
+          {
+            "nazov": "výkonová významnosť (performance materiality)"
+          },
+          {
+            "nazov": "prah triviálnosti (clearly trivial)"
+          },
+          {
+            "nazov": "riziko auditu (inherentné, kontrolné, zisťovacie)"
+          },
+          {
+            "nazov": "nepriamy (inverzný) vzťah rizika a významnosti"
+          },
+          {
+            "nazov": "vyhodnotenie nesprávností (ISA 450)"
+          },
+          {
+            "nazov": "dostatočné a vhodné dôkazy (ISA 500)"
+          },
+          {
+            "nazov": "tvrdenia (assertions)"
+          },
+          {
+            "nazov": "substantívne testy a analytické postupy (ISA 520)"
+          },
+          {
+            "nazov": "externé potvrdenia (ISA 505)"
+          },
+          {
+            "nazov": "začiatočné stavy / prvotná zákazka (ISA 510)"
+          },
+          {
+            "nazov": "výber vzorky (ISA 530)"
+          },
+          {
+            "nazov": "riziko vyplývajúce z výberu vzorky (sampling risk)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať dostatočnosť (kvantita) a vhodnosť (kvalita) dôkazov."
+          },
+          {
+            "nazov": "Tvrdiť priamy vzťah medzi významnosťou a rizikom auditu – vzťah je NEPRIAMY (inverzný)."
+          },
+          {
+            "nazov": "Považovať číselné základne (5 % zo zisku a pod.) za pevné pravidlo ISA 320 – sú to odborné normy praxe, ISA žiada…"
+          },
+          {
+            "nazov": "Pliesť výkonovú významnosť s prahom triviálnosti: výkonová je 50–75 % celkovej (vankúš pre rozsah), prah triviálnosti…"
+          },
+          {
+            "nazov": "Myslieť si, že samotný dopyt u manažmentu je dostatočný dôkaz – musí byť podložený inými postupmi."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Audítorská dokumentácia (ISA 230) – podstata a význam",
+    "Významnosť (ISA 320) – podstata a stanovenie",
+    "Uplatňované základne (benchmarky) a príklad výpočtu",
+    "Riziko auditu a jeho nepriamy vzťah k významnosti",
+    "Vyhodnotenie zistených nesprávností (ISA 450)",
+    "Audítorské dôkazy (ISA 500) – dostatočné a vhodné, tvrdenia",
+    "Substantívne testy, analytické postupy (ISA 520) a externé potvrdenia (ISA 505)",
+    "Prvotná zákazka – začiatočné stavy (ISA 510)",
+    "Výber vzorky (ISA 530), riziko vzorky a vplyv rizika na jej veľkosť"
+  ]
+}

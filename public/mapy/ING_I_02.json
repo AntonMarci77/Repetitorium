@@ -1,0 +1,131 @@
+{
+  "id": "ING-I-2",
+  "subor": "ING_I_02.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 2,
+  "nazov": "Splatná a odložená daň z príjmov",
+  "koren": {
+    "nazov": "Splatná a odložená daň z príjmov",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Daň z príjmov je NÁKLAD účtovnej jednotky a má dve zložky. SPLATNÁ daň (591/341) je to, čo reálne zaplatím za toto obdobie podľa daňového priznania – počíta sa zo základu dane, nie z účtovného zisku. ODLOŽENÁ daň…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Splatná daň z príjmov – podstata"
+          },
+          {
+            "nazov": "Transformácia VH na základ dane"
+          },
+          {
+            "nazov": "Odložená daň – podstata a dôvod vzniku"
+          },
+          {
+            "nazov": "Záväzková súvahová metóda a daňová základňa"
+          },
+          {
+            "nazov": "Smer rozdielu: záväzok vs. pohľadávka"
+          },
+          {
+            "nazov": "Postup zisťovania a účtovanie odloženej dane"
+          },
+          {
+            "nazov": "Vykazovanie v účtovnej závierke"
+          },
+          {
+            "nazov": "Základné konštrukčné prvky dane a daň PO"
+          },
+          {
+            "nazov": "Závislé osoby, dividendy a zrážková daň"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "splatná daň z príjmov (účet 591)"
+          },
+          {
+            "nazov": "odložená daň z príjmov (účet 592, súvahový účet 481)"
+          },
+          {
+            "nazov": "výsledok hospodárenia pred zdanením"
+          },
+          {
+            "nazov": "základ dane PO (§ 17 ZDP)"
+          },
+          {
+            "nazov": "pripočítateľná / odpočítateľná položka"
+          },
+          {
+            "nazov": "trvalý rozdiel vs. dočasný rozdiel"
+          },
+          {
+            "nazov": "záväzková súvahová metóda"
+          },
+          {
+            "nazov": "účtovná hodnota (ÚH) vs. daňová základňa aktíva/záväzku"
+          },
+          {
+            "nazov": "zdaniteľný dočasný rozdiel → odložený daňový záväzok"
+          },
+          {
+            "nazov": "odpočítateľný dočasný rozdiel → odložená daňová pohľadávka"
+          },
+          {
+            "nazov": "daňová strata (§ 30)"
+          },
+          {
+            "nazov": "závislé osoby a transferové oceňovanie (§ 17 ods. 5, § 18)"
+          },
+          {
+            "nazov": "dividenda / podiel na zisku, zrážková daň (§ 43)"
+          },
+          {
+            "nazov": "úľavy na dani, oprava chýb minulých období"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať splatnú a odloženú daň – splatná je reálna daň zo ZD (591/341), odložená je akruálne dorovnanie cez súvahu…"
+          },
+          {
+            "nazov": "Počítať odloženú daň z trvalých rozdielov (pokuta od štátu, oslobodená dividenda) – tie odloženú daň NEVYVOLÁVAJÚ."
+          },
+          {
+            "nazov": "Použiť pri záväzkovej metóde sadzbu platnú pri vzniku rozdielu – správne je BUDÚCA sadzba (keď sa rozdiel vyrovná)."
+          },
+          {
+            "nazov": "Pomýliť smer: ÚH aktíva > daňová základňa = ZÁVÄZOK (nie pohľadávka); pri záväzku je to naopak."
+          },
+          {
+            "nazov": "Vykázať odloženú daňovú pohľadávku bez testu, či bude dosť budúceho základu dane (porušenie zásady opatrnosti)."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Splatná daň z príjmov – podstata",
+    "Transformácia VH na základ dane",
+    "Odložená daň – podstata a dôvod vzniku",
+    "Záväzková súvahová metóda a daňová základňa",
+    "Smer rozdielu: záväzok vs. pohľadávka",
+    "Postup zisťovania a účtovanie odloženej dane",
+    "Vykazovanie v účtovnej závierke",
+    "Základné konštrukčné prvky dane a daň PO",
+    "Závislé osoby, dividendy a zrážková daň"
+  ]
+}

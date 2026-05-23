@@ -1,0 +1,128 @@
+{
+  "id": "ING-I-4",
+  "subor": "ING_I_04.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 4,
+  "nazov": "Výnosy zo zmlúv o predaji výkonov podľa IFRS 15",
+  "koren": {
+    "nazov": "Výnosy zo zmlúv o predaji výkonov podľa IFRS 15",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "IFRS 15 stojí na jednej hlavnej zásade: výnos vykazujem vtedy a v tej výške, ako prechádza KONTROLA nad tovarom alebo službou na zákazníka, a to v sume protihodnoty, na ktorú očakávam, že mi vznikne nárok. Starý prístup…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Pôsobnosť a podmienky pre uplatnenie IFRS 15"
+          },
+          {
+            "nazov": "Krok 1 – Identifikácia zmluvy (5 kritérií)"
+          },
+          {
+            "nazov": "Krok 2 – Identifikácia povinností plnenia"
+          },
+          {
+            "nazov": "Krok 3 – Určenie transakčnej ceny"
+          },
+          {
+            "nazov": "Krok 4 – Alokácia ceny na povinnosti plnenia"
+          },
+          {
+            "nazov": "Krok 5 – Vykázanie výnosu pri splnení povinnosti"
+          },
+          {
+            "nazov": "Over time vs. point in time – kritériá"
+          },
+          {
+            "nazov": "Stanovenie výšky výnosu v bežnom období"
+          },
+          {
+            "nazov": "Transakcie mimo IFRS 15"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "zmluva so zákazníkom"
+          },
+          {
+            "nazov": "5-krokový model (5-step model)"
+          },
+          {
+            "nazov": "povinnosť plnenia zmluvy (performance obligation)"
+          },
+          {
+            "nazov": "transakčná cena (transaction price)"
+          },
+          {
+            "nazov": "alokácia transakčnej ceny na samostatné predajné ceny (stand-alone selling price)"
+          },
+          {
+            "nazov": "kontrola nad aktívom (control)"
+          },
+          {
+            "nazov": "vykázanie výnosu postupom času (over time)"
+          },
+          {
+            "nazov": "vykázanie výnosu v určitom okamihu (point in time)"
+          },
+          {
+            "nazov": "premenlivá protihodnota"
+          },
+          {
+            "nazov": "významná zložka financovania"
+          },
+          {
+            "nazov": "transakcie s vlastníkmi (Koncepčný rámec)"
+          },
+          {
+            "nazov": "transakcie bez komerčnej podstaty"
+          },
+          {
+            "nazov": "predaj nefinančného majetku neobstarávaného za účelom predaja (IAS 1)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať prechod kontroly (IFRS 15) za prechod rizík a odmien (starý IAS 18) – riziká a odmeny sú dnes len jedným z…"
+          },
+          {
+            "nazov": "Vykazovať over time automaticky pri dlhodobých zmluvách – over time platí LEN ak je splnené aspoň jedno z troch…"
+          },
+          {
+            "nazov": "Zabudnúť, že kritériá over time stačí splniť aspoň jedno, nie všetky tri."
+          },
+          {
+            "nazov": "Vykazovať hrubý výnos pri predaji prevádzkového majetku (auto, stroj) – ide o čistý zisk/stratu podľa IAS 1."
+          },
+          {
+            "nazov": "Pri transakcii s vlastníkom nad férovú cenu vykázať celú sumu ako náklad/výnos – časť nad férovú cenu je pohyb…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Pôsobnosť a podmienky pre uplatnenie IFRS 15",
+    "Krok 1 – Identifikácia zmluvy (5 kritérií)",
+    "Krok 2 – Identifikácia povinností plnenia",
+    "Krok 3 – Určenie transakčnej ceny",
+    "Krok 4 – Alokácia ceny na povinnosti plnenia",
+    "Krok 5 – Vykázanie výnosu pri splnení povinnosti",
+    "Over time vs. point in time – kritériá",
+    "Stanovenie výšky výnosu v bežnom období",
+    "Transakcie mimo IFRS 15"
+  ]
+}

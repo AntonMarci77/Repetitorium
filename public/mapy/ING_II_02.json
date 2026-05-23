@@ -1,0 +1,133 @@
+{
+  "id": "ING-II-2",
+  "subor": "ING_II_02.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "II",
+  "cislo": 2,
+  "nazov": "Plánovanie auditu, identifikácia rizík a vnútorný kontrolný systém pri audite účtovnej závierky",
+  "koren": {
+    "nazov": "Plánovanie auditu, identifikácia rizík a vnútorný kontrolný systém pri audite účtovnej závierky",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Audit je rizikovo orientovaný proces: audítor neoveruje všetko, ale sústredí zdroje tam, kde hrozí, že účtovná závierka obsahuje významnú nesprávnosť. Celá logika sa dá zhrnúť rovnicou rizika auditu AR = IR × CR × DR.…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Akceptácia zákazky a posúdenie rizika zákazky"
+          },
+          {
+            "nazov": "Plánovanie auditu podľa ISA 300 – význam"
+          },
+          {
+            "nazov": "Stratégia, plán a program auditu (obsah)"
+          },
+          {
+            "nazov": "Identifikácia rizík podľa ISA 315 a riziko významnej nesprávnosti"
+          },
+          {
+            "nazov": "Tvrdenia (assertions) v účtovnej závierke"
+          },
+          {
+            "nazov": "Vnútorný kontrolný systém – podstata a 5 komponentov COSO"
+          },
+          {
+            "nazov": "Testovanie vnútorného kontrolného systému (testy kontrol)"
+          },
+          {
+            "nazov": "Reakcia audítora na riziká podľa ISA 330"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "akceptácia (prijatie) zákazky"
+          },
+          {
+            "nazov": "riziko zákazky"
+          },
+          {
+            "nazov": "celková stratégia auditu (ISA 300)"
+          },
+          {
+            "nazov": "plán auditu (ISA 300)"
+          },
+          {
+            "nazov": "program auditu"
+          },
+          {
+            "nazov": "riziko auditu (AR)"
+          },
+          {
+            "nazov": "model rizika AR = IR × CR × DR"
+          },
+          {
+            "nazov": "inherentné (prirodzené) riziko (IR)"
+          },
+          {
+            "nazov": "kontrolné riziko (CR)"
+          },
+          {
+            "nazov": "detekčné (zisťovacie) riziko (DR)"
+          },
+          {
+            "nazov": "riziko významnej nesprávnosti (RMM = IR × CR)"
+          },
+          {
+            "nazov": "tvrdenia (assertions) v účtovnej závierke"
+          },
+          {
+            "nazov": "úroveň ÚZ vs. úroveň tvrdení"
+          },
+          {
+            "nazov": "vnútorný kontrolný systém (5 komponentov COSO)"
+          },
+          {
+            "nazov": "testy kontrol (testy spoľahlivosti)"
+          },
+          {
+            "nazov": "celkové reakcie a ďalšie audítorské postupy (ISA 330)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Tvrdiť, že audítor 'znižuje' inherentné a kontrolné riziko – tie existujú u klienta, audítor ich len POSUDZUJE; riadi…"
+          },
+          {
+            "nazov": "Zamieňať vzťah zložiek: DR je k RMM (IR × CR) NEPRIAMO úmerné – vysoké RMM → nízke DR → väčší rozsah testovania."
+          },
+          {
+            "nazov": "Stotožňovať stratégiu, plán a program auditu – ide o tri rôzne úrovne podrobnosti (od všeobecného k detailnému)."
+          },
+          {
+            "nazov": "Uvádzať nesprávny počet alebo zloženie komponentov COSO – sú PÄŤ (nie tri ako v staršom poňatí); patrí sem aj proces…"
+          },
+          {
+            "nazov": "Tvrdiť, že VKS dáva absolútnu istotu – dáva len PRIMERANÚ istotu (obmedzenia: ľudská chyba, koluzia, management…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Akceptácia zákazky a posúdenie rizika zákazky",
+    "Plánovanie auditu podľa ISA 300 – význam",
+    "Stratégia, plán a program auditu (obsah)",
+    "Identifikácia rizík podľa ISA 315 a riziko významnej nesprávnosti",
+    "Tvrdenia (assertions) v účtovnej závierke",
+    "Vnútorný kontrolný systém – podstata a 5 komponentov COSO",
+    "Testovanie vnútorného kontrolného systému (testy kontrol)",
+    "Reakcia audítora na riziká podľa ISA 330"
+  ]
+}

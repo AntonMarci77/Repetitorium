@@ -1,0 +1,78 @@
+<svg viewBox="0 0 720 480" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="480" fill="#ffffff"/>
+  <text x="360" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2d3d">Kalkulačný systém</text>
+  <text x="360" y="50" text-anchor="middle" font-size="12" fill="#5a6b7b">os času (kedy kalkulujem) a metóda rozvrhu réžie (podľa charakteru výroby)</text>
+
+  <!-- Time axis label -->
+  <text x="30" y="92" font-size="13" font-weight="bold" fill="#1f4e85">OS ČASU</text>
+
+  <!-- PRED výkonom -->
+  <rect x="30" y="104" width="350" height="150" rx="8" fill="#e8f1fb" stroke="#3b78c3" stroke-width="1.5"/>
+  <text x="46" y="126" font-size="14" font-weight="bold" fill="#1f4e85">PRED výkonom – predbežné kalkulácie</text>
+
+  <rect x="46" y="138" width="100" height="100" rx="6" fill="#ffffff" stroke="#3b78c3" stroke-width="1"/>
+  <text x="96" y="158" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2d3d">Prepočtová</text>
+  <text x="96" y="176" text-anchor="middle" font-size="10" fill="#5a6b7b">nový výrobok</text>
+  <text x="96" y="190" text-anchor="middle" font-size="10" fill="#5a6b7b">bez noriem</text>
+  <text x="96" y="220" text-anchor="middle" font-size="10" fill="#9b271b">najmenej presná</text>
+
+  <rect x="156" y="138" width="100" height="100" rx="6" fill="#ffffff" stroke="#3b78c3" stroke-width="1"/>
+  <text x="206" y="158" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2d3d">Plánová</text>
+  <text x="206" y="176" text-anchor="middle" font-size="10" fill="#5a6b7b">priemer roka</text>
+  <text x="206" y="190" text-anchor="middle" font-size="10" fill="#5a6b7b">plánové normy</text>
+
+  <rect x="266" y="138" width="100" height="100" rx="6" fill="#ffffff" stroke="#3a9d6a" stroke-width="2"/>
+  <text x="316" y="158" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f6b43">Operatívna</text>
+  <text x="316" y="176" text-anchor="middle" font-size="10" fill="#5a6b7b">aktuálne</text>
+  <text x="316" y="190" text-anchor="middle" font-size="10" fill="#5a6b7b">podmienky</text>
+  <text x="316" y="220" text-anchor="middle" font-size="10" fill="#1f6b43">najpresnejšia</text>
+
+  <text x="206" y="252" text-anchor="middle" font-size="10" fill="#5a6b7b">rastúca presnosť →</text>
+
+  <!-- arrow to comparison -->
+  <line x1="380" y1="179" x2="420" y2="179" stroke="#5a6b7b" stroke-width="2"/>
+  <polygon points="420,174 432,179 420,184" fill="#5a6b7b"/>
+
+  <!-- PO výkone -->
+  <rect x="436" y="104" width="254" height="150" rx="8" fill="#e3f4ea" stroke="#3a9d6a" stroke-width="1.5"/>
+  <text x="452" y="126" font-size="14" font-weight="bold" fill="#1f6b43">PO výkone</text>
+  <rect x="452" y="138" width="222" height="46" rx="6" fill="#ffffff" stroke="#3a9d6a" stroke-width="1"/>
+  <text x="563" y="158" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2d3d">Výsledná kalkulácia</text>
+  <text x="563" y="176" text-anchor="middle" font-size="10" fill="#5a6b7b">skutočné vlastné náklady</text>
+  <rect x="452" y="194" width="222" height="46" rx="6" fill="#fde8ee" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="563" y="214" text-anchor="middle" font-size="12" font-weight="bold" fill="#9b271b">Porovnanie → ODCHÝLKA</text>
+  <text x="563" y="232" text-anchor="middle" font-size="10" fill="#5a6b7b">úspora / prekročenie</text>
+
+  <!-- Methods axis -->
+  <text x="30" y="296" font-size="13" font-weight="bold" fill="#d79a2b">METÓDA ROZVRHU RÉŽIE (podľa charakteru výroby)</text>
+
+  <rect x="30" y="308" width="158" height="132" rx="8" fill="#fdf3e3" stroke="#d79a2b" stroke-width="1.5"/>
+  <text x="109" y="330" text-anchor="middle" font-size="13" font-weight="bold" fill="#8a5a13">Delenie</text>
+  <text x="109" y="352" text-anchor="middle" font-size="11" fill="#5a6b7b">jeden / rovnorodé</text>
+  <text x="109" y="368" text-anchor="middle" font-size="11" fill="#5a6b7b">výrobky</text>
+  <text x="109" y="392" text-anchor="middle" font-size="10" fill="#5a6b7b">jednoduché alebo</text>
+  <text x="109" y="406" text-anchor="middle" font-size="10" fill="#5a6b7b">pomerové čísla</text>
+
+  <rect x="198" y="308" width="158" height="132" rx="8" fill="#fdf3e3" stroke="#d79a2b" stroke-width="1.5"/>
+  <text x="277" y="330" text-anchor="middle" font-size="13" font-weight="bold" fill="#8a5a13">Prirážková</text>
+  <text x="277" y="352" text-anchor="middle" font-size="11" fill="#5a6b7b">rôznorodé výkony</text>
+  <text x="277" y="376" text-anchor="middle" font-size="10" fill="#5a6b7b">rozvrhová základňa</text>
+  <text x="277" y="392" text-anchor="middle" font-size="10" fill="#5a6b7b">→ prirážka (%) alebo</text>
+  <text x="277" y="406" text-anchor="middle" font-size="10" fill="#5a6b7b">sadzba (€/jedn.)</text>
+
+  <rect x="366" y="308" width="158" height="132" rx="8" fill="#fdf3e3" stroke="#d79a2b" stroke-width="1.5"/>
+  <text x="445" y="330" text-anchor="middle" font-size="13" font-weight="bold" fill="#8a5a13">Združená výroba</text>
+  <text x="445" y="352" text-anchor="middle" font-size="11" fill="#5a6b7b">viac produktov</text>
+  <text x="445" y="366" text-anchor="middle" font-size="11" fill="#5a6b7b">z 1 procesu</text>
+  <text x="445" y="390" text-anchor="middle" font-size="10" fill="#5a6b7b">rozčítavacia /</text>
+  <text x="445" y="404" text-anchor="middle" font-size="10" fill="#5a6b7b">zostatková / komb.</text>
+
+  <rect x="534" y="308" width="156" height="132" rx="8" fill="#f3e8fb" stroke="#8a4fbf" stroke-width="2"/>
+  <text x="612" y="330" text-anchor="middle" font-size="13" font-weight="bold" fill="#5e2d8a">ABC</text>
+  <text x="612" y="350" text-anchor="middle" font-size="10" fill="#5a6b7b">zdroje → aktivity</text>
+  <text x="612" y="364" text-anchor="middle" font-size="10" fill="#5a6b7b">→ výkony</text>
+  <text x="612" y="388" text-anchor="middle" font-size="10" fill="#5a6b7b">cost driver,</text>
+  <text x="612" y="402" text-anchor="middle" font-size="10" fill="#5a6b7b">presná pri réžiách</text>
+
+  <text x="360" y="462" text-anchor="middle" font-size="11" fill="#5a6b7b">Kalkulácia = na 1 KUS (kalkulačnú jednotku) · Rozpočet = na CELOK a obdobie</text>
+</svg>

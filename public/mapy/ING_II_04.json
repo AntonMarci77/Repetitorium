@@ -1,0 +1,138 @@
+{
+  "id": "ING-II-4",
+  "subor": "ING_II_04.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "II",
+  "cislo": 4,
+  "nazov": "Audit konsolidovanej účtovnej závierky",
+  "koren": {
+    "nazov": "Audit konsolidovanej účtovnej závierky",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Audit konsolidovanej (skupinovej) účtovnej závierky je JEDEN audit JEDNEJ závierky – nie súčet auditov dcér. Skupinový audítor nesie PLNÚ a NEDELITEĽNÚ zodpovednosť za výrok na konsolidovanú závierku, aj keď časť práce…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Skupinový audítor, audítor komponentu, komponent (ISA 600 revidovaný)"
+          },
+          {
+            "nazov": "Rizikovo orientovaný prístup zhora nadol a rozsah (scoping)"
+          },
+          {
+            "nazov": "Komunikácia, dohľad a vyhodnotenie práce audítora komponentu"
+          },
+          {
+            "nazov": "Využitie práce interného auditu (ISA 610)"
+          },
+          {
+            "nazov": "Využitie práce experta audítora (ISA 620)"
+          },
+          {
+            "nazov": "Audit účtovných odhadov (ISA 540 revidovaný)"
+          },
+          {
+            "nazov": "Spriaznené osoby (ISA 550)"
+          },
+          {
+            "nazov": "Následné udalosti (ISA 560)"
+          },
+          {
+            "nazov": "Going concern – nepretržité pokračovanie (ISA 570)"
+          },
+          {
+            "nazov": "Písomné vyhlásenia manažmentu (ISA 580)"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "audit účtovnej závierky skupiny (group audit)"
+          },
+          {
+            "nazov": "skupinový (poverený) audítor a tím skupinovej zákazky"
+          },
+          {
+            "nazov": "audítor komponentu (component auditor)"
+          },
+          {
+            "nazov": "komponent (component)"
+          },
+          {
+            "nazov": "ISA 600 (revidovaný) – rizikovo orientovaný prístup zhora nadol"
+          },
+          {
+            "nazov": "významnosť na úrovni skupiny a významnosť pre komponent"
+          },
+          {
+            "nazov": "ISA 610 – využitie práce interného auditu a priama pomoc"
+          },
+          {
+            "nazov": "ISA 620 – expert audítora"
+          },
+          {
+            "nazov": "ISA 540 (revidovaný) – účtovné odhady, spektrum neistoty"
+          },
+          {
+            "nazov": "ISA 550 – spriaznené osoby"
+          },
+          {
+            "nazov": "ISA 560 – následné udalosti"
+          },
+          {
+            "nazov": "ISA 570 – nepretržité pokračovanie v činnosti (going concern)"
+          },
+          {
+            "nazov": "ISA 580 – písomné vyhlásenia manažmentu"
+          },
+          {
+            "nazov": "konsolidačný proces a eliminácie"
+          },
+          {
+            "nazov": "modifikácia názoru audítora"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Tvrdiť, že skupinový audit je súčet auditov dcér – je to jeden audit jednej (konsolidovanej) závierky s jedným výrokom."
+          },
+          {
+            "nazov": "Používať starú terminológiu 'významný / nevýznamný komponent' – revidovaný ISA 600 (od 15. 12. 2023) ju zrušil a…"
+          },
+          {
+            "nazov": "Tvrdiť, že audítor komponentu je externý subjekt, na ktorého sa skupinový tím 'spolieha' – po revízii je súčasťou tímu…"
+          },
+          {
+            "nazov": "Myslieť si, že využitie interného auditu (610) alebo experta (620) prenáša časť zodpovednosti za výrok – zodpovednosť…"
+          },
+          {
+            "nazov": "Zamieňať experta audítora (ISA 620) s expertom manažmentu (rieši ISA 500)."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Skupinový audítor, audítor komponentu, komponent (ISA 600 revidovaný)",
+    "Rizikovo orientovaný prístup zhora nadol a rozsah (scoping)",
+    "Komunikácia, dohľad a vyhodnotenie práce audítora komponentu",
+    "Využitie práce interného auditu (ISA 610)",
+    "Využitie práce experta audítora (ISA 620)",
+    "Audit účtovných odhadov (ISA 540 revidovaný)",
+    "Spriaznené osoby (ISA 550)",
+    "Následné udalosti (ISA 560)",
+    "Going concern – nepretržité pokračovanie (ISA 570)",
+    "Písomné vyhlásenia manažmentu (ISA 580)"
+  ]
+}

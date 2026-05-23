@@ -1,0 +1,74 @@
+<svg viewBox="0 0 760 520" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="520" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Graf bodu zvratu</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#5a6b85">cena 50 €/ks · variabilný náklad 30 €/ks · fixné náklady 40 000 €</text>
+
+  <!-- Plot area -->
+  <!-- axes origin at (90,430), width 600, height 330 -->
+  <line x1="90" y1="430" x2="700" y2="430" stroke="#33415c" stroke-width="2"/>
+  <line x1="90" y1="430" x2="90" y2="90" stroke="#33415c" stroke-width="2"/>
+  <!-- Y axis arrow -->
+  <polygon points="90,82 85,94 95,94" fill="#33415c"/>
+  <polygon points="708,430 696,425 696,435" fill="#33415c"/>
+
+  <!-- Axis labels -->
+  <text x="60" y="100" font-size="13" fill="#33415c">€</text>
+  <text x="700" y="455" text-anchor="end" font-size="13" fill="#33415c">objem (ks)</text>
+
+  <!-- X gridlines / ticks: 0,1000,2000,3000,4000 mapped 90..690 (600px for 4000 ks =>0.15px/ks) -->
+  <!-- 1000 ks -> x=240; 2000 ->390; 3000 ->540; 4000 ->690 -->
+  <g font-size="11" fill="#5a6b85" text-anchor="middle">
+    <line x1="240" y1="430" x2="240" y2="435" stroke="#33415c"/><text x="240" y="450">1000</text>
+    <line x1="390" y1="430" x2="390" y2="435" stroke="#33415c"/><text x="390" y="450">2000</text>
+    <line x1="540" y1="430" x2="540" y2="435" stroke="#33415c"/><text x="540" y="450">3000</text>
+    <line x1="690" y1="430" x2="690" y2="435" stroke="#33415c"/><text x="690" y="450">4000</text>
+  </g>
+  <!-- Y ticks: 0,50k,100k,150k,200k mapped 430..90 (340px for 200000 => 0.0017px/€) -->
+  <!-- 50000 ->345; 100000->260; 150000->175; 200000->90 -->
+  <g font-size="11" fill="#5a6b85" text-anchor="end">
+    <line x1="85" y1="345" x2="90" y2="345" stroke="#33415c"/><text x="80" y="349">50 000</text>
+    <line x1="85" y1="260" x2="90" y2="260" stroke="#33415c"/><text x="80" y="264">100 000</text>
+    <line x1="85" y1="175" x2="90" y2="175" stroke="#33415c"/><text x="80" y="179">150 000</text>
+    <line x1="85" y1="90" x2="90" y2="90" stroke="#33415c"/><text x="80" y="94">200 000</text>
+  </g>
+
+  <!-- Fixed cost line: 40000 € constant -> y = 430 - 40000*0.0017 = 430-68 = 362 -->
+  <line x1="90" y1="362" x2="690" y2="362" stroke="#9aa7bd" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="100" y="356" font-size="12" fill="#6b7890">Fixné náklady = 40 000 €</text>
+
+  <!-- Total cost line: TC = 40000 + 30*Q. At Q=0 ->40000 (y=362); at Q=4000 ->160000 (y=430-272=158) -->
+  <line x1="90" y1="362" x2="690" y2="158" stroke="#d9822b" stroke-width="3"/>
+  <text x="600" y="150" font-size="12" fill="#d9822b" font-weight="bold">Celkové náklady</text>
+
+  <!-- Revenue line: R = 50*Q. At Q=0 ->0 (y=430); at Q=4000 ->200000 (y=90) -->
+  <line x1="90" y1="430" x2="690" y2="90" stroke="#2f8f5b" stroke-width="3"/>
+  <text x="600" y="100" font-size="12" fill="#2f8f5b" font-weight="bold">Tržby</text>
+
+  <!-- Loss region shading (left of BEP between revenue and cost) -->
+  <polygon points="90,430 90,362 390,260 390,260" fill="#e74c3c" opacity="0.10"/>
+  <text x="200" y="400" font-size="13" fill="#c0392b" font-weight="bold">STRATA</text>
+
+  <!-- Profit region -->
+  <polygon points="390,260 690,90 690,158" fill="#2f8f5b" opacity="0.12"/>
+  <text x="560" y="200" font-size="13" fill="#1e7a45" font-weight="bold">ZISK</text>
+
+  <!-- Break-even point at Q=2000 (x=390), y where lines cross: revenue at 2000 =100000 -> y=260 -->
+  <circle cx="390" cy="260" r="6" fill="#1a2b4a"/>
+  <line x1="390" y1="260" x2="390" y2="430" stroke="#1a2b4a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="390" y1="260" x2="90" y2="260" stroke="#1a2b4a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <rect x="404" y="232" width="186" height="44" rx="6" fill="#1a2b4a"/>
+  <text x="497" y="251" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">BOD ZVRATU</text>
+  <text x="497" y="268" text-anchor="middle" font-size="12" fill="#dfe6f2">2 000 ks = 100 000 € · VH = 0</text>
+
+  <!-- Safety margin marker (aktuálny predaj 2600 ks -> x=480) -->
+  <line x1="480" y1="430" x2="480" y2="412" stroke="#7d4fc4" stroke-width="2"/>
+  <line x1="390" y1="420" x2="480" y2="420" stroke="#7d4fc4" stroke-width="2"/>
+  <polygon points="390,420 398,416 398,424" fill="#7d4fc4"/>
+  <polygon points="480,420 472,416 472,424" fill="#7d4fc4"/>
+  <text x="435" y="411" text-anchor="middle" font-size="10" fill="#7d4fc4" font-weight="bold">bezpečnostné</text>
+  <text x="435" y="479" text-anchor="middle" font-size="10" fill="#7d4fc4">rozpätie (600 ks)</text>
+
+  <!-- Formula box -->
+  <rect x="90" y="486" width="600" height="26" rx="5" fill="#eef2f8"/>
+  <text x="380" y="503" text-anchor="middle" font-size="13" fill="#1a2b4a">Bod zvratu = FN / (cena − variabilný náklad) = 40 000 / (50 − 30) = 2 000 ks</text>
+</svg>

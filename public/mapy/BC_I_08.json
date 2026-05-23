@@ -1,0 +1,132 @@
+{
+  "id": "BC-I-8",
+  "subor": "BC_I_08.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "I",
+  "cislo": 8,
+  "nazov": "Kalkulačný systém a zodpovednostné účtovníctvo",
+  "koren": {
+    "nazov": "Kalkulačný systém a zodpovednostné účtovníctvo",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Kalkulácia odpovedá na otázku 'koľko ma stojí JEDEN výkon' (kalkulačná jednotka – 1 ks, 1 kg, 1 hodina). Kalkulačný systém je súbor všetkých kalkulácií podniku a ich väzieb. Mysli v dvoch osiach. Prvá os je ČAS: PRED…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Predbežné kalkulácie (pred výkonom)"
+          },
+          {
+            "nazov": "Výsledná kalkulácia a využitie (po výkone)"
+          },
+          {
+            "nazov": "Typový kalkulačný vzorec a jeho štruktúra"
+          },
+          {
+            "nazov": "Kalkulačné metódy – nezdružená výroba: delenie"
+          },
+          {
+            "nazov": "Kalkulačné metódy – nezdružená výroba: prirážková kalkulácia"
+          },
+          {
+            "nazov": "Kalkulácia v združenej výrobe"
+          },
+          {
+            "nazov": "Kalkulácia podľa čiastkových činností (ABC)"
+          },
+          {
+            "nazov": "Zodpovednostné účtovníctvo a strediská"
+          },
+          {
+            "nazov": "Vnútropodnikové ceny na báze nákladov a na báze zisku"
+          },
+          {
+            "nazov": "Rozpočty – význam, typy a kontrola"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "kalkulácia a kalkulačná jednotka"
+          },
+          {
+            "nazov": "kalkulačný systém"
+          },
+          {
+            "nazov": "predbežná kalkulácia (prepočtová, plánová, operatívna)"
+          },
+          {
+            "nazov": "výsledná kalkulácia"
+          },
+          {
+            "nazov": "typový kalkulačný vzorec"
+          },
+          {
+            "nazov": "úplné vlastné náklady výkonu"
+          },
+          {
+            "nazov": "kalkulácia delením (jednoduchým, pomerovými číslami)"
+          },
+          {
+            "nazov": "prirážková kalkulácia (rozvrhová základňa, réžijná prirážka/sadzba)"
+          },
+          {
+            "nazov": "združená výroba (rozčítavacia, zostatková, kombinovaná metóda)"
+          },
+          {
+            "nazov": "kalkulácia podľa čiastkových činností (ABC, cost driver)"
+          },
+          {
+            "nazov": "zodpovednostné účtovníctvo a strediská zodpovednosti"
+          },
+          {
+            "nazov": "vnútropodniková cena na báze nákladov a na báze zisku"
+          },
+          {
+            "nazov": "rozpočet a kontrola plnenia rozpočtu"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať poradie presnosti predbežných kalkulácií – najpresnejšia je operatívna, nie plánová; prepočtová je najmenej…"
+          },
+          {
+            "nazov": "Pliesť si maržu a prirážku – prirážka sa počíta z nákladov, marža z predajnej ceny (pri cene 125 a nákladoch 100:…"
+          },
+          {
+            "nazov": "Tvrdiť, že prirážková kalkulácia je vhodná aj pri jednom druhu výrobku – tam stačí jednoduché delenie; prirážka je pre…"
+          },
+          {
+            "nazov": "Zameniť rozčítavaciu a zostatkovú metódu v združenej výrobe – zostatková je pre jeden hlavný + vedľajšie produkty,…"
+          },
+          {
+            "nazov": "Myslieť si, že ABC ruší priame náklady – ABC mení len rozvrh RÉŽIE; priame náklady sa naďalej priraďujú priamo."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Predbežné kalkulácie (pred výkonom)",
+    "Výsledná kalkulácia a využitie (po výkone)",
+    "Typový kalkulačný vzorec a jeho štruktúra",
+    "Kalkulačné metódy – nezdružená výroba: delenie",
+    "Kalkulačné metódy – nezdružená výroba: prirážková kalkulácia",
+    "Kalkulácia v združenej výrobe",
+    "Kalkulácia podľa čiastkových činností (ABC)",
+    "Zodpovednostné účtovníctvo a strediská",
+    "Vnútropodnikové ceny na báze nákladov a na báze zisku",
+    "Rozpočty – význam, typy a kontrola"
+  ]
+}

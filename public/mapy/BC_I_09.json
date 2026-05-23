@@ -1,0 +1,130 @@
+{
+  "id": "BC-I-9",
+  "subor": "BC_I_09.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "I",
+  "cislo": 9,
+  "nazov": "Účtovníctvo rozpočtových organizácií, príspevkových organizácií a obcí",
+  "koren": {
+    "nazov": "Účtovníctvo rozpočtových organizácií, príspevkových organizácií a obcí",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Verejné účtovníctvo je to isté podvojné, akruálne účtovníctvo ako u podnikateľov (rovnaké triedy 0–9, odpisy, časové rozlíšenie), len obohatené o tri „verejné“ účtové skupiny a o logiku rozpočtu. Tri kľúčové skupiny:…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Vymedzenie RO a PO a ich zriaďovanie"
+          },
+          {
+            "nazov": "Podstata financovania RO vs. PO"
+          },
+          {
+            "nazov": "Charakteristika účtovníctva RO"
+          },
+          {
+            "nazov": "Účtovanie príjmov a výdavkov v štátnej RO a v RO obce/VÚC"
+          },
+          {
+            "nazov": "Výnosy z transferov a ich účtovné zobrazenie"
+          },
+          {
+            "nazov": "Pohľadávky z daňových a nedaňových príjmov; daňové výnosy obce"
+          },
+          {
+            "nazov": "Náklady z odvodu príjmov a zúčtovanie odvodu RO do rozpočtu zriaďovateľa"
+          },
+          {
+            "nazov": "Podstata účtovného VH RO a PO; OP a rezervy v PO"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "rozpočtová organizácia (RO)"
+          },
+          {
+            "nazov": "príspevková organizácia (PO)"
+          },
+          {
+            "nazov": "zriaďovateľ (štát, obec, VÚC)"
+          },
+          {
+            "nazov": "napojenie na rozpočet (brutto vs. netto)"
+          },
+          {
+            "nazov": "akruálny princíp"
+          },
+          {
+            "nazov": "bežný a kapitálový transfer"
+          },
+          {
+            "nazov": "výnosy z transferov (skupina 68x / 69x)"
+          },
+          {
+            "nazov": "náklady na transfery (skupina 58x)"
+          },
+          {
+            "nazov": "zúčtovanie medzi subjektmi verejnej správy (skupina 35x)"
+          },
+          {
+            "nazov": "časové rozlíšenie transferu (384)"
+          },
+          {
+            "nazov": "odvod príjmov RO (588/351)"
+          },
+          {
+            "nazov": "pohľadávky z daňových a nedaňových príjmov (318/319)"
+          },
+          {
+            "nazov": "daňové výnosy samosprávy (632)"
+          },
+          {
+            "nazov": "účtovný výsledok hospodárenia vs. rozpočtový prebytok/schodok"
+          },
+          {
+            "nazov": "opravné položky a rezervy v PO"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať RO a PO – RO je napojená brutto (príjmy aj výdavky) a príjmy odvádza, PO len príspevkom a vlastné výnosy si…"
+          },
+          {
+            "nazov": "Mýliť si smer pravidla 50 %: PO kryje vlastnými tržbami MENEJ ako 50 % výrobných nákladov (zvyšok dorovná zriaďovateľ…"
+          },
+          {
+            "nazov": "Zúčtovať celý kapitálový transfer do výnosov naraz – musí sa časovo rozlišovať cez 384 a rozpúšťať vo výške ročného…"
+          },
+          {
+            "nazov": "Zamieňať bežný a kapitálový výnos z transferu pri obci: 693 = bežný transfer samosprávy zo ŠR/od iných subjektov VS,…"
+          },
+          {
+            "nazov": "Pliesť si výnosové účty štát vs. samospráva: štát 681/682 (zo ŠR), 683/684 (od ostatných subjektov VS); samospráva…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Vymedzenie RO a PO a ich zriaďovanie",
+    "Podstata financovania RO vs. PO",
+    "Charakteristika účtovníctva RO",
+    "Účtovanie príjmov a výdavkov v štátnej RO a v RO obce/VÚC",
+    "Výnosy z transferov a ich účtovné zobrazenie",
+    "Pohľadávky z daňových a nedaňových príjmov; daňové výnosy obce",
+    "Náklady z odvodu príjmov a zúčtovanie odvodu RO do rozpočtu zriaďovateľa",
+    "Podstata účtovného VH RO a PO; OP a rezervy v PO"
+  ]
+}

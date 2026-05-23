@@ -1,0 +1,52 @@
+<svg viewBox="0 0 820 470" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="820" height="470" fill="#ffffff"/>
+  <text x="410" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4a">Napojenie RO a PO na rozpočet zriaďovateľa</text>
+
+  <!-- Zriaďovateľ -->
+  <rect x="300" y="55" width="220" height="55" rx="8" fill="#1a2b4a"/>
+  <text x="410" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">ZRIAĎOVATEĽ</text>
+  <text x="410" y="99" text-anchor="middle" font-size="12" fill="#cdd8ec">štát / obec / VÚC – rozpočet</text>
+
+  <!-- RO column -->
+  <rect x="40" y="150" width="330" height="280" rx="10" fill="#eef4fb" stroke="#2f6fb0" stroke-width="2"/>
+  <text x="205" y="178" text-anchor="middle" font-size="17" font-weight="bold" fill="#2f6fb0">ROZPOČTOVÁ ORGANIZÁCIA</text>
+  <text x="205" y="200" text-anchor="middle" font-size="13" fill="#33475b">napojená BRUTTO (Rovno celá)</text>
+
+  <text x="60" y="232" font-size="12.5" fill="#33475b">• výdavky limitované rozpočtom</text>
+  <text x="60" y="254" font-size="12.5" fill="#33475b">• vlastné príjmy NIE sú jej zdrojom</text>
+  <text x="60" y="276" font-size="12.5" fill="#33475b">• príjmy ODVÁDZA zriaďovateľovi</text>
+  <rect x="78" y="294" width="254" height="40" rx="6" fill="#d8e6f5" stroke="#2f6fb0"/>
+  <text x="205" y="313" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Odvod príjmov: 588 / 351</text>
+  <text x="205" y="329" text-anchor="middle" font-size="11.5" fill="#33475b">(náklad cez medziúčet skupiny 35)</text>
+  <text x="60" y="362" font-size="12.5" fill="#33475b">• štát cez ŠP (224/225), obec cez 221</text>
+  <rect x="78" y="378" width="254" height="34" rx="6" fill="#2f6fb0"/>
+  <text x="205" y="400" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#ffffff">Účtovný VH ≈ 0 (neutrálny)</text>
+
+  <!-- PO column -->
+  <rect x="450" y="150" width="330" height="280" rx="10" fill="#eefaf2" stroke="#2e9e6b" stroke-width="2"/>
+  <text x="615" y="178" text-anchor="middle" font-size="17" font-weight="bold" fill="#2e9e6b">PRÍSPEVKOVÁ ORGANIZÁCIA</text>
+  <text x="615" y="200" text-anchor="middle" font-size="13" fill="#33475b">napojená NETTO (len Príspevkom)</text>
+
+  <text x="470" y="232" font-size="12.5" fill="#33475b">• vlastné výnosy si PONECHÁVA</text>
+  <text x="470" y="254" font-size="12.5" fill="#33475b">• tržby kryjú &lt; 50 % nákladov</text>
+  <rect x="488" y="270" width="254" height="40" rx="6" fill="#d6f0e2" stroke="#2e9e6b"/>
+  <text x="615" y="289" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Príspevok od zriaďovateľa</text>
+  <text x="615" y="305" text-anchor="middle" font-size="11.5" fill="#33475b">bežný transfer → 691/681, kap. → 384</text>
+  <text x="470" y="338" font-size="12.5" fill="#33475b">• dorovnanie do vyrovnaného rozpočtu</text>
+  <text x="470" y="360" font-size="12.5" fill="#33475b">• tvorí fondy, OP (558/39x), rezervy</text>
+  <rect x="488" y="378" width="254" height="34" rx="6" fill="#2e9e6b"/>
+  <text x="615" y="400" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#ffffff">Účtovný VH môže byť +/−</text>
+
+  <!-- arrows from zriaďovateľ -->
+  <line x1="360" y1="110" x2="205" y2="150" stroke="#2f6fb0" stroke-width="2.5" marker-end="url(#a1)"/>
+  <line x1="460" y1="110" x2="615" y2="150" stroke="#2e9e6b" stroke-width="2.5" marker-end="url(#a2)"/>
+  <!-- odvod back arrow RO -> zriadovatel -->
+  <line x1="205" y1="150" x2="345" y2="112" stroke="#b03a3a" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#a3)"/>
+  <text x="250" y="135" font-size="10.5" fill="#b03a3a" font-weight="bold">odvod príjmov</text>
+
+  <defs>
+    <marker id="a1" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2f6fb0"/></marker>
+    <marker id="a2" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2e9e6b"/></marker>
+    <marker id="a3" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#b03a3a"/></marker>
+  </defs>
+</svg>

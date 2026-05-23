@@ -1,0 +1,59 @@
+<svg viewBox="0 0 920 480" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="920" height="480" fill="#ffffff"/>
+  <text x="460" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a3c5e">Mechanizmus DPH: daň na výstupe − daň na vstupe (sadzba 23 %)</text>
+  <text x="460" y="58" text-anchor="middle" font-size="13" fill="#555">V každom článku sa odvedie len daň z PRIDANEJ hodnoty; celú daň znáša až spotrebiteľ.</text>
+
+  <!-- Stlpce reťazca -->
+  <!-- 1 Vyrobca -->
+  <rect x="40" y="100" width="180" height="150" rx="10" fill="#e8f1fb" stroke="#3b78c3" stroke-width="2"/>
+  <text x="130" y="124" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3c5e">Výrobca</text>
+  <text x="130" y="150" text-anchor="middle" font-size="12" fill="#333">Predaj: 200 €</text>
+  <text x="130" y="170" text-anchor="middle" font-size="12" fill="#333">Výstup: +46 €</text>
+  <text x="130" y="190" text-anchor="middle" font-size="12" fill="#333">Vstup: 0 €</text>
+  <line x1="55" y1="202" x2="205" y2="202" stroke="#3b78c3" stroke-width="1"/>
+  <text x="130" y="224" text-anchor="middle" font-size="13" font-weight="bold" fill="#0a6e2e">Odvedie: 46 €</text>
+
+  <!-- 2 Velkoobchod -->
+  <rect x="250" y="100" width="180" height="150" rx="10" fill="#e8f1fb" stroke="#3b78c3" stroke-width="2"/>
+  <text x="340" y="124" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3c5e">Veľkoobchod</text>
+  <text x="340" y="150" text-anchor="middle" font-size="12" fill="#333">Predaj: 500 €</text>
+  <text x="340" y="170" text-anchor="middle" font-size="12" fill="#333">Výstup: +115 €</text>
+  <text x="340" y="190" text-anchor="middle" font-size="12" fill="#333">Vstup: −46 €</text>
+  <line x1="265" y1="202" x2="415" y2="202" stroke="#3b78c3" stroke-width="1"/>
+  <text x="340" y="224" text-anchor="middle" font-size="13" font-weight="bold" fill="#0a6e2e">Odvedie: 69 €</text>
+
+  <!-- 3 Maloobchod -->
+  <rect x="460" y="100" width="180" height="150" rx="10" fill="#e8f1fb" stroke="#3b78c3" stroke-width="2"/>
+  <text x="550" y="124" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3c5e">Maloobchod</text>
+  <text x="550" y="150" text-anchor="middle" font-size="12" fill="#333">Predaj: 1 500 €</text>
+  <text x="550" y="170" text-anchor="middle" font-size="12" fill="#333">Výstup: +345 €</text>
+  <text x="550" y="190" text-anchor="middle" font-size="12" fill="#333">Vstup: −115 €</text>
+  <line x1="475" y1="202" x2="625" y2="202" stroke="#3b78c3" stroke-width="1"/>
+  <text x="550" y="224" text-anchor="middle" font-size="13" font-weight="bold" fill="#0a6e2e">Odvedie: 230 €</text>
+
+  <!-- 4 Spotrebitel -->
+  <rect x="670" y="100" width="210" height="150" rx="10" fill="#fbeee8" stroke="#c3683b" stroke-width="2"/>
+  <text x="775" y="124" text-anchor="middle" font-size="15" font-weight="bold" fill="#7a3a18">Spotrebiteľ</text>
+  <text x="775" y="152" text-anchor="middle" font-size="12" fill="#333">Zaplatí 1 845 €</text>
+  <text x="775" y="172" text-anchor="middle" font-size="12" fill="#333">(1 500 + 345 DPH)</text>
+  <line x1="685" y1="186" x2="865" y2="186" stroke="#c3683b" stroke-width="1"/>
+  <text x="775" y="210" text-anchor="middle" font-size="13" font-weight="bold" fill="#a3331a">Znáša celú DPH</text>
+  <text x="775" y="230" text-anchor="middle" font-size="13" font-weight="bold" fill="#a3331a">345 €</text>
+
+  <!-- Sipky toku -->
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#888"/>
+    </marker>
+  </defs>
+  <line x1="222" y1="160" x2="246" y2="160" stroke="#888" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="432" y1="160" x2="456" y2="160" stroke="#888" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="642" y1="160" x2="666" y2="160" stroke="#888" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Sucet -->
+  <rect x="40" y="300" width="840" height="120" rx="12" fill="#f3f7ec" stroke="#6f9c3a" stroke-width="2"/>
+  <text x="460" y="332" text-anchor="middle" font-size="16" font-weight="bold" fill="#3f5e1f">Súčet odvedený štátu = 46 + 69 + 230 = 345 €</text>
+  <text x="460" y="360" text-anchor="middle" font-size="14" fill="#333">= presne DPH z konečnej ceny pre spotrebiteľa (1 500 × 23 %).</text>
+  <text x="460" y="390" text-anchor="middle" font-size="14" fill="#333">Daň sa po reťazci NEDUPLIKUJE: zdaňuje sa len pridaná hodnota každého článku.</text>
+  <text x="460" y="412" text-anchor="middle" font-size="13" font-style="italic" fill="#666">Vlastná daňová povinnosť = daň na výstupe − odpočítateľná daň na vstupe.</text>
+</svg>

@@ -1,0 +1,131 @@
+{
+  "id": "BC-I-3",
+  "subor": "BC_I_03.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "I",
+  "cislo": 3,
+  "nazov": "Oceňovanie, účtovné zásady a účtovné metódy",
+  "koren": {
+    "nazov": "Oceňovanie, účtovné zásady a účtovné metódy",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Oceňovanie zodpovedá na dve otázky: ČÍM oceniť (veličina) a KEDY oceniť (deň ocenenia). KEDY: zákon pozná dva momenty – (1) deň uskutočnenia účtovného prípadu (prírastok/úbytok majetku, vznik záväzku) a (2) deň, ku…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Dva dni ocenenia (§ 24 ods. 1)"
+          },
+          {
+            "nazov": "Oceňovacie veličiny pri prírastku (§ 25 ods. 1 a 6)"
+          },
+          {
+            "nazov": "Reprodukčná obstarávacia cena – historická veličina"
+          },
+          {
+            "nazov": "Reálna hodnota – charakteristika (§ 27 ods. 2)"
+          },
+          {
+            "nazov": "Aký majetok sa oceňuje reálnou hodnotou ku dňu závierky (§ 27 ods. 1)"
+          },
+          {
+            "nazov": "Oceňovanie cudzou menou (§ 24 ods. 2 – 6)"
+          },
+          {
+            "nazov": "Ocenenie ku dňu závierky a zásada opatrnosti (§ 26)"
+          },
+          {
+            "nazov": "Účtovné zásady a účtovné metódy (§ 7, § 4 ods. 2)"
+          },
+          {
+            "nazov": "Zmeny zásad/metód, zmeny odhadov a oprava chýb"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "deň ocenenia (§ 24 ods. 1)"
+          },
+          {
+            "nazov": "obstarávacia cena (OC)"
+          },
+          {
+            "nazov": "vlastné náklady (VN)"
+          },
+          {
+            "nazov": "menovitá hodnota"
+          },
+          {
+            "nazov": "reálna hodnota (RH)"
+          },
+          {
+            "nazov": "reprodukčná obstarávacia cena (do 31. 12. 2015, zrušená)"
+          },
+          {
+            "nazov": "čistá realizačná hodnota zásob (§ 26)"
+          },
+          {
+            "nazov": "referenčný kurz ECB/NBS (§ 24)"
+          },
+          {
+            "nazov": "verný a pravdivý obraz (§ 7 ods. 1)"
+          },
+          {
+            "nazov": "účtovné zásady a účtovné metódy"
+          },
+          {
+            "nazov": "zásada opatrnosti a going concern"
+          },
+          {
+            "nazov": "akruálny princíp (vecná a časová súvislosť)"
+          },
+          {
+            "nazov": "oprava chyby minulých období (528 vs. 428/429)"
+          },
+          {
+            "nazov": "zmena účtovného odhadu (prospektívne)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať obstarávaciu cenu (kúpa) a vlastné náklady (vlastná výroba) – veličina sa volí podľa spôsobu nadobudnutia."
+          },
+          {
+            "nazov": "Tvrdiť, že dar sa oceňuje reprodukčnou obstarávacou cenou – platí to len do 31. 12. 2015; od 2016 je to reálna hodnota."
+          },
+          {
+            "nazov": "Myslieť si, že na reálnu hodnotu sa preceňuje všetok majetok – preceňujú sa najmä CP, deriváty, komodity; zásoby a DM…"
+          },
+          {
+            "nazov": "Prepočítavať cudziu menu kurzom dňa prípadu – pri účtovnom prípade je to kurz dňa PREDCHÁDZAJÚCEHO."
+          },
+          {
+            "nazov": "Zamieňať zmenu účtovného odhadu (prospektívne) s opravou chyby (významná spätne cez 428/429)."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Dva dni ocenenia (§ 24 ods. 1)",
+    "Oceňovacie veličiny pri prírastku (§ 25 ods. 1 a 6)",
+    "Reprodukčná obstarávacia cena – historická veličina",
+    "Reálna hodnota – charakteristika (§ 27 ods. 2)",
+    "Aký majetok sa oceňuje reálnou hodnotou ku dňu závierky (§ 27 ods. 1)",
+    "Oceňovanie cudzou menou (§ 24 ods. 2 – 6)",
+    "Ocenenie ku dňu závierky a zásada opatrnosti (§ 26)",
+    "Účtovné zásady a účtovné metódy (§ 7, § 4 ods. 2)",
+    "Zmeny zásad/metód, zmeny odhadov a oprava chýb"
+  ]
+}

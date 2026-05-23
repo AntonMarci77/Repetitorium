@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="560" fill="#ffffff"/>
+  <text x="450" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a2a4a">Štyri skupiny pomerových ukazovateľov</text>
+  <text x="450" y="60" text-anchor="middle" font-size="14" fill="#5a6a85">Pomer dvoch položiek závierky – vždy porovnaj v čase, s odvetvím a interpretuj</text>
+
+  <!-- AKTIVITA -->
+  <rect x="40" y="90" width="390" height="190" rx="10" fill="#eef4fb" stroke="#2e6fb0" stroke-width="2"/>
+  <text x="60" y="120" font-size="19" font-weight="bold" fill="#1d4e89">AKTIVITA</text>
+  <text x="60" y="142" font-size="13" font-style="italic" fill="#5a6a85">"Ako efektívne mi pracuje majetok?"</text>
+  <text x="60" y="170" font-size="13" fill="#222">Obrat celkových aktív = tržby / aktíva</text>
+  <text x="60" y="192" font-size="13" fill="#222">Obrat zásob = tržby / priemerné zásoby</text>
+  <text x="60" y="214" font-size="13" fill="#222">Doba inkasa pohľ. = pohľ. / (tržby/365)</text>
+  <text x="60" y="236" font-size="13" fill="#222">Doba úhrady záv. = záv. / (tržby/365)</text>
+  <text x="60" y="262" font-size="12" fill="#2e6fb0">obrátky (×/rok) a doby obratu (dni)</text>
+
+  <!-- ZADLZENOST -->
+  <rect x="470" y="90" width="390" height="190" rx="10" fill="#fdf0ee" stroke="#c0492e" stroke-width="2"/>
+  <text x="490" y="120" font-size="19" font-weight="bold" fill="#a8381f">ZADLŽENOSŤ</text>
+  <text x="490" y="142" font-size="13" font-style="italic" fill="#5a6a85">"Z čoho je financovaný a koľko rizika?"</text>
+  <text x="490" y="170" font-size="13" fill="#222">Celková zadlž. = cudzí kapitál / aktíva</text>
+  <text x="490" y="192" font-size="13" fill="#222">Samofinancovanie = VI / aktíva</text>
+  <text x="490" y="214" font-size="13" fill="#222">Úrokové krytie = EBIT / nákl. úroky</text>
+  <text x="490" y="236" font-size="13" fill="#222">Finančná páka = aktíva / VI</text>
+  <text x="490" y="262" font-size="12" fill="#c0492e">zadlž. &lt; 50 % (max ~70 %); krytie ≥ 5</text>
+
+  <!-- RENTABILITA -->
+  <rect x="40" y="300" width="390" height="190" rx="10" fill="#eef8f0" stroke="#2f8f4e" stroke-width="2"/>
+  <text x="60" y="330" font-size="19" font-weight="bold" fill="#1f7340">RENTABILITA</text>
+  <text x="60" y="352" font-size="13" font-style="italic" fill="#5a6a85">"Koľko zisku to tvorí?"</text>
+  <text x="60" y="380" font-size="13" fill="#222">ROA = EBIT / aktíva</text>
+  <text x="60" y="402" font-size="13" fill="#222">ROE = čistý zisk / vlastné imanie</text>
+  <text x="60" y="424" font-size="13" fill="#222">ROS = zisk / tržby (marža)</text>
+  <text x="60" y="446" font-size="13" fill="#222">EVA = (ROIC − WACC) × inv. kapitál</text>
+  <text x="60" y="472" font-size="12" fill="#2f8f4e">zisk / "do čoho som vložil peniaze"; EVA&gt;0 = hodnota</text>
+
+  <!-- LIKVIDITA -->
+  <rect x="470" y="300" width="390" height="190" rx="10" fill="#f4f0fb" stroke="#6a45a8" stroke-width="2"/>
+  <text x="490" y="330" font-size="19" font-weight="bold" fill="#553690">LIKVIDITA</text>
+  <text x="490" y="352" font-size="13" font-style="italic" fill="#5a6a85">"Dokážem zaplatiť krátkodobé záväzky?"</text>
+  <text x="490" y="380" font-size="13" fill="#222">L1 okamžitá = fin. majetok / kr. záväzky</text>
+  <text x="490" y="402" font-size="13" fill="#222">L2 pohotová = (OM − zásoby) / kr. záv.</text>
+  <text x="490" y="424" font-size="13" fill="#222">L3 bežná = obežný majetok / kr. záv.</text>
+  <text x="490" y="446" font-size="13" fill="#222">CF likvidita = prevádzkový CF / kr. záv.</text>
+  <text x="490" y="472" font-size="12" fill="#6a45a8">L1 0,2–0,6 · L2 1,0–1,5 · L3 ~1,5–2,5</text>
+
+  <text x="450" y="528" text-anchor="middle" font-size="13" fill="#1a2a4a">Prepojenie: DuPont  ROE = ROS × obrat aktív × finančná páka  (rentabilita × aktivita × zadlženosť)</text>
+</svg>

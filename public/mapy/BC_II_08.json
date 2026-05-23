@@ -1,0 +1,125 @@
+{
+  "id": "BC-II-8",
+  "subor": "BC_II_08.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "II",
+  "cislo": 8,
+  "nazov": "Vybrané aspekty úpravy výsledku hospodárenia na základ dane",
+  "koren": {
+    "nazov": "Vybrané aspekty úpravy výsledku hospodárenia na základ dane",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Účtovný zisk je len VÝCHODISKO, nie základ dane – a túto úpravu robí samotná účtovná jednotka (daňovník) vo svojom daňovom priznaní, nie daňový úrad. Výsledok hospodárenia sa 'prečisťuje' cez dva pohľady. Po prvé: je…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Dva typy rozdielov"
+          },
+          {
+            "nazov": "Technické zhodnotenie majetku (§ 17 ods. 20, § 24 ods. 2)"
+          },
+          {
+            "nazov": "Pokuty, penále a úroky z omeškania"
+          },
+          {
+            "nazov": "Náklady uznané až po zaplatení (§ 17 ods. 19)"
+          },
+          {
+            "nazov": "Záväzky po splatnosti viac ako 360 dní (§ 17 ods. 27)"
+          },
+          {
+            "nazov": "Nezrealizované kurzové rozdiely (§ 17 ods. 17)"
+          },
+          {
+            "nazov": "Manká a škody (§ 21 ods. 2 písm. e, § 19 ods. 3 písm. g)"
+          },
+          {
+            "nazov": "Rezervy (§ 19 ods. 3 písm. f, § 20)"
+          },
+          {
+            "nazov": "Opravné položky a odpis pohľadávky (§ 20, § 19 ods. 2)"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "výsledok hospodárenia pred zdanením (účtovný VH)"
+          },
+          {
+            "nazov": "základ dane (ZD)"
+          },
+          {
+            "nazov": "pripočítateľná položka"
+          },
+          {
+            "nazov": "odpočítateľná položka"
+          },
+          {
+            "nazov": "trvalý rozdiel"
+          },
+          {
+            "nazov": "dočasný (prechodný) rozdiel"
+          },
+          {
+            "nazov": "podmienka zaplatenia (§ 17 ods. 19)"
+          },
+          {
+            "nazov": "záväzky po splatnosti (§ 17 ods. 27)"
+          },
+          {
+            "nazov": "opravná položka (§ 20)"
+          },
+          {
+            "nazov": "rezerva (§ 20)"
+          },
+          {
+            "nazov": "odpis pohľadávky (§ 19 ods. 2)"
+          },
+          {
+            "nazov": "výnos, ktorý nie je zdaniteľným príjmom (oslobodená dividenda)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Myslieť si, že úpravu robí daňový úrad – robí ju sám daňovník v daňovom priznaní."
+          },
+          {
+            "nazov": "Zabúdať, že odpočítateľné položky vznikajú aj na strane výnosov (oslobodená dividenda)."
+          },
+          {
+            "nazov": "Zamieňať zmluvnú pokutu (po zaplatení daňová) so sankčnou pokutou od štátu (nikdy daňová)."
+          },
+          {
+            "nazov": "Brať pásma § 17/27 a § 20/14 ako skokové – sú kumulatívne (20 % → doplnenie do 50 % → 100 %)."
+          },
+          {
+            "nazov": "Predĺženie lehoty splatnosti dodatkom – nemení pôvodnú lehotu pri teste § 17 ods. 27."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Dva typy rozdielov",
+    "Technické zhodnotenie majetku (§ 17 ods. 20, § 24 ods. 2)",
+    "Pokuty, penále a úroky z omeškania",
+    "Náklady uznané až po zaplatení (§ 17 ods. 19)",
+    "Záväzky po splatnosti viac ako 360 dní (§ 17 ods. 27)",
+    "Nezrealizované kurzové rozdiely (§ 17 ods. 17)",
+    "Manká a škody (§ 21 ods. 2 písm. e, § 19 ods. 3 písm. g)",
+    "Rezervy (§ 19 ods. 3 písm. f, § 20)",
+    "Opravné položky a odpis pohľadávky (§ 20, § 19 ods. 2)"
+  ]
+}

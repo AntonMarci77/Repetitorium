@@ -1,0 +1,121 @@
+{
+  "id": "ING-II-7",
+  "subor": "ING_II_07.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "II",
+  "cislo": 7,
+  "nazov": "Postup audítora v oblasti pohľadávok a záväzkov",
+  "koren": {
+    "nazov": "Postup audítora v oblasti pohľadávok a záväzkov",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Celý audit pohľadávok a záväzkov drží jedna myšlienka: HLAVNÉ RIZIKO IDE OPAČNÝM SMEROM. Pohľadávky (a s nimi výnosy) má manažment tendenciu NADHODNOCOVAŤ – aby firma vyzerala výnosnejšie a likvidnejšie; preto pri…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Rizikovo orientovaný rámec (ISA 315 → ISA 330) a tvrdenia"
+          },
+          {
+            "nazov": "Pohľadávky – hlavné riziko NADHODNOTENIA"
+          },
+          {
+            "nazov": "Pohľadávky – externé potvrdenia (ISA 505): pozitívne vs. negatívne"
+          },
+          {
+            "nazov": "Pohľadávky – ocenenie a vymožiteľnosť (opravné položky, veková štruktúra)"
+          },
+          {
+            "nazov": "Pohľadávky – existencia, cut-off a analytické postupy"
+          },
+          {
+            "nazov": "Záväzky – hlavné riziko PODHODNOTENIA (úplnosť)"
+          },
+          {
+            "nazov": "Záväzky – test úplnosti: vyhľadávanie nezaúčtovaných záväzkov"
+          },
+          {
+            "nazov": "Záväzky – existencia, ocenenie, externé potvrdenia a analytické postupy"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "audítorské tvrdenia (assertions) – existencia, úplnosť, ocenenie, práva a záväzky, cut-off, prezentácia"
+          },
+          {
+            "nazov": "smer rizika (directional risk): pohľadávky/výnosy → riziko NADHODNOTENIA; záväzky → riziko PODHODNOTENIA"
+          },
+          {
+            "nazov": "ISA 505 – externé potvrdenia (konfirmácie), pozitívne vs. negatívne"
+          },
+          {
+            "nazov": "kontrola audítora nad procesom potvrdzovania"
+          },
+          {
+            "nazov": "ocenenie a vymožiteľnosť pohľadávok (opravné položky, veková štruktúra)"
+          },
+          {
+            "nazov": "cut-off tržieb (časové ohraničenie výnosov)"
+          },
+          {
+            "nazov": "test úplnosti záväzkov – vyhľadávanie nezaúčtovaných záväzkov (search for unrecorded liabilities)"
+          },
+          {
+            "nazov": "test následných platieb (subsequent disbursements)"
+          },
+          {
+            "nazov": "odsúhlasenie na dodávateľské saldokontá a výpisy (supplier statements)"
+          },
+          {
+            "nazov": "ISA 315/330 – posúdenie rizika a reakcia (kontrolné a substantívne testy)"
+          },
+          {
+            "nazov": "ISA 520 – analytické postupy (obrátkovosť, dni inkasa/úhrady)"
+          },
+          {
+            "nazov": "ISA 540 – účtovný odhad (opravná položka k pohľadávkam)"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Tvrdiť, že pri pohľadávkach aj záväzkoch je hlavné riziko rovnaké – ide OPAČNÝM smerom: pohľadávky nadhodnotenie,…"
+          },
+          {
+            "nazov": "Považovať konfirmáciu pohľadávok za test úplnosti – je to primárne test EXISTENCIE a práv (ide od záznamu k tretej…"
+          },
+          {
+            "nazov": "Zamieňať pozitívne a negatívne potvrdenie – negatívne (odpoveď len pri nesúhlase) je menej presvedčivé a vhodné len pre…"
+          },
+          {
+            "nazov": "Pri neodpovedaní na pozitívne potvrdenie považovať saldo za potvrdené – treba alternatívne postupy (najmä následné…"
+          },
+          {
+            "nazov": "Spoliehať sa pri záväzkoch len na potvrdenia od dodávateľov vybraných zo zoznamu klienta – na úplnosť sú lepšie…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Rizikovo orientovaný rámec (ISA 315 → ISA 330) a tvrdenia",
+    "Pohľadávky – hlavné riziko NADHODNOTENIA",
+    "Pohľadávky – externé potvrdenia (ISA 505): pozitívne vs. negatívne",
+    "Pohľadávky – ocenenie a vymožiteľnosť (opravné položky, veková štruktúra)",
+    "Pohľadávky – existencia, cut-off a analytické postupy",
+    "Záväzky – hlavné riziko PODHODNOTENIA (úplnosť)",
+    "Záväzky – test úplnosti: vyhľadávanie nezaúčtovaných záväzkov",
+    "Záväzky – existencia, ocenenie, externé potvrdenia a analytické postupy"
+  ]
+}

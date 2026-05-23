@@ -1,0 +1,140 @@
+{
+  "id": "ING-I-8",
+  "subor": "ING_I_08.json",
+  "program": "Inžinierske – Účtovníctvo a audítorstvo",
+  "okruh": "I",
+  "cislo": 8,
+  "nazov": "Model kontroly a postupy konsolidácie dcérskych podnikov podľa IFRS",
+  "koren": {
+    "nazov": "Model kontroly a postupy konsolidácie dcérskych podnikov podľa IFRS",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "IFRS 10 stojí na jedinej myšlienke: konsoliduj všetko, čo OVLÁDAŠ – bez ohľadu na to, koľko percent vlastníš. Ovládanie nie je o vlastníckom podiele, ale o troch prvkoch súčasne (IFRS 10.7): (1) MOC nad subjektom…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Model kontroly – tri prvky ovládania (IFRS 10.6–7)"
+          },
+          {
+            "nazov": "Výnimky z pôsobnosti a oslobodenie od konsolidácie (IFRS 10.4–4B)"
+          },
+          {
+            "nazov": "Deň zostavenia KÚZ – pravidlo troch mesiacov (IFRS 10 B92)"
+          },
+          {
+            "nazov": "Jednotná účtovná politika a oceňovanie (IFRS 10 B87)"
+          },
+          {
+            "nazov": "Postupy úplnej konsolidácie I. – agregácia a konsolidácia kapitálu (IFRS 10 B86)"
+          },
+          {
+            "nazov": "Postupy úplnej konsolidácie II. – eliminácia vnútroskupinových vzťahov a medzivýsledku (B86)"
+          },
+          {
+            "nazov": "Nekontrolujúce podiely (NCI) – vyčlenenie cudzieho vlastníctva"
+          },
+          {
+            "nazov": "Investičné jednotky – výnimka z konsolidácie (IFRS 10.27–33)"
+          },
+          {
+            "nazov": "Zmeny vlastníckeho podielu – so stratou a bez straty kontroly (IFRS 10.23, 10.25–26)"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "ovládanie (kontrola) podľa IFRS 10"
+          },
+          {
+            "nazov": "moc / právomoci nad subjektom"
+          },
+          {
+            "nazov": "expozícia voči variabilným (premenlivým) výnosom"
+          },
+          {
+            "nazov": "schopnosť ovplyvniť výnosy mocou (väzba moc–výnosy)"
+          },
+          {
+            "nazov": "relevantné činnosti"
+          },
+          {
+            "nazov": "konsolidovaná účtovná závierka (KÚZ)"
+          },
+          {
+            "nazov": "metóda úplnej konsolidácie"
+          },
+          {
+            "nazov": "agregácia (súčet 100 %)"
+          },
+          {
+            "nazov": "konsolidácia kapitálu (eliminácia investície proti VI)"
+          },
+          {
+            "nazov": "goodwill / zisk z výhodnej kúpy (IFRS 3)"
+          },
+          {
+            "nazov": "nekontrolujúce podiely (NCI / NP)"
+          },
+          {
+            "nazov": "eliminácia vnútroskupinových transakcií a medzivýsledku"
+          },
+          {
+            "nazov": "pravidlo troch mesiacov (B92)"
+          },
+          {
+            "nazov": "jednotná účtovná politika"
+          },
+          {
+            "nazov": "investičná jednotka (výnimka z konsolidácie)"
+          },
+          {
+            "nazov": "zmena podielu bez straty kontroly (transakcia s vlastníkmi)"
+          },
+          {
+            "nazov": "strata kontroly / odkonsolidácia"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Stotožňovať kontrolu s vlastníckym podielom – IFRS 10 stojí na ovládaní (tri prvky), nie na percente; ovládať možno aj…"
+          },
+          {
+            "nazov": "Agregovať len podiel materskej (napr. 80 %) – agreguje sa VŽDY 100 % a cudzia časť sa vyčlení ako NCI."
+          },
+          {
+            "nazov": "Eliminovať vnútroskupinové pohľadávky/záväzky a medzivýsledok len v pomere podielu – eliminujú sa v ÚPLNEJ (100 %)…"
+          },
+          {
+            "nazov": "Zabudnúť na odloženú daň (IAS 12) pri eliminácii nerealizovaného medzizisku."
+          },
+          {
+            "nazov": "Pri eliminácii medzizisku, ktorý dosiahla dcéra, nepremietnuť dopad aj do NCI (pri neúplne vlastnenej dcére)."
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Model kontroly – tri prvky ovládania (IFRS 10.6–7)",
+    "Výnimky z pôsobnosti a oslobodenie od konsolidácie (IFRS 10.4–4B)",
+    "Deň zostavenia KÚZ – pravidlo troch mesiacov (IFRS 10 B92)",
+    "Jednotná účtovná politika a oceňovanie (IFRS 10 B87)",
+    "Postupy úplnej konsolidácie I. – agregácia a konsolidácia kapitálu (IFRS 10 B86)",
+    "Postupy úplnej konsolidácie II. – eliminácia vnútroskupinových vzťahov a medzivýsledku (B86)",
+    "Nekontrolujúce podiely (NCI) – vyčlenenie cudzieho vlastníctva",
+    "Investičné jednotky – výnimka z konsolidácie (IFRS 10.27–33)",
+    "Zmeny vlastníckeho podielu – so stratou a bez straty kontroly (IFRS 10.23, 10.25–26)"
+  ]
+}

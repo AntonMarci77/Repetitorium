@@ -1,0 +1,58 @@
+<svg viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="580" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Úplná (absorpčná) vs. neúplná (variabilná) kalkulácia</text>
+  <text x="450" y="56" text-anchor="middle" font-size="13" fill="#5a6b85">Čo sa naloží na výrobok a kam idú fixné náklady – vplyv na zásoby (súvaha) a výsledok hospodárenia</text>
+
+  <!-- LEFT: úplná -->
+  <rect x="30" y="78" width="400" height="362" rx="10" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <text x="230" y="104" text-anchor="middle" font-size="17" font-weight="bold" fill="#234e85">ÚPLNÁ (absorpčná) kalkulácia</text>
+
+  <rect x="55" y="120" width="350" height="40" rx="6" fill="#cfe0f3" stroke="#2f6db0"/>
+  <text x="230" y="145" text-anchor="middle" font-size="14" fill="#1a3a63">Variabilné náklady → na výrobok</text>
+  <rect x="55" y="166" width="350" height="40" rx="6" fill="#9fc2e8" stroke="#2f6db0"/>
+  <text x="230" y="191" text-anchor="middle" font-size="14" font-weight="bold" fill="#10335c">Fixné náklady → TIEŽ na výrobok</text>
+
+  <text x="230" y="232" text-anchor="middle" font-size="13" fill="#234e85">Ocenenie 1 ks = VN + podiel FN</text>
+
+  <rect x="55" y="246" width="350" height="86" rx="8" fill="#ffffff" stroke="#2f6db0" stroke-dasharray="4 3"/>
+  <text x="230" y="268" text-anchor="middle" font-size="13" font-weight="bold" fill="#234e85">Zásoby (SÚVAHA – aktíva)</text>
+  <text x="230" y="289" text-anchor="middle" font-size="12.5" fill="#33475f">200 ks á 80 € = 16 000 €</text>
+  <text x="230" y="309" text-anchor="middle" font-size="12.5" fill="#b3261e">časť FN „zaparkovaná" v zásobách</text>
+  <text x="230" y="326" text-anchor="middle" font-size="11.5" fill="#7a8aa3">→ do VZaS až pri predaji</text>
+
+  <rect x="55" y="344" width="350" height="84" rx="8" fill="#e6f3ea" stroke="#2e8b57"/>
+  <text x="230" y="366" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f6b41">VH pri RASTE zásob</text>
+  <text x="230" y="388" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f6b41">16 000 €</text>
+  <text x="230" y="412" text-anchor="middle" font-size="11.5" fill="#42627a">riziko „výroby na sklad" · vhodné pre závierku</text>
+
+  <!-- RIGHT: neúplná -->
+  <rect x="470" y="78" width="400" height="362" rx="10" fill="#fdf3ec" stroke="#c87f2a" stroke-width="2"/>
+  <text x="670" y="104" text-anchor="middle" font-size="17" font-weight="bold" fill="#9c5e16">NEÚPLNÁ (variabilná) kalkulácia</text>
+
+  <rect x="495" y="120" width="350" height="40" rx="6" fill="#f6dcc2" stroke="#c87f2a"/>
+  <text x="670" y="145" text-anchor="middle" font-size="14" fill="#7a4a12">Variabilné náklady → na výrobok</text>
+  <rect x="495" y="166" width="350" height="40" rx="6" fill="#f0b27a" stroke="#c87f2a"/>
+  <text x="670" y="191" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3d0d">Fixné náklady → NÁKLAD OBDOBIA</text>
+
+  <text x="670" y="232" text-anchor="middle" font-size="13" fill="#9c5e16">Ocenenie 1 ks = len VN</text>
+
+  <rect x="495" y="246" width="350" height="86" rx="8" fill="#ffffff" stroke="#c87f2a" stroke-dasharray="4 3"/>
+  <text x="670" y="268" text-anchor="middle" font-size="13" font-weight="bold" fill="#9c5e16">Zásoby (SÚVAHA – aktíva)</text>
+  <text x="670" y="289" text-anchor="middle" font-size="12.5" fill="#33475f">200 ks á 60 € = 12 000 €</text>
+  <text x="670" y="309" text-anchor="middle" font-size="12.5" fill="#1f6b41">žiadne FN v zásobách</text>
+  <text x="670" y="326" text-anchor="middle" font-size="11.5" fill="#7a8aa3">FN celé vo VZaS daného obdobia</text>
+
+  <rect x="495" y="344" width="350" height="84" rx="8" fill="#e6f3ea" stroke="#2e8b57"/>
+  <text x="670" y="366" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f6b41">VH pri RASTE zásob</text>
+  <text x="670" y="388" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f6b41">12 000 €</text>
+  <text x="670" y="412" text-anchor="middle" font-size="11.5" fill="#42627a">eliminuje „výrobu na sklad" · pre rozhodovanie</text>
+
+  <!-- bottom: rozdiel a poznamka -->
+  <rect x="30" y="456" width="840" height="44" rx="8" fill="#fff7e0" stroke="#d4a017" stroke-width="1.5"/>
+  <text x="450" y="476" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#7a5b00">Rozdiel VH = 16 000 − 12 000 = 4 000 € = fixná réžia (200 ks × 20 €) „uskladnená" v zásobách</text>
+  <text x="450" y="493" text-anchor="middle" font-size="12" fill="#7a5b00">Rast zásob → absorpčná VH vyšší · Pokles zásob → nižší · Nezmenené zásoby → rovnaký VH</text>
+
+  <rect x="30" y="510" width="840" height="56" rx="8" fill="#eef1f6" stroke="#9aa7bd"/>
+  <text x="450" y="531" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#33475f">Účtovná závierka: zásoby vlastnej výroby sa oceňujú VLASTNÝMI nákladmi (vrátane výrobnej réžie)</text>
+  <text x="450" y="551" text-anchor="middle" font-size="12" fill="#5a6b85">→ blízko úplnej (absorpčnej) kalkulácii; čisto variabilné ocenenie spravidla NIE je prípustné. Variabilná = nástroj riadenia.</text>
+</svg>

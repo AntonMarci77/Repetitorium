@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+  --rp-bg: #f0eee9;
+  --rp-fg: #1a3868;
+  --rp-card: #ffffff;
+  --rp-border: rgba(26, 56, 104, 0.12);
+  --rp-border-soft: rgba(26, 56, 104, 0.20);
+  --rp-muted: #5b6678;
+}
+.dark {
+  --rp-bg: #0e1626;
+  --rp-fg: #e8eef9;
+  --rp-card: #15203a;
+  --rp-border: rgba(232, 238, 249, 0.12);
+  --rp-border-soft: rgba(232, 238, 249, 0.18);
+  --rp-muted: #95a1bb;
+}
+
+html, body { background: var(--rp-bg); color: var(--rp-fg); }
+body { font-family: var(--font-body, ui-sans-serif, system-ui, sans-serif); }
+
+h1, h2, h3, h4, .font-heading { font-family: var(--font-kanit), ui-sans-serif, system-ui, sans-serif; letter-spacing: -0.01em; }
+
+@layer components {
+  .rp-card { @apply bg-[var(--rp-card)] border border-[var(--rp-border)] rounded-2xl; }
+  .rp-btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 font-medium transition disabled:opacity-50 disabled:cursor-not-allowed; }
+  .rp-btn-primary { @apply rp-btn bg-euba-ink text-white hover:bg-[#163059]; }
+  .rp-btn-accent  { @apply rp-btn bg-euba-accent text-white hover:bg-[#0098a6]; }
+  .rp-btn-ghost   { @apply rp-btn border border-[var(--rp-border)] text-[var(--rp-fg)]; }
+  .rp-btn-ghost:hover { background: var(--rp-border-soft); }
+  .rp-chip { @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium; }
+  .rp-input { @apply w-full rounded-xl border border-[var(--rp-border)] bg-[var(--rp-card)] px-3 py-2 text-[var(--rp-fg)] focus:outline-none focus:ring-2 focus:ring-euba-accent/40; }
+  .rp-link { @apply text-euba-accent hover:underline underline-offset-2; }
+  .rp-section { @apply rp-card p-5 md:p-6; }
+  .rp-prose h2 { @apply text-xl md:text-2xl font-heading mt-6 mb-2; }
+  .rp-prose h3 { @apply text-lg md:text-xl font-heading mt-5 mb-2; }
+  .rp-prose p  { @apply leading-relaxed mb-3; }
+  .rp-prose ul { @apply list-disc pl-6 mb-3; }
+  .rp-prose ol { @apply list-decimal pl-6 mb-3; }
+  .rp-prose table { @apply w-full text-sm border-collapse mb-4; }
+  .rp-prose th, .rp-prose td { @apply border border-[var(--rp-border)] px-2 py-1.5 align-top; }
+  .rp-prose th { @apply font-semibold text-left; background: var(--rp-border); }
+  .rp-soft-bg { background: var(--rp-border); }
+  .rp-softer-bg { background: var(--rp-border-soft); }
+  .rp-bar-bg { background: color-mix(in srgb, var(--rp-bg) 90%, transparent); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+/* Tooltip pre skratky */
+.rp-abbr { @apply underline decoration-dotted decoration-euba-accent underline-offset-2 cursor-help; text-decoration-thickness: 2px; }

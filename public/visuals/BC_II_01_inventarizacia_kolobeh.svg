@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 600" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="600" fill="#ffffff"/>
+  <text x="460" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Inventarizácia — kolobeh (§ 29 – 30 zákona o účtovníctve)</text>
+  <text x="460" y="56" text-anchor="middle" font-size="13" fill="#64748b">Overuje, či stav majetku a záväzkov v účtovníctve zodpovedá skutočnosti → preukázateľnosť účtovníctva</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="80" width="270" height="120" rx="12" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="60" y="106" font-size="14" font-weight="700" fill="#3730a3">1 · Inventúra (§ 30 ods. 1)</text>
+  <text x="60" y="128" font-size="12" fill="#0f172a">zistenie SKUTOČNÉHO stavu</text>
+  <text x="60" y="150" font-size="12" fill="#0f172a">• fyzická (hmotný/nehmotný majetok)</text>
+  <text x="60" y="170" font-size="12" fill="#0f172a">• dokladová (záväzky, pohľadávky)</text>
+  <text x="60" y="190" font-size="12" fill="#0f172a">• kombinovaná</text>
+
+  <!-- arrow -->
+  <line x1="310" y1="140" x2="352" y2="140" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="358,140 346,134 346,146" fill="#94a3b8"/>
+
+  <!-- Step 2 -->
+  <rect x="358" y="80" width="270" height="120" rx="12" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="378" y="106" font-size="14" font-weight="700" fill="#3730a3">2 · Inventúrny súpis (§ 30 ods. 2)</text>
+  <text x="378" y="128" font-size="12" fill="#0f172a">účtovný záznam o skutočnom stave</text>
+  <text x="378" y="150" font-size="12" fill="#0f172a">názov ÚJ, dni začatia/vykonania/</text>
+  <text x="378" y="168" font-size="12" fill="#0f172a">skončenia, množstvo, cena, miesto,</text>
+  <text x="378" y="186" font-size="12" fill="#0f172a">podpis zodpovednej osoby</text>
+
+  <!-- arrow -->
+  <line x1="628" y1="140" x2="670" y2="140" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="676,140 664,134 664,146" fill="#94a3b8"/>
+
+  <!-- Step 3 -->
+  <rect x="676" y="80" width="204" height="120" rx="12" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="696" y="106" font-size="14" font-weight="700" fill="#3730a3">3 · Porovnanie</text>
+  <text x="696" y="130" font-size="12" fill="#0f172a">skutočný stav</text>
+  <text x="696" y="148" font-size="12" fill="#0f172a">vs. stav v účtovníctve</text>
+  <text x="696" y="174" font-size="12" fill="#0f172a">→ zistia sa rozdiely</text>
+
+  <!-- arrow down to differences -->
+  <line x1="460" y1="200" x2="460" y2="234" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="460,240 454,228 466,228" fill="#94a3b8"/>
+
+  <!-- differences row -->
+  <text x="460" y="262" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">4 · Inventarizačný rozdiel (§ 30 ods. 5)</text>
+
+  <rect x="120" y="280" width="320" height="92" rx="10" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="280" y="306" text-anchor="middle" font-size="14" font-weight="700" fill="#b91c1c">MANKO</text>
+  <text x="280" y="328" text-anchor="middle" font-size="12" fill="#0f172a">skutočný stav &lt; účtovný stav</text>
+  <text x="280" y="348" text-anchor="middle" font-size="12" fill="#0f172a">(nemožno preukázať záznamom)</text>
+  <text x="280" y="366" text-anchor="middle" font-size="11.5" fill="#7f1d1d">pri peniazoch/ceninách = SCHODOK</text>
+
+  <rect x="480" y="280" width="320" height="92" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="640" y="306" text-anchor="middle" font-size="14" font-weight="700" fill="#15803d">PREBYTOK</text>
+  <text x="640" y="328" text-anchor="middle" font-size="12" fill="#0f172a">skutočný stav &gt; účtovný stav</text>
+  <text x="640" y="348" text-anchor="middle" font-size="12" fill="#0f172a">(nemožno preukázať záznamom)</text>
+
+  <!-- arrow down to zapis -->
+  <line x1="460" y1="372" x2="460" y2="406" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="460,412 454,400 466,400" fill="#94a3b8"/>
+
+  <!-- Step 5 inventarizacny zapis -->
+  <rect x="120" y="418" width="680" height="92" rx="12" fill="#ecfeff" stroke="#a5f3fc"/>
+  <text x="460" y="444" text-anchor="middle" font-size="15" font-weight="700" fill="#0e7490">5 · Inventarizačný zápis (§ 30 ods. 3)</text>
+  <text x="460" y="467" text-anchor="middle" font-size="12" fill="#0f172a">účtovný záznam, ktorým sa preukazuje VECNÁ správnosť účtovníctva</text>
+  <text x="460" y="487" text-anchor="middle" font-size="12" fill="#0f172a">výsledky porovnania + posúdenie reálnosti ocenenia + podpis zodpovednej osoby</text>
+  <text x="460" y="505" text-anchor="middle" font-size="11.5" fill="#155e75">rozdiel sa zaúčtuje do obdobia, za ktoré sa inventarizáciou overuje stav (§ 30 ods. 7)</text>
+
+  <!-- footer notes -->
+  <rect x="40" y="528" width="840" height="56" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="60" y="550" font-size="11.5" fill="#0f172a"><tspan font-weight="700">Termín (§ 29 ods. 2):</tspan> ku dňu, ku ktorému sa zostavuje ÚZ. Hmotný majetok (okrem zásob a peňazí) možno inventarizovať aj v inej lehote, max. raz za 4 roky.</text>
+  <text x="60" y="572" font-size="11.5" fill="#0f172a"><tspan font-weight="700">Fyzická inventúra (§ 30 ods. 4):</tspan> možno vykonať v posledných 3 mesiacoch obdobia, príp. v 1. mesiaci nasledujúceho, s úpravou o prírastky/úbytky.</text>
+</svg>

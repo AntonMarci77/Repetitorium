@@ -1,0 +1,137 @@
+{
+  "id": "BC-I-4",
+  "subor": "BC_I_04.json",
+  "program": "Bakalárske – Účtovníctvo",
+  "okruh": "I",
+  "cislo": 4,
+  "nazov": "Dlhodobý hmotný majetok, dlhodobý nehmotný majetok a zásoby",
+  "koren": {
+    "nazov": "Dlhodobý hmotný majetok, dlhodobý nehmotný majetok a zásoby",
+    "deti": [
+      {
+        "nazov": "Mentálny model (prečo)",
+        "deti": [
+          {
+            "nazov": "Majetok prechádza ŽIVOTNÝM CYKLOM, ktorý sa zrkadlí v účtovníctve: OBSTARANIE → ZARADENIE → UŽÍVANIE (odpisy + prípadné opravné položky) → VYRADENIE. Kľúčová deliaca čiara je čas: ak vec slúži dlhšie ako jeden rok a…"
+          }
+        ]
+      },
+      {
+        "nazov": "Štruktúra odpovede (o čom hovoriť)",
+        "deti": [
+          {
+            "nazov": "Obsahové vymedzenie DHM, DNM a zásob"
+          },
+          {
+            "nazov": "Oceňovanie (§ 25 a § 26 zákona o účtovníctve)"
+          },
+          {
+            "nazov": "Obstaranie a zaradenie DHM a DNM"
+          },
+          {
+            "nazov": "Odpisovanie – účtovné odpisy"
+          },
+          {
+            "nazov": "Odpisovanie – daňové odpisy a ich vzťah k účtovným"
+          },
+          {
+            "nazov": "Opravné položky k DHM a DNM (§ 26 ods. 4)"
+          },
+          {
+            "nazov": "Vyraďovanie DHM a DNM"
+          },
+          {
+            "nazov": "Zásoby nakupované a vlastnej výroby – vymedzenie a oceňovanie"
+          },
+          {
+            "nazov": "Účtovné zobrazenie zásob – spôsob A a spôsob B"
+          }
+        ]
+      },
+      {
+        "nazov": "Kľúčové pojmy",
+        "deti": [
+          {
+            "nazov": "dlhodobý hmotný majetok (DHM)"
+          },
+          {
+            "nazov": "dlhodobý nehmotný majetok (DNM)"
+          },
+          {
+            "nazov": "obstarávacia cena (§ 25 ods. 6)"
+          },
+          {
+            "nazov": "vlastné náklady (§ 25 ods. 6 písm. b)"
+          },
+          {
+            "nazov": "reálna hodnota"
+          },
+          {
+            "nazov": "kalkulačný účet obstarania (041, 042)"
+          },
+          {
+            "nazov": "oprávky (07x, 08x)"
+          },
+          {
+            "nazov": "účtovné vs. daňové odpisy"
+          },
+          {
+            "nazov": "odpisové skupiny 0 – 6"
+          },
+          {
+            "nazov": "opravná položka (09x, 19x, § 26 ods. 4)"
+          },
+          {
+            "nazov": "čistá realizačná hodnota zásob (§ 26 ods. 1)"
+          },
+          {
+            "nazov": "spôsob A a spôsob B účtovania zásob"
+          },
+          {
+            "nazov": "zásoby vlastnej výroby (účtová skupina 12)"
+          },
+          {
+            "nazov": "základné stádo a ťažné zvieratá (026)"
+          },
+          {
+            "nazov": "rastlinná a živočíšna výroba"
+          },
+          {
+            "nazov": "poľnohospodárske družstvo"
+          }
+        ]
+      },
+      {
+        "nazov": "Pozor / časté chyby",
+        "deti": [
+          {
+            "nazov": "Zamieňať technické zhodnotenie (zvyšuje OC, cez 042) s opravou/údržbou (jednorazový náklad 511); TZ sa týka aj…"
+          },
+          {
+            "nazov": "Účtovať daňové odpisy do účtovníctva – v účtovníctve sa účtujú LEN účtovné odpisy (551/08x); daňové slúžia výhradne na…"
+          },
+          {
+            "nazov": "Pokladať opravnú položku za to isté ako odpis – OP je dočasná a nepriama (09x/19x), odpis je trvalý cez oprávky."
+          },
+          {
+            "nazov": "Zabudnúť pri vyradení najprv zúčtovať/zrušiť opravnú položku a doúčtovať odpis za mesiace užívania."
+          },
+          {
+            "nazov": "Pri predaji DM zaúčtovať zostatkovú cenu na 551 namiesto 541 (predaj = 541, likvidácia = 551, darovanie = 543, škoda =…"
+          }
+        ]
+      }
+    ]
+  },
+  "vetvy": [
+    "Obsahové vymedzenie DHM, DNM a zásob",
+    "Oceňovanie (§ 25 a § 26 zákona o účtovníctve)",
+    "Obstaranie a zaradenie DHM a DNM",
+    "Odpisovanie – účtovné odpisy",
+    "Odpisovanie – daňové odpisy a ich vzťah k účtovným",
+    "Opravné položky k DHM a DNM (§ 26 ods. 4)",
+    "Vyraďovanie DHM a DNM",
+    "Zásoby nakupované a vlastnej výroby – vymedzenie a oceňovanie",
+    "Účtovné zobrazenie zásob – spôsob A a spôsob B"
+  ]
+}
