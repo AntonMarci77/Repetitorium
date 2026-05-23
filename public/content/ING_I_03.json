@@ -225,35 +225,123 @@
   "caste_doplnujuce_otazky": [
     {
       "otazka": "V čom je hlavný rozdiel medzi SR úpravou a IFRS 16 u nájomcu?",
-      "odpoved": "SR u nájomcu rozlišuje finančný a operatívny prenájom (operatívny ostáva mimo súvahy, len nájomné do nákladov). IFRS 16 toto rozlíšenie u nájomcu zrušil – pri takmer každom lízingu vykáže právo užívať aktívum (RoU) a záväzok z lízingu; výnimkou sú len krátkodobé lízingy a lízingy s nízkou hodnotou."
+      "odpoved": "SR u nájomcu rozlišuje finančný a operatívny prenájom (operatívny ostáva mimo súvahy, len nájomné do nákladov). IFRS 16 toto rozlíšenie u nájomcu zrušil – pri takmer každom lízingu vykáže právo užívať aktívum (RoU) a záväzok z lízingu; výnimkou sú len krátkodobé lízingy a lízingy s nízkou hodnotou.",
+      "moznosti": [
+        "SR u nájomcu zaviedla jeden model (RoU + záväzok), kým IFRS 16 u nájomcu rozlišuje finančný a operatívny prenájom",
+        "SR aj IFRS 16 u nájomcu rozlišujú finančný a operatívny prenájom rovnako, líšia sa len v účtoch",
+        "SR u nájomcu rozlišuje finančný a operatívny prenájom (operatívny ostáva mimo súvahy, len nájomné do nákladov). IFRS 16 toto rozlíšenie u nájomcu zrušil – pri takmer každom lízingu vykáže právo užívať aktívum (RoU) a záväzok z lízingu; výnimkou sú len krátkodobé lízingy a lízingy s nízkou hodnotou",
+        "SR aj IFRS 16 u nájomcu zrušili rozlíšenie a vykazujú len právo užívať aktívum"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "SR u nájomcu rozlišuje finančný a operatívny prenájom (operatívny ostáva mimo súvahy, len nájomné do nákladov). IFRS 16 toto rozlíšenie u nájomcu zrušil – pri takmer každom lízingu vykáže právo užívať aktívum (RoU) a záväzok z lízingu; výnimkou sú len krátkodobé lízingy a lízingy s nízkou hodnotou."
     },
     {
       "otazka": "Zachoval IFRS 16 rozlíšenie finančný/operatívny aj u prenajímateľa?",
-      "odpoved": "Áno. U prenajímateľa IFRS 16 klasifikáciu ponecháva (prevzatá z IAS 17): finančný lízing → pohľadávka v čistej investícii do lízingu a finančný výnos; operatívny lízing → aktívum zostáva v súvahe, odpisuje sa a splátky sú výnos rovnomerne. Vzniká tak asymetria nájomca vs. prenajímateľ."
+      "odpoved": "Áno. U prenajímateľa IFRS 16 klasifikáciu ponecháva (prevzatá z IAS 17): finančný lízing → pohľadávka v čistej investícii do lízingu a finančný výnos; operatívny lízing → aktívum zostáva v súvahe, odpisuje sa a splátky sú výnos rovnomerne. Vzniká tak asymetria nájomca vs. prenajímateľ.",
+      "moznosti": [
+        "Áno. U prenajímateľa IFRS 16 klasifikáciu ponecháva (prevzatá z IAS 17): finančný lízing → pohľadávka v čistej investícii do lízingu a finančný výnos; operatívny lízing → aktívum zostáva v súvahe, odpisuje sa a splátky sú výnos rovnomerne",
+        "Nie. U prenajímateľa IFRS 16 rozlíšenie zrušil rovnako ako u nájomcu a zaviedol jednotný model práva užívať aktívum",
+        "Áno, ale len pri finančnom lízingu; operatívny lízing IFRS 16 u prenajímateľa úplne zakázal",
+        "Nie. U prenajímateľa sa všetky lízingy klasifikujú ako finančné a vykazujú sa ako pohľadávka v reálnej hodnote"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Áno. U prenajímateľa IFRS 16 klasifikáciu ponecháva (prevzatá z IAS 17): finančný lízing → pohľadávka v čistej investícii do lízingu a finančný výnos; operatívny lízing → aktívum zostáva v súvahe, odpisuje sa a splátky sú výnos rovnomerne. Vzniká tak asymetria nájomca vs. prenajímateľ."
     },
     {
       "otazka": "Kto odpisuje predmet finančného prenájmu v SR a akou metódou?",
-      "odpoved": "Nájomca (ekonomický vlastník). Od r. 2015 už nie lízingovou metódou počas trvania nájmu, ale štandardnými metódami – rovnomerne (§ 27) alebo zrýchlene (§ 28) počas doby odpisovania danej odpisovej skupiny."
+      "odpoved": "Nájomca (ekonomický vlastník). Od r. 2015 už nie lízingovou metódou počas trvania nájmu, ale štandardnými metódami – rovnomerne (§ 27) alebo zrýchlene (§ 28) počas doby odpisovania danej odpisovej skupiny.",
+      "moznosti": [
+        "Prenajímateľ (právny vlastník); od r. 2015 lízingovou metódou počas trvania nájmu do 100 % istiny",
+        "Nájomca (ekonomický vlastník). Od r. 2015 už nie lízingovou metódou počas trvania nájmu, ale štandardnými metódami – rovnomerne (§ 27) alebo zrýchlene (§ 28) počas doby odpisovania danej odpisovej skupiny",
+        "Nájomca (ekonomický vlastník), ale výlučne zrýchlenou metódou (§ 28) počas doby trvania nájmu",
+        "Prenajímateľ (ekonomický vlastník); štandardnými metódami (§ 27/§ 28) počas doby odpisovej skupiny"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Nájomca (ekonomický vlastník). Od r. 2015 už nie lízingovou metódou počas trvania nájmu, ale štandardnými metódami – rovnomerne (§ 27) alebo zrýchlene (§ 28) počas doby odpisovania danej odpisovej skupiny."
     },
     {
       "otazka": "Aké sú daňové podmienky finančného prenájmu podľa ZDP?",
-      "odpoved": "§ 2 písm. s): kúpna cena je súčasťou dohodnutých platieb, vlastníctvo má prejsť bez zbytočného odkladu po skončení nájmu na nájomcu a doba nájmu je najmenej 60 % doby odpisovania podľa § 26 ods. 1. Inak ide o operatívny prenájom."
+      "odpoved": "§ 2 písm. s): kúpna cena je súčasťou dohodnutých platieb, vlastníctvo má prejsť bez zbytočného odkladu po skončení nájmu na nájomcu a doba nájmu je najmenej 60 % doby odpisovania podľa § 26 ods. 1. Inak ide o operatívny prenájom.",
+      "moznosti": [
+        "§ 2 písm. s): doba nájmu najmenej 3 roky a kúpna cena nesmie byť súčasťou dohodnutých platieb",
+        "§ 2 písm. s): doba nájmu najmenej 50 % doby odpisovania a vlastníctvo zostáva prenajímateľovi",
+        "§ 2 písm. s): doba nájmu presne 100 % životnosti majetku a vlastníctvo neprechádza na nájomcu",
+        "§ 2 písm. s): kúpna cena je súčasťou dohodnutých platieb, vlastníctvo má prejsť bez zbytočného odkladu po skončení nájmu na nájomcu a doba nájmu je najmenej 60 % doby odpisovania podľa § 26 ods. 1"
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "§ 2 písm. s): kúpna cena je súčasťou dohodnutých platieb, vlastníctvo má prejsť bez zbytočného odkladu po skončení nájmu na nájomcu a doba nájmu je najmenej 60 % doby odpisovania podľa § 26 ods. 1. Inak ide o operatívny prenájom."
     },
     {
       "otazka": "Ako sa rieši DPH pri finančnom lízingu v SR?",
-      "odpoved": "Pri zmluve s povinnosťou kúpy (najneskôr poslednou splátkou) je to dodanie tovaru (§ 8/1/c) – DPH a odpočet jednorazovo zo všetkých splátok. Pri zmluve s právom kúpy je to opakované dodanie služby (§ 9/1/b) – DPH a odpočet postupne po splátkach. Základná sadzba 23 % od 1. 1. 2025."
+      "odpoved": "Pri zmluve s povinnosťou kúpy (najneskôr poslednou splátkou) je to dodanie tovaru (§ 8/1/c) – DPH a odpočet jednorazovo zo všetkých splátok. Pri zmluve s právom kúpy je to opakované dodanie služby (§ 9/1/b) – DPH a odpočet postupne po splátkach. Základná sadzba 23 % od 1. 1. 2025.",
+      "moznosti": [
+        "Pri zmluve s povinnosťou kúpy (najneskôr poslednou splátkou) je to dodanie tovaru (§ 8/1/c) – DPH a odpočet jednorazovo zo všetkých splátok. Pri zmluve s právom kúpy je to opakované dodanie služby (§ 9/1/b) – DPH a odpočet postupne po splátkach. Základná sadzba 23 % od 1. 1. 2025",
+        "Pri zmluve s povinnosťou kúpy je to opakované dodanie služby (§ 9/1/b) – odpočet postupne. Pri zmluve s právom kúpy je to dodanie tovaru (§ 8/1/c) – odpočet naraz. Sadzba 20 %",
+        "Finančný lízing je vždy dodaním tovaru bez ohľadu na zmluvu – DPH a odpočet jednorazovo; základná sadzba 19 %",
+        "Finančný lízing je oslobodený od DPH ako finančná služba, preto nárok na odpočet nevzniká pri žiadnom type zmluvy"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Pri zmluve s povinnosťou kúpy (najneskôr poslednou splátkou) je to dodanie tovaru (§ 8/1/c) – DPH a odpočet jednorazovo zo všetkých splátok. Pri zmluve s právom kúpy je to opakované dodanie služby (§ 9/1/b) – DPH a odpočet postupne po splátkach. Základná sadzba 23 % od 1. 1. 2025."
     },
     {
       "otazka": "Ako sa rieši technické zhodnotenie u nájomcu?",
-      "odpoved": "TZ nad 1 700 €/rok môže odpisovať nájomca, ak ho hradí sám a má písomný súhlas vlastníka; zaradí ho do odpisovej skupiny prenajatého majetku ako 'iný majetok'. TZ sa posudzuje ako celok, nedelí sa medzi dvoch. Pri bezodplatnom prevzatí prenajímateľom mu vzniká nepeňažný príjem."
+      "odpoved": "TZ nad 1 700 €/rok môže odpisovať nájomca, ak ho hradí sám a má písomný súhlas vlastníka; zaradí ho do odpisovej skupiny prenajatého majetku ako 'iný majetok'. TZ sa posudzuje ako celok, nedelí sa medzi dvoch. Pri bezodplatnom prevzatí prenajímateľom mu vzniká nepeňažný príjem.",
+      "moznosti": [
+        "TZ na prenajatom majetku odpisuje vždy len vlastník; nájomca môže výdavok jednorazovo zahrnúť do nákladov bez ohľadu na sumu",
+        "TZ nad 1 700 €/rok môže odpisovať nájomca, ak ho hradí sám a má písomný súhlas vlastníka; zaradí ho do odpisovej skupiny prenajatého majetku ako 'iný majetok'. TZ sa posudzuje ako celok, nedelí sa medzi dvoch. Pri bezodplatnom prevzatí prenajímateľom mu vzniká nepeňažný príjem",
+        "TZ nad 1 700 €/rok sa rozdelí medzi nájomcu a prenajímateľa v pomere doby nájmu k životnosti a každý odpisuje svoju časť",
+        "TZ do 1 700 €/rok odpisuje nájomca, nad 1 700 € vždy prenajímateľ; súhlas vlastníka sa nevyžaduje"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "TZ nad 1 700 €/rok môže odpisovať nájomca, ak ho hradí sám a má písomný súhlas vlastníka; zaradí ho do odpisovej skupiny prenajatého majetku ako 'iný majetok'. TZ sa posudzuje ako celok, nedelí sa medzi dvoch. Pri bezodplatnom prevzatí prenajímateľom mu vzniká nepeňažný príjem."
     },
     {
       "otazka": "Ako oceňuje nájomca právo užívať aktívum (RoU) a záväzok podľa IFRS 16?",
-      "odpoved": "Záväzok = súčasná hodnota neuhradených splátok diskontovaná implicitnou (inak prírastkovou výpožičkovou) mierou. RoU = prvotné ocenenie záväzku + splátky uhradené k začiatku/pred ním (mínus stimuly) + počiatočné priame náklady + odhad nákladov na demontáž/obnovu."
+      "odpoved": "Záväzok = súčasná hodnota neuhradených splátok diskontovaná implicitnou (inak prírastkovou výpožičkovou) mierou. RoU = prvotné ocenenie záväzku + splátky uhradené k začiatku/pred ním (mínus stimuly) + počiatočné priame náklady + odhad nákladov na demontáž/obnovu.",
+      "moznosti": [
+        "Záväzok = celková suma dohodnutých platieb vrátane úrokov; RoU = istina znížená o stimuly bez ďalších nákladov",
+        "Záväzok = reálna hodnota podkladového aktíva ku dňu závierky; RoU = súčasná hodnota nezaručenej zostatkovej hodnoty",
+        "Záväzok = súčasná hodnota neuhradených splátok diskontovaná implicitnou (inak prírastkovou výpožičkovou) mierou. RoU = prvotné ocenenie záväzku + splátky uhradené k začiatku/pred ním (mínus stimuly) + počiatočné priame náklady + odhad nákladov na demontáž/obnovu",
+        "Záväzok = istina u nájomcu bez diskontovania; RoU = istina navýšená o celé budúce úroky a daň z pridanej hodnoty"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Záväzok = súčasná hodnota neuhradených splátok diskontovaná implicitnou (inak prírastkovou výpožičkovou) mierou. RoU = prvotné ocenenie záväzku + splátky uhradené k začiatku/pred ním (mínus stimuly) + počiatočné priame náklady + odhad nákladov na demontáž/obnovu."
     },
     {
       "otazka": "Čo je čistá investícia do lízingu u prenajímateľa (IFRS 16)?",
-      "odpoved": "Hrubá investícia (lízingové splátky + nezaručená zostatková hodnota) diskontovaná implicitnou úrokovou mierou; vyjadruje pohľadávku prenajímateľa pri finančnom lízingu, do ktorej sa rozpúšťa finančný výnos."
+      "odpoved": "Hrubá investícia (lízingové splátky + nezaručená zostatková hodnota) diskontovaná implicitnou úrokovou mierou; vyjadruje pohľadávku prenajímateľa pri finančnom lízingu, do ktorej sa rozpúšťa finančný výnos.",
+      "moznosti": [
+        "Hrubá investícia (lízingové splátky + nezaručená zostatková hodnota) diskontovaná implicitnou úrokovou mierou; vyjadruje pohľadávku prenajímateľa pri finančnom lízingu, do ktorej sa rozpúšťa finančný výnos",
+        "Celková suma lízingových splátok bez diskontovania; vyjadruje výnos prenajímateľa pri operatívnom lízingu rozpúšťaný rovnomerne",
+        "Reálna hodnota podkladového aktíva znížená o oprávky; vyjadruje zostatkovú cenu majetku, ktorý zostáva v súvahe prenajímateľa",
+        "Súčasná hodnota nákladov na obnovu a demontáž aktíva; vyjadruje rezervu prenajímateľa na koniec doby lízingu"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Hrubá investícia (lízingové splátky + nezaručená zostatková hodnota) diskontovaná implicitnou úrokovou mierou; vyjadruje pohľadávku prenajímateľa pri finančnom lízingu, do ktorej sa rozpúšťa finančný výnos."
     }
   ],
   "pasce_caste_chyby": [

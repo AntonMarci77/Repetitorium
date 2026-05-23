@@ -28,43 +28,213 @@
     "cielova_dlzka_slov": 1400,
     "uvod": "Finančná analýza je metóda hodnotenia finančnej situácie a výkonnosti podniku na základe údajov z účtovnej závierky. Spája pohľad do minulosti (čo sa stalo) s diagnostikou súčasného stavu a s predikciou ďalšieho vývoja. Jej zmyslom je premeniť 'mŕtve' čísla z výkazov na informáciu o silných a slabých stránkach podniku a o opatreniach. Pracuje s konkrétnymi vstupmi (súvaha, výkaz ziskov a strát, poznámky vrátane cash flow), aplikuje na ne metódy (horizontálna, vertikálna, pomerová analýza, sústavy ukazovateľov) a výstupom je sústava ukazovateľov spolu s ich interpretáciou.",
     "casti": [
-      {"nadpis": "Charakteristika a používatelia FA", "text": "Finančná analýza skúma finančné zdravie podniku – jeho výkonnosť (schopnosť tvoriť zisk), platobnú schopnosť (likvidita), zadlženosť a efektívnosť hospodárenia. Výsledky využívajú dve skupiny používateľov. Interní (manažment, vlastníci, zamestnanci) potrebujú podklady pre riadenie a rozhodovanie. Externí majú odlišné záujmy: banky a veritelia sledujú bonitu a schopnosť splácať, investori výnosnosť a riziko, dodávatelia a odberatelia platobnú schopnosť, štát, audítori a konkurencia ďalšie aspekty. Práve preto sa FA nedá robiť 'naslepo' – musí zohľadniť, pre koho a na aký účel sa robí."},
-      {"nadpis": "Vstupné a výstupné údaje", "text": "Hlavnými vstupmi sú časti účtovnej závierky. SÚVAHA poskytuje stavové údaje o majetku (aktívach) a zdrojoch jeho krytia (pasívach) k súvahovému dňu. VÝKAZ ZISKOV A STRÁT (výsledovka) poskytuje tokové údaje o nákladoch, výnosoch a výsledku hospodárenia za obdobie. POZNÁMKY dopĺňajú prehľad peňažných tokov (cash flow) a prehľad zmien vlastného imania a podávajú vysvetlenia. Doplnkovo sa využíva výročná správa, odvetvové údaje a plánové (rozpočtové) hodnoty. Výstupom je sústava ukazovateľov, ich porovnanie (v čase – trend, s plánom, s odvetvím alebo konkurenciou) a najmä SLOVNÁ INTERPRETÁCIA so záverom a návrhmi opatrení. Bez porovnávacej základne a interpretácie je samotné číslo bezcenné."},
-      {"nadpis": "Metódy FA: horizontálna analýza", "text": "Horizontálna analýza sleduje vývoj jednotlivých položiek výkazu v čase (medzi obdobiami) – odpovedá na otázku 'o koľko sa položka zmenila?'. Pracuje s dvoma mierami: ABSOLÚTNA zmena = hodnota bežného obdobia − hodnota minulého obdobia (v €); RELATÍVNA zmena = (absolútna zmena / hodnota minulého obdobia) × 100 (v %). Príklad: tržby vzrástli z 800 000 € na 1 000 000 €, absolútna zmena = +200 000 €, relatívna zmena = +25 %. Horizontálna analýza odhaľuje trendy a dynamiku, ale sama o sebe nehovorí o štruktúre."},
-      {"nadpis": "Metódy FA: vertikálna analýza", "text": "Vertikálna analýza (percentuálny rozbor štruktúry) vyjadruje každú položku ako podiel na zvolenej základni – odpovedá na otázku 'aký veľký podiel tvorí položka?'. V SÚVAHE je základňou spravidla suma celkových aktív (= 100 %), vo VÝSLEDOVKE spravidla tržby (= 100 %). Príklad: pri celkových aktívach 1 000 000 € a dlhodobom majetku 600 000 € tvorí dlhodobý majetok 60 %. Vertikálna analýza je odolná voči veľkosti podniku a inflácii (pracuje s podielmi), preto je vhodná na porovnávanie firiem rôznej veľkosti aj na medziodvetvové porovnanie. Pamäťová pomôcka: horizontálna = doľava-doprava v čase (riadky za roky); vertikálna = zhora-nadol v štruktúre (% z jedného stĺpca)."},
-      {"nadpis": "Metódy FA: pomerová a sústavová analýza", "text": "Pomerová analýza dáva do pomeru dve položky výkazov a tvorí jadro klasickej FA: ukazovatele rentability (výnosnosti), likvidity (platobnej schopnosti), aktivity (využitia majetku) a zadlženosti (kapitálovej štruktúry). Podrobne sa preberajú v téze II.4. Sústavy ukazovateľov idú ďalej: pyramídové rozklady (napr. DuPont rozklad ROE na maržu × obrat × páku) ukazujú, odkiaľ ukazovateľ pochádza, a syntetické modely (bonitné a bankrotové – Altmanovo Z-score, IN05, Taffler, Beaver) jedným skóre odhadnú finančné zdravie či riziko úpadku. Tým sa metódy posúvajú od jednotlivého čísla k celkovej diagnóze."},
-      {"nadpis": "Analýza finančnej situácie z absolútnych ukazovateľov súvahy", "text": "Zo súvahy sa hodnotí majetková a finančná štruktúra. MAJETKOVÁ ŠTRUKTÚRA (strana aktív) = podiel neobežného (dlhodobého) a obežného majetku na celkových aktívach; výrobné podniky majú vyšší podiel dlhodobého majetku, obchod a služby vyšší podiel obežného. FINANČNÁ ŠTRUKTÚRA (strana pasív) = pomer vlastného imania a cudzích zdrojov a rozdelenie cudzích zdrojov na dlhodobé a krátkodobé. Kľúčovým absolútnym ukazovateľom je ČISTÝ PRACOVNÝ KAPITÁL: ČPK = obežný majetok − krátkodobé záväzky. Vyjadruje 'vankúš' obežného majetku financovaný dlhodobými zdrojmi; kladný ČPK znamená, že časť obežného majetku kryjú dlhodobé zdroje, čo je z hľadiska finančnej stability priaznivé."},
-      {"nadpis": "Analýza VH, nákladov a výnosov z absolútnych ukazovateľov výsledovky", "text": "Z výsledovky sa analyzuje štruktúra výnosov (tržby z predaja, ostatné výnosy) a nákladov (spotreba materiálu, služby, osobné náklady, odpisy, finančné náklady) a najmä výsledok hospodárenia v jednotlivých stupňoch: PREVÁDZKOVÝ VH, FINANČNÝ VH, VH PRED ZDANENÍM (EBT) a VH PO ZDANENÍ (čistý zisk). Pre porovnateľnosť sa používajú pomocné kategórie zisku nezávislé od financovania a odpisovej politiky: EBIT = zisk pred úrokmi a zdanením, EBITDA = EBIT + odpisy. Analýza výnosnosti tu znamená sledovať, ako rastú výnosy v pomere k nákladom a ako sa tvorí zisk v jednotlivých stupňoch – horizontálne (medziročný vývoj) aj vertikálne (podiel nákladových druhov na tržbách)."},
-      {"nadpis": "Ukazovatele nákladovosti, účinnosti a viazanosti", "text": "Táto skupina meria EFEKTÍVNOSŤ a HOSPODÁRNOSŤ. NÁKLADOVOSŤ = náklady / výnosy (resp. náklady / tržby) – koľko € nákladov pripadá na 1 € výnosov; čím nižšie, tým lepšie; doplnok do 1 je zisková marža (ak nákladovosť = 0,90, marža = 0,10). ÚČINNOSŤ (produktivita nákladov) = výnosy / náklady – koľko € výnosov vyprodukuje 1 € nákladov; je PREVRÁTENOU hodnotou nákladovosti, čím vyššie tým lepšie (musí byť > 1, aby bol podnik ziskový). VIAZANOSŤ celkových aktív = celkové aktíva / tržby – koľko € majetku treba na vytvorenie 1 € tržieb; čím nižšie, tým 'štíhlejší' podnik; je PREVRÁTENOU hodnotou obratu aktív (obrat aktív = tržby / aktíva). Pamäťová pomôcka: nákladovosť = 'koľko ma to stojí', viazanosť = 'koľko majetku v tom mám zamrznuté' – pri oboch tlačíme číslo dolu; účinnosť a obrat aktív naopak tlačíme hore."},
-      {"zaver": "Finančná analýza prebieha v logickej postupnosti: VSTUP (súvaha, výsledovka, poznámky) → METÓDA (horizontálna, vertikálna, pomerová, sústavová) → VÝSTUP (ukazovatele + porovnanie + interpretácia). Zo súvahy čítame stavovú situáciu (štruktúra majetku a zdrojov, ČPK), z výsledovky tokovú výkonnosť (stupne VH, štruktúra nákladov a výnosov). Ukazovatele nákladovosti, účinnosti a viazanosti spájajú obe strany – merajú, ako hospodárne podnik premieňa vstupy a majetok na výnosy. Kľúčové je nezostať pri jednom čísle: vždy ho porovnať a slovne interpretovať."}
+      {
+        "nadpis": "Charakteristika a používatelia FA",
+        "text": "Finančná analýza skúma finančné zdravie podniku – jeho výkonnosť (schopnosť tvoriť zisk), platobnú schopnosť (likvidita), zadlženosť a efektívnosť hospodárenia. Výsledky využívajú dve skupiny používateľov. Interní (manažment, vlastníci, zamestnanci) potrebujú podklady pre riadenie a rozhodovanie. Externí majú odlišné záujmy: banky a veritelia sledujú bonitu a schopnosť splácať, investori výnosnosť a riziko, dodávatelia a odberatelia platobnú schopnosť, štát, audítori a konkurencia ďalšie aspekty. Práve preto sa FA nedá robiť 'naslepo' – musí zohľadniť, pre koho a na aký účel sa robí."
+      },
+      {
+        "nadpis": "Vstupné a výstupné údaje",
+        "text": "Hlavnými vstupmi sú časti účtovnej závierky. SÚVAHA poskytuje stavové údaje o majetku (aktívach) a zdrojoch jeho krytia (pasívach) k súvahovému dňu. VÝKAZ ZISKOV A STRÁT (výsledovka) poskytuje tokové údaje o nákladoch, výnosoch a výsledku hospodárenia za obdobie. POZNÁMKY dopĺňajú prehľad peňažných tokov (cash flow) a prehľad zmien vlastného imania a podávajú vysvetlenia. Doplnkovo sa využíva výročná správa, odvetvové údaje a plánové (rozpočtové) hodnoty. Výstupom je sústava ukazovateľov, ich porovnanie (v čase – trend, s plánom, s odvetvím alebo konkurenciou) a najmä SLOVNÁ INTERPRETÁCIA so záverom a návrhmi opatrení. Bez porovnávacej základne a interpretácie je samotné číslo bezcenné."
+      },
+      {
+        "nadpis": "Metódy FA: horizontálna analýza",
+        "text": "Horizontálna analýza sleduje vývoj jednotlivých položiek výkazu v čase (medzi obdobiami) – odpovedá na otázku 'o koľko sa položka zmenila?'. Pracuje s dvoma mierami: ABSOLÚTNA zmena = hodnota bežného obdobia − hodnota minulého obdobia (v €); RELATÍVNA zmena = (absolútna zmena / hodnota minulého obdobia) × 100 (v %). Príklad: tržby vzrástli z 800 000 € na 1 000 000 €, absolútna zmena = +200 000 €, relatívna zmena = +25 %. Horizontálna analýza odhaľuje trendy a dynamiku, ale sama o sebe nehovorí o štruktúre."
+      },
+      {
+        "nadpis": "Metódy FA: vertikálna analýza",
+        "text": "Vertikálna analýza (percentuálny rozbor štruktúry) vyjadruje každú položku ako podiel na zvolenej základni – odpovedá na otázku 'aký veľký podiel tvorí položka?'. V SÚVAHE je základňou spravidla suma celkových aktív (= 100 %), vo VÝSLEDOVKE spravidla tržby (= 100 %). Príklad: pri celkových aktívach 1 000 000 € a dlhodobom majetku 600 000 € tvorí dlhodobý majetok 60 %. Vertikálna analýza je odolná voči veľkosti podniku a inflácii (pracuje s podielmi), preto je vhodná na porovnávanie firiem rôznej veľkosti aj na medziodvetvové porovnanie. Pamäťová pomôcka: horizontálna = doľava-doprava v čase (riadky za roky); vertikálna = zhora-nadol v štruktúre (% z jedného stĺpca)."
+      },
+      {
+        "nadpis": "Metódy FA: pomerová a sústavová analýza",
+        "text": "Pomerová analýza dáva do pomeru dve položky výkazov a tvorí jadro klasickej FA: ukazovatele rentability (výnosnosti), likvidity (platobnej schopnosti), aktivity (využitia majetku) a zadlženosti (kapitálovej štruktúry). Podrobne sa preberajú v téze II.4. Sústavy ukazovateľov idú ďalej: pyramídové rozklady (napr. DuPont rozklad ROE na maržu × obrat × páku) ukazujú, odkiaľ ukazovateľ pochádza, a syntetické modely (bonitné a bankrotové – Altmanovo Z-score, IN05, Taffler, Beaver) jedným skóre odhadnú finančné zdravie či riziko úpadku. Tým sa metódy posúvajú od jednotlivého čísla k celkovej diagnóze."
+      },
+      {
+        "nadpis": "Analýza finančnej situácie z absolútnych ukazovateľov súvahy",
+        "text": "Zo súvahy sa hodnotí majetková a finančná štruktúra. MAJETKOVÁ ŠTRUKTÚRA (strana aktív) = podiel neobežného (dlhodobého) a obežného majetku na celkových aktívach; výrobné podniky majú vyšší podiel dlhodobého majetku, obchod a služby vyšší podiel obežného. FINANČNÁ ŠTRUKTÚRA (strana pasív) = pomer vlastného imania a cudzích zdrojov a rozdelenie cudzích zdrojov na dlhodobé a krátkodobé. Kľúčovým absolútnym ukazovateľom je ČISTÝ PRACOVNÝ KAPITÁL: ČPK = obežný majetok − krátkodobé záväzky. Vyjadruje 'vankúš' obežného majetku financovaný dlhodobými zdrojmi; kladný ČPK znamená, že časť obežného majetku kryjú dlhodobé zdroje, čo je z hľadiska finančnej stability priaznivé."
+      },
+      {
+        "nadpis": "Analýza VH, nákladov a výnosov z absolútnych ukazovateľov výsledovky",
+        "text": "Z výsledovky sa analyzuje štruktúra výnosov (tržby z predaja, ostatné výnosy) a nákladov (spotreba materiálu, služby, osobné náklady, odpisy, finančné náklady) a najmä výsledok hospodárenia v jednotlivých stupňoch: PREVÁDZKOVÝ VH, FINANČNÝ VH, VH PRED ZDANENÍM (EBT) a VH PO ZDANENÍ (čistý zisk). Pre porovnateľnosť sa používajú pomocné kategórie zisku nezávislé od financovania a odpisovej politiky: EBIT = zisk pred úrokmi a zdanením, EBITDA = EBIT + odpisy. Analýza výnosnosti tu znamená sledovať, ako rastú výnosy v pomere k nákladom a ako sa tvorí zisk v jednotlivých stupňoch – horizontálne (medziročný vývoj) aj vertikálne (podiel nákladových druhov na tržbách)."
+      },
+      {
+        "nadpis": "Ukazovatele nákladovosti, účinnosti a viazanosti",
+        "text": "Táto skupina meria EFEKTÍVNOSŤ a HOSPODÁRNOSŤ. NÁKLADOVOSŤ = náklady / výnosy (resp. náklady / tržby) – koľko € nákladov pripadá na 1 € výnosov; čím nižšie, tým lepšie; doplnok do 1 je zisková marža (ak nákladovosť = 0,90, marža = 0,10). ÚČINNOSŤ (produktivita nákladov) = výnosy / náklady – koľko € výnosov vyprodukuje 1 € nákladov; je PREVRÁTENOU hodnotou nákladovosti, čím vyššie tým lepšie (musí byť > 1, aby bol podnik ziskový). VIAZANOSŤ celkových aktív = celkové aktíva / tržby – koľko € majetku treba na vytvorenie 1 € tržieb; čím nižšie, tým 'štíhlejší' podnik; je PREVRÁTENOU hodnotou obratu aktív (obrat aktív = tržby / aktíva). Pamäťová pomôcka: nákladovosť = 'koľko ma to stojí', viazanosť = 'koľko majetku v tom mám zamrznuté' – pri oboch tlačíme číslo dolu; účinnosť a obrat aktív naopak tlačíme hore."
+      },
+      {
+        "zaver": "Finančná analýza prebieha v logickej postupnosti: VSTUP (súvaha, výsledovka, poznámky) → METÓDA (horizontálna, vertikálna, pomerová, sústavová) → VÝSTUP (ukazovatele + porovnanie + interpretácia). Zo súvahy čítame stavovú situáciu (štruktúra majetku a zdrojov, ČPK), z výsledovky tokovú výkonnosť (stupne VH, štruktúra nákladov a výnosov). Ukazovatele nákladovosti, účinnosti a viazanosti spájajú obe strany – merajú, ako hospodárne podnik premieňa vstupy a majetok na výnosy. Kľúčové je nezostať pri jednom čísle: vždy ho porovnať a slovne interpretovať."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Prečo jedno číslo nestačí – porovnávacie základne", "text": "Hodnota ukazovateľa získava zmysel až porovnaním: (1) v ČASE (trendová analýza – zlepšuje sa alebo zhoršuje?), (2) s PLÁNOM/rozpočtom (plníme ciele?), (3) s ODVETVÍM alebo konkurenciou (benchmarking – sme lepší či horší než priemer?), (4) s odporúčanými (orientačnými) hodnotami. Bez porovnania je napr. nákladovosť 0,90 len číslo; v kontexte odvetvia 0,85 je to signál nadpriemerných nákladov."},
-    {"nadpis": "Stavová vs. toková veličina – dôsledok pre výpočet", "text": "Súvahové položky sú stavové (k dátumu), výsledovkové tokové (za obdobie). Pri ukazovateľoch, ktoré kombinujú obe (napr. viazanosť aktív, obrat aktív, doby obratu), je metodicky správne brať PRIEMERNÝ stav súvahovej položky (priemer z počiatočného a koncového stavu), aby bol porovnateľný s tokovou veličinou za celé obdobie. V praxi sa niekedy zjednodušene berie koncový stav – treba vedieť, že to skresľuje pri výrazných zmenách počas roka."},
-    {"nadpis": "EBIT a EBITDA – načo slúžia", "text": "EBIT (zisk pred úrokmi a zdanením) očisťuje výsledok od spôsobu financovania (úrokov) a od dane, takže umožňuje porovnať prevádzkovú výkonnosť firiem s rôznou zadlženosťou a v rôznych daňových režimoch. EBITDA pridáva späť aj odpisy a amortizáciu, čím očisťuje aj od odpisovej politiky a investičnej minulosti – približuje sa peňažnej výkonnosti prevádzky. Obe sú vstupom do ukazovateľov (napr. ROA = EBIT/aktíva, úrokové krytie = EBIT/úroky)."},
-    {"nadpis": "Súvislosť nákladovosti, účinnosti a rentability tržieb", "text": "Nákladovosť (N/V) a rentabilita tržieb (zisk/tržby) sú dve strany tej istej mince: ak sú náklady ≈ nákladom na tržby a výnosy ≈ tržbám, potom 1 − nákladovosť ≈ zisková marža. Pokles nákladovosti (úspora nákladov pri nezmenených výnosoch) priamo zvyšuje maržu a tým aj ROS. Účinnosť > 1 je nutnou podmienkou ziskovosti. Viazanosť aktív zasa cez DuPont súvisí s rentabilitou aktív: ROA = ROS × obrat aktív = ROS / viazanosť aktív – nižšia viazanosť (vyšší obrat) pri rovnakej marži zvyšuje ROA."},
-    {"nadpis": "Čiastková a celková nákladovosť", "text": "Nákladovosť možno počítať za celkové náklady (celková nákladovosť = celkové N / celkové V), alebo za jednotlivé nákladové druhy (čiastková/parciálna nákladovosť = napr. spotreba materiálu / výnosy, osobné náklady / výnosy). Súčet čiastkových nákladovostí dáva celkovú nákladovosť. To umožňuje zistiť, ktorý nákladový druh najviac 'ťahá' celkové náklady hore a kde hľadať úspory. Analyticky sa tak prepája vertikálna analýza výsledovky s hodnotením hospodárnosti."},
-    {"nadpis": "Obmedzenia finančnej analýzy", "text": "FA má hranice: vychádza z historických (minulých) údajov, ktoré nemusia platiť do budúcnosti; účtovné údaje môžu byť ovplyvnené účtovnou politikou (oceňovanie, odpisy, opravné položky) a v krajnom prípade kreatívnym účtovníctvom; nezohľadňuje nefinančné faktory (kvalita manažmentu, postavenie na trhu, know-how) ani infláciu pri historických cenách. Preto sa FA kombinuje s nefinančnými ukazovateľmi a kvalitatívnym hodnotením; ESG/udržateľnostné vykazovanie tento nedostatok čiastočne dopĺňa."}
+    {
+      "nadpis": "Prečo jedno číslo nestačí – porovnávacie základne",
+      "text": "Hodnota ukazovateľa získava zmysel až porovnaním: (1) v ČASE (trendová analýza – zlepšuje sa alebo zhoršuje?), (2) s PLÁNOM/rozpočtom (plníme ciele?), (3) s ODVETVÍM alebo konkurenciou (benchmarking – sme lepší či horší než priemer?), (4) s odporúčanými (orientačnými) hodnotami. Bez porovnania je napr. nákladovosť 0,90 len číslo; v kontexte odvetvia 0,85 je to signál nadpriemerných nákladov."
+    },
+    {
+      "nadpis": "Stavová vs. toková veličina – dôsledok pre výpočet",
+      "text": "Súvahové položky sú stavové (k dátumu), výsledovkové tokové (za obdobie). Pri ukazovateľoch, ktoré kombinujú obe (napr. viazanosť aktív, obrat aktív, doby obratu), je metodicky správne brať PRIEMERNÝ stav súvahovej položky (priemer z počiatočného a koncového stavu), aby bol porovnateľný s tokovou veličinou za celé obdobie. V praxi sa niekedy zjednodušene berie koncový stav – treba vedieť, že to skresľuje pri výrazných zmenách počas roka."
+    },
+    {
+      "nadpis": "EBIT a EBITDA – načo slúžia",
+      "text": "EBIT (zisk pred úrokmi a zdanením) očisťuje výsledok od spôsobu financovania (úrokov) a od dane, takže umožňuje porovnať prevádzkovú výkonnosť firiem s rôznou zadlženosťou a v rôznych daňových režimoch. EBITDA pridáva späť aj odpisy a amortizáciu, čím očisťuje aj od odpisovej politiky a investičnej minulosti – približuje sa peňažnej výkonnosti prevádzky. Obe sú vstupom do ukazovateľov (napr. ROA = EBIT/aktíva, úrokové krytie = EBIT/úroky)."
+    },
+    {
+      "nadpis": "Súvislosť nákladovosti, účinnosti a rentability tržieb",
+      "text": "Nákladovosť (N/V) a rentabilita tržieb (zisk/tržby) sú dve strany tej istej mince: ak sú náklady ≈ nákladom na tržby a výnosy ≈ tržbám, potom 1 − nákladovosť ≈ zisková marža. Pokles nákladovosti (úspora nákladov pri nezmenených výnosoch) priamo zvyšuje maržu a tým aj ROS. Účinnosť > 1 je nutnou podmienkou ziskovosti. Viazanosť aktív zasa cez DuPont súvisí s rentabilitou aktív: ROA = ROS × obrat aktív = ROS / viazanosť aktív – nižšia viazanosť (vyšší obrat) pri rovnakej marži zvyšuje ROA."
+    },
+    {
+      "nadpis": "Čiastková a celková nákladovosť",
+      "text": "Nákladovosť možno počítať za celkové náklady (celková nákladovosť = celkové N / celkové V), alebo za jednotlivé nákladové druhy (čiastková/parciálna nákladovosť = napr. spotreba materiálu / výnosy, osobné náklady / výnosy). Súčet čiastkových nákladovostí dáva celkovú nákladovosť. To umožňuje zistiť, ktorý nákladový druh najviac 'ťahá' celkové náklady hore a kde hľadať úspory. Analyticky sa tak prepája vertikálna analýza výsledovky s hodnotením hospodárnosti."
+    },
+    {
+      "nadpis": "Obmedzenia finančnej analýzy",
+      "text": "FA má hranice: vychádza z historických (minulých) údajov, ktoré nemusia platiť do budúcnosti; účtovné údaje môžu byť ovplyvnené účtovnou politikou (oceňovanie, odpisy, opravné položky) a v krajnom prípade kreatívnym účtovníctvom; nezohľadňuje nefinančné faktory (kvalita manažmentu, postavenie na trhu, know-how) ani infláciu pri historických cenách. Preto sa FA kombinuje s nefinančnými ukazovateľmi a kvalitatívnym hodnotením; ESG/udržateľnostné vykazovanie tento nedostatok čiastočne dopĺňa."
+    }
   ],
   "priklady": [
-    {"nazov": "Horizontálna a vertikálna analýza výsledovky", "zadanie": "Tržby vzrástli z 800 000 € (rok 1) na 1 000 000 € (rok 2). Náklady v roku 2 predstavovali 900 000 €. Vypočítajte horizontálnu zmenu tržieb a vertikálny podiel nákladov na tržbách v roku 2.", "riesenie": "Horizontálna analýza tržieb: absolútna zmena = 1 000 000 − 800 000 = +200 000 €; relatívna zmena = 200 000 / 800 000 × 100 = +25 %. Vertikálna analýza roku 2 (základňa = tržby 1 000 000 € = 100 %): náklady tvoria 900 000 / 1 000 000 × 100 = 90 % tržieb, t. j. zisk z prevádzky predstavuje 10 % tržieb.", "dopad_na_zd": "Tržby +25 % medziročne; náklady = 90 % tržieb (zisková marža ≈ 10 %)."},
-    {"nazov": "Čistý pracovný kapitál a štruktúra súvahy", "zadanie": "Celkové aktíva 1 000 000 € (dlhodobý majetok 600 000 €, obežný majetok 400 000 €). Krátkodobé záväzky 200 000 €. Vypočítajte majetkovú štruktúru a čistý pracovný kapitál.", "riesenie": "Majetková štruktúra (vertikálna analýza aktív): dlhodobý majetok = 600 000 / 1 000 000 = 60 %, obežný majetok = 400 000 / 1 000 000 = 40 % – profil skôr výrobného podniku. ČPK = obežný majetok − krátkodobé záväzky = 400 000 − 200 000 = 200 000 €. Kladný ČPK znamená, že 200 000 € obežného majetku je krytých dlhodobými zdrojmi → priaznivá finančná stabilita.", "dopad_na_zd": "DM 60 % / OM 40 %; ČPK = +200 000 € (kladný, stabilný)."},
-    {"nazov": "Nákladovosť, účinnosť a viazanosť aktív", "zadanie": "Podnik dosiahol výnosy (= tržby) 1 000 000 €, celkové náklady 900 000 €, celkové aktíva 800 000 €. Vypočítajte nákladovosť, účinnosť nákladov a viazanosť celkových aktív a interpretujte ich.", "riesenie": "Nákladovosť = náklady / výnosy = 900 000 / 1 000 000 = 0,90 → na 1 € výnosov pripadá 0,90 € nákladov (zisková marža = 1 − 0,90 = 0,10, t. j. 10 %). Účinnosť = výnosy / náklady = 1 000 000 / 900 000 = 1,11 → 1 € nákladov vyprodukuje 1,11 € výnosov (prevrátená hodnota nákladovosti: 1/0,90 = 1,11). Viazanosť aktív = aktíva / tržby = 800 000 / 1 000 000 = 0,80 → na 1 € tržieb je viazaných 0,80 € majetku; obrat aktív = 1/0,80 = 1,25 (aktíva sa za rok obrátia 1,25-krát). Interpretácia: účinnosť > 1 a nákladovosť < 1 → podnik je ziskový; viazanosť < 1 → relatívne štíhly podnik.", "dopad_na_zd": "Nákladovosť 0,90; účinnosť 1,11; viazanosť aktív 0,80 (obrat aktív 1,25). Podnik ziskový a kapitálovo efektívny."},
-    {"nazov": "Čiastková nákladovosť – kde hľadať úspory", "zadanie": "Výnosy 1 000 000 €. Spotreba materiálu 450 000 €, osobné náklady 300 000 €, odpisy 90 000 €, ostatné náklady 60 000 €. Rozložte celkovú nákladovosť na čiastkové.", "riesenie": "Čiastkové nákladovosti (každý druh / výnosy): materiál = 450 000 / 1 000 000 = 0,45; osobné = 300 000 / 1 000 000 = 0,30; odpisy = 90 000 / 1 000 000 = 0,09; ostatné = 60 000 / 1 000 000 = 0,06. Súčet = 0,45 + 0,30 + 0,09 + 0,06 = 0,90 = celková nákladovosť (kontrola sedí). Najväčšiu váhu má spotreba materiálu (45 % výnosov) – tam je najväčší potenciál úspor a najväčšia citlivosť výsledku na zmenu cien vstupov.", "dopad_na_zd": "Celková nákladovosť 0,90 = súčet čiastkových; dominuje materiál (0,45)."}
+    {
+      "nazov": "Horizontálna a vertikálna analýza výsledovky",
+      "zadanie": "Tržby vzrástli z 800 000 € (rok 1) na 1 000 000 € (rok 2). Náklady v roku 2 predstavovali 900 000 €. Vypočítajte horizontálnu zmenu tržieb a vertikálny podiel nákladov na tržbách v roku 2.",
+      "riesenie": "Horizontálna analýza tržieb: absolútna zmena = 1 000 000 − 800 000 = +200 000 €; relatívna zmena = 200 000 / 800 000 × 100 = +25 %. Vertikálna analýza roku 2 (základňa = tržby 1 000 000 € = 100 %): náklady tvoria 900 000 / 1 000 000 × 100 = 90 % tržieb, t. j. zisk z prevádzky predstavuje 10 % tržieb.",
+      "dopad_na_zd": "Tržby +25 % medziročne; náklady = 90 % tržieb (zisková marža ≈ 10 %)."
+    },
+    {
+      "nazov": "Čistý pracovný kapitál a štruktúra súvahy",
+      "zadanie": "Celkové aktíva 1 000 000 € (dlhodobý majetok 600 000 €, obežný majetok 400 000 €). Krátkodobé záväzky 200 000 €. Vypočítajte majetkovú štruktúru a čistý pracovný kapitál.",
+      "riesenie": "Majetková štruktúra (vertikálna analýza aktív): dlhodobý majetok = 600 000 / 1 000 000 = 60 %, obežný majetok = 400 000 / 1 000 000 = 40 % – profil skôr výrobného podniku. ČPK = obežný majetok − krátkodobé záväzky = 400 000 − 200 000 = 200 000 €. Kladný ČPK znamená, že 200 000 € obežného majetku je krytých dlhodobými zdrojmi → priaznivá finančná stabilita.",
+      "dopad_na_zd": "DM 60 % / OM 40 %; ČPK = +200 000 € (kladný, stabilný)."
+    },
+    {
+      "nazov": "Nákladovosť, účinnosť a viazanosť aktív",
+      "zadanie": "Podnik dosiahol výnosy (= tržby) 1 000 000 €, celkové náklady 900 000 €, celkové aktíva 800 000 €. Vypočítajte nákladovosť, účinnosť nákladov a viazanosť celkových aktív a interpretujte ich.",
+      "riesenie": "Nákladovosť = náklady / výnosy = 900 000 / 1 000 000 = 0,90 → na 1 € výnosov pripadá 0,90 € nákladov (zisková marža = 1 − 0,90 = 0,10, t. j. 10 %). Účinnosť = výnosy / náklady = 1 000 000 / 900 000 = 1,11 → 1 € nákladov vyprodukuje 1,11 € výnosov (prevrátená hodnota nákladovosti: 1/0,90 = 1,11). Viazanosť aktív = aktíva / tržby = 800 000 / 1 000 000 = 0,80 → na 1 € tržieb je viazaných 0,80 € majetku; obrat aktív = 1/0,80 = 1,25 (aktíva sa za rok obrátia 1,25-krát). Interpretácia: účinnosť > 1 a nákladovosť < 1 → podnik je ziskový; viazanosť < 1 → relatívne štíhly podnik.",
+      "dopad_na_zd": "Nákladovosť 0,90; účinnosť 1,11; viazanosť aktív 0,80 (obrat aktív 1,25). Podnik ziskový a kapitálovo efektívny."
+    },
+    {
+      "nazov": "Čiastková nákladovosť – kde hľadať úspory",
+      "zadanie": "Výnosy 1 000 000 €. Spotreba materiálu 450 000 €, osobné náklady 300 000 €, odpisy 90 000 €, ostatné náklady 60 000 €. Rozložte celkovú nákladovosť na čiastkové.",
+      "riesenie": "Čiastkové nákladovosti (každý druh / výnosy): materiál = 450 000 / 1 000 000 = 0,45; osobné = 300 000 / 1 000 000 = 0,30; odpisy = 90 000 / 1 000 000 = 0,09; ostatné = 60 000 / 1 000 000 = 0,06. Súčet = 0,45 + 0,30 + 0,09 + 0,06 = 0,90 = celková nákladovosť (kontrola sedí). Najväčšiu váhu má spotreba materiálu (45 % výnosov) – tam je najväčší potenciál úspor a najväčšia citlivosť výsledku na zmenu cien vstupov.",
+      "dopad_na_zd": "Celková nákladovosť 0,90 = súčet čiastkových; dominuje materiál (0,45)."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/BC_II_03_metody_FA.svg", "typ": "schéma", "popis": "Členenie metód finančnej analýzy (horizontálna, vertikálna, pomerová, sústavová) s otázkami, na ktoré odpovedajú, a väzba vstup → metóda → výstup."},
-    {"subor": "03_Vizualy/BC_II_03_nakladovost_ucinnost_viazanost.svg", "typ": "schéma", "popis": "Ukazovatele hospodárnosti – nákladovosť (N/V), účinnosť (V/N) a viazanosť aktív (A/T) so vzorcami, prevrátenými vzťahmi a smerom žiaduceho vývoja."}
+    {
+      "subor": "03_Vizualy/BC_II_03_metody_FA.svg",
+      "typ": "schéma",
+      "popis": "Členenie metód finančnej analýzy (horizontálna, vertikálna, pomerová, sústavová) s otázkami, na ktoré odpovedajú, a väzba vstup → metóda → výstup."
+    },
+    {
+      "subor": "03_Vizualy/BC_II_03_nakladovost_ucinnost_viazanost.svg",
+      "typ": "schéma",
+      "popis": "Ukazovatele hospodárnosti – nákladovosť (N/V), účinnosť (V/N) a viazanosť aktív (A/T) so vzorcami, prevrátenými vzťahmi a smerom žiaduceho vývoja."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Aký je rozdiel medzi horizontálnou a vertikálnou analýzou?", "odpoved": "Horizontálna sleduje vývoj položky v ČASE (absolútna a relatívna medziročná zmena – 'o koľko sa zmenila'). Vertikálna sleduje ŠTRUKTÚRU v rámci jedného obdobia (podiel položky na základni – aktívach v súvahe, tržbách vo výsledovke – 'aký podiel tvorí')."},
-    {"otazka": "Prečo je súvaha stavová a výsledovka toková veličina a aký to má dôsledok?", "odpoved": "Súvaha zachytáva stav k jednému dňu (čo podnik vlastní a z čoho), výsledovka tok za celé obdobie (náklady a výnosy). Dôsledok: ukazovatele kombinujúce obe (napr. viazanosť/obrat aktív) by mali pracovať s priemerným stavom súvahovej položky, aby bola porovnateľná s tokom."},
-    {"otazka": "Čo je čistý pracovný kapitál a čo znamená jeho kladná hodnota?", "odpoved": "ČPK = obežný majetok − krátkodobé záväzky. Kladná hodnota znamená, že časť obežného majetku je financovaná dlhodobými zdrojmi (vankúš krytia), čo je z hľadiska platobnej schopnosti a finančnej stability priaznivé."},
-    {"otazka": "Definujte nákladovosť, účinnosť a viazanosť a ich žiaduci smer.", "odpoved": "Nákladovosť = náklady/výnosy (čím nižšie, tým lepšie). Účinnosť = výnosy/náklady = prevrátená hodnota nákladovosti (čím vyššie, tým lepšie; musí byť >1). Viazanosť aktív = aktíva/tržby (čím nižšie, tým lepšie) = prevrátená hodnota obratu aktív."},
-    {"otazka": "Ako súvisí nákladovosť so ziskovou maržou?", "odpoved": "Ak sú výnosy ≈ tržbám, doplnok nákladovosti do 1 je zisková marža: marža = 1 − nákladovosť. Pri nákladovosti 0,90 je marža 0,10 (10 %). Pokles nákladovosti priamo zvyšuje maržu."},
-    {"otazka": "Čo sú EBIT a EBITDA a načo sa používajú vo FA?", "odpoved": "EBIT = zisk pred úrokmi a zdanením (očistený od financovania a dane), EBITDA = EBIT + odpisy (navyše očistený od odpisovej politiky). Slúžia na porovnanie prevádzkovej výkonnosti firiem s rôznou zadlženosťou, daňovým režimom a investičnou minulosťou."},
-    {"otazka": "Aké sú hlavné obmedzenia finančnej analýzy?", "odpoved": "Vychádza z historických údajov, je ovplyvnená účtovnou politikou (oceňovanie, odpisy, OP), nezohľadňuje nefinančné faktory ani vplyv inflácie a jedno číslo bez porovnávacej základne a interpretácie nemá výpovednú hodnotu."}
+    {
+      "otazka": "Aký je rozdiel medzi horizontálnou a vertikálnou analýzou?",
+      "odpoved": "Horizontálna sleduje vývoj položky v ČASE (absolútna a relatívna medziročná zmena – 'o koľko sa zmenila'). Vertikálna sleduje ŠTRUKTÚRU v rámci jedného obdobia (podiel položky na základni – aktívach v súvahe, tržbách vo výsledovke – 'aký podiel tvorí').",
+      "moznosti": [
+        "Horizontálna sleduje štruktúru položky v jednom období (podiel na celku); vertikálna sleduje vývoj položky v čase (medziročnú zmenu).",
+        "Horizontálna sleduje vývoj položky v čase (absolútna a relatívna medziročná zmena); vertikálna sleduje štruktúru v rámci jedného obdobia (podiel na základni).",
+        "Horizontálna porovnáva podnik s odvetvím; vertikálna porovnáva podnik s plánom v rámci jedného obdobia.",
+        "Horizontálna počíta podiel položky na tržbách; vertikálna počíta podiel položky na celkových aktívach v čase."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Horizontálna sleduje vývoj položky v ČASE (absolútna a relatívna medziročná zmena – 'o koľko sa zmenila'). Vertikálna sleduje ŠTRUKTÚRU v rámci jedného obdobia (podiel položky na základni – aktívach v súvahe, tržbách vo výsledovke – 'aký podiel tvorí')."
+    },
+    {
+      "otazka": "Prečo je súvaha stavová a výsledovka toková veličina a aký to má dôsledok?",
+      "odpoved": "Súvaha zachytáva stav k jednému dňu (čo podnik vlastní a z čoho), výsledovka tok za celé obdobie (náklady a výnosy). Dôsledok: ukazovatele kombinujúce obe (napr. viazanosť/obrat aktív) by mali pracovať s priemerným stavom súvahovej položky, aby bola porovnateľná s tokom.",
+      "moznosti": [
+        "Súvaha zachytáva tok za obdobie a výsledovka stav k dňu; preto sa pri ukazovateľoch berie koncový stav výsledovkovej položky.",
+        "Obe sú stavové veličiny k súvahovému dňu; dôsledok je, že ukazovatele možno počítať z koncových stavov bez priemerovania.",
+        "Súvaha zachytáva stav k jednému dňu a výsledovka tok za obdobie; dôsledok – pri kombinovaných ukazovateľoch sa berie priemerný stav súvahovej položky.",
+        "Súvaha aj výsledovka sú tokové veličiny; preto sa pri všetkých ukazovateľoch používa výlučne počiatočný stav."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Súvaha zachytáva stav k jednému dňu (čo podnik vlastní a z čoho), výsledovka tok za celé obdobie (náklady a výnosy). Dôsledok: ukazovatele kombinujúce obe (napr. viazanosť/obrat aktív) by mali pracovať s priemerným stavom súvahovej položky, aby bola porovnateľná s tokom."
+    },
+    {
+      "otazka": "Čo je čistý pracovný kapitál a čo znamená jeho kladná hodnota?",
+      "odpoved": "ČPK = obežný majetok − krátkodobé záväzky. Kladná hodnota znamená, že časť obežného majetku je financovaná dlhodobými zdrojmi (vankúš krytia), čo je z hľadiska platobnej schopnosti a finančnej stability priaznivé.",
+      "moznosti": [
+        "ČPK = obežný majetok − krátkodobé záväzky; kladná hodnota znamená, že časť obežného majetku je krytá dlhodobými zdrojmi (priaznivá stabilita).",
+        "ČPK = vlastné imanie − cudzie zdroje; kladná hodnota znamená, že podnik je financovaný prevažne vlastnými zdrojmi.",
+        "ČPK = tržby − náklady; kladná hodnota znamená, že podnik dosiahol zisk z prevádzkovej činnosti.",
+        "ČPK = dlhodobý majetok − dlhodobé záväzky; kladná hodnota znamená, že investície sú kryté krátkodobými zdrojmi."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "ČPK = obežný majetok − krátkodobé záväzky. Kladná hodnota znamená, že časť obežného majetku je financovaná dlhodobými zdrojmi (vankúš krytia), čo je z hľadiska platobnej schopnosti a finančnej stability priaznivé."
+    },
+    {
+      "otazka": "Definujte nákladovosť, účinnosť a viazanosť a ich žiaduci smer.",
+      "odpoved": "Nákladovosť = náklady/výnosy (čím nižšie, tým lepšie). Účinnosť = výnosy/náklady = prevrátená hodnota nákladovosti (čím vyššie, tým lepšie; musí byť >1). Viazanosť aktív = aktíva/tržby (čím nižšie, tým lepšie) = prevrátená hodnota obratu aktív.",
+      "moznosti": [
+        "Nákladovosť = výnosy/náklady (vyššie lepšie); účinnosť = náklady/výnosy (nižšie lepšie); viazanosť = tržby/aktíva (vyššie lepšie).",
+        "Nákladovosť = náklady/aktíva (nižšie lepšie); účinnosť = výnosy/aktíva (vyššie lepšie); viazanosť = aktíva/výnosy (nižšie lepšie).",
+        "Nákladovosť = náklady/výnosy (nižšie lepšie); účinnosť = výnosy/náklady, prevrátená hodnota nákladovosti (vyššie lepšie, >1); viazanosť = aktíva/tržby (nižšie lepšie).",
+        "Nákladovosť = náklady/tržby (vyššie lepšie); účinnosť = tržby/náklady (nižšie lepšie); viazanosť = tržby/aktíva, prevrátená hodnota obratu (vyššie lepšie)."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Nákladovosť = náklady/výnosy (čím nižšie, tým lepšie). Účinnosť = výnosy/náklady = prevrátená hodnota nákladovosti (čím vyššie, tým lepšie; musí byť >1). Viazanosť aktív = aktíva/tržby (čím nižšie, tým lepšie) = prevrátená hodnota obratu aktív."
+    },
+    {
+      "otazka": "Ako súvisí nákladovosť so ziskovou maržou?",
+      "odpoved": "Ak sú výnosy ≈ tržbám, doplnok nákladovosti do 1 je zisková marža: marža = 1 − nákladovosť. Pri nákladovosti 0,90 je marža 0,10 (10 %). Pokles nákladovosti priamo zvyšuje maržu.",
+      "moznosti": [
+        "Doplnok nákladovosti do 1 je zisková marža (marža = 1 − nákladovosť); pri nákladovosti 0,90 je marža 0,10. Pokles nákladovosti zvyšuje maržu.",
+        "Nákladovosť sa rovná ziskovej marži; pri nákladovosti 0,90 je marža tiež 0,90. Rast nákladovosti zvyšuje maržu.",
+        "Zisková marža je prevrátenou hodnotou nákladovosti; pri nákladovosti 0,90 je marža 1,11. Pokles nákladovosti znižuje maržu.",
+        "Marža sa rovná súčinu nákladovosti a 1; pri nákladovosti 0,90 je marža 0,90. Nákladovosť na maržu nevplýva."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Ak sú výnosy ≈ tržbám, doplnok nákladovosti do 1 je zisková marža: marža = 1 − nákladovosť. Pri nákladovosti 0,90 je marža 0,10 (10 %). Pokles nákladovosti priamo zvyšuje maržu."
+    },
+    {
+      "otazka": "Čo sú EBIT a EBITDA a načo sa používajú vo FA?",
+      "odpoved": "EBIT = zisk pred úrokmi a zdanením (očistený od financovania a dane), EBITDA = EBIT + odpisy (navyše očistený od odpisovej politiky). Slúžia na porovnanie prevádzkovej výkonnosti firiem s rôznou zadlženosťou, daňovým režimom a investičnou minulosťou.",
+      "moznosti": [
+        "EBIT = zisk po zdanení a úrokoch, EBITDA = EBIT − odpisy; slúžia na porovnanie čistej výkonnosti firiem s rovnakou zadlženosťou.",
+        "EBIT = zisk pred úrokmi a zdanením, EBITDA = EBIT + odpisy; slúžia na porovnanie prevádzkovej výkonnosti firiem s rôznou zadlženosťou a odpisovou politikou.",
+        "EBIT = výsledok hospodárenia pred zdanením, EBITDA = EBIT − úroky; slúžia na výpočet daňovej povinnosti podniku.",
+        "EBIT = tržby mínus priame náklady, EBITDA = EBIT + úroky; slúžia na porovnanie likvidity podnikov rôznej veľkosti."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "EBIT = zisk pred úrokmi a zdanením (očistený od financovania a dane), EBITDA = EBIT + odpisy (navyše očistený od odpisovej politiky). Slúžia na porovnanie prevádzkovej výkonnosti firiem s rôznou zadlženosťou, daňovým režimom a investičnou minulosťou."
+    },
+    {
+      "otazka": "Aké sú hlavné obmedzenia finančnej analýzy?",
+      "odpoved": "Vychádza z historických údajov, je ovplyvnená účtovnou politikou (oceňovanie, odpisy, OP), nezohľadňuje nefinančné faktory ani vplyv inflácie a jedno číslo bez porovnávacej základne a interpretácie nemá výpovednú hodnotu.",
+      "moznosti": [
+        "Pracuje výlučne s plánovanými údajmi, nie je ovplyvnená účtovnou politikou a jedno číslo má vždy plnú výpovednú hodnotu.",
+        "Zohľadňuje všetky nefinančné faktory aj infláciu, no nedokáže porovnať podnik s odvetvím.",
+        "Vychádza z historických údajov, je ovplyvnená účtovnou politikou, nezohľadňuje nefinančné faktory ani infláciu a jedno číslo bez porovnania nemá výpovednú hodnotu.",
+        "Vychádza výhradne z budúcich prognóz, ktoré sú vždy presné, a jej hlavným obmedzením je len náročnosť výpočtu."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Vychádza z historických údajov, je ovplyvnená účtovnou politikou (oceňovanie, odpisy, OP), nezohľadňuje nefinančné faktory ani vplyv inflácie a jedno číslo bez porovnávacej základne a interpretácie nemá výpovednú hodnotu."
+    }
   ],
   "pasce_caste_chyby": [
     "Zamieňať horizontálnu (vývoj v čase) a vertikálnu (štruktúra) analýzu – horizontálna = riadky za roky, vertikálna = % z jedného stĺpca.",
@@ -78,28 +248,124 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Ktorá metóda FA odpovedá na otázku 'aký veľký podiel tvorí položka na celku'?", "moznosti": ["horizontálna analýza", "vertikálna analýza", "pomerová analýza", "trendová analýza"], "spravna_index": 1, "vysvetlenie": "Vertikálna analýza vyjadruje položku ako podiel na základni (aktíva = 100 % v súvahe, tržby = 100 % vo výsledovke)."},
-      {"otazka": "Nákladovosť podniku je 0,85. Aká je približná zisková marža (ak výnosy ≈ tržby)?", "moznosti": ["0,85 (85 %)", "1,18 (118 %)", "0,15 (15 %)", "nedá sa určiť"], "spravna_index": 2, "vysvetlenie": "Marža = 1 − nákladovosť = 1 − 0,85 = 0,15, t. j. 15 %. Hodnota 1,18 by bola účinnosť (1/0,85)."},
-      {"otazka": "Účinnosť nákladov je prevrátenou hodnotou:", "moznosti": ["viazanosti aktív", "nákladovosti", "obratu aktív", "rentability tržieb"], "spravna_index": 1, "vysvetlenie": "Účinnosť = výnosy/náklady, nákladovosť = náklady/výnosy → sú navzájom prevrátené hodnoty."},
-      {"otazka": "Čistý pracovný kapitál sa vypočíta ako:", "moznosti": ["tržby − náklady", "obežný majetok − krátkodobé záväzky", "vlastné imanie − cudzie zdroje", "aktíva − pasíva"], "spravna_index": 1, "vysvetlenie": "ČPK = obežný majetok − krátkodobé záväzky; vyjadruje obežný majetok krytý dlhodobými zdrojmi."},
-      {"otazka": "Viazanosť celkových aktív 0,80 znamená, že:", "moznosti": ["na 1 € majetku pripadá 0,80 € tržieb", "na 1 € tržieb je viazaných 0,80 € majetku", "podnik je zadlžený na 80 %", "obrat aktív je 0,80"], "spravna_index": 1, "vysvetlenie": "Viazanosť = aktíva/tržby = 0,80 → na 1 € tržieb treba 0,80 € majetku; obrat aktív = 1/0,80 = 1,25."},
-      {"otazka": "Ktorý z výkazov poskytuje TOKOVÉ údaje (za obdobie)?", "moznosti": ["súvaha", "výkaz ziskov a strát", "prehľad o majetku", "register účtovných závierok"], "spravna_index": 1, "vysvetlenie": "Výkaz ziskov a strát zachytáva náklady, výnosy a VH za obdobie (tok); súvaha je stavová (k dátumu)."}
+      {
+        "otazka": "Ktorá metóda FA odpovedá na otázku 'aký veľký podiel tvorí položka na celku'?",
+        "moznosti": [
+          "horizontálna analýza",
+          "vertikálna analýza",
+          "pomerová analýza",
+          "trendová analýza"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Vertikálna analýza vyjadruje položku ako podiel na základni (aktíva = 100 % v súvahe, tržby = 100 % vo výsledovke)."
+      },
+      {
+        "otazka": "Nákladovosť podniku je 0,85. Aká je približná zisková marža (ak výnosy ≈ tržby)?",
+        "moznosti": [
+          "0,85 (85 %)",
+          "1,18 (118 %)",
+          "0,15 (15 %)",
+          "nedá sa určiť"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Marža = 1 − nákladovosť = 1 − 0,85 = 0,15, t. j. 15 %. Hodnota 1,18 by bola účinnosť (1/0,85)."
+      },
+      {
+        "otazka": "Účinnosť nákladov je prevrátenou hodnotou:",
+        "moznosti": [
+          "viazanosti aktív",
+          "nákladovosti",
+          "obratu aktív",
+          "rentability tržieb"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Účinnosť = výnosy/náklady, nákladovosť = náklady/výnosy → sú navzájom prevrátené hodnoty."
+      },
+      {
+        "otazka": "Čistý pracovný kapitál sa vypočíta ako:",
+        "moznosti": [
+          "tržby − náklady",
+          "obežný majetok − krátkodobé záväzky",
+          "vlastné imanie − cudzie zdroje",
+          "aktíva − pasíva"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "ČPK = obežný majetok − krátkodobé záväzky; vyjadruje obežný majetok krytý dlhodobými zdrojmi."
+      },
+      {
+        "otazka": "Viazanosť celkových aktív 0,80 znamená, že:",
+        "moznosti": [
+          "na 1 € majetku pripadá 0,80 € tržieb",
+          "na 1 € tržieb je viazaných 0,80 € majetku",
+          "podnik je zadlžený na 80 %",
+          "obrat aktív je 0,80"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Viazanosť = aktíva/tržby = 0,80 → na 1 € tržieb treba 0,80 € majetku; obrat aktív = 1/0,80 = 1,25."
+      },
+      {
+        "otazka": "Ktorý z výkazov poskytuje TOKOVÉ údaje (za obdobie)?",
+        "moznosti": [
+          "súvaha",
+          "výkaz ziskov a strát",
+          "prehľad o majetku",
+          "register účtovných závierok"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Výkaz ziskov a strát zachytáva náklady, výnosy a VH za obdobie (tok); súvaha je stavová (k dátumu)."
+      }
     ],
     "otvorene": [
-      {"otazka": "Charakterizujte vstupné a výstupné údaje finančnej analýzy.", "vzorova_odpoved": "Vstupy: súvaha (stavové údaje o majetku a zdrojoch k súvahovému dňu), výkaz ziskov a strát (tokové údaje o nákladoch, výnosoch a VH za obdobie), poznámky vrátane cash flow a zmien vlastného imania; doplnkovo výročná správa, odvetvové a plánové údaje. Výstupy: sústava ukazovateľov, ich porovnanie (v čase, s plánom, s odvetvím) a slovná interpretácia so záverom a návrhmi opatrení."},
-      {"otazka": "Vysvetlite ukazovatele nákladovosti, účinnosti a viazanosti vrátane vzorcov a žiaduceho smeru.", "vzorova_odpoved": "Nákladovosť = náklady/výnosy – koľko € nákladov na 1 € výnosov, čím nižšie tým lepšie, doplnok do 1 je marža. Účinnosť = výnosy/náklady – koľko € výnosov z 1 € nákladov, prevrátená hodnota nákladovosti, čím vyššie tým lepšie (>1 = ziskovosť). Viazanosť aktív = aktíva/tržby – koľko € majetku na 1 € tržieb, čím nižšie tým lepšie, je prevrátenou hodnotou obratu aktív (tržby/aktíva)."},
-      {"otazka": "Porovnajte horizontálnu a vertikálnu analýzu a uveďte ich vzorce.", "vzorova_odpoved": "Horizontálna analýza sleduje vývoj v čase: absolútna zmena = bežné − minulé obdobie; relatívna zmena = (absolútna zmena / minulé obdobie) × 100. Vertikálna analýza sleduje štruktúru: položka / základňa × 100 (základňa = celkové aktíva v súvahe, tržby vo výsledovke). Horizontálna hovorí o dynamike, vertikálna o štruktúre; navzájom sa dopĺňajú."}
+      {
+        "otazka": "Charakterizujte vstupné a výstupné údaje finančnej analýzy.",
+        "vzorova_odpoved": "Vstupy: súvaha (stavové údaje o majetku a zdrojoch k súvahovému dňu), výkaz ziskov a strát (tokové údaje o nákladoch, výnosoch a VH za obdobie), poznámky vrátane cash flow a zmien vlastného imania; doplnkovo výročná správa, odvetvové a plánové údaje. Výstupy: sústava ukazovateľov, ich porovnanie (v čase, s plánom, s odvetvím) a slovná interpretácia so záverom a návrhmi opatrení."
+      },
+      {
+        "otazka": "Vysvetlite ukazovatele nákladovosti, účinnosti a viazanosti vrátane vzorcov a žiaduceho smeru.",
+        "vzorova_odpoved": "Nákladovosť = náklady/výnosy – koľko € nákladov na 1 € výnosov, čím nižšie tým lepšie, doplnok do 1 je marža. Účinnosť = výnosy/náklady – koľko € výnosov z 1 € nákladov, prevrátená hodnota nákladovosti, čím vyššie tým lepšie (>1 = ziskovosť). Viazanosť aktív = aktíva/tržby – koľko € majetku na 1 € tržieb, čím nižšie tým lepšie, je prevrátenou hodnotou obratu aktív (tržby/aktíva)."
+      },
+      {
+        "otazka": "Porovnajte horizontálnu a vertikálnu analýzu a uveďte ich vzorce.",
+        "vzorova_odpoved": "Horizontálna analýza sleduje vývoj v čase: absolútna zmena = bežné − minulé obdobie; relatívna zmena = (absolútna zmena / minulé obdobie) × 100. Vertikálna analýza sleduje štruktúru: položka / základňa × 100 (základňa = celkové aktíva v súvahe, tržby vo výsledovke). Horizontálna hovorí o dynamike, vertikálna o štruktúre; navzájom sa dopĺňajú."
+      }
     ],
     "priklad": [
-      {"zadanie": "Podnik: výnosy (= tržby) 2 000 000 €, celkové náklady 1 700 000 €, celkové aktíva 1 600 000 €, obežný majetok 700 000 €, krátkodobé záväzky 400 000 €. Vypočítajte: (a) nákladovosť, (b) účinnosť, (c) viazanosť aktív a obrat aktív, (d) zisk a ziskovú maržu, (e) čistý pracovný kapitál.", "riesenie": "(a) Nákladovosť = 1 700 000 / 2 000 000 = 0,85 (85 centov nákladov na 1 € výnosov). (b) Účinnosť = 2 000 000 / 1 700 000 = 1,176 ≈ 1,18 (1 € nákladov dá 1,18 € výnosov; kontrola 1/0,85 = 1,176). (c) Viazanosť aktív = 1 600 000 / 2 000 000 = 0,80; obrat aktív = 2 000 000 / 1 600 000 = 1,25 (= 1/0,80). (d) Zisk = výnosy − náklady = 300 000 €; marža = 300 000 / 2 000 000 = 0,15 = 15 % (= 1 − 0,85). (e) ČPK = 700 000 − 400 000 = 300 000 € (kladný). Záver: podnik je ziskový (účinnosť > 1, nákladovosť < 1), kapitálovo efektívny (viazanosť < 1) a finančne stabilný (kladný ČPK)."}
+      {
+        "zadanie": "Podnik: výnosy (= tržby) 2 000 000 €, celkové náklady 1 700 000 €, celkové aktíva 1 600 000 €, obežný majetok 700 000 €, krátkodobé záväzky 400 000 €. Vypočítajte: (a) nákladovosť, (b) účinnosť, (c) viazanosť aktív a obrat aktív, (d) zisk a ziskovú maržu, (e) čistý pracovný kapitál.",
+        "riesenie": "(a) Nákladovosť = 1 700 000 / 2 000 000 = 0,85 (85 centov nákladov na 1 € výnosov). (b) Účinnosť = 2 000 000 / 1 700 000 = 1,176 ≈ 1,18 (1 € nákladov dá 1,18 € výnosov; kontrola 1/0,85 = 1,176). (c) Viazanosť aktív = 1 600 000 / 2 000 000 = 0,80; obrat aktív = 2 000 000 / 1 600 000 = 1,25 (= 1/0,80). (d) Zisk = výnosy − náklady = 300 000 €; marža = 300 000 / 2 000 000 = 0,15 = 15 % (= 1 − 0,85). (e) ČPK = 700 000 − 400 000 = 300 000 € (kladný). Záver: podnik je ziskový (účinnosť > 1, nákladovosť < 1), kapitálovo efektívny (viazanosť < 1) a finančne stabilný (kladný ČPK)."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Finančná analýza individuálnej účtovnej závierky – metodický podklad (vzorce, interpretácie, príklady)", "kde": "01_Zdroje/Vyskum_web/financna_analyza_metodika.md", "typ": "web/overené"},
-    {"nazov": "Šlosárová, A. – Blahušiaková, M.: Analýza účtovnej závierky (Wolters Kluwer) – odporúčaná učebnica k téme", "kde": "https://sekarl.euba.sk/arl-eu/sk/detail/?idx=eu_un_cat*0262196", "typ": "učebnica"},
-    {"nazov": "FHI EUBA – Otázky na skúšku Analýza účtovnej závierky", "kde": "https://fhi.euba.sk/www_write/files/katedry/kua/studijne_materialy/Otazky_AUZ_1819.pdf", "typ": "web/overené"},
-    {"nazov": "Podnikajte.sk – Pomerové ukazovatele finančnej analýzy (vzorce a odporúčané hodnoty)", "kde": "https://www.podnikajte.sk/assets/prilohy-v-clankoch/2011-04-27-pomerove-ukazovatele-financnej-analyzy.pdf", "typ": "web/overené"},
-    {"nazov": "Euroekonom.sk – Vertikálna a horizontálna analýza výsledovky; analýza efektívnosti podniku (nákladovosť, účinnosť, viazanosť)", "kde": "https://www.euroekonom.sk/vertikalna-a-horizontalna-analyza-vysledovky/", "typ": "web/overené"},
-    {"nazov": "Zákon č. 431/2002 Z. z. o účtovníctve (rámec účtovnej závierky – súvaha, výkaz ziskov a strát, poznámky)", "kde": "01_Zdroje/Zakony/ZZ_2002_431_20260101_metalex.asice", "typ": "primárny"}
+    {
+      "nazov": "Finančná analýza individuálnej účtovnej závierky – metodický podklad (vzorce, interpretácie, príklady)",
+      "kde": "01_Zdroje/Vyskum_web/financna_analyza_metodika.md",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Šlosárová, A. – Blahušiaková, M.: Analýza účtovnej závierky (Wolters Kluwer) – odporúčaná učebnica k téme",
+      "kde": "https://sekarl.euba.sk/arl-eu/sk/detail/?idx=eu_un_cat*0262196",
+      "typ": "učebnica"
+    },
+    {
+      "nazov": "FHI EUBA – Otázky na skúšku Analýza účtovnej závierky",
+      "kde": "https://fhi.euba.sk/www_write/files/katedry/kua/studijne_materialy/Otazky_AUZ_1819.pdf",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Podnikajte.sk – Pomerové ukazovatele finančnej analýzy (vzorce a odporúčané hodnoty)",
+      "kde": "https://www.podnikajte.sk/assets/prilohy-v-clankoch/2011-04-27-pomerove-ukazovatele-financnej-analyzy.pdf",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Euroekonom.sk – Vertikálna a horizontálna analýza výsledovky; analýza efektívnosti podniku (nákladovosť, účinnosť, viazanosť)",
+      "kde": "https://www.euroekonom.sk/vertikalna-a-horizontalna-analyza-vysledovky/",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Zákon č. 431/2002 Z. z. o účtovníctve (rámec účtovnej závierky – súvaha, výkaz ziskov a strát, poznámky)",
+      "kde": "01_Zdroje/Zakony/ZZ_2002_431_20260101_metalex.asice",
+      "typ": "primárny"
+    }
   ]
 }

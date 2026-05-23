@@ -26,43 +26,213 @@
     "cielova_dlzka_slov": 1450,
     "uvod": "Pohľadávky a záväzky sú významné súvahové položky úzko prepojené s výnosmi a nákladmi, preto patria k jadru každého auditu. Postup audítora je rizikovo orientovaný: podľa ISA 315 (revidovaný) audítor najprv porozumie procesom (predaj a inkaso pri pohľadávkach; nákup a úhrady pri záväzkoch) a identifikuje riziká významnej nesprávnosti pre jednotlivé audítorské tvrdenia, podľa ISA 330 na ne navrhne reakciu (kontrolné a substantívne testy) a nakoniec vyhodnotí zistenia. Kľúčové je rozpoznať OPAČNÝ smer hlavného rizika: pri pohľadávkach a výnosoch hrozí najmä NADHODNOTENIE (testujeme existenciu a ocenenie), pri záväzkoch a nákladoch hrozí najmä PODHODNOTENIE (testujeme úplnosť). Tomu zodpovedajú aj signatúrne postupy: externé potvrdenia pohľadávok podľa ISA 505 a vyhľadávanie nezaúčtovaných záväzkov.",
     "casti": [
-      {"nadpis": "Rizikovo orientovaný rámec (ISA 315 → ISA 330) a tvrdenia", "text": "Postup audítora pre obe oblasti má rovnakú kostru. Najprv porozumenie účtovnej jednotke a procesu (pri pohľadávkach cyklus predaj–pohľadávka–inkaso; pri záväzkoch cyklus nákup–záväzok–úhrada) vrátane vnútorného kontrolného systému (ISA 315 revidovaný). Na základe toho audítor identifikuje a posúdi riziká významnej nesprávnosti na úrovni TVRDENÍ. Audítorské tvrdenia o zostatkoch sú: existencia, úplnosť, ocenenie a alokácia, práva a záväzky a prezentácia/zverejnenie; pri transakciách (výnosy, nákupy) navyše presnosť a časové ohraničenie (cut-off). Podľa ISA 330 audítor navrhne reakciu: ak sa chce spoľahnúť na kontroly, vykoná kontrolné testy; vždy však vykoná aj substantívne postupy (analytické postupy podľa ISA 520 a testy detailov). Pri významných rizikách sa vyžadujú cielené substantívne postupy. Celý postup vrcholí vyhodnotením zistených nesprávností a ich dopadu na výrok."},
-      {"nadpis": "Pohľadávky – hlavné riziko NADHODNOTENIA", "text": "Pri pohľadávkach (a naviazaných výnosoch) je dominantný smer rizika nadhodnotenie: manažment je motivovaný vykázať vyššie tržby a vyššie aktíva (lepšia výnosnosť, likvidita, splnenie cieľov, bankové kovenanty). Preto audítor kladie dôraz na tvrdenia EXISTENCIA (sú vykázané pohľadávky reálne, nie fiktívne?) a OCENENIE/vymožiteľnosť (sú v sume, ktorú firma reálne inkasuje, t. j. po opravných položkách?). Doplnkové tvrdenia: práva (sú pohľadávky firmy, neboli postúpené alebo založené?), úplnosť (skôr vedľajšie) a najmä CUT-OFF výnosov – či tržby a im zodpovedajúce pohľadávky patria do správneho obdobia. Riziko podvodu pri výnosoch je podľa ISA 240 predpokladané, preto sa cut-off a existencia testujú obzvlášť dôsledne."},
-      {"nadpis": "Pohľadávky – externé potvrdenia (ISA 505): pozitívne vs. negatívne", "text": "Signatúrnym postupom pre pohľadávky sú externé potvrdenia (konfirmácie, 'circularisation') podľa ISA 505 – priama písomná odpoveď tretej strany (odberateľa) audítorovi. Sú silným dôkazom najmä o EXISTENCII a o právach. POZITÍVNE potvrdenie žiada odberateľa odpovedať vždy (či súhlasí, alebo uvedie inú sumu) – poskytuje presvedčivejší dôkaz, vhodné pre veľké a rizikové saldá. NEGATÍVNE potvrdenie žiada odpoveď len pri nesúhlase – je menej presvedčivé (mlčanie nie je dôkaz), vhodné len pri veľkom počte malých, nízkorizikových sáld, dobrom kontrolnom prostredí a očakávaní nízkej chybovosti. Často sa kombinujú: pozitívne na veľké saldá, negatívne na malé. Kritická požiadavka ISA 505: audítor musí mať KONTROLU nad celým procesom – sám vyberie saldá, pripraví a odošle žiadosti a prijme odpovede PRIAMO (nie cez klienta). Pri neodpovedaní na pozitívne potvrdenie sa robia alternatívne postupy (najmä následné inkaso po dátume závierky, kontrola faktúr a dodacích listov). Odmietnutie manažmentu povoliť potvrdenie audítor kriticky posúdi ako možný indikátor rizika."},
-      {"nadpis": "Pohľadávky – ocenenie a vymožiteľnosť (opravné položky, veková štruktúra)", "text": "Druhým ťažiskom je OCENENIE – či sú pohľadávky vykázané v reálne inkasovateľnej hodnote, teda znížené o opravné položky k pochybným a nevymožiteľným pohľadávkam (účtovný odhad – ISA 540). Kľúčový nástroj je VEKOVÁ ŠTRUKTÚRA pohľadávok (aging): audítor ju otestuje na správnosť (preverí zaradenie do pásiem podľa splatnosti) a posúdi primeranosť opravných položiek na staré a sporné saldá. Postupy: následné inkaso po súvahovom dni (najpresvedčivejší dôkaz vymožiteľnosti – väzba na ISA 560), preverenie korešpondencie a upomienok, posúdenie bonity a finančnej situácie odberateľov, kontrola sporných a reklamovaných pohľadávok, posúdenie metodiky tvorby opravných položiek a dobytnosti pohľadávok po splatnosti. Pri pohľadávkach v cudzej mene aj správnosť prepočtu kurzom k súvahovému dňu."},
-      {"nadpis": "Pohľadávky – existencia, cut-off a analytické postupy", "text": "Existenciu okrem konfirmácií podporujú: odsúhlasenie saldokonta na hlavnú knihu, kontrola dobropisov a vratiek po dátume závierky (môžu signalizovať fiktívne tržby). CUT-OFF tržieb sa testuje porovnaním dátumov dodacích listov / odovzdania výkonov s dátumom zaúčtovania výnosu okolo súvahového dňa – cieľom je odhaliť tržby 'natiahnuté' do bežného roka (nadhodnotenie) alebo neoprávnene preklopené. Analytické postupy podľa ISA 520: vývoj a obrátkovosť pohľadávok, priemerná doba inkasa (DSO), pomer pohľadávok k tržbám, podiel opravných položiek na pohľadávkach v čase a medzi rokmi; neočakávané odchýlky audítor vyšetrí. Prezentácia: rozlíšenie krátkodobých a dlhodobých pohľadávok, pohľadávky voči spriazneným osobám, započítania a primerané zverejnenia."},
-      {"nadpis": "Záväzky – hlavné riziko PODHODNOTENIA (úplnosť)", "text": "Pri záväzkoch sa smer rizika OBRACIA: dominantné je riziko PODHODNOTENIA, resp. ÚPLNOSTI. Manažment je motivovaný vynechať alebo posunúť záväzky a náklady do budúceho obdobia, aby vykázal vyšší zisk a nižšiu zadlženosť. Preto najdôležitejším tvrdením pri záväzkoch je ÚPLNOSŤ – či sú zaúčtované VŠETKY záväzky, ktoré k súvahovému dňu existovali. To je opak pohľadávok, kde dominuje existencia. Audítor preto pátra po tom, čo CHÝBA: po nezaúčtovaných faktúrach, neúčtovaných dohadných položkách na nevyfakturované dodávky a po nákladoch zaúčtovaných do nesprávneho (neskoršieho) obdobia. Doplnkové tvrdenia: existencia a ocenenie (sú záväzky reálne a v správnej sume), práva a záväzky (ide o reálne záväzky firmy) a cut-off nákupov."},
-      {"nadpis": "Záväzky – test úplnosti: vyhľadávanie nezaúčtovaných záväzkov", "text": "Signatúrnym postupom je VYHĽADÁVANIE NEZAÚČTOVANÝCH ZÁVÄZKOV (search for unrecorded liabilities), priamo cielené na tvrdenie úplnosti. Jeho jadrom je TEST NÁSLEDNÝCH PLATIEB (subsequent disbursements): audítor preverí platby a došlé faktúry v období PO súvahovom dni (typicky nad zvolený prah významnosti) a k príslušným dodacím listom/protokolom zistí, či tovar alebo služba boli prijaté ešte PRED súvahovým dňom – ak áno, záväzok mal byť zaúčtovaný k súvahovému dňu. Ďalšie postupy úplnosti: ODSÚHLASENIE na dodávateľské saldokontá a výpisy od dodávateľov (supplier statements) – tie sú lepším dôkazom úplnosti než konfirmácie, lebo zahŕňajú aj saldá, ktoré klient nezachytil; preverenie nezaúčtovaných došlých faktúr 'v zásuvke'; kontrola dohadných účtov pasívnych (nevyfakturované dodávky); preverenie zmlúv, súdnych sporov a záruk pre prípadné nezachytené záväzky a rezervy. CUT-OFF nákupov: porovnanie dátumov prijatia tovaru/služby s dátumom zaúčtovania okolo súvahového dňa."},
-      {"nadpis": "Záväzky – existencia, ocenenie, externé potvrdenia a analytické postupy", "text": "Hoci úplnosť dominuje, audítor netreba zabudnúť na ostatné tvrdenia. EXISTENCIA a ocenenie: odsúhlasenie saldokonta na hlavnú knihu, preverenie reálnosti a sumy vybraných záväzkov k faktúram a zmluvám, správnosť prepočtu cudzomenových záväzkov kurzom k súvahovému dňu. Externé potvrdenia záväzkov podľa ISA 505 sú možné (najmä u kľúčových dodávateľov a úverov), ale na úplnosť sú slabšie než výpisy od dodávateľov – preto sa pri záväzkoch uprednostňuje odsúhlasenie na dodávateľské výpisy a najmä na NULOVÉ či nezvyčajne nízke saldá u významných dodávateľov (riziko vynechaného záväzku). Analytické postupy (ISA 520): obrátkovosť záväzkov, priemerná doba úhrady, pomer záväzkov k nákupom a vývoj v čase – neočakávaný pokles záväzkov môže signalizovať ich podhodnotenie. Prezentácia: členenie krátkodobé/dlhodobé, záväzky voči spriazneným osobám, zabezpečenia a zverejnenia."},
-      {"zaver": "Postup audítora pre pohľadávky aj záväzky má spoločnú kostru (ISA 315 porozumenie a riziko → ISA 330 reakcia → vyhodnotenie), líši sa však ŤAŽISKO podľa opačného smeru rizika. Pohľadávky a výnosy: riziko NADHODNOTENIA → ťažisko na existencii (externé potvrdenia ISA 505) a ocenení/vymožiteľnosti (opravné položky, veková štruktúra) plus cut-off tržieb. Záväzky a náklady: riziko PODHODNOTENIA → ťažisko na úplnosti (vyhľadávanie nezaúčtovaných záväzkov, test následných platieb, odsúhlasenie na dodávateľské výpisy) plus cut-off nákupov. Výsledkom auditu je vyhodnotenie zistených nesprávností a ich dopadu na primeranosť ocenenia, úplnosti a v konečnom dôsledku na výrok audítora."}
+      {
+        "nadpis": "Rizikovo orientovaný rámec (ISA 315 → ISA 330) a tvrdenia",
+        "text": "Postup audítora pre obe oblasti má rovnakú kostru. Najprv porozumenie účtovnej jednotke a procesu (pri pohľadávkach cyklus predaj–pohľadávka–inkaso; pri záväzkoch cyklus nákup–záväzok–úhrada) vrátane vnútorného kontrolného systému (ISA 315 revidovaný). Na základe toho audítor identifikuje a posúdi riziká významnej nesprávnosti na úrovni TVRDENÍ. Audítorské tvrdenia o zostatkoch sú: existencia, úplnosť, ocenenie a alokácia, práva a záväzky a prezentácia/zverejnenie; pri transakciách (výnosy, nákupy) navyše presnosť a časové ohraničenie (cut-off). Podľa ISA 330 audítor navrhne reakciu: ak sa chce spoľahnúť na kontroly, vykoná kontrolné testy; vždy však vykoná aj substantívne postupy (analytické postupy podľa ISA 520 a testy detailov). Pri významných rizikách sa vyžadujú cielené substantívne postupy. Celý postup vrcholí vyhodnotením zistených nesprávností a ich dopadu na výrok."
+      },
+      {
+        "nadpis": "Pohľadávky – hlavné riziko NADHODNOTENIA",
+        "text": "Pri pohľadávkach (a naviazaných výnosoch) je dominantný smer rizika nadhodnotenie: manažment je motivovaný vykázať vyššie tržby a vyššie aktíva (lepšia výnosnosť, likvidita, splnenie cieľov, bankové kovenanty). Preto audítor kladie dôraz na tvrdenia EXISTENCIA (sú vykázané pohľadávky reálne, nie fiktívne?) a OCENENIE/vymožiteľnosť (sú v sume, ktorú firma reálne inkasuje, t. j. po opravných položkách?). Doplnkové tvrdenia: práva (sú pohľadávky firmy, neboli postúpené alebo založené?), úplnosť (skôr vedľajšie) a najmä CUT-OFF výnosov – či tržby a im zodpovedajúce pohľadávky patria do správneho obdobia. Riziko podvodu pri výnosoch je podľa ISA 240 predpokladané, preto sa cut-off a existencia testujú obzvlášť dôsledne."
+      },
+      {
+        "nadpis": "Pohľadávky – externé potvrdenia (ISA 505): pozitívne vs. negatívne",
+        "text": "Signatúrnym postupom pre pohľadávky sú externé potvrdenia (konfirmácie, 'circularisation') podľa ISA 505 – priama písomná odpoveď tretej strany (odberateľa) audítorovi. Sú silným dôkazom najmä o EXISTENCII a o právach. POZITÍVNE potvrdenie žiada odberateľa odpovedať vždy (či súhlasí, alebo uvedie inú sumu) – poskytuje presvedčivejší dôkaz, vhodné pre veľké a rizikové saldá. NEGATÍVNE potvrdenie žiada odpoveď len pri nesúhlase – je menej presvedčivé (mlčanie nie je dôkaz), vhodné len pri veľkom počte malých, nízkorizikových sáld, dobrom kontrolnom prostredí a očakávaní nízkej chybovosti. Často sa kombinujú: pozitívne na veľké saldá, negatívne na malé. Kritická požiadavka ISA 505: audítor musí mať KONTROLU nad celým procesom – sám vyberie saldá, pripraví a odošle žiadosti a prijme odpovede PRIAMO (nie cez klienta). Pri neodpovedaní na pozitívne potvrdenie sa robia alternatívne postupy (najmä následné inkaso po dátume závierky, kontrola faktúr a dodacích listov). Odmietnutie manažmentu povoliť potvrdenie audítor kriticky posúdi ako možný indikátor rizika."
+      },
+      {
+        "nadpis": "Pohľadávky – ocenenie a vymožiteľnosť (opravné položky, veková štruktúra)",
+        "text": "Druhým ťažiskom je OCENENIE – či sú pohľadávky vykázané v reálne inkasovateľnej hodnote, teda znížené o opravné položky k pochybným a nevymožiteľným pohľadávkam (účtovný odhad – ISA 540). Kľúčový nástroj je VEKOVÁ ŠTRUKTÚRA pohľadávok (aging): audítor ju otestuje na správnosť (preverí zaradenie do pásiem podľa splatnosti) a posúdi primeranosť opravných položiek na staré a sporné saldá. Postupy: následné inkaso po súvahovom dni (najpresvedčivejší dôkaz vymožiteľnosti – väzba na ISA 560), preverenie korešpondencie a upomienok, posúdenie bonity a finančnej situácie odberateľov, kontrola sporných a reklamovaných pohľadávok, posúdenie metodiky tvorby opravných položiek a dobytnosti pohľadávok po splatnosti. Pri pohľadávkach v cudzej mene aj správnosť prepočtu kurzom k súvahovému dňu."
+      },
+      {
+        "nadpis": "Pohľadávky – existencia, cut-off a analytické postupy",
+        "text": "Existenciu okrem konfirmácií podporujú: odsúhlasenie saldokonta na hlavnú knihu, kontrola dobropisov a vratiek po dátume závierky (môžu signalizovať fiktívne tržby). CUT-OFF tržieb sa testuje porovnaním dátumov dodacích listov / odovzdania výkonov s dátumom zaúčtovania výnosu okolo súvahového dňa – cieľom je odhaliť tržby 'natiahnuté' do bežného roka (nadhodnotenie) alebo neoprávnene preklopené. Analytické postupy podľa ISA 520: vývoj a obrátkovosť pohľadávok, priemerná doba inkasa (DSO), pomer pohľadávok k tržbám, podiel opravných položiek na pohľadávkach v čase a medzi rokmi; neočakávané odchýlky audítor vyšetrí. Prezentácia: rozlíšenie krátkodobých a dlhodobých pohľadávok, pohľadávky voči spriazneným osobám, započítania a primerané zverejnenia."
+      },
+      {
+        "nadpis": "Záväzky – hlavné riziko PODHODNOTENIA (úplnosť)",
+        "text": "Pri záväzkoch sa smer rizika OBRACIA: dominantné je riziko PODHODNOTENIA, resp. ÚPLNOSTI. Manažment je motivovaný vynechať alebo posunúť záväzky a náklady do budúceho obdobia, aby vykázal vyšší zisk a nižšiu zadlženosť. Preto najdôležitejším tvrdením pri záväzkoch je ÚPLNOSŤ – či sú zaúčtované VŠETKY záväzky, ktoré k súvahovému dňu existovali. To je opak pohľadávok, kde dominuje existencia. Audítor preto pátra po tom, čo CHÝBA: po nezaúčtovaných faktúrach, neúčtovaných dohadných položkách na nevyfakturované dodávky a po nákladoch zaúčtovaných do nesprávneho (neskoršieho) obdobia. Doplnkové tvrdenia: existencia a ocenenie (sú záväzky reálne a v správnej sume), práva a záväzky (ide o reálne záväzky firmy) a cut-off nákupov."
+      },
+      {
+        "nadpis": "Záväzky – test úplnosti: vyhľadávanie nezaúčtovaných záväzkov",
+        "text": "Signatúrnym postupom je VYHĽADÁVANIE NEZAÚČTOVANÝCH ZÁVÄZKOV (search for unrecorded liabilities), priamo cielené na tvrdenie úplnosti. Jeho jadrom je TEST NÁSLEDNÝCH PLATIEB (subsequent disbursements): audítor preverí platby a došlé faktúry v období PO súvahovom dni (typicky nad zvolený prah významnosti) a k príslušným dodacím listom/protokolom zistí, či tovar alebo služba boli prijaté ešte PRED súvahovým dňom – ak áno, záväzok mal byť zaúčtovaný k súvahovému dňu. Ďalšie postupy úplnosti: ODSÚHLASENIE na dodávateľské saldokontá a výpisy od dodávateľov (supplier statements) – tie sú lepším dôkazom úplnosti než konfirmácie, lebo zahŕňajú aj saldá, ktoré klient nezachytil; preverenie nezaúčtovaných došlých faktúr 'v zásuvke'; kontrola dohadných účtov pasívnych (nevyfakturované dodávky); preverenie zmlúv, súdnych sporov a záruk pre prípadné nezachytené záväzky a rezervy. CUT-OFF nákupov: porovnanie dátumov prijatia tovaru/služby s dátumom zaúčtovania okolo súvahového dňa."
+      },
+      {
+        "nadpis": "Záväzky – existencia, ocenenie, externé potvrdenia a analytické postupy",
+        "text": "Hoci úplnosť dominuje, audítor netreba zabudnúť na ostatné tvrdenia. EXISTENCIA a ocenenie: odsúhlasenie saldokonta na hlavnú knihu, preverenie reálnosti a sumy vybraných záväzkov k faktúram a zmluvám, správnosť prepočtu cudzomenových záväzkov kurzom k súvahovému dňu. Externé potvrdenia záväzkov podľa ISA 505 sú možné (najmä u kľúčových dodávateľov a úverov), ale na úplnosť sú slabšie než výpisy od dodávateľov – preto sa pri záväzkoch uprednostňuje odsúhlasenie na dodávateľské výpisy a najmä na NULOVÉ či nezvyčajne nízke saldá u významných dodávateľov (riziko vynechaného záväzku). Analytické postupy (ISA 520): obrátkovosť záväzkov, priemerná doba úhrady, pomer záväzkov k nákupom a vývoj v čase – neočakávaný pokles záväzkov môže signalizovať ich podhodnotenie. Prezentácia: členenie krátkodobé/dlhodobé, záväzky voči spriazneným osobám, zabezpečenia a zverejnenia."
+      },
+      {
+        "zaver": "Postup audítora pre pohľadávky aj záväzky má spoločnú kostru (ISA 315 porozumenie a riziko → ISA 330 reakcia → vyhodnotenie), líši sa však ŤAŽISKO podľa opačného smeru rizika. Pohľadávky a výnosy: riziko NADHODNOTENIA → ťažisko na existencii (externé potvrdenia ISA 505) a ocenení/vymožiteľnosti (opravné položky, veková štruktúra) plus cut-off tržieb. Záväzky a náklady: riziko PODHODNOTENIA → ťažisko na úplnosti (vyhľadávanie nezaúčtovaných záväzkov, test následných platieb, odsúhlasenie na dodávateľské výpisy) plus cut-off nákupov. Výsledkom auditu je vyhodnotenie zistených nesprávností a ich dopadu na primeranosť ocenenia, úplnosti a v konečnom dôsledku na výrok audítora."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Prehľad audítorských tvrdení (assertions) a ich relevantnosť", "text": "Tvrdenia o ZOSTATKOCH ku koncu obdobia: existencia, úplnosť, ocenenie a alokácia, práva a záväzky. Tvrdenia o TRANSAKCIÁCH a udalostiach: výskyt, úplnosť, presnosť, časové ohraničenie (cut-off), zatriedenie. Tvrdenia o PREZENTÁCII a zverejnení. Pri pohľadávkach sú relevantné najmä existencia, ocenenie, práva a (na strane výnosov) výskyt a cut-off. Pri záväzkoch je najrelevantnejšia úplnosť, doplnkovo existencia, ocenenie, povinnosti a cut-off. Audítor mapuje každý postup na konkrétne tvrdenie – to je jadro rizikovo orientovaného auditu (ISA 315/330)."},
-    {"nadpis": "Prečo konfirmácia pohľadávok netestuje úplnosť", "text": "Konfirmácia pohľadávok overuje, že vykázané saldo voči danému odberateľovi je správne – teda smeruje od záznamu (saldokonta) k tretej strane. Tým výborne pokrýva EXISTENCIU a práva, ale NEodhalí pohľadávku, ktorá v záznamoch chýba (úplnosť). Symetricky: pri záväzkoch je úplnosť dominantná, preto sa nemožno spoľahnúť len na potvrdenia od dodávateľov, ktorých vyberáme zo zoznamu klienta – treba dodávateľské výpisy (zahŕňajú aj nezachytené saldá) a vyhľadávanie nezaúčtovaných záväzkov, ktoré idú zvonku dnu."},
-    {"nadpis": "Účtovný odhad – opravná položka k pohľadávkam (ISA 540)", "text": "Opravná položka k pochybným pohľadávkam je účtovný odhad podľa ISA 540 (revidovaný). Audítor posúdi inherentné riziko cez neistotu odhadu a náchylnosť na zaujatosť manažmentu (motivácia nepodhodnotiť aktíva). Reakcia: testovanie metodiky a vstupov modelu (veková štruktúra, historická úspešnosť inkasa), vlastný odhad/rozpätie audítora alebo udalosti po dátume závierky (následné inkaso). Pri IFRS rámci ide o model očakávaných úverových strát (IFRS 9), ktorý je odhadovo náročnejší a často predstavuje kľúčovú záležitosť auditu (KAM)."},
-    {"nadpis": "Väzba na následné udalosti (ISA 560)", "text": "Obdobie po súvahovom dni je pri oboch oblastiach zdrojom najpresvedčivejších dôkazov. Pri pohľadávkach: NÁSLEDNÉ INKASO potvrdzuje existenciu aj vymožiteľnosť (upravujúca udalosť, ak konkurz odberateľa po súvahovom dni potvrdzuje nevymožiteľnosť pohľadávky existujúcej k súvahovému dňu). Pri záväzkoch: NÁSLEDNÉ PLATBY a došlé faktúry sú jadrom vyhľadávania nezaúčtovaných záväzkov. Audítor teda systematicky využíva 'pohľad dozadu' z obdobia po závierke."},
-    {"nadpis": "Kontrolné testy v cykloch predaj a nákup (ISA 330)", "text": "Ak chce audítor znížiť rozsah substantívnych testov, otestuje kontroly v cykle: pri predaji napr. schvaľovanie úverových limitov, kontrolu fakturácie voči objednávkam a dodacím listom, segregáciu povinností; pri nákupe trojstranné odsúhlasenie (objednávka–dodací list–faktúra), schvaľovanie záväzkov, kontrolu úhrad. Účinné kontroly umožnia menší rozsah testov detailov; pri slabých kontrolách sa audítor spolieha prevažne na substantívne postupy. Pri významných rizikách (napr. výnosy/cut-off) sú vždy potrebné cielené substantívne postupy."},
-    {"nadpis": "Výsledky auditu a dopad na výrok", "text": "Výsledkom je vyhodnotenie zistených nesprávností (jednotlivých aj agregovaných) voči významnosti. Typické zistenia: nadhodnotené pohľadávky bez dostatočnej opravnej položky (nesprávne ocenenie), fiktívne alebo do bežného roka 'natiahnuté' tržby (cut-off/existencia), nezaúčtované záväzky a chýbajúce dohadné položky (úplnosť). Ak nesprávnosti presiahnu významnosť a manažment ich neopraví, vedie to k modifikácii výroku (výhrada, prípadne záporný výrok); pri nemožnosti získať dostatočné dôkazy (napr. obmedzenie potvrdzovania) k výhrade z dôvodu obmedzenia rozsahu až po odmietnutie výroku."}
+    {
+      "nadpis": "Prehľad audítorských tvrdení (assertions) a ich relevantnosť",
+      "text": "Tvrdenia o ZOSTATKOCH ku koncu obdobia: existencia, úplnosť, ocenenie a alokácia, práva a záväzky. Tvrdenia o TRANSAKCIÁCH a udalostiach: výskyt, úplnosť, presnosť, časové ohraničenie (cut-off), zatriedenie. Tvrdenia o PREZENTÁCII a zverejnení. Pri pohľadávkach sú relevantné najmä existencia, ocenenie, práva a (na strane výnosov) výskyt a cut-off. Pri záväzkoch je najrelevantnejšia úplnosť, doplnkovo existencia, ocenenie, povinnosti a cut-off. Audítor mapuje každý postup na konkrétne tvrdenie – to je jadro rizikovo orientovaného auditu (ISA 315/330)."
+    },
+    {
+      "nadpis": "Prečo konfirmácia pohľadávok netestuje úplnosť",
+      "text": "Konfirmácia pohľadávok overuje, že vykázané saldo voči danému odberateľovi je správne – teda smeruje od záznamu (saldokonta) k tretej strane. Tým výborne pokrýva EXISTENCIU a práva, ale NEodhalí pohľadávku, ktorá v záznamoch chýba (úplnosť). Symetricky: pri záväzkoch je úplnosť dominantná, preto sa nemožno spoľahnúť len na potvrdenia od dodávateľov, ktorých vyberáme zo zoznamu klienta – treba dodávateľské výpisy (zahŕňajú aj nezachytené saldá) a vyhľadávanie nezaúčtovaných záväzkov, ktoré idú zvonku dnu."
+    },
+    {
+      "nadpis": "Účtovný odhad – opravná položka k pohľadávkam (ISA 540)",
+      "text": "Opravná položka k pochybným pohľadávkam je účtovný odhad podľa ISA 540 (revidovaný). Audítor posúdi inherentné riziko cez neistotu odhadu a náchylnosť na zaujatosť manažmentu (motivácia nepodhodnotiť aktíva). Reakcia: testovanie metodiky a vstupov modelu (veková štruktúra, historická úspešnosť inkasa), vlastný odhad/rozpätie audítora alebo udalosti po dátume závierky (následné inkaso). Pri IFRS rámci ide o model očakávaných úverových strát (IFRS 9), ktorý je odhadovo náročnejší a často predstavuje kľúčovú záležitosť auditu (KAM)."
+    },
+    {
+      "nadpis": "Väzba na následné udalosti (ISA 560)",
+      "text": "Obdobie po súvahovom dni je pri oboch oblastiach zdrojom najpresvedčivejších dôkazov. Pri pohľadávkach: NÁSLEDNÉ INKASO potvrdzuje existenciu aj vymožiteľnosť (upravujúca udalosť, ak konkurz odberateľa po súvahovom dni potvrdzuje nevymožiteľnosť pohľadávky existujúcej k súvahovému dňu). Pri záväzkoch: NÁSLEDNÉ PLATBY a došlé faktúry sú jadrom vyhľadávania nezaúčtovaných záväzkov. Audítor teda systematicky využíva 'pohľad dozadu' z obdobia po závierke."
+    },
+    {
+      "nadpis": "Kontrolné testy v cykloch predaj a nákup (ISA 330)",
+      "text": "Ak chce audítor znížiť rozsah substantívnych testov, otestuje kontroly v cykle: pri predaji napr. schvaľovanie úverových limitov, kontrolu fakturácie voči objednávkam a dodacím listom, segregáciu povinností; pri nákupe trojstranné odsúhlasenie (objednávka–dodací list–faktúra), schvaľovanie záväzkov, kontrolu úhrad. Účinné kontroly umožnia menší rozsah testov detailov; pri slabých kontrolách sa audítor spolieha prevažne na substantívne postupy. Pri významných rizikách (napr. výnosy/cut-off) sú vždy potrebné cielené substantívne postupy."
+    },
+    {
+      "nadpis": "Výsledky auditu a dopad na výrok",
+      "text": "Výsledkom je vyhodnotenie zistených nesprávností (jednotlivých aj agregovaných) voči významnosti. Typické zistenia: nadhodnotené pohľadávky bez dostatočnej opravnej položky (nesprávne ocenenie), fiktívne alebo do bežného roka 'natiahnuté' tržby (cut-off/existencia), nezaúčtované záväzky a chýbajúce dohadné položky (úplnosť). Ak nesprávnosti presiahnu významnosť a manažment ich neopraví, vedie to k modifikácii výroku (výhrada, prípadne záporný výrok); pri nemožnosti získať dostatočné dôkazy (napr. obmedzenie potvrdzovania) k výhrade z dôvodu obmedzenia rozsahu až po odmietnutie výroku."
+    }
   ],
   "priklady": [
-    {"nazov": "Pozitívna konfirmácia pohľadávky a alternatívne postupy (ISA 505)", "zadanie": "Odberateľ ALFA má k 31. 12. 2025 saldo 120 000 € (jedno z najväčších). Audítor poslal pozitívnu žiadosť o potvrdenie zostatku, no odberateľ neodpovedal.", "riesenie": "Keďže ide o veľké, rizikové saldo, pozitívne potvrdenie bolo namieste (testuje EXISTENCIU a práva). Pri neodpovedaní audítor NESMIE zostať bez dôkazu – vykoná alternatívne postupy: preverí NÁSLEDNÉ INKASO po 31. 12. 2025 (najsilnejší dôkaz existencie aj vymožiteľnosti), skontroluje faktúry a dodacie listy tvoriace saldo a objednávky odberateľa. Audítor musí mať kontrolu nad procesom – žiadosť odoslal a odpoveď by prijal priamo. Ak by manažment odoslanie potvrdenia odmietol povoliť, posúdi dôvody a riziko a vykoná alternatívne postupy.", "dopad_na_zd": "Existencia a vymožiteľnosť salda sa dá podložiť aj bez odpovede – následným inkasom a kontrolou dokladov; mlčanie pri pozitívnom potvrdení nie je samo osebe dôkaz."},
-    {"nazov": "Vyhľadávanie nezaúčtovaných záväzkov – test následných platieb (úplnosť)", "zadanie": "Audítor pri spoločnosti BETA testuje úplnosť záväzkov k 31. 12. 2025. V januári a februári 2026 firma uhradila viacero faktúr; jedna z nich na 18 000 € je za servisné práce s dodacím protokolom z 19. 12. 2025, ale v účtovníctve k 31. 12. 2025 nie je žiadny záväzok ani náklad.", "riesenie": "Ide o klasický nález testu následných platieb (subsequent disbursements). Audítor preveril platby po súvahovom dni nad prah významnosti a podľa dodacieho protokolu zistil, že služba bola PRIJATÁ pred 31. 12. 2025. Záväzok (a náklad) teda mal byť zaúčtovaný k súvahovému dňu – jeho absencia je nesprávnosť porušujúca tvrdenie ÚPLNOSŤ (a cut-off nákladov), so smerom PODHODNOTENIE záväzkov a nákladov, teda nadhodnotenie zisku. Audítor navrhne opravu (doúčtovanie záväzku/dohadnej položky) a posúdi, či podobných prípadov nie je viac.", "dopad_na_zd": "Bez opravy sú záväzky a náklady podhodnotené o 18 000 € (a zisk nadhodnotený); typický prejav hlavného rizika pri záväzkoch – nezaúčtovaný záväzok."},
-    {"nazov": "Veková štruktúra a opravná položka – ocenenie pohľadávok", "zadanie": "Spoločnosť GAMA vykazuje pohľadávky 500 000 €, z toho 80 000 € je viac ako 360 dní po splatnosti voči odberateľovi, ktorý je v reštrukturalizácii. Účtovná opravná položka je len 10 000 €.", "riesenie": "Audítor otestuje vekovú štruktúru (správne zaradenie do pásiem) a posúdi vymožiteľnosť. Saldo 80 000 € voči odberateľovi v reštrukturalizácii je vysoko rizikové – primeraná opravná položka by mala byť výrazne vyššia než 10 000 € (blížiaca sa plnej výške podľa odhadu inkasovateľnosti). Pôjde o NESPRÁVNE OCENENIE: pohľadávky sú nadhodnotené, opravná položka podhodnotená. Audítor využije aj následné inkaso/informácie po súvahovom dni (ISA 560) a posúdi metodiku odhadu (ISA 540). Navrhne dotvorenie opravnej položky.", "dopad_na_zd": "Pohľadávky sú nadhodnotené pre nedostatočnú opravnú položku – typické hlavné riziko pri pohľadávkach (nadhodnotenie cez ocenenie)."},
-    {"nazov": "Cut-off tržieb na prelome rokov (výnosy/pohľadávky)", "zadanie": "Spoločnosť DELTA zaúčtovala 28. 12. 2025 tržbu a pohľadávku 45 000 € za dodávku tovaru. Dodací list a odovzdanie tovaru odberateľovi sú však datované až 4. 1. 2026.", "riesenie": "Tržba bola zaúčtovaná do roka 2025, hoci k dodaniu (prevodu kontroly nad tovarom) došlo až v roku 2026. Ide o porušenie CUT-OFF výnosov so smerom NADHODNOTENIE tržieb a pohľadávok roka 2025. Audítor to odhalí porovnaním dátumov dodacích listov s dátumom zaúčtovania výnosu okolo súvahového dňa. Navrhne preúčtovanie tržby a pohľadávky do roka 2026.", "dopad_na_zd": "Bez opravy sú výnosy a pohľadávky roka 2025 nadhodnotené o 45 000 € – prejav rizika nadhodnotenia pri pohľadávkach/výnosoch."}
+    {
+      "nazov": "Pozitívna konfirmácia pohľadávky a alternatívne postupy (ISA 505)",
+      "zadanie": "Odberateľ ALFA má k 31. 12. 2025 saldo 120 000 € (jedno z najväčších). Audítor poslal pozitívnu žiadosť o potvrdenie zostatku, no odberateľ neodpovedal.",
+      "riesenie": "Keďže ide o veľké, rizikové saldo, pozitívne potvrdenie bolo namieste (testuje EXISTENCIU a práva). Pri neodpovedaní audítor NESMIE zostať bez dôkazu – vykoná alternatívne postupy: preverí NÁSLEDNÉ INKASO po 31. 12. 2025 (najsilnejší dôkaz existencie aj vymožiteľnosti), skontroluje faktúry a dodacie listy tvoriace saldo a objednávky odberateľa. Audítor musí mať kontrolu nad procesom – žiadosť odoslal a odpoveď by prijal priamo. Ak by manažment odoslanie potvrdenia odmietol povoliť, posúdi dôvody a riziko a vykoná alternatívne postupy.",
+      "dopad_na_zd": "Existencia a vymožiteľnosť salda sa dá podložiť aj bez odpovede – následným inkasom a kontrolou dokladov; mlčanie pri pozitívnom potvrdení nie je samo osebe dôkaz."
+    },
+    {
+      "nazov": "Vyhľadávanie nezaúčtovaných záväzkov – test následných platieb (úplnosť)",
+      "zadanie": "Audítor pri spoločnosti BETA testuje úplnosť záväzkov k 31. 12. 2025. V januári a februári 2026 firma uhradila viacero faktúr; jedna z nich na 18 000 € je za servisné práce s dodacím protokolom z 19. 12. 2025, ale v účtovníctve k 31. 12. 2025 nie je žiadny záväzok ani náklad.",
+      "riesenie": "Ide o klasický nález testu následných platieb (subsequent disbursements). Audítor preveril platby po súvahovom dni nad prah významnosti a podľa dodacieho protokolu zistil, že služba bola PRIJATÁ pred 31. 12. 2025. Záväzok (a náklad) teda mal byť zaúčtovaný k súvahovému dňu – jeho absencia je nesprávnosť porušujúca tvrdenie ÚPLNOSŤ (a cut-off nákladov), so smerom PODHODNOTENIE záväzkov a nákladov, teda nadhodnotenie zisku. Audítor navrhne opravu (doúčtovanie záväzku/dohadnej položky) a posúdi, či podobných prípadov nie je viac.",
+      "dopad_na_zd": "Bez opravy sú záväzky a náklady podhodnotené o 18 000 € (a zisk nadhodnotený); typický prejav hlavného rizika pri záväzkoch – nezaúčtovaný záväzok."
+    },
+    {
+      "nazov": "Veková štruktúra a opravná položka – ocenenie pohľadávok",
+      "zadanie": "Spoločnosť GAMA vykazuje pohľadávky 500 000 €, z toho 80 000 € je viac ako 360 dní po splatnosti voči odberateľovi, ktorý je v reštrukturalizácii. Účtovná opravná položka je len 10 000 €.",
+      "riesenie": "Audítor otestuje vekovú štruktúru (správne zaradenie do pásiem) a posúdi vymožiteľnosť. Saldo 80 000 € voči odberateľovi v reštrukturalizácii je vysoko rizikové – primeraná opravná položka by mala byť výrazne vyššia než 10 000 € (blížiaca sa plnej výške podľa odhadu inkasovateľnosti). Pôjde o NESPRÁVNE OCENENIE: pohľadávky sú nadhodnotené, opravná položka podhodnotená. Audítor využije aj následné inkaso/informácie po súvahovom dni (ISA 560) a posúdi metodiku odhadu (ISA 540). Navrhne dotvorenie opravnej položky.",
+      "dopad_na_zd": "Pohľadávky sú nadhodnotené pre nedostatočnú opravnú položku – typické hlavné riziko pri pohľadávkach (nadhodnotenie cez ocenenie)."
+    },
+    {
+      "nazov": "Cut-off tržieb na prelome rokov (výnosy/pohľadávky)",
+      "zadanie": "Spoločnosť DELTA zaúčtovala 28. 12. 2025 tržbu a pohľadávku 45 000 € za dodávku tovaru. Dodací list a odovzdanie tovaru odberateľovi sú však datované až 4. 1. 2026.",
+      "riesenie": "Tržba bola zaúčtovaná do roka 2025, hoci k dodaniu (prevodu kontroly nad tovarom) došlo až v roku 2026. Ide o porušenie CUT-OFF výnosov so smerom NADHODNOTENIE tržieb a pohľadávok roka 2025. Audítor to odhalí porovnaním dátumov dodacích listov s dátumom zaúčtovania výnosu okolo súvahového dňa. Navrhne preúčtovanie tržby a pohľadávky do roka 2026.",
+      "dopad_na_zd": "Bez opravy sú výnosy a pohľadávky roka 2025 nadhodnotené o 45 000 € – prejav rizika nadhodnotenia pri pohľadávkach/výnosoch."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/ING_II_07_smer_rizika.svg", "typ": "schéma", "popis": "Opačný smer hlavného rizika: pohľadávky/výnosy → riziko NADHODNOTENIA (ťažisko: existencia – externé potvrdenia ISA 505, ocenenie/vymožiteľnosť – opravné položky a veková štruktúra, cut-off tržieb); záväzky/náklady → riziko PODHODNOTENIA (ťažisko: úplnosť – vyhľadávanie nezaúčtovaných záväzkov, test následných platieb, dodávateľské výpisy, cut-off nákupov)."},
-    {"subor": "03_Vizualy/ING_II_07_postup_auditora.svg", "typ": "schéma", "popis": "Rizikovo orientovaná kostra postupu: ISA 315 (porozumenie procesu a posúdenie rizika podľa tvrdení) → ISA 330 (reakcia: kontrolné a substantívne testy, analytické postupy ISA 520) → vyhodnotenie nesprávností a dopad na výrok, s priradením kľúčových postupov k tvrdeniam pre pohľadávky a záväzky."}
+    {
+      "subor": "03_Vizualy/ING_II_07_smer_rizika.svg",
+      "typ": "schéma",
+      "popis": "Opačný smer hlavného rizika: pohľadávky/výnosy → riziko NADHODNOTENIA (ťažisko: existencia – externé potvrdenia ISA 505, ocenenie/vymožiteľnosť – opravné položky a veková štruktúra, cut-off tržieb); záväzky/náklady → riziko PODHODNOTENIA (ťažisko: úplnosť – vyhľadávanie nezaúčtovaných záväzkov, test následných platieb, dodávateľské výpisy, cut-off nákupov)."
+    },
+    {
+      "subor": "03_Vizualy/ING_II_07_postup_auditora.svg",
+      "typ": "schéma",
+      "popis": "Rizikovo orientovaná kostra postupu: ISA 315 (porozumenie procesu a posúdenie rizika podľa tvrdení) → ISA 330 (reakcia: kontrolné a substantívne testy, analytické postupy ISA 520) → vyhodnotenie nesprávností a dopad na výrok, s priradením kľúčových postupov k tvrdeniam pre pohľadávky a záväzky."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Aký je hlavný (smerový) rozdiel v riziku medzi pohľadávkami a záväzkami?", "odpoved": "Pohľadávky a výnosy majú dominantné riziko NADHODNOTENIA (preto sa testuje najmä existencia a ocenenie/vymožiteľnosť), záväzky a náklady majú dominantné riziko PODHODNOTENIA (preto sa testuje najmä úplnosť – vyhľadávanie nezaúčtovaných záväzkov)."},
-    {"otazka": "Aký je rozdiel medzi pozitívnym a negatívnym externým potvrdením (ISA 505)?", "odpoved": "Pozitívne žiada odpoveď vždy (súhlas alebo iná suma) a je presvedčivejšie – pre veľké/rizikové saldá. Negatívne žiada odpoveď len pri nesúhlase, je menej presvedčivé (mlčanie nie je dôkaz) – len pre veľké množstvo malých, nízkorizikových sáld pri dobrých kontrolách. Často sa kombinujú."},
-    {"otazka": "Prečo konfirmácia pohľadávok nepokrýva tvrdenie úplnosť?", "odpoved": "Pretože vychádza od záznamu (saldokonta) k tretej strane – overí, že vykázané saldo existuje, ale neodhalí pohľadávku, ktorá v záznamoch chýba. Konfirmácia je primárne test existencie a práv, nie úplnosti."},
-    {"otazka": "Čo je vyhľadávanie nezaúčtovaných záväzkov a aké tvrdenie testuje?", "odpoved": "Je to postup cielený na ÚPLNOSŤ záväzkov. Jadrom je test následných platieb: audítor preverí platby a došlé faktúry po súvahovom dni a podľa dodacích listov zistí, či plnenie bolo prijaté ešte pred súvahovým dňom – ak áno, záväzok mal byť zaúčtovaný k súvahovému dňu."},
-    {"otazka": "Prečo sú pri záväzkoch lepšie dodávateľské výpisy než potvrdenia vybrané zo zoznamu klienta?", "odpoved": "Lebo dodávateľský výpis pochádza od tretej strany nezávisle od záznamov klienta a zahŕňa aj saldá, ktoré klient nezachytil – preto lepšie pokrýva úplnosť. Potvrdenia od dodávateľov vyberaných zo zoznamu klienta by chýbajúci záväzok neodhalili. Pozornosť sa venuje aj nulovým/nízkym saldám u významných dodávateľov."},
-    {"otazka": "Ako audítor overuje ocenenie (vymožiteľnosť) pohľadávok?", "odpoved": "Testom vekovej štruktúry a posúdením primeranosti opravných položiek (účtovný odhad – ISA 540): následné inkaso po súvahovom dni, bonita a finančná situácia odberateľov, korešpondencia a upomienky, sporné pohľadávky a metodika tvorby opravných položiek."},
-    {"otazka": "Ako sa testuje cut-off pri pohľadávkach a pri záväzkoch?", "odpoved": "Porovnaním dátumov dodacích listov / prijatia plnenia s dátumom zaúčtovania okolo súvahového dňa. Pri tržbách hľadáme nadhodnotenie (tržby natiahnuté do bežného roka), pri nákupoch podhodnotenie (náklad/záväzok posunutý do budúceho roka)."}
+    {
+      "otazka": "Aký je hlavný (smerový) rozdiel v riziku medzi pohľadávkami a záväzkami?",
+      "odpoved": "Pohľadávky a výnosy majú dominantné riziko NADHODNOTENIA (preto sa testuje najmä existencia a ocenenie/vymožiteľnosť), záväzky a náklady majú dominantné riziko PODHODNOTENIA (preto sa testuje najmä úplnosť – vyhľadávanie nezaúčtovaných záväzkov).",
+      "moznosti": [
+        "Pohľadávky a výnosy majú riziko PODHODNOTENIA (testuje sa úplnosť), záväzky a náklady riziko NADHODNOTENIA (testuje sa existencia)",
+        "Pohľadávky a výnosy majú riziko NADHODNOTENIA (testuje sa najmä existencia a ocenenie/vymožiteľnosť), záväzky a náklady riziko PODHODNOTENIA (testuje sa najmä úplnosť)",
+        "Pri pohľadávkach aj záväzkoch je hlavné riziko rovnaké – nadhodnotenie oboch položiek súvahy",
+        "Pohľadávky majú riziko nesprávneho zatriedenia, záväzky riziko porušenia cut-off; smer rizika je pri oboch zhodný"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Pohľadávky a výnosy majú dominantné riziko NADHODNOTENIA (preto sa testuje najmä existencia a ocenenie/vymožiteľnosť), záväzky a náklady majú dominantné riziko PODHODNOTENIA (preto sa testuje najmä úplnosť – vyhľadávanie nezaúčtovaných záväzkov)."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi pozitívnym a negatívnym externým potvrdením (ISA 505)?",
+      "odpoved": "Pozitívne žiada odpoveď vždy (súhlas alebo iná suma) a je presvedčivejšie – pre veľké/rizikové saldá. Negatívne žiada odpoveď len pri nesúhlase, je menej presvedčivé (mlčanie nie je dôkaz) – len pre veľké množstvo malých, nízkorizikových sáld pri dobrých kontrolách. Často sa kombinujú.",
+      "moznosti": [
+        "Pozitívne žiada odpoveď len pri nesúhlase a je vhodné pre veľké saldá; negatívne žiada odpoveď vždy a je vhodné pre malé saldá",
+        "Pozitívne aj negatívne potvrdenie žiadajú odpoveď vždy a líšia sa len tým, kto žiadosť odosiela",
+        "Pozitívne žiada odpoveď vždy a je presvedčivejšie (veľké/rizikové saldá); negatívne žiada odpoveď len pri nesúhlase a je menej presvedčivé (malé, nízkorizikové saldá pri dobrých kontrolách)",
+        "Pozitívne sa používa pri záväzkoch a negatívne pri pohľadávkach; presvedčivosť oboch je rovnaká"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Pozitívne žiada odpoveď vždy (súhlas alebo iná suma) a je presvedčivejšie – pre veľké/rizikové saldá. Negatívne žiada odpoveď len pri nesúhlase, je menej presvedčivé (mlčanie nie je dôkaz) – len pre veľké množstvo malých, nízkorizikových sáld pri dobrých kontrolách. Často sa kombinujú."
+    },
+    {
+      "otazka": "Prečo konfirmácia pohľadávok nepokrýva tvrdenie úplnosť?",
+      "odpoved": "Pretože vychádza od záznamu (saldokonta) k tretej strane – overí, že vykázané saldo existuje, ale neodhalí pohľadávku, ktorá v záznamoch chýba. Konfirmácia je primárne test existencie a práv, nie úplnosti.",
+      "moznosti": [
+        "Pretože vychádza od záznamu (saldokonta) k tretej strane – overí, že vykázané saldo existuje, ale neodhalí pohľadávku chýbajúcu v záznamoch; je to test existencie a práv, nie úplnosti",
+        "Pretože odberatelia spravidla neodpovedajú na žiadosti, takže výsledok nikdy nepokrýva žiadne tvrdenie spoľahlivo",
+        "Pretože konfirmácia testuje výlučne ocenenie a vymožiteľnosť pohľadávky, nie jej existenciu ani úplnosť",
+        "Pretože ide o interný doklad klienta, ktorý nemôže pokryť žiadne tvrdenie o zostatku pohľadávok"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Pretože vychádza od záznamu (saldokonta) k tretej strane – overí, že vykázané saldo existuje, ale neodhalí pohľadávku, ktorá v záznamoch chýba. Konfirmácia je primárne test existencie a práv, nie úplnosti."
+    },
+    {
+      "otazka": "Čo je vyhľadávanie nezaúčtovaných záväzkov a aké tvrdenie testuje?",
+      "odpoved": "Je to postup cielený na ÚPLNOSŤ záväzkov. Jadrom je test následných platieb: audítor preverí platby a došlé faktúry po súvahovom dni a podľa dodacích listov zistí, či plnenie bolo prijaté ešte pred súvahovým dňom – ak áno, záväzok mal byť zaúčtovaný k súvahovému dňu.",
+      "moznosti": [
+        "Postup cielený na existenciu pohľadávok cez kontrolu následného inkasa po súvahovom dni",
+        "Postup cielený na ocenenie záväzkov cez prepočet kurzových rozdielov k súvahovému dňu",
+        "Postup cielený na cut-off výnosov cez porovnanie dátumov dodacích listov a zaúčtovania tržieb",
+        "Postup cielený na ÚPLNOSŤ záväzkov; jadrom je test následných platieb – preverenie platieb a došlých faktúr po súvahovom dni voči dodacím listom, či plnenie bolo prijaté pred súvahovým dňom"
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Je to postup cielený na ÚPLNOSŤ záväzkov. Jadrom je test následných platieb: audítor preverí platby a došlé faktúry po súvahovom dni a podľa dodacích listov zistí, či plnenie bolo prijaté ešte pred súvahovým dňom – ak áno, záväzok mal byť zaúčtovaný k súvahovému dňu."
+    },
+    {
+      "otazka": "Prečo sú pri záväzkoch lepšie dodávateľské výpisy než potvrdenia vybrané zo zoznamu klienta?",
+      "odpoved": "Lebo dodávateľský výpis pochádza od tretej strany nezávisle od záznamov klienta a zahŕňa aj saldá, ktoré klient nezachytil – preto lepšie pokrýva úplnosť. Potvrdenia od dodávateľov vyberaných zo zoznamu klienta by chýbajúci záväzok neodhalili. Pozornosť sa venuje aj nulovým/nízkym saldám u významných dodávateľov.",
+      "moznosti": [
+        "Lebo dodávateľský výpis pochádza od tretej strany nezávisle od záznamov klienta a zahŕňa aj saldá, ktoré klient nezachytil – preto lepšie pokrýva úplnosť",
+        "Lebo dodávateľský výpis je vždy lacnejší a rýchlejší na získanie než potvrdenie od dodávateľa",
+        "Lebo potvrdenia od dodávateľov testujú len ocenenie záväzkov, zatiaľ čo výpisy testujú ich existenciu",
+        "Lebo dodávateľský výpis nahrádza analytické postupy a vyhľadávanie nezaúčtovaných záväzkov"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Lebo dodávateľský výpis pochádza od tretej strany nezávisle od záznamov klienta a zahŕňa aj saldá, ktoré klient nezachytil – preto lepšie pokrýva úplnosť. Potvrdenia od dodávateľov vyberaných zo zoznamu klienta by chýbajúci záväzok neodhalili. Pozornosť sa venuje aj nulovým/nízkym saldám u významných dodávateľov."
+    },
+    {
+      "otazka": "Ako audítor overuje ocenenie (vymožiteľnosť) pohľadávok?",
+      "odpoved": "Testom vekovej štruktúry a posúdením primeranosti opravných položiek (účtovný odhad – ISA 540): následné inkaso po súvahovom dni, bonita a finančná situácia odberateľov, korešpondencia a upomienky, sporné pohľadávky a metodika tvorby opravných položiek.",
+      "moznosti": [
+        "Výlučne externým potvrdením zostatku od odberateľa, ktoré priamo preukazuje aj vymožiteľnosť pohľadávky",
+        "Testom vekovej štruktúry a posúdením primeranosti opravných položiek (ISA 540): následné inkaso po súvahovom dni, bonita odberateľov, korešpondencia a upomienky, sporné pohľadávky a metodika OP",
+        "Prepočtom kurzových rozdielov a odsúhlasením saldokonta na hlavnú knihu, čím sa preukáže inkasovateľnosť",
+        "Porovnaním dátumov dodacích listov s dátumom zaúčtovania výnosu okolo súvahového dňa"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Testom vekovej štruktúry a posúdením primeranosti opravných položiek (účtovný odhad – ISA 540): následné inkaso po súvahovom dni, bonita a finančná situácia odberateľov, korešpondencia a upomienky, sporné pohľadávky a metodika tvorby opravných položiek."
+    },
+    {
+      "otazka": "Ako sa testuje cut-off pri pohľadávkach a pri záväzkoch?",
+      "odpoved": "Porovnaním dátumov dodacích listov / prijatia plnenia s dátumom zaúčtovania okolo súvahového dňa. Pri tržbách hľadáme nadhodnotenie (tržby natiahnuté do bežného roka), pri nákupoch podhodnotenie (náklad/záväzok posunutý do budúceho roka).",
+      "moznosti": [
+        "Externým potvrdením od tretích strán, ktoré samostatne určuje správne obdobie tržieb aj nákupov",
+        "Analýzou obrátkovosti pohľadávok a záväzkov, ktorá odhalí presun položiek medzi obdobiami",
+        "Porovnaním dátumov dodacích listov / prijatia plnenia s dátumom zaúčtovania okolo súvahového dňa; pri tržbách hľadáme nadhodnotenie, pri nákupoch podhodnotenie",
+        "Posúdením vekovej štruktúry a tvorby opravných položiek k pohľadávkam aj záväzkom"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Porovnaním dátumov dodacích listov / prijatia plnenia s dátumom zaúčtovania okolo súvahového dňa. Pri tržbách hľadáme nadhodnotenie (tržby natiahnuté do bežného roka), pri nákupoch podhodnotenie (náklad/záväzok posunutý do budúceho roka)."
+    }
   ],
   "pasce_caste_chyby": [
     "Tvrdiť, že pri pohľadávkach aj záväzkoch je hlavné riziko rovnaké – ide OPAČNÝM smerom: pohľadávky nadhodnotenie, záväzky podhodnotenie.",
@@ -77,32 +247,144 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Ktoré tvrdenie je pri AUDITE ZÁVÄZKOV spravidla najrelevantnejšie?", "moznosti": ["existencia", "úplnosť", "práva", "prezentácia"], "spravna_index": 1, "vysvetlenie": "Záväzky a náklady majú dominantné riziko PODHODNOTENIA, preto je najdôležitejšie tvrdenie úplnosť (či sú zaúčtované všetky záväzky)."},
-      {"otazka": "Externé pozitívne potvrdenie pohľadávky (ISA 505) najsilnejšie podporuje tvrdenie:", "moznosti": ["úplnosť", "ocenenie", "existencia", "prezentácia"], "spravna_index": 2, "vysvetlenie": "Konfirmácia ide od záznamu (saldokonta) k tretej strane a overuje, že vykázané saldo reálne existuje – primárne test existencie (a práv), nie úplnosti."},
-      {"otazka": "Hlavným nástrojom testu úplnosti záväzkov je:", "moznosti": ["veková štruktúra pohľadávok", "vyhľadávanie nezaúčtovaných záväzkov (test následných platieb)", "kontrola dobropisov", "prepočet kurzových rozdielov"], "spravna_index": 1, "vysvetlenie": "Vyhľadávanie nezaúčtovaných záväzkov cez preverenie platieb a faktúr po súvahovom dni voči dodacím listom je signatúrnym testom úplnosti záväzkov."},
-      {"otazka": "Negatívne externé potvrdenie je vhodné použiť, keď:", "moznosti": ["ide o veľké rizikové saldo", "existuje veľa malých nízkorizikových sáld a kontrolné prostredie je dobré", "manažment odmieta potvrdenie", "saldo je sporné"], "spravna_index": 1, "vysvetlenie": "Negatívne potvrdenie (odpoveď len pri nesúhlase) je menej presvedčivé, preto je vhodné len pri veľkom počte malých, nízkorizikových sáld a dobrých kontrolách."},
-      {"otazka": "Audítor zistí, že tržba zaúčtovaná 30. 12. má dodací list z 5. 1. nasledujúceho roka. Ktoré tvrdenie je porušené a aký je smer chyby?", "moznosti": ["úplnosť záväzkov, podhodnotenie", "cut-off výnosov, nadhodnotenie tržieb", "ocenenie pohľadávok, podhodnotenie", "práva, bez vplyvu"], "spravna_index": 1, "vysvetlenie": "Tržba patrí do nasledujúceho roka – porušený cut-off výnosov so smerom nadhodnotenie tržieb a pohľadávok bežného roka."},
-      {"otazka": "Pri záväzkoch je odsúhlasenie na DODÁVATEĽSKÉ VÝPISY lepšie než potvrdenia vybrané zo zoznamu klienta, pretože:", "moznosti": ["sú lacnejšie", "zahŕňajú aj saldá, ktoré klient nezachytil (lepšie pokrývajú úplnosť)", "testujú ocenenie", "nahrádzajú analytické postupy"], "spravna_index": 1, "vysvetlenie": "Dodávateľský výpis pochádza od tretej strany nezávisle od záznamov klienta a obsahuje aj nezachytené saldá, preto lepšie pokrýva tvrdenie úplnosti."}
+      {
+        "otazka": "Ktoré tvrdenie je pri AUDITE ZÁVÄZKOV spravidla najrelevantnejšie?",
+        "moznosti": [
+          "existencia",
+          "úplnosť",
+          "práva",
+          "prezentácia"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Záväzky a náklady majú dominantné riziko PODHODNOTENIA, preto je najdôležitejšie tvrdenie úplnosť (či sú zaúčtované všetky záväzky)."
+      },
+      {
+        "otazka": "Externé pozitívne potvrdenie pohľadávky (ISA 505) najsilnejšie podporuje tvrdenie:",
+        "moznosti": [
+          "úplnosť",
+          "ocenenie",
+          "existencia",
+          "prezentácia"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Konfirmácia ide od záznamu (saldokonta) k tretej strane a overuje, že vykázané saldo reálne existuje – primárne test existencie (a práv), nie úplnosti."
+      },
+      {
+        "otazka": "Hlavným nástrojom testu úplnosti záväzkov je:",
+        "moznosti": [
+          "veková štruktúra pohľadávok",
+          "vyhľadávanie nezaúčtovaných záväzkov (test následných platieb)",
+          "kontrola dobropisov",
+          "prepočet kurzových rozdielov"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Vyhľadávanie nezaúčtovaných záväzkov cez preverenie platieb a faktúr po súvahovom dni voči dodacím listom je signatúrnym testom úplnosti záväzkov."
+      },
+      {
+        "otazka": "Negatívne externé potvrdenie je vhodné použiť, keď:",
+        "moznosti": [
+          "ide o veľké rizikové saldo",
+          "existuje veľa malých nízkorizikových sáld a kontrolné prostredie je dobré",
+          "manažment odmieta potvrdenie",
+          "saldo je sporné"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Negatívne potvrdenie (odpoveď len pri nesúhlase) je menej presvedčivé, preto je vhodné len pri veľkom počte malých, nízkorizikových sáld a dobrých kontrolách."
+      },
+      {
+        "otazka": "Audítor zistí, že tržba zaúčtovaná 30. 12. má dodací list z 5. 1. nasledujúceho roka. Ktoré tvrdenie je porušené a aký je smer chyby?",
+        "moznosti": [
+          "úplnosť záväzkov, podhodnotenie",
+          "cut-off výnosov, nadhodnotenie tržieb",
+          "ocenenie pohľadávok, podhodnotenie",
+          "práva, bez vplyvu"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Tržba patrí do nasledujúceho roka – porušený cut-off výnosov so smerom nadhodnotenie tržieb a pohľadávok bežného roka."
+      },
+      {
+        "otazka": "Pri záväzkoch je odsúhlasenie na DODÁVATEĽSKÉ VÝPISY lepšie než potvrdenia vybrané zo zoznamu klienta, pretože:",
+        "moznosti": [
+          "sú lacnejšie",
+          "zahŕňajú aj saldá, ktoré klient nezachytil (lepšie pokrývajú úplnosť)",
+          "testujú ocenenie",
+          "nahrádzajú analytické postupy"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Dodávateľský výpis pochádza od tretej strany nezávisle od záznamov klienta a obsahuje aj nezachytené saldá, preto lepšie pokrýva tvrdenie úplnosti."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite opačný smer hlavného rizika pri pohľadávkach a záväzkoch a priraďte k nemu kľúčové postupy.", "vzorova_odpoved": "Pohľadávky a výnosy: hlavné riziko NADHODNOTENIA → ťažiskové tvrdenia existencia a ocenenie/vymožiteľnosť; kľúčové postupy: externé potvrdenia (ISA 505 – pozitívne pre veľké saldá), test vekovej štruktúry a primeranosti opravných položiek, následné inkaso, cut-off tržieb. Záväzky a náklady: hlavné riziko PODHODNOTENIA → ťažiskové tvrdenie úplnosť; kľúčové postupy: vyhľadávanie nezaúčtovaných záväzkov (test následných platieb), odsúhlasenie na dodávateľské výpisy, kontrola dohadných položiek, cut-off nákupov."},
-      {"otazka": "Opíšte ISA 505 – rozdiel medzi pozitívnym a negatívnym potvrdením a požiadavku kontroly nad procesom.", "vzorova_odpoved": "ISA 505 upravuje externé potvrdenia – priame písomné odpovede tretích strán audítorovi. Pozitívne potvrdenie žiada odpoveď vždy a je presvedčivejšie (pre veľké/rizikové saldá); negatívne žiada odpoveď len pri nesúhlase a je menej presvedčivé (mlčanie nie je dôkaz, vhodné len pre množstvo malých nízkorizikových sáld pri dobrých kontrolách). Audítor musí mať kontrolu nad celým procesom: sám vyberie saldá, pripraví a odošle žiadosti a prijme odpovede priamo. Pri neodpovedaní na pozitívne potvrdenie vykoná alternatívne postupy (najmä následné inkaso, kontrola faktúr a dodacích listov)."},
-      {"otazka": "Ako audítor postupuje pri overovaní ocenenia (vymožiteľnosti) pohľadávok?", "vzorova_odpoved": "Overí správnosť vekovej štruktúry a posúdi primeranosť opravných položiek ako účtovného odhadu (ISA 540): preverí následné inkaso po súvahovom dni (najsilnejší dôkaz vymožiteľnosti – väzba na ISA 560), bonitu a finančnú situáciu odberateľov, korešpondenciu a upomienky, sporné a reklamované pohľadávky a metodiku tvorby opravných položiek. Nedostatočná opravná položka znamená nadhodnotenie pohľadávok (nesprávne ocenenie)."}
+      {
+        "otazka": "Vysvetlite opačný smer hlavného rizika pri pohľadávkach a záväzkoch a priraďte k nemu kľúčové postupy.",
+        "vzorova_odpoved": "Pohľadávky a výnosy: hlavné riziko NADHODNOTENIA → ťažiskové tvrdenia existencia a ocenenie/vymožiteľnosť; kľúčové postupy: externé potvrdenia (ISA 505 – pozitívne pre veľké saldá), test vekovej štruktúry a primeranosti opravných položiek, následné inkaso, cut-off tržieb. Záväzky a náklady: hlavné riziko PODHODNOTENIA → ťažiskové tvrdenie úplnosť; kľúčové postupy: vyhľadávanie nezaúčtovaných záväzkov (test následných platieb), odsúhlasenie na dodávateľské výpisy, kontrola dohadných položiek, cut-off nákupov."
+      },
+      {
+        "otazka": "Opíšte ISA 505 – rozdiel medzi pozitívnym a negatívnym potvrdením a požiadavku kontroly nad procesom.",
+        "vzorova_odpoved": "ISA 505 upravuje externé potvrdenia – priame písomné odpovede tretích strán audítorovi. Pozitívne potvrdenie žiada odpoveď vždy a je presvedčivejšie (pre veľké/rizikové saldá); negatívne žiada odpoveď len pri nesúhlase a je menej presvedčivé (mlčanie nie je dôkaz, vhodné len pre množstvo malých nízkorizikových sáld pri dobrých kontrolách). Audítor musí mať kontrolu nad celým procesom: sám vyberie saldá, pripraví a odošle žiadosti a prijme odpovede priamo. Pri neodpovedaní na pozitívne potvrdenie vykoná alternatívne postupy (najmä následné inkaso, kontrola faktúr a dodacích listov)."
+      },
+      {
+        "otazka": "Ako audítor postupuje pri overovaní ocenenia (vymožiteľnosti) pohľadávok?",
+        "vzorova_odpoved": "Overí správnosť vekovej štruktúry a posúdi primeranosť opravných položiek ako účtovného odhadu (ISA 540): preverí následné inkaso po súvahovom dni (najsilnejší dôkaz vymožiteľnosti – väzba na ISA 560), bonitu a finančnú situáciu odberateľov, korešpondenciu a upomienky, sporné a reklamované pohľadávky a metodiku tvorby opravných položiek. Nedostatočná opravná položka znamená nadhodnotenie pohľadávok (nesprávne ocenenie)."
+      }
     ],
     "priklad": [
-      {"zadanie": "Pri audite spoločnosti OMEGA k 31. 12. 2025 audítor zistil: (a) odberateľ s veľkým saldom 90 000 € neodpovedal na pozitívne potvrdenie; (b) v januári 2026 firma uhradila faktúru 12 000 € za prepravu s dodacím listom z 22. 12. 2025, pričom k súvahovému dňu nebol zaúčtovaný žiadny záväzok ani náklad; (c) pohľadávka 60 000 € voči odberateľovi v konkurze (vyhlásenom v marci 2026) má opravnú položku len 5 000 €. Pre každý bod uveďte tvrdenie, smer rizika a postup audítora.", "riesenie": "(a) Tvrdenie EXISTENCIA pohľadávky, smer NADHODNOTENIE. Pri neodpovedaní na pozitívne potvrdenie (ISA 505) audítor vykoná alternatívne postupy – najmä následné inkaso po 31. 12. 2025 a kontrolu faktúr/dodacích listov. (b) Tvrdenie ÚPLNOSŤ záväzkov (a cut-off nákladov), smer PODHODNOTENIE záväzkov a nákladov. Ide o nález testu následných platieb (vyhľadávanie nezaúčtovaných záväzkov) – plnenie prijaté pred súvahovým dňom, záväzok mal byť zaúčtovaný; audítor navrhne doúčtovanie 12 000 €. (c) Tvrdenie OCENENIE pohľadávky, smer NADHODNOTENIE. Konkurz vyhlásený v marci 2026 je upravujúca následná udalosť (ISA 560) potvrdzujúca nevymožiteľnosť k súvahovému dňu – opravná položka 5 000 € je hrubo nedostatočná, audítor navrhne dotvorenie blízko plnej hodnoty (ISA 540)."}
+      {
+        "zadanie": "Pri audite spoločnosti OMEGA k 31. 12. 2025 audítor zistil: (a) odberateľ s veľkým saldom 90 000 € neodpovedal na pozitívne potvrdenie; (b) v januári 2026 firma uhradila faktúru 12 000 € za prepravu s dodacím listom z 22. 12. 2025, pričom k súvahovému dňu nebol zaúčtovaný žiadny záväzok ani náklad; (c) pohľadávka 60 000 € voči odberateľovi v konkurze (vyhlásenom v marci 2026) má opravnú položku len 5 000 €. Pre každý bod uveďte tvrdenie, smer rizika a postup audítora.",
+        "riesenie": "(a) Tvrdenie EXISTENCIA pohľadávky, smer NADHODNOTENIE. Pri neodpovedaní na pozitívne potvrdenie (ISA 505) audítor vykoná alternatívne postupy – najmä následné inkaso po 31. 12. 2025 a kontrolu faktúr/dodacích listov. (b) Tvrdenie ÚPLNOSŤ záväzkov (a cut-off nákladov), smer PODHODNOTENIE záväzkov a nákladov. Ide o nález testu následných platieb (vyhľadávanie nezaúčtovaných záväzkov) – plnenie prijaté pred súvahovým dňom, záväzok mal byť zaúčtovaný; audítor navrhne doúčtovanie 12 000 €. (c) Tvrdenie OCENENIE pohľadávky, smer NADHODNOTENIE. Konkurz vyhlásený v marci 2026 je upravujúca následná udalosť (ISA 560) potvrdzujúca nevymožiteľnosť k súvahovému dňu – opravná položka 5 000 € je hrubo nedostatočná, audítor navrhne dotvorenie blízko plnej hodnoty (ISA 540)."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Tézy na inžinierske štátne skúšky 2025/2026 – II. okruh, téza č. 7 (oficiálny rozsah)", "kde": "ing_tézy_na_štátne_skúšky_účtovníctvo_a_audítorstvo2026 (2).pdf", "typ": "primárny"},
-    {"nazov": "KAREŠ, L. (2020): Audítorstvo. Bratislava: SKCÚ. ISBN 978-80-972525-7-1 (učebnica – odporúčaná literatúra katedry; audit pohľadávok, záväzkov, tvrdenia, riziko)", "kde": "odporúčaná literatúra katedry (téza ING II.7)", "typ": "učebnica"},
-    {"nazov": "ISA 505, External Confirmations (externé potvrdenia – pozitívne/negatívne, kontrola nad procesom, alternatívne postupy)", "kde": "https://www.iaasb.org/publications/international-standard-auditing-isa-505-external-confirmations", "typ": "web/overené"},
-    {"nazov": "ISA 315 (Revised 2019), Identifying and Assessing the Risks of Material Misstatement (rizikovo orientovaný prístup, tvrdenia)", "kde": "https://www.iaasb.org/publications/international-standard-auditing-315-revised-2019-identifying-and-assessing-risks-material-misstatement", "typ": "web/overené"},
-    {"nazov": "ISA 330, The Auditor's Responses to Assessed Risks (kontrolné a substantívne testy)", "kde": "https://www.iaasb.org/publications/international-standard-auditing-330-auditor-s-responses-assessed-risks", "typ": "web/overené"},
-    {"nazov": "ISA 500 Audit Evidence a ISA 520 Analytical Procedures (audítorské dôkazy a analytické postupy)", "kde": "https://www.iaasb.org/publications/international-standard-auditing-isa-500-audit-evidence", "typ": "web/overené"},
-    {"nazov": "ACCA: The audit of assertions (existencia, úplnosť, ocenenie, práva, cut-off pri pohľadávkach a záväzkoch; smer rizika)", "kde": "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f8/technical-articles/assertions.html", "typ": "web/overené"},
-    {"nazov": "Search for unrecorded liabilities / test následných platieb – completeness a cutoff pri záväzkoch (riziko podhodnotenia)", "kde": "https://cpahalltalk.com/auditing-accounts-payable/", "typ": "web/overené"},
-    {"nazov": "Zákon č. 423/2015 Z. z. o štatutárnom audite (znenie k máju 2026)", "kde": "01_Zdroje/Audit/ZZ_2015_423_20260110_metalex.asice", "typ": "primárny"},
-    {"nazov": "Zákon č. 431/2002 Z. z. o účtovníctve – verný a pravdivý obraz, oceňovanie pohľadávok a záväzkov, opravné položky", "kde": "01_Zdroje/Zakony/ZZ_2002_431_20260204_metalex.asice", "typ": "primárny"}
+    {
+      "nazov": "Tézy na inžinierske štátne skúšky 2025/2026 – II. okruh, téza č. 7 (oficiálny rozsah)",
+      "kde": "ing_tézy_na_štátne_skúšky_účtovníctvo_a_audítorstvo2026 (2).pdf",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "KAREŠ, L. (2020): Audítorstvo. Bratislava: SKCÚ. ISBN 978-80-972525-7-1 (učebnica – odporúčaná literatúra katedry; audit pohľadávok, záväzkov, tvrdenia, riziko)",
+      "kde": "odporúčaná literatúra katedry (téza ING II.7)",
+      "typ": "učebnica"
+    },
+    {
+      "nazov": "ISA 505, External Confirmations (externé potvrdenia – pozitívne/negatívne, kontrola nad procesom, alternatívne postupy)",
+      "kde": "https://www.iaasb.org/publications/international-standard-auditing-isa-505-external-confirmations",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "ISA 315 (Revised 2019), Identifying and Assessing the Risks of Material Misstatement (rizikovo orientovaný prístup, tvrdenia)",
+      "kde": "https://www.iaasb.org/publications/international-standard-auditing-315-revised-2019-identifying-and-assessing-risks-material-misstatement",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "ISA 330, The Auditor's Responses to Assessed Risks (kontrolné a substantívne testy)",
+      "kde": "https://www.iaasb.org/publications/international-standard-auditing-330-auditor-s-responses-assessed-risks",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "ISA 500 Audit Evidence a ISA 520 Analytical Procedures (audítorské dôkazy a analytické postupy)",
+      "kde": "https://www.iaasb.org/publications/international-standard-auditing-isa-500-audit-evidence",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "ACCA: The audit of assertions (existencia, úplnosť, ocenenie, práva, cut-off pri pohľadávkach a záväzkoch; smer rizika)",
+      "kde": "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f8/technical-articles/assertions.html",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Search for unrecorded liabilities / test následných platieb – completeness a cutoff pri záväzkoch (riziko podhodnotenia)",
+      "kde": "https://cpahalltalk.com/auditing-accounts-payable/",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Zákon č. 423/2015 Z. z. o štatutárnom audite (znenie k máju 2026)",
+      "kde": "01_Zdroje/Audit/ZZ_2015_423_20260110_metalex.asice",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Zákon č. 431/2002 Z. z. o účtovníctve – verný a pravdivý obraz, oceňovanie pohľadávok a záväzkov, opravné položky",
+      "kde": "01_Zdroje/Zakony/ZZ_2002_431_20260204_metalex.asice",
+      "typ": "primárny"
+    }
   ]
 }

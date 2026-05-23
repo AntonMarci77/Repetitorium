@@ -190,31 +190,108 @@
   "caste_doplnujuce_otazky": [
     {
       "otazka": "Z akých súčastí sa skladá individuálna účtovná závierka RO, PO a obcí?",
-      "odpoved": "Zo súvahy (Úč ROPO SFOV 1-01), výkazu ziskov a strát (Úč ROPO SFOV 2-01) a poznámok. Upravuje ich opatrenie MF/25755/2007-31 v znení MF/13542/2023-36. Obce a VÚC zostavujú aj konsolidovanú účtovnú závierku."
+      "odpoved": "Zo súvahy (Úč ROPO SFOV 1-01), výkazu ziskov a strát (Úč ROPO SFOV 2-01) a poznámok. Upravuje ich opatrenie MF/25755/2007-31 v znení MF/13542/2023-36. Obce a VÚC zostavujú aj konsolidovanú účtovnú závierku.",
+      "moznosti": [
+        "Zo súvahy, výkazu o peňažných tokoch a poznámok; obce a VÚC zostavujú aj konsolidovanú závierku",
+        "Zo súvahy (Úč ROPO SFOV 1-01), výkazu ziskov a strát (Úč ROPO SFOV 2-01) a poznámok; obce a VÚC zostavujú aj konsolidovanú závierku",
+        "Len zo súvahy a výkazu ziskov a strát; poznámky sa nezostavujú",
+        "Z výkazu FIN 1-12, súvahy a poznámok; konsolidovaná závierka sa nezostavuje"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Zo súvahy (Úč ROPO SFOV 1-01), výkazu ziskov a strát (Úč ROPO SFOV 2-01) a poznámok. Upravuje ich opatrenie MF/25755/2007-31 v znení MF/13542/2023-36. Obce a VÚC zostavujú aj konsolidovanú účtovnú závierku."
     },
     {
       "otazka": "Aký je principiálny rozdiel medzi účtovnou závierkou a finančnými výkazmi FIN?",
-      "odpoved": "Účtovná závierka je akruálna – zobrazuje majetok, záväzky, náklady a výnosy vrátane nepeňažných položiek (odpisy, OP, rezervy). Finančné výkazy FIN sú rozpočtovo-hotovostné – sledujú reálne príjmy a výdavky proti rozpočtu podľa rozpočtovej klasifikácie, kumulatívne. Preto sa účtovný VH a rozpočtový prebytok/schodok spravidla líšia."
+      "odpoved": "Účtovná závierka je akruálna – zobrazuje majetok, záväzky, náklady a výnosy vrátane nepeňažných položiek (odpisy, OP, rezervy). Finančné výkazy FIN sú rozpočtovo-hotovostné – sledujú reálne príjmy a výdavky proti rozpočtu podľa rozpočtovej klasifikácie, kumulatívne. Preto sa účtovný VH a rozpočtový prebytok/schodok spravidla líšia.",
+      "moznosti": [
+        "Účtovná závierka je hotovostná, finančné výkazy FIN sú akruálne; ich výsledky sa preto rovnajú",
+        "Oba systémy sú akruálne a líšia sa len termínom predloženia do CKS",
+        "Účtovná závierka je akruálna (majetok, záväzky, náklady, výnosy vrátane nepeňažných položiek), FIN výkazy sú rozpočtovo-hotovostné (príjmy/výdavky proti rozpočtu); preto sa VH a prebytok/schodok líšia",
+        "Účtovná závierka sleduje plnenie rozpočtu, FIN výkazy zobrazujú majetok a záväzky podľa akruálu"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Účtovná závierka je akruálna – zobrazuje majetok, záväzky, náklady a výnosy vrátane nepeňažných položiek (odpisy, OP, rezervy). Finančné výkazy FIN sú rozpočtovo-hotovostné – sledujú reálne príjmy a výdavky proti rozpočtu podľa rozpočtovej klasifikácie, kumulatívne. Preto sa účtovný VH a rozpočtový prebytok/schodok spravidla líšia."
     },
     {
       "otazka": "Vymenujte štyri hľadiská rozpočtovej klasifikácie a čo vyjadrujú.",
-      "odpoved": "Druhová (príjmy/výdavky/finančné operácie – aký tok), ekonomická (na čo konkrétne – mzdy, tovary a služby, kapitálové výdavky), funkčná/COFOG (na akú oblasť – školstvo, doprava), organizačná (kto spravuje – kapitola/subjekt). Pomôcka DEFO. Upravuje opatrenie MF/010175/2004-42, funkčnú vyhláška ŠÚ SR 257/2014."
+      "odpoved": "Druhová (príjmy/výdavky/finančné operácie – aký tok), ekonomická (na čo konkrétne – mzdy, tovary a služby, kapitálové výdavky), funkčná/COFOG (na akú oblasť – školstvo, doprava), organizačná (kto spravuje – kapitola/subjekt). Pomôcka DEFO. Upravuje opatrenie MF/010175/2004-42, funkčnú vyhláška ŠÚ SR 257/2014.",
+      "moznosti": [
+        "Druhová (aký tok), ekonomická (na čo konkrétne), funkčná/COFOG (na akú oblasť), organizačná (kto spravuje)",
+        "Daňová, ekonomická, funkčná a územná – podľa typu dane, výdavku, oblasti a regiónu",
+        "Druhová (kto spravuje), ekonomická (na akú oblasť), funkčná (aký tok), organizačná (na čo konkrétne)",
+        "Bežná, kapitálová, finančná a konsolidačná – podľa charakteru a stupňa agregácie"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Druhová (príjmy/výdavky/finančné operácie – aký tok), ekonomická (na čo konkrétne – mzdy, tovary a služby, kapitálové výdavky), funkčná/COFOG (na akú oblasť – školstvo, doprava), organizačná (kto spravuje – kapitola/subjekt). Pomôcka DEFO. Upravuje opatrenie MF/010175/2004-42, funkčnú vyhláška ŠÚ SR 257/2014."
     },
     {
       "otazka": "Čo je FIN 1-12 a aký má vzťah k rozpočtu obce?",
-      "odpoved": "FIN 1-12 je rozpočtový výkaz (podľa opatrenia MF/017353/2017-352) – ukazuje hotovostné príjmy, výdavky a finančné operácie podľa rozpočtovej klasifikácie a hodnotí plnenie rozpočtu (schválený, upravený, skutočnosť). Z neho obec odvodí rozpočtový prebytok/schodok v záverečnom účte."
+      "odpoved": "FIN 1-12 je rozpočtový výkaz (podľa opatrenia MF/017353/2017-352) – ukazuje hotovostné príjmy, výdavky a finančné operácie podľa rozpočtovej klasifikácie a hodnotí plnenie rozpočtu (schválený, upravený, skutočnosť). Z neho obec odvodí rozpočtový prebytok/schodok v záverečnom účte.",
+      "moznosti": [
+        "Je akruálny výkaz majetku a záväzkov; z neho obec odvodí účtovný výsledok hospodárenia",
+        "Je výkaz na výpočet maastrichtského dlhu; s rozpočtom obce nesúvisí",
+        "Je súčasť účtovnej závierky namiesto súvahy; hodnotí stav vlastného imania obce",
+        "Je rozpočtový výkaz (opatrenie MF/017353/2017-352) – hotovostné príjmy, výdavky a finančné operácie podľa rozpočtovej klasifikácie; z neho obec odvodí rozpočtový prebytok/schodok"
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "FIN 1-12 je rozpočtový výkaz (podľa opatrenia MF/017353/2017-352) – ukazuje hotovostné príjmy, výdavky a finančné operácie podľa rozpočtovej klasifikácie a hodnotí plnenie rozpočtu (schválený, upravený, skutočnosť). Z neho obec odvodí rozpočtový prebytok/schodok v záverečnom účte."
     },
     {
       "otazka": "Prečo sa účtovný výsledok hospodárenia obce nerovná rozpočtovému prebytku/schodku?",
-      "odpoved": "Lebo sú postavené na odlišných princípoch. Účtovný VH je akruálny a zahŕňa nepeňažné javy (odpisy, OP, rezervy, časové rozlíšenie transferov), kým rozpočtový prebytok/schodok je rozdiel reálnych rozpočtových príjmov a výdavkov (FIN 1-12). Napríklad kapitálový výdavok je v rozpočte celý naraz, ale v účtovníctve sa rozkladá do odpisov."
+      "odpoved": "Lebo sú postavené na odlišných princípoch. Účtovný VH je akruálny a zahŕňa nepeňažné javy (odpisy, OP, rezervy, časové rozlíšenie transferov), kým rozpočtový prebytok/schodok je rozdiel reálnych rozpočtových príjmov a výdavkov (FIN 1-12). Napríklad kapitálový výdavok je v rozpočte celý naraz, ale v účtovníctve sa rozkladá do odpisov.",
+      "moznosti": [
+        "Lebo účtovný VH sa počíta hotovostne a rozpočtový prebytok/schodok akruálne",
+        "Lebo sú postavené na odlišných princípoch – účtovný VH je akruálny (odpisy, OP, rezervy, časové rozlíšenie transferov), rozpočtový prebytok/schodok je rozdiel reálnych rozpočtových príjmov a výdavkov (FIN 1-12)",
+        "Lebo účtovný VH zahŕňa kapitálové výdavky naraz, zatiaľ čo rozpočet ich rozkladá do odpisov",
+        "Lebo rozpočtový prebytok/schodok obsahuje nepeňažné javy, ktoré účtovný VH neeviduje"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Lebo sú postavené na odlišných princípoch. Účtovný VH je akruálny a zahŕňa nepeňažné javy (odpisy, OP, rezervy, časové rozlíšenie transferov), kým rozpočtový prebytok/schodok je rozdiel reálnych rozpočtových príjmov a výdavkov (FIN 1-12). Napríklad kapitálový výdavok je v rozpočte celý naraz, ale v účtovníctve sa rozkladá do odpisov."
     },
     {
       "otazka": "Kam a v akej forme sa predkladajú závierky a finančné výkazy?",
-      "odpoved": "Elektronicky do Centrálneho konsolidačného systému (CKS) v predpísanom dátovom formáte; účtovné závierky aj do registra účtovných závierok. FIN výkazy sa vykazujú kumulatívne v stanovených termínoch."
+      "odpoved": "Elektronicky do Centrálneho konsolidačného systému (CKS) v predpísanom dátovom formáte; účtovné závierky aj do registra účtovných závierok. FIN výkazy sa vykazujú kumulatívne v stanovených termínoch.",
+      "moznosti": [
+        "Len v papierovej forme do registra účtovných závierok; FIN výkazy raz ročne na MF SR",
+        "Elektronicky priamo na daňový úrad; FIN výkazy sa nepredkladajú",
+        "Elektronicky do Centrálneho konsolidačného systému (CKS); účtovné závierky aj do registra účtovných závierok; FIN výkazy kumulatívne v stanovených termínoch",
+        "Elektronicky do Štatistického úradu SR jednorazovo k 31. 12.; FIN výkazy nekumulatívne"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Elektronicky do Centrálneho konsolidačného systému (CKS) v predpísanom dátovom formáte; účtovné závierky aj do registra účtovných závierok. FIN výkazy sa vykazujú kumulatívne v stanovených termínoch."
     },
     {
       "otazka": "Aké sú špecifické riadky/účty súvahy a VZaS verejného subjektu oproti podnikateľovi?",
-      "odpoved": "Zúčtovanie medzi subjektmi VS (skupina 35), výnosy budúcich období 384 (nerozpustené kapitálové transfery), pohľadávky 318/319 u obcí, účty ŠP 224/225, náklady na transfery a odvod príjmov (skupina 58, napr. 588) a výnosy z transferov (skupina 68 – 681–684 u štátu, skupina 69 – 691–694 u samosprávy, daňové výnosy 632)."
+      "odpoved": "Zúčtovanie medzi subjektmi VS (skupina 35), výnosy budúcich období 384 (nerozpustené kapitálové transfery), pohľadávky 318/319 u obcí, účty ŠP 224/225, náklady na transfery a odvod príjmov (skupina 58, napr. 588) a výnosy z transferov (skupina 68 – 681–684 u štátu, skupina 69 – 691–694 u samosprávy, daňové výnosy 632).",
+      "moznosti": [
+        "Zúčtovanie medzi subjektmi VS (skupina 35), výnosy budúcich období 384, pohľadávky 318/319, účty ŠP 224/225, náklady na transfery a odvod príjmov (skupina 58), výnosy z transferov (68 u štátu, 69 u samosprávy, daňové výnosy 632)",
+        "Zúčtovanie medzi subjektmi VS (skupina 38), náklady budúcich období 381, pohľadávky 311/315, účty ŠP 211/213, náklady na transfery (skupina 50), výnosy z transferov (skupina 60)",
+        "Účet 431 ako jediný špecifický prvok; ostatné účty sú zhodné s podnikateľmi bez výnimky",
+        "Výnosy budúcich období 384 sa používajú na bežné transfery, daňové výnosy sa účtujú na účte 642 a transfery na skupine 64"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Zúčtovanie medzi subjektmi VS (skupina 35), výnosy budúcich období 384 (nerozpustené kapitálové transfery), pohľadávky 318/319 u obcí, účty ŠP 224/225, náklady na transfery a odvod príjmov (skupina 58, napr. 588) a výnosy z transferov (skupina 68 – 681–684 u štátu, skupina 69 – 691–694 u samosprávy, daňové výnosy 632)."
     }
   ],
   "pasce_caste_chyby": [

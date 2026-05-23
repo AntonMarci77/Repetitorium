@@ -32,47 +32,233 @@
     "cielova_dlzka_slov": 1450,
     "uvod": "Správa nezávislého audítora je vrcholným a verejne dostupným výstupom auditu. Audítor v nej formuluje názor (výrok) na to, či účtovná závierka poskytuje vo všetkých významných súvislostiach pravdivý a verný obraz finančnej situácie a výsledku hospodárenia účtovnej jednotky v súlade s príslušným rámcom finančného výkazníctva. Obsah a forma správy sú štandardizované – upravuje ich najmä ISA 700 (formovanie názoru a štruktúra správy), ISA 705 (modifikácie názoru), ISA 706 (odseky so zdôraznením a o inej skutočnosti), ISA 701 (kľúčové záležitosti auditu), ISA 710 (porovnávacie informácie). Na pozadí stojí povinná komunikácia audítora s osobami poverenými správou a riadením podľa ISA 260 a osobitné posudzovanie podvodov podľa ISA 240. Pre subjekty verejného záujmu pridáva ďalšie požiadavky nariadenie (EÚ) č. 537/2014.",
     "casti": [
-      {"nadpis": "Formovanie názoru a obsah správy (ISA 700)", "text": "ISA 700 určuje, ako audítor formuluje názor a čo musí správa obsahovať. Audítor vyjadrí nemodifikovaný názor len vtedy, ak dospel k záveru, že závierka je vo všetkých významných súvislostiach zostavená v súlade s rámcom. Predtým posúdi: či sú dodržané účtovné zásady, či sú účtovné odhady a politiky primerané, či je závierka úplná a zverejnenia adekvátne, a či je vhodný predpoklad nepretržitého pokračovania v činnosti (going concern). Predpísaná štruktúra správy (po revízii ISA z r. 2016, účinnej pre závierky od 15. 12. 2016): názov (Správa nezávislého audítora), adresát; ako PRVÝ vecný blok NÁZOR (výrok) audítora; ZÁKLAD pre názor (vrátane vyhlásenia o nezávislosti a etike); prípadná neistota týkajúca sa nepretržitého pokračovania (going concern); kľúčové záležitosti auditu (KAM – povinné pre kótované subjekty); zodpovednosť štatutárneho orgánu/manažmentu a osôb poverených správou a riadením za závierku; zodpovednosť audítora za audit závierky; ďalšie požiadavky na podávanie správ (napr. k výročnej správe); meno zodpovedného audítora (kľúčového audítorského partnera), podpis, adresa a dátum správy. Posunutie názoru na začiatok bolo cieľom reformy – aby najdôležitejšia informácia bola hneď viditeľná."},
-      {"nadpis": "Nemodifikovaný (čistý) názor", "text": "Nemodifikovaný (tzv. čistý) názor je štandardný, pozitívny výrok 'bez výhrad'. Audítor ho vyjadrí, ak získal dostatočné a vhodné audítorské dôkazy a na ich základe dospel k záveru, že závierka NEOBSAHUJE významné nesprávnosti a poskytuje pravdivý a verný obraz v súlade s rámcom. Typická formulácia: 'Podľa nášho názoru priložená účtovná závierka poskytuje pravdivý a verný obraz finančnej situácie spoločnosti k... a výsledku jej hospodárenia... v súlade so zákonom o účtovníctve.' Čistý názor neznamená, že závierka je úplne bezchybná – znamená, že nie sú v nej VÝZNAMNÉ (materiálne) nesprávnosti. Nemodifikovaný názor možno doplniť o odsek so zdôraznením alebo o inej skutočnosti – tie názor NEmenia."},
-      {"nadpis": "Dve osi modifikácie: charakter × všeobsiahlosť (ISA 705)", "text": "Audítor modifikuje názor v dvoch situáciách. PRVÁ – závierka je významne (materiálne) NESPRÁVNA: audítor má dôkaz o chybe v sumách, klasifikácii, prezentácii alebo zverejnení. DRUHÁ – audítor NEDOKÁZAL získať dostatočné a vhodné dôkazy (obmedzenie rozsahu auditu); buď ho obmedzil subjekt, okolnosti (napr. nemohol byť prítomný pri inventarizácii zásob), alebo účtovné záznamy sú neúplné; audítor potom nevie posúdiť, či nesprávnosť existuje. O type modifikácie potom rozhoduje DRUHÁ os – VŠEOBSIAHLOSŤ (pervasiveness): dopady (alebo možné dopady) sú buď materiálne ale OHRANIČENÉ na konkrétne položky, alebo sú VŠEOBSIAHLE. Všeobsiahly podľa ISA 705 znamená, že dopady (i) nie sú obmedzené na konkrétne prvky závierky, alebo (ii) ak sú, predstavujú podstatnú časť závierky, alebo (iii) sa týkajú zverejnení zásadných pre pochopenie závierky používateľmi."},
-      {"nadpis": "Tri typy modifikovaného názoru (ISA 705)", "text": "Z prieniku oboch osí vyplývajú tri typy. NÁZOR S VÝHRADOU (qualified): buď je nesprávnosť materiálna, ale NIE všeobsiahla, alebo audítor nezískal dôkazy s materiálnym, ale NIE všeobsiahlym možným dopadom. Formuluje sa slovami 'okrem vplyvu/možného vplyvu skutočností opísaných v základe pre názor s výhradou poskytuje závierka pravdivý a verný obraz...'. ZÁPORNÝ NÁZOR (adverse): nesprávnosti sú materiálne A SÚČASNE všeobsiahle – závierka ako celok je zavádzajúca. Audítor uvedie, že závierka NEPOSKYTUJE pravdivý a verný obraz. ODMIETNUTIE VYJADRENIA NÁZORU (disclaimer): audítor nezískal dostatočné a vhodné dôkazy a možné dopady sú materiálne A SÚČASNE všeobsiahle – nevie vôbec posúdiť závierku, preto názor nevyjadrí. Pri každej modifikácii sa upraví aj sekcia 'Základ pre názor...', kde audítor opíše dôvod a (ak je to možné) kvantifikuje dopad. Pri zápornom názore a odmietnutí sa nesmie uviesť bezvýhradný KAM, ktorý by protirečil názoru."},
-      {"nadpis": "Odsek so zdôraznením skutočností (Emphasis of Matter, ISA 706)", "text": "Odsek so zdôraznením skutočností (Emphasis of Matter) upozorňuje používateľov na skutočnosť, ktorá je SPRÁVNE prezentovaná alebo zverejnená v závierke, ale je natoľko zásadná pre jej pochopenie, že na ňu treba osobitne upozorniť. Podmienky: skutočnosť je už v závierke (odsek nesmie obsahovať novú informáciu), nevyžaduje modifikáciu názoru podľa ISA 705 a (ak platí ISA 701) nebola určená ako KAM. Príklady: významná neistota z prebiehajúceho súdneho sporu, mimoriadna udalosť po dni závierky, skoršia aplikácia nového účtovného štandardu. Odsek sa zaradí za sekciu Názor a Základ pre názor, výslovne sa nazve 'Zdôraznenie skutočnosti', odkáže na príslušnú poznámku a uvedie, že názor NIE JE v dôsledku tejto skutočnosti modifikovaný."},
-      {"nadpis": "Odsek o inej skutočnosti (Other Matter, ISA 706)", "text": "Odsek o inej skutočnosti (Other Matter) sa týka skutočnosti, ktorá NIE JE prezentovaná ani zverejnená v závierke, ale je relevantná pre pochopenie auditu, zodpovednosti audítora alebo samotnej správy. Praktický test rozlíšenia: ak skutočnosť NÁJDETE v konkrétnej poznámke závierky, ide o Emphasis of Matter; ak v závierke nie je (žije mimo nej a týka sa auditu/správy), ide o Other Matter. Príklady: závierku za predchádzajúce obdobie auditoval iný audítor alebo nebola auditovaná (väzba na ISA 710); audítor upozorňuje, že správa je určená výhradne pre konkrétneho používateľa; obmedzenie distribúcie správy. Ani odsek so zdôraznením, ani odsek o inej skutočnosti NEMODIFIKUJÚ názor audítora – sú to len doplňujúce komunikačné odseky."},
-      {"nadpis": "Kľúčové záležitosti auditu – KAM (ISA 701)", "text": "Kľúčové záležitosti auditu (Key Audit Matters) sú podľa ISA 701 tie záležitosti, ktoré boli podľa odborného úsudku audítora najvýznamnejšie pri audite závierky bežného obdobia. Vyberajú sa z okruhu vecí komunikovaných osobám povereným správou a riadením, pričom audítor zohľadní najmä oblasti vyššieho rizika významnej nesprávnosti, významné úsudky pri odhadoch s vysokou neistotou a vplyv významných udalostí/transakcií. Pre každý KAM audítor opíše, prečo bola záležitosť kľúčová a ako sa ňou pri audite zaoberal, s odkazom na príslušné zverejnenie. KAM nie sú modifikáciou názoru ani náhradou zverejnení manažmentu – len zvyšujú informačnú a komunikačnú hodnotu správy. Uvedenie KAM je POVINNÉ pri audite kótovaných (listed) subjektov; pri ostatných ich audítor uvedie, ak sa tak rozhodne alebo ak to vyžaduje predpis. KAM sa neuvádzajú, ak audítor vyjadril záporný názor alebo odmietnutie."},
-      {"nadpis": "Porovnávacie informácie – zodpovedajúce údaje (ISA 710)", "text": "ISA 710 rieši zodpovednosť audítora za porovnávacie informácie – sumy a zverejnenia za predchádzajúce obdobia uvedené v aktuálnej závierke. Rozlišuje dva prístupy. ZODPOVEDAJÚCE ÚDAJE (corresponding figures): porovnávacie údaje sú integrálnou súčasťou bežnej závierky, názor audítora sa vzťahuje LEN na bežné obdobie (toto je bežná prax v SR). AUDITOVANÁ ZÁVIERKA ZA VIAC OBDOBÍ (comparative financial statements): názor sa vyjadruje ku KAŽDÉMU prezentovanému obdobiu. Špecifiká: ak predchádzajúce obdobie auditoval iný audítor alebo nebolo auditované, uvedie sa to v odseku o inej skutočnosti (Other Matter). Ak audítor zistí možnú významnú nesprávnosť v porovnávacích údajoch (napr. neopravená chyba minulého roka), môže to viesť k modifikácii názoru."},
-      {"nadpis": "Komunikácia s manažmentom a osobami poverenými správou a riadením (ISA 260) a podvody (ISA 240)", "text": "Správa nie je jediná komunikácia – ISA 260 ukladá audítorovi povinne a včas komunikovať s osobami poverenými správou a riadením (typicky výbor pre audit, dozorná rada, štatutárny orgán): plánovaný rozsah a načasovanie auditu, významné zistenia z auditu (vrátane ťažkostí, významných nedostatkov vnútornej kontroly, nezrovnalostí v účtovných politikách, neopravených nesprávností), a vyhlásenie o nezávislosti. Cieľom je obojstranná výmena informácií a podpora dohľadu nad procesom finančného výkazníctva. ISA 240 rieši zodpovednosť audítora vo vzťahu k PODVODOM: audítor zachováva profesionálny skepticizmus, rozlišuje podvodné finančné výkazníctvo (skresľovanie závierky) a spreneveru majetku, identifikuje a posudzuje riziká významnej nesprávnosti spôsobenej podvodom (vrátane predpokladaného rizika pri vykazovaní výnosov a obchádzaní kontrol manažmentom) a reaguje na ne. Zistené alebo predpokladané podvody komunikuje včas príslušnej úrovni manažmentu, resp. osobám povereným správou a riadením; pri podvode na úrovni manažmentu komunikuje vyššie a zvažuje aj prípadnú zákonnú oznamovaciu povinnosť. Podvod ovplyvňujúci závierku sa premietne aj do názoru/KAM."},
-      {"nadpis": "Osobitosti správy pre subjekty verejného záujmu (nariadenie 537/2014)", "text": "Pre subjekty verejného záujmu (SVZ – napr. banky, poisťovne, kótované spoločnosti) pridáva nariadenie (EÚ) č. 537/2014 (čl. 10) k bežnej správe ďalšie povinné prvky. Správa SVZ musí navyše uviesť najmä: kto a kedy vymenoval audítora a celkové neprerušené obdobie zákazky; na podporu názoru OPIS najzávažnejších posúdených rizík významnej nesprávnosti (vrátane rizika z podvodu), zhrnutie reakcie audítora a kľúčové postrehy (de facto rozšírené KAM); vysvetlenie, do akej miery bol audit schopný odhaliť nezrovnalosti vrátane podvodu; POTVRDENIE, že názor je konzistentný s dodatočnou správou pre výbor pre audit; vyhlásenie, že neboli poskytnuté zakázané neaudítorské služby. Súčasne čl. 11 ukladá audítorovi predložiť výboru pre audit DODATOČNÚ (podrobnú) správu, a to najneskôr s odovzdaním správy audítora. Pre kótované SVZ je uvádzanie KAM (ISA 701) povinné."},
-      {"zaver": "Správa nezávislého audítora je štandardizovaný výstup, ktorého jadrom je názor. Pri rozhodovaní o type názoru pomôže dvojosá matica: charakter problému (nesprávnosť vs. nedostatok dôkazov) × všeobsiahlosť (ohraničené vs. všeobsiahle) → výhrada / záporný názor / odmietnutie. Odseky Emphasis a Other Matter názor nemenia – len upozorňujú (skutočnosť v závierke vs. mimo nej). KAM zvyšujú informačnú hodnotu, komunikácia s osobami poverenými správou a riadením (ISA 260) a posudzovanie podvodov (ISA 240) tvoria pozadie, a pre subjekty verejného záujmu platia prísnejšie pravidlá podľa nariadenia 537/2014."}
+      {
+        "nadpis": "Formovanie názoru a obsah správy (ISA 700)",
+        "text": "ISA 700 určuje, ako audítor formuluje názor a čo musí správa obsahovať. Audítor vyjadrí nemodifikovaný názor len vtedy, ak dospel k záveru, že závierka je vo všetkých významných súvislostiach zostavená v súlade s rámcom. Predtým posúdi: či sú dodržané účtovné zásady, či sú účtovné odhady a politiky primerané, či je závierka úplná a zverejnenia adekvátne, a či je vhodný predpoklad nepretržitého pokračovania v činnosti (going concern). Predpísaná štruktúra správy (po revízii ISA z r. 2016, účinnej pre závierky od 15. 12. 2016): názov (Správa nezávislého audítora), adresát; ako PRVÝ vecný blok NÁZOR (výrok) audítora; ZÁKLAD pre názor (vrátane vyhlásenia o nezávislosti a etike); prípadná neistota týkajúca sa nepretržitého pokračovania (going concern); kľúčové záležitosti auditu (KAM – povinné pre kótované subjekty); zodpovednosť štatutárneho orgánu/manažmentu a osôb poverených správou a riadením za závierku; zodpovednosť audítora za audit závierky; ďalšie požiadavky na podávanie správ (napr. k výročnej správe); meno zodpovedného audítora (kľúčového audítorského partnera), podpis, adresa a dátum správy. Posunutie názoru na začiatok bolo cieľom reformy – aby najdôležitejšia informácia bola hneď viditeľná."
+      },
+      {
+        "nadpis": "Nemodifikovaný (čistý) názor",
+        "text": "Nemodifikovaný (tzv. čistý) názor je štandardný, pozitívny výrok 'bez výhrad'. Audítor ho vyjadrí, ak získal dostatočné a vhodné audítorské dôkazy a na ich základe dospel k záveru, že závierka NEOBSAHUJE významné nesprávnosti a poskytuje pravdivý a verný obraz v súlade s rámcom. Typická formulácia: 'Podľa nášho názoru priložená účtovná závierka poskytuje pravdivý a verný obraz finančnej situácie spoločnosti k... a výsledku jej hospodárenia... v súlade so zákonom o účtovníctve.' Čistý názor neznamená, že závierka je úplne bezchybná – znamená, že nie sú v nej VÝZNAMNÉ (materiálne) nesprávnosti. Nemodifikovaný názor možno doplniť o odsek so zdôraznením alebo o inej skutočnosti – tie názor NEmenia."
+      },
+      {
+        "nadpis": "Dve osi modifikácie: charakter × všeobsiahlosť (ISA 705)",
+        "text": "Audítor modifikuje názor v dvoch situáciách. PRVÁ – závierka je významne (materiálne) NESPRÁVNA: audítor má dôkaz o chybe v sumách, klasifikácii, prezentácii alebo zverejnení. DRUHÁ – audítor NEDOKÁZAL získať dostatočné a vhodné dôkazy (obmedzenie rozsahu auditu); buď ho obmedzil subjekt, okolnosti (napr. nemohol byť prítomný pri inventarizácii zásob), alebo účtovné záznamy sú neúplné; audítor potom nevie posúdiť, či nesprávnosť existuje. O type modifikácie potom rozhoduje DRUHÁ os – VŠEOBSIAHLOSŤ (pervasiveness): dopady (alebo možné dopady) sú buď materiálne ale OHRANIČENÉ na konkrétne položky, alebo sú VŠEOBSIAHLE. Všeobsiahly podľa ISA 705 znamená, že dopady (i) nie sú obmedzené na konkrétne prvky závierky, alebo (ii) ak sú, predstavujú podstatnú časť závierky, alebo (iii) sa týkajú zverejnení zásadných pre pochopenie závierky používateľmi."
+      },
+      {
+        "nadpis": "Tri typy modifikovaného názoru (ISA 705)",
+        "text": "Z prieniku oboch osí vyplývajú tri typy. NÁZOR S VÝHRADOU (qualified): buď je nesprávnosť materiálna, ale NIE všeobsiahla, alebo audítor nezískal dôkazy s materiálnym, ale NIE všeobsiahlym možným dopadom. Formuluje sa slovami 'okrem vplyvu/možného vplyvu skutočností opísaných v základe pre názor s výhradou poskytuje závierka pravdivý a verný obraz...'. ZÁPORNÝ NÁZOR (adverse): nesprávnosti sú materiálne A SÚČASNE všeobsiahle – závierka ako celok je zavádzajúca. Audítor uvedie, že závierka NEPOSKYTUJE pravdivý a verný obraz. ODMIETNUTIE VYJADRENIA NÁZORU (disclaimer): audítor nezískal dostatočné a vhodné dôkazy a možné dopady sú materiálne A SÚČASNE všeobsiahle – nevie vôbec posúdiť závierku, preto názor nevyjadrí. Pri každej modifikácii sa upraví aj sekcia 'Základ pre názor...', kde audítor opíše dôvod a (ak je to možné) kvantifikuje dopad. Pri zápornom názore a odmietnutí sa nesmie uviesť bezvýhradný KAM, ktorý by protirečil názoru."
+      },
+      {
+        "nadpis": "Odsek so zdôraznením skutočností (Emphasis of Matter, ISA 706)",
+        "text": "Odsek so zdôraznením skutočností (Emphasis of Matter) upozorňuje používateľov na skutočnosť, ktorá je SPRÁVNE prezentovaná alebo zverejnená v závierke, ale je natoľko zásadná pre jej pochopenie, že na ňu treba osobitne upozorniť. Podmienky: skutočnosť je už v závierke (odsek nesmie obsahovať novú informáciu), nevyžaduje modifikáciu názoru podľa ISA 705 a (ak platí ISA 701) nebola určená ako KAM. Príklady: významná neistota z prebiehajúceho súdneho sporu, mimoriadna udalosť po dni závierky, skoršia aplikácia nového účtovného štandardu. Odsek sa zaradí za sekciu Názor a Základ pre názor, výslovne sa nazve 'Zdôraznenie skutočnosti', odkáže na príslušnú poznámku a uvedie, že názor NIE JE v dôsledku tejto skutočnosti modifikovaný."
+      },
+      {
+        "nadpis": "Odsek o inej skutočnosti (Other Matter, ISA 706)",
+        "text": "Odsek o inej skutočnosti (Other Matter) sa týka skutočnosti, ktorá NIE JE prezentovaná ani zverejnená v závierke, ale je relevantná pre pochopenie auditu, zodpovednosti audítora alebo samotnej správy. Praktický test rozlíšenia: ak skutočnosť NÁJDETE v konkrétnej poznámke závierky, ide o Emphasis of Matter; ak v závierke nie je (žije mimo nej a týka sa auditu/správy), ide o Other Matter. Príklady: závierku za predchádzajúce obdobie auditoval iný audítor alebo nebola auditovaná (väzba na ISA 710); audítor upozorňuje, že správa je určená výhradne pre konkrétneho používateľa; obmedzenie distribúcie správy. Ani odsek so zdôraznením, ani odsek o inej skutočnosti NEMODIFIKUJÚ názor audítora – sú to len doplňujúce komunikačné odseky."
+      },
+      {
+        "nadpis": "Kľúčové záležitosti auditu – KAM (ISA 701)",
+        "text": "Kľúčové záležitosti auditu (Key Audit Matters) sú podľa ISA 701 tie záležitosti, ktoré boli podľa odborného úsudku audítora najvýznamnejšie pri audite závierky bežného obdobia. Vyberajú sa z okruhu vecí komunikovaných osobám povereným správou a riadením, pričom audítor zohľadní najmä oblasti vyššieho rizika významnej nesprávnosti, významné úsudky pri odhadoch s vysokou neistotou a vplyv významných udalostí/transakcií. Pre každý KAM audítor opíše, prečo bola záležitosť kľúčová a ako sa ňou pri audite zaoberal, s odkazom na príslušné zverejnenie. KAM nie sú modifikáciou názoru ani náhradou zverejnení manažmentu – len zvyšujú informačnú a komunikačnú hodnotu správy. Uvedenie KAM je POVINNÉ pri audite kótovaných (listed) subjektov; pri ostatných ich audítor uvedie, ak sa tak rozhodne alebo ak to vyžaduje predpis. KAM sa neuvádzajú, ak audítor vyjadril záporný názor alebo odmietnutie."
+      },
+      {
+        "nadpis": "Porovnávacie informácie – zodpovedajúce údaje (ISA 710)",
+        "text": "ISA 710 rieši zodpovednosť audítora za porovnávacie informácie – sumy a zverejnenia za predchádzajúce obdobia uvedené v aktuálnej závierke. Rozlišuje dva prístupy. ZODPOVEDAJÚCE ÚDAJE (corresponding figures): porovnávacie údaje sú integrálnou súčasťou bežnej závierky, názor audítora sa vzťahuje LEN na bežné obdobie (toto je bežná prax v SR). AUDITOVANÁ ZÁVIERKA ZA VIAC OBDOBÍ (comparative financial statements): názor sa vyjadruje ku KAŽDÉMU prezentovanému obdobiu. Špecifiká: ak predchádzajúce obdobie auditoval iný audítor alebo nebolo auditované, uvedie sa to v odseku o inej skutočnosti (Other Matter). Ak audítor zistí možnú významnú nesprávnosť v porovnávacích údajoch (napr. neopravená chyba minulého roka), môže to viesť k modifikácii názoru."
+      },
+      {
+        "nadpis": "Komunikácia s manažmentom a osobami poverenými správou a riadením (ISA 260) a podvody (ISA 240)",
+        "text": "Správa nie je jediná komunikácia – ISA 260 ukladá audítorovi povinne a včas komunikovať s osobami poverenými správou a riadením (typicky výbor pre audit, dozorná rada, štatutárny orgán): plánovaný rozsah a načasovanie auditu, významné zistenia z auditu (vrátane ťažkostí, významných nedostatkov vnútornej kontroly, nezrovnalostí v účtovných politikách, neopravených nesprávností), a vyhlásenie o nezávislosti. Cieľom je obojstranná výmena informácií a podpora dohľadu nad procesom finančného výkazníctva. ISA 240 rieši zodpovednosť audítora vo vzťahu k PODVODOM: audítor zachováva profesionálny skepticizmus, rozlišuje podvodné finančné výkazníctvo (skresľovanie závierky) a spreneveru majetku, identifikuje a posudzuje riziká významnej nesprávnosti spôsobenej podvodom (vrátane predpokladaného rizika pri vykazovaní výnosov a obchádzaní kontrol manažmentom) a reaguje na ne. Zistené alebo predpokladané podvody komunikuje včas príslušnej úrovni manažmentu, resp. osobám povereným správou a riadením; pri podvode na úrovni manažmentu komunikuje vyššie a zvažuje aj prípadnú zákonnú oznamovaciu povinnosť. Podvod ovplyvňujúci závierku sa premietne aj do názoru/KAM."
+      },
+      {
+        "nadpis": "Osobitosti správy pre subjekty verejného záujmu (nariadenie 537/2014)",
+        "text": "Pre subjekty verejného záujmu (SVZ – napr. banky, poisťovne, kótované spoločnosti) pridáva nariadenie (EÚ) č. 537/2014 (čl. 10) k bežnej správe ďalšie povinné prvky. Správa SVZ musí navyše uviesť najmä: kto a kedy vymenoval audítora a celkové neprerušené obdobie zákazky; na podporu názoru OPIS najzávažnejších posúdených rizík významnej nesprávnosti (vrátane rizika z podvodu), zhrnutie reakcie audítora a kľúčové postrehy (de facto rozšírené KAM); vysvetlenie, do akej miery bol audit schopný odhaliť nezrovnalosti vrátane podvodu; POTVRDENIE, že názor je konzistentný s dodatočnou správou pre výbor pre audit; vyhlásenie, že neboli poskytnuté zakázané neaudítorské služby. Súčasne čl. 11 ukladá audítorovi predložiť výboru pre audit DODATOČNÚ (podrobnú) správu, a to najneskôr s odovzdaním správy audítora. Pre kótované SVZ je uvádzanie KAM (ISA 701) povinné."
+      },
+      {
+        "zaver": "Správa nezávislého audítora je štandardizovaný výstup, ktorého jadrom je názor. Pri rozhodovaní o type názoru pomôže dvojosá matica: charakter problému (nesprávnosť vs. nedostatok dôkazov) × všeobsiahlosť (ohraničené vs. všeobsiahle) → výhrada / záporný názor / odmietnutie. Odseky Emphasis a Other Matter názor nemenia – len upozorňujú (skutočnosť v závierke vs. mimo nej). KAM zvyšujú informačnú hodnotu, komunikácia s osobami poverenými správou a riadením (ISA 260) a posudzovanie podvodov (ISA 240) tvoria pozadie, a pre subjekty verejného záujmu platia prísnejšie pravidlá podľa nariadenia 537/2014."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Reforma správy audítora 2016 (revízia ISA 700)", "text": "Revízia ISA 700 a súvisiacich štandardov (účinná pre audity závierok za obdobia končiace od 15. 12. 2016) zásadne zmenila formát: názor (výrok) sa presunul na ZAČIATOK správy, pribudla samostatná sekcia 'Základ pre názor' aj pre nemodifikovaný názor, povinné uvádzanie KAM pre kótované subjekty (ISA 701), výslovné vyhlásenie o nezávislosti, samostatné posúdenie going concern a uvedenie mena kľúčového audítorského partnera. Cieľom bolo zvýšiť informačnú hodnotu a relevantnosť správy pre používateľov ('informative auditor's report')."},
-    {"nadpis": "Going concern v správe (ISA 570)", "text": "Hoci going concern primárne rieši ISA 570, premieta sa do správy: ak existuje významná neistota o nepretržitom pokračovaní, ktorá je v závierke primerane zverejnená, audítor uvedie samostatnú sekciu 'Významná neistota týkajúca sa nepretržitého pokračovania v činnosti' (názor zostáva nemodifikovaný, ale s upozornením). Ak zverejnenie nie je primerané, ide o významnú nesprávnosť → názor s výhradou alebo záporný. Ak je predpoklad going concern nevhodný a závierka je napriek tomu zostavená na jeho báze → záporný názor."},
-    {"nadpis": "Súvis s výročnou správou (ISA 720)", "text": "ISA 720 ukladá audítorovi posúdiť ostatné informácie (typicky výročnú správu) na významný nesúlad s auditovanou závierkou alebo poznatkami z auditu. V správe pribúda samostatná sekcia o ostatných informáciách. Ak audítor zistí neopravený významný nesúlad alebo nesprávnosť v ostatných informáciách, uvedie to v správe; samotný názor na závierku to spravidla nemení, ale je to dôležitá komunikačná zložka."},
-    {"nadpis": "Zákon č. 423/2015 a postavenie ISA v SR", "text": "Zákon č. 423/2015 Z. z. o štatutárnom audite upravuje výkon auditu v SR, postavenie štatutárnych audítorov, SKAU a dohľad UDVA. Audit sa vykonáva podľa medzinárodných audítorských štandardov (ISA) prijatých na použitie v SR. Zákon (v náväznosti na nariadenie 537/2014) rieši aj požiadavky na subjekty verejného záujmu, výbor pre audit, rotáciu audítora a zakázané neaudítorské služby. Pre formu a obsah samotnej správy sú však určujúce ISA."},
-    {"nadpis": "Vzťah KAM vs. Emphasis of Matter", "text": "KAM aj Emphasis of Matter môžu upozorňovať na dôležité veci, ale líšia sa. KAM (ISA 701) sa vyberajú z vecí komunikovaných osobám povereným správou a riadením, opisujú PROCES auditu (prečo kľúčové a ako sa audítor zaoberal), a sú povinné pre kótované subjekty. Emphasis of Matter (ISA 706) je výnimočný odsek upozorňujúci na jednu konkrétnu zverejnenú skutočnosť bez opisu audítorského postupu. Ak záležitosť spĺňa definíciu KAM, uvedie sa ako KAM, nie ako Emphasis of Matter."},
-    {"nadpis": "Adresát a podpis správy", "text": "Adresátom správy sú spravidla akcionári/spoločníci alebo osoby poverené správou a riadením podľa zadania zákazky a predpisov. Správu podpisuje štatutárny audítor (resp. v mene audítorskej spoločnosti zodpovedný audítorský partner), uvádza sa jeho meno, číslo licencie, adresa audítora a DÁTUM správy. Dátum správy nesmie predchádzať dňu, keď audítor získal dostatočné a vhodné dôkazy vrátane schválenia závierky príslušným orgánom – po tomto dni už audítor nemá povinnosť získavať ďalšie dôkazy (väzba na následné udalosti, ISA 560)."}
+    {
+      "nadpis": "Reforma správy audítora 2016 (revízia ISA 700)",
+      "text": "Revízia ISA 700 a súvisiacich štandardov (účinná pre audity závierok za obdobia končiace od 15. 12. 2016) zásadne zmenila formát: názor (výrok) sa presunul na ZAČIATOK správy, pribudla samostatná sekcia 'Základ pre názor' aj pre nemodifikovaný názor, povinné uvádzanie KAM pre kótované subjekty (ISA 701), výslovné vyhlásenie o nezávislosti, samostatné posúdenie going concern a uvedenie mena kľúčového audítorského partnera. Cieľom bolo zvýšiť informačnú hodnotu a relevantnosť správy pre používateľov ('informative auditor's report')."
+    },
+    {
+      "nadpis": "Going concern v správe (ISA 570)",
+      "text": "Hoci going concern primárne rieši ISA 570, premieta sa do správy: ak existuje významná neistota o nepretržitom pokračovaní, ktorá je v závierke primerane zverejnená, audítor uvedie samostatnú sekciu 'Významná neistota týkajúca sa nepretržitého pokračovania v činnosti' (názor zostáva nemodifikovaný, ale s upozornením). Ak zverejnenie nie je primerané, ide o významnú nesprávnosť → názor s výhradou alebo záporný. Ak je predpoklad going concern nevhodný a závierka je napriek tomu zostavená na jeho báze → záporný názor."
+    },
+    {
+      "nadpis": "Súvis s výročnou správou (ISA 720)",
+      "text": "ISA 720 ukladá audítorovi posúdiť ostatné informácie (typicky výročnú správu) na významný nesúlad s auditovanou závierkou alebo poznatkami z auditu. V správe pribúda samostatná sekcia o ostatných informáciách. Ak audítor zistí neopravený významný nesúlad alebo nesprávnosť v ostatných informáciách, uvedie to v správe; samotný názor na závierku to spravidla nemení, ale je to dôležitá komunikačná zložka."
+    },
+    {
+      "nadpis": "Zákon č. 423/2015 a postavenie ISA v SR",
+      "text": "Zákon č. 423/2015 Z. z. o štatutárnom audite upravuje výkon auditu v SR, postavenie štatutárnych audítorov, SKAU a dohľad UDVA. Audit sa vykonáva podľa medzinárodných audítorských štandardov (ISA) prijatých na použitie v SR. Zákon (v náväznosti na nariadenie 537/2014) rieši aj požiadavky na subjekty verejného záujmu, výbor pre audit, rotáciu audítora a zakázané neaudítorské služby. Pre formu a obsah samotnej správy sú však určujúce ISA."
+    },
+    {
+      "nadpis": "Vzťah KAM vs. Emphasis of Matter",
+      "text": "KAM aj Emphasis of Matter môžu upozorňovať na dôležité veci, ale líšia sa. KAM (ISA 701) sa vyberajú z vecí komunikovaných osobám povereným správou a riadením, opisujú PROCES auditu (prečo kľúčové a ako sa audítor zaoberal), a sú povinné pre kótované subjekty. Emphasis of Matter (ISA 706) je výnimočný odsek upozorňujúci na jednu konkrétnu zverejnenú skutočnosť bez opisu audítorského postupu. Ak záležitosť spĺňa definíciu KAM, uvedie sa ako KAM, nie ako Emphasis of Matter."
+    },
+    {
+      "nadpis": "Adresát a podpis správy",
+      "text": "Adresátom správy sú spravidla akcionári/spoločníci alebo osoby poverené správou a riadením podľa zadania zákazky a predpisov. Správu podpisuje štatutárny audítor (resp. v mene audítorskej spoločnosti zodpovedný audítorský partner), uvádza sa jeho meno, číslo licencie, adresa audítora a DÁTUM správy. Dátum správy nesmie predchádzať dňu, keď audítor získal dostatočné a vhodné dôkazy vrátane schválenia závierky príslušným orgánom – po tomto dni už audítor nemá povinnosť získavať ďalšie dôkazy (väzba na následné udalosti, ISA 560)."
+    }
   ],
   "priklady": [
-    {"nazov": "Výhrada pre materiálnu, ale nie všeobsiahlu nesprávnosť", "zadanie": "Spoločnosť nadhodnotila zásoby o 80 000 €, čo je materiálna suma, no týka sa iba jednej položky a neskresľuje závierku ako celok. Manažment opravu odmietol.", "riesenie": "Charakter = závierka je významne NESPRÁVNA. Všeobsiahlosť = dopad je materiálny, ale OHRANIČENÝ na zásoby (nepreniká celou závierkou). Prienik osí → NÁZOR S VÝHRADOU. V sekcii 'Základ pre názor s výhradou' audítor opíše nadhodnotenie zásob a kvantifikuje dopad (80 000 € na zásoby, na výsledok hospodárenia a vlastné imanie). Názor: 'Okrem vplyvu skutočnosti opísanej v základe pre názor s výhradou závierka poskytuje pravdivý a verný obraz...'", "dopad_na_zd": "Typ názoru: VÝHRADA (materiálne, nie všeobsiahle, charakter = nesprávnosť)."},
-    {"nazov": "Záporný názor pre všeobsiahlu nesprávnosť", "zadanie": "Dcérska spoločnosť, ktorá mala byť konsolidovaná, nebola zahrnutá do konsolidovanej závierky; jej nezahrnutie skresľuje väčšinu položiek konsolidovanej závierky.", "riesenie": "Charakter = nesprávnosť (chybné nezahrnutie). Všeobsiahlosť = dopad PRENIKÁ celou závierkou (skresľuje podstatnú časť položiek), čím robí závierku ako celok zavádzajúcou. Prienik → ZÁPORNÝ NÁZOR. Audítor uvedie: 'Podľa nášho názoru z dôvodu významnosti skutočnosti opísanej v základe pre záporný názor priložená konsolidovaná závierka NEPOSKYTUJE pravdivý a verný obraz...'", "dopad_na_zd": "Typ názoru: ZÁPORNÝ (materiálne A všeobsiahle, charakter = nesprávnosť)."},
-    {"nazov": "Odmietnutie pri všeobsiahlom obmedzení rozsahu", "zadanie": "Audítor bol vymenovaný neskoro a nemohol byť prítomný pri inventarizácii zásob; navyše nemal prístup ku kľúčovým účtovným záznamom o tržbách. Zásoby aj tržby tvoria podstatnú časť závierky.", "riesenie": "Charakter = NEDOSTATOK DÔKAZOV (obmedzenie rozsahu – audítor nevie posúdiť správnosť). Všeobsiahlosť = možný dopad je materiálny A všeobsiahly (zásoby aj tržby = podstatná časť závierky). Prienik → ODMIETNUTIE VYJADRENIA NÁZORU. Audítor uvedie, že NEVYJADRUJE názor a vysvetlí dôvod v 'Základe pre odmietnutie'. KAM sa neuvedú.", "dopad_na_zd": "Typ názoru: ODMIETNUTIE (materiálne A všeobsiahle, charakter = nedostatok dôkazov)."},
-    {"nazov": "Emphasis of Matter vs. Other Matter", "zadanie": "(a) Proti spoločnosti prebieha súdny spor s neistým výsledkom; spoločnosť ho správne a podrobne zverejnila v poznámke 18. (b) Závierku za predchádzajúci rok auditoval iný audítor a vyjadril nemodifikovaný názor.", "riesenie": "(a) Skutočnosť JE v závierke (poznámka 18) a je zásadná pre pochopenie → ODSEK SO ZDÔRAZNENÍM SKUTOČNOSTI (Emphasis of Matter); audítor odkáže na poznámku 18 a uvedie, že názor nie je modifikovaný. (b) Skutočnosť NIE JE v závierke, týka sa auditu/predchádzajúceho obdobia → ODSEK O INEJ SKUTOČNOSTI (Other Matter), naviazaný na ISA 710. Ani jeden názor nemodifikuje.", "dopad_na_zd": "(a) Emphasis of Matter (skutočnosť v závierke). (b) Other Matter (skutočnosť mimo závierky)."},
-    {"nazov": "Going concern – významná neistota správne zverejnená", "zadanie": "Spoločnosť vykazuje opakované straty a záporné vlastné imanie; v poznámkach primerane zverejnila významnú neistotu o nepretržitom pokračovaní vrátane plánov manažmentu.", "riesenie": "Predpoklad going concern je stále vhodný a neistota je v závierke primerane zverejnená. Audítor vyjadrí NEMODIFIKOVANÝ názor a doplní samostatnú sekciu 'Významná neistota týkajúca sa nepretržitého pokračovania v činnosti' s odkazom na poznámku. Ak by zverejnenie nebolo primerané, išlo by o významnú nesprávnosť → výhrada alebo záporný názor.", "dopad_na_zd": "Nemodifikovaný názor + sekcia o významnej neistote (going concern). Pri neprimeranom zverejnení: modifikácia."},
-    {"nazov": "Subjekt verejného záujmu – rozšírené prvky správy", "zadanie": "Audítor zostavuje správu pre kótovanú spoločnosť (SVZ). Aké prvky musí navyše uviesť oproti bežnej s.r.o.?", "riesenie": "Podľa nariadenia 537/2014 čl. 10 musí navyše uviesť: kto a kedy vymenoval audítora a dĺžku neprerušenej zákazky; opis najzávažnejších posúdených rizík významnej nesprávnosti (vrátane rizika z podvodu), reakciu audítora a kľúčové postrehy; mieru, v akej bol audit schopný odhaliť nezrovnalosti vrátane podvodu; potvrdenie konzistentnosti názoru s dodatočnou správou pre výbor pre audit (čl. 11); vyhlásenie o neposkytnutí zakázaných neaudítorských služieb. KAM podľa ISA 701 sú povinné.", "dopad_na_zd": "SVZ: bežná správa + rozšírené prvky podľa čl. 10 nariadenia 537/2014 + povinné KAM + dodatočná správa výboru pre audit (čl. 11)."}
+    {
+      "nazov": "Výhrada pre materiálnu, ale nie všeobsiahlu nesprávnosť",
+      "zadanie": "Spoločnosť nadhodnotila zásoby o 80 000 €, čo je materiálna suma, no týka sa iba jednej položky a neskresľuje závierku ako celok. Manažment opravu odmietol.",
+      "riesenie": "Charakter = závierka je významne NESPRÁVNA. Všeobsiahlosť = dopad je materiálny, ale OHRANIČENÝ na zásoby (nepreniká celou závierkou). Prienik osí → NÁZOR S VÝHRADOU. V sekcii 'Základ pre názor s výhradou' audítor opíše nadhodnotenie zásob a kvantifikuje dopad (80 000 € na zásoby, na výsledok hospodárenia a vlastné imanie). Názor: 'Okrem vplyvu skutočnosti opísanej v základe pre názor s výhradou závierka poskytuje pravdivý a verný obraz...'",
+      "dopad_na_zd": "Typ názoru: VÝHRADA (materiálne, nie všeobsiahle, charakter = nesprávnosť)."
+    },
+    {
+      "nazov": "Záporný názor pre všeobsiahlu nesprávnosť",
+      "zadanie": "Dcérska spoločnosť, ktorá mala byť konsolidovaná, nebola zahrnutá do konsolidovanej závierky; jej nezahrnutie skresľuje väčšinu položiek konsolidovanej závierky.",
+      "riesenie": "Charakter = nesprávnosť (chybné nezahrnutie). Všeobsiahlosť = dopad PRENIKÁ celou závierkou (skresľuje podstatnú časť položiek), čím robí závierku ako celok zavádzajúcou. Prienik → ZÁPORNÝ NÁZOR. Audítor uvedie: 'Podľa nášho názoru z dôvodu významnosti skutočnosti opísanej v základe pre záporný názor priložená konsolidovaná závierka NEPOSKYTUJE pravdivý a verný obraz...'",
+      "dopad_na_zd": "Typ názoru: ZÁPORNÝ (materiálne A všeobsiahle, charakter = nesprávnosť)."
+    },
+    {
+      "nazov": "Odmietnutie pri všeobsiahlom obmedzení rozsahu",
+      "zadanie": "Audítor bol vymenovaný neskoro a nemohol byť prítomný pri inventarizácii zásob; navyše nemal prístup ku kľúčovým účtovným záznamom o tržbách. Zásoby aj tržby tvoria podstatnú časť závierky.",
+      "riesenie": "Charakter = NEDOSTATOK DÔKAZOV (obmedzenie rozsahu – audítor nevie posúdiť správnosť). Všeobsiahlosť = možný dopad je materiálny A všeobsiahly (zásoby aj tržby = podstatná časť závierky). Prienik → ODMIETNUTIE VYJADRENIA NÁZORU. Audítor uvedie, že NEVYJADRUJE názor a vysvetlí dôvod v 'Základe pre odmietnutie'. KAM sa neuvedú.",
+      "dopad_na_zd": "Typ názoru: ODMIETNUTIE (materiálne A všeobsiahle, charakter = nedostatok dôkazov)."
+    },
+    {
+      "nazov": "Emphasis of Matter vs. Other Matter",
+      "zadanie": "(a) Proti spoločnosti prebieha súdny spor s neistým výsledkom; spoločnosť ho správne a podrobne zverejnila v poznámke 18. (b) Závierku za predchádzajúci rok auditoval iný audítor a vyjadril nemodifikovaný názor.",
+      "riesenie": "(a) Skutočnosť JE v závierke (poznámka 18) a je zásadná pre pochopenie → ODSEK SO ZDÔRAZNENÍM SKUTOČNOSTI (Emphasis of Matter); audítor odkáže na poznámku 18 a uvedie, že názor nie je modifikovaný. (b) Skutočnosť NIE JE v závierke, týka sa auditu/predchádzajúceho obdobia → ODSEK O INEJ SKUTOČNOSTI (Other Matter), naviazaný na ISA 710. Ani jeden názor nemodifikuje.",
+      "dopad_na_zd": "(a) Emphasis of Matter (skutočnosť v závierke). (b) Other Matter (skutočnosť mimo závierky)."
+    },
+    {
+      "nazov": "Going concern – významná neistota správne zverejnená",
+      "zadanie": "Spoločnosť vykazuje opakované straty a záporné vlastné imanie; v poznámkach primerane zverejnila významnú neistotu o nepretržitom pokračovaní vrátane plánov manažmentu.",
+      "riesenie": "Predpoklad going concern je stále vhodný a neistota je v závierke primerane zverejnená. Audítor vyjadrí NEMODIFIKOVANÝ názor a doplní samostatnú sekciu 'Významná neistota týkajúca sa nepretržitého pokračovania v činnosti' s odkazom na poznámku. Ak by zverejnenie nebolo primerané, išlo by o významnú nesprávnosť → výhrada alebo záporný názor.",
+      "dopad_na_zd": "Nemodifikovaný názor + sekcia o významnej neistote (going concern). Pri neprimeranom zverejnení: modifikácia."
+    },
+    {
+      "nazov": "Subjekt verejného záujmu – rozšírené prvky správy",
+      "zadanie": "Audítor zostavuje správu pre kótovanú spoločnosť (SVZ). Aké prvky musí navyše uviesť oproti bežnej s.r.o.?",
+      "riesenie": "Podľa nariadenia 537/2014 čl. 10 musí navyše uviesť: kto a kedy vymenoval audítora a dĺžku neprerušenej zákazky; opis najzávažnejších posúdených rizík významnej nesprávnosti (vrátane rizika z podvodu), reakciu audítora a kľúčové postrehy; mieru, v akej bol audit schopný odhaliť nezrovnalosti vrátane podvodu; potvrdenie konzistentnosti názoru s dodatočnou správou pre výbor pre audit (čl. 11); vyhlásenie o neposkytnutí zakázaných neaudítorských služieb. KAM podľa ISA 701 sú povinné.",
+      "dopad_na_zd": "SVZ: bežná správa + rozšírené prvky podľa čl. 10 nariadenia 537/2014 + povinné KAM + dodatočná správa výboru pre audit (čl. 11)."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/ING_II_05_matica_nazoru.svg", "typ": "schéma", "popis": "Rozhodovacia matica typu názoru: charakter problému (významná nesprávnosť vs. nedostatok dôkazov / obmedzenie rozsahu) × všeobsiahlosť (materiálne ohraničené vs. materiálne a všeobsiahle) → výhrada / záporný názor / odmietnutie vyjadrenia názoru."},
-    {"subor": "03_Vizualy/ING_II_05_struktura_spravy.svg", "typ": "schéma", "popis": "Štruktúra správy nezávislého audítora podľa ISA 700 (po revízii 2016): názov a adresát → Názor → Základ pre názor → going concern → KAM → zodpovednosti → meno, podpis, dátum; s odbočkami na Emphasis/Other Matter a rozšírenie pre SVZ."}
+    {
+      "subor": "03_Vizualy/ING_II_05_matica_nazoru.svg",
+      "typ": "schéma",
+      "popis": "Rozhodovacia matica typu názoru: charakter problému (významná nesprávnosť vs. nedostatok dôkazov / obmedzenie rozsahu) × všeobsiahlosť (materiálne ohraničené vs. materiálne a všeobsiahle) → výhrada / záporný názor / odmietnutie vyjadrenia názoru."
+    },
+    {
+      "subor": "03_Vizualy/ING_II_05_struktura_spravy.svg",
+      "typ": "schéma",
+      "popis": "Štruktúra správy nezávislého audítora podľa ISA 700 (po revízii 2016): názov a adresát → Názor → Základ pre názor → going concern → KAM → zodpovednosti → meno, podpis, dátum; s odbočkami na Emphasis/Other Matter a rozšírenie pre SVZ."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Aký je rozdiel medzi názorom s výhradou, záporným názorom a odmietnutím vyjadrenia názoru?", "odpoved": "Výhrada – materiálny problém, ktorý NIE je všeobsiahly (závierka inak v poriadku). Záporný názor – nesprávnosť je materiálna A všeobsiahla (závierka ako celok zavádzajúca). Odmietnutie – audítor nezískal dostatočné dôkazy a možný dopad je materiálny A všeobsiahly (nevie závierku posúdiť). Výhrada môže vzniknúť z oboch charakterov; záporný len z nesprávnosti, odmietnutie len z nedostatku dôkazov."},
-    {"otazka": "Aký je rozdiel medzi odsekom so zdôraznením skutočnosti a odsekom o inej skutočnosti?", "odpoved": "Emphasis of Matter sa týka skutočnosti, ktorá JE prezentovaná/zverejnená v závierke a je zásadná pre jej pochopenie. Other Matter sa týka skutočnosti, ktorá NIE JE v závierke, ale je relevantná pre pochopenie auditu, zodpovednosti audítora alebo správy. Praktický test: ak skutočnosť nájdeš v poznámke → Emphasis; ak v závierke nie je → Other Matter. Ani jeden názor nemodifikuje."},
-    {"otazka": "Čo sú kľúčové záležitosti auditu (KAM) a pre koho sú povinné?", "odpoved": "KAM (ISA 701) sú záležitosti, ktoré boli podľa úsudku audítora najvýznamnejšie pri audite bežného obdobia; vyberajú sa z vecí komunikovaných osobám povereným správou a riadením. Pre každú audítor opíše, prečo bola kľúčová a ako sa ňou zaoberal. Sú povinné pre kótované subjekty; pri ostatných dobrovoľne alebo ak to vyžaduje predpis. Nie sú modifikáciou názoru."},
-    {"otazka": "Kde sa v správe nachádza názor a prečo?", "odpoved": "Po revízii ISA 700 (2016) je názor (výrok) PRVÝM vecným blokom správy, hneď za názvom a adresátom, nasledovaný sekciou Základ pre názor. Cieľom reformy bolo dať najdôležitejšiu informáciu na začiatok a zvýšiť informačnú hodnotu správy pre používateľov."},
-    {"otazka": "Ako súvisia ISA 260 a ISA 240 so správou audítora?", "odpoved": "ISA 260 ukladá priebežne komunikovať s osobami poverenými správou a riadením (rozsah a načasovanie auditu, významné zistenia, nezávislosť). ISA 240 rieši posudzovanie podvodov – audítor identifikuje a reaguje na riziká významnej nesprávnosti z podvodu a zistené/predpokladané podvody komunikuje. Obe sú pozadím názoru – významné zistenia a podvody sa môžu premietnuť do názoru, KAM aj (pri SVZ) do opisu posúdených rizík."},
-    {"otazka": "Čo sú zodpovedajúce údaje podľa ISA 710?", "odpoved": "Zodpovedajúce údaje (corresponding figures) sú porovnávacie sumy a zverejnenia za predchádzajúce obdobia, ktoré sú integrálnou súčasťou bežnej závierky. Názor audítora sa pri nich vzťahuje LEN na bežné obdobie. Pri prístupe 'auditovaná závierka za viac období' sa naopak názor vyjadruje ku každému prezentovanému obdobiu."},
-    {"otazka": "Čo musí navyše obsahovať správa pre subjekt verejného záujmu?", "odpoved": "Podľa nariadenia 537/2014 čl. 10 napr.: kto/kedy vymenoval audítora a dĺžku zákazky; opis najzávažnejších posúdených rizík významnej nesprávnosti vrátane rizika z podvodu a reakciu audítora; mieru schopnosti odhaliť nezrovnalosti; potvrdenie konzistentnosti s dodatočnou správou pre výbor pre audit; vyhlásenie o neposkytnutí zakázaných neaudítorských služieb. KAM sú povinné."}
+    {
+      "otazka": "Aký je rozdiel medzi názorom s výhradou, záporným názorom a odmietnutím vyjadrenia názoru?",
+      "odpoved": "Výhrada – materiálny problém, ktorý NIE je všeobsiahly (závierka inak v poriadku). Záporný názor – nesprávnosť je materiálna A všeobsiahla (závierka ako celok zavádzajúca). Odmietnutie – audítor nezískal dostatočné dôkazy a možný dopad je materiálny A všeobsiahly (nevie závierku posúdiť). Výhrada môže vzniknúť z oboch charakterov; záporný len z nesprávnosti, odmietnutie len z nedostatku dôkazov.",
+      "moznosti": [
+        "Výhrada – nesprávnosť všeobsiahla; záporný – materiálny nedostatok dôkazov; odmietnutie – materiálna nesprávnosť ohraničená na časť závierky",
+        "Výhrada – materiálny problém, ktorý nie je všeobsiahly; záporný – nesprávnosť materiálna a všeobsiahla; odmietnutie – nedostatok dôkazov materiálny a všeobsiahly",
+        "Výhrada – nedostatok dôkazov všeobsiahly; záporný – primerane zverejnená neistota; odmietnutie – materiálna nesprávnosť, ktorá nie je všeobsiahla",
+        "Všetky tri vznikajú len z nedostatku dôkazov a líšia sa výlučne stupňom všeobsiahlosti dopadu"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Výhrada – materiálny problém, ktorý NIE je všeobsiahly (závierka inak v poriadku). Záporný názor – nesprávnosť je materiálna A všeobsiahla (závierka ako celok zavádzajúca). Odmietnutie – audítor nezískal dostatočné dôkazy a možný dopad je materiálny A všeobsiahly (nevie závierku posúdiť). Výhrada môže vzniknúť z oboch charakterov; záporný len z nesprávnosti, odmietnutie len z nedostatku dôkazov."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi odsekom so zdôraznením skutočnosti a odsekom o inej skutočnosti?",
+      "odpoved": "Emphasis of Matter sa týka skutočnosti, ktorá JE prezentovaná/zverejnená v závierke a je zásadná pre jej pochopenie. Other Matter sa týka skutočnosti, ktorá NIE JE v závierke, ale je relevantná pre pochopenie auditu, zodpovednosti audítora alebo správy. Praktický test: ak skutočnosť nájdeš v poznámke → Emphasis; ak v závierke nie je → Other Matter. Ani jeden názor nemodifikuje.",
+      "moznosti": [
+        "Emphasis of Matter sa týka skutočnosti mimo závierky a Other Matter skutočnosti zverejnenej v poznámke; oba modifikujú názor",
+        "Emphasis of Matter aj Other Matter sa týkajú výlučne skutočností zverejnených v závierke a líšia sa len umiestnením v správe",
+        "Emphasis of Matter sa týka skutočnosti, ktorá JE zverejnená v závierke a je zásadná; Other Matter skutočnosti, ktorá NIE JE v závierke, ale je relevantná pre audit/správu; ani jeden názor nemodifikuje",
+        "Emphasis of Matter je povinná súčasť modifikovaného výroku, Other Matter je dobrovoľný odsek pri nemodifikovanom výroku"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Emphasis of Matter sa týka skutočnosti, ktorá JE prezentovaná/zverejnená v závierke a je zásadná pre jej pochopenie. Other Matter sa týka skutočnosti, ktorá NIE JE v závierke, ale je relevantná pre pochopenie auditu, zodpovednosti audítora alebo správy. Praktický test: ak skutočnosť nájdeš v poznámke → Emphasis; ak v závierke nie je → Other Matter. Ani jeden názor nemodifikuje."
+    },
+    {
+      "otazka": "Čo sú kľúčové záležitosti auditu (KAM) a pre koho sú povinné?",
+      "odpoved": "KAM (ISA 701) sú záležitosti, ktoré boli podľa úsudku audítora najvýznamnejšie pri audite bežného obdobia; vyberajú sa z vecí komunikovaných osobám povereným správou a riadením. Pre každú audítor opíše, prečo bola kľúčová a ako sa ňou zaoberal. Sú povinné pre kótované subjekty; pri ostatných dobrovoľne alebo ak to vyžaduje predpis. Nie sú modifikáciou názoru.",
+      "moznosti": [
+        "Sú to záležitosti najväčšieho významu pri audite bežného obdobia vybrané z vecí komunikovaných osobám povereným správou a riadením; povinné pre kótované subjekty, nie sú modifikáciou názoru",
+        "Sú to zistené nesprávnosti, ktoré viedli k modifikácii výroku; povinné pre všetky auditované subjekty bez výnimky",
+        "Sú to odseky upozorňujúce na skutočnosti mimo závierky relevantné pre používateľov; povinné len pre subjekty v konkurze",
+        "Sú to záležitosti komunikované manažmentu po dátume správy; dobrovoľné a uvádzajú sa len pri zápornom výroku"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "KAM (ISA 701) sú záležitosti, ktoré boli podľa úsudku audítora najvýznamnejšie pri audite bežného obdobia; vyberajú sa z vecí komunikovaných osobám povereným správou a riadením. Pre každú audítor opíše, prečo bola kľúčová a ako sa ňou zaoberal. Sú povinné pre kótované subjekty; pri ostatných dobrovoľne alebo ak to vyžaduje predpis. Nie sú modifikáciou názoru."
+    },
+    {
+      "otazka": "Kde sa v správe nachádza názor a prečo?",
+      "odpoved": "Po revízii ISA 700 (2016) je názor (výrok) PRVÝM vecným blokom správy, hneď za názvom a adresátom, nasledovaný sekciou Základ pre názor. Cieľom reformy bolo dať najdôležitejšiu informáciu na začiatok a zvýšiť informačnú hodnotu správy pre používateľov.",
+      "moznosti": [
+        "V prílohe správy, aby neodvádzal pozornosť od opisu zodpovedností manažmentu a audítora",
+        "V sekcii zodpovednosti audítora za audit, hneď po opise vykonaných postupov",
+        "Na konci správy ako záver, ktorý zhŕňa všetky predchádzajúce sekcie a zistenia",
+        "Ako prvý vecný blok hneď za názvom a adresátom (po revízii ISA 700 z r. 2016), nasledovaný sekciou Základ pre názor"
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Po revízii ISA 700 (2016) je názor (výrok) PRVÝM vecným blokom správy, hneď za názvom a adresátom, nasledovaný sekciou Základ pre názor. Cieľom reformy bolo dať najdôležitejšiu informáciu na začiatok a zvýšiť informačnú hodnotu správy pre používateľov."
+    },
+    {
+      "otazka": "Ako súvisia ISA 260 a ISA 240 so správou audítora?",
+      "odpoved": "ISA 260 ukladá priebežne komunikovať s osobami poverenými správou a riadením (rozsah a načasovanie auditu, významné zistenia, nezávislosť). ISA 240 rieši posudzovanie podvodov – audítor identifikuje a reaguje na riziká významnej nesprávnosti z podvodu a zistené/predpokladané podvody komunikuje. Obe sú pozadím názoru – významné zistenia a podvody sa môžu premietnuť do názoru, KAM aj (pri SVZ) do opisu posúdených rizík.",
+      "moznosti": [
+        "ISA 260 ukladá priebežne komunikovať s osobami poverenými správou a riadením; ISA 240 rieši posudzovanie podvodov; obe sú pozadím názoru a môžu sa premietnuť do výroku, KAM aj opisu rizík",
+        "ISA 260 rieši posudzovanie podvodov a ISA 240 komunikáciu s manažmentom; obe nahrádzajú samotný výrok audítora",
+        "ISA 260 aj ISA 240 sa týkajú výlučne subjektov verejného záujmu a na obsah správy bežnej spoločnosti nemajú vplyv",
+        "ISA 260 upravuje formu správy audítora a ISA 240 dátum jej podpisu; so samotným názorom nesúvisia"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "ISA 260 ukladá priebežne komunikovať s osobami poverenými správou a riadením (rozsah a načasovanie auditu, významné zistenia, nezávislosť). ISA 240 rieši posudzovanie podvodov – audítor identifikuje a reaguje na riziká významnej nesprávnosti z podvodu a zistené/predpokladané podvody komunikuje. Obe sú pozadím názoru – významné zistenia a podvody sa môžu premietnuť do názoru, KAM aj (pri SVZ) do opisu posúdených rizík."
+    },
+    {
+      "otazka": "Čo sú zodpovedajúce údaje podľa ISA 710?",
+      "odpoved": "Zodpovedajúce údaje (corresponding figures) sú porovnávacie sumy a zverejnenia za predchádzajúce obdobia, ktoré sú integrálnou súčasťou bežnej závierky. Názor audítora sa pri nich vzťahuje LEN na bežné obdobie. Pri prístupe 'auditovaná závierka za viac období' sa naopak názor vyjadruje ku každému prezentovanému obdobiu.",
+      "moznosti": [
+        "Sú to porovnávacie údaje, ku ktorým sa názor audítora vyjadruje samostatne za každé prezentované obdobie",
+        "Sú to porovnávacie sumy a zverejnenia za predchádzajúce obdobia, integrálna súčasť bežnej závierky; názor audítora sa pri nich vzťahuje len na bežné obdobie",
+        "Sú to údaje za predchádzajúce obdobie auditované iným audítorom, ku ktorým sa bežný audítor nevyjadruje vôbec",
+        "Sú to prognózované hodnoty budúcich období uvádzané v závierke, ku ktorým audítor vyjadruje samostatný výrok"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Zodpovedajúce údaje (corresponding figures) sú porovnávacie sumy a zverejnenia za predchádzajúce obdobia, ktoré sú integrálnou súčasťou bežnej závierky. Názor audítora sa pri nich vzťahuje LEN na bežné obdobie. Pri prístupe 'auditovaná závierka za viac období' sa naopak názor vyjadruje ku každému prezentovanému obdobiu."
+    },
+    {
+      "otazka": "Čo musí navyše obsahovať správa pre subjekt verejného záujmu?",
+      "odpoved": "Podľa nariadenia 537/2014 čl. 10 napr.: kto/kedy vymenoval audítora a dĺžku zákazky; opis najzávažnejších posúdených rizík významnej nesprávnosti vrátane rizika z podvodu a reakciu audítora; mieru schopnosti odhaliť nezrovnalosti; potvrdenie konzistentnosti s dodatočnou správou pre výbor pre audit; vyhlásenie o neposkytnutí zakázaných neaudítorských služieb. KAM sú povinné.",
+      "moznosti": [
+        "Len bežné prvky správy podľa ISA 700; nariadenie 537/2014 sa na obsah samotnej správy nevzťahuje",
+        "Iba povinné KAM podľa ISA 701; ostatné prvky sú zhodné so správou bežnej s.r.o.",
+        "Vyhlásenie o nezávislosti a meno kľúčového partnera, ktoré sa pri bežných subjektoch v správe neuvádzajú",
+        "Podľa nariadenia 537/2014 čl. 10 napr. kto/kedy vymenoval audítora a dĺžku zákazky, opis najzávažnejších posúdených rizík vrátane podvodu, potvrdenie konzistentnosti s dodatočnou správou výboru pre audit a vyhlásenie o zakázaných službách; KAM sú povinné"
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Podľa nariadenia 537/2014 čl. 10 napr.: kto/kedy vymenoval audítora a dĺžku zákazky; opis najzávažnejších posúdených rizík významnej nesprávnosti vrátane rizika z podvodu a reakciu audítora; mieru schopnosti odhaliť nezrovnalosti; potvrdenie konzistentnosti s dodatočnou správou pre výbor pre audit; vyhlásenie o neposkytnutí zakázaných neaudítorských služieb. KAM sú povinné."
+    }
   ],
   "pasce_caste_chyby": [
     "Zamieňať záporný názor a odmietnutie: záporný = audítor VIE, že je závierka zle (nesprávnosť); odmietnutie = audítor NEVIE posúdiť (nedostatok dôkazov).",
@@ -87,32 +273,144 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Audítor zistil materiálnu nesprávnosť, ktorá je obmedzená na jednu položku a neskresľuje závierku ako celok. Aký názor vyjadrí?", "moznosti": ["nemodifikovaný názor", "názor s výhradou", "záporný názor", "odmietnutie vyjadrenia názoru"], "spravna_index": 1, "vysvetlenie": "ISA 705 – nesprávnosť materiálna, ale NIE všeobsiahla → názor s výhradou."},
-      {"otazka": "Audítor nezískal dostatočné a vhodné dôkazy a možné dopady sú materiálne A súčasne všeobsiahle. Aký bude názor?", "moznosti": ["názor s výhradou", "záporný názor", "odmietnutie vyjadrenia názoru", "nemodifikovaný názor s odsekom Emphasis of Matter"], "spravna_index": 2, "vysvetlenie": "ISA 705 – nedostatok dôkazov + materiálne a všeobsiahle → odmietnutie vyjadrenia názoru. Záporný názor je len pri NESPRÁVNOSTI, nie pri nedostatku dôkazov."},
-      {"otazka": "Skutočnosť je správne zverejnená v poznámke závierky a je zásadná pre jej pochopenie. Audítor na ňu chce upozorniť bez modifikácie názoru. Použije:", "moznosti": ["odsek o inej skutočnosti (Other Matter)", "odsek so zdôraznením skutočnosti (Emphasis of Matter)", "názor s výhradou", "kľúčovú záležitosť auditu povinne"], "spravna_index": 1, "vysvetlenie": "ISA 706 – skutočnosť JE v závierke a je zásadná → Emphasis of Matter. Other Matter sa týka skutočnosti MIMO závierky."},
-      {"otazka": "Pre ktoré subjekty je uvádzanie kľúčových záležitostí auditu (KAM) podľa ISA 701 povinné?", "moznosti": ["pre všetky auditované subjekty", "pre kótované (listed) subjekty", "len pre subjekty v konkurze", "len pre neziskové organizácie"], "spravna_index": 1, "vysvetlenie": "ISA 701 sa povinne aplikuje pri audite kótovaných subjektov; pri ostatných dobrovoľne alebo ak to vyžaduje predpis/zákazka."},
-      {"otazka": "Podľa ISA 710 pri prístupe 'zodpovedajúce údaje' (corresponding figures) sa názor audítora vzťahuje:", "moznosti": ["na každé prezentované obdobie samostatne", "len na bežné obdobie", "len na predchádzajúce obdobie", "na priemer oboch období"], "spravna_index": 1, "vysvetlenie": "Pri zodpovedajúcich údajoch sa názor vzťahuje len na bežné obdobie; porovnávacie údaje sú jeho integrálnou súčasťou."},
-      {"otazka": "Kde sa po revízii ISA 700 (2016) v správe nachádza názor (výrok) audítora?", "moznosti": ["na konci správy", "ako prvý vecný blok hneď za názvom a adresátom", "v prílohe", "v sekcii zodpovednosti audítora"], "spravna_index": 1, "vysvetlenie": "Reforma presunula názor na začiatok správy, nasledovaný sekciou Základ pre názor."}
+      {
+        "otazka": "Audítor zistil materiálnu nesprávnosť, ktorá je obmedzená na jednu položku a neskresľuje závierku ako celok. Aký názor vyjadrí?",
+        "moznosti": [
+          "nemodifikovaný názor",
+          "názor s výhradou",
+          "záporný názor",
+          "odmietnutie vyjadrenia názoru"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "ISA 705 – nesprávnosť materiálna, ale NIE všeobsiahla → názor s výhradou."
+      },
+      {
+        "otazka": "Audítor nezískal dostatočné a vhodné dôkazy a možné dopady sú materiálne A súčasne všeobsiahle. Aký bude názor?",
+        "moznosti": [
+          "názor s výhradou",
+          "záporný názor",
+          "odmietnutie vyjadrenia názoru",
+          "nemodifikovaný názor s odsekom Emphasis of Matter"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "ISA 705 – nedostatok dôkazov + materiálne a všeobsiahle → odmietnutie vyjadrenia názoru. Záporný názor je len pri NESPRÁVNOSTI, nie pri nedostatku dôkazov."
+      },
+      {
+        "otazka": "Skutočnosť je správne zverejnená v poznámke závierky a je zásadná pre jej pochopenie. Audítor na ňu chce upozorniť bez modifikácie názoru. Použije:",
+        "moznosti": [
+          "odsek o inej skutočnosti (Other Matter)",
+          "odsek so zdôraznením skutočnosti (Emphasis of Matter)",
+          "názor s výhradou",
+          "kľúčovú záležitosť auditu povinne"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "ISA 706 – skutočnosť JE v závierke a je zásadná → Emphasis of Matter. Other Matter sa týka skutočnosti MIMO závierky."
+      },
+      {
+        "otazka": "Pre ktoré subjekty je uvádzanie kľúčových záležitostí auditu (KAM) podľa ISA 701 povinné?",
+        "moznosti": [
+          "pre všetky auditované subjekty",
+          "pre kótované (listed) subjekty",
+          "len pre subjekty v konkurze",
+          "len pre neziskové organizácie"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "ISA 701 sa povinne aplikuje pri audite kótovaných subjektov; pri ostatných dobrovoľne alebo ak to vyžaduje predpis/zákazka."
+      },
+      {
+        "otazka": "Podľa ISA 710 pri prístupe 'zodpovedajúce údaje' (corresponding figures) sa názor audítora vzťahuje:",
+        "moznosti": [
+          "na každé prezentované obdobie samostatne",
+          "len na bežné obdobie",
+          "len na predchádzajúce obdobie",
+          "na priemer oboch období"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Pri zodpovedajúcich údajoch sa názor vzťahuje len na bežné obdobie; porovnávacie údaje sú jeho integrálnou súčasťou."
+      },
+      {
+        "otazka": "Kde sa po revízii ISA 700 (2016) v správe nachádza názor (výrok) audítora?",
+        "moznosti": [
+          "na konci správy",
+          "ako prvý vecný blok hneď za názvom a adresátom",
+          "v prílohe",
+          "v sekcii zodpovednosti audítora"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Reforma presunula názor na začiatok správy, nasledovaný sekciou Základ pre názor."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite dvojosú logiku rozhodovania o type modifikovaného názoru podľa ISA 705.", "vzorova_odpoved": "Os 1 – charakter problému: buď je závierka významne NESPRÁVNA (audítor má dôkaz o chybe), alebo audítor NEZÍSKAL dostatočné a vhodné dôkazy (obmedzenie rozsahu). Os 2 – všeobsiahlosť dopadu: materiálne ohraničené vs. materiálne a všeobsiahle (preniká závierkou, podstatná časť, zásadné zverejnenia). Prienik: nesprávnosť ohraničená → výhrada; nesprávnosť všeobsiahla → záporný názor; nedostatok dôkazov ohraničený → výhrada; nedostatok dôkazov všeobsiahly → odmietnutie."},
-      {"otazka": "Aký je rozdiel medzi odsekom so zdôraznením skutočnosti a odsekom o inej skutočnosti podľa ISA 706? Uveďte príklad každého.", "vzorova_odpoved": "Emphasis of Matter sa týka skutočnosti, ktorá JE prezentovaná/zverejnená v závierke a je zásadná pre jej pochopenie (napr. významná neistota zo súdneho sporu zverejnená v poznámke). Other Matter sa týka skutočnosti, ktorá NIE JE v závierke, ale je relevantná pre pochopenie auditu/správy (napr. predchádzajúce obdobie auditoval iný audítor – ISA 710). Test: ak skutočnosť nájdeš v poznámke → Emphasis; ak nie je v závierke → Other Matter. Ani jeden názor nemodifikuje."},
-      {"otazka": "Opíšte štruktúru správy nezávislého audítora podľa ISA 700 po revízii 2016.", "vzorova_odpoved": "Názov (Správa nezávislého audítora) a adresát; Názor (výrok) ako prvý vecný blok; Základ pre názor (vrátane nezávislosti a etiky); prípadná Významná neistota o nepretržitom pokračovaní (going concern); Kľúčové záležitosti auditu (povinné pre kótované); zodpovednosti štatutárneho orgánu/manažmentu a osôb poverených správou a riadením; zodpovednosť audítora; ďalšie požiadavky na podávanie správ (napr. k výročnej správe – ISA 720); meno kľúčového audítorského partnera, podpis, adresa a dátum správy."}
+      {
+        "otazka": "Vysvetlite dvojosú logiku rozhodovania o type modifikovaného názoru podľa ISA 705.",
+        "vzorova_odpoved": "Os 1 – charakter problému: buď je závierka významne NESPRÁVNA (audítor má dôkaz o chybe), alebo audítor NEZÍSKAL dostatočné a vhodné dôkazy (obmedzenie rozsahu). Os 2 – všeobsiahlosť dopadu: materiálne ohraničené vs. materiálne a všeobsiahle (preniká závierkou, podstatná časť, zásadné zverejnenia). Prienik: nesprávnosť ohraničená → výhrada; nesprávnosť všeobsiahla → záporný názor; nedostatok dôkazov ohraničený → výhrada; nedostatok dôkazov všeobsiahly → odmietnutie."
+      },
+      {
+        "otazka": "Aký je rozdiel medzi odsekom so zdôraznením skutočnosti a odsekom o inej skutočnosti podľa ISA 706? Uveďte príklad každého.",
+        "vzorova_odpoved": "Emphasis of Matter sa týka skutočnosti, ktorá JE prezentovaná/zverejnená v závierke a je zásadná pre jej pochopenie (napr. významná neistota zo súdneho sporu zverejnená v poznámke). Other Matter sa týka skutočnosti, ktorá NIE JE v závierke, ale je relevantná pre pochopenie auditu/správy (napr. predchádzajúce obdobie auditoval iný audítor – ISA 710). Test: ak skutočnosť nájdeš v poznámke → Emphasis; ak nie je v závierke → Other Matter. Ani jeden názor nemodifikuje."
+      },
+      {
+        "otazka": "Opíšte štruktúru správy nezávislého audítora podľa ISA 700 po revízii 2016.",
+        "vzorova_odpoved": "Názov (Správa nezávislého audítora) a adresát; Názor (výrok) ako prvý vecný blok; Základ pre názor (vrátane nezávislosti a etiky); prípadná Významná neistota o nepretržitom pokračovaní (going concern); Kľúčové záležitosti auditu (povinné pre kótované); zodpovednosti štatutárneho orgánu/manažmentu a osôb poverených správou a riadením; zodpovednosť audítora; ďalšie požiadavky na podávanie správ (napr. k výročnej správe – ISA 720); meno kľúčového audítorského partnera, podpis, adresa a dátum správy."
+      }
     ],
     "priklad": [
-      {"zadanie": "Určte typ názoru a prípadné doplňujúce odseky pre tieto situácie: (a) materiálne, ale nie všeobsiahle nezahrnutie odpisov; manažment opravu odmietol; (b) audítor nemohol overiť zásoby ani pohľadávky tvoriace podstatnú časť závierky; (c) závierka inak správna, ale prebieha zásadný súdny spor podrobne zverejnený v poznámke; (d) kótovaný subjekt s nemodifikovaným názorom – čo navyše musí správa obsahovať?", "riesenie": "(a) Nesprávnosť materiálna, NIE všeobsiahla → NÁZOR S VÝHRADOU; v 'Základe pre názor s výhradou' opíše a kvantifikuje nezaúčtované odpisy. (b) Nedostatok dôkazov, materiálny A všeobsiahly → ODMIETNUTIE VYJADRENIA NÁZORU; KAM sa neuvedú. (c) Nemodifikovaný názor + ODSEK SO ZDÔRAZNENÍM SKUTOČNOSTI (Emphasis of Matter) s odkazom na poznámku a uvedením, že názor nie je modifikovaný. (d) Pre SVZ podľa nariadenia 537/2014 čl. 10 navyše: kto/kedy vymenoval audítora a dĺžku zákazky; opis najzávažnejších posúdených rizík vrátane rizika z podvodu a reakciu; mieru schopnosti odhaliť nezrovnalosti; potvrdenie konzistentnosti s dodatočnou správou výboru pre audit; vyhlásenie o neposkytnutí zakázaných neaudítorských služieb; povinné KAM (ISA 701)."}
+      {
+        "zadanie": "Určte typ názoru a prípadné doplňujúce odseky pre tieto situácie: (a) materiálne, ale nie všeobsiahle nezahrnutie odpisov; manažment opravu odmietol; (b) audítor nemohol overiť zásoby ani pohľadávky tvoriace podstatnú časť závierky; (c) závierka inak správna, ale prebieha zásadný súdny spor podrobne zverejnený v poznámke; (d) kótovaný subjekt s nemodifikovaným názorom – čo navyše musí správa obsahovať?",
+        "riesenie": "(a) Nesprávnosť materiálna, NIE všeobsiahla → NÁZOR S VÝHRADOU; v 'Základe pre názor s výhradou' opíše a kvantifikuje nezaúčtované odpisy. (b) Nedostatok dôkazov, materiálny A všeobsiahly → ODMIETNUTIE VYJADRENIA NÁZORU; KAM sa neuvedú. (c) Nemodifikovaný názor + ODSEK SO ZDÔRAZNENÍM SKUTOČNOSTI (Emphasis of Matter) s odkazom na poznámku a uvedením, že názor nie je modifikovaný. (d) Pre SVZ podľa nariadenia 537/2014 čl. 10 navyše: kto/kedy vymenoval audítora a dĺžku zákazky; opis najzávažnejších posúdených rizík vrátane rizika z podvodu a reakciu; mieru schopnosti odhaliť nezrovnalosti; potvrdenie konzistentnosti s dodatočnou správou výboru pre audit; vyhlásenie o neposkytnutí zakázaných neaudítorských služieb; povinné KAM (ISA 701)."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "ISA 700 (revidované znenie) – Formovanie názoru a podávanie správy o účtovnej závierke", "kde": "https://www.iaasb.org/publications", "typ": "primárny"},
-    {"nazov": "ISA 705 (revidované znenie) – Modifikácie názoru v správe nezávislého audítora", "kde": "https://www.iaasb.org/publications/international-standard-auditing-isa-705-revised-modifications-opinion-independent-auditor-s-report-3", "typ": "primárny"},
-    {"nazov": "ISA 706 (revidované znenie) – Odseky so zdôraznením skutočností a odseky o inej skutočnosti", "kde": "https://www.iaasb.org/publications/international-standard-auditing-isa-706-revised-emphasis-matter-paragraphs-and-other-matter", "typ": "primárny"},
-    {"nazov": "ISA 701 – Komunikovanie kľúčových záležitostí auditu v správe nezávislého audítora", "kde": "https://www.iaasb.org/publications/international-standard-auditing-isa-701-new-communicating-key-audit-matters-independent-auditor-s-3", "typ": "primárny"},
-    {"nazov": "ISA 710 – Porovnávacie informácie: zodpovedajúce údaje a auditované ÚZ za viac období", "kde": "https://www.iaasb.org/publications", "typ": "primárny"},
-    {"nazov": "ISA 260 (revidované znenie) – Komunikácia s osobami poverenými správou a riadením; ISA 240 – Zodpovednosť audítora vo vzťahu k podvodom", "kde": "https://www.iaasb.org/publications", "typ": "primárny"},
-    {"nazov": "Nariadenie (EÚ) č. 537/2014 o štatutárnom audite subjektov verejného záujmu, čl. 10 a 11 (správa audítora; dodatočná správa pre výbor pre audit)", "kde": "01_Zdroje/Audit/CELEX_32014R0537_SK_TXT.pdf", "typ": "primárny"},
-    {"nazov": "Zákon č. 423/2015 Z. z. o štatutárnom audite (postavenie ISA, SVZ, výbor pre audit, UDVA, SKAU)", "kde": "01_Zdroje/Audit/ZZ_2015_423_20260110_metalex.asice", "typ": "primárny"},
-    {"nazov": "Daňové centrum – Ako lepšie porozumieť správe audítora? (typy názorov v SR)", "kde": "https://www.danovecentrum.sk/clanok-z-titulky/ako-lepsie-porozumiet-sprave-auditora.htm", "typ": "web/overené"},
-    {"nazov": "M. Kareš a kol. – Audítorstvo (učebnica, štruktúra a typy správy audítora)", "kde": "učebnica KAREŠ", "typ": "učebnica"}
+    {
+      "nazov": "ISA 700 (revidované znenie) – Formovanie názoru a podávanie správy o účtovnej závierke",
+      "kde": "https://www.iaasb.org/publications",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "ISA 705 (revidované znenie) – Modifikácie názoru v správe nezávislého audítora",
+      "kde": "https://www.iaasb.org/publications/international-standard-auditing-isa-705-revised-modifications-opinion-independent-auditor-s-report-3",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "ISA 706 (revidované znenie) – Odseky so zdôraznením skutočností a odseky o inej skutočnosti",
+      "kde": "https://www.iaasb.org/publications/international-standard-auditing-isa-706-revised-emphasis-matter-paragraphs-and-other-matter",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "ISA 701 – Komunikovanie kľúčových záležitostí auditu v správe nezávislého audítora",
+      "kde": "https://www.iaasb.org/publications/international-standard-auditing-isa-701-new-communicating-key-audit-matters-independent-auditor-s-3",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "ISA 710 – Porovnávacie informácie: zodpovedajúce údaje a auditované ÚZ za viac období",
+      "kde": "https://www.iaasb.org/publications",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "ISA 260 (revidované znenie) – Komunikácia s osobami poverenými správou a riadením; ISA 240 – Zodpovednosť audítora vo vzťahu k podvodom",
+      "kde": "https://www.iaasb.org/publications",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Nariadenie (EÚ) č. 537/2014 o štatutárnom audite subjektov verejného záujmu, čl. 10 a 11 (správa audítora; dodatočná správa pre výbor pre audit)",
+      "kde": "01_Zdroje/Audit/CELEX_32014R0537_SK_TXT.pdf",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Zákon č. 423/2015 Z. z. o štatutárnom audite (postavenie ISA, SVZ, výbor pre audit, UDVA, SKAU)",
+      "kde": "01_Zdroje/Audit/ZZ_2015_423_20260110_metalex.asice",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Daňové centrum – Ako lepšie porozumieť správe audítora? (typy názorov v SR)",
+      "kde": "https://www.danovecentrum.sk/clanok-z-titulky/ako-lepsie-porozumiet-sprave-auditora.htm",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "M. Kareš a kol. – Audítorstvo (učebnica, štruktúra a typy správy audítora)",
+      "kde": "učebnica KAREŠ",
+      "typ": "učebnica"
+    }
   ]
 }

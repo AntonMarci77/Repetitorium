@@ -213,31 +213,108 @@
   "caste_doplnujuce_otazky": [
     {
       "otazka": "Aký je rozdiel medzi zdaniteľnou osobou a platiteľom dane?",
-      "odpoved": "Zdaniteľná osoba je každý, kto nezávisle vykonáva ekonomickú činnosť (§ 3). Platiteľom sa stane až registráciou (§ 4, 5): až vtedy má IČ DPH, pripočítava daň, má nárok na odpočet a podáva priznanie aj kontrolný výkaz. Nie každá zdaniteľná osoba je platiteľom."
+      "odpoved": "Zdaniteľná osoba je každý, kto nezávisle vykonáva ekonomickú činnosť (§ 3). Platiteľom sa stane až registráciou (§ 4, 5): až vtedy má IČ DPH, pripočítava daň, má nárok na odpočet a podáva priznanie aj kontrolný výkaz. Nie každá zdaniteľná osoba je platiteľom.",
+      "moznosti": [
+        "Zdaniteľná osoba aj platiteľ vznikajú automaticky začatím ekonomickej činnosti; rozdiel je len v sadzbe dane.",
+        "Zdaniteľná osoba je každý, kto nezávisle vykonáva ekonomickú činnosť (§ 3); platiteľom sa stáva až registráciou (§ 4, 5), keď má IČ DPH, pripočítava daň a má nárok na odpočet.",
+        "Platiteľ je každý, kto vykonáva ekonomickú činnosť, kým zdaniteľnou osobou sa stáva až registráciou a pridelením IČ DPH.",
+        "Zdaniteľná osoba aj platiteľ sú totožné pojmy; obaja vždy fakturujú s daňou a majú nárok na odpočet dane na vstupe."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Zdaniteľná osoba je každý, kto nezávisle vykonáva ekonomickú činnosť (§ 3). Platiteľom sa stane až registráciou (§ 4, 5): až vtedy má IČ DPH, pripočítava daň, má nárok na odpočet a podáva priznanie aj kontrolný výkaz. Nie každá zdaniteľná osoba je platiteľom."
     },
     {
       "otazka": "Kedy vzniká povinnosť registrácie a aké sú dva obratové limity?",
-      "odpoved": "Pri prekročení obratu 50 000 € za kalendárny rok – platiteľom od 1. dňa nasledujúceho roka; pri prekročení 62 500 € v prebiehajúcom roku – platiteľom hneď dodaním, ktorým sa limit prekročí. Žiadosť do 5 pracovných dní, DÚ rozhodne do 10 dní."
+      "odpoved": "Pri prekročení obratu 50 000 € za kalendárny rok – platiteľom od 1. dňa nasledujúceho roka; pri prekročení 62 500 € v prebiehajúcom roku – platiteľom hneď dodaním, ktorým sa limit prekročí. Žiadosť do 5 pracovných dní, DÚ rozhodne do 10 dní.",
+      "moznosti": [
+        "Pri prekročení 75 000 € za kalendárny rok je osoba platiteľom hneď dodaním; pri 100 000 € od 1. dňa nasledujúceho roka.",
+        "Pri prekročení obratu 49 790 € za 12 po sebe idúcich mesiacov sa osoba stáva platiteľom od 1. dňa nasledujúceho mesiaca.",
+        "Pri prekročení 50 000 € za kalendárny rok je osoba platiteľom hneď dodaním; pri 62 500 € až od 1. dňa nasledujúceho roka.",
+        "Pri prekročení 50 000 € za kalendárny rok je osoba platiteľom od 1. dňa nasledujúceho roka; pri prekročení 62 500 € v prebiehajúcom roku už dodaním, ktorým sa limit prekročí."
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Pri prekročení obratu 50 000 € za kalendárny rok – platiteľom od 1. dňa nasledujúceho roka; pri prekročení 62 500 € v prebiehajúcom roku – platiteľom hneď dodaním, ktorým sa limit prekročí. Žiadosť do 5 pracovných dní, DÚ rozhodne do 10 dní."
     },
     {
       "otazka": "Ako sa počíta a používa koeficient pri pomernom odpočítaní?",
-      "odpoved": "Koeficient = hodnota plnení s nárokom na odpočet / hodnota všetkých plnení za kalendárny rok, zaokrúhlený na dve desatinné miesta nahor (§ 50). Počas roka sa použije predbežný koeficient z minulého roka, po skončení roka sa odpočet vysporiada konečným koeficientom."
+      "odpoved": "Koeficient = hodnota plnení s nárokom na odpočet / hodnota všetkých plnení za kalendárny rok, zaokrúhlený na dve desatinné miesta nahor (§ 50). Počas roka sa použije predbežný koeficient z minulého roka, po skončení roka sa odpočet vysporiada konečným koeficientom.",
+      "moznosti": [
+        "Koeficient = hodnota plnení s nárokom na odpočet / hodnota všetkých plnení za kalendárny rok, zaokrúhlený na dve desatinné miesta nahor; počas roka sa použije predbežný koeficient z minulého roka a po skončení roka sa odpočet vysporiada konečným koeficientom.",
+        "Koeficient = hodnota plnení bez nároku na odpočet / hodnota všetkých plnení, zaokrúhlený na dve desatinné miesta nadol; používa sa rovnaký počas celého roka bez ročného vysporiadania.",
+        "Koeficient = hodnota všetkých plnení / hodnota plnení s nárokom na odpočet za kalendárny mesiac, zaokrúhlený matematicky; ročné vysporiadanie sa nevykonáva.",
+        "Koeficient = hodnota plnení s nárokom na odpočet / hodnota oslobodených plnení za kalendárny rok, zaokrúhlený na celé číslo; počas roka sa použije konečný koeficient bežného roka."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Koeficient = hodnota plnení s nárokom na odpočet / hodnota všetkých plnení za kalendárny rok, zaokrúhlený na dve desatinné miesta nahor (§ 50). Počas roka sa použije predbežný koeficient z minulého roka, po skončení roka sa odpočet vysporiada konečným koeficientom."
     },
     {
       "otazka": "Aký je rozdiel medzi oslobodením s nárokom a bez nároku na odpočet?",
-      "odpoved": "Pri oslobodení bez nároku (§ 28–42 – zdravotné, finančné, nájom) platiteľ daň neúčtuje, ale ani si nemôže odpočítať daň na vstupe. Pri oslobodení s nárokom (§ 43–48 – dodanie do EÚ, vývoz) daň neúčtuje, ale nárok na odpočet zostáva – preto je výhodnejšie."
+      "odpoved": "Pri oslobodení bez nároku (§ 28–42 – zdravotné, finančné, nájom) platiteľ daň neúčtuje, ale ani si nemôže odpočítať daň na vstupe. Pri oslobodení s nárokom (§ 43–48 – dodanie do EÚ, vývoz) daň neúčtuje, ale nárok na odpočet zostáva – preto je výhodnejšie.",
+      "moznosti": [
+        "Pri oslobodení s nárokom (zdravotné, finančné, nájom) platiteľ daň neúčtuje, ale ani neodpočíta; pri oslobodení bez nároku (vývoz, dodanie do EÚ) nárok na odpočet zostáva.",
+        "Pri oboch typoch oslobodenia platiteľ daň neúčtuje a vždy si zachováva plný nárok na odpočet dane na vstupe.",
+        "Pri oslobodení bez nároku (§ 28–42 – zdravotné, finančné, nájom) platiteľ daň neúčtuje a ani si nemôže odpočítať daň na vstupe; pri oslobodení s nárokom (§ 43–48 – dodanie do EÚ, vývoz) daň neúčtuje, no nárok na odpočet zostáva.",
+        "Pri oslobodení bez nároku platiteľ daň neúčtuje, ale odpočet mu zostáva; pri oslobodení s nárokom daň účtuje zníženou sadzbou a odpočet stráca."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Pri oslobodení bez nároku (§ 28–42 – zdravotné, finančné, nájom) platiteľ daň neúčtuje, ale ani si nemôže odpočítať daň na vstupe. Pri oslobodení s nárokom (§ 43–48 – dodanie do EÚ, vývoz) daň neúčtuje, ale nárok na odpočet zostáva – preto je výhodnejšie."
     },
     {
       "otazka": "Čo je reverse-charge a prečo sa zaviedol?",
-      "odpoved": "Prenos daňovej povinnosti na príjemcu (§ 69): pri vybraných tuzemských plneniach (stavebné práce, šrot, mobily) a pri plneniach od zahraničných osôb daň prizná a odvedie odberateľ, nie dodávateľ. Bráni podvodom, keď dodávateľ daň vyberie, ale neodvedie."
+      "odpoved": "Prenos daňovej povinnosti na príjemcu (§ 69): pri vybraných tuzemských plneniach (stavebné práce, šrot, mobily) a pri plneniach od zahraničných osôb daň prizná a odvedie odberateľ, nie dodávateľ. Bráni podvodom, keď dodávateľ daň vyberie, ale neodvedie.",
+      "moznosti": [
+        "Reverse-charge je vrátenie nadmerného odpočtu zo štátu do 30 dní; zaviedol sa na zrýchlenie cash flow platiteľov.",
+        "Reverse-charge je prenos daňovej povinnosti na príjemcu (§ 69): pri vybraných tuzemských plneniach (stavebné práce, šrot, mobily) a pri plneniach od zahraničných osôb daň prizná a odvedie odberateľ, nie dodávateľ; bráni podvodom, keď dodávateľ daň vyberie, ale neodvedie.",
+        "Reverse-charge je krížová kontrola faktúr cez kontrolný výkaz; zaviedol sa, aby finančná správa párovala vstup a výstup u oboch strán.",
+        "Reverse-charge je prenos daňovej povinnosti na dodávateľa pri dodávkach pre konečného spotrebiteľa; zaviedol sa na zjednodušenie fakturácie v maloobchode."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Prenos daňovej povinnosti na príjemcu (§ 69): pri vybraných tuzemských plneniach (stavebné práce, šrot, mobily) a pri plneniach od zahraničných osôb daň prizná a odvedie odberateľ, nie dodávateľ. Bráni podvodom, keď dodávateľ daň vyberie, ale neodvedie."
     },
     {
       "otazka": "Ako sa na účte 343 rozlíši vlastná daňová povinnosť od nadmerného odpočtu?",
-      "odpoved": "Daň na výstupe sa účtuje v prospech (DAL), daň na vstupe na ťarchu (MÁ DAŤ) účtu 343. Kreditný zostatok (DAL > MÁ DAŤ) = vlastná daňová povinnosť (odvod 343/221); debetný (MÁ DAŤ > DAL) = nadmerný odpočet (vrátenie zo štátu)."
+      "odpoved": "Daň na výstupe sa účtuje v prospech (DAL), daň na vstupe na ťarchu (MÁ DAŤ) účtu 343. Kreditný zostatok (DAL > MÁ DAŤ) = vlastná daňová povinnosť (odvod 343/221); debetný (MÁ DAŤ > DAL) = nadmerný odpočet (vrátenie zo štátu).",
+      "moznosti": [
+        "Daň na výstupe sa účtuje na ťarchu (MÁ DAŤ) a daň na vstupe v prospech (DAL) účtu 343; debetný zostatok je vlastná daňová povinnosť, kreditný nadmerný odpočet.",
+        "Daň na vstupe aj na výstupe sa účtuje výlučne na strane MÁ DAŤ účtu 345; vlastná daňová povinnosť sa zistí porovnaním s účtom 221.",
+        "Daň na výstupe sa účtuje v prospech (DAL) a daň na vstupe na ťarchu (MÁ DAŤ) účtu 343; kreditný zostatok (DAL > MÁ DAŤ) je vlastná daňová povinnosť (odvod 343/221), debetný (MÁ DAŤ > DAL) nadmerný odpočet (vrátenie zo štátu).",
+        "Daň na výstupe sa účtuje v prospech a daň na vstupe na ťarchu účtu 343; debetný zostatok je vlastná daňová povinnosť, kreditný nadmerný odpočet."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Daň na výstupe sa účtuje v prospech (DAL), daň na vstupe na ťarchu (MÁ DAŤ) účtu 343. Kreditný zostatok (DAL > MÁ DAŤ) = vlastná daňová povinnosť (odvod 343/221); debetný (MÁ DAŤ > DAL) = nadmerný odpočet (vrátenie zo štátu)."
     },
     {
       "otazka": "Aké zmeny v DPH priniesol rok 2026?",
-      "odpoved": "Preradenie potravín s vyšším obsahom cukru/soli z 19 % do 23 % a paušálny 50 % odpočet DPH pri osobných autách M1 (od 1. 1. 2026 do 30. 6. 2028); plný odpočet len pri výlučne podnikateľskom použití s elektronickou evidenciou. Sadzby 23/19/5 % aj limity 50 000/62 500 € ostali."
+      "odpoved": "Preradenie potravín s vyšším obsahom cukru/soli z 19 % do 23 % a paušálny 50 % odpočet DPH pri osobných autách M1 (od 1. 1. 2026 do 30. 6. 2028); plný odpočet len pri výlučne podnikateľskom použití s elektronickou evidenciou. Sadzby 23/19/5 % aj limity 50 000/62 500 € ostali.",
+      "moznosti": [
+        "Zvýšenie základnej sadzby z 20 % na 23 % a zavedenie jednotnej sadzby pre všetky potraviny; limity registrácie sa zrušili.",
+        "Preradenie potravín s vyšším obsahom cukru/soli z 19 % do 23 % a paušálny 50 % odpočet DPH pri osobných autách M1 (od 1. 1. 2026 do 30. 6. 2028); plný odpočet len pri výlučne podnikateľskom použití s elektronickou evidenciou. Sadzby 23/19/5 % aj limity 50 000/62 500 € ostali.",
+        "Preradenie všetkých potravín do zníženej 5 % a úplný zákaz odpočtu DPH pri osobných autách M1; sadzby sa zmenili na 23/10/5 %.",
+        "Preradenie liekov a kníh z 5 % do 19 % a paušálny 100 % odpočet DPH pri všetkých autách; limity registrácie sa zvýšili na 75 000 €."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Preradenie potravín s vyšším obsahom cukru/soli z 19 % do 23 % a paušálny 50 % odpočet DPH pri osobných autách M1 (od 1. 1. 2026 do 30. 6. 2028); plný odpočet len pri výlučne podnikateľskom použití s elektronickou evidenciou. Sadzby 23/19/5 % aj limity 50 000/62 500 € ostali."
     }
   ],
   "pasce_caste_chyby": [

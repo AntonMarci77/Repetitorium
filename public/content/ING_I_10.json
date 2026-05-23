@@ -32,46 +32,261 @@
     "cielova_dlzka_slov": 1450,
     "uvod": "Manažérske účtovníctvo poskytuje informácie pre vnútorné riadenie podniku. Jeho jadrom sú vopred stanovené náklady – v kalkulácii (na 1 kalkulačnú jednotku) aj v rozpočte (na celý útvar a obdobie). Tieto plánové (štandardné) náklady plnia dvojakú úlohu: sú meradlom hospodárnosti, voči ktorému sa porovnáva skutočnosť (rozbor odchýlok), a sú základňou oceňovania vnútropodnikových výkonov. Otázka spája tri navzájom prepojené okruhy: (1) využitie vopred stanovených nákladov a rozbor odchýlok jednotkových a režijných nákladov, (2) kalkulácie úplných verzus neúplných nákladov a ich dvojaké využitie – v riadení aj pri zostavení závierky (vplyv na ocenenie zásob a tým na súvahu a výsledok hospodárenia), a (3) zodpovednostné účtovníctvo, vnútropodnikové ceny a metódy zostavovania prevádzkových rozpočtov.",
     "casti": [
-      {"nadpis": "Vopred stanovené náklady a metóda štandardných nákladov", "text": "Vopred stanovené (predbežné, plánové, štandardné) náklady sa stanovia pred uskutočnením výkonu a vyjadrujú účelne vynaloženú – teda žiaducu – úroveň nákladov na výkon. Slúžia na dvojaký účel: po prvé na ocenenie výkonov (kalkulácia ceny, ocenenie vnútropodnikových odovzdávok, ocenenie zásob vlastnej výroby na predbežnej úrovni), po druhé ako norma pre riadenie hospodárnosti. Predpokladom rozboru odchýlok je práve existencia akceptovanej štandardnej úrovne (metóda štandardných/normových nákladov). Štandardy sa líšia spôsobom stanovenia (historické – z minulých výsledkov; empirické – z technologických predpokladov; porovnávacie – podľa konkurencie) a náročnosťou (ideálne/teoretické – dokonalé podmienky, silný tlak na úspory, ale demotivujúce; dosiahnuteľné – zodpovedajú reálnym podmienkam, motivačne najvhodnejšie). Bez vopred stanoveného etalónu by sa skutočné náklady nemali s čím porovnávať a ekonomické riadenie by stratilo zmysel."},
-      {"nadpis": "Rozbor odchýlok – princíp rozkladu na cenu a množstvo", "text": "Odchýlka = rozdiel skutočných a vopred stanovených nákladov. Riadenie 'podľa odchýlok' (management by exception) rieši len odchýlky mimo tolerančného pásma; pásmo bežných odchýlok rieši nižší manažment, jeho prekročenie sa hlási vyššie. Každú nákladovú odchýlku rozkladáme na dve zložky. Kvalitatívna (cenová) odchýlka je vyvolaná zmenou parametra na mernú jednotku (cena za kg, sadzba za hodinu, výťažnosť): vzorec (skutočná cena ps − plánovaná cena pp) × skutočné množstvo qs. Kvantitatívna (množstvová, spotrebná) odchýlka je dôsledkom zmeny objemu spotreby v naturáliách: (skutočné množstvo qs − plánované množstvo qp) × plánovaná cena pp. Platí: celková odchýlka = kvalitatívna + kvantitatívna. Záporná (úspora) je priaznivá, kladná (prekročenie) nepriaznivá. Rozklad neslúži len na vyčíslenie, ale aj na priradenie príčiny a zodpovednosti."},
-      {"nadpis": "Odchýlky jednotkových nákladov (materiál, mzdy)", "text": "Pri priamom materiáli rozlišujeme odchýlku cenovú (zmena nákupnej ceny vstupu – zodpovednosť spravidla zásobovanie/nákup) a spotrebnú (zmena spotrebovaného množstva – zodpovednosť výroba), pričom spotrebnú možno ďalej členiť na objemovú (iný objem výroby), sortimentnú (iná štruktúra) a výťažnostnú (ako sa darí vyťažiť materiál, zmätky, odpad). Pri priamych mzdách rozlišujeme odchýlku tarifnú (zmena mzdovej sadzby/tarify) a spotrebnú/výkonovú (zmena počtu odpracovaných hodín, t. j. produktivity práce). Príklad: norma 2 kg materiálu á 5 €/kg na výrobok; skutočne 2,2 kg á 5,4 €/kg. Cenová odchýlka = (5,4 − 5) × 2,2 = +0,88 € (nepriaznivá); spotrebná = (2,2 − 2) × 5 = +1,00 € (nepriaznivá); celková = +1,88 € na výrobok. Manažér tak vidí, koľko spôsobila drahšia cena a koľko vyššia spotreba."},
-      {"nadpis": "Odchýlky režijných nákladov", "text": "Réžia (nepriame náklady) sa rozvrhuje vopred stanovenou sadzbou na predpokladaný objem. Pri analýze réžie sa používajú metódy s rôznym počtom odchýlok. Najdôležitejšie sú: spotrebná (rozpočtová) odchýlka = rozdiel skutočnej réžie a réžie podľa rozpočtu prepočítaného na skutočný objem (zodpovedá stredisko, kde réžia vznikla – hospodárnosť), a objemová (kapacitná) odchýlka = tá časť fixnej réžie, ktorá nebola absorbovaná výkonmi, lebo skutočné využitie kapacity je iné než plánované (zodpovednosť spravidla vedenie podniku). Pri jemnejších metódach (3–4 odchýlky) sa objemová delí na výkonnostnú (neproduktívne využitie kapacity – zodpovednosť strediska) a kapacitnú (nevyužitie disponibilnej kapacity – vedenie). Pri variabilných nákladoch sa skutočnosť porovnáva s flexibilným rozpočtom prepočítaným na skutočný objem, inak by sa zamieňala odchýlka hospodárnosti s odchýlkou objemu."},
-      {"nadpis": "Kalkulácia úplných nákladov (absorpčná)", "text": "Úplná (absorpčná) kalkulácia priraďuje výkonu fixné aj variabilné náklady – výrobok 'absorbuje' aj fixné náklady, ktoré vznikajú bez ohľadu na objem. Počíta priemerné celkové náklady na jednotku. Výhody: jednoduchosť a najmä použiteľnosť pre účtovnú závierku – tento prístup preferujú predpisy finančného účtovníctva pri oceňovaní zásob vlastnej výroby. Vhodná je pri dlhodobých analýzach nákladovej náročnosti, pri cenotvorbe individuálnych zákaziek (kde treba pokryť všetky náklady) a pri zobrazení zmeny stavu zásob. Nevýhody: alokácia FN na výrobky je proporcionalizáciou nákladov obdobia – FN sa menia na náklady viazané k výrobku, čo skresľuje rozhodovanie o sortimente a hospodárnosti. Najzávažnejší problém: oceňovanie zásob na úrovni úplných nákladov môže motivovať 'výrobu na sklad' bez odbytu, lebo zisk rastie aj pri nezmenených tržbách, keď sa časť FN 'uskladní' v rastúcich zásobách (odsunie sa do budúceho obdobia)."},
-      {"nadpis": "Kalkulácia neúplných nákladov (variabilné kalkulovanie)", "text": "Neúplná (variabilná) kalkulácia, rozpracovaná začiatkom 20. storočia (J. N. Harris), oceňuje výkon len variabilnými nákladmi. Rozdiel medzi predajnou cenou a variabilnými nákladmi je príspevok na úhradu fixných nákladov a tvorbu zisku (krycí príspevok, marža). Fixné náklady sa chápu ako náklad daného obdobia, ktorý treba uhradiť bez ohľadu na to, či sa výkony predali. Výhody: eliminuje problém výroby na sklad (VH nezávisí od zvýšenia výroby), umožňuje rozhodovať o dolnej cenovej hranici, o prijatí dodatočnej zákazky za nižšiu cenu (ak cena pokryje variabilné náklady a prispieva na FN), o sortimente pri kapacitných obmedzeniach (podľa marže na úzke miesto) a o vlastnej výrobe verzus nákupe. Nevýhody: môže vytvárať dojem, že cena môže byť dlhodobo pod úrovňou úplných nákladov (uprednostňovanie krátkodobých zákaziek namiesto rušenia prebytočných kapacít); a ocenenie zásob len na úrovni variabilných nákladov spravidla NIE je prípustné pre účtovnú závierku."},
-      {"nadpis": "Vplyv na ocenenie zásob, súvahu a VH; aktivácia nákladov", "text": "Toto je most medzi manažérskym a finančným účtovníctvom. Podľa zákona o účtovníctve sa zásoby vlastnej výroby (nedokončená výroba 121, polotovary 122, výrobky 123) oceňujú vlastnými nákladmi – tie zahŕňajú priame náklady aj primeranú časť výrobnej réžie, teda ocenenie je blízke úplnej (absorpčnej) kalkulácii; čisto variabilné ocenenie sa pre závierku spravidla neuznáva. Dôsledok: ak sa použije úplná kalkulácia, časť fixných výrobných nákladov ostane 'zaparkovaná' v ocenení zásob v SÚVAHE (aktíva) a do VÝKAZU ZISKOV A STRÁT vstúpi až pri predaji – preto pri raste zásob vykáže absorpčná metóda VYŠŠÍ zisk než variabilná, pri poklese zásob NIŽŠÍ; pri nezmenenom stave zásob sa zisk rovná. Aktivácia nákladov: vlastné náklady vynaložené na vytvorenie zásob alebo dlhodobého majetku vlastnou činnosťou sa nezaúčtujú len ako bežný náklad, ale 'aktivujú' sa – v súvahe vznikne majetok (zásoby triedy 12 alebo DM triedy 04/01/02) a vo výkaze ziskov a strát sa pôvodné druhové náklady kompenzujú aktiváciou (účty 62x – Aktivácia, resp. 611 – zmena stavu zásob vlastnej výroby). Tým sa náklad neprejaví vo VH v období vzniku, ale až cez spotrebu/predaj zásob alebo cez odpisy majetku. Vplyv na súvahu: rast aktív; vplyv na VZaS: zníženie čistého nákladu obdobia (resp. zvýšenie výnosovej položky aktivácie/zmeny stavu)."},
-      {"nadpis": "Zodpovednostné účtovníctvo a strediská zodpovednosti", "text": "Zodpovednostné účtovníctvo sleduje náklady, výnosy a výsledok podľa stredísk zodpovednosti – útvarov s vymedzenou právomocou a zodpovednosťou, vlastným vedúcim a rozpočtom. Sleduje sa plán verzus skutočnosť a odchýlky sa priraďujú konkrétnemu stredisku (kontrola a motivácia). Typy stredísk podľa rozsahu zodpovednosti, ako rastie decentralizácia: nákladové (zodpovedá len za náklady – napr. údržba, výroba bez predaja), výnosové (za tržby – obchodné oddelenie), ziskové/profit center (za náklady aj výnosy = zisk – pobočka 'firma vo firme') a investičné/rentabilné (za zisk aj viazaný kapitál – meria sa ROI, RI, EVA). Treba odlíšiť miesto vzniku nákladu (KDE vznikol) od strediska zodpovednosti (KTO zaň zodpovedá) – náklad môže vzniknúť inde, než kde je zodpovednosť (napr. zlý materiál od zásobovania spôsobí zmätky vo výrobe). Technicky sa vedie jednookruhovo (analytické účty + skupiny 59/69) alebo dvojokruhovo (samostatný okruh v triedach 8 a 9 so spojovacími účtami)."},
-      {"nadpis": "Vnútropodnikové ceny na báze nákladov a na báze zisku", "text": "Vnútropodniková cena (VPC) je vopred stanovená cena, za ktorú stredisko odovzdáva výkon inému stredisku, bez ohľadu na svoje skutočné náklady. Umožňuje vyčísliť strediskové výsledky, priradiť zodpovednosť za úsporu/prekročenie a motivovať. VPC na báze nákladov: na úrovni variabilných nákladov (pre direktívne riadené nákladové strediská), na báze úplných strediskových nákladov (orientuje stredisko na využitie kapacity – realizuje objemovú odchýlku) alebo cost+; nevytvára vnútorný zisk, slúži najmä na kontrolu hospodárnosti. VPC na báze zisku (so ziskovou prirážkou): stanovená nad úrovňou nákladov, vytvára vnútropodnikový zisk a motiváciu – vhodná pre ziskové, rentabilné a investičné strediská a pri ocenení finálnych výkonov mimo podnik. Pozor: nemá opodstatnenie vo výrobných strediskách v horizontálnej kooperácii, lebo by motivovala k nadvýrobe a hromadeniu zásob. Ďalšie typy: trhová VPC (porovnanie s externým prostredím), dohodnutá (subdodávky) a na báze oportunitných nákladov (variabilné náklady + ušlý zisk na úzkom mieste). Ak VPC ovplyvňuje VH medzi závislými osobami, vstupuje do transferového oceňovania (smernica OECD)."},
-      {"zaver": "Vopred stanovené náklady sú spoločný menovateľ celej témy: bez nich niet ani kalkulácie, ani rozpočtu, ani odchýlok. Rozbor odchýlok vždy rozlož na cenu a množstvo a priraď zodpovednosť. Voľba úplnej verzus neúplnej kalkulácie nie je len technická – mení ocenenie zásob, a tým súvahu aj výsledok hospodárenia, a má vplyv na motiváciu (výroba na sklad). Zodpovednostné účtovníctvo a vnútropodnikové ceny prenesú tieto princípy na riadenie ľudí a útvarov. A rozpočtovanie – inkrementálne, ZBB či ABB – určuje, ako vopred stanovené hodnoty vôbec vzniknú."}
+      {
+        "nadpis": "Vopred stanovené náklady a metóda štandardných nákladov",
+        "text": "Vopred stanovené (predbežné, plánové, štandardné) náklady sa stanovia pred uskutočnením výkonu a vyjadrujú účelne vynaloženú – teda žiaducu – úroveň nákladov na výkon. Slúžia na dvojaký účel: po prvé na ocenenie výkonov (kalkulácia ceny, ocenenie vnútropodnikových odovzdávok, ocenenie zásob vlastnej výroby na predbežnej úrovni), po druhé ako norma pre riadenie hospodárnosti. Predpokladom rozboru odchýlok je práve existencia akceptovanej štandardnej úrovne (metóda štandardných/normových nákladov). Štandardy sa líšia spôsobom stanovenia (historické – z minulých výsledkov; empirické – z technologických predpokladov; porovnávacie – podľa konkurencie) a náročnosťou (ideálne/teoretické – dokonalé podmienky, silný tlak na úspory, ale demotivujúce; dosiahnuteľné – zodpovedajú reálnym podmienkam, motivačne najvhodnejšie). Bez vopred stanoveného etalónu by sa skutočné náklady nemali s čím porovnávať a ekonomické riadenie by stratilo zmysel."
+      },
+      {
+        "nadpis": "Rozbor odchýlok – princíp rozkladu na cenu a množstvo",
+        "text": "Odchýlka = rozdiel skutočných a vopred stanovených nákladov. Riadenie 'podľa odchýlok' (management by exception) rieši len odchýlky mimo tolerančného pásma; pásmo bežných odchýlok rieši nižší manažment, jeho prekročenie sa hlási vyššie. Každú nákladovú odchýlku rozkladáme na dve zložky. Kvalitatívna (cenová) odchýlka je vyvolaná zmenou parametra na mernú jednotku (cena za kg, sadzba za hodinu, výťažnosť): vzorec (skutočná cena ps − plánovaná cena pp) × skutočné množstvo qs. Kvantitatívna (množstvová, spotrebná) odchýlka je dôsledkom zmeny objemu spotreby v naturáliách: (skutočné množstvo qs − plánované množstvo qp) × plánovaná cena pp. Platí: celková odchýlka = kvalitatívna + kvantitatívna. Záporná (úspora) je priaznivá, kladná (prekročenie) nepriaznivá. Rozklad neslúži len na vyčíslenie, ale aj na priradenie príčiny a zodpovednosti."
+      },
+      {
+        "nadpis": "Odchýlky jednotkových nákladov (materiál, mzdy)",
+        "text": "Pri priamom materiáli rozlišujeme odchýlku cenovú (zmena nákupnej ceny vstupu – zodpovednosť spravidla zásobovanie/nákup) a spotrebnú (zmena spotrebovaného množstva – zodpovednosť výroba), pričom spotrebnú možno ďalej členiť na objemovú (iný objem výroby), sortimentnú (iná štruktúra) a výťažnostnú (ako sa darí vyťažiť materiál, zmätky, odpad). Pri priamych mzdách rozlišujeme odchýlku tarifnú (zmena mzdovej sadzby/tarify) a spotrebnú/výkonovú (zmena počtu odpracovaných hodín, t. j. produktivity práce). Príklad: norma 2 kg materiálu á 5 €/kg na výrobok; skutočne 2,2 kg á 5,4 €/kg. Cenová odchýlka = (5,4 − 5) × 2,2 = +0,88 € (nepriaznivá); spotrebná = (2,2 − 2) × 5 = +1,00 € (nepriaznivá); celková = +1,88 € na výrobok. Manažér tak vidí, koľko spôsobila drahšia cena a koľko vyššia spotreba."
+      },
+      {
+        "nadpis": "Odchýlky režijných nákladov",
+        "text": "Réžia (nepriame náklady) sa rozvrhuje vopred stanovenou sadzbou na predpokladaný objem. Pri analýze réžie sa používajú metódy s rôznym počtom odchýlok. Najdôležitejšie sú: spotrebná (rozpočtová) odchýlka = rozdiel skutočnej réžie a réžie podľa rozpočtu prepočítaného na skutočný objem (zodpovedá stredisko, kde réžia vznikla – hospodárnosť), a objemová (kapacitná) odchýlka = tá časť fixnej réžie, ktorá nebola absorbovaná výkonmi, lebo skutočné využitie kapacity je iné než plánované (zodpovednosť spravidla vedenie podniku). Pri jemnejších metódach (3–4 odchýlky) sa objemová delí na výkonnostnú (neproduktívne využitie kapacity – zodpovednosť strediska) a kapacitnú (nevyužitie disponibilnej kapacity – vedenie). Pri variabilných nákladoch sa skutočnosť porovnáva s flexibilným rozpočtom prepočítaným na skutočný objem, inak by sa zamieňala odchýlka hospodárnosti s odchýlkou objemu."
+      },
+      {
+        "nadpis": "Kalkulácia úplných nákladov (absorpčná)",
+        "text": "Úplná (absorpčná) kalkulácia priraďuje výkonu fixné aj variabilné náklady – výrobok 'absorbuje' aj fixné náklady, ktoré vznikajú bez ohľadu na objem. Počíta priemerné celkové náklady na jednotku. Výhody: jednoduchosť a najmä použiteľnosť pre účtovnú závierku – tento prístup preferujú predpisy finančného účtovníctva pri oceňovaní zásob vlastnej výroby. Vhodná je pri dlhodobých analýzach nákladovej náročnosti, pri cenotvorbe individuálnych zákaziek (kde treba pokryť všetky náklady) a pri zobrazení zmeny stavu zásob. Nevýhody: alokácia FN na výrobky je proporcionalizáciou nákladov obdobia – FN sa menia na náklady viazané k výrobku, čo skresľuje rozhodovanie o sortimente a hospodárnosti. Najzávažnejší problém: oceňovanie zásob na úrovni úplných nákladov môže motivovať 'výrobu na sklad' bez odbytu, lebo zisk rastie aj pri nezmenených tržbách, keď sa časť FN 'uskladní' v rastúcich zásobách (odsunie sa do budúceho obdobia)."
+      },
+      {
+        "nadpis": "Kalkulácia neúplných nákladov (variabilné kalkulovanie)",
+        "text": "Neúplná (variabilná) kalkulácia, rozpracovaná začiatkom 20. storočia (J. N. Harris), oceňuje výkon len variabilnými nákladmi. Rozdiel medzi predajnou cenou a variabilnými nákladmi je príspevok na úhradu fixných nákladov a tvorbu zisku (krycí príspevok, marža). Fixné náklady sa chápu ako náklad daného obdobia, ktorý treba uhradiť bez ohľadu na to, či sa výkony predali. Výhody: eliminuje problém výroby na sklad (VH nezávisí od zvýšenia výroby), umožňuje rozhodovať o dolnej cenovej hranici, o prijatí dodatočnej zákazky za nižšiu cenu (ak cena pokryje variabilné náklady a prispieva na FN), o sortimente pri kapacitných obmedzeniach (podľa marže na úzke miesto) a o vlastnej výrobe verzus nákupe. Nevýhody: môže vytvárať dojem, že cena môže byť dlhodobo pod úrovňou úplných nákladov (uprednostňovanie krátkodobých zákaziek namiesto rušenia prebytočných kapacít); a ocenenie zásob len na úrovni variabilných nákladov spravidla NIE je prípustné pre účtovnú závierku."
+      },
+      {
+        "nadpis": "Vplyv na ocenenie zásob, súvahu a VH; aktivácia nákladov",
+        "text": "Toto je most medzi manažérskym a finančným účtovníctvom. Podľa zákona o účtovníctve sa zásoby vlastnej výroby (nedokončená výroba 121, polotovary 122, výrobky 123) oceňujú vlastnými nákladmi – tie zahŕňajú priame náklady aj primeranú časť výrobnej réžie, teda ocenenie je blízke úplnej (absorpčnej) kalkulácii; čisto variabilné ocenenie sa pre závierku spravidla neuznáva. Dôsledok: ak sa použije úplná kalkulácia, časť fixných výrobných nákladov ostane 'zaparkovaná' v ocenení zásob v SÚVAHE (aktíva) a do VÝKAZU ZISKOV A STRÁT vstúpi až pri predaji – preto pri raste zásob vykáže absorpčná metóda VYŠŠÍ zisk než variabilná, pri poklese zásob NIŽŠÍ; pri nezmenenom stave zásob sa zisk rovná. Aktivácia nákladov: vlastné náklady vynaložené na vytvorenie zásob alebo dlhodobého majetku vlastnou činnosťou sa nezaúčtujú len ako bežný náklad, ale 'aktivujú' sa – v súvahe vznikne majetok (zásoby triedy 12 alebo DM triedy 04/01/02) a vo výkaze ziskov a strát sa pôvodné druhové náklady kompenzujú aktiváciou (účty 62x – Aktivácia, resp. 611 – zmena stavu zásob vlastnej výroby). Tým sa náklad neprejaví vo VH v období vzniku, ale až cez spotrebu/predaj zásob alebo cez odpisy majetku. Vplyv na súvahu: rast aktív; vplyv na VZaS: zníženie čistého nákladu obdobia (resp. zvýšenie výnosovej položky aktivácie/zmeny stavu)."
+      },
+      {
+        "nadpis": "Zodpovednostné účtovníctvo a strediská zodpovednosti",
+        "text": "Zodpovednostné účtovníctvo sleduje náklady, výnosy a výsledok podľa stredísk zodpovednosti – útvarov s vymedzenou právomocou a zodpovednosťou, vlastným vedúcim a rozpočtom. Sleduje sa plán verzus skutočnosť a odchýlky sa priraďujú konkrétnemu stredisku (kontrola a motivácia). Typy stredísk podľa rozsahu zodpovednosti, ako rastie decentralizácia: nákladové (zodpovedá len za náklady – napr. údržba, výroba bez predaja), výnosové (za tržby – obchodné oddelenie), ziskové/profit center (za náklady aj výnosy = zisk – pobočka 'firma vo firme') a investičné/rentabilné (za zisk aj viazaný kapitál – meria sa ROI, RI, EVA). Treba odlíšiť miesto vzniku nákladu (KDE vznikol) od strediska zodpovednosti (KTO zaň zodpovedá) – náklad môže vzniknúť inde, než kde je zodpovednosť (napr. zlý materiál od zásobovania spôsobí zmätky vo výrobe). Technicky sa vedie jednookruhovo (analytické účty + skupiny 59/69) alebo dvojokruhovo (samostatný okruh v triedach 8 a 9 so spojovacími účtami)."
+      },
+      {
+        "nadpis": "Vnútropodnikové ceny na báze nákladov a na báze zisku",
+        "text": "Vnútropodniková cena (VPC) je vopred stanovená cena, za ktorú stredisko odovzdáva výkon inému stredisku, bez ohľadu na svoje skutočné náklady. Umožňuje vyčísliť strediskové výsledky, priradiť zodpovednosť za úsporu/prekročenie a motivovať. VPC na báze nákladov: na úrovni variabilných nákladov (pre direktívne riadené nákladové strediská), na báze úplných strediskových nákladov (orientuje stredisko na využitie kapacity – realizuje objemovú odchýlku) alebo cost+; nevytvára vnútorný zisk, slúži najmä na kontrolu hospodárnosti. VPC na báze zisku (so ziskovou prirážkou): stanovená nad úrovňou nákladov, vytvára vnútropodnikový zisk a motiváciu – vhodná pre ziskové, rentabilné a investičné strediská a pri ocenení finálnych výkonov mimo podnik. Pozor: nemá opodstatnenie vo výrobných strediskách v horizontálnej kooperácii, lebo by motivovala k nadvýrobe a hromadeniu zásob. Ďalšie typy: trhová VPC (porovnanie s externým prostredím), dohodnutá (subdodávky) a na báze oportunitných nákladov (variabilné náklady + ušlý zisk na úzkom mieste). Ak VPC ovplyvňuje VH medzi závislými osobami, vstupuje do transferového oceňovania (smernica OECD)."
+      },
+      {
+        "zaver": "Vopred stanovené náklady sú spoločný menovateľ celej témy: bez nich niet ani kalkulácie, ani rozpočtu, ani odchýlok. Rozbor odchýlok vždy rozlož na cenu a množstvo a priraď zodpovednosť. Voľba úplnej verzus neúplnej kalkulácie nie je len technická – mení ocenenie zásob, a tým súvahu aj výsledok hospodárenia, a má vplyv na motiváciu (výroba na sklad). Zodpovednostné účtovníctvo a vnútropodnikové ceny prenesú tieto princípy na riadenie ľudí a útvarov. A rozpočtovanie – inkrementálne, ZBB či ABB – určuje, ako vopred stanovené hodnoty vôbec vzniknú."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Prevádzkové rozpočty a sústava rozpočtov", "text": "Rozpočet vyjadruje plánované náklady, výnosy a ďalšie veličiny na celý objem výkonov útvaru/podniku za obdobie (na rozdiel od kalkulácie, ktorá je na 1 kalkulačnú jednotku). Funkcie: plánovacia, koordinačná, komunikačná, alokačná, kontrolná, motivačná a aktivačná (odhaľuje úzke miesta a duplicity). Sústava: hlavný (master) rozpočet podniku a prevádzkové rozpočty útvarov. Prevádzkové rozpočty (predaj, výroba, materiál, mzdy, réžie) ústia do rozpočtovej výsledovky; finančné rozpočty (cash flow, rozpočtová súvaha) dopĺňajú hlavný rozpočet. Východiskom je úzke miesto – spravidla objem odbytu: najprv sa stanoví optimálny sortiment a odbyt, potom potreba zdrojov vzhľadom na kapacity a stav zásob. Priame náklady v rozpočte = kalkulácia priamych nákladov na 1 KJ × plánovaný objem; réžia sa odvodzuje zo sadzieb, noriem a limitov."},
-    {"nadpis": "Inkrementálne rozpočtovanie", "text": "Vychádza z hodnôt minulého obdobia upravených o index (zmena úrovne aktivity, cien, plánované zníženie nákladov), prípadne s využitím variátorov. Variátor je pomerové číslo vyjadrujúce elasticitu nákladov voči zmene aktivity (fixné náklady → variátor 0; lineárne/proporcionálne → 1; zmiešané → interval 0 až 1). Výhody: stabilita sústavy rozpočtov, jednoduchá metodika, nízka prácnosť. Nevýhody: tlak 'minúť rozpočet za každú cenu' (úspory by znamenali nižší rozpočet budúci rok), nezohľadňuje zmeny východiskových predpokladov, nepodporuje zefektívnenie oproti východiskovému stavu (konzervuje aj neefektívnosť z minulosti)."},
-    {"nadpis": "Rozpočtovanie s nulovým základom (ZBB)", "text": "Zero-Based Budgeting odstraňuje nedostatky inkrementálnej metódy. Každá položka nákladov sa zdôvodňuje od nuly – akoby sa stredisko vytváralo nanovo; požiadavkám sa priradí stupeň priority (čo financovať prednostne). Praktický variant: stanoví sa minimum na 'prežitie' strediska pri nulovej úrovni aktivity a rozhodovacie scenáre, ako by sa náklady zmenili pri zvýšení aktivity o určité percento. Výhody: odhaľuje nehospodárne a neefektívne (duplicitné, nepotrebné) činnosti, eliminuje tlak čerpať rozpočet za každú cenu, koordinuje činnosti stredísk. Nevýhody: vysoká prácnosť a náročnosť, strata nadväznosti na aktuálnu situáciu, veľký objem informácií môže sťažiť rozhodovanie. Vhodné periodicky (nie každý rok) a pre režijné/správne útvary."},
-    {"nadpis": "Rozpočtovanie podľa čiastkových činností (ABB)", "text": "Activity-Based Budgeting nadväzuje na kalkuláciu ABC: využijú sa informácie o nákladoch na jednotlivé činnosti (aktivity), podľa predpokladaného objemu výkonov sa určí rozsah činností a z neho rozpočtované náklady. Logika je príčinná ('výkony spotrebúvajú aktivity, aktivity spotrebúvajú zdroje'), nie len objemová. Výhoda: presnejšie rozpočtovanie réžií pri rôznorodej produkcii, lepšie odhalenie nákladovo náročných činností. Nevýhoda: náročnosť na dáta o nositeľoch nákladov (cost drivers) a na údržbu modelu."},
-    {"nadpis": "Predbežné a výsledné kalkulácie ako rámec vopred stanovených nákladov", "text": "Vopred stanovené náklady vznikajú v predbežných kalkuláciách: prepočtová (hrubý odhad, nový/neopakovaný výrobok), plánová (priemerné náklady za plánovacie obdobie z plánových noriem) a operatívna (najpresnejšia, za konkrétnych aktuálnych podmienok – základ normovej metódy riadenia hospodárnosti). Výsledná kalkulácia zisťuje skutočné náklady po výkone; jej porovnanie s predbežnou dá odchýlky. Podmienka: predbežná a výsledná musia byť vecne a formálne porovnateľné."},
-    {"nadpis": "Flexibilný (variantný) rozpočet a kontrola", "text": "Pri kontrole variabilných nákladov sa skutočnosť neporovnáva s pôvodným pevným rozpočtom, ale s flexibilným rozpočtom prepočítaným na skutočne dosiahnutý objem. Inak by sa do odchýlky hospodárnosti chybne premietla aj odchýlka spôsobená iným objemom výroby. Flexibilný rozpočet tak izoluje to, čo stredisko reálne ovplyvnilo (hospodárnosť), od vplyvu objemu (zodpovednosť vedenia)."}
+    {
+      "nadpis": "Prevádzkové rozpočty a sústava rozpočtov",
+      "text": "Rozpočet vyjadruje plánované náklady, výnosy a ďalšie veličiny na celý objem výkonov útvaru/podniku za obdobie (na rozdiel od kalkulácie, ktorá je na 1 kalkulačnú jednotku). Funkcie: plánovacia, koordinačná, komunikačná, alokačná, kontrolná, motivačná a aktivačná (odhaľuje úzke miesta a duplicity). Sústava: hlavný (master) rozpočet podniku a prevádzkové rozpočty útvarov. Prevádzkové rozpočty (predaj, výroba, materiál, mzdy, réžie) ústia do rozpočtovej výsledovky; finančné rozpočty (cash flow, rozpočtová súvaha) dopĺňajú hlavný rozpočet. Východiskom je úzke miesto – spravidla objem odbytu: najprv sa stanoví optimálny sortiment a odbyt, potom potreba zdrojov vzhľadom na kapacity a stav zásob. Priame náklady v rozpočte = kalkulácia priamych nákladov na 1 KJ × plánovaný objem; réžia sa odvodzuje zo sadzieb, noriem a limitov."
+    },
+    {
+      "nadpis": "Inkrementálne rozpočtovanie",
+      "text": "Vychádza z hodnôt minulého obdobia upravených o index (zmena úrovne aktivity, cien, plánované zníženie nákladov), prípadne s využitím variátorov. Variátor je pomerové číslo vyjadrujúce elasticitu nákladov voči zmene aktivity (fixné náklady → variátor 0; lineárne/proporcionálne → 1; zmiešané → interval 0 až 1). Výhody: stabilita sústavy rozpočtov, jednoduchá metodika, nízka prácnosť. Nevýhody: tlak 'minúť rozpočet za každú cenu' (úspory by znamenali nižší rozpočet budúci rok), nezohľadňuje zmeny východiskových predpokladov, nepodporuje zefektívnenie oproti východiskovému stavu (konzervuje aj neefektívnosť z minulosti)."
+    },
+    {
+      "nadpis": "Rozpočtovanie s nulovým základom (ZBB)",
+      "text": "Zero-Based Budgeting odstraňuje nedostatky inkrementálnej metódy. Každá položka nákladov sa zdôvodňuje od nuly – akoby sa stredisko vytváralo nanovo; požiadavkám sa priradí stupeň priority (čo financovať prednostne). Praktický variant: stanoví sa minimum na 'prežitie' strediska pri nulovej úrovni aktivity a rozhodovacie scenáre, ako by sa náklady zmenili pri zvýšení aktivity o určité percento. Výhody: odhaľuje nehospodárne a neefektívne (duplicitné, nepotrebné) činnosti, eliminuje tlak čerpať rozpočet za každú cenu, koordinuje činnosti stredísk. Nevýhody: vysoká prácnosť a náročnosť, strata nadväznosti na aktuálnu situáciu, veľký objem informácií môže sťažiť rozhodovanie. Vhodné periodicky (nie každý rok) a pre režijné/správne útvary."
+    },
+    {
+      "nadpis": "Rozpočtovanie podľa čiastkových činností (ABB)",
+      "text": "Activity-Based Budgeting nadväzuje na kalkuláciu ABC: využijú sa informácie o nákladoch na jednotlivé činnosti (aktivity), podľa predpokladaného objemu výkonov sa určí rozsah činností a z neho rozpočtované náklady. Logika je príčinná ('výkony spotrebúvajú aktivity, aktivity spotrebúvajú zdroje'), nie len objemová. Výhoda: presnejšie rozpočtovanie réžií pri rôznorodej produkcii, lepšie odhalenie nákladovo náročných činností. Nevýhoda: náročnosť na dáta o nositeľoch nákladov (cost drivers) a na údržbu modelu."
+    },
+    {
+      "nadpis": "Predbežné a výsledné kalkulácie ako rámec vopred stanovených nákladov",
+      "text": "Vopred stanovené náklady vznikajú v predbežných kalkuláciách: prepočtová (hrubý odhad, nový/neopakovaný výrobok), plánová (priemerné náklady za plánovacie obdobie z plánových noriem) a operatívna (najpresnejšia, za konkrétnych aktuálnych podmienok – základ normovej metódy riadenia hospodárnosti). Výsledná kalkulácia zisťuje skutočné náklady po výkone; jej porovnanie s predbežnou dá odchýlky. Podmienka: predbežná a výsledná musia byť vecne a formálne porovnateľné."
+    },
+    {
+      "nadpis": "Flexibilný (variantný) rozpočet a kontrola",
+      "text": "Pri kontrole variabilných nákladov sa skutočnosť neporovnáva s pôvodným pevným rozpočtom, ale s flexibilným rozpočtom prepočítaným na skutočne dosiahnutý objem. Inak by sa do odchýlky hospodárnosti chybne premietla aj odchýlka spôsobená iným objemom výroby. Flexibilný rozpočet tak izoluje to, čo stredisko reálne ovplyvnilo (hospodárnosť), od vplyvu objemu (zodpovednosť vedenia)."
+    }
   ],
   "priklady": [
-    {"nazov": "Rozbor odchýlok materiálu – cenová a množstvová odchýlka", "zadanie": "Štandard: na 1 výrobok 3 kg materiálu pri cene 8 €/kg (štandardný materiálový náklad 24 €/ks). Skutočnosť: vyrobených 1 000 ks, spotrebovaných 3 300 kg pri cene 8,50 €/kg.", "riesenie": "Štandardné množstvo na skutočnú výrobu = 1 000 × 3 = 3 000 kg. Cenová (kvalitatívna) odchýlka = (ps − pp) × qs = (8,50 − 8,00) × 3 300 = +1 650 € (nepriaznivá – drahší nákup, zodpovedá nákup/zásobovanie). Spotrebná (kvantitatívna) odchýlka = (qs − qp) × pp = (3 300 − 3 000) × 8,00 = +2 400 € (nepriaznivá – vyššia spotreba/zmätky, zodpovedá výroba). Celková odchýlka = +4 050 €. Kontrola: skutočné náklady 3 300 × 8,50 = 28 050 €; štandardné 3 000 × 8,00 = 24 000 €; rozdiel 4 050 € = 1 650 + 2 400. Sedí.", "dopad_na_zd": "Manažérska informácia: prekročenie 4 050 € sa delí na 1 650 € z ceny a 2 400 € zo spotreby – cielené opatrenia podľa zodpovedného strediska."},
-    {"nazov": "Úplná vs. neúplná kalkulácia – vplyv na VH pri raste zásob", "zadanie": "Výroba 1 000 ks, predaj 800 ks (200 ks na sklade). Predajná cena 100 €/ks. Variabilné výrobné náklady 60 €/ks. Fixné výrobné náklady 20 000 € za obdobie. (Bez správnej a odbytovej réžie pre zjednodušenie.)", "riesenie": "VARIABILNÁ kalkulácia: tržby 800 × 100 = 80 000; variabilné náklady predaných 800 × 60 = 48 000; marža 32 000; mínus celé FN 20 000 (náklad obdobia) → VH = 12 000 €. Zásoby ocenené 200 × 60 = 12 000 € (len variabilné). ÚPLNÁ (absorpčná) kalkulácia: fixná réžia na 1 ks = 20 000 / 1 000 = 20 €; úplné výrobné náklady 80 €/ks. Náklady predaných 800 × 80 = 64 000; tržby 80 000 → VH = 16 000 €. Zásoby ocenené 200 × 80 = 16 000 € (variabilné + fixné). Rozdiel VH = 16 000 − 12 000 = 4 000 € = fixná réžia 'zaparkovaná' v 200 ks na sklade (200 × 20 €). Absorpčná metóda vykáže pri raste zásob vyšší zisk.", "dopad_na_zd": "Pri raste zásob: úplná kalkulácia VH vyšší (FN odsunuté do súvahy v zásobách); pri poklese zásob naopak nižší; pri nezmenených zásobách rovnaký. Pre závierku sa zásoby oceňujú vlastnými nákladmi (vrátane výrobnej réžie) – t. j. absorpčný prístup."},
-    {"nazov": "Aktivácia nákladov na výrobu DM vlastnou činnosťou", "zadanie": "Podnik si svojpomocne vyrobil výrobnú linku. Druhové náklady počas roka: spotreba materiálu 30 000 € (501), mzdy 18 000 € (521), odpisy použitých strojov 4 000 € (551). Po dokončení sa linka zaradí do dlhodobého majetku.", "uctovanie": [{"rok": "rok výroby", "md": "501/521/551", "d": "rôzne", "suma": 52000, "popis": "Bežné druhové náklady na výrobu linky (znižujú VH v priebehu roka)"}, {"rok": "rok výroby", "md": "042", "d": "624", "suma": 52000, "popis": "Aktivácia dlhodobého hmotného majetku – obstaranie DM (624 = výnosová položka aktivácie)"}, {"rok": "rok výroby", "md": "022", "d": "042", "suma": 52000, "popis": "Zaradenie linky do užívania"}], "riesenie": "Druhové náklady 52 000 € by samy znížili VH. Aktiváciou (042/624) sa vytvorí v súvahe majetok 52 000 € a vo výkaze ziskov a strát vznikne výnosová položka aktivácie 624, ktorá kompenzuje druhové náklady – čistý vplyv na VH roku výroby je nulový. Náklad sa premietne do VH až postupne cez odpisy linky v ďalších rokoch. Vplyv na súvahu: rast dlhodobého majetku o 52 000 €.", "dopad_na_zd": "Súvaha: +52 000 € DM. VZaS rok výroby: náklady 52 000 kompenzované aktiváciou 624 → VH neovplyvnený; v ďalších rokoch náklad cez odpisy."},
-    {"nazov": "Vnútropodniková cena na báze nákladov vs. na báze zisku", "zadanie": "Výrobné stredisko A odovzdáva polotovar montážnemu stredisku B. Vopred stanovené vlastné náklady polotovaru = 40 €/ks. Variant 1: VPC na báze úplných nákladov 40 €. Variant 2: VPC so ziskovou prirážkou 15 % = 46 €.", "riesenie": "Variant 1 (báza nákladov): A nevykazuje vnútorný zisk, B preberá za 40 €; rozdiel medzi 40 € a skutočnými nákladmi A = odchýlka, ktorá ukáže hospodárnosť strediska A. Vhodné pre nákladové stredisko v direktívnom riadení. Variant 2 (báza zisku): A vykáže vnútropodnikový zisk 6 €/ks → motivácia k objemu/kvalite; vhodné, ak má A právomoci ovplyvňovať objem a sortiment (profit/investičné centrum). Riziko: v horizontálnej kooperácii výrobných stredísk by zisková VPC motivovala k nadvýrobe a hromadeniu zásob – preto sa tam neodporúča.", "dopad_na_zd": "Báza nákladov = nástroj kontroly hospodárnosti (bez vnútorného zisku). Báza zisku = nástroj motivácie (vytvára strediskový zisk), ale s rizikom suboptimalizácie."},
-    {"nazov": "ZBB vs. inkrementálne rozpočtovanie réžie", "zadanie": "Marketingové oddelenie malo vlani rozpočet 100 000 €. Pri zostavovaní rozpočtu na ďalší rok porovnajte inkrementálny prístup (index +3 % na infláciu) a ZBB.", "riesenie": "INKREMENTÁLNE: 100 000 × 1,03 = 103 000 €. Východiskom je minulý rok; ak vlani rozpočet obsahoval neefektívne alebo duplicitné aktivity, prenesú sa ďalej (konzervuje sa neefektívnosť) a vzniká tlak minúť celých 100 000 €, aby sa rozpočet neskrátil. ZBB: každá aktivita (kampane, veľtrhy, nástroje) sa odôvodní od nuly a zoradí podľa priority; minimum na 'prežitie' útvaru + scenáre pri vyššej aktivite. Výsledkom môže byť napr. 85 000 € po vyradení duplicít, alebo presun prostriedkov na prioritnejšie aktivity. Cena: výrazne vyššia prácnosť a strata nadväznosti na aktuálny stav.", "dopad_na_zd": "Inkrementálne = rýchle, stabilné, ale konzervuje neefektívnosť a tlačí na čerpanie. ZBB = odhalí neefektívnosti a zastaví automatické čerpanie, ale je prácne (vhodné periodicky)."}
+    {
+      "nazov": "Rozbor odchýlok materiálu – cenová a množstvová odchýlka",
+      "zadanie": "Štandard: na 1 výrobok 3 kg materiálu pri cene 8 €/kg (štandardný materiálový náklad 24 €/ks). Skutočnosť: vyrobených 1 000 ks, spotrebovaných 3 300 kg pri cene 8,50 €/kg.",
+      "riesenie": "Štandardné množstvo na skutočnú výrobu = 1 000 × 3 = 3 000 kg. Cenová (kvalitatívna) odchýlka = (ps − pp) × qs = (8,50 − 8,00) × 3 300 = +1 650 € (nepriaznivá – drahší nákup, zodpovedá nákup/zásobovanie). Spotrebná (kvantitatívna) odchýlka = (qs − qp) × pp = (3 300 − 3 000) × 8,00 = +2 400 € (nepriaznivá – vyššia spotreba/zmätky, zodpovedá výroba). Celková odchýlka = +4 050 €. Kontrola: skutočné náklady 3 300 × 8,50 = 28 050 €; štandardné 3 000 × 8,00 = 24 000 €; rozdiel 4 050 € = 1 650 + 2 400. Sedí.",
+      "dopad_na_zd": "Manažérska informácia: prekročenie 4 050 € sa delí na 1 650 € z ceny a 2 400 € zo spotreby – cielené opatrenia podľa zodpovedného strediska."
+    },
+    {
+      "nazov": "Úplná vs. neúplná kalkulácia – vplyv na VH pri raste zásob",
+      "zadanie": "Výroba 1 000 ks, predaj 800 ks (200 ks na sklade). Predajná cena 100 €/ks. Variabilné výrobné náklady 60 €/ks. Fixné výrobné náklady 20 000 € za obdobie. (Bez správnej a odbytovej réžie pre zjednodušenie.)",
+      "riesenie": "VARIABILNÁ kalkulácia: tržby 800 × 100 = 80 000; variabilné náklady predaných 800 × 60 = 48 000; marža 32 000; mínus celé FN 20 000 (náklad obdobia) → VH = 12 000 €. Zásoby ocenené 200 × 60 = 12 000 € (len variabilné). ÚPLNÁ (absorpčná) kalkulácia: fixná réžia na 1 ks = 20 000 / 1 000 = 20 €; úplné výrobné náklady 80 €/ks. Náklady predaných 800 × 80 = 64 000; tržby 80 000 → VH = 16 000 €. Zásoby ocenené 200 × 80 = 16 000 € (variabilné + fixné). Rozdiel VH = 16 000 − 12 000 = 4 000 € = fixná réžia 'zaparkovaná' v 200 ks na sklade (200 × 20 €). Absorpčná metóda vykáže pri raste zásob vyšší zisk.",
+      "dopad_na_zd": "Pri raste zásob: úplná kalkulácia VH vyšší (FN odsunuté do súvahy v zásobách); pri poklese zásob naopak nižší; pri nezmenených zásobách rovnaký. Pre závierku sa zásoby oceňujú vlastnými nákladmi (vrátane výrobnej réžie) – t. j. absorpčný prístup."
+    },
+    {
+      "nazov": "Aktivácia nákladov na výrobu DM vlastnou činnosťou",
+      "zadanie": "Podnik si svojpomocne vyrobil výrobnú linku. Druhové náklady počas roka: spotreba materiálu 30 000 € (501), mzdy 18 000 € (521), odpisy použitých strojov 4 000 € (551). Po dokončení sa linka zaradí do dlhodobého majetku.",
+      "uctovanie": [
+        {
+          "rok": "rok výroby",
+          "md": "501/521/551",
+          "d": "rôzne",
+          "suma": 52000,
+          "popis": "Bežné druhové náklady na výrobu linky (znižujú VH v priebehu roka)"
+        },
+        {
+          "rok": "rok výroby",
+          "md": "042",
+          "d": "624",
+          "suma": 52000,
+          "popis": "Aktivácia dlhodobého hmotného majetku – obstaranie DM (624 = výnosová položka aktivácie)"
+        },
+        {
+          "rok": "rok výroby",
+          "md": "022",
+          "d": "042",
+          "suma": 52000,
+          "popis": "Zaradenie linky do užívania"
+        }
+      ],
+      "riesenie": "Druhové náklady 52 000 € by samy znížili VH. Aktiváciou (042/624) sa vytvorí v súvahe majetok 52 000 € a vo výkaze ziskov a strát vznikne výnosová položka aktivácie 624, ktorá kompenzuje druhové náklady – čistý vplyv na VH roku výroby je nulový. Náklad sa premietne do VH až postupne cez odpisy linky v ďalších rokoch. Vplyv na súvahu: rast dlhodobého majetku o 52 000 €.",
+      "dopad_na_zd": "Súvaha: +52 000 € DM. VZaS rok výroby: náklady 52 000 kompenzované aktiváciou 624 → VH neovplyvnený; v ďalších rokoch náklad cez odpisy."
+    },
+    {
+      "nazov": "Vnútropodniková cena na báze nákladov vs. na báze zisku",
+      "zadanie": "Výrobné stredisko A odovzdáva polotovar montážnemu stredisku B. Vopred stanovené vlastné náklady polotovaru = 40 €/ks. Variant 1: VPC na báze úplných nákladov 40 €. Variant 2: VPC so ziskovou prirážkou 15 % = 46 €.",
+      "riesenie": "Variant 1 (báza nákladov): A nevykazuje vnútorný zisk, B preberá za 40 €; rozdiel medzi 40 € a skutočnými nákladmi A = odchýlka, ktorá ukáže hospodárnosť strediska A. Vhodné pre nákladové stredisko v direktívnom riadení. Variant 2 (báza zisku): A vykáže vnútropodnikový zisk 6 €/ks → motivácia k objemu/kvalite; vhodné, ak má A právomoci ovplyvňovať objem a sortiment (profit/investičné centrum). Riziko: v horizontálnej kooperácii výrobných stredísk by zisková VPC motivovala k nadvýrobe a hromadeniu zásob – preto sa tam neodporúča.",
+      "dopad_na_zd": "Báza nákladov = nástroj kontroly hospodárnosti (bez vnútorného zisku). Báza zisku = nástroj motivácie (vytvára strediskový zisk), ale s rizikom suboptimalizácie."
+    },
+    {
+      "nazov": "ZBB vs. inkrementálne rozpočtovanie réžie",
+      "zadanie": "Marketingové oddelenie malo vlani rozpočet 100 000 €. Pri zostavovaní rozpočtu na ďalší rok porovnajte inkrementálny prístup (index +3 % na infláciu) a ZBB.",
+      "riesenie": "INKREMENTÁLNE: 100 000 × 1,03 = 103 000 €. Východiskom je minulý rok; ak vlani rozpočet obsahoval neefektívne alebo duplicitné aktivity, prenesú sa ďalej (konzervuje sa neefektívnosť) a vzniká tlak minúť celých 100 000 €, aby sa rozpočet neskrátil. ZBB: každá aktivita (kampane, veľtrhy, nástroje) sa odôvodní od nuly a zoradí podľa priority; minimum na 'prežitie' útvaru + scenáre pri vyššej aktivite. Výsledkom môže byť napr. 85 000 € po vyradení duplicít, alebo presun prostriedkov na prioritnejšie aktivity. Cena: výrazne vyššia prácnosť a strata nadväznosti na aktuálny stav.",
+      "dopad_na_zd": "Inkrementálne = rýchle, stabilné, ale konzervuje neefektívnosť a tlačí na čerpanie. ZBB = odhalí neefektívnosti a zastaví automatické čerpanie, ale je prácne (vhodné periodicky)."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/ING_I_10_uplne_vs_neuplne_kalkulovanie.svg", "typ": "schéma", "popis": "Úplná (absorpčná) vs. neúplná (variabilná) kalkulácia: čo sa naloží na výrobok, kde končia fixné náklady, vplyv na ocenenie zásob (súvaha) a na výsledok hospodárenia pri raste zásob."},
-    {"subor": "03_Vizualy/ING_I_10_metody_rozpoctovania.svg", "typ": "schéma", "popis": "Tri metódy zostavovania prevádzkových rozpočtov – inkrementálne (minulosť + index), ZBB (od nuly s odôvodnením) a ABB (cez náklady činností) – s východiskom, výhodami a nevýhodami."}
+    {
+      "subor": "03_Vizualy/ING_I_10_uplne_vs_neuplne_kalkulovanie.svg",
+      "typ": "schéma",
+      "popis": "Úplná (absorpčná) vs. neúplná (variabilná) kalkulácia: čo sa naloží na výrobok, kde končia fixné náklady, vplyv na ocenenie zásob (súvaha) a na výsledok hospodárenia pri raste zásob."
+    },
+    {
+      "subor": "03_Vizualy/ING_I_10_metody_rozpoctovania.svg",
+      "typ": "schéma",
+      "popis": "Tri metódy zostavovania prevádzkových rozpočtov – inkrementálne (minulosť + index), ZBB (od nuly s odôvodnením) a ABB (cez náklady činností) – s východiskom, výhodami a nevýhodami."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Na ktoré dve zložky rozkladáme každú nákladovú odchýlku a aké sú vzorce?", "odpoved": "Na kvalitatívnu (cenovú) a kvantitatívnu (množstvovú/spotrebnú). Cenová = (skutočná cena − plánovaná cena) × skutočné množstvo; množstvová = (skutočné množstvo − plánované množstvo) × plánovaná cena. Súčet = celková odchýlka."},
-    {"otazka": "Prečo úplná kalkulácia môže motivovať 'výrobu na sklad'?", "odpoved": "Lebo fixné výrobné náklady sa naložia na výrobky a časť z nich sa pri raste zásob 'zaparkuje' v ocenení zásob v súvahe (odsunie sa do budúceho obdobia). Zisk tak rastie aj bez rastu tržieb. Variabilná kalkulácia tento efekt nemá – FN sú vždy nákladom obdobia."},
-    {"otazka": "Ako sa pre účtovnú závierku oceňujú zásoby vlastnej výroby a čo z toho vyplýva pre voľbu kalkulácie?", "odpoved": "Vlastnými nákladmi, ktoré zahŕňajú priame náklady aj primeranú časť výrobnej réžie – teda ocenenie je blízke úplnej (absorpčnej) kalkulácii. Ocenenie len na úrovni variabilných nákladov spravidla nie je pre závierku prípustné. Variabilná kalkulácia je preto nástroj riadenia, nie ocenenia v závierke."},
-    {"otazka": "Čo je aktivácia nákladov a ako vplýva na súvahu a výkaz ziskov a strát?", "odpoved": "Aktivácia premení vlastné náklady vynaložené na vytvorenie majetku (zásob alebo DM) z bežného nákladu na majetok. V súvahe vznikne aktívum (zásoby triedy 12 alebo DM), vo VZaS sa druhové náklady kompenzujú výnosovou položkou aktivácie (62x), resp. zmenou stavu zásob (611) – náklad sa do VH premietne až cez spotrebu/predaj alebo odpisy."},
-    {"otazka": "Aký je rozdiel medzi vnútropodnikovou cenou na báze nákladov a na báze zisku?", "odpoved": "Na báze nákladov nevytvára vnútorný zisk a slúži na kontrolu hospodárnosti (vhodná pre nákladové strediská). Na báze zisku obsahuje ziskovú prirážku, vytvára strediskový zisk a motiváciu (vhodná pre ziskové/investičné strediská a finálne výkony mimo podnik); vo výrobnej kooperácii by mohla viesť k nadvýrobe."},
-    {"otazka": "Aký je rozdiel medzi inkrementálnym rozpočtovaním a ZBB?", "odpoved": "Inkrementálne vychádza z minulého rozpočtu + index – je jednoduché a stabilné, ale konzervuje neefektívnosť a tlačí na čerpanie. ZBB zostavuje rozpočet od nuly s odôvodnením a prioritami každej položky – odhalí neefektívnosti, ale je veľmi prácne."},
-    {"otazka": "Kto zvyčajne zodpovedá za spotrebnú a kto za objemovú odchýlku réžie?", "odpoved": "Spotrebná (rozpočtová) odchýlka = stredisko, kde réžia vznikla (hospodárnosť). Objemová (kapacitná) odchýlka = spravidla vedenie podniku (nevyužitá/iná kapacita). Pri jemnejších metódach sa objemová delí na výkonnostnú (stredisko – neproduktívne využitie) a kapacitnú (vedenie)."},
-    {"otazka": "Čím sa líši kalkulácia od rozpočtu?", "odpoved": "Kalkulácia je na 1 kalkulačnú jednotku (výrobok), rozpočet na celý objem/útvar za obdobie. Predbežná kalkulácia priamych nákladov × plánovaný objem tvorí časť rozpočtu priamych nákladov."}
+    {
+      "otazka": "Na ktoré dve zložky rozkladáme každú nákladovú odchýlku a aké sú vzorce?",
+      "odpoved": "Na kvalitatívnu (cenovú) a kvantitatívnu (množstvovú/spotrebnú). Cenová = (skutočná cena − plánovaná cena) × skutočné množstvo; množstvová = (skutočné množstvo − plánované množstvo) × plánovaná cena. Súčet = celková odchýlka.",
+      "moznosti": [
+        "Na cenovú = (skut. cena − plán. cena) × plánované množstvo; množstvovú = (skut. množstvo − plán. množstvo) × skutočná cena.",
+        "Na cenovú = (skut. cena − plán. cena) × skutočné množstvo; množstvovú = (skut. množstvo − plán. množstvo) × plánovaná cena. Súčet = celková odchýlka.",
+        "Na fixnú a variabilnú zložku; fixná = (skut. − plán. cena), variabilná = (skut. − plán. množstvo).",
+        "Na cenovú a množstvovú, pričom obe sa vážia skutočným množstvom aj skutočnou cenou."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Na kvalitatívnu (cenovú) a kvantitatívnu (množstvovú/spotrebnú). Cenová = (skutočná cena − plánovaná cena) × skutočné množstvo; množstvová = (skutočné množstvo − plánované množstvo) × plánovaná cena. Súčet = celková odchýlka."
+    },
+    {
+      "otazka": "Prečo úplná kalkulácia môže motivovať 'výrobu na sklad'?",
+      "odpoved": "Lebo fixné výrobné náklady sa naložia na výrobky a časť z nich sa pri raste zásob 'zaparkuje' v ocenení zásob v súvahe (odsunie sa do budúceho obdobia). Zisk tak rastie aj bez rastu tržieb. Variabilná kalkulácia tento efekt nemá – FN sú vždy nákladom obdobia.",
+      "moznosti": [
+        "Lebo fixné výrobné náklady sa naložia na výrobky a časť z nich sa pri raste zásob zaparkuje v ocenení zásob v súvahe; zisk rastie aj bez rastu tržieb.",
+        "Lebo variabilné náklady sa pri raste zásob presunú do nákladov budúcich období a znížia náklady obdobia.",
+        "Lebo fixné náklady sú vždy nákladom obdobia, takže rast zásob automaticky zvyšuje maržu.",
+        "Lebo úplná kalkulácia účtuje tržby už pri výrobe, nie až pri predaji výrobkov."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Lebo fixné výrobné náklady sa naložia na výrobky a časť z nich sa pri raste zásob 'zaparkuje' v ocenení zásob v súvahe (odsunie sa do budúceho obdobia). Zisk tak rastie aj bez rastu tržieb. Variabilná kalkulácia tento efekt nemá – FN sú vždy nákladom obdobia."
+    },
+    {
+      "otazka": "Ako sa pre účtovnú závierku oceňujú zásoby vlastnej výroby a čo z toho vyplýva pre voľbu kalkulácie?",
+      "odpoved": "Vlastnými nákladmi, ktoré zahŕňajú priame náklady aj primeranú časť výrobnej réžie – teda ocenenie je blízke úplnej (absorpčnej) kalkulácii. Ocenenie len na úrovni variabilných nákladov spravidla nie je pre závierku prípustné. Variabilná kalkulácia je preto nástroj riadenia, nie ocenenia v závierke.",
+      "moznosti": [
+        "Iba variabilnými nákladmi; ocenenie vrátane výrobnej réžie nie je pre závierku prípustné, preto je úplná kalkulácia len nástroj riadenia.",
+        "Reálnou hodnotou ku dňu závierky; variabilná kalkulácia sa použije pri ocenení a absorpčná pri riadení.",
+        "Vlastnými nákladmi vrátane priamych nákladov aj primeranej časti výrobnej réžie (blízko úplnej kalkulácii); variabilná kalkulácia je nástroj riadenia, nie ocenenia v závierke.",
+        "Obstarávacou cenou podobných výrobkov na trhu; voľba kalkulácie nemá vplyv na ocenenie zásob."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Vlastnými nákladmi, ktoré zahŕňajú priame náklady aj primeranú časť výrobnej réžie – teda ocenenie je blízke úplnej (absorpčnej) kalkulácii. Ocenenie len na úrovni variabilných nákladov spravidla nie je pre závierku prípustné. Variabilná kalkulácia je preto nástroj riadenia, nie ocenenia v závierke."
+    },
+    {
+      "otazka": "Čo je aktivácia nákladov a ako vplýva na súvahu a výkaz ziskov a strát?",
+      "odpoved": "Aktivácia premení vlastné náklady vynaložené na vytvorenie majetku (zásob alebo DM) z bežného nákladu na majetok. V súvahe vznikne aktívum (zásoby triedy 12 alebo DM), vo VZaS sa druhové náklady kompenzujú výnosovou položkou aktivácie (62x), resp. zmenou stavu zásob (611) – náklad sa do VH premietne až cez spotrebu/predaj alebo odpisy.",
+      "moznosti": [
+        "Aktivácia účtuje predaj majetku ako tržbu; v súvahe rastú pohľadávky a vo VZaS vznikne výnos z predaja.",
+        "Aktivácia presunie náklady do nákladov budúcich období bez vplyvu na súvahu, ovplyvní len výkaz ziskov a strát.",
+        "Aktivácia okamžite zvýši výsledok hospodárenia o predajnú cenu vytvoreného majetku.",
+        "Aktivácia premení vlastné náklady na majetok: v súvahe vznikne aktívum, vo VZaS sa druhové náklady kompenzujú výnosovou položkou aktivácie (62x) resp. zmenou stavu zásob (611); náklad sa premietne až cez spotrebu/predaj alebo odpisy."
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Aktivácia premení vlastné náklady vynaložené na vytvorenie majetku (zásob alebo DM) z bežného nákladu na majetok. V súvahe vznikne aktívum (zásoby triedy 12 alebo DM), vo VZaS sa druhové náklady kompenzujú výnosovou položkou aktivácie (62x), resp. zmenou stavu zásob (611) – náklad sa do VH premietne až cez spotrebu/predaj alebo odpisy."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi vnútropodnikovou cenou na báze nákladov a na báze zisku?",
+      "odpoved": "Na báze nákladov nevytvára vnútorný zisk a slúži na kontrolu hospodárnosti (vhodná pre nákladové strediská). Na báze zisku obsahuje ziskovú prirážku, vytvára strediskový zisk a motiváciu (vhodná pre ziskové/investičné strediská a finálne výkony mimo podnik); vo výrobnej kooperácii by mohla viesť k nadvýrobe.",
+      "moznosti": [
+        "Na báze nákladov obsahuje ziskovú prirážku a motivuje strediská; na báze zisku slúži len na kontrolu hospodárnosti.",
+        "Na báze nákladov nevytvára vnútorný zisk a slúži na kontrolu hospodárnosti (nákladové strediská); na báze zisku obsahuje ziskovú prirážku, vytvára strediskový zisk a motiváciu (ziskové/investičné strediská).",
+        "Obe vytvárajú vnútorný zisk; líšia sa len tým, či sa použijú variabilné alebo úplné náklady.",
+        "Na báze nákladov sa odvodzuje z trhovej ceny, na báze zisku z oportunitných nákladov na úzkom mieste."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Na báze nákladov nevytvára vnútorný zisk a slúži na kontrolu hospodárnosti (vhodná pre nákladové strediská). Na báze zisku obsahuje ziskovú prirážku, vytvára strediskový zisk a motiváciu (vhodná pre ziskové/investičné strediská a finálne výkony mimo podnik); vo výrobnej kooperácii by mohla viesť k nadvýrobe."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi inkrementálnym rozpočtovaním a ZBB?",
+      "odpoved": "Inkrementálne vychádza z minulého rozpočtu + index – je jednoduché a stabilné, ale konzervuje neefektívnosť a tlačí na čerpanie. ZBB zostavuje rozpočet od nuly s odôvodnením a prioritami každej položky – odhalí neefektívnosti, ale je veľmi prácne.",
+      "moznosti": [
+        "Inkrementálne zostavuje rozpočet od nuly s prioritami; ZBB vychádza z minulého rozpočtu + index a je jednoduchšie.",
+        "Inkrementálne aj ZBB vychádzajú z minulého rozpočtu, líšia sa len v použitom indexe inflácie.",
+        "Inkrementálne vychádza z nákladov jednotlivých činností; ZBB z minulého rozpočtu upraveného variátormi.",
+        "Inkrementálne vychádza z minulého rozpočtu + index (jednoduché, ale konzervuje neefektívnosť); ZBB zostavuje rozpočet od nuly s odôvodnením a prioritami (odhalí neefektívnosti, ale je prácne)."
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Inkrementálne vychádza z minulého rozpočtu + index – je jednoduché a stabilné, ale konzervuje neefektívnosť a tlačí na čerpanie. ZBB zostavuje rozpočet od nuly s odôvodnením a prioritami každej položky – odhalí neefektívnosti, ale je veľmi prácne."
+    },
+    {
+      "otazka": "Kto zvyčajne zodpovedá za spotrebnú a kto za objemovú odchýlku réžie?",
+      "odpoved": "Spotrebná (rozpočtová) odchýlka = stredisko, kde réžia vznikla (hospodárnosť). Objemová (kapacitná) odchýlka = spravidla vedenie podniku (nevyužitá/iná kapacita). Pri jemnejších metódach sa objemová delí na výkonnostnú (stredisko – neproduktívne využitie) a kapacitnú (vedenie).",
+      "moznosti": [
+        "Spotrebná (rozpočtová) = stredisko, kde réžia vznikla (hospodárnosť); objemová (kapacitná) = spravidla vedenie podniku (nevyužitá/iná kapacita).",
+        "Spotrebná = vedenie podniku; objemová = stredisko, kde réžia vznikla.",
+        "Obe odchýlky zodpovedá výlučne nákupné oddelenie, ktoré obstaráva vstupy do réžie.",
+        "Spotrebná = zákazník svojou objednávkou; objemová = výrobné stredisko bez ohľadu na kapacitu."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Spotrebná (rozpočtová) odchýlka = stredisko, kde réžia vznikla (hospodárnosť). Objemová (kapacitná) odchýlka = spravidla vedenie podniku (nevyužitá/iná kapacita). Pri jemnejších metódach sa objemová delí na výkonnostnú (stredisko – neproduktívne využitie) a kapacitnú (vedenie)."
+    },
+    {
+      "otazka": "Čím sa líši kalkulácia od rozpočtu?",
+      "odpoved": "Kalkulácia je na 1 kalkulačnú jednotku (výrobok), rozpočet na celý objem/útvar za obdobie. Predbežná kalkulácia priamych nákladov × plánovaný objem tvorí časť rozpočtu priamych nákladov.",
+      "moznosti": [
+        "Kalkulácia je na celý objem/útvar za obdobie, rozpočet na 1 kalkulačnú jednotku výrobku.",
+        "Kalkulácia aj rozpočet sú vždy na 1 kalkulačnú jednotku; líšia sa len obdobím, na ktoré sa zostavujú.",
+        "Kalkulácia je na 1 kalkulačnú jednotku (výrobok), rozpočet na celý objem/útvar za obdobie; predbežná kalkulácia priamych nákladov × plánovaný objem tvorí časť rozpočtu priamych nákladov.",
+        "Kalkulácia obsahuje len fixné náklady, rozpočet len variabilné náklady útvaru."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Kalkulácia je na 1 kalkulačnú jednotku (výrobok), rozpočet na celý objem/útvar za obdobie. Predbežná kalkulácia priamych nákladov × plánovaný objem tvorí časť rozpočtu priamych nákladov."
+    }
   ],
   "pasce_caste_chyby": [
     "Zamieňať cenovú a množstvovú odchýlku alebo ich váhovať nesprávnym množstvom (cenová sa násobí SKUTOČNÝM množstvom, množstvová PLÁNOVANOU cenou).",
@@ -86,29 +301,128 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Cenová (kvalitatívna) odchýlka materiálu sa vypočíta ako:", "moznosti": ["(skut. množstvo − plán. množstvo) × plán. cena", "(skut. cena − plán. cena) × skutočné množstvo", "(skut. cena − plán. cena) × plánované množstvo", "skut. náklady − plán. náklady celkovo"], "spravna_index": 1, "vysvetlenie": "Cenová odchýlka = (ps − pp) × qs – rozdiel cien sa váži skutočne spotrebovaným množstvom. Množstvová = (qs − qp) × pp."},
-      {"otazka": "Pri raste stavu zásob hotových výrobkov vykáže oproti variabilnej kalkulácii úplná (absorpčná) kalkulácia výsledok hospodárenia:", "moznosti": ["vždy nižší", "vždy rovnaký", "vyšší (časť FN ostáva v ocenení zásob)", "nedá sa porovnať"], "spravna_index": 2, "vysvetlenie": "Absorpčná metóda 'uskladní' časť fixnej réžie v ocenení zásob v súvahe; do VZaS vstúpi až pri predaji, preto je pri raste zásob VH vyšší."},
-      {"otazka": "Aktivácia výroby dlhodobého majetku vlastnou činnosťou (042/624) má v roku výroby vplyv na:", "moznosti": ["zníženie tržieb", "vznik majetku v súvahe a kompenzáciu nákladov vo VZaS (VH ~ neovplyvnený)", "okamžité zvýšenie VH o predajnú cenu", "len na výkaz ziskov a strát, súvahu nie"], "spravna_index": 1, "vysvetlenie": "Aktivácia vytvorí v súvahe majetok a vo VZaS výnosovú položku aktivácie, ktorá kompenzuje druhové náklady; náklad sa premietne až cez odpisy v ďalších rokoch."},
-      {"otazka": "Vnútropodniková cena so ziskovou prirážkou je najvhodnejšia pre:", "moznosti": ["nákladové stredisko v direktívnom riadení", "výrobné strediská v horizontálnej kooperácii", "ziskové, rentabilné a investičné strediská", "výlučne správne útvary"], "spravna_index": 2, "vysvetlenie": "Zisková VPC motivuje a vytvára strediskový zisk – vhodná tam, kde stredisko ovplyvňuje objem a sortiment. Vo výrobnej kooperácii by viedla k nadvýrobe."},
-      {"otazka": "Ktorá metóda rozpočtovania zdôvodňuje každú položku od nuly?", "moznosti": ["inkrementálne rozpočtovanie", "rozpočtovanie s nulovým základom (ZBB)", "rozpočtovanie podľa čiastkových činností (ABB)", "kĺzavé rozpočtovanie"], "spravna_index": 1, "vysvetlenie": "ZBB zostavuje rozpočet od nuly s odôvodnením a prioritami – odhalí neefektívnosti, ale je prácne. ABB vychádza z nákladov činností, inkrementálne z minulosti + index."},
-      {"otazka": "Spotrebná (rozpočtová) odchýlka réžie je primárne zodpovednosťou:", "moznosti": ["vedenia podniku", "strediska, kde réžia vznikla", "zákazníka", "nákupného oddelenia vždy"], "spravna_index": 1, "vysvetlenie": "Spotrebná odchýlka réžie meria hospodárnosť strediska, ktorého réžie sa týka. Objemová (kapacitná) odchýlka je spravidla zodpovednosťou vedenia."}
+      {
+        "otazka": "Cenová (kvalitatívna) odchýlka materiálu sa vypočíta ako:",
+        "moznosti": [
+          "(skut. množstvo − plán. množstvo) × plán. cena",
+          "(skut. cena − plán. cena) × skutočné množstvo",
+          "(skut. cena − plán. cena) × plánované množstvo",
+          "skut. náklady − plán. náklady celkovo"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Cenová odchýlka = (ps − pp) × qs – rozdiel cien sa váži skutočne spotrebovaným množstvom. Množstvová = (qs − qp) × pp."
+      },
+      {
+        "otazka": "Pri raste stavu zásob hotových výrobkov vykáže oproti variabilnej kalkulácii úplná (absorpčná) kalkulácia výsledok hospodárenia:",
+        "moznosti": [
+          "vždy nižší",
+          "vždy rovnaký",
+          "vyšší (časť FN ostáva v ocenení zásob)",
+          "nedá sa porovnať"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Absorpčná metóda 'uskladní' časť fixnej réžie v ocenení zásob v súvahe; do VZaS vstúpi až pri predaji, preto je pri raste zásob VH vyšší."
+      },
+      {
+        "otazka": "Aktivácia výroby dlhodobého majetku vlastnou činnosťou (042/624) má v roku výroby vplyv na:",
+        "moznosti": [
+          "zníženie tržieb",
+          "vznik majetku v súvahe a kompenzáciu nákladov vo VZaS (VH ~ neovplyvnený)",
+          "okamžité zvýšenie VH o predajnú cenu",
+          "len na výkaz ziskov a strát, súvahu nie"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Aktivácia vytvorí v súvahe majetok a vo VZaS výnosovú položku aktivácie, ktorá kompenzuje druhové náklady; náklad sa premietne až cez odpisy v ďalších rokoch."
+      },
+      {
+        "otazka": "Vnútropodniková cena so ziskovou prirážkou je najvhodnejšia pre:",
+        "moznosti": [
+          "nákladové stredisko v direktívnom riadení",
+          "výrobné strediská v horizontálnej kooperácii",
+          "ziskové, rentabilné a investičné strediská",
+          "výlučne správne útvary"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Zisková VPC motivuje a vytvára strediskový zisk – vhodná tam, kde stredisko ovplyvňuje objem a sortiment. Vo výrobnej kooperácii by viedla k nadvýrobe."
+      },
+      {
+        "otazka": "Ktorá metóda rozpočtovania zdôvodňuje každú položku od nuly?",
+        "moznosti": [
+          "inkrementálne rozpočtovanie",
+          "rozpočtovanie s nulovým základom (ZBB)",
+          "rozpočtovanie podľa čiastkových činností (ABB)",
+          "kĺzavé rozpočtovanie"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "ZBB zostavuje rozpočet od nuly s odôvodnením a prioritami – odhalí neefektívnosti, ale je prácne. ABB vychádza z nákladov činností, inkrementálne z minulosti + index."
+      },
+      {
+        "otazka": "Spotrebná (rozpočtová) odchýlka réžie je primárne zodpovednosťou:",
+        "moznosti": [
+          "vedenia podniku",
+          "strediska, kde réžia vznikla",
+          "zákazníka",
+          "nákupného oddelenia vždy"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Spotrebná odchýlka réžie meria hospodárnosť strediska, ktorého réžie sa týka. Objemová (kapacitná) odchýlka je spravidla zodpovednosťou vedenia."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite rozklad nákladovej odchýlky na cenovú a množstvovú zložku a uveďte vzorce.", "vzorova_odpoved": "Celková odchýlka = skutočné − vopred stanovené náklady. Rozkladá sa na cenovú (kvalitatívnu) = (ps − pp) × qs, ktorá izoluje vplyv zmeny ceny/sadzby na mernú jednotku, a množstvovú (kvantitatívnu, spotrebnú) = (qs − qp) × pp, ktorá izoluje vplyv zmeny spotrebovaného množstva. Súčet oboch dáva celkovú odchýlku. Pri materiáli: cenová (nákup) + spotrebná (výroba); pri mzdách: tarifná + výkonová. Rozklad umožní priradiť príčinu a zodpovednosť."},
-      {"otazka": "Porovnajte úplnú a neúplnú kalkuláciu z hľadiska ocenenia zásob a vplyvu na súvahu a VH; spomeňte aj požiadavku závierky.", "vzorova_odpoved": "Úplná (absorpčná) naloží na výrobok fixné aj variabilné náklady → časť FN sa pri raste zásob 'zaparkuje' v ocenení zásob v súvahe a do VZaS vstúpi až pri predaji (riziko 'výroby na sklad', vyšší VH pri raste zásob). Neúplná (variabilná) naloží len VN, FN je nákladom obdobia → VH nezávisí od rastu zásob, vhodná pre rozhodovanie (dolná cena, dodatočná zákazka, sortiment). Pre účtovnú závierku sa však zásoby vlastnej výroby oceňujú vlastnými nákladmi vrátane výrobnej réžie – teda absorpčným prístupom; čisto variabilné ocenenie spravidla nie je prípustné."},
-      {"otazka": "Charakterizujte zodpovednostné účtovníctvo a typy stredísk zodpovednosti.", "vzorova_odpoved": "Sleduje náklady, výnosy a výsledok podľa stredísk zodpovednosti (útvary s vymedzenou právomocou, vedúcim a rozpočtom); odchýlky plán/skutočnosť sa priraďujú strediskám (kontrola, motivácia). Typy podľa rastúcej decentralizácie: nákladové (len náklady), výnosové (tržby), ziskové/profit center (náklady aj výnosy = zisk) a investičné/rentabilné (zisk aj viazaný kapitál – ROI, RI, EVA). Treba odlíšiť miesto vzniku nákladu (KDE) od strediska zodpovednosti (KTO). Vedie sa jednookruhovo (analytika + skupiny 59/69) alebo dvojokruhovo (triedy 8 a 9 so spojovacími účtami)."},
-      {"otazka": "Popíšte tri metódy zostavovania prevádzkových rozpočtov (inkrementálne, ZBB, ABB) s výhodami a nevýhodami.", "vzorova_odpoved": "Inkrementálne: minulý rozpočet + index (príp. variátory); jednoduché a stabilné, ale konzervuje neefektívnosť a tlačí na čerpanie. ZBB: od nuly s odôvodnením a prioritami každej položky; odhalí neefektívnosti a zastaví automatické čerpanie, ale je prácne (vhodné periodicky). ABB: rozpočet cez náklady jednotlivých činností (nadväzuje na ABC); presné pri rôznorodej produkcii, ale náročné na dáta o nositeľoch nákladov."}
+      {
+        "otazka": "Vysvetlite rozklad nákladovej odchýlky na cenovú a množstvovú zložku a uveďte vzorce.",
+        "vzorova_odpoved": "Celková odchýlka = skutočné − vopred stanovené náklady. Rozkladá sa na cenovú (kvalitatívnu) = (ps − pp) × qs, ktorá izoluje vplyv zmeny ceny/sadzby na mernú jednotku, a množstvovú (kvantitatívnu, spotrebnú) = (qs − qp) × pp, ktorá izoluje vplyv zmeny spotrebovaného množstva. Súčet oboch dáva celkovú odchýlku. Pri materiáli: cenová (nákup) + spotrebná (výroba); pri mzdách: tarifná + výkonová. Rozklad umožní priradiť príčinu a zodpovednosť."
+      },
+      {
+        "otazka": "Porovnajte úplnú a neúplnú kalkuláciu z hľadiska ocenenia zásob a vplyvu na súvahu a VH; spomeňte aj požiadavku závierky.",
+        "vzorova_odpoved": "Úplná (absorpčná) naloží na výrobok fixné aj variabilné náklady → časť FN sa pri raste zásob 'zaparkuje' v ocenení zásob v súvahe a do VZaS vstúpi až pri predaji (riziko 'výroby na sklad', vyšší VH pri raste zásob). Neúplná (variabilná) naloží len VN, FN je nákladom obdobia → VH nezávisí od rastu zásob, vhodná pre rozhodovanie (dolná cena, dodatočná zákazka, sortiment). Pre účtovnú závierku sa však zásoby vlastnej výroby oceňujú vlastnými nákladmi vrátane výrobnej réžie – teda absorpčným prístupom; čisto variabilné ocenenie spravidla nie je prípustné."
+      },
+      {
+        "otazka": "Charakterizujte zodpovednostné účtovníctvo a typy stredísk zodpovednosti.",
+        "vzorova_odpoved": "Sleduje náklady, výnosy a výsledok podľa stredísk zodpovednosti (útvary s vymedzenou právomocou, vedúcim a rozpočtom); odchýlky plán/skutočnosť sa priraďujú strediskám (kontrola, motivácia). Typy podľa rastúcej decentralizácie: nákladové (len náklady), výnosové (tržby), ziskové/profit center (náklady aj výnosy = zisk) a investičné/rentabilné (zisk aj viazaný kapitál – ROI, RI, EVA). Treba odlíšiť miesto vzniku nákladu (KDE) od strediska zodpovednosti (KTO). Vedie sa jednookruhovo (analytika + skupiny 59/69) alebo dvojokruhovo (triedy 8 a 9 so spojovacími účtami)."
+      },
+      {
+        "otazka": "Popíšte tri metódy zostavovania prevádzkových rozpočtov (inkrementálne, ZBB, ABB) s výhodami a nevýhodami.",
+        "vzorova_odpoved": "Inkrementálne: minulý rozpočet + index (príp. variátory); jednoduché a stabilné, ale konzervuje neefektívnosť a tlačí na čerpanie. ZBB: od nuly s odôvodnením a prioritami každej položky; odhalí neefektívnosti a zastaví automatické čerpanie, ale je prácne (vhodné periodicky). ABB: rozpočet cez náklady jednotlivých činností (nadväzuje na ABC); presné pri rôznorodej produkcii, ale náročné na dáta o nositeľoch nákladov."
+      }
     ],
     "priklad": [
-      {"zadanie": "Podnik vyrobil 2 000 ks, predal 1 500 ks po 50 €/ks. Variabilné výrobné náklady 30 €/ks, fixné výrobné náklady 20 000 €. Vypočítajte VH podľa variabilnej a podľa úplnej (absorpčnej) kalkulácie a vysvetlite rozdiel.", "riesenie": "VARIABILNÁ: tržby 1 500 × 50 = 75 000; variabilné náklady predaných 1 500 × 30 = 45 000; marža 30 000; mínus celé FN 20 000 → VH = 10 000 €. Zásoby 500 × 30 = 15 000 €. ÚPLNÁ: fixná réžia/ks = 20 000 / 2 000 = 10 €; úplné výrobné náklady 40 €/ks; náklady predaných 1 500 × 40 = 60 000; tržby 75 000 → VH = 15 000 €. Zásoby 500 × 40 = 20 000 €. ROZDIEL VH = 15 000 − 10 000 = 5 000 € = fixná réžia 'zaparkovaná' v 500 ks na sklade (500 × 10 €). Pri raste zásob vykáže absorpčná metóda vyšší zisk; pre závierku sa použije ocenenie vlastnými nákladmi (absorpčné)."}
+      {
+        "zadanie": "Podnik vyrobil 2 000 ks, predal 1 500 ks po 50 €/ks. Variabilné výrobné náklady 30 €/ks, fixné výrobné náklady 20 000 €. Vypočítajte VH podľa variabilnej a podľa úplnej (absorpčnej) kalkulácie a vysvetlite rozdiel.",
+        "riesenie": "VARIABILNÁ: tržby 1 500 × 50 = 75 000; variabilné náklady predaných 1 500 × 30 = 45 000; marža 30 000; mínus celé FN 20 000 → VH = 10 000 €. Zásoby 500 × 30 = 15 000 €. ÚPLNÁ: fixná réžia/ks = 20 000 / 2 000 = 10 €; úplné výrobné náklady 40 €/ks; náklady predaných 1 500 × 40 = 60 000; tržby 75 000 → VH = 15 000 €. Zásoby 500 × 40 = 20 000 €. ROZDIEL VH = 15 000 − 10 000 = 5 000 € = fixná réžia 'zaparkovaná' v 500 ks na sklade (500 × 10 €). Pri raste zásob vykáže absorpčná metóda vyšší zisk; pre závierku sa použije ocenenie vlastnými nákladmi (absorpčné)."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Manažérske a nákladové účtovníctvo, kalkulačný systém a zodpovednostné účtovníctvo (interný výskumný podklad)", "kde": "01_Zdroje/Vyskum_web/manazerske_nakladove_uctovnictvo.md", "typ": "web/overené"},
-    {"nazov": "Tumpach, M.: Manažérske a nákladové účtovníctvo, IURA Edition 2008 (základná literatúra; katalóg EUBA)", "kde": "https://sekarl.euba.sk/arl-eu/sk/detail-eu_un_cat-0075017-Manazerske-a-nakladove-uctovnictvo/", "typ": "učebnica"},
-    {"nazov": "Minuloročný študijný materiál – inžinierske štátnice 2025 (rozbor odchýlok, úplné/neúplné kalkulovanie, vnútropodnikové ceny, rozpočtovanie ZBB/ABB)", "kde": "inžinierske-štátnice-2025 2 (1).docx", "typ": "prednáška"},
-    {"nazov": "Zákon č. 431/2002 Z. z. o účtovníctve, § 25 (oceňovanie zásob vlastnej výroby vlastnými nákladmi) a § 6 (vnútroorganizačné účtovníctvo)", "kde": "01_Zdroje/Zakony/ZZ_2002_431", "typ": "primárny"},
-    {"nazov": "Postupy účtovania pre podnikateľov – účtová trieda 1 (zásoby vlastnej výroby 12x), aktivácia (62x), zmena stavu zásob (611)", "kde": "01_Zdroje/Postupy_uctovania/", "typ": "primárny"},
-    {"nazov": "Podnikajte.sk: Účtovanie zásob vlastnej výroby (oceňovanie vlastnými nákladmi, aktivácia 121/611)", "kde": "https://www.podnikajte.sk/uctovnictvo/uctovanie-zasob-vlastnej-vyroby", "typ": "web/overené"}
+    {
+      "nazov": "Manažérske a nákladové účtovníctvo, kalkulačný systém a zodpovednostné účtovníctvo (interný výskumný podklad)",
+      "kde": "01_Zdroje/Vyskum_web/manazerske_nakladove_uctovnictvo.md",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Tumpach, M.: Manažérske a nákladové účtovníctvo, IURA Edition 2008 (základná literatúra; katalóg EUBA)",
+      "kde": "https://sekarl.euba.sk/arl-eu/sk/detail-eu_un_cat-0075017-Manazerske-a-nakladove-uctovnictvo/",
+      "typ": "učebnica"
+    },
+    {
+      "nazov": "Minuloročný študijný materiál – inžinierske štátnice 2025 (rozbor odchýlok, úplné/neúplné kalkulovanie, vnútropodnikové ceny, rozpočtovanie ZBB/ABB)",
+      "kde": "inžinierske-štátnice-2025 2 (1).docx",
+      "typ": "prednáška"
+    },
+    {
+      "nazov": "Zákon č. 431/2002 Z. z. o účtovníctve, § 25 (oceňovanie zásob vlastnej výroby vlastnými nákladmi) a § 6 (vnútroorganizačné účtovníctvo)",
+      "kde": "01_Zdroje/Zakony/ZZ_2002_431",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Postupy účtovania pre podnikateľov – účtová trieda 1 (zásoby vlastnej výroby 12x), aktivácia (62x), zmena stavu zásob (611)",
+      "kde": "01_Zdroje/Postupy_uctovania/",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Podnikajte.sk: Účtovanie zásob vlastnej výroby (oceňovanie vlastnými nákladmi, aktivácia 121/611)",
+      "kde": "https://www.podnikajte.sk/uctovnictvo/uctovanie-zasob-vlastnej-vyroby",
+      "typ": "web/overené"
+    }
   ]
 }

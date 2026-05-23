@@ -26,45 +26,248 @@
     "cielova_dlzka_slov": 1400,
     "uvod": "Základ dane sa podľa § 17 ods. 1 a 2 zákona o dani z príjmov u účtovnej jednotky účtujúcej v sústave podvojného účtovníctva zisťuje z výsledku hospodárenia pred zdanením. Tento účtovný výsledok upravuje sám daňovník v daňovom priznaní o položky, ktoré ho zvyšujú (pripočítateľné) a znižujú (odpočítateľné). Úpravy sa týkajú nákladov aj výnosov – nielen sa vylučujú nedaňové náklady, ale aj výnosy, ktoré nie sú zdaniteľným príjmom. Dôvod je principiálny: účtovníctvo má podať verný a pravdivý obraz, kým daňové právo má spravodlivo a jednotne vyčísliť daň a zabrániť obchádzaniu. Preto sa časť účtovných nákladov daňovo neuznáva vôbec a časť až po splnení podmienky.",
     "casti": [
-      {"nadpis": "Dva typy rozdielov", "text": "Rozlišujeme trvalé a dočasné rozdiely. Trvalý rozdiel sa nikdy nevyrovná – na strane nákladov napr. pokuty a penále voči štátu, reprezentácia, manko nad náhrady; na strane výnosov napr. prijatá oslobodená dividenda, ktorá sa trvalo vylúči zo ZD ako odpočítateľná položka. Dočasný (prechodný) rozdiel sa vyrovná v budúcom období – náklad sa dnes pripočíta a neskôr odpočíta (nezaplatené náklady podľa § 17 ods. 19, rezervy, opravné položky). Práve z dočasných rozdielov vzniká odložená daň."},
-      {"nadpis": "Technické zhodnotenie majetku (§ 17 ods. 20, § 24 ods. 2)", "text": "Technické zhodnotenie sa netýka len prenajatého majetku – pri vlastnom majetku zvyšuje jeho vstupnú (zostatkovú) cenu a premieta sa do odpisov. Téza sa zameriava na prenajatý majetok, kde je špecifické, kto TZ odpisuje: TZ nad 1 700 € za rok môže odpisovať nájomca, ak má písomný súhlas vlastníka a TZ uhrádza sám; odpisuje ho v odpisovej skupine prenajatého majetku. Ak po skončení nájmu prenajímateľ prevezme TZ bezodplatne, vzniká mu nepeňažný príjem vo výške daňovej zostatkovej ceny pri rovnomernom odpisovaní. TZ sa vždy posudzuje ako celok – u jedného daňovníka a v jednom období; nedá sa rozdeliť medzi nájomcu a prenajímateľa."},
-      {"nadpis": "Pokuty, penále a úroky z omeškania", "text": "Treba odlíšiť dva svety. Sankcie voči štátu (pokuty od správcu dane, penále, úroky z omeškania podľa daňového poriadku) sú podľa § 21 ods. 2 písm. a) nedaňové natrvalo – trvalý rozdiel. Naproti tomu zmluvné pokuty, poplatky a úroky z omeškania zo súkromnoprávnych vzťahov sú u dlžníka daňovým výdavkom, ale podľa § 17 ods. 19 písm. g) až v období zaplatenia – dočasný rozdiel."},
-      {"nadpis": "Náklady uznané až po zaplatení (§ 17 ods. 19)", "text": "Zákon taxatívne vymenúva náklady, ktoré sú daňovým výdavkom až v zdaňovacom období úhrady: nájomné, licencie a know-how (pri platbe fyzickej osobe), marketingové štúdie a prieskum trhu, provízie za sprostredkovanie, poradenské a právne služby, zmluvné pokuty a úroky z omeškania a iné. Mechanizmus: v roku zaúčtovania nezaplateného nákladu ide o pripočítateľnú položku, v roku úhrady o odpočítateľnú položku. Cieľom je zabrániť znižovaniu základu dane fiktívnymi či nezaplatenými faktúrami, najmä medzi spriaznenými osobami."},
-      {"nadpis": "Záväzky po splatnosti viac ako 360 dní (§ 17 ods. 27)", "text": "Ak je záväzok (alebo jeho časť) prislúchajúci k daňovému výdavku po splatnosti, daňovník musí zvýšiť základ dane: o 20 % menovitej hodnoty pri uplynutí viac ako 360 dní, o 50 % pri viac ako 720 dní a o 100 % pri viac ako 1 080 dní. Pásma sú kumulatívne – v každom období sa dopĺňa do vyššej úrovne (najprv 20 %, potom doplnenie do 50 %, napokon do 100 %), nie že sa percento uplatní zakaždým nanovo. Vychádza sa z pôvodne dohodnutej lehoty splatnosti – jej dodatočné predĺženie sa neberie do úvahy. Po úhrade záväzku sa už zdanené sumy podľa § 17 ods. 32 zo základu dane odpočítajú. Pravidlo neplatí napr. pre rozpočtové a príspevkové organizácie či daňovníka v konkurze."},
-      {"nadpis": "Nezrealizované kurzové rozdiely (§ 17 ods. 17)", "text": "Kurzové rozdiely z prepočtu neuhradených pohľadávok a záväzkov v cudzej mene ku dňu, ku ktorému sa zostavuje účtovná závierka, sú štandardne súčasťou základu dane už v období, v ktorom o nich účtovná jednotka účtuje. Daňovník sa však môže rozhodnúť zahrnúť tieto nezrealizované kurzové rozdiely do základu dane až v období, keď dôjde k inkasu pohľadávky alebo úhrade záväzku; toto rozhodnutie oznámi správcovi dane. Ide teda o možnosť odložiť zdanenie nerealizovaného kurzového zisku či straty na moment realizácie."},
-      {"nadpis": "Manká a škody (§ 21 ods. 2 písm. e, § 19 ods. 3 písm. g)", "text": "Manká a škody sú nedaňovým výdavkom v sume, ktorá presahuje prijaté náhrady. Výnimky daňové v plnej výške bez ohľadu na náhradu: škody spôsobené živelnou pohromou (povodeň, zemetrasenie, krupobitie, blesk) a škody spôsobené neznámym páchateľom, ak je to v tom istom zdaňovacom období potvrdené políciou. Pozor na dve situácie: ak polícia potvrdí, že páchateľ je známy, vzniká nárok (pohľadávka) voči páchateľovi, no škoda nad prijaté náhrady ostáva nedaňová; a ak polícia potvrdenie o neznámom páchateľovi nevydá, ide o pripočítateľnú položku v sume nad náhrady. Daňové je aj stratné v maloobchode do výšky ekonomicky odôvodnenej normy. Extrémne mrazy či sucho podľa stanoviska finančnej správy nie sú živelnou pohromou."},
-      {"nadpis": "Rezervy (§ 19 ods. 3 písm. f, § 20)", "text": "Tvorba rezervy je daňovým výdavkom len ak ide o rezervu taxatívne uvedenú v § 20 – napríklad rezerva na nevyčerpané dovolenky vrátane poistného, na lesnú pestovnú činnosť, na likvidáciu baní a rekultiváciu, na uzavretie a monitoring skládok. Účtovné rezervy mimo tohto zoznamu (napr. na bonusy a odmeny, na zostavenie účtovnej závierky a audit, na reštrukturalizáciu, na súdne spory) sú pri tvorbe pripočítateľnou položkou a pri použití či zrušení odpočítateľnou – dočasný rozdiel. Pozor na rozlíšenie: dohadné položky na nevyfakturované dodávky, kde je suma známa a týkajú sa daňových nákladov (napr. spotreby materiálu či energie), nie sú nedaňovou rezervou – sú daňovo uznané."},
-      {"nadpis": "Opravné položky a odpis pohľadávky (§ 20, § 19 ods. 2)", "text": "Opravná položka k pohľadávke je daňovo uznaná len ak bola pohľadávka zahrnutá do zdaniteľných príjmov, je nepremlčaná a nebola nadobudnutá postúpením. Podľa časového testu § 20 ods. 14 možno tvoriť daňovú OP do 20 % pri viac ako 360 dňoch po splatnosti, 50 % pri viac ako 720 a 100 % pri viac ako 1 080 dňoch (účtovne 547/391); ide o možnosť, nie povinnosť, a percentá sú kumulatívnym maximom. Účtovné OP nespĺňajúce podmienky sú nedaňové. Daňový odpis pohľadávky je uznaný za podmienok § 19 ods. 2 – napr. pri konkurze či exekúcii dlžníka, alebo podľa písm. r) do výšky, v akej by bola uznaná opravná položka podľa časového testu."},
-      {"zaver": "Zhrnúť možno tromi otázkami: 1. Je položka uznaná v princípe (na strane nákladov aj výnosov)? 2. Je splnená podmienka zaplatenia? 3. Je záväzok po splatnosti, resp. spĺňa pohľadávka podmienky? Tým sa systematicky dostaneme od účtovného výsledku hospodárenia k správnemu základu dane."}
+      {
+        "nadpis": "Dva typy rozdielov",
+        "text": "Rozlišujeme trvalé a dočasné rozdiely. Trvalý rozdiel sa nikdy nevyrovná – na strane nákladov napr. pokuty a penále voči štátu, reprezentácia, manko nad náhrady; na strane výnosov napr. prijatá oslobodená dividenda, ktorá sa trvalo vylúči zo ZD ako odpočítateľná položka. Dočasný (prechodný) rozdiel sa vyrovná v budúcom období – náklad sa dnes pripočíta a neskôr odpočíta (nezaplatené náklady podľa § 17 ods. 19, rezervy, opravné položky). Práve z dočasných rozdielov vzniká odložená daň."
+      },
+      {
+        "nadpis": "Technické zhodnotenie majetku (§ 17 ods. 20, § 24 ods. 2)",
+        "text": "Technické zhodnotenie sa netýka len prenajatého majetku – pri vlastnom majetku zvyšuje jeho vstupnú (zostatkovú) cenu a premieta sa do odpisov. Téza sa zameriava na prenajatý majetok, kde je špecifické, kto TZ odpisuje: TZ nad 1 700 € za rok môže odpisovať nájomca, ak má písomný súhlas vlastníka a TZ uhrádza sám; odpisuje ho v odpisovej skupine prenajatého majetku. Ak po skončení nájmu prenajímateľ prevezme TZ bezodplatne, vzniká mu nepeňažný príjem vo výške daňovej zostatkovej ceny pri rovnomernom odpisovaní. TZ sa vždy posudzuje ako celok – u jedného daňovníka a v jednom období; nedá sa rozdeliť medzi nájomcu a prenajímateľa."
+      },
+      {
+        "nadpis": "Pokuty, penále a úroky z omeškania",
+        "text": "Treba odlíšiť dva svety. Sankcie voči štátu (pokuty od správcu dane, penále, úroky z omeškania podľa daňového poriadku) sú podľa § 21 ods. 2 písm. a) nedaňové natrvalo – trvalý rozdiel. Naproti tomu zmluvné pokuty, poplatky a úroky z omeškania zo súkromnoprávnych vzťahov sú u dlžníka daňovým výdavkom, ale podľa § 17 ods. 19 písm. g) až v období zaplatenia – dočasný rozdiel."
+      },
+      {
+        "nadpis": "Náklady uznané až po zaplatení (§ 17 ods. 19)",
+        "text": "Zákon taxatívne vymenúva náklady, ktoré sú daňovým výdavkom až v zdaňovacom období úhrady: nájomné, licencie a know-how (pri platbe fyzickej osobe), marketingové štúdie a prieskum trhu, provízie za sprostredkovanie, poradenské a právne služby, zmluvné pokuty a úroky z omeškania a iné. Mechanizmus: v roku zaúčtovania nezaplateného nákladu ide o pripočítateľnú položku, v roku úhrady o odpočítateľnú položku. Cieľom je zabrániť znižovaniu základu dane fiktívnymi či nezaplatenými faktúrami, najmä medzi spriaznenými osobami."
+      },
+      {
+        "nadpis": "Záväzky po splatnosti viac ako 360 dní (§ 17 ods. 27)",
+        "text": "Ak je záväzok (alebo jeho časť) prislúchajúci k daňovému výdavku po splatnosti, daňovník musí zvýšiť základ dane: o 20 % menovitej hodnoty pri uplynutí viac ako 360 dní, o 50 % pri viac ako 720 dní a o 100 % pri viac ako 1 080 dní. Pásma sú kumulatívne – v každom období sa dopĺňa do vyššej úrovne (najprv 20 %, potom doplnenie do 50 %, napokon do 100 %), nie že sa percento uplatní zakaždým nanovo. Vychádza sa z pôvodne dohodnutej lehoty splatnosti – jej dodatočné predĺženie sa neberie do úvahy. Po úhrade záväzku sa už zdanené sumy podľa § 17 ods. 32 zo základu dane odpočítajú. Pravidlo neplatí napr. pre rozpočtové a príspevkové organizácie či daňovníka v konkurze."
+      },
+      {
+        "nadpis": "Nezrealizované kurzové rozdiely (§ 17 ods. 17)",
+        "text": "Kurzové rozdiely z prepočtu neuhradených pohľadávok a záväzkov v cudzej mene ku dňu, ku ktorému sa zostavuje účtovná závierka, sú štandardne súčasťou základu dane už v období, v ktorom o nich účtovná jednotka účtuje. Daňovník sa však môže rozhodnúť zahrnúť tieto nezrealizované kurzové rozdiely do základu dane až v období, keď dôjde k inkasu pohľadávky alebo úhrade záväzku; toto rozhodnutie oznámi správcovi dane. Ide teda o možnosť odložiť zdanenie nerealizovaného kurzového zisku či straty na moment realizácie."
+      },
+      {
+        "nadpis": "Manká a škody (§ 21 ods. 2 písm. e, § 19 ods. 3 písm. g)",
+        "text": "Manká a škody sú nedaňovým výdavkom v sume, ktorá presahuje prijaté náhrady. Výnimky daňové v plnej výške bez ohľadu na náhradu: škody spôsobené živelnou pohromou (povodeň, zemetrasenie, krupobitie, blesk) a škody spôsobené neznámym páchateľom, ak je to v tom istom zdaňovacom období potvrdené políciou. Pozor na dve situácie: ak polícia potvrdí, že páchateľ je známy, vzniká nárok (pohľadávka) voči páchateľovi, no škoda nad prijaté náhrady ostáva nedaňová; a ak polícia potvrdenie o neznámom páchateľovi nevydá, ide o pripočítateľnú položku v sume nad náhrady. Daňové je aj stratné v maloobchode do výšky ekonomicky odôvodnenej normy. Extrémne mrazy či sucho podľa stanoviska finančnej správy nie sú živelnou pohromou."
+      },
+      {
+        "nadpis": "Rezervy (§ 19 ods. 3 písm. f, § 20)",
+        "text": "Tvorba rezervy je daňovým výdavkom len ak ide o rezervu taxatívne uvedenú v § 20 – napríklad rezerva na nevyčerpané dovolenky vrátane poistného, na lesnú pestovnú činnosť, na likvidáciu baní a rekultiváciu, na uzavretie a monitoring skládok. Účtovné rezervy mimo tohto zoznamu (napr. na bonusy a odmeny, na zostavenie účtovnej závierky a audit, na reštrukturalizáciu, na súdne spory) sú pri tvorbe pripočítateľnou položkou a pri použití či zrušení odpočítateľnou – dočasný rozdiel. Pozor na rozlíšenie: dohadné položky na nevyfakturované dodávky, kde je suma známa a týkajú sa daňových nákladov (napr. spotreby materiálu či energie), nie sú nedaňovou rezervou – sú daňovo uznané."
+      },
+      {
+        "nadpis": "Opravné položky a odpis pohľadávky (§ 20, § 19 ods. 2)",
+        "text": "Opravná položka k pohľadávke je daňovo uznaná len ak bola pohľadávka zahrnutá do zdaniteľných príjmov, je nepremlčaná a nebola nadobudnutá postúpením. Podľa časového testu § 20 ods. 14 možno tvoriť daňovú OP do 20 % pri viac ako 360 dňoch po splatnosti, 50 % pri viac ako 720 a 100 % pri viac ako 1 080 dňoch (účtovne 547/391); ide o možnosť, nie povinnosť, a percentá sú kumulatívnym maximom. Účtovné OP nespĺňajúce podmienky sú nedaňové. Daňový odpis pohľadávky je uznaný za podmienok § 19 ods. 2 – napr. pri konkurze či exekúcii dlžníka, alebo podľa písm. r) do výšky, v akej by bola uznaná opravná položka podľa časového testu."
+      },
+      {
+        "zaver": "Zhrnúť možno tromi otázkami: 1. Je položka uznaná v princípe (na strane nákladov aj výnosov)? 2. Je splnená podmienka zaplatenia? 3. Je záväzok po splatnosti, resp. spĺňa pohľadávka podmienky? Tým sa systematicky dostaneme od účtovného výsledku hospodárenia k správnemu základu dane."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Vzťah k odloženej dani", "text": "Dočasné rozdiely vedú k odloženej dani: odložená daňová pohľadávka pri odpočítateľných dočasných rozdieloch (napr. účtovná OP/rezerva zatiaľ daňovo neuznaná), odložený daňový záväzok pri zdaniteľných dočasných rozdieloch (napr. daňové odpisy rýchlejšie než účtovné). Trvalé rozdiely odloženú daň nevyvolávajú."},
-    {"nadpis": "Výnosy, ktoré nie sú zdaniteľným príjmom", "text": "Na strane výnosov vznikajú odpočítateľné položky: prijatá dividenda (podľa platného režimu zdaňovania podielov na zisku, s výnimkami napr. pri nezmluvných štátoch) je výnosom, ktorý sa zo ZD trvalo vylúči (trvalý rozdiel). Podobne sa vylučujú výnosy už zdanené zrážkou s konečnou daňou. Aktuálny režim treba sledovať, keďže sa mení."},
-    {"nadpis": "Daňová vs. účtovná zostatková cena pri vyradení", "text": "Pri vyradení majetku sa rozdiel medzi účtovnou a daňovou zostatkovou cenou vysporiada cez pripočítateľnú/odpočítateľnú položku. Pri predaji vybraných druhov majetku (osobné auto KP 29.10.2, lode, lietadlá, budovy v 6. odpisovej skupine, pozemky) je daňová ZC uznaná len do výšky príjmu z predaja; rozdiel je pripočítateľnou položkou. Pri škode je ZC uznaná len do výšky náhrad – okrem živelnej pohromy a neznámeho páchateľa."},
-    {"nadpis": "Limit pri 'luxusných' autách (§ 17 ods. 34)", "text": "Pri osobnom aute so vstupnou cenou 48 000 € a viac sa testuje, či základ dane dosahuje aspoň úroveň zodpovedajúcu odpisu z 48 000 € (12 000 € ročne); ak nie, odpisy nad limit sa pripočítavajú."},
-    {"nadpis": "Reprezentácia a reklamné predmety (§ 21 ods. 1 písm. h)", "text": "Náklady na reprezentáciu sú nedaňové (trvalý rozdiel). Výnimkou sú reklamné predmety do hodnoty 17 € za kus (s ďalšími podmienkami pri alkohole a tabaku)."},
-    {"nadpis": "Mikrodaňovník", "text": "Mikrodaňovník má zvýhodnený režim tvorby daňových opravných položiek k pohľadávkam (§ 20 ods. 23 – v súlade s účtovníctvom) a výhodnejšie odpisovanie; to mení posudzovanie niektorých položiek upravujúcich VH."}
+    {
+      "nadpis": "Vzťah k odloženej dani",
+      "text": "Dočasné rozdiely vedú k odloženej dani: odložená daňová pohľadávka pri odpočítateľných dočasných rozdieloch (napr. účtovná OP/rezerva zatiaľ daňovo neuznaná), odložený daňový záväzok pri zdaniteľných dočasných rozdieloch (napr. daňové odpisy rýchlejšie než účtovné). Trvalé rozdiely odloženú daň nevyvolávajú."
+    },
+    {
+      "nadpis": "Výnosy, ktoré nie sú zdaniteľným príjmom",
+      "text": "Na strane výnosov vznikajú odpočítateľné položky: prijatá dividenda (podľa platného režimu zdaňovania podielov na zisku, s výnimkami napr. pri nezmluvných štátoch) je výnosom, ktorý sa zo ZD trvalo vylúči (trvalý rozdiel). Podobne sa vylučujú výnosy už zdanené zrážkou s konečnou daňou. Aktuálny režim treba sledovať, keďže sa mení."
+    },
+    {
+      "nadpis": "Daňová vs. účtovná zostatková cena pri vyradení",
+      "text": "Pri vyradení majetku sa rozdiel medzi účtovnou a daňovou zostatkovou cenou vysporiada cez pripočítateľnú/odpočítateľnú položku. Pri predaji vybraných druhov majetku (osobné auto KP 29.10.2, lode, lietadlá, budovy v 6. odpisovej skupine, pozemky) je daňová ZC uznaná len do výšky príjmu z predaja; rozdiel je pripočítateľnou položkou. Pri škode je ZC uznaná len do výšky náhrad – okrem živelnej pohromy a neznámeho páchateľa."
+    },
+    {
+      "nadpis": "Limit pri 'luxusných' autách (§ 17 ods. 34)",
+      "text": "Pri osobnom aute so vstupnou cenou 48 000 € a viac sa testuje, či základ dane dosahuje aspoň úroveň zodpovedajúcu odpisu z 48 000 € (12 000 € ročne); ak nie, odpisy nad limit sa pripočítavajú."
+    },
+    {
+      "nadpis": "Reprezentácia a reklamné predmety (§ 21 ods. 1 písm. h)",
+      "text": "Náklady na reprezentáciu sú nedaňové (trvalý rozdiel). Výnimkou sú reklamné predmety do hodnoty 17 € za kus (s ďalšími podmienkami pri alkohole a tabaku)."
+    },
+    {
+      "nadpis": "Mikrodaňovník",
+      "text": "Mikrodaňovník má zvýhodnený režim tvorby daňových opravných položiek k pohľadávkam (§ 20 ods. 23 – v súlade s účtovníctvom) a výhodnejšie odpisovanie; to mení posudzovanie niektorých položiek upravujúcich VH."
+    }
   ],
   "priklady": [
-    {"nazov": "Nezaplatené nájomné fyzickej osobe (§ 17 ods. 19)", "zadanie": "ALFA s.r.o. v r. 2025 prijala faktúru za nájom kancelárie od fyzickej osoby na 6 000 €. Uhradila ju až v januári 2026.", "uctovanie": [{"rok": "2025", "md": "518", "d": "321", "suma": 6000, "popis": "Náklad na nájomné (vstupuje do účtovného VH)"}, {"rok": "2026", "md": "321", "d": "221", "suma": 6000, "popis": "Úhrada faktúry"}], "riesenie": "V r. 2025 nájom nebol zaplatený → pripočítateľná položka +6 000 € (zvýši ZD 2025). V r. 2026 došlo k úhrade → odpočítateľná položka −6 000 € (zníži ZD 2026). Účtovný výsledok r. 2026 to už neovplyvní – náklad bol zaúčtovaný v r. 2025.", "dopad_na_zd": "2025: +6 000 € ; 2026: −6 000 € (dočasný rozdiel)"},
-    {"nazov": "Záväzok po splatnosti – kumulatívne pásma (§ 17 ods. 27)", "zadanie": "Záväzok 50 000 €. V r. 2024 prekročil 360 dní po splatnosti, v r. 2025 prekročí 720 dní; stále neuhradený.", "riesenie": "Pásma sú kumulatívne. V r. 2024 (>360 dní) povinné zvýšenie ZD o 20 % = 10 000 €. V r. 2025 (>720 dní) sa dopĺňa do 50 % – t. j. ďalších 30 % = 15 000 €. Predĺženie splatnosti dodatkom by sa neakceptovalo.", "dopad_na_zd": "2024: +10 000 € (20 %); 2025: +15 000 € (doplnenie do 50 %). Po úhrade: odpočet už zdanených súm (§ 17 ods. 32)."},
-    {"nazov": "Daňová OP k pohľadávke ako možnosť (§ 20 ods. 14)", "zadanie": "Pohľadávka 10 000 €, zahrnutá do zdaniteľných príjmov, splatná 15. 3. 2023, nepremlčaná. K 31. 12. 2025 uplynulo viac ako 720 dní.", "uctovanie": [{"rok": "2025", "md": "547", "d": "391", "suma": 5000, "popis": "Tvorba daňovo uznanej OP do 50 % (možnosť)"}], "riesenie": "Splnené podmienky → daňovník MÔŽE (nie musí) tvoriť daňovú OP do 50 % menovitej hodnoty = 5 000 €. Platí, ak v predchádzajúcom období netvoril daňovú OP už vo výške 20 % po prekročení 360 dní – limity sú kumulatívne (max 20 % → 50 % → 100 %). Ak by účtovná OP bola vyššia než daňový limit, rozdiel by bol pripočítateľnou položkou.", "dopad_na_zd": "Daňový výdavok do 5 000 € (možnosť); prípadný rozdiel nad daňový limit = pripočítateľná položka."},
-    {"nazov": "Účtovná 100 % OP a jej postupné daňové uznávanie (časté v praxi)", "zadanie": "Firma vidí riziko neuhradenia pohľadávky 10 000 € (zahrnutej do zdaniteľných príjmov, nepremlčanej) a hneď tvorí účtovnú OP vo výške 100 %.", "uctovanie": [{"rok": "rok tvorby", "md": "547", "d": "391", "suma": 10000, "popis": "Účtovná OP 100 % (z opatrnosti)"}], "riesenie": "Účtovne je OP vytvorená naraz na 100 %, daňovo sa však uznáva len podľa časového testu § 20 ods. 14. Preto: pred uplynutím 360 dní je celá OP 10 000 € pripočítateľnou položkou (daňovo neuznaná). Po prekročení 360 dní sa daňovo uzná 20 % (2 000 €) → odpočítateľná položka. V ďalšom období po prekročení 720 dní ďalších 30 % do limitu 50 % (3 000 €) → odpočítateľná. Po prekročení 1 080 dní zvyšných 50 % (5 000 €) → odpočítateľná. Účtovne sa OP znova netvorí – mení sa len daňová úprava ZD.", "dopad_na_zd": "rok tvorby: +10 000 € ; >360 dní: −2 000 € ; >720 dní: −3 000 € ; >1080 dní: −5 000 € (postupne sa daňovo uzná celá pohľadávka)"},
-    {"nazov": "Škoda spôsobená páchateľom (§ 19 ods. 3 písm. g, § 21 ods. 2 písm. e)", "zadanie": "Páchateľ znehodnotil zásoby za 3 500 €. Poisťovňa uhradila 3 000 €.", "riesenie": "Ak je škoda v tom istom zdaňovacom období potvrdená políciou ako spôsobená NEznámym páchateľom, je daňovým výdavkom celá (aj 500 € nad náhradu). Ak polícia potvrdí, že páchateľ je ZNÁMY, firme vzniká nárok (pohľadávka) voči nemu, ale 500 € nad náhradu ostáva nedaňových (pripočítateľná položka). Ak polícia potvrdenie nevydá, rovnako je 500 € pripočítateľnou položkou.", "dopad_na_zd": "Neznámy páchateľ + potvrdenie polície: 0 (celé daňové). Známy páchateľ alebo bez potvrdenia: +500 €."},
-    {"nazov": "Nezrealizovaný kurzový rozdiel (§ 17 ods. 17)", "zadanie": "Spoločnosť eviduje k 31. 12. 2025 záväzok v USD; precenením vznikol nerealizovaný kurzový rozdiel (strata) 2 000 €.", "riesenie": "Štandardne je 2 000 € súčasťou ZD už v r. 2025. Ak sa daňovník rozhodol (a oznámil správcovi dane) zahŕňať nezrealizované kurzové rozdiely až pri realizácii, v r. 2025 ich z ZD vylúči a zahrnie ich až v období úhrady záväzku.", "dopad_na_zd": "Podľa voľby: buď v r. 2025, alebo odsun do roku realizácie."}
+    {
+      "nazov": "Nezaplatené nájomné fyzickej osobe (§ 17 ods. 19)",
+      "zadanie": "ALFA s.r.o. v r. 2025 prijala faktúru za nájom kancelárie od fyzickej osoby na 6 000 €. Uhradila ju až v januári 2026.",
+      "uctovanie": [
+        {
+          "rok": "2025",
+          "md": "518",
+          "d": "321",
+          "suma": 6000,
+          "popis": "Náklad na nájomné (vstupuje do účtovného VH)"
+        },
+        {
+          "rok": "2026",
+          "md": "321",
+          "d": "221",
+          "suma": 6000,
+          "popis": "Úhrada faktúry"
+        }
+      ],
+      "riesenie": "V r. 2025 nájom nebol zaplatený → pripočítateľná položka +6 000 € (zvýši ZD 2025). V r. 2026 došlo k úhrade → odpočítateľná položka −6 000 € (zníži ZD 2026). Účtovný výsledok r. 2026 to už neovplyvní – náklad bol zaúčtovaný v r. 2025.",
+      "dopad_na_zd": "2025: +6 000 € ; 2026: −6 000 € (dočasný rozdiel)"
+    },
+    {
+      "nazov": "Záväzok po splatnosti – kumulatívne pásma (§ 17 ods. 27)",
+      "zadanie": "Záväzok 50 000 €. V r. 2024 prekročil 360 dní po splatnosti, v r. 2025 prekročí 720 dní; stále neuhradený.",
+      "riesenie": "Pásma sú kumulatívne. V r. 2024 (>360 dní) povinné zvýšenie ZD o 20 % = 10 000 €. V r. 2025 (>720 dní) sa dopĺňa do 50 % – t. j. ďalších 30 % = 15 000 €. Predĺženie splatnosti dodatkom by sa neakceptovalo.",
+      "dopad_na_zd": "2024: +10 000 € (20 %); 2025: +15 000 € (doplnenie do 50 %). Po úhrade: odpočet už zdanených súm (§ 17 ods. 32)."
+    },
+    {
+      "nazov": "Daňová OP k pohľadávke ako možnosť (§ 20 ods. 14)",
+      "zadanie": "Pohľadávka 10 000 €, zahrnutá do zdaniteľných príjmov, splatná 15. 3. 2023, nepremlčaná. K 31. 12. 2025 uplynulo viac ako 720 dní.",
+      "uctovanie": [
+        {
+          "rok": "2025",
+          "md": "547",
+          "d": "391",
+          "suma": 5000,
+          "popis": "Tvorba daňovo uznanej OP do 50 % (možnosť)"
+        }
+      ],
+      "riesenie": "Splnené podmienky → daňovník MÔŽE (nie musí) tvoriť daňovú OP do 50 % menovitej hodnoty = 5 000 €. Platí, ak v predchádzajúcom období netvoril daňovú OP už vo výške 20 % po prekročení 360 dní – limity sú kumulatívne (max 20 % → 50 % → 100 %). Ak by účtovná OP bola vyššia než daňový limit, rozdiel by bol pripočítateľnou položkou.",
+      "dopad_na_zd": "Daňový výdavok do 5 000 € (možnosť); prípadný rozdiel nad daňový limit = pripočítateľná položka."
+    },
+    {
+      "nazov": "Účtovná 100 % OP a jej postupné daňové uznávanie (časté v praxi)",
+      "zadanie": "Firma vidí riziko neuhradenia pohľadávky 10 000 € (zahrnutej do zdaniteľných príjmov, nepremlčanej) a hneď tvorí účtovnú OP vo výške 100 %.",
+      "uctovanie": [
+        {
+          "rok": "rok tvorby",
+          "md": "547",
+          "d": "391",
+          "suma": 10000,
+          "popis": "Účtovná OP 100 % (z opatrnosti)"
+        }
+      ],
+      "riesenie": "Účtovne je OP vytvorená naraz na 100 %, daňovo sa však uznáva len podľa časového testu § 20 ods. 14. Preto: pred uplynutím 360 dní je celá OP 10 000 € pripočítateľnou položkou (daňovo neuznaná). Po prekročení 360 dní sa daňovo uzná 20 % (2 000 €) → odpočítateľná položka. V ďalšom období po prekročení 720 dní ďalších 30 % do limitu 50 % (3 000 €) → odpočítateľná. Po prekročení 1 080 dní zvyšných 50 % (5 000 €) → odpočítateľná. Účtovne sa OP znova netvorí – mení sa len daňová úprava ZD.",
+      "dopad_na_zd": "rok tvorby: +10 000 € ; >360 dní: −2 000 € ; >720 dní: −3 000 € ; >1080 dní: −5 000 € (postupne sa daňovo uzná celá pohľadávka)"
+    },
+    {
+      "nazov": "Škoda spôsobená páchateľom (§ 19 ods. 3 písm. g, § 21 ods. 2 písm. e)",
+      "zadanie": "Páchateľ znehodnotil zásoby za 3 500 €. Poisťovňa uhradila 3 000 €.",
+      "riesenie": "Ak je škoda v tom istom zdaňovacom období potvrdená políciou ako spôsobená NEznámym páchateľom, je daňovým výdavkom celá (aj 500 € nad náhradu). Ak polícia potvrdí, že páchateľ je ZNÁMY, firme vzniká nárok (pohľadávka) voči nemu, ale 500 € nad náhradu ostáva nedaňových (pripočítateľná položka). Ak polícia potvrdenie nevydá, rovnako je 500 € pripočítateľnou položkou.",
+      "dopad_na_zd": "Neznámy páchateľ + potvrdenie polície: 0 (celé daňové). Známy páchateľ alebo bez potvrdenia: +500 €."
+    },
+    {
+      "nazov": "Nezrealizovaný kurzový rozdiel (§ 17 ods. 17)",
+      "zadanie": "Spoločnosť eviduje k 31. 12. 2025 záväzok v USD; precenením vznikol nerealizovaný kurzový rozdiel (strata) 2 000 €.",
+      "riesenie": "Štandardne je 2 000 € súčasťou ZD už v r. 2025. Ak sa daňovník rozhodol (a oznámil správcovi dane) zahŕňať nezrealizované kurzové rozdiely až pri realizácii, v r. 2025 ich z ZD vylúči a zahrnie ich až v období úhrady záväzku.",
+      "dopad_na_zd": "Podľa voľby: buď v r. 2025, alebo odsun do roku realizácie."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/BC_II_08_schema_VH_na_ZD.svg", "typ": "schéma", "popis": "Transformácia výsledku hospodárenia na základ dane cez pripočítateľné a odpočítateľné položky (náklady aj výnosy), s rozlíšením trvalých a dočasných rozdielov."},
-    {"subor": "03_Vizualy/BC_II_08_test_splatnost.svg", "typ": "časová os", "popis": "Kumulatívny pásmový test 360/720/1080 dní → 20/50/100 % pre záväzky po splatnosti (§ 17 ods. 27) aj pre daňové opravné položky (§ 20 ods. 14)."}
+    {
+      "subor": "03_Vizualy/BC_II_08_schema_VH_na_ZD.svg",
+      "typ": "schéma",
+      "popis": "Transformácia výsledku hospodárenia na základ dane cez pripočítateľné a odpočítateľné položky (náklady aj výnosy), s rozlíšením trvalých a dočasných rozdielov."
+    },
+    {
+      "subor": "03_Vizualy/BC_II_08_test_splatnost.svg",
+      "typ": "časová os",
+      "popis": "Kumulatívny pásmový test 360/720/1080 dní → 20/50/100 % pre záväzky po splatnosti (§ 17 ods. 27) aj pre daňové opravné položky (§ 20 ods. 14)."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Kto vykonáva úpravu výsledku hospodárenia na základ dane?", "odpoved": "Samotná účtovná jednotka (daňovník) vo svojom daňovom priznaní, nie daňový úrad; vychádza z účtovného VH a pripočítava/odpočítava položky podľa ZDP."},
-    {"otazka": "Aký je rozdiel medzi trvalým a dočasným rozdielom a ako súvisia s odloženou daňou?", "odpoved": "Trvalý sa nikdy nevyrovná (pokuta od štátu; oslobodená dividenda) a odloženú daň nevyvoláva. Dočasný sa vyrovná v inom období (nezaplatený náklad, OP, rezerva) a vzniká z neho odložená daňová pohľadávka alebo záväzok."},
-    {"otazka": "Môže odpočítateľná položka vzniknúť aj na strane výnosov?", "odpoved": "Áno – napr. prijatá oslobodená dividenda je výnosom, ktorý nie je zdaniteľným príjmom, preto sa zo ZD trvalo vylúči ako odpočítateľná položka."},
-    {"otazka": "Prečo zákon podmieňuje niektoré náklady zaplatením?", "odpoved": "Aby zabránil znižovaniu základu dane nezaplatenými alebo fiktívnymi faktúrami, typicky medzi spriaznenými osobami; náklad sa daňovo uzná až keď reálne odíde z firmy."},
-    {"otazka": "Ako sa účtuje a vykazuje daňová opravná položka k pohľadávke?", "odpoved": "Tvorba na účte 547/391 za splnenia podmienok § 20 podľa časového testu 20/50/100 %; je to možnosť do kumulatívneho limitu."},
-    {"otazka": "Čo ak dlžník časť záväzku po splatnosti uhradí?", "odpoved": "Test sa robí z nesplatenej časti; po úhrade už zdanenej sumy sa základ dane podľa § 17 ods. 32 zníži (odpočítateľná položka)."}
+    {
+      "otazka": "Kto vykonáva úpravu výsledku hospodárenia na základ dane?",
+      "odpoved": "Samotná účtovná jednotka (daňovník) vo svojom daňovom priznaní, nie daňový úrad; vychádza z účtovného VH a pripočítava/odpočítava položky podľa ZDP.",
+      "moznosti": [
+        "Daňový úrad pri kontrole daňového priznania",
+        "Účtovná jednotka (daňovník) vo svojom daňovom priznaní",
+        "Audítor v rámci overenia účtovnej závierky",
+        "Účtovná jednotka priamo v podvojnom účtovníctve preúčtovaním nákladov"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Samotná účtovná jednotka (daňovník) vo svojom daňovom priznaní, nie daňový úrad; vychádza z účtovného VH a pripočítava/odpočítava položky podľa ZDP."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi trvalým a dočasným rozdielom a ako súvisia s odloženou daňou?",
+      "odpoved": "Trvalý sa nikdy nevyrovná (pokuta od štátu; oslobodená dividenda) a odloženú daň nevyvoláva. Dočasný sa vyrovná v inom období (nezaplatený náklad, OP, rezerva) a vzniká z neho odložená daňová pohľadávka alebo záväzok.",
+      "moznosti": [
+        "Trvalý rozdiel sa nikdy nevyrovná a odloženú daň nevyvoláva; dočasný sa vyrovná v inom období a vyvoláva odloženú daň",
+        "Trvalý rozdiel vyvoláva odloženú daň, dočasný nie",
+        "Oba typy rozdielov vyvolávajú odloženú daň",
+        "Ani jeden nevyvoláva odloženú daň – ide len o účtovnú reklasifikáciu"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Trvalý sa nikdy nevyrovná (pokuta od štátu; oslobodená dividenda) a odloženú daň nevyvoláva. Dočasný sa vyrovná v inom období (nezaplatený náklad, OP, rezerva) a vzniká z neho odložená daňová pohľadávka alebo záväzok."
+    },
+    {
+      "otazka": "Môže odpočítateľná položka vzniknúť aj na strane výnosov?",
+      "odpoved": "Áno – napr. prijatá oslobodená dividenda je výnosom, ktorý nie je zdaniteľným príjmom, preto sa zo ZD trvalo vylúči ako odpočítateľná položka.",
+      "moznosti": [
+        "Nie – odpočítateľné položky vznikajú výlučne na strane nákladov",
+        "Áno – napr. prijatá oslobodená dividenda sa ako nezdaniteľný výnos zo základu dane vylúči",
+        "Áno, ale len pri výnosoch nezaplatených do konca obdobia",
+        "Nie – dividenda sa naopak pripočítava k základu dane"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Áno – napr. prijatá oslobodená dividenda je výnosom, ktorý nie je zdaniteľným príjmom, preto sa zo ZD trvalo vylúči ako odpočítateľná položka."
+    },
+    {
+      "otazka": "Prečo zákon podmieňuje niektoré náklady zaplatením?",
+      "odpoved": "Aby zabránil znižovaniu základu dane nezaplatenými alebo fiktívnymi faktúrami, typicky medzi spriaznenými osobami; náklad sa daňovo uzná až keď reálne odíde z firmy.",
+      "moznosti": [
+        "Aby sa zabránilo znižovaniu základu dane nezaplatenými či fiktívnymi faktúrami (najmä medzi spriaznenými osobami)",
+        "Pretože nezaplatený náklad sa v účtovníctve vôbec nezaúčtuje",
+        "Aby sa zjednotil účtovný a daňový odpis dlhodobého majetku",
+        "Pretože to vyžadujú medzinárodné štandardy IFRS"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Aby zabránil znižovaniu základu dane nezaplatenými alebo fiktívnymi faktúrami, typicky medzi spriaznenými osobami; náklad sa daňovo uzná až keď reálne odíde z firmy."
+    },
+    {
+      "otazka": "Ako sa účtuje a vykazuje daňová opravná položka k pohľadávke?",
+      "odpoved": "Tvorba na účte 547/391 za splnenia podmienok § 20 podľa časového testu 20/50/100 %; je to možnosť do kumulatívneho limitu.",
+      "moznosti": [
+        "Tvorba 558/391; je to vždy daňovo uznaná účtovná opravná položka",
+        "Tvorba 547/391 podľa § 20, časový test 20/50/100 % – možnosť do kumulatívneho limitu",
+        "Tvorba 547/391, ale rovno 100 % už po 360 dňoch po splatnosti",
+        "Tvorba 391/547, povinná podľa § 17 bez splnenia podmienok"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Tvorba na účte 547/391 za splnenia podmienok § 20 podľa časového testu 20/50/100 %; je to možnosť do kumulatívneho limitu."
+    },
+    {
+      "otazka": "Čo ak dlžník časť záväzku po splatnosti uhradí?",
+      "odpoved": "Test sa robí z nesplatenej časti; po úhrade už zdanenej sumy sa základ dane podľa § 17 ods. 32 zníži (odpočítateľná položka).",
+      "moznosti": [
+        "Test sa počíta z nesplatenej časti; po úhrade predtým zdanenej sumy sa základ dane zníži (§ 17 ods. 32)",
+        "Pôvodné pripočítanie zostáva natrvalo, čiastočná úhrada naň nemá vplyv",
+        "Po akejkoľvek čiastočnej úhrade sa zruší celé pôvodné pripočítanie naraz",
+        "Úhrada je len účtovná operácia bez vplyvu na základ dane"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Test sa robí z nesplatenej časti; po úhrade už zdanenej sumy sa základ dane podľa § 17 ods. 32 zníži (odpočítateľná položka)."
+    }
   ],
   "pasce_caste_chyby": [
     "Myslieť si, že úpravu robí daňový úrad – robí ju sám daňovník v daňovom priznaní.",
@@ -78,26 +281,108 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Nezaplatená faktúra za poradenské služby zaúčtovaná v r. 2025 a uhradená v r. 2026 je v r. 2025:", "moznosti": ["odpočítateľnou položkou", "pripočítateľnou položkou", "trvalým rozdielom bez vplyvu na ZD", "daňovým výdavkom bez úpravy"], "spravna_index": 1, "vysvetlenie": "§ 17 ods. 19 – poradenstvo je daňové až po zaplatení; v roku zaúčtovania bez úhrady je to pripočítateľná položka, v roku úhrady odpočítateľná."},
-      {"otazka": "Záväzok 50 000 € prekročil v r. 2024 lehotu 360 dní (ZD sa vtedy zvýšil o 20 %). V r. 2025 prekročí 720 dní. O akú sumu sa zvýši ZD v r. 2025?", "moznosti": ["o 25 000 € (50 %)", "o 15 000 € (doplnenie do 50 %)", "o 10 000 € (20 %)", "o 0 €"], "spravna_index": 1, "vysvetlenie": "§ 17 ods. 27 – pásma sú kumulatívne. Po 360 dňoch sa už zdanilo 20 % (10 000 €). Po prekročení 720 dní sa dopĺňa do 50 %, t. j. ďalších 30 % = 15 000 €."},
-      {"otazka": "Ktorá z týchto škôd je daňovým výdavkom v plnej výške aj bez prijatej náhrady?", "moznosti": ["manko v pokladnici", "škoda od neznámeho páchateľa potvrdená políciou", "škoda od známeho páchateľa nad náhradu", "pokuta od daňového úradu"], "spravna_index": 1, "vysvetlenie": "§ 19 ods. 3 písm. g) – neznámy páchateľ (potvrdenie polície) a živelná pohroma sú daňové v plnej výške. Pri známom páchateľovi je škoda nad náhradu nedaňová."},
-      {"otazka": "Tvorba ktorej rezervy je daňovým výdavkom?", "moznosti": ["rezerva na bonusy zamestnancom", "rezerva na nevyčerpané dovolenky", "rezerva na zostavenie účtovnej závierky", "rezerva na reštrukturalizáciu"], "spravna_index": 1, "vysvetlenie": "§ 20 – daňové sú len taxatívne uvedené rezervy; rezerva na nevyčerpané dovolenky tam patrí, ostatné nie."},
-      {"otazka": "Nezrealizované kurzové rozdiely k 31. 12. sú podľa § 17 ods. 17:", "moznosti": ["vždy vylúčené zo základu dane", "štandardne súčasťou ZD, s možnosťou odložiť ich do realizácie", "vždy zdanené až pri inkase", "trvalým rozdielom"], "spravna_index": 1, "vysvetlenie": "Default sú v ZD v období účtovania; daňovník sa môže rozhodnúť (a oznámiť správcovi dane) zahrnúť ich až pri inkase/úhrade."}
+      {
+        "otazka": "Nezaplatená faktúra za poradenské služby zaúčtovaná v r. 2025 a uhradená v r. 2026 je v r. 2025:",
+        "moznosti": [
+          "odpočítateľnou položkou",
+          "pripočítateľnou položkou",
+          "trvalým rozdielom bez vplyvu na ZD",
+          "daňovým výdavkom bez úpravy"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 17 ods. 19 – poradenstvo je daňové až po zaplatení; v roku zaúčtovania bez úhrady je to pripočítateľná položka, v roku úhrady odpočítateľná."
+      },
+      {
+        "otazka": "Záväzok 50 000 € prekročil v r. 2024 lehotu 360 dní (ZD sa vtedy zvýšil o 20 %). V r. 2025 prekročí 720 dní. O akú sumu sa zvýši ZD v r. 2025?",
+        "moznosti": [
+          "o 25 000 € (50 %)",
+          "o 15 000 € (doplnenie do 50 %)",
+          "o 10 000 € (20 %)",
+          "o 0 €"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 17 ods. 27 – pásma sú kumulatívne. Po 360 dňoch sa už zdanilo 20 % (10 000 €). Po prekročení 720 dní sa dopĺňa do 50 %, t. j. ďalších 30 % = 15 000 €."
+      },
+      {
+        "otazka": "Ktorá z týchto škôd je daňovým výdavkom v plnej výške aj bez prijatej náhrady?",
+        "moznosti": [
+          "manko v pokladnici",
+          "škoda od neznámeho páchateľa potvrdená políciou",
+          "škoda od známeho páchateľa nad náhradu",
+          "pokuta od daňového úradu"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 19 ods. 3 písm. g) – neznámy páchateľ (potvrdenie polície) a živelná pohroma sú daňové v plnej výške. Pri známom páchateľovi je škoda nad náhradu nedaňová."
+      },
+      {
+        "otazka": "Tvorba ktorej rezervy je daňovým výdavkom?",
+        "moznosti": [
+          "rezerva na bonusy zamestnancom",
+          "rezerva na nevyčerpané dovolenky",
+          "rezerva na zostavenie účtovnej závierky",
+          "rezerva na reštrukturalizáciu"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 20 – daňové sú len taxatívne uvedené rezervy; rezerva na nevyčerpané dovolenky tam patrí, ostatné nie."
+      },
+      {
+        "otazka": "Nezrealizované kurzové rozdiely k 31. 12. sú podľa § 17 ods. 17:",
+        "moznosti": [
+          "vždy vylúčené zo základu dane",
+          "štandardne súčasťou ZD, s možnosťou odložiť ich do realizácie",
+          "vždy zdanené až pri inkase",
+          "trvalým rozdielom"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Default sú v ZD v období účtovania; daňovník sa môže rozhodnúť (a oznámiť správcovi dane) zahrnúť ich až pri inkase/úhrade."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite mechanizmus úpravy ZD pri náklade podmienenom zaplatením a uveďte príklad účtovania.", "vzorova_odpoved": "Náklad podľa § 17 ods. 19 (napr. nájom FO, marketing, poradenstvo) je v účtovnom VH (518/321), ale daňovým výdavkom až po úhrade. V roku zaúčtovania bez úhrady → pripočítateľná položka; v roku úhrady (321/221) → odpočítateľná položka. Úpravu robí daňovník v daňovom priznaní."},
-      {"otazka": "Aký je rozdiel medzi trvalým a dočasným rozdielom? Uveďte príklady aj na strane výnosov.", "vzorova_odpoved": "Trvalý sa nikdy nevyrovná a nevyvoláva odloženú daň (náklady: pokuty od štátu, reprezentácia; výnosy: oslobodená dividenda – odpočítateľná). Dočasný sa vyrovná v inom období a vyvoláva odloženú daň (nezaplatené náklady § 17/19, účtovné OP a rezervy mimo § 20, rozdiel daňových a účtovných odpisov)."},
-      {"otazka": "Kedy je opravná položka k pohľadávke daňovo uznaná, v akej výške a je to povinnosť?", "vzorova_odpoved": "Ak bola pohľadávka zahrnutá do zdaniteľných príjmov, je nepremlčaná a nebola nadobudnutá postúpením; podľa časového testu § 20 ods. 14 do 20 % (>360 dní), 50 % (>720) a 100 % (>1 080), kumulatívne. Je to možnosť, nie povinnosť. Účtovanie 547/391."}
+      {
+        "otazka": "Vysvetlite mechanizmus úpravy ZD pri náklade podmienenom zaplatením a uveďte príklad účtovania.",
+        "vzorova_odpoved": "Náklad podľa § 17 ods. 19 (napr. nájom FO, marketing, poradenstvo) je v účtovnom VH (518/321), ale daňovým výdavkom až po úhrade. V roku zaúčtovania bez úhrady → pripočítateľná položka; v roku úhrady (321/221) → odpočítateľná položka. Úpravu robí daňovník v daňovom priznaní."
+      },
+      {
+        "otazka": "Aký je rozdiel medzi trvalým a dočasným rozdielom? Uveďte príklady aj na strane výnosov.",
+        "vzorova_odpoved": "Trvalý sa nikdy nevyrovná a nevyvoláva odloženú daň (náklady: pokuty od štátu, reprezentácia; výnosy: oslobodená dividenda – odpočítateľná). Dočasný sa vyrovná v inom období a vyvoláva odloženú daň (nezaplatené náklady § 17/19, účtovné OP a rezervy mimo § 20, rozdiel daňových a účtovných odpisov)."
+      },
+      {
+        "otazka": "Kedy je opravná položka k pohľadávke daňovo uznaná, v akej výške a je to povinnosť?",
+        "vzorova_odpoved": "Ak bola pohľadávka zahrnutá do zdaniteľných príjmov, je nepremlčaná a nebola nadobudnutá postúpením; podľa časového testu § 20 ods. 14 do 20 % (>360 dní), 50 % (>720) a 100 % (>1 080), kumulatívne. Je to možnosť, nie povinnosť. Účtovanie 547/391."
+      }
     ],
     "priklad": [
-      {"zadanie": "Spoločnosť eviduje k 31.12.2025: (a) nezaplatenú faktúru za právne služby 4 000 € (zaúčtovaná 2025), (b) záväzok 20 000 € po splatnosti 400 dní (prvýkrát cez 360 dní), (c) účtovnú rezervu na bonusy 8 000 €, (d) prijatú oslobodenú dividendu 5 000 € zaúčtovanú do výnosov. Určte úpravy ZD za rok 2025.", "riesenie": "(a) +4 000 € pripočítateľná (§ 17 ods. 19). (b) +4 000 € pripočítateľná (20 % z 20 000, prvé pásmo § 17 ods. 27). (c) +8 000 € pripočítateľná (rezerva mimo § 20). (d) −5 000 € odpočítateľná (výnos, ktorý nie je zdaniteľným príjmom – trvalý rozdiel). Spolu: pripočítateľné +16 000 €, odpočítateľné −5 000 €."}
+      {
+        "zadanie": "Spoločnosť eviduje k 31.12.2025: (a) nezaplatenú faktúru za právne služby 4 000 € (zaúčtovaná 2025), (b) záväzok 20 000 € po splatnosti 400 dní (prvýkrát cez 360 dní), (c) účtovnú rezervu na bonusy 8 000 €, (d) prijatú oslobodenú dividendu 5 000 € zaúčtovanú do výnosov. Určte úpravy ZD za rok 2025.",
+        "riesenie": "(a) +4 000 € pripočítateľná (§ 17 ods. 19). (b) +4 000 € pripočítateľná (20 % z 20 000, prvé pásmo § 17 ods. 27). (c) +8 000 € pripočítateľná (rezerva mimo § 20). (d) −5 000 € odpočítateľná (výnos, ktorý nie je zdaniteľným príjmom – trvalý rozdiel). Spolu: pripočítateľné +16 000 €, odpočítateľné −5 000 €."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Zákon č. 595/2003 Z. z. o dani z príjmov, § 17 (ods. 17, 19, 20, 27, 32, 34), § 19, § 20, § 21", "kde": "01_Zdroje/Zakony/ZZ_2003_595_20260101_metalex.asice", "typ": "primárny"},
-    {"nazov": "Prednáška PR-11 DPPO 2025 – Položky upravujúce výsledok hospodárenia", "kde": "01_Zdroje/PR-11 DPPO_2025_polozky_upravujuce_VH.pptx", "typ": "prednáška"},
-    {"nazov": "Prednáška PR-07 – Podmienka zaplatenia, rezervy, opravné položky (A. Marci)", "kde": "01_Zdroje/PR-07.pptx", "typ": "prednáška"},
-    {"nazov": "Prednáška PR-06 – Stravné, cestovné, PHL, manká a škody (A. Marci)", "kde": "01_Zdroje/PR-06.pptx", "typ": "prednáška"},
-    {"nazov": "Aktuálne čísla SR 2025/2026 (sadzby, limity)", "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md", "typ": "web/overené"}
+    {
+      "nazov": "Zákon č. 595/2003 Z. z. o dani z príjmov, § 17 (ods. 17, 19, 20, 27, 32, 34), § 19, § 20, § 21",
+      "kde": "01_Zdroje/Zakony/ZZ_2003_595_20260101_metalex.asice",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Prednáška PR-11 DPPO 2025 – Položky upravujúce výsledok hospodárenia",
+      "kde": "01_Zdroje/PR-11 DPPO_2025_polozky_upravujuce_VH.pptx",
+      "typ": "prednáška"
+    },
+    {
+      "nazov": "Prednáška PR-07 – Podmienka zaplatenia, rezervy, opravné položky (A. Marci)",
+      "kde": "01_Zdroje/PR-07.pptx",
+      "typ": "prednáška"
+    },
+    {
+      "nazov": "Prednáška PR-06 – Stravné, cestovné, PHL, manká a škody (A. Marci)",
+      "kde": "01_Zdroje/PR-06.pptx",
+      "typ": "prednáška"
+    },
+    {
+      "nazov": "Aktuálne čísla SR 2025/2026 (sadzby, limity)",
+      "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md",
+      "typ": "web/overené"
+    }
   ]
 }

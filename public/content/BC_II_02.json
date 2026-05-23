@@ -23,48 +23,217 @@
     "register účtovných závierok"
   ],
   "princip_mentalny_model": "Jedna firma – jeden zákon o účtovníctve, ale TRI rôzne 'veľkosti obleku' závierky. Veľkostná skupina (mikro / malá / veľká, plus automaticky veľká = subjekt verejného záujmu) sa určuje podľa TROCH kritérií: koľko firma má (celková suma majetku netto), koľko zarobí (čistý obrat) a koľko zamestnáva (priemerný prepočítaný počet zamestnancov). Logika je 'mikro / nie mikro a nie veľká = malá / veľká'. Aby preskočenie do inej skupiny nebolo náhodné, zákon žiada splnenie aspoň DVOCH z troch kritérií a navyše za DVE po sebe idúce obdobia – jednorazový výkyv firmu nepresunie. Čím väčšia jednotka, tým podrobnejšia závierka: mikro má skrátenú súvahu (len netto) a stručné poznámky, malá plnú súvahu (brutto/korekcia/netto) a širšie poznámky, veľká a SVZ rovnaké výkazy ako malá, ale približne dvojnásobný rozsah poznámok. Princíp: rozsah informačnej povinnosti rastie s veľkosťou (a teda s verejným významom) jednotky – malé firmy sa odbremeňujú, veľké musia podať podrobný a porovnateľný obraz.",
-
   "jadro_odpovede_10min": {
     "cielova_dlzka_slov": 1400,
     "uvod": "Účtovná závierka je štruktúrovaná prezentácia skutočností, ktoré sú predmetom účtovníctva, a poskytuje verný a pravdivý obraz o majetku, záväzkoch, vlastnom imaní, nákladoch, výnosoch a výsledku hospodárenia účtovnej jednotky. V sústave podvojného účtovníctva ju podľa § 17 ods. 3 zákona č. 431/2002 Z. z. tvoria tri zložky: súvaha, výkaz ziskov a strát a poznámky. Hoci je rámec pre všetkých podnikateľov spoločný, OBSAH a ROZSAH závierky sa líši podľa toho, do akej veľkostnej skupiny je jednotka zatriedená. Zákon v § 2 ods. 5 rozdeľuje obchodné spoločnosti, družstvá, fyzické osoby účtujúce v podvojnom účtovníctve a pozemkové spoločenstvá do troch skupín – mikro, malá a veľká účtovná jednotka – pričom subjekty verejného záujmu sú vždy veľké. Pre každú skupinu vydalo ministerstvo financií osobitné opatrenie s vlastným vzorom výkazov a obsahovou náplňou poznámok.",
     "casti": [
-      {"nadpis": "Veľkostné skupiny a kto sa triedi (§ 2 ods. 5)", "text": "Do veľkostných skupín sa povinne triedia obchodné spoločnosti (a. s., s. r. o., k. s., v. o. s., j. s. a.), družstvá, fyzické osoby – podnikatelia účtujúce v sústave podvojného účtovníctva a pozemkové spoločenstvá. Triedenie sa NEVZŤAHUJE na banky, poisťovne, zaisťovne, správcovské spoločnosti, neziskové organizácie a podobné subjekty, ktoré majú vlastnú úpravu. Existujú tri skupiny: mikro účtovná jednotka, malá účtovná jednotka a veľká účtovná jednotka. Zatriedenie nie je samoúčelné – priamo určuje, ktoré opatrenie MF SR (a teda ktorý vzor súvahy, výkazu ziskov a strát a aký rozsah poznámok) jednotka použije, a tým aj rozsah údajov ukladaných do registra účtovných závierok."},
-      {"nadpis": "Tri kritériá a pravidlo 2 z 3", "text": "Zatriedenie sa určuje podľa troch veľkostných kritérií: a) celková suma majetku, b) čistý obrat a c) priemerný prepočítaný počet zamestnancov. Jednotka patrí do skupiny, ak spĺňa aspoň DVE z troch podmienok danej skupiny – nikdy nestačí jediné kritérium a ani sa nevyžadujú všetky tri. Celkovou sumou majetku sa rozumie suma zo súvahy v ocenení NETTO, teda upravená o oprávky a opravné položky (§ 2 ods. 9 v spojení s § 26 ods. 3). Čistý obrat je súčet výnosov z predaja výrobkov, tovaru a služieb súvisiacich s bežnou činnosťou (typicky účty 601, 602, 604) po odpočítaní zliav; nezahŕňa neopakujúce sa a nepodnikateľské výnosy (predaj majetku 641, dotácie a poistné plnenia 648, zmenu stavu zásob, aktiváciu). Priemerný prepočítaný počet zamestnancov sa zisťuje podľa metodiky štatistického výkazu."},
-      {"nadpis": "Konkrétne prahy mikro / malá / veľká (aktuálne hodnoty)", "text": "MIKRO účtovná jednotka spĺňa aspoň dve z týchto podmienok: celková suma majetku NEpresiahla 450 000 €, čistý obrat NEpresiahol 900 000 €, priemerný počet zamestnancov NEpresiahol 10. MALÁ účtovná jednotka spĺňa aspoň dve z: majetok presiahol 450 000 € ale nepresiahol 5 000 000 €, čistý obrat presiahol 900 000 € ale nepresiahol 10 000 000 €, počet zamestnancov presiahol 10 a nepresiahol 50. VEĽKÁ účtovná jednotka spĺňa aspoň dve z: majetok presiahol 5 000 000 €, čistý obrat presiahol 10 000 000 €, počet zamestnancov presiahol 50. Tieto sumy platia od novely č. 105/2024 Z. z. (od 1. 6. 2024, prvýkrát za obdobie končiace 31. 12. 2023) a sú v platnosti aj pre roky 2025 a 2026. Pozor – sú to ZVÝŠENÉ hodnoty; staršie materiály ešte uvádzajú pôvodné nižšie prahy (350 000 / 700 000 a 4 mil. / 8 mil.), ktoré už neplatia."},
-      {"nadpis": "Subjekt verejného záujmu a postup pri zatriedení", "text": "Subjekt verejného záujmu (SVZ) je podľa § 2 ods. 14 napríklad emitent cenných papierov prijatých na obchodovanie na regulovanom trhu v EÚ/EHP, banka, poisťovňa, zdravotná poisťovňa, dôchodková správcovská spoločnosť, Burza cenných papierov a ďalšie. SVZ sa považuje za veľkú účtovnú jednotku bez ohľadu na to, či presahuje veľkostné prahy. Pri triedení platia dve dôležité pravidlá: jednotka, ktorá nespĺňa podmienky zatriedenia (napr. nemá dve predchádzajúce obdobia), sa zatriedi ako MALÁ; a mikro účtovná jednotka sa môže dobrovoľne rozhodnúť postupovať ako malá (§ 2 ods. 12). Vo všeobecnosti teda jednotka môže ísť 'nahor' (vykazovať podrobnejšie), nie však 'nadol' pod svoju skutočnú veľkosť."},
-      {"nadpis": "Časový test: prvý deň obdobia a dve po sebe idúce obdobia (§ 2 ods. 10)", "text": "Splnenie kritérií sa posudzuje VŽDY k prvému dňu účtovného obdobia (napr. k 1. 1.) a vyhodnocuje sa za DVE bezprostredne predchádzajúce účtovné obdobia. Jednotka musí zmeniť zatriedenie do inej skupiny až od nasledujúceho účtovného obdobia po tých dvoch po sebe idúcich obdobiach, v ktorých prahy presiahla alebo prestala spĺňať. Dvojročné pravidlo zabraňuje tomu, aby jednorazový výkyv (napr. mimoriadny predaj) firmu hneď preradil. Novovzniknutá jednotka sa zatriedi podľa vlastného rozhodnutia a v tomto zatriedení zostáva aj v bezprostredne nasledujúcom období (spravidla sa zatriedi ako mikro). Po vstupe do likvidácie alebo po vyhlásení konkurzu jednotka svoje zatriedenie nemení."},
-      {"nadpis": "Tri zložky závierky a spoločný základ (§ 17)", "text": "Individuálnu účtovnú závierku v podvojnom účtovníctve tvoria súvaha, výkaz ziskov a strát a poznámky (§ 17 ods. 3). Okrem toho musí obsahovať všeobecné náležitosti: obchodné meno/názov, IČO, deň, ku ktorému sa zostavuje, deň zostavenia, obdobie a podpisový záznam štatutárneho orgánu. Tieto prvky majú VŠETKY veľkostné skupiny rovnaké. Líši sa však štruktúra (počet riadkov a stĺpcov) výkazov a najmä obsahová náplň poznámok. Pre každú skupinu je vydané samostatné opatrenie: mikro – MF/15464/2013-74 (tlačivá Úč MÚJ), malé – MF/23378/2014-74 a veľké/SVZ – MF/23377/2014-74 (tlačivá Úč POD). Závierku treba zostaviť najneskôr do šiestich mesiacov od dňa, ku ktorému sa zostavuje, a uložiť ju do registra účtovných závierok."},
-      {"nadpis": "Rozdiely v súvahe podľa veľkosti", "text": "Mikro účtovná jednotka má SKRÁTENÚ súvahu: aktíva sa vykazujú len v hodnote NETTO (jeden stĺpec za bežné a jeden za predchádzajúce obdobie), bez samostatných stĺpcov brutto a korekcia. Nevykazujú sa na samostatných riadkoch niektoré účty (napr. 041, 042, 043, 093, 094, 051, 052) a časové rozlíšenie sa uvádza ako súčasť pohľadávok alebo záväzkov. Malá a veľká jednotka (vrátane SVZ) používajú ROVNAKÝ, podrobnejší vzor súvahy: aktíva v troch stĺpcoch – brutto, korekcia (oprávky a opravné položky) a netto – a samostatný stĺpec za predchádzajúce obdobie; pasíva v dvoch stĺpcoch. Veľká jednotka navyše analyticky člení cenné papiere, podiely, pohľadávky a záväzky podľa prepojenosti (prepojené jednotky, podielová účasť), kým malá tieto riadky nevypĺňa."},
-      {"nadpis": "Rozdiely vo výkaze ziskov a strát", "text": "Mikro účtovná jednotka má skrátený výkaz ziskov a strát – vykazuje výsledok hospodárenia z hospodárskej činnosti a výsledok hospodárenia z finančnej činnosti v menej podrobnom členení. Malá a veľká jednotka používajú podrobnejší, ale navzájom rovnaký vzor výkazu ziskov a strát (Úč POD). Mikro jednotka tiež NEÚČTUJE o odloženej dani, nemusí oceňovať majetok a záväzky reálnou hodnotou, nepoužíva metódu vlastného imania a má zjednodušené účtovanie derivátov – čo sa odráža aj v menšej podrobnosti jej výkazov. Tieto úľavy sú podstatou 'mikro režimu': nižšia administratíva výmenou za menšiu vypovedaciu hodnotu závierky."},
-      {"nadpis": "Rozdiely v poznámkach – najväčší rozdiel", "text": "Najvýraznejšie sa skupiny líšia v POZNÁMKACH. Mikro jednotka má najstručnejšie poznámky (Úč MÚJ 3-01): údaje len za bežné obdobie, neuvádza porovnanie s predchádzajúcim obdobím v poznámkach, vynecháva opis činnosti a viaceré podrobnosti. Malá jednotka (poznámky Úč POD) má širšiu náplň vrátane údajov za predchádzajúce obdobie. Veľká jednotka a SVZ majú približne DVOJNÁSOBNE väčší rozsah poznámok než malá: navyše uvádzajú napríklad počet vedúcich zamestnancov, opis tvorby kapitálového fondu z príspevkov, podrobný pohyb rezerv, informácie o zákazkovej výrobe a podrobnejšie členenie podľa prepojenosti. Práve poznámky sú teda hlavným nástrojom, ktorým sa od veľkých jednotiek vyžaduje podrobný a porovnateľný obraz; novelou opatrenia MF/013838/2025-74 (od 1. 1. 2026) sa náplň poznámok veľkých/SVZ zosúladila so zákonom (napr. niektoré údaje sa po 31. 12. 2025 už neuvádzajú)."},
-      {"zaver": "Odpoveď možno zhrnúť do reťazca: KTO sa triedi → podľa AKÝCH kritérií (majetok, obrat, počet zamestnancov, pravidlo 2 z 3) → AKÉ sú prahy (450 000 / 900 000 / 10; 5 mil. / 10 mil. / 50) → KEDY sa posudzujú (prvý deň obdobia, dve po sebe idúce obdobia) → AKÝ to má dôsledok na rozsah závierky (skrátená súvaha a stručné poznámky mikro vs. plné výkazy a najrozsiahlejšie poznámky veľkej a SVZ). Spoločný základ je verný a pravdivý obraz a tri zložky závierky; veľkosť určuje len mieru podrobnosti."}
+      {
+        "nadpis": "Veľkostné skupiny a kto sa triedi (§ 2 ods. 5)",
+        "text": "Do veľkostných skupín sa povinne triedia obchodné spoločnosti (a. s., s. r. o., k. s., v. o. s., j. s. a.), družstvá, fyzické osoby – podnikatelia účtujúce v sústave podvojného účtovníctva a pozemkové spoločenstvá. Triedenie sa NEVZŤAHUJE na banky, poisťovne, zaisťovne, správcovské spoločnosti, neziskové organizácie a podobné subjekty, ktoré majú vlastnú úpravu. Existujú tri skupiny: mikro účtovná jednotka, malá účtovná jednotka a veľká účtovná jednotka. Zatriedenie nie je samoúčelné – priamo určuje, ktoré opatrenie MF SR (a teda ktorý vzor súvahy, výkazu ziskov a strát a aký rozsah poznámok) jednotka použije, a tým aj rozsah údajov ukladaných do registra účtovných závierok."
+      },
+      {
+        "nadpis": "Tri kritériá a pravidlo 2 z 3",
+        "text": "Zatriedenie sa určuje podľa troch veľkostných kritérií: a) celková suma majetku, b) čistý obrat a c) priemerný prepočítaný počet zamestnancov. Jednotka patrí do skupiny, ak spĺňa aspoň DVE z troch podmienok danej skupiny – nikdy nestačí jediné kritérium a ani sa nevyžadujú všetky tri. Celkovou sumou majetku sa rozumie suma zo súvahy v ocenení NETTO, teda upravená o oprávky a opravné položky (§ 2 ods. 9 v spojení s § 26 ods. 3). Čistý obrat je súčet výnosov z predaja výrobkov, tovaru a služieb súvisiacich s bežnou činnosťou (typicky účty 601, 602, 604) po odpočítaní zliav; nezahŕňa neopakujúce sa a nepodnikateľské výnosy (predaj majetku 641, dotácie a poistné plnenia 648, zmenu stavu zásob, aktiváciu). Priemerný prepočítaný počet zamestnancov sa zisťuje podľa metodiky štatistického výkazu."
+      },
+      {
+        "nadpis": "Konkrétne prahy mikro / malá / veľká (aktuálne hodnoty)",
+        "text": "MIKRO účtovná jednotka spĺňa aspoň dve z týchto podmienok: celková suma majetku NEpresiahla 450 000 €, čistý obrat NEpresiahol 900 000 €, priemerný počet zamestnancov NEpresiahol 10. MALÁ účtovná jednotka spĺňa aspoň dve z: majetok presiahol 450 000 € ale nepresiahol 5 000 000 €, čistý obrat presiahol 900 000 € ale nepresiahol 10 000 000 €, počet zamestnancov presiahol 10 a nepresiahol 50. VEĽKÁ účtovná jednotka spĺňa aspoň dve z: majetok presiahol 5 000 000 €, čistý obrat presiahol 10 000 000 €, počet zamestnancov presiahol 50. Tieto sumy platia od novely č. 105/2024 Z. z. (od 1. 6. 2024, prvýkrát za obdobie končiace 31. 12. 2023) a sú v platnosti aj pre roky 2025 a 2026. Pozor – sú to ZVÝŠENÉ hodnoty; staršie materiály ešte uvádzajú pôvodné nižšie prahy (350 000 / 700 000 a 4 mil. / 8 mil.), ktoré už neplatia."
+      },
+      {
+        "nadpis": "Subjekt verejného záujmu a postup pri zatriedení",
+        "text": "Subjekt verejného záujmu (SVZ) je podľa § 2 ods. 14 napríklad emitent cenných papierov prijatých na obchodovanie na regulovanom trhu v EÚ/EHP, banka, poisťovňa, zdravotná poisťovňa, dôchodková správcovská spoločnosť, Burza cenných papierov a ďalšie. SVZ sa považuje za veľkú účtovnú jednotku bez ohľadu na to, či presahuje veľkostné prahy. Pri triedení platia dve dôležité pravidlá: jednotka, ktorá nespĺňa podmienky zatriedenia (napr. nemá dve predchádzajúce obdobia), sa zatriedi ako MALÁ; a mikro účtovná jednotka sa môže dobrovoľne rozhodnúť postupovať ako malá (§ 2 ods. 12). Vo všeobecnosti teda jednotka môže ísť 'nahor' (vykazovať podrobnejšie), nie však 'nadol' pod svoju skutočnú veľkosť."
+      },
+      {
+        "nadpis": "Časový test: prvý deň obdobia a dve po sebe idúce obdobia (§ 2 ods. 10)",
+        "text": "Splnenie kritérií sa posudzuje VŽDY k prvému dňu účtovného obdobia (napr. k 1. 1.) a vyhodnocuje sa za DVE bezprostredne predchádzajúce účtovné obdobia. Jednotka musí zmeniť zatriedenie do inej skupiny až od nasledujúceho účtovného obdobia po tých dvoch po sebe idúcich obdobiach, v ktorých prahy presiahla alebo prestala spĺňať. Dvojročné pravidlo zabraňuje tomu, aby jednorazový výkyv (napr. mimoriadny predaj) firmu hneď preradil. Novovzniknutá jednotka sa zatriedi podľa vlastného rozhodnutia a v tomto zatriedení zostáva aj v bezprostredne nasledujúcom období (spravidla sa zatriedi ako mikro). Po vstupe do likvidácie alebo po vyhlásení konkurzu jednotka svoje zatriedenie nemení."
+      },
+      {
+        "nadpis": "Tri zložky závierky a spoločný základ (§ 17)",
+        "text": "Individuálnu účtovnú závierku v podvojnom účtovníctve tvoria súvaha, výkaz ziskov a strát a poznámky (§ 17 ods. 3). Okrem toho musí obsahovať všeobecné náležitosti: obchodné meno/názov, IČO, deň, ku ktorému sa zostavuje, deň zostavenia, obdobie a podpisový záznam štatutárneho orgánu. Tieto prvky majú VŠETKY veľkostné skupiny rovnaké. Líši sa však štruktúra (počet riadkov a stĺpcov) výkazov a najmä obsahová náplň poznámok. Pre každú skupinu je vydané samostatné opatrenie: mikro – MF/15464/2013-74 (tlačivá Úč MÚJ), malé – MF/23378/2014-74 a veľké/SVZ – MF/23377/2014-74 (tlačivá Úč POD). Závierku treba zostaviť najneskôr do šiestich mesiacov od dňa, ku ktorému sa zostavuje, a uložiť ju do registra účtovných závierok."
+      },
+      {
+        "nadpis": "Rozdiely v súvahe podľa veľkosti",
+        "text": "Mikro účtovná jednotka má SKRÁTENÚ súvahu: aktíva sa vykazujú len v hodnote NETTO (jeden stĺpec za bežné a jeden za predchádzajúce obdobie), bez samostatných stĺpcov brutto a korekcia. Nevykazujú sa na samostatných riadkoch niektoré účty (napr. 041, 042, 043, 093, 094, 051, 052) a časové rozlíšenie sa uvádza ako súčasť pohľadávok alebo záväzkov. Malá a veľká jednotka (vrátane SVZ) používajú ROVNAKÝ, podrobnejší vzor súvahy: aktíva v troch stĺpcoch – brutto, korekcia (oprávky a opravné položky) a netto – a samostatný stĺpec za predchádzajúce obdobie; pasíva v dvoch stĺpcoch. Veľká jednotka navyše analyticky člení cenné papiere, podiely, pohľadávky a záväzky podľa prepojenosti (prepojené jednotky, podielová účasť), kým malá tieto riadky nevypĺňa."
+      },
+      {
+        "nadpis": "Rozdiely vo výkaze ziskov a strát",
+        "text": "Mikro účtovná jednotka má skrátený výkaz ziskov a strát – vykazuje výsledok hospodárenia z hospodárskej činnosti a výsledok hospodárenia z finančnej činnosti v menej podrobnom členení. Malá a veľká jednotka používajú podrobnejší, ale navzájom rovnaký vzor výkazu ziskov a strát (Úč POD). Mikro jednotka tiež NEÚČTUJE o odloženej dani, nemusí oceňovať majetok a záväzky reálnou hodnotou, nepoužíva metódu vlastného imania a má zjednodušené účtovanie derivátov – čo sa odráža aj v menšej podrobnosti jej výkazov. Tieto úľavy sú podstatou 'mikro režimu': nižšia administratíva výmenou za menšiu vypovedaciu hodnotu závierky."
+      },
+      {
+        "nadpis": "Rozdiely v poznámkach – najväčší rozdiel",
+        "text": "Najvýraznejšie sa skupiny líšia v POZNÁMKACH. Mikro jednotka má najstručnejšie poznámky (Úč MÚJ 3-01): údaje len za bežné obdobie, neuvádza porovnanie s predchádzajúcim obdobím v poznámkach, vynecháva opis činnosti a viaceré podrobnosti. Malá jednotka (poznámky Úč POD) má širšiu náplň vrátane údajov za predchádzajúce obdobie. Veľká jednotka a SVZ majú približne DVOJNÁSOBNE väčší rozsah poznámok než malá: navyše uvádzajú napríklad počet vedúcich zamestnancov, opis tvorby kapitálového fondu z príspevkov, podrobný pohyb rezerv, informácie o zákazkovej výrobe a podrobnejšie členenie podľa prepojenosti. Práve poznámky sú teda hlavným nástrojom, ktorým sa od veľkých jednotiek vyžaduje podrobný a porovnateľný obraz; novelou opatrenia MF/013838/2025-74 (od 1. 1. 2026) sa náplň poznámok veľkých/SVZ zosúladila so zákonom (napr. niektoré údaje sa po 31. 12. 2025 už neuvádzajú)."
+      },
+      {
+        "zaver": "Odpoveď možno zhrnúť do reťazca: KTO sa triedi → podľa AKÝCH kritérií (majetok, obrat, počet zamestnancov, pravidlo 2 z 3) → AKÉ sú prahy (450 000 / 900 000 / 10; 5 mil. / 10 mil. / 50) → KEDY sa posudzujú (prvý deň obdobia, dve po sebe idúce obdobia) → AKÝ to má dôsledok na rozsah závierky (skrátená súvaha a stručné poznámky mikro vs. plné výkazy a najrozsiahlejšie poznámky veľkej a SVZ). Spoločný základ je verný a pravdivý obraz a tri zložky závierky; veľkosť určuje len mieru podrobnosti."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Definícia čistého obratu (§ 2 ods. 15)", "text": "Čistým obratom sú výnosy z predaja výrobkov, tovarov a služieb po odpočítaní zliav, dosahované z bežnej (opakujúcej sa) podnikateľskej činnosti – typicky účty 601, 602, 604. Pre osobitné jednotky je definícia upravená: banka zahŕňa výnosy z úrokov, z cenných papierov a podielov, z odplát a provízií a pod.; poisťovňa má vlastné vymedzenie. Do čistého obratu sa NEzahŕňajú neopakujúce sa a nepodnikateľské výnosy: predaj dlhodobého majetku (641), prijaté dotácie a poistné plnenia (648), zmena stavu vnútroorganizačných zásob (účtová skupina 61) a aktivácia (účtová skupina 62). Správne určenie čistého obratu je kľúčové, lebo môže rozhodnúť o zaradení do veľkostnej skupiny."},
-    {"nadpis": "Vzťah veľkostnej skupiny a povinnosti auditu", "text": "Veľkostné skupiny podľa § 2 a kritériá pre povinný audit podľa § 19 zákona o účtovníctve sú DVE RÔZNE veci. Hoci sa novelou 105/2024 zvýšili veľkostné prahy, kritériá pre povinnosť overenia závierky audítorom sa tým automaticky nezmenili – treba ich posudzovať samostatne podľa § 19. Z toho vyplýva, že niektoré jednotky môžu byť malé, no napriek tomu podliehať auditu, alebo naopak. Na štátnici je vhodné uviesť, že veľkostná skupina určuje rozsah a obsah závierky, audit je samostatná povinnosť (samostatná téza)."},
-    {"nadpis": "Konsolidovaná závierka a iné nadväzujúce kritériá", "text": "Veľkostné kritériá v zákone o účtovníctve sa využívajú aj inde – napríklad pri posudzovaní oslobodenia materskej účtovnej jednotky od povinnosti zostaviť konsolidovanú účtovnú závierku (skupiny malé/stredné/veľké skupiny majú vlastné prahy). Pre individuálnu závierku podnikateľa sú však rozhodujúce prahy mikro/malá/veľká podľa § 2 ods. 6 až 8. Treba odlišovať veľkosť jednotlivej jednotky od veľkosti skupiny pri konsolidácii."},
-    {"nadpis": "Register účtovných závierok a zverejňovanie", "text": "Údaje z individuálnej účtovnej závierky sa ukladajú do registra účtovných závierok v rozsahu určenom príslušným opatrením (vysvetlivky sa neukladajú). Mikro jednotka tak zverejňuje skrátenú súvahu a stručné poznámky, malá a veľká podrobnejšie. Rozsah údajov 'určených na zverejnenie' je súčasťou každého opatrenia – preto je veľkostná skupina dôležitá nielen pre internú prácu, ale aj pre to, čo o jednotke uvidí verejnosť v registri."},
-    {"nadpis": "Mikro režim ako balík úľav", "text": "Zaradenie medzi mikro jednotky prináša okrem skrátenej závierky aj ďalšie zjednodušenia účtovania: neúčtuje sa o odloženej dani, majetok a záväzky sa neoceňujú reálnou hodnotou, nepoužíva sa metóda vlastného imania pri cenných papieroch a podieloch, deriváty sa účtujú zjednodušene, nesleduje sa osobitne vzťah k prepojeným jednotkám a nevýznamné opakujúce sa prípady sa nemusia časovo rozlišovať. Práve tieto úľavy sú dôvodom, prečo si menšie firmy zatriedenie ako mikro spravidla volia."}
+    {
+      "nadpis": "Definícia čistého obratu (§ 2 ods. 15)",
+      "text": "Čistým obratom sú výnosy z predaja výrobkov, tovarov a služieb po odpočítaní zliav, dosahované z bežnej (opakujúcej sa) podnikateľskej činnosti – typicky účty 601, 602, 604. Pre osobitné jednotky je definícia upravená: banka zahŕňa výnosy z úrokov, z cenných papierov a podielov, z odplát a provízií a pod.; poisťovňa má vlastné vymedzenie. Do čistého obratu sa NEzahŕňajú neopakujúce sa a nepodnikateľské výnosy: predaj dlhodobého majetku (641), prijaté dotácie a poistné plnenia (648), zmena stavu vnútroorganizačných zásob (účtová skupina 61) a aktivácia (účtová skupina 62). Správne určenie čistého obratu je kľúčové, lebo môže rozhodnúť o zaradení do veľkostnej skupiny."
+    },
+    {
+      "nadpis": "Vzťah veľkostnej skupiny a povinnosti auditu",
+      "text": "Veľkostné skupiny podľa § 2 a kritériá pre povinný audit podľa § 19 zákona o účtovníctve sú DVE RÔZNE veci. Hoci sa novelou 105/2024 zvýšili veľkostné prahy, kritériá pre povinnosť overenia závierky audítorom sa tým automaticky nezmenili – treba ich posudzovať samostatne podľa § 19. Z toho vyplýva, že niektoré jednotky môžu byť malé, no napriek tomu podliehať auditu, alebo naopak. Na štátnici je vhodné uviesť, že veľkostná skupina určuje rozsah a obsah závierky, audit je samostatná povinnosť (samostatná téza)."
+    },
+    {
+      "nadpis": "Konsolidovaná závierka a iné nadväzujúce kritériá",
+      "text": "Veľkostné kritériá v zákone o účtovníctve sa využívajú aj inde – napríklad pri posudzovaní oslobodenia materskej účtovnej jednotky od povinnosti zostaviť konsolidovanú účtovnú závierku (skupiny malé/stredné/veľké skupiny majú vlastné prahy). Pre individuálnu závierku podnikateľa sú však rozhodujúce prahy mikro/malá/veľká podľa § 2 ods. 6 až 8. Treba odlišovať veľkosť jednotlivej jednotky od veľkosti skupiny pri konsolidácii."
+    },
+    {
+      "nadpis": "Register účtovných závierok a zverejňovanie",
+      "text": "Údaje z individuálnej účtovnej závierky sa ukladajú do registra účtovných závierok v rozsahu určenom príslušným opatrením (vysvetlivky sa neukladajú). Mikro jednotka tak zverejňuje skrátenú súvahu a stručné poznámky, malá a veľká podrobnejšie. Rozsah údajov 'určených na zverejnenie' je súčasťou každého opatrenia – preto je veľkostná skupina dôležitá nielen pre internú prácu, ale aj pre to, čo o jednotke uvidí verejnosť v registri."
+    },
+    {
+      "nadpis": "Mikro režim ako balík úľav",
+      "text": "Zaradenie medzi mikro jednotky prináša okrem skrátenej závierky aj ďalšie zjednodušenia účtovania: neúčtuje sa o odloženej dani, majetok a záväzky sa neoceňujú reálnou hodnotou, nepoužíva sa metóda vlastného imania pri cenných papieroch a podieloch, deriváty sa účtujú zjednodušene, nesleduje sa osobitne vzťah k prepojeným jednotkám a nevýznamné opakujúce sa prípady sa nemusia časovo rozlišovať. Práve tieto úľavy sú dôvodom, prečo si menšie firmy zatriedenie ako mikro spravidla volia."
+    }
   ],
   "priklady": [
-    {"nazov": "Zatriedenie podľa pravidla 2 z 3", "zadanie": "S. r. o. má za predchádzajúce obdobie: celkovú sumu majetku (netto) 600 000 €, čistý obrat 850 000 €, priemerný počet zamestnancov 8. Do ktorej skupiny patrí?", "riesenie": "Testujeme proti prahom MIKRO (≤ 450 000 / ≤ 900 000 / ≤ 10): majetok 600 000 € prah PREKRAČUJE (nespĺňa), obrat 850 000 € ≤ 900 000 (spĺňa), zamestnanci 8 ≤ 10 (spĺňa). Mikro podmienky spĺňa 2 z 3 → jednotka by pri splnení aj za druhé obdobie bola MIKRO. Hoci majetok nominálne 'patrí' do pásma malej, na zaradenie do malej by musela spĺňať 2 z 3 podmienok MALEJ, čo tu neplatí (obrat aj počet zamestnancov sú pod dolnou hranicou malej). Záver: mikro účtovná jednotka.", "dopad_na_zd": "Nepísomné – ide o zatriedenie do veľkostnej skupiny, nie o úpravu základu dane. Dôsledok: skrátená súvaha (len netto) a poznámky Úč MÚJ."},
-    {"nazov": "Posúdenie za dve po sebe idúce obdobia", "zadanie": "Doteraz malá s. r. o. dosiahla za rok 2024 majetok 6 mil. €, obrat 11 mil. €, 60 zamestnancov (2 z 3 prahy veľkej prekročené). Za rok 2025 dosiahla majetok 6,2 mil. €, obrat 11,5 mil. €, 62 zamestnancov. Od kedy je veľkou jednotkou?", "riesenie": "Prahy veľkej (≥ 2 z 3) presiahla v roku 2024 aj 2025 – teda v DVOCH po sebe idúcich obdobiach. Zmena zatriedenia nastáva od NASLEDUJÚCEHO obdobia, t. j. od 1. 1. 2026 jednotka postupuje ako veľká účtovná jednotka. Keby prahy presiahla len v jednom z dvoch rokov, k zmene by nedošlo.", "dopad_na_zd": "Bez vplyvu na základ dane. Dôsledok: od 2026 plný vzor súvahy a výkazu ziskov a strát (rovnako ako malá) plus výrazne rozsiahlejšie poznámky veľkej jednotky."},
-    {"nazov": "Subjekt verejného záujmu napriek malej veľkosti", "zadanie": "Akciová spoločnosť emitovala dlhopisy prijaté na obchodovanie na regulovanom trhu v EÚ. Má majetok 300 000 €, obrat 500 000 €, 6 zamestnancov.", "riesenie": "Podľa číselných prahov by išlo o mikro jednotku. Lenže ako emitent cenných papierov na regulovanom trhu je SUBJEKTOM VEREJNÉHO ZÁUJMU (§ 2 ods. 14), a ten sa vždy považuje za VEĽKÚ účtovnú jednotku bez ohľadu na veľkosť. Zostavuje teda závierku podľa opatrenia MF/23377/2014-74 s najrozsiahlejšími poznámkami.", "dopad_na_zd": "Bez vplyvu na základ dane. Dôsledok: plné výkazy a najrozsiahlejšie poznámky (veľká/SVZ), zverejnenie v plnom rozsahu."},
-    {"nazov": "Výpočet čistého obratu na účely zatriedenia", "zadanie": "Jednotka má výnosy: tržby za tovar (604) 800 000 €, tržby za služby (602) 150 000 €, tržba z predaja stroja (641) 120 000 €, prijatá dotácia (648) 60 000 €. Aký je čistý obrat?", "riesenie": "Do čistého obratu vstupujú len opakujúce sa výnosy z bežnej podnikateľskej činnosti: 604 (800 000) + 602 (150 000) = 950 000 €. Predaj stroja (641) a dotácia (648) sú neopakujúce sa / nepodnikateľské výnosy, do čistého obratu sa NEzahŕňajú. Čistý obrat = 950 000 €, čo prekračuje prah mikro (900 000 €) – pri tomto kritériu by jednotka už nebola mikro.", "dopad_na_zd": "Bez vplyvu na základ dane. Ukazuje, že nesprávne zahrnutie 641/648 by skreslilo zatriedenie."}
+    {
+      "nazov": "Zatriedenie podľa pravidla 2 z 3",
+      "zadanie": "S. r. o. má za predchádzajúce obdobie: celkovú sumu majetku (netto) 600 000 €, čistý obrat 850 000 €, priemerný počet zamestnancov 8. Do ktorej skupiny patrí?",
+      "riesenie": "Testujeme proti prahom MIKRO (≤ 450 000 / ≤ 900 000 / ≤ 10): majetok 600 000 € prah PREKRAČUJE (nespĺňa), obrat 850 000 € ≤ 900 000 (spĺňa), zamestnanci 8 ≤ 10 (spĺňa). Mikro podmienky spĺňa 2 z 3 → jednotka by pri splnení aj za druhé obdobie bola MIKRO. Hoci majetok nominálne 'patrí' do pásma malej, na zaradenie do malej by musela spĺňať 2 z 3 podmienok MALEJ, čo tu neplatí (obrat aj počet zamestnancov sú pod dolnou hranicou malej). Záver: mikro účtovná jednotka.",
+      "dopad_na_zd": "Nepísomné – ide o zatriedenie do veľkostnej skupiny, nie o úpravu základu dane. Dôsledok: skrátená súvaha (len netto) a poznámky Úč MÚJ."
+    },
+    {
+      "nazov": "Posúdenie za dve po sebe idúce obdobia",
+      "zadanie": "Doteraz malá s. r. o. dosiahla za rok 2024 majetok 6 mil. €, obrat 11 mil. €, 60 zamestnancov (2 z 3 prahy veľkej prekročené). Za rok 2025 dosiahla majetok 6,2 mil. €, obrat 11,5 mil. €, 62 zamestnancov. Od kedy je veľkou jednotkou?",
+      "riesenie": "Prahy veľkej (≥ 2 z 3) presiahla v roku 2024 aj 2025 – teda v DVOCH po sebe idúcich obdobiach. Zmena zatriedenia nastáva od NASLEDUJÚCEHO obdobia, t. j. od 1. 1. 2026 jednotka postupuje ako veľká účtovná jednotka. Keby prahy presiahla len v jednom z dvoch rokov, k zmene by nedošlo.",
+      "dopad_na_zd": "Bez vplyvu na základ dane. Dôsledok: od 2026 plný vzor súvahy a výkazu ziskov a strát (rovnako ako malá) plus výrazne rozsiahlejšie poznámky veľkej jednotky."
+    },
+    {
+      "nazov": "Subjekt verejného záujmu napriek malej veľkosti",
+      "zadanie": "Akciová spoločnosť emitovala dlhopisy prijaté na obchodovanie na regulovanom trhu v EÚ. Má majetok 300 000 €, obrat 500 000 €, 6 zamestnancov.",
+      "riesenie": "Podľa číselných prahov by išlo o mikro jednotku. Lenže ako emitent cenných papierov na regulovanom trhu je SUBJEKTOM VEREJNÉHO ZÁUJMU (§ 2 ods. 14), a ten sa vždy považuje za VEĽKÚ účtovnú jednotku bez ohľadu na veľkosť. Zostavuje teda závierku podľa opatrenia MF/23377/2014-74 s najrozsiahlejšími poznámkami.",
+      "dopad_na_zd": "Bez vplyvu na základ dane. Dôsledok: plné výkazy a najrozsiahlejšie poznámky (veľká/SVZ), zverejnenie v plnom rozsahu."
+    },
+    {
+      "nazov": "Výpočet čistého obratu na účely zatriedenia",
+      "zadanie": "Jednotka má výnosy: tržby za tovar (604) 800 000 €, tržby za služby (602) 150 000 €, tržba z predaja stroja (641) 120 000 €, prijatá dotácia (648) 60 000 €. Aký je čistý obrat?",
+      "riesenie": "Do čistého obratu vstupujú len opakujúce sa výnosy z bežnej podnikateľskej činnosti: 604 (800 000) + 602 (150 000) = 950 000 €. Predaj stroja (641) a dotácia (648) sú neopakujúce sa / nepodnikateľské výnosy, do čistého obratu sa NEzahŕňajú. Čistý obrat = 950 000 €, čo prekračuje prah mikro (900 000 €) – pri tomto kritériu by jednotka už nebola mikro.",
+      "dopad_na_zd": "Bez vplyvu na základ dane. Ukazuje, že nesprávne zahrnutie 641/648 by skreslilo zatriedenie."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/BC_II_02_tabulka_prahov.svg", "typ": "schéma", "popis": "Tabuľka veľkostných prahov mikro/malá/veľká (celková suma majetku, čistý obrat, priemerný počet zamestnancov) s pravidlom 2 z 3 kritérií a poznámkou o posudzovaní za dve po sebe idúce obdobia."},
-    {"subor": "03_Vizualy/BC_II_02_rozsah_vykazov.svg", "typ": "schéma", "popis": "Porovnanie rozsahu súvahy, výkazu ziskov a strát a poznámok podľa veľkostnej skupiny (mikro vs. malá vs. veľká/SVZ) a príslušné opatrenia MF SR."}
+    {
+      "subor": "03_Vizualy/BC_II_02_tabulka_prahov.svg",
+      "typ": "schéma",
+      "popis": "Tabuľka veľkostných prahov mikro/malá/veľká (celková suma majetku, čistý obrat, priemerný počet zamestnancov) s pravidlom 2 z 3 kritérií a poznámkou o posudzovaní za dve po sebe idúce obdobia."
+    },
+    {
+      "subor": "03_Vizualy/BC_II_02_rozsah_vykazov.svg",
+      "typ": "schéma",
+      "popis": "Porovnanie rozsahu súvahy, výkazu ziskov a strát a poznámok podľa veľkostnej skupiny (mikro vs. malá vs. veľká/SVZ) a príslušné opatrenia MF SR."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Ktoré tri kritériá rozhodujú o veľkostnej skupine a koľko ich musí byť splnených?", "odpoved": "Celková suma majetku (netto), čistý obrat a priemerný prepočítaný počet zamestnancov. Na zaradenie do skupiny musia byť splnené aspoň DVE z troch podmienok, a to za dve po sebe idúce účtovné obdobia."},
-    {"otazka": "Aké sú aktuálne prahy pre mikro, malú a veľkú jednotku?", "odpoved": "Mikro: majetok ≤ 450 000 €, obrat ≤ 900 000 €, zamestnanci ≤ 10. Malá: majetok > 450 000 a ≤ 5 mil. €, obrat > 900 000 a ≤ 10 mil. €, zamestnanci > 10 a ≤ 50. Veľká: majetok > 5 mil. €, obrat > 10 mil. €, zamestnanci > 50. Hodnoty platia od novely 105/2024 (od 1. 6. 2024) aj pre 2025/2026."},
-    {"otazka": "Z čoho sa skladá účtovná závierka v podvojnom účtovníctve a líši sa to podľa veľkosti?", "odpoved": "Zo súvahy, výkazu ziskov a strát a poznámok (§ 17 ods. 3) – tieto tri zložky majú všetky skupiny. Líši sa štruktúra výkazov a najmä rozsah poznámok: mikro má skrátené, malá širšie a veľká/SVZ približne dvojnásobne rozsiahle poznámky."},
-    {"otazka": "Čo je subjekt verejného záujmu a do ktorej skupiny patrí?", "odpoved": "Napr. emitent cenných papierov na regulovanom trhu, banka, poisťovňa, DSS a pod. (§ 2 ods. 14). Vždy sa považuje za VEĽKÚ účtovnú jednotku bez ohľadu na číselné prahy."},
-    {"otazka": "Aký je hlavný rozdiel v súvahe medzi mikro a malou jednotkou?", "odpoved": "Mikro vykazuje aktíva len v hodnote NETTO (bez stĺpcov brutto a korekcia), má skrátený vzor. Malá (a veľká) vykazuje aktíva v troch stĺpcoch – brutto, korekcia, netto – v plnom vzore."},
-    {"otazka": "Môže sa jednotka dobrovoľne zaradiť do inej skupiny?", "odpoved": "Mikro jednotka môže dobrovoľne postupovať ako malá (§ 2 ods. 12); vo všeobecnosti môže ÚJ vykazovať podrobnejšie (ísť 'nahor'), ale nemôže sa znížiť pod svoju skutočnú veľkosť. Jednotka, ktorá sa nevie zatriediť, sa zatriedi ako malá."},
-    {"otazka": "Kedy sa zmena zatriedenia prejaví?", "odpoved": "Až od nasledujúceho účtovného obdobia po dvoch po sebe idúcich obdobiach, v ktorých jednotka prahy presiahla alebo prestala spĺňať. Posudzuje sa k prvému dňu obdobia."}
+    {
+      "otazka": "Ktoré tri kritériá rozhodujú o veľkostnej skupine a koľko ich musí byť splnených?",
+      "odpoved": "Celková suma majetku (netto), čistý obrat a priemerný prepočítaný počet zamestnancov. Na zaradenie do skupiny musia byť splnené aspoň DVE z troch podmienok, a to za dve po sebe idúce účtovné obdobia.",
+      "moznosti": [
+        "Celková suma majetku, čistý obrat a počet zamestnancov; stačí splniť jedno kritérium za jedno obdobie.",
+        "Celková suma majetku, výsledok hospodárenia a počet zamestnancov; treba splniť všetky tri za jedno obdobie.",
+        "Celková suma majetku (netto), čistý obrat a priemerný počet zamestnancov; aspoň dve z troch za dve po sebe idúce obdobia.",
+        "Vlastné imanie, čistý obrat a počet zamestnancov; aspoň dve z troch za jedno účtovné obdobie."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Celková suma majetku (netto), čistý obrat a priemerný prepočítaný počet zamestnancov. Na zaradenie do skupiny musia byť splnené aspoň DVE z troch podmienok, a to za dve po sebe idúce účtovné obdobia."
+    },
+    {
+      "otazka": "Aké sú aktuálne prahy pre mikro, malú a veľkú jednotku?",
+      "odpoved": "Mikro: majetok ≤ 450 000 €, obrat ≤ 900 000 €, zamestnanci ≤ 10. Malá: majetok > 450 000 a ≤ 5 mil. €, obrat > 900 000 a ≤ 10 mil. €, zamestnanci > 10 a ≤ 50. Veľká: majetok > 5 mil. €, obrat > 10 mil. €, zamestnanci > 50. Hodnoty platia od novely 105/2024 (od 1. 6. 2024) aj pre 2025/2026.",
+      "moznosti": [
+        "Mikro: majetok ≤ 450 000 €, obrat ≤ 900 000 €, zamestnanci ≤ 10. Malá: do 5 mil. € / do 10 mil. € / do 50. Veľká: nad tieto hodnoty.",
+        "Mikro: majetok ≤ 350 000 €, obrat ≤ 700 000 €, zamestnanci ≤ 10. Malá: do 4 mil. € / do 8 mil. € / do 50. Veľká: nad tieto hodnoty.",
+        "Mikro: majetok ≤ 500 000 €, obrat ≤ 1 mil. €, zamestnanci ≤ 10. Malá: do 5 mil. € / do 10 mil. € / do 50. Veľká: nad tieto hodnoty.",
+        "Mikro: majetok ≤ 450 000 €, obrat ≤ 900 000 €, zamestnanci ≤ 50. Malá: do 5 mil. € / do 10 mil. € / do 250. Veľká: nad tieto hodnoty."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Mikro: majetok ≤ 450 000 €, obrat ≤ 900 000 €, zamestnanci ≤ 10. Malá: majetok > 450 000 a ≤ 5 mil. €, obrat > 900 000 a ≤ 10 mil. €, zamestnanci > 10 a ≤ 50. Veľká: majetok > 5 mil. €, obrat > 10 mil. €, zamestnanci > 50. Hodnoty platia od novely 105/2024 (od 1. 6. 2024) aj pre 2025/2026."
+    },
+    {
+      "otazka": "Z čoho sa skladá účtovná závierka v podvojnom účtovníctve a líši sa to podľa veľkosti?",
+      "odpoved": "Zo súvahy, výkazu ziskov a strát a poznámok (§ 17 ods. 3) – tieto tri zložky majú všetky skupiny. Líši sa štruktúra výkazov a najmä rozsah poznámok: mikro má skrátené, malá širšie a veľká/SVZ približne dvojnásobne rozsiahle poznámky.",
+      "moznosti": [
+        "Zo súvahy a výkazu ziskov a strát; poznámky zostavuje len veľká jednotka a SVZ, mikro a malá ich nevypracúvajú.",
+        "Zo súvahy, výkazu ziskov a strát a poznámok (§ 17 ods. 3); líši sa štruktúra výkazov a najmä rozsah poznámok podľa veľkosti.",
+        "Zo súvahy, výkazu ziskov a strát, poznámok a prehľadu peňažných tokov; rozsah je pre všetky skupiny rovnaký.",
+        "Len zo súvahy a poznámok; výkaz ziskov a strát zostavuje iba veľká jednotka a subjekt verejného záujmu."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Zo súvahy, výkazu ziskov a strát a poznámok (§ 17 ods. 3) – tieto tri zložky majú všetky skupiny. Líši sa štruktúra výkazov a najmä rozsah poznámok: mikro má skrátené, malá širšie a veľká/SVZ približne dvojnásobne rozsiahle poznámky."
+    },
+    {
+      "otazka": "Čo je subjekt verejného záujmu a do ktorej skupiny patrí?",
+      "odpoved": "Napr. emitent cenných papierov na regulovanom trhu, banka, poisťovňa, DSS a pod. (§ 2 ods. 14). Vždy sa považuje za VEĽKÚ účtovnú jednotku bez ohľadu na číselné prahy.",
+      "moznosti": [
+        "Napr. obecné podniky a rozpočtové organizácie (§ 2 ods. 14); zatrieďuje sa vždy ako malá účtovná jednotka.",
+        "Napr. mikro firmy s vysokým obratom; považuje sa za malú účtovnú jednotku bez ohľadu na prahy.",
+        "Napr. emitent cenných papierov na regulovanom trhu, banka, poisťovňa, DSS (§ 2 ods. 14); vždy je veľkou účtovnou jednotkou.",
+        "Napr. všetky akciové spoločnosti (§ 2 ods. 14); zatrieďuje sa podľa veľkostných prahov ako bežná jednotka."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Napr. emitent cenných papierov na regulovanom trhu, banka, poisťovňa, DSS a pod. (§ 2 ods. 14). Vždy sa považuje za VEĽKÚ účtovnú jednotku bez ohľadu na číselné prahy."
+    },
+    {
+      "otazka": "Aký je hlavný rozdiel v súvahe medzi mikro a malou jednotkou?",
+      "odpoved": "Mikro vykazuje aktíva len v hodnote NETTO (bez stĺpcov brutto a korekcia), má skrátený vzor. Malá (a veľká) vykazuje aktíva v troch stĺpcoch – brutto, korekcia, netto – v plnom vzore.",
+      "moznosti": [
+        "Mikro vykazuje aktíva v stĺpcoch brutto, korekcia a netto; malá len v hodnote netto v skrátenom vzore.",
+        "Mikro nevykazuje pasíva, kým malá ich vykazuje v dvoch stĺpcoch; aktíva sú u oboch v hodnote netto.",
+        "Mikro a malá majú rovnakú súvahu; líšia sa len v počte stĺpcov výkazu ziskov a strát.",
+        "Mikro vykazuje aktíva len v hodnote netto (bez stĺpcov brutto a korekcia); malá v plnom vzore – brutto, korekcia, netto."
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Mikro vykazuje aktíva len v hodnote NETTO (bez stĺpcov brutto a korekcia), má skrátený vzor. Malá (a veľká) vykazuje aktíva v troch stĺpcoch – brutto, korekcia, netto – v plnom vzore."
+    },
+    {
+      "otazka": "Môže sa jednotka dobrovoľne zaradiť do inej skupiny?",
+      "odpoved": "Mikro jednotka môže dobrovoľne postupovať ako malá (§ 2 ods. 12); vo všeobecnosti môže ÚJ vykazovať podrobnejšie (ísť 'nahor'), ale nemôže sa znížiť pod svoju skutočnú veľkosť. Jednotka, ktorá sa nevie zatriediť, sa zatriedi ako malá.",
+      "moznosti": [
+        "Mikro môže dobrovoľne postupovať ako malá (§ 2 ods. 12); jednotka môže vykazovať podrobnejšie, kto sa nevie zatriediť, je malá.",
+        "Veľká jednotka sa môže dobrovoľne zaradiť ako malá, aby si znížila rozsah poznámok; mikro to však nemôže.",
+        "Ktorákoľvek jednotka sa môže ľubovoľne zaradiť aj do nižšej skupiny; kto sa nevie zatriediť, je mikro.",
+        "Dobrovoľná zmena zatriedenia nie je možná; každá jednotka je viazaná výlučne číselnými prahmi."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Mikro jednotka môže dobrovoľne postupovať ako malá (§ 2 ods. 12); vo všeobecnosti môže ÚJ vykazovať podrobnejšie (ísť 'nahor'), ale nemôže sa znížiť pod svoju skutočnú veľkosť. Jednotka, ktorá sa nevie zatriediť, sa zatriedi ako malá."
+    },
+    {
+      "otazka": "Kedy sa zmena zatriedenia prejaví?",
+      "odpoved": "Až od nasledujúceho účtovného obdobia po dvoch po sebe idúcich obdobiach, v ktorých jednotka prahy presiahla alebo prestala spĺňať. Posudzuje sa k prvému dňu obdobia.",
+      "moznosti": [
+        "Okamžite v roku, v ktorom jednotka prahy prvýkrát presiahla; posudzuje sa k poslednému dňu obdobia.",
+        "Až od nasledujúceho obdobia po dvoch po sebe idúcich obdobiach prekročenia/neplnenia; posudzuje sa k prvému dňu obdobia.",
+        "Až po troch po sebe idúcich obdobiach prekročenia prahov; posudzuje sa k súvahovému dňu.",
+        "Spätne za obdobie, v ktorom došlo k prekročeniu prahov; posudzuje sa k dňu zostavenia závierky."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Až od nasledujúceho účtovného obdobia po dvoch po sebe idúcich obdobiach, v ktorých jednotka prahy presiahla alebo prestala spĺňať. Posudzuje sa k prvému dňu obdobia."
+    }
   ],
   "pasce_caste_chyby": [
     "Používať staré (nižšie) prahy 350 000 / 700 000 / 4 mil. / 8 mil. – aktuálne sú 450 000 / 900 000 / 5 mil. / 10 mil. od novely 105/2024.",
@@ -78,28 +247,124 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Koľko kritérií a za koľko období musí jednotka splniť na zaradenie do veľkostnej skupiny?", "moznosti": ["všetky tri, za jedno obdobie", "aspoň dve z troch, za dve po sebe idúce obdobia", "aspoň jedno z troch, za jedno obdobie", "všetky tri, za dve obdobia"], "spravna_index": 1, "vysvetlenie": "§ 2 ods. 6 až 10 – aspoň dve z troch podmienok, posudzované za dve bezprostredne predchádzajúce účtovné obdobia."},
-      {"otazka": "Aký je prah celkovej sumy majetku pre mikro účtovnú jednotku (nesmie presiahnuť)?", "moznosti": ["350 000 €", "450 000 €", "900 000 €", "5 000 000 €"], "spravna_index": 1, "vysvetlenie": "Po novele 105/2024 je prah majetku pre mikro ÚJ 450 000 € (čistý obrat 900 000 €, zamestnanci 10)."},
-      {"otazka": "Ktoré tvrdenie o subjekte verejného záujmu je správne?", "moznosti": ["triedi sa ako mikro, ak nepresiahne prahy", "je vždy veľkou účtovnou jednotkou", "vždy zostavuje skrátenú závierku", "netýka sa ho register účtovných závierok"], "spravna_index": 1, "vysvetlenie": "§ 2 ods. 14 – SVZ (banka, poisťovňa, emitent cenných papierov a pod.) sa vždy považuje za veľkú účtovnú jednotku."},
-      {"otazka": "Čím sa líši súvaha mikro jednotky od súvahy malej jednotky?", "moznosti": ["mikro nevykazuje pasíva", "mikro vykazuje aktíva len v hodnote netto (bez brutto a korekcie)", "mikro má viac stĺpcov", "nelíšia sa"], "spravna_index": 1, "vysvetlenie": "Mikro má skrátenú súvahu len s netto hodnotami; malá (a veľká) má stĺpce brutto, korekcia, netto."},
-      {"otazka": "Ktorý výnos sa NEzahŕňa do čistého obratu na účely zatriedenia?", "moznosti": ["tržby za tovar (604)", "tržby za služby (602)", "prijatá dotácia (648)", "tržby za výrobky (601)"], "spravna_index": 2, "vysvetlenie": "Dotácie (648), predaj majetku (641), zmena stavu zásob a aktivácia sa do čistého obratu nezahŕňajú; obsahuje len opakujúce sa podnikateľské výnosy (601, 602, 604)."},
-      {"otazka": "V čom sa najvýraznejšie líši veľká jednotka (a SVZ) od malej?", "moznosti": ["v inom vzore súvahy", "v približne dvojnásobnom rozsahu poznámok a analytickom členení podľa prepojenosti", "v tom, že nezostavuje výkaz ziskov a strát", "v lehote na zostavenie závierky"], "spravna_index": 1, "vysvetlenie": "Výkazy majú malá aj veľká rovnaké; veľká/SVZ má najmä podstatne rozsiahlejšie poznámky a podrobnejšie analytické členenie."}
+      {
+        "otazka": "Koľko kritérií a za koľko období musí jednotka splniť na zaradenie do veľkostnej skupiny?",
+        "moznosti": [
+          "všetky tri, za jedno obdobie",
+          "aspoň dve z troch, za dve po sebe idúce obdobia",
+          "aspoň jedno z troch, za jedno obdobie",
+          "všetky tri, za dve obdobia"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 2 ods. 6 až 10 – aspoň dve z troch podmienok, posudzované za dve bezprostredne predchádzajúce účtovné obdobia."
+      },
+      {
+        "otazka": "Aký je prah celkovej sumy majetku pre mikro účtovnú jednotku (nesmie presiahnuť)?",
+        "moznosti": [
+          "350 000 €",
+          "450 000 €",
+          "900 000 €",
+          "5 000 000 €"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Po novele 105/2024 je prah majetku pre mikro ÚJ 450 000 € (čistý obrat 900 000 €, zamestnanci 10)."
+      },
+      {
+        "otazka": "Ktoré tvrdenie o subjekte verejného záujmu je správne?",
+        "moznosti": [
+          "triedi sa ako mikro, ak nepresiahne prahy",
+          "je vždy veľkou účtovnou jednotkou",
+          "vždy zostavuje skrátenú závierku",
+          "netýka sa ho register účtovných závierok"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 2 ods. 14 – SVZ (banka, poisťovňa, emitent cenných papierov a pod.) sa vždy považuje za veľkú účtovnú jednotku."
+      },
+      {
+        "otazka": "Čím sa líši súvaha mikro jednotky od súvahy malej jednotky?",
+        "moznosti": [
+          "mikro nevykazuje pasíva",
+          "mikro vykazuje aktíva len v hodnote netto (bez brutto a korekcie)",
+          "mikro má viac stĺpcov",
+          "nelíšia sa"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Mikro má skrátenú súvahu len s netto hodnotami; malá (a veľká) má stĺpce brutto, korekcia, netto."
+      },
+      {
+        "otazka": "Ktorý výnos sa NEzahŕňa do čistého obratu na účely zatriedenia?",
+        "moznosti": [
+          "tržby za tovar (604)",
+          "tržby za služby (602)",
+          "prijatá dotácia (648)",
+          "tržby za výrobky (601)"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Dotácie (648), predaj majetku (641), zmena stavu zásob a aktivácia sa do čistého obratu nezahŕňajú; obsahuje len opakujúce sa podnikateľské výnosy (601, 602, 604)."
+      },
+      {
+        "otazka": "V čom sa najvýraznejšie líši veľká jednotka (a SVZ) od malej?",
+        "moznosti": [
+          "v inom vzore súvahy",
+          "v približne dvojnásobnom rozsahu poznámok a analytickom členení podľa prepojenosti",
+          "v tom, že nezostavuje výkaz ziskov a strát",
+          "v lehote na zostavenie závierky"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Výkazy majú malá aj veľká rovnaké; veľká/SVZ má najmä podstatne rozsiahlejšie poznámky a podrobnejšie analytické členenie."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vymenujte tri veľkostné kritériá a uveďte aktuálne prahy pre mikro, malú a veľkú jednotku.", "vzorova_odpoved": "Kritériá: celková suma majetku (netto), čistý obrat a priemerný prepočítaný počet zamestnancov. Mikro: ≤ 450 000 € / ≤ 900 000 € / ≤ 10. Malá: > 450 000 a ≤ 5 mil. € / > 900 000 a ≤ 10 mil. € / > 10 a ≤ 50. Veľká: > 5 mil. € / > 10 mil. € / > 50. Na zaradenie treba splniť aspoň dve z troch podmienok za dve po sebe idúce obdobia."},
-      {"otazka": "Opíšte rozdiely v rozsahu individuálnej účtovnej závierky podľa veľkostnej skupiny.", "vzorova_odpoved": "Všetky skupiny majú tri zložky – súvahu, výkaz ziskov a strát a poznámky – a spoločné všeobecné náležitosti. Mikro má skrátenú súvahu (len netto), skrátený výkaz ziskov a strát a najstručnejšie poznámky (Úč MÚJ, len bežné obdobie, neúčtuje o odloženej dani). Malá má plný vzor súvahy (brutto/korekcia/netto) a výkazu (Úč POD) a širšie poznámky. Veľká a SVZ majú rovnaké výkazy ako malá, ale približne dvojnásobne rozsiahle poznámky a podrobnejšie analytické členenie podľa prepojenosti. Pre každú skupinu platí osobitné opatrenie MF SR (15464/2013, 23378/2014, 23377/2014)."},
-      {"otazka": "Ako sa určuje a kedy sa mení zatriedenie do veľkostnej skupiny?", "vzorova_odpoved": "Splnenie kritérií sa posudzuje k prvému dňu účtovného obdobia za dve bezprostredne predchádzajúce obdobia. Jednotka zmení zatriedenie až od nasledujúceho obdobia po tých dvoch po sebe idúcich obdobiach, v ktorých prahy presiahla alebo prestala spĺňať. Novovzniknutá jednotka sa zaradí podľa vlastného rozhodnutia; kto sa nevie zatriediť, je malá; mikro môže dobrovoľne postupovať ako malá; SVZ je vždy veľká; po vstupe do likvidácie/konkurzu sa zatriedenie nemení."}
+      {
+        "otazka": "Vymenujte tri veľkostné kritériá a uveďte aktuálne prahy pre mikro, malú a veľkú jednotku.",
+        "vzorova_odpoved": "Kritériá: celková suma majetku (netto), čistý obrat a priemerný prepočítaný počet zamestnancov. Mikro: ≤ 450 000 € / ≤ 900 000 € / ≤ 10. Malá: > 450 000 a ≤ 5 mil. € / > 900 000 a ≤ 10 mil. € / > 10 a ≤ 50. Veľká: > 5 mil. € / > 10 mil. € / > 50. Na zaradenie treba splniť aspoň dve z troch podmienok za dve po sebe idúce obdobia."
+      },
+      {
+        "otazka": "Opíšte rozdiely v rozsahu individuálnej účtovnej závierky podľa veľkostnej skupiny.",
+        "vzorova_odpoved": "Všetky skupiny majú tri zložky – súvahu, výkaz ziskov a strát a poznámky – a spoločné všeobecné náležitosti. Mikro má skrátenú súvahu (len netto), skrátený výkaz ziskov a strát a najstručnejšie poznámky (Úč MÚJ, len bežné obdobie, neúčtuje o odloženej dani). Malá má plný vzor súvahy (brutto/korekcia/netto) a výkazu (Úč POD) a širšie poznámky. Veľká a SVZ majú rovnaké výkazy ako malá, ale približne dvojnásobne rozsiahle poznámky a podrobnejšie analytické členenie podľa prepojenosti. Pre každú skupinu platí osobitné opatrenie MF SR (15464/2013, 23378/2014, 23377/2014)."
+      },
+      {
+        "otazka": "Ako sa určuje a kedy sa mení zatriedenie do veľkostnej skupiny?",
+        "vzorova_odpoved": "Splnenie kritérií sa posudzuje k prvému dňu účtovného obdobia za dve bezprostredne predchádzajúce obdobia. Jednotka zmení zatriedenie až od nasledujúceho obdobia po tých dvoch po sebe idúcich obdobiach, v ktorých prahy presiahla alebo prestala spĺňať. Novovzniknutá jednotka sa zaradí podľa vlastného rozhodnutia; kto sa nevie zatriediť, je malá; mikro môže dobrovoľne postupovať ako malá; SVZ je vždy veľká; po vstupe do likvidácie/konkurzu sa zatriedenie nemení."
+      }
     ],
     "priklad": [
-      {"zadanie": "S. r. o. dosiahla za rok 2024 aj 2025 zhodne: celkový majetok netto 480 000 €, čistý obrat 1 200 000 €, priemerný počet zamestnancov 9. Určte veľkostnú skupinu a hlavné dôsledky pre závierku za rok 2026.", "riesenie": "Testujeme proti MIKRO (≤ 450 000 / ≤ 900 000 / ≤ 10): majetok 480 000 € prah prekračuje (nespĺňa), obrat 1 200 000 € prekračuje (nespĺňa), zamestnanci 9 ≤ 10 (spĺňa). Mikro spĺňa len 1 z 3 → NIE mikro. Testujeme MALÚ (> 450 000 a ≤ 5 mil. / > 900 000 a ≤ 10 mil. / > 10 a ≤ 50): majetok 480 000 € (spĺňa), obrat 1 200 000 € (spĺňa), zamestnanci 9 (nespĺňa). Malá spĺňa 2 z 3 → MALÁ účtovná jednotka. Keďže podmienky platia za dve po sebe idúce obdobia (2024 aj 2025), od roku 2026 zostavuje závierku ako malá: plný vzor súvahy (brutto/korekcia/netto) a výkazu ziskov a strát (Úč POD), poznámky v rozsahu pre malé jednotky, účtuje o odloženej dani. Záver: malá účtovná jednotka."}
+      {
+        "zadanie": "S. r. o. dosiahla za rok 2024 aj 2025 zhodne: celkový majetok netto 480 000 €, čistý obrat 1 200 000 €, priemerný počet zamestnancov 9. Určte veľkostnú skupinu a hlavné dôsledky pre závierku za rok 2026.",
+        "riesenie": "Testujeme proti MIKRO (≤ 450 000 / ≤ 900 000 / ≤ 10): majetok 480 000 € prah prekračuje (nespĺňa), obrat 1 200 000 € prekračuje (nespĺňa), zamestnanci 9 ≤ 10 (spĺňa). Mikro spĺňa len 1 z 3 → NIE mikro. Testujeme MALÚ (> 450 000 a ≤ 5 mil. / > 900 000 a ≤ 10 mil. / > 10 a ≤ 50): majetok 480 000 € (spĺňa), obrat 1 200 000 € (spĺňa), zamestnanci 9 (nespĺňa). Malá spĺňa 2 z 3 → MALÁ účtovná jednotka. Keďže podmienky platia za dve po sebe idúce obdobia (2024 aj 2025), od roku 2026 zostavuje závierku ako malá: plný vzor súvahy (brutto/korekcia/netto) a výkazu ziskov a strát (Úč POD), poznámky v rozsahu pre malé jednotky, účtuje o odloženej dani. Záver: malá účtovná jednotka."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Zákon č. 431/2002 Z. z. o účtovníctve, § 2 ods. 5–14 (veľkostné skupiny, kritériá, SVZ), § 17 (zložky a náležitosti závierky), § 18–19", "kde": "01_Zdroje/Zakony/ZZ_2002_431_20260204_metalex.asice", "typ": "primárny"},
-    {"nazov": "Opatrenie MF SR č. MF/15464/2013-74 (mikro ÚJ) – úplné znenie k 19. 1. 2026", "kde": "01_Zdroje/Opatrenia_zavierka/2026.01.19_Opatrenie_MFSR_MF_15464_2013_74.pdf", "typ": "primárny"},
-    {"nazov": "Opatrenie MF SR č. MF/23378/2014-74 (malé ÚJ) – úplné znenie k 19. 1. 2026", "kde": "01_Zdroje/Opatrenia_zavierka/2026.01.19_Opatrenie_MFSR_23378_2014_74.pdf", "typ": "primárny"},
-    {"nazov": "Opatrenie MF SR č. MF/23377/2014-74 (veľké ÚJ a SVZ) – úplné znenie k 19. 1. 2026 (novela MF/013838/2025-74 od 1. 1. 2026)", "kde": "01_Zdroje/Opatrenia_zavierka/2026.01.19_Opatrenie_MFSR_23377_2014_74.pdf", "typ": "primárny"},
-    {"nazov": "Podnikajte.sk – Zatriedenie účtovných jednotiek do veľkostných skupín (aktuálne prahy 450 000/900 000/5 mil./10 mil., pravidlá triedenia, rozdiely v závierke)", "kde": "https://www.podnikajte.sk/uctovnictvo/zatriedenie-uctovnych-jednotiek-do-velkostnych-skupin", "typ": "web/overené"},
-    {"nazov": "Aktuálne čísla SR 2025/2026 (POZOR: tabuľka veľkostných prahov v tomto súbore je neaktuálna – overené proti zákonu)", "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md", "typ": "web/overené"}
+    {
+      "nazov": "Zákon č. 431/2002 Z. z. o účtovníctve, § 2 ods. 5–14 (veľkostné skupiny, kritériá, SVZ), § 17 (zložky a náležitosti závierky), § 18–19",
+      "kde": "01_Zdroje/Zakony/ZZ_2002_431_20260204_metalex.asice",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Opatrenie MF SR č. MF/15464/2013-74 (mikro ÚJ) – úplné znenie k 19. 1. 2026",
+      "kde": "01_Zdroje/Opatrenia_zavierka/2026.01.19_Opatrenie_MFSR_MF_15464_2013_74.pdf",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Opatrenie MF SR č. MF/23378/2014-74 (malé ÚJ) – úplné znenie k 19. 1. 2026",
+      "kde": "01_Zdroje/Opatrenia_zavierka/2026.01.19_Opatrenie_MFSR_23378_2014_74.pdf",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Opatrenie MF SR č. MF/23377/2014-74 (veľké ÚJ a SVZ) – úplné znenie k 19. 1. 2026 (novela MF/013838/2025-74 od 1. 1. 2026)",
+      "kde": "01_Zdroje/Opatrenia_zavierka/2026.01.19_Opatrenie_MFSR_23377_2014_74.pdf",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Podnikajte.sk – Zatriedenie účtovných jednotiek do veľkostných skupín (aktuálne prahy 450 000/900 000/5 mil./10 mil., pravidlá triedenia, rozdiely v závierke)",
+      "kde": "https://www.podnikajte.sk/uctovnictvo/zatriedenie-uctovnych-jednotiek-do-velkostnych-skupin",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Aktuálne čísla SR 2025/2026 (POZOR: tabuľka veľkostných prahov v tomto súbore je neaktuálna – overené proti zákonu)",
+      "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md",
+      "typ": "web/overené"
+    }
   ]
 }

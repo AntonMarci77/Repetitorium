@@ -30,9 +30,26 @@ export function Sebatestovanie({ tezaId }: { tezaId: string }) {
     if (!teza) return [];
     const out: Card[] = [];
     out.push({ kind: "celok", nazov: teza.nazov, jadro: teza.jadro_odpovede_10min.uvod });
-    teza.caste_doplnujuce_otazky?.forEach((q) =>
-      out.push({ kind: "doplnujuca", otazka: q.otazka, odpoved: q.odpoved })
-    );
+    // Doplňujúce otázky: ak majú MC distraktory (per SCHEMA_doplnujuce_MC.md),
+    // renderuj ich ako Korda MC. Ak chýbajú, fallback na reveal.
+    teza.caste_doplnujuce_otazky?.forEach((q) => {
+      const spravne = Array.isArray(q.spravne_indexy)
+        ? q.spravne_indexy
+        : typeof q.spravna_index === "number"
+        ? [q.spravna_index]
+        : null;
+      if (q.moznosti && q.moznosti.length > 0 && spravne && spravne.length > 0) {
+        out.push({
+          kind: "mc",
+          otazka: q.otazka,
+          moznosti: q.moznosti,
+          spravne,
+          vysvetlenie: q.vysvetlenie ?? q.odpoved,
+        });
+      } else {
+        out.push({ kind: "doplnujuca", otazka: q.otazka, odpoved: q.odpoved });
+      }
+    });
     teza.test?.vyber_z_moznosti?.forEach((q) => {
       const sprAny = (q as any).spravne_indexy as number[] | undefined;
       const spravne = Array.isArray(sprAny) ? sprAny : [q.spravna_index];

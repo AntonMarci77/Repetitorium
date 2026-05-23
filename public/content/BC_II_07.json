@@ -28,44 +28,221 @@
     "cielova_dlzka_slov": 1400,
     "uvod": "Nezdaniteľné časti základu dane (NČZD) podľa § 11 zákona č. 595/2003 Z. z. o dani z príjmov sú sumy, o ktoré si fyzická osoba znižuje základ dane pred výpočtom dane. Nejde o zľavu na dani, ale o odpočet od základu dane – ich daňový efekt je preto sadzba dane × výška NČZD. Uplatňujú sa len na čiastkový základ dane z aktívnych príjmov, t. j. zo závislej činnosti (§ 5) a z podnikania a inej samostatnej zárobkovej činnosti (§ 6 ods. 1 a 2); na pasívne príjmy (prenájom, kapitálový majetok, ostatné príjmy) ich uplatniť nemožno. Všetky sumy sa odvodzujú od životného minima platného k 1. januáru zdaňovacieho obdobia. Okruh zahŕňa aj daňové výdavky FO a ich vplyv na základ dane – tie znižujú ZD ešte pred odpočtom NČZD.",
     "casti": [
-      {"nadpis": "Tri druhy NČZD a na čo sa vzťahujú", "text": "Zákon pozná tri NČZD: (1) na daňovníka, (2) na manželku/manžela, (3) preukázateľne zaplatené príspevky na doplnkové dôchodkové sporenie (DDS, III. pilier) a na celoeurópsky osobný dôchodkový produkt (PEPP). Všetky tri znižujú len súčet čiastkových ZD z § 5 a § 6  ods. 1 a 2. Ak má daňovník oba typy, najprv znižuje ZD z § 5 (závislá činnosť), a až prevyšujúcou sumou ZD z § 6 (§ 11 ods. 12). Pasívne príjmy – prenájom (§ 6 ods. 3), kapitál (§ 7), ostatné (§ 8) – sa o NČZD nikdy neznižujú. To je častá pasca."},
-      {"nadpis": "NČZD na daňovníka – základná suma a krátenie", "text": "Ak je základ dane ≤ 91,8-násobku ŽM, NČZD na daňovníka je 21,0-násobok ŽM. Pre rok 2025 (ŽM 273,99 €) je to 5 753,79 €, pre rok 2026 (ŽM 284,13 €) 5 966,73 € (mesačne pri preddavkoch 497,23 €). Ak ZD prekročí 91,8-násobok ŽM (2025: 25 152,28 €; 2026: 26 083,13 €), NČZD sa kráti podľa vzorca: 51,6-násobok ŽM mínus jedna tretina ZD. Suma 51,6× ŽM je 14 137,88 € (2025), resp. 14 661,11 € (2026). Pri vysokom ZD klesne NČZD až na nulu – a to pri ZD ≥ 154,8-násobku ŽM, t. j. 42 413,65 € (2025) a 43 983,32 € (2026). Krátenie je teda lineárne, nie skokové. NČZD na daňovníka si uplatní každý daňovník (na rozdiel od ostatných dvoch) bez ďalších podmienok – výnimkou je poberateľ starobného/predčasného dôchodku k 1. 1., ktorému sa NČZD prizná len do výšky rozdielu, ak je dôchodok nižší než NČZD."},
-      {"nadpis": "NČZD na manželku/manžela – podmienky a dvojité krátenie", "text": "Základná suma je 19,2-násobok ŽM: 5 260,61 € (2025), 5 455,30 € (2026) – ale len ak manželka nemá vlastný príjem. Ak má vlastný príjem do tejto sumy, NČZD = rozdiel (suma 19,2× ŽM − vlastný príjem); ak príjem prevyšuje, NČZD = 0. Vlastný príjem sa berie znížený o povinné poistné; nezahŕňa sa doň napr. daňový bonus, štátne sociálne dávky, štipendium. Druhé krátenie nastáva pri vysokom ZD daňovníka: ak ZD > 154,8× ŽM, NČZD na manželku = (70,8× ŽM − 1/3 ZD) − vlastný príjem. Navyše platí prísna podmienka uplatniteľnosti (§ 11 ods. 4): manželka musí spĺňať aspoň jedno – starať sa o vyživované dieťa do 3 (resp. 6) rokov, poberať peňažný príspevok na opatrovanie, byť v evidencii uchádzačov o zamestnanie, alebo byť občan so zdravotným/ťažkým zdravotným postihnutím. NČZD sa uplatní pomerne – 1/12 za každý mesiac, na začiatku ktorého boli podmienky splnené."},
-      {"nadpis": "NČZD na príspevky na DDS a PEPP (max 180 €)", "text": "Tretia NČZD sú preukázateľne zaplatené príspevky na doplnkové dôchodkové sporenie a na PEPP – v úhrne najviac 180 € za rok (§ 11 ods. 8 a 9). Podmienky (§ 11 ods. 10): účastnícka zmluva uzatvorená alebo zmenená po 31. 12. 2013 (so zrušením dávkového plánu) a daňovník nemá uzatvorenú inú, staršiu nevyhovujúcu zmluvu. Ide o jediný limit vyjadrený pevnou sumou (nie násobkom ŽM). Pri predčasnom výbere je daňovník povinný do troch rokov dodaniť už uplatnené sumy (§ 11 ods. 11) – ide o tzv. 'vrátenie' výhody."},
-      {"nadpis": "Daňové výdavky FO a ich vplyv na ZD", "text": "Druhá os okruhu sú daňové výdavky. Daňový výdavok (§ 2 písm. i, § 19) je výdavok preukázateľne vynaložený na dosiahnutie, zabezpečenie a udržanie zdaniteľných príjmov, zaúčtovaný/zaevidovaný. Znižuje základ dane priamo – ešte pred NČZD. § 21 taxatívne vylučuje nedaňové výdavky (osobná spotreba, reprezentácia okrem reklamných predmetov do 17 €, pokuty od štátu, výdavky nesúvisiace s príjmom). FO má alternatívu: namiesto skutočných výdavkov môže (ak nie je platiteľ DPH celý rok) uplatniť paušálne výdavky 60 % z príjmov, max 20 000 € ročne (§ 6 ods. 10). Pri preukázateľných výdavkoch sa pri majetku používanom aj súkromne rieši pomer – viď ďalej."},
-      {"nadpis": "Výdavky na majetok pri podnikaní – paušál 80 % (§ 19 ods. 2 písm. t)", "text": "Ak daňovník využíva majetok (auto, výpočtová a komunikačná technika, stroje) aj na súkromné účely, výdavky na obstaranie, technické zhodnotenie, prevádzkovanie, opravy a údržbu si môže uplatniť dvojako: buď paušálne vo výške 80 % (bez dokazovania pomeru), alebo v preukázateľnej výške podľa skutočného pomeru použitia na zdanieľný príjem. Paušál 80 % je administratívne jednoduchý – netreba viesť knihu jázd. Týka sa aj odpisov a PHL. Samostatne § 19 ods. 2 písm. l) bod 3 umožňuje pri PHL paušál 80 % z celkového preukázateľného nákupu PHL (popri metóde 'spotreba z TP + 20 %', GPS, či priemerných cien ŠÚ SR pre elektromobily). Nehnuteľnosti sú z paušálu 80 % vylúčené."},
-      {"nadpis": "Operatívny a finančný prenájom", "text": "Pri operatívnom prenájme platí nájomca nájomné, ktoré je daňovým výdavkom; ak je prenajímateľom fyzická osoba, nájomné je daňové až po zaplatení (§ 17 ods. 19). Pri finančnom prenájme (lízingu) sa prenajatý majetok odpisuje – nájomca ho odpisuje počas doby trvania nájmu, najmenej však počas doby odpisovania podľa odpisovej skupiny; daňovým výdavkom je odpis a úroková zložka splátok (časť istiny daňová nie je, je obstaraním majetku). Pri aute využívanom aj súkromne sa aj tu uplatní pomer/paušál 80 %."},
-      {"nadpis": "Cestovné náhrady a stravovanie", "text": "Cestovné náhrady sú daňovým výdavkom do výšky nároku podľa zákona č. 283/2002 Z. z. (§ 19 ods. 2 písm. d); nad rámec zákona sú nedaňové. Pri tuzemskej pracovnej ceste patrí stravné podľa časových pásiem – od 1. 12. 2025 (platí aj v 2026): 9,30 € (5–12 h), 13,80 € (12–18 h), 20,60 € (nad 18 h). Pri vlastnom aute zamestnanca patrí základná náhrada za km (od 1. 1. 2026: 0,313 €/km, predtým 0,296 €) plus náhrada za PHL (cena × spotreba z TP × km). Stravovanie zamestnancov (§ 152 ZP): max príspevok zamestnávateľa 5,12 € (55 % z 9,30 €), minimálna hodnota gastrolístka 6,98 €. SZČO si môže do výdavkov dať stravné 5,12 € za každý odpracovaný deň."},
-      {"zaver": "NČZD systematicky: 1. ide o aktívny príjem (§ 5, § 6/1,2)? 2. ktorá z troch NČZD a aká je suma cez násobok ŽM? 3. nepresiahol ZD hranicu krátenia (91,8×, resp. 154,8× ŽM) a spĺňa manželka podmienky? Daňové výdavky znižujú ZD ešte pred NČZD; pri majetku používanom aj súkromne pomáha paušál 80 %. Tým sa korektne dostaneme od príjmov k základu dane a k dani."}
+      {
+        "nadpis": "Tri druhy NČZD a na čo sa vzťahujú",
+        "text": "Zákon pozná tri NČZD: (1) na daňovníka, (2) na manželku/manžela, (3) preukázateľne zaplatené príspevky na doplnkové dôchodkové sporenie (DDS, III. pilier) a na celoeurópsky osobný dôchodkový produkt (PEPP). Všetky tri znižujú len súčet čiastkových ZD z § 5 a § 6  ods. 1 a 2. Ak má daňovník oba typy, najprv znižuje ZD z § 5 (závislá činnosť), a až prevyšujúcou sumou ZD z § 6 (§ 11 ods. 12). Pasívne príjmy – prenájom (§ 6 ods. 3), kapitál (§ 7), ostatné (§ 8) – sa o NČZD nikdy neznižujú. To je častá pasca."
+      },
+      {
+        "nadpis": "NČZD na daňovníka – základná suma a krátenie",
+        "text": "Ak je základ dane ≤ 91,8-násobku ŽM, NČZD na daňovníka je 21,0-násobok ŽM. Pre rok 2025 (ŽM 273,99 €) je to 5 753,79 €, pre rok 2026 (ŽM 284,13 €) 5 966,73 € (mesačne pri preddavkoch 497,23 €). Ak ZD prekročí 91,8-násobok ŽM (2025: 25 152,28 €; 2026: 26 083,13 €), NČZD sa kráti podľa vzorca: 51,6-násobok ŽM mínus jedna tretina ZD. Suma 51,6× ŽM je 14 137,88 € (2025), resp. 14 661,11 € (2026). Pri vysokom ZD klesne NČZD až na nulu – a to pri ZD ≥ 154,8-násobku ŽM, t. j. 42 413,65 € (2025) a 43 983,32 € (2026). Krátenie je teda lineárne, nie skokové. NČZD na daňovníka si uplatní každý daňovník (na rozdiel od ostatných dvoch) bez ďalších podmienok – výnimkou je poberateľ starobného/predčasného dôchodku k 1. 1., ktorému sa NČZD prizná len do výšky rozdielu, ak je dôchodok nižší než NČZD."
+      },
+      {
+        "nadpis": "NČZD na manželku/manžela – podmienky a dvojité krátenie",
+        "text": "Základná suma je 19,2-násobok ŽM: 5 260,61 € (2025), 5 455,30 € (2026) – ale len ak manželka nemá vlastný príjem. Ak má vlastný príjem do tejto sumy, NČZD = rozdiel (suma 19,2× ŽM − vlastný príjem); ak príjem prevyšuje, NČZD = 0. Vlastný príjem sa berie znížený o povinné poistné; nezahŕňa sa doň napr. daňový bonus, štátne sociálne dávky, štipendium. Druhé krátenie nastáva pri vysokom ZD daňovníka: ak ZD > 154,8× ŽM, NČZD na manželku = (70,8× ŽM − 1/3 ZD) − vlastný príjem. Navyše platí prísna podmienka uplatniteľnosti (§ 11 ods. 4): manželka musí spĺňať aspoň jedno – starať sa o vyživované dieťa do 3 (resp. 6) rokov, poberať peňažný príspevok na opatrovanie, byť v evidencii uchádzačov o zamestnanie, alebo byť občan so zdravotným/ťažkým zdravotným postihnutím. NČZD sa uplatní pomerne – 1/12 za každý mesiac, na začiatku ktorého boli podmienky splnené."
+      },
+      {
+        "nadpis": "NČZD na príspevky na DDS a PEPP (max 180 €)",
+        "text": "Tretia NČZD sú preukázateľne zaplatené príspevky na doplnkové dôchodkové sporenie a na PEPP – v úhrne najviac 180 € za rok (§ 11 ods. 8 a 9). Podmienky (§ 11 ods. 10): účastnícka zmluva uzatvorená alebo zmenená po 31. 12. 2013 (so zrušením dávkového plánu) a daňovník nemá uzatvorenú inú, staršiu nevyhovujúcu zmluvu. Ide o jediný limit vyjadrený pevnou sumou (nie násobkom ŽM). Pri predčasnom výbere je daňovník povinný do troch rokov dodaniť už uplatnené sumy (§ 11 ods. 11) – ide o tzv. 'vrátenie' výhody."
+      },
+      {
+        "nadpis": "Daňové výdavky FO a ich vplyv na ZD",
+        "text": "Druhá os okruhu sú daňové výdavky. Daňový výdavok (§ 2 písm. i, § 19) je výdavok preukázateľne vynaložený na dosiahnutie, zabezpečenie a udržanie zdaniteľných príjmov, zaúčtovaný/zaevidovaný. Znižuje základ dane priamo – ešte pred NČZD. § 21 taxatívne vylučuje nedaňové výdavky (osobná spotreba, reprezentácia okrem reklamných predmetov do 17 €, pokuty od štátu, výdavky nesúvisiace s príjmom). FO má alternatívu: namiesto skutočných výdavkov môže (ak nie je platiteľ DPH celý rok) uplatniť paušálne výdavky 60 % z príjmov, max 20 000 € ročne (§ 6 ods. 10). Pri preukázateľných výdavkoch sa pri majetku používanom aj súkromne rieši pomer – viď ďalej."
+      },
+      {
+        "nadpis": "Výdavky na majetok pri podnikaní – paušál 80 % (§ 19 ods. 2 písm. t)",
+        "text": "Ak daňovník využíva majetok (auto, výpočtová a komunikačná technika, stroje) aj na súkromné účely, výdavky na obstaranie, technické zhodnotenie, prevádzkovanie, opravy a údržbu si môže uplatniť dvojako: buď paušálne vo výške 80 % (bez dokazovania pomeru), alebo v preukázateľnej výške podľa skutočného pomeru použitia na zdanieľný príjem. Paušál 80 % je administratívne jednoduchý – netreba viesť knihu jázd. Týka sa aj odpisov a PHL. Samostatne § 19 ods. 2 písm. l) bod 3 umožňuje pri PHL paušál 80 % z celkového preukázateľného nákupu PHL (popri metóde 'spotreba z TP + 20 %', GPS, či priemerných cien ŠÚ SR pre elektromobily). Nehnuteľnosti sú z paušálu 80 % vylúčené."
+      },
+      {
+        "nadpis": "Operatívny a finančný prenájom",
+        "text": "Pri operatívnom prenájme platí nájomca nájomné, ktoré je daňovým výdavkom; ak je prenajímateľom fyzická osoba, nájomné je daňové až po zaplatení (§ 17 ods. 19). Pri finančnom prenájme (lízingu) sa prenajatý majetok odpisuje – nájomca ho odpisuje počas doby trvania nájmu, najmenej však počas doby odpisovania podľa odpisovej skupiny; daňovým výdavkom je odpis a úroková zložka splátok (časť istiny daňová nie je, je obstaraním majetku). Pri aute využívanom aj súkromne sa aj tu uplatní pomer/paušál 80 %."
+      },
+      {
+        "nadpis": "Cestovné náhrady a stravovanie",
+        "text": "Cestovné náhrady sú daňovým výdavkom do výšky nároku podľa zákona č. 283/2002 Z. z. (§ 19 ods. 2 písm. d); nad rámec zákona sú nedaňové. Pri tuzemskej pracovnej ceste patrí stravné podľa časových pásiem – od 1. 12. 2025 (platí aj v 2026): 9,30 € (5–12 h), 13,80 € (12–18 h), 20,60 € (nad 18 h). Pri vlastnom aute zamestnanca patrí základná náhrada za km (od 1. 1. 2026: 0,313 €/km, predtým 0,296 €) plus náhrada za PHL (cena × spotreba z TP × km). Stravovanie zamestnancov (§ 152 ZP): max príspevok zamestnávateľa 5,12 € (55 % z 9,30 €), minimálna hodnota gastrolístka 6,98 €. SZČO si môže do výdavkov dať stravné 5,12 € za každý odpracovaný deň."
+      },
+      {
+        "zaver": "NČZD systematicky: 1. ide o aktívny príjem (§ 5, § 6/1,2)? 2. ktorá z troch NČZD a aká je suma cez násobok ŽM? 3. nepresiahol ZD hranicu krátenia (91,8×, resp. 154,8× ŽM) a spĺňa manželka podmienky? Daňové výdavky znižujú ZD ešte pred NČZD; pri majetku používanom aj súkromne pomáha paušál 80 %. Tým sa korektne dostaneme od príjmov k základu dane a k dani."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Prečo práve životné minimum a násobky", "text": "Naviazanie NČZD na životné minimum k 1. 1. zabezpečuje, že 'existenčné minimum' príjmu sa nezdaňuje a suma sa automaticky valorizuje. Konsolidácia 2025/2026 ponechala násobky (21×, 19,2×, 91,8×, 51,6×, 154,8×, 70,8×) nezmenené – menia sa len absolútne sumy cez vyššie ŽM (273,99 € → 284,13 €). Pozor: hranice daňových PÁSIEM FO sa po novele od 1. 1. 2026 menia inak (4 pásma od 154,8× ŽM = 43 983,32 €), nemýliť si ich s krátením NČZD."},
-    {"nadpis": "Daňový bonus vs. NČZD", "text": "Daňový bonus na dieťa (§ 33) je zľava priamo na DANI (100 €/mes. do 15 r., 50 €/mes. 15–18 r.), nie odpočet od základu dane ako NČZD. Často sa zamieňajú. Bonus sa navyše kráti percentom z čiastkového ZD podľa počtu detí. NČZD znižuje ZD, bonus znižuje vypočítanú daň."},
-    {"nadpis": "Poberateľ dôchodku a NČZD na daňovníka", "text": "Ak je daňovník k 1. 1. poberateľom starobného, predčasného alebo výsluhového dôchodku, NČZD na daňovníka sa uplatní len vo výške rozdielu medzi sumou NČZD a sumou dôchodku (vrátane 13. dôchodku). Ak dôchodok prevyšuje NČZD, nárok je nula. Cieľom je, aby dôchodca s vysokým dôchodkom nemal dvojitú výhodu."},
-    {"nadpis": "Paušálne výdavky § 6 ods. 10 ako alternatíva", "text": "SZČO, ktorá nie je platiteľom DPH (alebo bola len časť roka), si môže namiesto skutočných výdavkov uplatniť paušál 60 % z príjmov, max 20 000 € ročne. Navyše si pripočíta preukázateľne zaplatené odvody. NČZD sa uplatňujú aj pri paušálnych výdavkoch – nezávisia od spôsobu uplatnenia výdavkov."},
-    {"nadpis": "Operatívny vs. finančný prenájom – daňový rozdiel", "text": "Operatívny prenájom: majetok zostáva u prenajímateľa, nájomca dáva do výdavkov nájomné (pri prenajímateľovi-FO až po zaplatení). Finančný prenájom: nájomca majetok odpisuje a uplatňuje úrok; po skončení prechádza vlastníctvo na neho. Daňové dopady sú odlišné – pri lízingu sa istina nepremieta priamo do nákladov, len cez odpisy."}
+    {
+      "nadpis": "Prečo práve životné minimum a násobky",
+      "text": "Naviazanie NČZD na životné minimum k 1. 1. zabezpečuje, že 'existenčné minimum' príjmu sa nezdaňuje a suma sa automaticky valorizuje. Konsolidácia 2025/2026 ponechala násobky (21×, 19,2×, 91,8×, 51,6×, 154,8×, 70,8×) nezmenené – menia sa len absolútne sumy cez vyššie ŽM (273,99 € → 284,13 €). Pozor: hranice daňových PÁSIEM FO sa po novele od 1. 1. 2026 menia inak (4 pásma od 154,8× ŽM = 43 983,32 €), nemýliť si ich s krátením NČZD."
+    },
+    {
+      "nadpis": "Daňový bonus vs. NČZD",
+      "text": "Daňový bonus na dieťa (§ 33) je zľava priamo na DANI (100 €/mes. do 15 r., 50 €/mes. 15–18 r.), nie odpočet od základu dane ako NČZD. Často sa zamieňajú. Bonus sa navyše kráti percentom z čiastkového ZD podľa počtu detí. NČZD znižuje ZD, bonus znižuje vypočítanú daň."
+    },
+    {
+      "nadpis": "Poberateľ dôchodku a NČZD na daňovníka",
+      "text": "Ak je daňovník k 1. 1. poberateľom starobného, predčasného alebo výsluhového dôchodku, NČZD na daňovníka sa uplatní len vo výške rozdielu medzi sumou NČZD a sumou dôchodku (vrátane 13. dôchodku). Ak dôchodok prevyšuje NČZD, nárok je nula. Cieľom je, aby dôchodca s vysokým dôchodkom nemal dvojitú výhodu."
+    },
+    {
+      "nadpis": "Paušálne výdavky § 6 ods. 10 ako alternatíva",
+      "text": "SZČO, ktorá nie je platiteľom DPH (alebo bola len časť roka), si môže namiesto skutočných výdavkov uplatniť paušál 60 % z príjmov, max 20 000 € ročne. Navyše si pripočíta preukázateľne zaplatené odvody. NČZD sa uplatňujú aj pri paušálnych výdavkoch – nezávisia od spôsobu uplatnenia výdavkov."
+    },
+    {
+      "nadpis": "Operatívny vs. finančný prenájom – daňový rozdiel",
+      "text": "Operatívny prenájom: majetok zostáva u prenajímateľa, nájomca dáva do výdavkov nájomné (pri prenajímateľovi-FO až po zaplatení). Finančný prenájom: nájomca majetok odpisuje a uplatňuje úrok; po skončení prechádza vlastníctvo na neho. Daňové dopady sú odlišné – pri lízingu sa istina nepremieta priamo do nákladov, len cez odpisy."
+    }
   ],
   "priklady": [
-    {"nazov": "NČZD na daňovníka pri vyššom ZD – krátenie (rok 2026)", "zadanie": "Daňovník (SZČO) dosiahol za rok 2026 čiastkový základ dane z podnikania 33 000 €. ŽM platné k 1. 1. 2026 = 284,13 €.", "riesenie": "ZD 33 000 € prevyšuje hranicu 91,8× ŽM = 26 083,13 €, takže NČZD sa kráti. NČZD = 51,6× ŽM − 1/3 ZD = 14 661,11 − (33 000 / 3) = 14 661,11 − 11 000 = 3 661,11 €. Plná NČZD (5 966,73 €) sa teda neuplatní – uplatní sa len 3 661,11 €. ZD po znížení = 33 000 − 3 661,11 = 29 338,89 €.", "dopad_na_zd": "NČZD = 3 661,11 € (krátená); ZD po znížení 29 338,89 €."},
-    {"nazov": "NČZD na daňovníka – plná suma a porovnanie 2025 vs 2026", "zadanie": "Zamestnanec má za rok ZD zo závislej činnosti 18 000 €. Aká je NČZD a ZD po znížení v roku 2025 a 2026?", "riesenie": "ZD 18 000 € ≤ 91,8× ŽM (25 152,28 € v 2025, 26 083,13 € v 2026), takže plná NČZD. 2025: NČZD 5 753,79 € → ZD po znížení 12 246,21 €. 2026: NČZD 5 966,73 € → ZD po znížení 12 033,27 €. Daňový efekt NČZD pri sadzbe 19 %: 2025 ≈ 1 093,22 €, 2026 ≈ 1 133,68 € ušetrenej dane.", "dopad_na_zd": "2025: −5 753,79 €; 2026: −5 966,73 € (plná NČZD na daňovníka)."},
-    {"nazov": "NČZD na manželku s vlastným príjmom (rok 2026)", "zadanie": "Manželka sa celý rok 2026 stará o 2-ročné dieťa (spĺňa podmienku § 11 ods. 4). Jej vlastný príjem (po odpočítaní poistného) je 2 000 €. ZD daňovníka je 28 000 € (< 154,8× ŽM = 43 983,32 €).", "riesenie": "ZD daňovníka neprekročil 154,8× ŽM, druhé krátenie sa neuplatní. NČZD na manželku = 19,2× ŽM − vlastný príjem = 5 455,30 − 2 000 = 3 455,30 €. Daňovník si zníži svoj ZD o 3 455,30 € (popri vlastnej NČZD na daňovníka).", "dopad_na_zd": "NČZD na manželku = 3 455,30 €."},
-    {"nazov": "Paušál 80 % pri aute používanom aj súkromne (§ 19 ods. 2 písm. t)", "zadanie": "SZČO má v obchodnom majetku auto. Ročné výdavky: odpis 4 000 €, opravy a údržba 1 200 €, PHL 2 500 €. Auto používa aj súkromne, nevedie knihu jázd.", "riesenie": "Bez evidencie pomeru uplatní paušál 80 % zo všetkých súvisiacich výdavkov. Daňové výdavky = 80 % × (4 000 + 1 200 + 2 500) = 80 % × 7 700 = 6 160 €. Zvyšných 20 % (1 540 €) je nedaňových (osobná spotreba). Alternatíva: preukázať skutočný pomer (napr. 90/10) knihou jázd – potom by daňové výdavky boli 6 930 €.", "dopad_na_zd": "Daňové výdavky 6 160 € (paušál 80 %); 1 540 € nedaňových."},
-    {"nazov": "Cestovné náhrady – tuzemská PC vlastným autom (rok 2026)", "zadanie": "Zamestnanec na pracovnej ceste (14 hodín) použil vlastné auto, najazdil 200 km. Spotreba podľa TP 6,5 l/100 km, cena PHL 1,60 €/l. Sadzba základnej náhrady 0,313 €/km (od 1. 1. 2026).", "riesenie": "Základná náhrada = 200 × 0,313 = 62,60 €. Náhrada za PHL = (6,5/100) × 1,60 × 200 = 0,104 × 200 = 20,80 €. Stravné (pásmo 12–18 h) = 13,80 €. Spolu cestovná náhrada = 62,60 + 20,80 + 13,80 = 97,20 €. Celá suma je do výšky nároku podľa zákona o CN → daňový výdavok zamestnávateľa.", "dopad_na_zd": "Daňový výdavok 97,20 € (do výšky nároku podľa § 19 ods. 2 písm. d)."},
-    {"nazov": "Stravné SZČO za odpracované dni (rok 2026)", "zadanie": "SZČO odpracovala v roku 2026 spolu 220 dní (a v daný deň nemala nárok na stravné z titulu PC ani na príspevok ako zamestnanec).", "riesenie": "SZČO si môže do daňových výdavkov uplatniť stravné 5,12 € (55 % z 9,30 €) za každý odpracovaný deň. Daňový výdavok = 220 × 5,12 = 1 126,40 €.", "dopad_na_zd": "Daňový výdavok na stravovanie 1 126,40 €."}
+    {
+      "nazov": "NČZD na daňovníka pri vyššom ZD – krátenie (rok 2026)",
+      "zadanie": "Daňovník (SZČO) dosiahol za rok 2026 čiastkový základ dane z podnikania 33 000 €. ŽM platné k 1. 1. 2026 = 284,13 €.",
+      "riesenie": "ZD 33 000 € prevyšuje hranicu 91,8× ŽM = 26 083,13 €, takže NČZD sa kráti. NČZD = 51,6× ŽM − 1/3 ZD = 14 661,11 − (33 000 / 3) = 14 661,11 − 11 000 = 3 661,11 €. Plná NČZD (5 966,73 €) sa teda neuplatní – uplatní sa len 3 661,11 €. ZD po znížení = 33 000 − 3 661,11 = 29 338,89 €.",
+      "dopad_na_zd": "NČZD = 3 661,11 € (krátená); ZD po znížení 29 338,89 €."
+    },
+    {
+      "nazov": "NČZD na daňovníka – plná suma a porovnanie 2025 vs 2026",
+      "zadanie": "Zamestnanec má za rok ZD zo závislej činnosti 18 000 €. Aká je NČZD a ZD po znížení v roku 2025 a 2026?",
+      "riesenie": "ZD 18 000 € ≤ 91,8× ŽM (25 152,28 € v 2025, 26 083,13 € v 2026), takže plná NČZD. 2025: NČZD 5 753,79 € → ZD po znížení 12 246,21 €. 2026: NČZD 5 966,73 € → ZD po znížení 12 033,27 €. Daňový efekt NČZD pri sadzbe 19 %: 2025 ≈ 1 093,22 €, 2026 ≈ 1 133,68 € ušetrenej dane.",
+      "dopad_na_zd": "2025: −5 753,79 €; 2026: −5 966,73 € (plná NČZD na daňovníka)."
+    },
+    {
+      "nazov": "NČZD na manželku s vlastným príjmom (rok 2026)",
+      "zadanie": "Manželka sa celý rok 2026 stará o 2-ročné dieťa (spĺňa podmienku § 11 ods. 4). Jej vlastný príjem (po odpočítaní poistného) je 2 000 €. ZD daňovníka je 28 000 € (< 154,8× ŽM = 43 983,32 €).",
+      "riesenie": "ZD daňovníka neprekročil 154,8× ŽM, druhé krátenie sa neuplatní. NČZD na manželku = 19,2× ŽM − vlastný príjem = 5 455,30 − 2 000 = 3 455,30 €. Daňovník si zníži svoj ZD o 3 455,30 € (popri vlastnej NČZD na daňovníka).",
+      "dopad_na_zd": "NČZD na manželku = 3 455,30 €."
+    },
+    {
+      "nazov": "Paušál 80 % pri aute používanom aj súkromne (§ 19 ods. 2 písm. t)",
+      "zadanie": "SZČO má v obchodnom majetku auto. Ročné výdavky: odpis 4 000 €, opravy a údržba 1 200 €, PHL 2 500 €. Auto používa aj súkromne, nevedie knihu jázd.",
+      "riesenie": "Bez evidencie pomeru uplatní paušál 80 % zo všetkých súvisiacich výdavkov. Daňové výdavky = 80 % × (4 000 + 1 200 + 2 500) = 80 % × 7 700 = 6 160 €. Zvyšných 20 % (1 540 €) je nedaňových (osobná spotreba). Alternatíva: preukázať skutočný pomer (napr. 90/10) knihou jázd – potom by daňové výdavky boli 6 930 €.",
+      "dopad_na_zd": "Daňové výdavky 6 160 € (paušál 80 %); 1 540 € nedaňových."
+    },
+    {
+      "nazov": "Cestovné náhrady – tuzemská PC vlastným autom (rok 2026)",
+      "zadanie": "Zamestnanec na pracovnej ceste (14 hodín) použil vlastné auto, najazdil 200 km. Spotreba podľa TP 6,5 l/100 km, cena PHL 1,60 €/l. Sadzba základnej náhrady 0,313 €/km (od 1. 1. 2026).",
+      "riesenie": "Základná náhrada = 200 × 0,313 = 62,60 €. Náhrada za PHL = (6,5/100) × 1,60 × 200 = 0,104 × 200 = 20,80 €. Stravné (pásmo 12–18 h) = 13,80 €. Spolu cestovná náhrada = 62,60 + 20,80 + 13,80 = 97,20 €. Celá suma je do výšky nároku podľa zákona o CN → daňový výdavok zamestnávateľa.",
+      "dopad_na_zd": "Daňový výdavok 97,20 € (do výšky nároku podľa § 19 ods. 2 písm. d)."
+    },
+    {
+      "nazov": "Stravné SZČO za odpracované dni (rok 2026)",
+      "zadanie": "SZČO odpracovala v roku 2026 spolu 220 dní (a v daný deň nemala nárok na stravné z titulu PC ani na príspevok ako zamestnanec).",
+      "riesenie": "SZČO si môže do daňových výdavkov uplatniť stravné 5,12 € (55 % z 9,30 €) za každý odpracovaný deň. Daňový výdavok = 220 × 5,12 = 1 126,40 €.",
+      "dopad_na_zd": "Daňový výdavok na stravovanie 1 126,40 €."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/BC_II_07_cesta_ZD_NCZD_dan.svg", "typ": "schéma", "popis": "Cesta od príjmov k dani: aktívne príjmy (§ 5, § 6/1,2) → ZD po daňových výdavkoch → odpočet troch NČZD (daňovník, manželka, DDS) → ZD po znížení → sadzba dane → daň; s vyznačením pasívnych príjmov, na ktoré NČZD nemožno uplatniť."},
-    {"subor": "03_Vizualy/BC_II_07_kratenie_NCZD.svg", "typ": "graf", "popis": "Krátenie NČZD na daňovníka podľa výšky ZD: plná suma 21× ŽM do hranice 91,8× ŽM, lineárny pokles vzorcom 51,6× ŽM − 1/3 ZD, nula pri 154,8× ŽM (hodnoty 2025 aj 2026)."}
+    {
+      "subor": "03_Vizualy/BC_II_07_cesta_ZD_NCZD_dan.svg",
+      "typ": "schéma",
+      "popis": "Cesta od príjmov k dani: aktívne príjmy (§ 5, § 6/1,2) → ZD po daňových výdavkoch → odpočet troch NČZD (daňovník, manželka, DDS) → ZD po znížení → sadzba dane → daň; s vyznačením pasívnych príjmov, na ktoré NČZD nemožno uplatniť."
+    },
+    {
+      "subor": "03_Vizualy/BC_II_07_kratenie_NCZD.svg",
+      "typ": "graf",
+      "popis": "Krátenie NČZD na daňovníka podľa výšky ZD: plná suma 21× ŽM do hranice 91,8× ŽM, lineárny pokles vzorcom 51,6× ŽM − 1/3 ZD, nula pri 154,8× ŽM (hodnoty 2025 aj 2026)."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Na ktoré druhy príjmov možno uplatniť NČZD?", "odpoved": "Len na čiastkový základ dane z aktívnych príjmov – zo závislej činnosti (§ 5) a z podnikania a inej SZČ (§ 6 ods. 1 a 2). Na pasívne príjmy (prenájom § 6/3, kapitál § 7, ostatné § 8) ich uplatniť nemožno."},
-    {"otazka": "Aký je rozdiel medzi NČZD a daňovým bonusom?", "odpoved": "NČZD je odpočet od ZÁKLADU DANE (jeho efekt je sadzba × NČZD). Daňový bonus na dieťa je zľava priamo na DANI (znižuje vypočítanú daň). Sú to dva odlišné nástroje."},
-    {"otazka": "Ako sa kráti NČZD na daňovníka pri vysokom základe dane?", "odpoved": "Do ZD 91,8× ŽM plná suma 21× ŽM. Nad ňu lineárne: NČZD = 51,6× ŽM − 1/3 ZD. Pri ZD ≥ 154,8× ŽM (42 413,65 € v 2025, 43 983,32 € v 2026) je NČZD nula."},
-    {"otazka": "Kedy si možno uplatniť NČZD na manželku a koľko?", "odpoved": "Ak manželka žije v domácnosti a spĺňa aspoň jednu podmienku (dieťa do 3/6 r., opatrovanie, evidencia uchádzačov, ZŤP). Suma 19,2× ŽM (5 260,61 € 2025; 5 455,30 € 2026), znížená o jej vlastný príjem; pri ZD daňovníka > 154,8× ŽM ešte krátená vzorcom 70,8× ŽM − 1/3 ZD."},
-    {"otazka": "Aký je limit NČZD na príspevky na DDS/PEPP a aké sú podmienky?", "odpoved": "Najviac 180 € ročne z preukázateľne zaplatených príspevkov; účastnícka zmluva po 31. 12. 2013 (so zrušením dávkového plánu) a žiadna iná nevyhovujúca zmluva. Pri predčasnom výbere sa výhoda dodaňuje."},
-    {"otazka": "Čo umožňuje paušál 80 % podľa § 19 ods. 2 písm. t)?", "odpoved": "Pri majetku používanom aj súkromne uplatniť výdavky na obstaranie, TZ, prevádzku, opravy a údržbu vo výške 80 % bez dokazovania pomeru; alternatívne v preukázateľnej výške podľa skutočného pomeru. Nehnuteľnosti sú vylúčené."},
-    {"otazka": "Do akej výšky sú cestovné náhrady a stravné daňovým výdavkom?", "odpoved": "Do výšky nároku podľa zákona č. 283/2002 Z. z. (§ 19 ods. 2 písm. d). Stravné od 1. 12. 2025: 9,30 / 13,80 / 20,60 €; základná náhrada za km od 1. 1. 2026: 0,313 €. Nad zákonný rámec = nedaňové."}
+    {
+      "otazka": "Na ktoré druhy príjmov možno uplatniť NČZD?",
+      "odpoved": "Len na čiastkový základ dane z aktívnych príjmov – zo závislej činnosti (§ 5) a z podnikania a inej SZČ (§ 6 ods. 1 a 2). Na pasívne príjmy (prenájom § 6/3, kapitál § 7, ostatné § 8) ich uplatniť nemožno.",
+      "moznosti": [
+        "Na všetky druhy príjmov fyzickej osoby vrátane prenájmu a kapitálu",
+        "Len na čiastkový základ dane z aktívnych príjmov – závislá činnosť (§ 5) a podnikanie/SZČ (§ 6 ods. 1 a 2)",
+        "Len na pasívne príjmy – prenájom (§ 6/3), kapitál (§ 7) a ostatné príjmy (§ 8)",
+        "Len na čiastkový základ dane z kapitálového majetku podľa § 7"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Len na čiastkový základ dane z aktívnych príjmov – zo závislej činnosti (§ 5) a z podnikania a inej SZČ (§ 6 ods. 1 a 2). Na pasívne príjmy (prenájom § 6/3, kapitál § 7, ostatné § 8) ich uplatniť nemožno."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi NČZD a daňovým bonusom?",
+      "odpoved": "NČZD je odpočet od ZÁKLADU DANE (jeho efekt je sadzba × NČZD). Daňový bonus na dieťa je zľava priamo na DANI (znižuje vypočítanú daň). Sú to dva odlišné nástroje.",
+      "moznosti": [
+        "NČZD aj daňový bonus sú zhodne zľavou priamo na dani",
+        "NČZD je zľava na dani, daňový bonus je odpočet od základu dane",
+        "NČZD je odpočet od základu dane (efekt sadzba × NČZD), daňový bonus je zľava priamo na dani",
+        "NČZD aj daňový bonus sú zhodne odpočtom od základu dane"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "NČZD je odpočet od ZÁKLADU DANE (jeho efekt je sadzba × NČZD). Daňový bonus na dieťa je zľava priamo na DANI (znižuje vypočítanú daň). Sú to dva odlišné nástroje."
+    },
+    {
+      "otazka": "Ako sa kráti NČZD na daňovníka pri vysokom základe dane?",
+      "odpoved": "Do ZD 91,8× ŽM plná suma 21× ŽM. Nad ňu lineárne: NČZD = 51,6× ŽM − 1/3 ZD. Pri ZD ≥ 154,8× ŽM (42 413,65 € v 2025, 43 983,32 € v 2026) je NČZD nula.",
+      "moznosti": [
+        "Do ZD 91,8× ŽM plná suma 21× ŽM, nad ňu lineárne 51,6× ŽM − 1/3 ZD, nula pri ZD ≥ 154,8× ŽM",
+        "Do ZD 154,8× ŽM plná suma 19,2× ŽM, nad ňu skokovo na nulu",
+        "Do ZD 51,6× ŽM plná suma 21× ŽM, nad ňu lineárne 91,8× ŽM − 1/2 ZD, nula pri 154,8× ŽM",
+        "Do ZD 91,8× ŽM plná suma 21× ŽM, nad ňu lineárne 70,8× ŽM − 1/3 ZD, nula pri 100× ŽM"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Do ZD 91,8× ŽM plná suma 21× ŽM. Nad ňu lineárne: NČZD = 51,6× ŽM − 1/3 ZD. Pri ZD ≥ 154,8× ŽM (42 413,65 € v 2025, 43 983,32 € v 2026) je NČZD nula."
+    },
+    {
+      "otazka": "Kedy si možno uplatniť NČZD na manželku a koľko?",
+      "odpoved": "Ak manželka žije v domácnosti a spĺňa aspoň jednu podmienku (dieťa do 3/6 r., opatrovanie, evidencia uchádzačov, ZŤP). Suma 19,2× ŽM (5 260,61 € 2025; 5 455,30 € 2026), znížená o jej vlastný príjem; pri ZD daňovníka > 154,8× ŽM ešte krátená vzorcom 70,8× ŽM − 1/3 ZD.",
+      "moznosti": [
+        "Len ak manželka poberá starobný dôchodok; suma 21× ŽM bez ohľadu na jej príjem",
+        "Vždy automaticky pri uzavretom manželstve; suma 19,2× ŽM bez krátenia o vlastný príjem",
+        "Ak žije v domácnosti a spĺňa podmienku (dieťa do 3/6 r., opatrovanie, evidencia, ZŤP); suma 19,2× ŽM znížená o vlastný príjem, pri ZD > 154,8× ŽM krátená 70,8× ŽM − 1/3 ZD",
+        "Ak žije v domácnosti bez ďalších podmienok; suma 19,2× ŽM znížená o vlastný príjem, pri ZD > 91,8× ŽM krátená 51,6× ŽM − 1/3 ZD"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Ak manželka žije v domácnosti a spĺňa aspoň jednu podmienku (dieťa do 3/6 r., opatrovanie, evidencia uchádzačov, ZŤP). Suma 19,2× ŽM (5 260,61 € 2025; 5 455,30 € 2026), znížená o jej vlastný príjem; pri ZD daňovníka > 154,8× ŽM ešte krátená vzorcom 70,8× ŽM − 1/3 ZD."
+    },
+    {
+      "otazka": "Aký je limit NČZD na príspevky na DDS/PEPP a aké sú podmienky?",
+      "odpoved": "Najviac 180 € ročne z preukázateľne zaplatených príspevkov; účastnícka zmluva po 31. 12. 2013 (so zrušením dávkového plánu) a žiadna iná nevyhovujúca zmluva. Pri predčasnom výbere sa výhoda dodaňuje.",
+      "moznosti": [
+        "Najviac 5 % zo základu dane; zmluva uzatvorená po 31. 12. 2013 so zrušením dávkového plánu",
+        "Najviac 180 € ročne z preukázateľne zaplatených príspevkov; zmluva po 31. 12. 2013 (so zrušením dávkového plánu), pri predčasnom výbere sa výhoda dodaňuje",
+        "Najviac 1 800 € ročne z preukázateľne zaplatených príspevkov; zmluva uzatvorená pred 1. 1. 2014",
+        "Najviac 180 € ročne, pričom suma sa každoročne valorizuje násobkom životného minima"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Najviac 180 € ročne z preukázateľne zaplatených príspevkov; účastnícka zmluva po 31. 12. 2013 (so zrušením dávkového plánu) a žiadna iná nevyhovujúca zmluva. Pri predčasnom výbere sa výhoda dodaňuje."
+    },
+    {
+      "otazka": "Čo umožňuje paušál 80 % podľa § 19 ods. 2 písm. t)?",
+      "odpoved": "Pri majetku používanom aj súkromne uplatniť výdavky na obstaranie, TZ, prevádzku, opravy a údržbu vo výške 80 % bez dokazovania pomeru; alternatívne v preukázateľnej výške podľa skutočného pomeru. Nehnuteľnosti sú vylúčené.",
+      "moznosti": [
+        "Pri nehnuteľnostiach uplatniť 80 % výdavkov na obstaranie a prevádzku bez dokazovania pomeru",
+        "Pri majetku používanom aj súkromne uplatniť 100 % výdavkov, ak sa nevedie kniha jázd",
+        "Pri majetku používanom aj súkromne uplatniť 60 % výdavkov bez dokazovania pomeru použitia",
+        "Pri majetku používanom aj súkromne uplatniť výdavky (obstaranie, TZ, prevádzka, opravy) vo výške 80 % bez dokazovania pomeru; nehnuteľnosti sú vylúčené"
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Pri majetku používanom aj súkromne uplatniť výdavky na obstaranie, TZ, prevádzku, opravy a údržbu vo výške 80 % bez dokazovania pomeru; alternatívne v preukázateľnej výške podľa skutočného pomeru. Nehnuteľnosti sú vylúčené."
+    },
+    {
+      "otazka": "Do akej výšky sú cestovné náhrady a stravné daňovým výdavkom?",
+      "odpoved": "Do výšky nároku podľa zákona č. 283/2002 Z. z. (§ 19 ods. 2 písm. d). Stravné od 1. 12. 2025: 9,30 / 13,80 / 20,60 €; základná náhrada za km od 1. 1. 2026: 0,313 €. Nad zákonný rámec = nedaňové.",
+      "moznosti": [
+        "Do výšky nároku podľa zákona č. 283/2002 Z. z.; stravné od 1. 12. 2025 9,30 / 13,80 / 20,60 €, základná náhrada za km od 1. 1. 2026 0,313 €; nad rámec nedaňové",
+        "V plnej výške bez obmedzenia, aj keď presahujú nárok podľa zákona o cestovných náhradách",
+        "Do výšky nároku podľa Zákonníka práce; stravné od 1. 12. 2025 5,12 / 6,98 / 9,30 €, náhrada za km 0,296 €",
+        "Len do výšky 50 % nároku podľa zákona č. 283/2002 Z. z.; zvyšok je nedaňový"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Do výšky nároku podľa zákona č. 283/2002 Z. z. (§ 19 ods. 2 písm. d). Stravné od 1. 12. 2025: 9,30 / 13,80 / 20,60 €; základná náhrada za km od 1. 1. 2026: 0,313 €. Nad zákonný rámec = nedaňové."
+    }
   ],
   "pasce_caste_chyby": [
     "Uplatňovať NČZD aj na pasívne príjmy (prenájom, kapitál, ostatné) – nedá sa, len na § 5 a § 6 ods. 1 a 2.",
@@ -80,27 +257,119 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "NČZD podľa § 11 ZDP možno uplatniť na:", "moznosti": ["všetky druhy príjmov FO", "len na príjmy z prenájmu", "len na čiastkový ZD z § 5 a § 6 ods. 1 a 2", "len na kapitálové príjmy (§ 7)"], "spravna_index": 2, "vysvetlenie": "§ 11 ods. 1 – NČZD znižujú len ZD z aktívnych príjmov: závislá činnosť (§ 5) a podnikanie/SZČ (§ 6 ods. 1 a 2)."},
-      {"otazka": "NČZD na daňovníka v roku 2026 (pri ZD do hranice krátenia) je:", "moznosti": ["5 753,79 €", "5 966,73 €", "5 455,30 €", "4 511,43 €"], "spravna_index": 1, "vysvetlenie": "21,0× ŽM 2026 (284,13 €) = 5 966,73 €. Hodnota 5 753,79 € platila pre rok 2025."},
-      {"otazka": "Od akej výšky ZD je NČZD na daňovníka nulová v roku 2026?", "moznosti": ["od 26 083,13 €", "od 43 983,32 €", "od 47 058,57 €", "od 60 349,21 €"], "spravna_index": 1, "vysvetlenie": "Nula nastáva pri ZD = 154,8× ŽM. Pre 2026: 154,8 × 284,13 = 43 983,32 €. (26 083,13 € je len hranica, kde sa krátenie začína.)"},
-      {"otazka": "Maximálna ročná NČZD na príspevky na DDS/PEPP je:", "moznosti": ["180 €", "5 % zo ZD", "21× ŽM", "1 800 €"], "spravna_index": 0, "vysvetlenie": "§ 11 ods. 9 – v úhrne najviac 180 € ročne z preukázateľne zaplatených príspevkov."},
-      {"otazka": "Paušál 80 % podľa § 19 ods. 2 písm. t) sa NEvzťahuje na:", "moznosti": ["osobný automobil", "výpočtovú techniku", "nehnuteľnosti", "stroje a zariadenia"], "spravna_index": 2, "vysvetlenie": "Ustanovenie výslovne vylučuje výdavky súvisiace s nehnuteľnosťami; paušál 80 % sa týka hnuteľného majetku používaného aj súkromne."},
-      {"otazka": "Stravné pri tuzemskej PC v pásme 5–12 hodín je od 1. 12. 2025:", "moznosti": ["8,80 €", "9,30 €", "13,80 €", "5,12 €"], "spravna_index": 1, "vysvetlenie": "Oznámenie 280/2025 Z. z. – 9,30 € (5–12 h), 13,80 € (12–18 h), 20,60 € (nad 18 h)."}
+      {
+        "otazka": "NČZD podľa § 11 ZDP možno uplatniť na:",
+        "moznosti": [
+          "všetky druhy príjmov FO",
+          "len na príjmy z prenájmu",
+          "len na čiastkový ZD z § 5 a § 6 ods. 1 a 2",
+          "len na kapitálové príjmy (§ 7)"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "§ 11 ods. 1 – NČZD znižujú len ZD z aktívnych príjmov: závislá činnosť (§ 5) a podnikanie/SZČ (§ 6 ods. 1 a 2)."
+      },
+      {
+        "otazka": "NČZD na daňovníka v roku 2026 (pri ZD do hranice krátenia) je:",
+        "moznosti": [
+          "5 753,79 €",
+          "5 966,73 €",
+          "5 455,30 €",
+          "4 511,43 €"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "21,0× ŽM 2026 (284,13 €) = 5 966,73 €. Hodnota 5 753,79 € platila pre rok 2025."
+      },
+      {
+        "otazka": "Od akej výšky ZD je NČZD na daňovníka nulová v roku 2026?",
+        "moznosti": [
+          "od 26 083,13 €",
+          "od 43 983,32 €",
+          "od 47 058,57 €",
+          "od 60 349,21 €"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Nula nastáva pri ZD = 154,8× ŽM. Pre 2026: 154,8 × 284,13 = 43 983,32 €. (26 083,13 € je len hranica, kde sa krátenie začína.)"
+      },
+      {
+        "otazka": "Maximálna ročná NČZD na príspevky na DDS/PEPP je:",
+        "moznosti": [
+          "180 €",
+          "5 % zo ZD",
+          "21× ŽM",
+          "1 800 €"
+        ],
+        "spravna_index": 0,
+        "vysvetlenie": "§ 11 ods. 9 – v úhrne najviac 180 € ročne z preukázateľne zaplatených príspevkov."
+      },
+      {
+        "otazka": "Paušál 80 % podľa § 19 ods. 2 písm. t) sa NEvzťahuje na:",
+        "moznosti": [
+          "osobný automobil",
+          "výpočtovú techniku",
+          "nehnuteľnosti",
+          "stroje a zariadenia"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Ustanovenie výslovne vylučuje výdavky súvisiace s nehnuteľnosťami; paušál 80 % sa týka hnuteľného majetku používaného aj súkromne."
+      },
+      {
+        "otazka": "Stravné pri tuzemskej PC v pásme 5–12 hodín je od 1. 12. 2025:",
+        "moznosti": [
+          "8,80 €",
+          "9,30 €",
+          "13,80 €",
+          "5,12 €"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Oznámenie 280/2025 Z. z. – 9,30 € (5–12 h), 13,80 € (12–18 h), 20,60 € (nad 18 h)."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite mechanizmus krátenia NČZD na daňovníka pri vyššom základe dane a uveďte číselný príklad za rok 2026.", "vzorova_odpoved": "Do ZD ≤ 91,8× ŽM (26 083,13 € v 2026) je NČZD plná = 21× ŽM = 5 966,73 €. Nad ňu sa kráti vzorcom 51,6× ŽM − 1/3 ZD (51,6× ŽM = 14 661,11 €). Pri ZD 33 000 €: 14 661,11 − 11 000 = 3 661,11 €. Pri ZD ≥ 154,8× ŽM (43 983,32 €) je NČZD nula. Krátenie je lineárne."},
-      {"otazka": "Popíšte tri druhy NČZD, ich sumy pre rok 2026 a kľúčové podmienky uplatnenia.", "vzorova_odpoved": "(1) Na daňovníka 5 966,73 € (21× ŽM), bez podmienok okrem dôchodcov; kráti sa pri vyššom ZD. (2) Na manželku 5 455,30 € (19,2× ŽM), len ak spĺňa podmienku (dieťa do 3/6 r., opatrovanie, evidencia uchádzačov, ZŤP), znížená o vlastný príjem a pri vysokom ZD krátená. (3) Príspevky na DDS/PEPP max 180 € z reálne zaplatených, zmluva po 31. 12. 2013."},
-      {"otazka": "Ako sa daňovo uplatňujú výdavky na majetok používaný aj na súkromné účely a ako cestovné náhrady?", "vzorova_odpoved": "Pri majetku (auto, IKT, stroje) používanom aj súkromne § 19 ods. 2 písm. t) umožňuje paušál 80 % výdavkov, alebo preukázateľnú výšku podľa pomeru použitia; nehnuteľnosti sú vylúčené. Pri PHL navyše paušál 80 % z nákupu (§ 19 ods. 2 písm. l bod 3). Cestovné náhrady sú daňové do výšky nároku podľa zákona č. 283/2002 Z. z. (§ 19 ods. 2 písm. d) – stravné podľa pásiem, základná náhrada za km a náhrada za PHL; nad rámec zákona sú nedaňové."}
+      {
+        "otazka": "Vysvetlite mechanizmus krátenia NČZD na daňovníka pri vyššom základe dane a uveďte číselný príklad za rok 2026.",
+        "vzorova_odpoved": "Do ZD ≤ 91,8× ŽM (26 083,13 € v 2026) je NČZD plná = 21× ŽM = 5 966,73 €. Nad ňu sa kráti vzorcom 51,6× ŽM − 1/3 ZD (51,6× ŽM = 14 661,11 €). Pri ZD 33 000 €: 14 661,11 − 11 000 = 3 661,11 €. Pri ZD ≥ 154,8× ŽM (43 983,32 €) je NČZD nula. Krátenie je lineárne."
+      },
+      {
+        "otazka": "Popíšte tri druhy NČZD, ich sumy pre rok 2026 a kľúčové podmienky uplatnenia.",
+        "vzorova_odpoved": "(1) Na daňovníka 5 966,73 € (21× ŽM), bez podmienok okrem dôchodcov; kráti sa pri vyššom ZD. (2) Na manželku 5 455,30 € (19,2× ŽM), len ak spĺňa podmienku (dieťa do 3/6 r., opatrovanie, evidencia uchádzačov, ZŤP), znížená o vlastný príjem a pri vysokom ZD krátená. (3) Príspevky na DDS/PEPP max 180 € z reálne zaplatených, zmluva po 31. 12. 2013."
+      },
+      {
+        "otazka": "Ako sa daňovo uplatňujú výdavky na majetok používaný aj na súkromné účely a ako cestovné náhrady?",
+        "vzorova_odpoved": "Pri majetku (auto, IKT, stroje) používanom aj súkromne § 19 ods. 2 písm. t) umožňuje paušál 80 % výdavkov, alebo preukázateľnú výšku podľa pomeru použitia; nehnuteľnosti sú vylúčené. Pri PHL navyše paušál 80 % z nákupu (§ 19 ods. 2 písm. l bod 3). Cestovné náhrady sú daňové do výšky nároku podľa zákona č. 283/2002 Z. z. (§ 19 ods. 2 písm. d) – stravné podľa pásiem, základná náhrada za km a náhrada za PHL; nad rámec zákona sú nedaňové."
+      }
     ],
     "priklad": [
-      {"zadanie": "SZČO za rok 2026 (ŽM 284,13 €): čiastkový ZD z podnikania 30 000 €. Manželka sa stará o 1-ročné dieťa, vlastný príjem 1 200 €. Daňovník zaplatil príspevky na DDS 250 €. Vypočítajte všetky NČZD a ZD po znížení.", "riesenie": "NČZD na daňovníka: ZD 30 000 € > 26 083,13 € → krátenie = 14 661,11 − 30 000/3 = 14 661,11 − 10 000 = 4 661,11 €. NČZD na manželku: ZD < 43 983,32 €, podmienka splnená → 5 455,30 − 1 200 = 4 255,30 €. NČZD na DDS: zaplatené 250 €, ale max 180 € → 180 €. Spolu NČZD = 4 661,11 + 4 255,30 + 180 = 9 096,41 €. ZD po znížení = 30 000 − 9 096,41 = 20 903,59 €."}
+      {
+        "zadanie": "SZČO za rok 2026 (ŽM 284,13 €): čiastkový ZD z podnikania 30 000 €. Manželka sa stará o 1-ročné dieťa, vlastný príjem 1 200 €. Daňovník zaplatil príspevky na DDS 250 €. Vypočítajte všetky NČZD a ZD po znížení.",
+        "riesenie": "NČZD na daňovníka: ZD 30 000 € > 26 083,13 € → krátenie = 14 661,11 − 30 000/3 = 14 661,11 − 10 000 = 4 661,11 €. NČZD na manželku: ZD < 43 983,32 €, podmienka splnená → 5 455,30 − 1 200 = 4 255,30 €. NČZD na DDS: zaplatené 250 €, ale max 180 € → 180 €. Spolu NČZD = 4 661,11 + 4 255,30 + 180 = 9 096,41 €. ZD po znížení = 30 000 − 9 096,41 = 20 903,59 €."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Zákon č. 595/2003 Z. z. o dani z príjmov, § 11 (NČZD: ods. 1–12), § 19 (daňové výdavky, najmä ods. 2 písm. d, l, t), § 21 (nedaňové výdavky)", "kde": "01_Zdroje/Zakony/ZZ_2003_595_20260101_metalex.asice", "typ": "primárny"},
-    {"nazov": "Zákon č. 283/2002 Z. z. o cestovných náhradách (stravné § 5, vlastné vozidlo § 7); § 152 Zákonníka práce (stravovanie)", "kde": "Slov-lex / prednáška PR-06", "typ": "primárny"},
-    {"nazov": "Prednáška PR-06 – Stravné, cestovné, PHL, manká a škody (A. Marci)", "kde": "01_Zdroje/PR-06 Stravné, cestovné, PHL, manká a škody.pptx", "typ": "prednáška"},
-    {"nazov": "Aktuálne čísla SR 2025/2026 (ŽM, NČZD, stravné, cestovné, DDS)", "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md", "typ": "web/overené"},
-    {"nazov": "Nezdaniteľné časti základu dane 2025 a 2026 (overené sumy a hranice krátenia)", "kde": "https://www.podnikajte.sk/dan-z-prijmov/nezdanitelne-casti-zakladu-dane-2026 ; financnasprava.sk", "typ": "web/overené"}
+    {
+      "nazov": "Zákon č. 595/2003 Z. z. o dani z príjmov, § 11 (NČZD: ods. 1–12), § 19 (daňové výdavky, najmä ods. 2 písm. d, l, t), § 21 (nedaňové výdavky)",
+      "kde": "01_Zdroje/Zakony/ZZ_2003_595_20260101_metalex.asice",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Zákon č. 283/2002 Z. z. o cestovných náhradách (stravné § 5, vlastné vozidlo § 7); § 152 Zákonníka práce (stravovanie)",
+      "kde": "Slov-lex / prednáška PR-06",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Prednáška PR-06 – Stravné, cestovné, PHL, manká a škody (A. Marci)",
+      "kde": "01_Zdroje/PR-06 Stravné, cestovné, PHL, manká a škody.pptx",
+      "typ": "prednáška"
+    },
+    {
+      "nazov": "Aktuálne čísla SR 2025/2026 (ŽM, NČZD, stravné, cestovné, DDS)",
+      "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Nezdaniteľné časti základu dane 2025 a 2026 (overené sumy a hranice krátenia)",
+      "kde": "https://www.podnikajte.sk/dan-z-prijmov/nezdanitelne-casti-zakladu-dane-2026 ; financnasprava.sk",
+      "typ": "web/overené"
+    }
   ]
 }

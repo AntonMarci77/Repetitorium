@@ -27,45 +27,217 @@
     "cielova_dlzka_slov": 1400,
     "uvod": "Účtovníctvo sa člení na dve základné vetvy. Finančné účtovníctvo je orientované navonok, je záväzne regulované zákonom č. 431/2002 Z. z. o účtovníctve a slúži externým používateľom na verný a pravdivý obraz o podniku ako celku. Manažérske účtovníctvo je orientované dovnútra podniku, je dobrovoľné (jeho obsah a formu si určuje účtovná jednotka sama) a slúži manažmentu pri rozhodovaní, plánovaní a kontrole. Jadrom manažérskeho účtovníctva je nákladové účtovníctvo, ktoré sleduje náklady podľa účelu a miesta vzniku a kalkuluje vlastné náklady výkonov. Centrálnou otázkou tejto témy je samotný pojem náklad – ako ho vymedziť, aké má koncepcie a ako sa náklady členia a priraďujú miestam vzniku a zodpovednosti.",
     "casti": [
-      {"nadpis": "Finančné, nákladové a manažérske účtovníctvo", "text": "Finančné účtovníctvo zachytáva všetky ekonomické procesy na úrovni účtovnej jednotky ako celku, člení náklady podľa druhu a je orientované prevažne do minulosti pre externých používateľov (investori, banky, štát, veritelia). Je záväzne regulované. Manažérske účtovníctvo je nadradený, širší pojem orientovaný dovnútra a aj do budúcnosti pre interných používateľov (manažment, vedúci stredísk). Nie je viazané právnymi predpismi – jeho rozsah si určuje firma vnútornou smernicou; pracuje spravidla v kratších cykloch (mesiac) a s nižšími organizačnými stupňami (strediská, výkony, procesy). Jadrom manažérskeho účtovníctva je nákladové účtovníctvo – sleduje náklady a výnosy podľa účelu a miesta vzniku, kalkuluje vlastné náklady výkonov a porovnáva plán so skutočnosťou. Vzťah teda je: manažérske účtovníctvo = nákladové účtovníctvo + účtovníctvo na rozhodovanie + controllingové nástroje (rozpočty, kalkulácie, analýza odchýlok)."},
-      {"nadpis": "Funkcie, ciele a využitie pri zisťovaní vlastných nákladov", "text": "Hlavnou funkciou manažérskeho a nákladového účtovníctva je poskytnúť manažmentu informácie pre riadenie: pre rozhodovanie (výber medzi alternatívami), plánovanie (rozpočty, kalkulácie), kontrolu (plán verzus skutočnosť, analýza odchýlok) a motiváciu (hodnotenie stredísk). Kľúčovým výstupom je zisťovanie vlastných nákladov výkonov – t. j. koľko podnik skutočne stojí výroba jedného výrobku alebo služby (kalkulačnej jednotky). Tieto informácie sú podkladom pre tvorbu cien, posúdenie ziskovosti jednotlivých výrobkov, rozhodnutie 'vyrábať alebo nakúpiť', oceňovanie zásob vlastnej výroby a riadenie hospodárnosti. Na rozdiel od finančného účtovníctva, ktoré vyčíslia výsledok za celok, nákladové účtovníctvo ukáže, kde a na čom podnik zarába alebo stráca."},
-      {"nadpis": "Tri poňatia (koncepcie) nákladov", "text": "Náklad je v manažérskom poňatí hodnotovo vyjadrené, účelne vynaložené ekonomické zdroje podniku. Existujú tri poňatia, ktoré sa líšia tým, čo všetko do nákladov zahŕňajú – ako tri sústredné kruhy. (1) Finančné poňatie: náklad = úbytok ekonomického prospechu zachytený vo finančnom účtovníctve, skutočne vynaložený a doložený dokladom (toto je 'účtovný náklad' v zmysle zákona o účtovníctve). (2) Hodnotové poňatie: pridáva k finančnému poňatiu tzv. kalkulačné náklady – spotrebu, ktorá síce nie je výdavkom v účtovnom zmysle, ale ekonomicky predstavuje obetovanie zdroja, aby kalkulácia zodpovedala reálnej hospodárskej situácii. (3) Manažérske (ekonomické) poňatie: najširšie. K hodnotovému poňatiu pridáva aj oportunitné (alternatívne) náklady – ušlý prospech z nevyužitej alternatívy. Pracuje sa s ním pri rozhodovaní o budúcnosti."},
-      {"nadpis": "Kalkulačné náklady (hodnotové poňatie)", "text": "Kalkulačné náklady patria do hodnotového poňatia. Sú to náklady, ktoré sa úplne alebo čiastočne líšia od účtovných – buď v účtovníctve vôbec nie sú (dodatkové), alebo majú inú výšku (iné/odlišné). Cieľom je, aby kalkulácia odzrkadlila skutočnú ekonomickú spotrebu zdrojov, nie len účtovne či daňovo doložené sumy. Štyri klasické (skratka O-Ú-R-M): Kalkulačné ODPISY sa stanovujú podľa skutočného opotrebenia a reálnej (často reprodukčnej) hodnoty a životnosti – pokračujú aj po účtovnom odpísaní, ak sa stroj stále používa. Kalkulačné ÚROKY zahŕňajú úrok aj z vlastného kapitálu viazaného v podniku (účtovne sa účtuje len úrok z cudzieho kapitálu) – vlastný kapitál má cenu, lebo mohol byť zúročený inde (oportunitný prvok). Náklady kalkulačného RIZIKA sú vopred zahrnutá rezerva na bežné podnikateľské riziká (zmätky, záruky, nedobytné pohľadávky), ktorá vyrovnáva nepravidelné straty rovnomerne v čase. Kalkulačná (podnikateľská) MZDA oceňuje prácu vlastníka/podnikateľa, ktorý reálne pracuje, ale jeho práca nie je zaúčtovaná ako mzdový náklad."},
-      {"nadpis": "Oportunitné a relevantné náklady", "text": "Oportunitné (alternatívne, príležitostné) náklady sú ušlé výnosy – obetovaný prospech, o ktorý podnik prichádza tým, že z obmedzených kapacít zvolil jednu alternatívu a inú nemôže uskutočniť. V bežnom účtovníctve sa neevidujú; ide o čisto manažérsky koncept pri rozhodovaní. Príklad: voľnú halu možno prenajať za 12 000 €/rok, alebo v nej vyrábať – ak sa vyrába, oportunitným nákladom výroby je obetovaný nájom 12 000 €. Pri rozhodovaní sa rozlišujú relevantné náklady (sú budúce a pri alternatívach odlišné – iba tie ovplyvňujú rozhodnutie) a irelevantné náklady (rovnaké pre všetky alternatívy). Medzi irelevantné patria najmä utopené (umŕtvené, sunk) náklady, vynaložené v minulosti, ktoré súčasné rozhodnutie už nezmení (napr. už realizovaný výskum). Pravidlo: relevantné = 'budúce a odlišné'; utopené ignoruj."},
-      {"nadpis": "Členenie nákladov podľa druhu (druhové)", "text": "Druhové členenie triedi náklady podľa ekonomického druhu spotrebovaného zdroja: spotreba materiálu a energie, služby, osobné náklady (mzdy a poistné), odpisy, finančné náklady (úroky), dane a poplatky. Odpovedá na otázku 'ČO sa spotrebovalo?'. Je to prvotné členenie – náklad vstupuje do podniku zvonka – a je typické pre finančné účtovníctvo (triedy 5 účtovej osnovy). Jeho výhodou je jednoznačnosť a porovnateľnosť, nevýhodou to, že nehovorí, na aký účel a kde sa náklad vynaložil; preto samo osebe nestačí na riadenie hospodárnosti."},
-      {"nadpis": "Členenie nákladov podľa účelu (účelové)", "text": "Účelové členenie hovorí, na čo a kde sa náklady vynaložili. (a) Podľa vzťahu k výkonu (kalkulačné členenie): priame (jednicové) náklady sa dajú presne určiť na kalkulačnú jednotku (priamy materiál, priame mzdy) a vznikajú v priamej úmere s výkonom; nepriame (režijné) náklady sú spoločné pre viac výkonov, na jednotku sa nedajú priradiť priamo a rozvrhujú sa kalkulačnou metódou. (b) Podľa miesta vzniku a činnosti (funkčné strediská): zásobovacie, výrobné/prevádzkové, správne a odbytové – tomu zodpovedajú aj réžie: zásobovacia, výrobná, správna a odbytová. (c) Z hľadiska technológie: náklady technologické (priamo súvisia s technologickým procesom) verzus náklady na obsluhu a riadenie (zabezpečujú podmienky priebehu). Účelové členenie je základom kalkulácií a vnútropodnikového riadenia."},
-      {"nadpis": "Členenie podľa závislosti od objemu výroby", "text": "Z hľadiska reakcie na objem výroby sa náklady delia na fixné a variabilné. Fixné (stále) náklady sa v rámci určitej kapacity pri zmene objemu nemenia (nájom, odpisy budovy, poistenie, mzdy správy); pri prekročení kapacity sa môžu meniť skokovo a na jednotku produkcie klesajú s rastom objemu (degresia fixných nákladov). Variabilné (premenlivé) náklady sa menia s objemom: proporcionálne (rastú priamo úmerne – priamy materiál), progresívne (rýchlejšie ako objem – mzdy za nadčasy), degresívne (pomalšie ako objem – opravy a údržba) a zriedkavé regresívne (menia sa opačne – náklady na prestoje). Zmiešané (polovariabilné) náklady majú fixnú aj variabilnú zložku (napr. elektrina: fixná zložka za prípojku a variabilná za spotrebu). Toto členenie je základom analýzy bodu zvratu a krátkodobého rozhodovania."},
-      {"nadpis": "Miesto vzniku nákladov vs. stredisko zodpovednosti", "text": "Miesto vzniku nákladov je organizačné či technologické miesto, KDE sa náklad fyzicky spotreboval (dielňa, sklad, stroj) – ide o výkonovo orientovaný pohľad. Stredisko zodpovednosti (hospodárske stredisko) je útvar s vymedzenou právomocou a zodpovednosťou za náklady (prípadne aj výnosy, zisk, investície), s vlastným vedúcim a rozpočtom – ide o zodpovednostne orientovaný pohľad (KTO za to zodpovedá). Tieto dva pohľady sa nemusia kryť: náklad môže vzniknúť na jednom mieste, ale zodpovednosť zaň nesie iné stredisko (napr. zlá kvalita materiálu od zásobovania spôsobí zmätky vo výrobe – náklad vznikne vo výrobe, ale zodpovedá zásobovanie). Toto rozlíšenie je podstatou zodpovednostného účtovníctva: aby sa úspora či prekročenie pripísali tomu, kto ich naozaj ovplyvnil."},
-      {"nadpis": "Vnútropodnikové (vopred stanovené) ceny", "text": "Vnútropodniková cena je nástroj, ktorým sa oceňujú výkony odovzdávané medzi strediskami – akýsi 'vnútorný trh' podniku. Prijímajúce stredisko preberá výkon za vopred stanovenú cenu bez ohľadu na to, aké boli skutočné náklady odovzdávajúceho strediska. Tým sa zmerajú a porovnajú výkony stredísk (plán verzus skutočnosť), vyčlení sa zodpovednosť za úsporu/prekročenie na konkrétne stredisko a vytvorí sa motivácia. Cenu možno stanoviť na úrovni nákladov (nákladová cena – vhodná pre nákladové strediská, slúži na kontrolu hospodárnosti), alebo aj so ziskom (cena so ziskovou prirážkou – vhodná pre ziskové a investičné strediská, pridáva motivačný prvok). Rozdiel medzi vopred stanovenou cenou a skutočnými nákladmi je odchýlka, ktorá presne ukáže, KDE a o KOĽKO sa hospodárilo lepšie alebo horšie. Organizačne sa vnútropodnikové účtovníctvo podľa § 6 zákona o účtovníctve vedie jednookruhovo (analytické účty k finančnému účtovníctvu, skupiny 59 a 69), dvojokruhovo (samostatný okruh v triedach 8 a 9 prepojený spojovacími účtami), alebo ich kombináciou."},
-      {"zaver": "Manažérske a nákladové účtovníctvo je dobrovoľný, dovnútra orientovaný protipól povinného finančného účtovníctva, ktorého jadrom je zisťovanie vlastných nákladov. Kľúčom je pochopiť, že 'náklad' nie je jeden pojem – tri poňatia (finančné ⊂ hodnotové ⊂ manažérske) sa líšia tým, ako blízko sú k ekonomickej realite oproti účtovnému dokladu. Kalkulačné náklady premosťujú účtovný a ekonomický pohľad, členenie nákladov (druhové, účelové, podľa objemu) dáva informácie pre rôzne úlohy a rozlíšenie miesta vzniku a strediska zodpovednosti spolu s vnútropodnikovými cenami umožňuje adresne riadiť hospodárnosť. Na túto tézu nadväzuje téza I.8 (kalkulačný systém, ABC, zodpovednostné účtovníctvo a rozpočty), kde sa tieto pojmy ďalej rozvíjajú."}
+      {
+        "nadpis": "Finančné, nákladové a manažérske účtovníctvo",
+        "text": "Finančné účtovníctvo zachytáva všetky ekonomické procesy na úrovni účtovnej jednotky ako celku, člení náklady podľa druhu a je orientované prevažne do minulosti pre externých používateľov (investori, banky, štát, veritelia). Je záväzne regulované. Manažérske účtovníctvo je nadradený, širší pojem orientovaný dovnútra a aj do budúcnosti pre interných používateľov (manažment, vedúci stredísk). Nie je viazané právnymi predpismi – jeho rozsah si určuje firma vnútornou smernicou; pracuje spravidla v kratších cykloch (mesiac) a s nižšími organizačnými stupňami (strediská, výkony, procesy). Jadrom manažérskeho účtovníctva je nákladové účtovníctvo – sleduje náklady a výnosy podľa účelu a miesta vzniku, kalkuluje vlastné náklady výkonov a porovnáva plán so skutočnosťou. Vzťah teda je: manažérske účtovníctvo = nákladové účtovníctvo + účtovníctvo na rozhodovanie + controllingové nástroje (rozpočty, kalkulácie, analýza odchýlok)."
+      },
+      {
+        "nadpis": "Funkcie, ciele a využitie pri zisťovaní vlastných nákladov",
+        "text": "Hlavnou funkciou manažérskeho a nákladového účtovníctva je poskytnúť manažmentu informácie pre riadenie: pre rozhodovanie (výber medzi alternatívami), plánovanie (rozpočty, kalkulácie), kontrolu (plán verzus skutočnosť, analýza odchýlok) a motiváciu (hodnotenie stredísk). Kľúčovým výstupom je zisťovanie vlastných nákladov výkonov – t. j. koľko podnik skutočne stojí výroba jedného výrobku alebo služby (kalkulačnej jednotky). Tieto informácie sú podkladom pre tvorbu cien, posúdenie ziskovosti jednotlivých výrobkov, rozhodnutie 'vyrábať alebo nakúpiť', oceňovanie zásob vlastnej výroby a riadenie hospodárnosti. Na rozdiel od finančného účtovníctva, ktoré vyčíslia výsledok za celok, nákladové účtovníctvo ukáže, kde a na čom podnik zarába alebo stráca."
+      },
+      {
+        "nadpis": "Tri poňatia (koncepcie) nákladov",
+        "text": "Náklad je v manažérskom poňatí hodnotovo vyjadrené, účelne vynaložené ekonomické zdroje podniku. Existujú tri poňatia, ktoré sa líšia tým, čo všetko do nákladov zahŕňajú – ako tri sústredné kruhy. (1) Finančné poňatie: náklad = úbytok ekonomického prospechu zachytený vo finančnom účtovníctve, skutočne vynaložený a doložený dokladom (toto je 'účtovný náklad' v zmysle zákona o účtovníctve). (2) Hodnotové poňatie: pridáva k finančnému poňatiu tzv. kalkulačné náklady – spotrebu, ktorá síce nie je výdavkom v účtovnom zmysle, ale ekonomicky predstavuje obetovanie zdroja, aby kalkulácia zodpovedala reálnej hospodárskej situácii. (3) Manažérske (ekonomické) poňatie: najširšie. K hodnotovému poňatiu pridáva aj oportunitné (alternatívne) náklady – ušlý prospech z nevyužitej alternatívy. Pracuje sa s ním pri rozhodovaní o budúcnosti."
+      },
+      {
+        "nadpis": "Kalkulačné náklady (hodnotové poňatie)",
+        "text": "Kalkulačné náklady patria do hodnotového poňatia. Sú to náklady, ktoré sa úplne alebo čiastočne líšia od účtovných – buď v účtovníctve vôbec nie sú (dodatkové), alebo majú inú výšku (iné/odlišné). Cieľom je, aby kalkulácia odzrkadlila skutočnú ekonomickú spotrebu zdrojov, nie len účtovne či daňovo doložené sumy. Štyri klasické (skratka O-Ú-R-M): Kalkulačné ODPISY sa stanovujú podľa skutočného opotrebenia a reálnej (často reprodukčnej) hodnoty a životnosti – pokračujú aj po účtovnom odpísaní, ak sa stroj stále používa. Kalkulačné ÚROKY zahŕňajú úrok aj z vlastného kapitálu viazaného v podniku (účtovne sa účtuje len úrok z cudzieho kapitálu) – vlastný kapitál má cenu, lebo mohol byť zúročený inde (oportunitný prvok). Náklady kalkulačného RIZIKA sú vopred zahrnutá rezerva na bežné podnikateľské riziká (zmätky, záruky, nedobytné pohľadávky), ktorá vyrovnáva nepravidelné straty rovnomerne v čase. Kalkulačná (podnikateľská) MZDA oceňuje prácu vlastníka/podnikateľa, ktorý reálne pracuje, ale jeho práca nie je zaúčtovaná ako mzdový náklad."
+      },
+      {
+        "nadpis": "Oportunitné a relevantné náklady",
+        "text": "Oportunitné (alternatívne, príležitostné) náklady sú ušlé výnosy – obetovaný prospech, o ktorý podnik prichádza tým, že z obmedzených kapacít zvolil jednu alternatívu a inú nemôže uskutočniť. V bežnom účtovníctve sa neevidujú; ide o čisto manažérsky koncept pri rozhodovaní. Príklad: voľnú halu možno prenajať za 12 000 €/rok, alebo v nej vyrábať – ak sa vyrába, oportunitným nákladom výroby je obetovaný nájom 12 000 €. Pri rozhodovaní sa rozlišujú relevantné náklady (sú budúce a pri alternatívach odlišné – iba tie ovplyvňujú rozhodnutie) a irelevantné náklady (rovnaké pre všetky alternatívy). Medzi irelevantné patria najmä utopené (umŕtvené, sunk) náklady, vynaložené v minulosti, ktoré súčasné rozhodnutie už nezmení (napr. už realizovaný výskum). Pravidlo: relevantné = 'budúce a odlišné'; utopené ignoruj."
+      },
+      {
+        "nadpis": "Členenie nákladov podľa druhu (druhové)",
+        "text": "Druhové členenie triedi náklady podľa ekonomického druhu spotrebovaného zdroja: spotreba materiálu a energie, služby, osobné náklady (mzdy a poistné), odpisy, finančné náklady (úroky), dane a poplatky. Odpovedá na otázku 'ČO sa spotrebovalo?'. Je to prvotné členenie – náklad vstupuje do podniku zvonka – a je typické pre finančné účtovníctvo (triedy 5 účtovej osnovy). Jeho výhodou je jednoznačnosť a porovnateľnosť, nevýhodou to, že nehovorí, na aký účel a kde sa náklad vynaložil; preto samo osebe nestačí na riadenie hospodárnosti."
+      },
+      {
+        "nadpis": "Členenie nákladov podľa účelu (účelové)",
+        "text": "Účelové členenie hovorí, na čo a kde sa náklady vynaložili. (a) Podľa vzťahu k výkonu (kalkulačné členenie): priame (jednicové) náklady sa dajú presne určiť na kalkulačnú jednotku (priamy materiál, priame mzdy) a vznikajú v priamej úmere s výkonom; nepriame (režijné) náklady sú spoločné pre viac výkonov, na jednotku sa nedajú priradiť priamo a rozvrhujú sa kalkulačnou metódou. (b) Podľa miesta vzniku a činnosti (funkčné strediská): zásobovacie, výrobné/prevádzkové, správne a odbytové – tomu zodpovedajú aj réžie: zásobovacia, výrobná, správna a odbytová. (c) Z hľadiska technológie: náklady technologické (priamo súvisia s technologickým procesom) verzus náklady na obsluhu a riadenie (zabezpečujú podmienky priebehu). Účelové členenie je základom kalkulácií a vnútropodnikového riadenia."
+      },
+      {
+        "nadpis": "Členenie podľa závislosti od objemu výroby",
+        "text": "Z hľadiska reakcie na objem výroby sa náklady delia na fixné a variabilné. Fixné (stále) náklady sa v rámci určitej kapacity pri zmene objemu nemenia (nájom, odpisy budovy, poistenie, mzdy správy); pri prekročení kapacity sa môžu meniť skokovo a na jednotku produkcie klesajú s rastom objemu (degresia fixných nákladov). Variabilné (premenlivé) náklady sa menia s objemom: proporcionálne (rastú priamo úmerne – priamy materiál), progresívne (rýchlejšie ako objem – mzdy za nadčasy), degresívne (pomalšie ako objem – opravy a údržba) a zriedkavé regresívne (menia sa opačne – náklady na prestoje). Zmiešané (polovariabilné) náklady majú fixnú aj variabilnú zložku (napr. elektrina: fixná zložka za prípojku a variabilná za spotrebu). Toto členenie je základom analýzy bodu zvratu a krátkodobého rozhodovania."
+      },
+      {
+        "nadpis": "Miesto vzniku nákladov vs. stredisko zodpovednosti",
+        "text": "Miesto vzniku nákladov je organizačné či technologické miesto, KDE sa náklad fyzicky spotreboval (dielňa, sklad, stroj) – ide o výkonovo orientovaný pohľad. Stredisko zodpovednosti (hospodárske stredisko) je útvar s vymedzenou právomocou a zodpovednosťou za náklady (prípadne aj výnosy, zisk, investície), s vlastným vedúcim a rozpočtom – ide o zodpovednostne orientovaný pohľad (KTO za to zodpovedá). Tieto dva pohľady sa nemusia kryť: náklad môže vzniknúť na jednom mieste, ale zodpovednosť zaň nesie iné stredisko (napr. zlá kvalita materiálu od zásobovania spôsobí zmätky vo výrobe – náklad vznikne vo výrobe, ale zodpovedá zásobovanie). Toto rozlíšenie je podstatou zodpovednostného účtovníctva: aby sa úspora či prekročenie pripísali tomu, kto ich naozaj ovplyvnil."
+      },
+      {
+        "nadpis": "Vnútropodnikové (vopred stanovené) ceny",
+        "text": "Vnútropodniková cena je nástroj, ktorým sa oceňujú výkony odovzdávané medzi strediskami – akýsi 'vnútorný trh' podniku. Prijímajúce stredisko preberá výkon za vopred stanovenú cenu bez ohľadu na to, aké boli skutočné náklady odovzdávajúceho strediska. Tým sa zmerajú a porovnajú výkony stredísk (plán verzus skutočnosť), vyčlení sa zodpovednosť za úsporu/prekročenie na konkrétne stredisko a vytvorí sa motivácia. Cenu možno stanoviť na úrovni nákladov (nákladová cena – vhodná pre nákladové strediská, slúži na kontrolu hospodárnosti), alebo aj so ziskom (cena so ziskovou prirážkou – vhodná pre ziskové a investičné strediská, pridáva motivačný prvok). Rozdiel medzi vopred stanovenou cenou a skutočnými nákladmi je odchýlka, ktorá presne ukáže, KDE a o KOĽKO sa hospodárilo lepšie alebo horšie. Organizačne sa vnútropodnikové účtovníctvo podľa § 6 zákona o účtovníctve vedie jednookruhovo (analytické účty k finančnému účtovníctvu, skupiny 59 a 69), dvojokruhovo (samostatný okruh v triedach 8 a 9 prepojený spojovacími účtami), alebo ich kombináciou."
+      },
+      {
+        "zaver": "Manažérske a nákladové účtovníctvo je dobrovoľný, dovnútra orientovaný protipól povinného finančného účtovníctva, ktorého jadrom je zisťovanie vlastných nákladov. Kľúčom je pochopiť, že 'náklad' nie je jeden pojem – tri poňatia (finančné ⊂ hodnotové ⊂ manažérske) sa líšia tým, ako blízko sú k ekonomickej realite oproti účtovnému dokladu. Kalkulačné náklady premosťujú účtovný a ekonomický pohľad, členenie nákladov (druhové, účelové, podľa objemu) dáva informácie pre rôzne úlohy a rozlíšenie miesta vzniku a strediska zodpovednosti spolu s vnútropodnikovými cenami umožňuje adresne riadiť hospodárnosť. Na túto tézu nadväzuje téza I.8 (kalkulačný systém, ABC, zodpovednostné účtovníctvo a rozpočty), kde sa tieto pojmy ďalej rozvíjajú."
+      }
     ]
   },
-
   "rozsirena_baza": [
-    {"nadpis": "Porovnanie finančného a manažérskeho účtovníctva podľa kritérií", "text": "Cieľ a funkcia: finančné – verný a pravdivý obraz a vyúčtovanie voči okoliu; manažérske – podpora riadenia, rozhodovania a kontroly. Používatelia: finančné prevažne externí (investori, banky, štát), manažérske prevažne interní (manažment, vedúci stredísk). Časová orientácia: finančné do minulosti, manažérske minulosť aj budúcnosť. Regulácia: finančné záväzné (zákon č. 431/2002 Z. z., postupy účtovania, účtová osnova), manažérske nezáväzné (firma si určuje obsah sama). Účtovné obdobie: finančné rok, manažérske spravidla mesiac alebo kratšie. Predmet: finančné účtovná jednotka ako celok, manažérske nižšie organizačné stupne, výkony a procesy. Oceňovanie: finančné prevažne historickými nákladmi, manažérske aj vopred stanovenými, kalkulačnými a oportunitnými nákladmi."},
-    {"nadpis": "Dodatkové vs. iné (odlišné) kalkulačné náklady", "text": "Kalkulačné náklady majú dve podoby. Dodatkové kalkulačné náklady v účtovníctve vôbec nie sú zachytené – typicky kalkulačné úroky z vlastného kapitálu alebo kalkulačná podnikateľská mzda. Iné (odlišné) kalkulačné náklady v účtovníctve sú, ale majú inú výšku – typicky kalkulačné odpisy, ktoré sa od účtovných líšia spôsobom výpočtu (skutočné opotrebenie, reprodukčná hodnota). Toto rozlíšenie pomáha pochopiť, prečo sa kalkulačná suma nákladu nezhoduje s účtovnou."},
-    {"nadpis": "Náklady, výdavky, výnosy – terminologické rozlíšenie", "text": "Náklad nie je to isté čo výdavok: výdavok je úbytok peňažných prostriedkov (cash), náklad je spotreba ekonomického zdroja v danom období bez ohľadu na pohyb peňazí (napr. odpis je náklad, ale nie výdavok; nákup zásob je výdavok, ale nákladom sa stane až pri spotrebe). Manažérske účtovníctvo navyše pracuje s nákladmi, ktoré účtovníctvo vôbec nezachytí (oportunitné, kalkulačné). Toto rozlíšenie je dôležité pri kalkuláciách aj pri analýze cash flow."},
-    {"nadpis": "Bod zvratu ako využitie členenia fixné/variabilné", "text": "Členenie na fixné a variabilné náklady umožňuje výpočet bodu zvratu (kritického bodu) – objemu, pri ktorom sa výnosy rovnajú celkovým nákladom a zisk je nulový. Príspevok na úhradu (krycí príspevok) na 1 ks = cena − variabilné náklady na 1 ks; bod zvratu (ks) = fixné náklady / príspevok na 1 ks. Nad bodom zvratu každý ďalší kus prináša zisk vo výške príspevku. Vzorec pre výsledok hospodárenia: VH = (cena × objem) − (fixné náklady + variabilné náklady na ks × objem)."},
-    {"nadpis": "Prepojenie na tézu I.8 (kalkulácie, ABC, zodpovednostné účtovníctvo, rozpočty)", "text": "Pojmy z tejto tézy sú vstupom pre tézu I.8. Účelové členenie a priame/nepriame náklady sú základom kalkulačného vzorca a kalkulačných metód (delenie, prirážková kalkulácia, ABC). Miesto vzniku a stredisko zodpovednosti spolu s vnútropodnikovými cenami sú jadrom zodpovednostného účtovníctva (nákladové, výnosové, ziskové, investičné strediská). Vopred stanovené náklady a kalkulácie sú zase základom rozpočtov. Pri ústnej odpovedi je vhodné na túto väzbu upozorniť, ale ťažisko tejto tézy ponechať na koncepciách nákladov, kalkulačných nákladoch, členení a zodpovednostnom rozlíšení."}
+    {
+      "nadpis": "Porovnanie finančného a manažérskeho účtovníctva podľa kritérií",
+      "text": "Cieľ a funkcia: finančné – verný a pravdivý obraz a vyúčtovanie voči okoliu; manažérske – podpora riadenia, rozhodovania a kontroly. Používatelia: finančné prevažne externí (investori, banky, štát), manažérske prevažne interní (manažment, vedúci stredísk). Časová orientácia: finančné do minulosti, manažérske minulosť aj budúcnosť. Regulácia: finančné záväzné (zákon č. 431/2002 Z. z., postupy účtovania, účtová osnova), manažérske nezáväzné (firma si určuje obsah sama). Účtovné obdobie: finančné rok, manažérske spravidla mesiac alebo kratšie. Predmet: finančné účtovná jednotka ako celok, manažérske nižšie organizačné stupne, výkony a procesy. Oceňovanie: finančné prevažne historickými nákladmi, manažérske aj vopred stanovenými, kalkulačnými a oportunitnými nákladmi."
+    },
+    {
+      "nadpis": "Dodatkové vs. iné (odlišné) kalkulačné náklady",
+      "text": "Kalkulačné náklady majú dve podoby. Dodatkové kalkulačné náklady v účtovníctve vôbec nie sú zachytené – typicky kalkulačné úroky z vlastného kapitálu alebo kalkulačná podnikateľská mzda. Iné (odlišné) kalkulačné náklady v účtovníctve sú, ale majú inú výšku – typicky kalkulačné odpisy, ktoré sa od účtovných líšia spôsobom výpočtu (skutočné opotrebenie, reprodukčná hodnota). Toto rozlíšenie pomáha pochopiť, prečo sa kalkulačná suma nákladu nezhoduje s účtovnou."
+    },
+    {
+      "nadpis": "Náklady, výdavky, výnosy – terminologické rozlíšenie",
+      "text": "Náklad nie je to isté čo výdavok: výdavok je úbytok peňažných prostriedkov (cash), náklad je spotreba ekonomického zdroja v danom období bez ohľadu na pohyb peňazí (napr. odpis je náklad, ale nie výdavok; nákup zásob je výdavok, ale nákladom sa stane až pri spotrebe). Manažérske účtovníctvo navyše pracuje s nákladmi, ktoré účtovníctvo vôbec nezachytí (oportunitné, kalkulačné). Toto rozlíšenie je dôležité pri kalkuláciách aj pri analýze cash flow."
+    },
+    {
+      "nadpis": "Bod zvratu ako využitie členenia fixné/variabilné",
+      "text": "Členenie na fixné a variabilné náklady umožňuje výpočet bodu zvratu (kritického bodu) – objemu, pri ktorom sa výnosy rovnajú celkovým nákladom a zisk je nulový. Príspevok na úhradu (krycí príspevok) na 1 ks = cena − variabilné náklady na 1 ks; bod zvratu (ks) = fixné náklady / príspevok na 1 ks. Nad bodom zvratu každý ďalší kus prináša zisk vo výške príspevku. Vzorec pre výsledok hospodárenia: VH = (cena × objem) − (fixné náklady + variabilné náklady na ks × objem)."
+    },
+    {
+      "nadpis": "Prepojenie na tézu I.8 (kalkulácie, ABC, zodpovednostné účtovníctvo, rozpočty)",
+      "text": "Pojmy z tejto tézy sú vstupom pre tézu I.8. Účelové členenie a priame/nepriame náklady sú základom kalkulačného vzorca a kalkulačných metód (delenie, prirážková kalkulácia, ABC). Miesto vzniku a stredisko zodpovednosti spolu s vnútropodnikovými cenami sú jadrom zodpovednostného účtovníctva (nákladové, výnosové, ziskové, investičné strediská). Vopred stanovené náklady a kalkulácie sú zase základom rozpočtov. Pri ústnej odpovedi je vhodné na túto väzbu upozorniť, ale ťažisko tejto tézy ponechať na koncepciách nákladov, kalkulačných nákladoch, členení a zodpovednostnom rozlíšení."
+    }
   ],
   "priklady": [
-    {"nazov": "Tri poňatia nákladov na jednom prípade", "zadanie": "Podnikateľ – fyzická osoba podniká vo vlastnej dielni a sám v nej pracuje. Účtovné náklady za rok: materiál 40 000 €, energie a služby 10 000 €, účtovné odpisy stroja 5 000 €, úrok z úveru 2 000 €. Stroj je už účtovne takmer odpísaný, jeho reálne opotrebenie zodpovedá 8 000 €/rok. Vlastný kapitál vo firme by inde zarobil 3 000 €/rok. Mzda, ktorú by podnikateľ dostal v zamestnaní, je 24 000 €/rok. Voľnú časť dielne mohol prenajať za 6 000 €/rok.", "riesenie": "Finančné poňatie (účtovné náklady): 40 000 + 10 000 + 5 000 + 2 000 = 57 000 €. Hodnotové poňatie (pripočítame kalkulačné náklady): kalkulačné odpisy 8 000 namiesto účtovných 5 000 (+3 000), kalkulačný úrok z vlastného kapitálu +3 000, kalkulačná podnikateľská mzda +24 000 → 57 000 + 3 000 + 3 000 + 24 000 = 87 000 €. Manažérske (ekonomické) poňatie (pripočítame oportunitný náklad): obetovaný nájom dielne +6 000 → 87 000 + 6 000 = 93 000 €. Vidno, že čím širšie poňatie, tým väčší 'skutočný' náklad – účtovný zisk môže byť kladný, no ekonomicky podnikateľ nemusí zarábať viac, než by mal v zamestnaní s prenajatou dielňou.", "dopad_na_zd": "Finančné 57 000 € ⊂ hodnotové 87 000 € ⊂ manažérske 93 000 €. (Do daňového základu vstupujú len účtovne/daňovo uznané náklady – kalkulačné a oportunitné náklady sú čisto pre interné rozhodovanie, nie pre daň.)"},
-    {"nazov": "Druhové vs. účelové členenie tej istej mzdy", "zadanie": "Vo výrobnom podniku tvoria mzdy spolu 100 000 €: z toho 70 000 € mzdy výrobných robotníkov (priamo na výrobkoch), 20 000 € mzdy majstrov a údržby vo výrobnej hale a 10 000 € mzdy administratívy a vedenia.", "riesenie": "Druhové členenie: všetkých 100 000 € je jeden druh nákladu – osobné náklady (mzdy). Účelové členenie: 70 000 € sú priame mzdy (jednicové, priamo na kalkulačnú jednotku), 20 000 € je výrobná réžia (nepriame – spoločné pre výrobu, rozvrhujú sa), 10 000 € je správna réžia. Ten istý nákladový druh sa teda v účelovom pohľade rozpadne podľa toho, na aký účel a kde slúži. Toto je dôvod, prečo finančné (druhové) členenie samo osebe nestačí na kalkuláciu výkonu.", "dopad_na_zd": "Druhové: 100 000 € osobné náklady. Účelové: 70 000 priame + 20 000 výrobná réžia + 10 000 správna réžia."},
-    {"nazov": "Fixné, variabilné a bod zvratu", "zadanie": "Predajná cena 1 ks = 50 €, variabilné náklady na 1 ks = 30 €, celkové fixné náklady = 40 000 €/rok. Plánovaný predaj 3 000 ks.", "riesenie": "Príspevok na úhradu na 1 ks = 50 − 30 = 20 €. Bod zvratu = fixné náklady / príspevok = 40 000 / 20 = 2 000 ks. Pri 2 000 ks: výnosy 100 000 € = náklady 100 000 € (40 000 fixné + 60 000 variabilné), zisk 0. Pri plánovaných 3 000 ks: nad bod zvratu je 1 000 ks × 20 € = 20 000 € zisk. Kontrola: výnosy 150 000 − (40 000 + 90 000) = 20 000 € zisk. Fixný náklad na 1 ks pritom klesá: pri 2 000 ks je 20 €/ks, pri 3 000 ks už len 13,33 €/ks (degresia fixných nákladov).", "dopad_na_zd": "Bod zvratu 2 000 ks; pri 3 000 ks zisk 20 000 €."},
-    {"nazov": "Miesto vzniku vs. stredisko zodpovednosti", "zadanie": "Zásobovacie stredisko nakúpilo lacnejší, ale nekvalitný materiál. Vo výrobnej dielni preto vznikli zmätky (nepodarky) v hodnote 4 000 €.", "riesenie": "Miesto vzniku nákladu (zmätkov) je výrobná dielňa – tam náklad fyzicky vznikol. Stredisko zodpovedné za jeho vznik je však zásobovanie, ktoré zvolilo nekvalitný materiál. Pri jednoduchom sledovaní 'kde vznikol' by sa náklad neprávom pripísal výrobe a jej vedúci by bol hodnotený horšie. Zodpovednostné účtovníctvo a vnútropodnikové ceny umožnia preniesť zodpovednosť za 4 000 € na zásobovanie (napr. vnútropodnikovou preúčtovacou cenou alebo zaúčtovaním na účtoch skupiny 59/69), takže odchýlka zaťaží toho, kto ju spôsobil.", "dopad_na_zd": "Miesto vzniku = výroba; zodpovednosť = zásobovanie. Náklad 4 000 € sa adresne pripíše zodpovednému stredisku."}
+    {
+      "nazov": "Tri poňatia nákladov na jednom prípade",
+      "zadanie": "Podnikateľ – fyzická osoba podniká vo vlastnej dielni a sám v nej pracuje. Účtovné náklady za rok: materiál 40 000 €, energie a služby 10 000 €, účtovné odpisy stroja 5 000 €, úrok z úveru 2 000 €. Stroj je už účtovne takmer odpísaný, jeho reálne opotrebenie zodpovedá 8 000 €/rok. Vlastný kapitál vo firme by inde zarobil 3 000 €/rok. Mzda, ktorú by podnikateľ dostal v zamestnaní, je 24 000 €/rok. Voľnú časť dielne mohol prenajať za 6 000 €/rok.",
+      "riesenie": "Finančné poňatie (účtovné náklady): 40 000 + 10 000 + 5 000 + 2 000 = 57 000 €. Hodnotové poňatie (pripočítame kalkulačné náklady): kalkulačné odpisy 8 000 namiesto účtovných 5 000 (+3 000), kalkulačný úrok z vlastného kapitálu +3 000, kalkulačná podnikateľská mzda +24 000 → 57 000 + 3 000 + 3 000 + 24 000 = 87 000 €. Manažérske (ekonomické) poňatie (pripočítame oportunitný náklad): obetovaný nájom dielne +6 000 → 87 000 + 6 000 = 93 000 €. Vidno, že čím širšie poňatie, tým väčší 'skutočný' náklad – účtovný zisk môže byť kladný, no ekonomicky podnikateľ nemusí zarábať viac, než by mal v zamestnaní s prenajatou dielňou.",
+      "dopad_na_zd": "Finančné 57 000 € ⊂ hodnotové 87 000 € ⊂ manažérske 93 000 €. (Do daňového základu vstupujú len účtovne/daňovo uznané náklady – kalkulačné a oportunitné náklady sú čisto pre interné rozhodovanie, nie pre daň.)"
+    },
+    {
+      "nazov": "Druhové vs. účelové členenie tej istej mzdy",
+      "zadanie": "Vo výrobnom podniku tvoria mzdy spolu 100 000 €: z toho 70 000 € mzdy výrobných robotníkov (priamo na výrobkoch), 20 000 € mzdy majstrov a údržby vo výrobnej hale a 10 000 € mzdy administratívy a vedenia.",
+      "riesenie": "Druhové členenie: všetkých 100 000 € je jeden druh nákladu – osobné náklady (mzdy). Účelové členenie: 70 000 € sú priame mzdy (jednicové, priamo na kalkulačnú jednotku), 20 000 € je výrobná réžia (nepriame – spoločné pre výrobu, rozvrhujú sa), 10 000 € je správna réžia. Ten istý nákladový druh sa teda v účelovom pohľade rozpadne podľa toho, na aký účel a kde slúži. Toto je dôvod, prečo finančné (druhové) členenie samo osebe nestačí na kalkuláciu výkonu.",
+      "dopad_na_zd": "Druhové: 100 000 € osobné náklady. Účelové: 70 000 priame + 20 000 výrobná réžia + 10 000 správna réžia."
+    },
+    {
+      "nazov": "Fixné, variabilné a bod zvratu",
+      "zadanie": "Predajná cena 1 ks = 50 €, variabilné náklady na 1 ks = 30 €, celkové fixné náklady = 40 000 €/rok. Plánovaný predaj 3 000 ks.",
+      "riesenie": "Príspevok na úhradu na 1 ks = 50 − 30 = 20 €. Bod zvratu = fixné náklady / príspevok = 40 000 / 20 = 2 000 ks. Pri 2 000 ks: výnosy 100 000 € = náklady 100 000 € (40 000 fixné + 60 000 variabilné), zisk 0. Pri plánovaných 3 000 ks: nad bod zvratu je 1 000 ks × 20 € = 20 000 € zisk. Kontrola: výnosy 150 000 − (40 000 + 90 000) = 20 000 € zisk. Fixný náklad na 1 ks pritom klesá: pri 2 000 ks je 20 €/ks, pri 3 000 ks už len 13,33 €/ks (degresia fixných nákladov).",
+      "dopad_na_zd": "Bod zvratu 2 000 ks; pri 3 000 ks zisk 20 000 €."
+    },
+    {
+      "nazov": "Miesto vzniku vs. stredisko zodpovednosti",
+      "zadanie": "Zásobovacie stredisko nakúpilo lacnejší, ale nekvalitný materiál. Vo výrobnej dielni preto vznikli zmätky (nepodarky) v hodnote 4 000 €.",
+      "riesenie": "Miesto vzniku nákladu (zmätkov) je výrobná dielňa – tam náklad fyzicky vznikol. Stredisko zodpovedné za jeho vznik je však zásobovanie, ktoré zvolilo nekvalitný materiál. Pri jednoduchom sledovaní 'kde vznikol' by sa náklad neprávom pripísal výrobe a jej vedúci by bol hodnotený horšie. Zodpovednostné účtovníctvo a vnútropodnikové ceny umožnia preniesť zodpovednosť za 4 000 € na zásobovanie (napr. vnútropodnikovou preúčtovacou cenou alebo zaúčtovaním na účtoch skupiny 59/69), takže odchýlka zaťaží toho, kto ju spôsobil.",
+      "dopad_na_zd": "Miesto vzniku = výroba; zodpovednosť = zásobovanie. Náklad 4 000 € sa adresne pripíše zodpovednému stredisku."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/BC_I_07_tri_ponatia_nakladov.svg", "typ": "schéma", "popis": "Tri poňatia nákladov ako sústredné kruhy: finančné poňatie (účtovné náklady) ⊂ hodnotové poňatie (+ kalkulačné náklady: odpisy, úroky, riziko, mzda) ⊂ manažérske/ekonomické poňatie (+ oportunitné náklady)."},
-    {"subor": "03_Vizualy/BC_I_07_clenenie_nakladov.svg", "typ": "schéma", "popis": "Členenie nákladov podľa troch hľadísk: druhové (ČO – materiál, mzdy, odpisy), účelové (NA ČO / KDE – priame/nepriame, výroba/správa/odbyt) a podľa objemu výroby (MENÍ SA? – fixné/variabilné)."}
+    {
+      "subor": "03_Vizualy/BC_I_07_tri_ponatia_nakladov.svg",
+      "typ": "schéma",
+      "popis": "Tri poňatia nákladov ako sústredné kruhy: finančné poňatie (účtovné náklady) ⊂ hodnotové poňatie (+ kalkulačné náklady: odpisy, úroky, riziko, mzda) ⊂ manažérske/ekonomické poňatie (+ oportunitné náklady)."
+    },
+    {
+      "subor": "03_Vizualy/BC_I_07_clenenie_nakladov.svg",
+      "typ": "schéma",
+      "popis": "Členenie nákladov podľa troch hľadísk: druhové (ČO – materiál, mzdy, odpisy), účelové (NA ČO / KDE – priame/nepriame, výroba/správa/odbyt) a podľa objemu výroby (MENÍ SA? – fixné/variabilné)."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Aký je vzťah medzi finančným, nákladovým a manažérskym účtovníctvom?", "odpoved": "Finančné a manažérske sú dve vetvy účtovníctva. Manažérske je širší pojem orientovaný dovnútra; jeho jadrom je nákladové účtovníctvo. Manažérske = nákladové účtovníctvo + účtovníctvo na rozhodovanie + controllingové nástroje (rozpočty, kalkulácie, analýza odchýlok)."},
-    {"otazka": "Vymenujte a vysvetlite tri poňatia nákladov.", "odpoved": "Finančné (len účtovne doložené náklady), hodnotové (+ kalkulačné náklady = ekonomická spotreba, ktorú účtovník nezaúčtuje alebo zaúčtuje inak) a manažérske/ekonomické (+ oportunitné náklady = ušlý prospech z nevyužitej alternatívy). Sú ako tri sústredné kruhy od najužšieho po najširšie."},
-    {"otazka": "Čo sú kalkulačné náklady a ktoré poznáme?", "odpoved": "Náklady patriace do hodnotového poňatia, ktoré sa líšia od účtovných (buď v účtovníctve nie sú, alebo majú inú výšku). Štyri klasické: kalkulačné odpisy (podľa reálneho opotrebenia), kalkulačné úroky (aj z vlastného kapitálu), náklady kalkulačného rizika (rezerva na bežné riziká) a kalkulačná podnikateľská mzda (ocenenie práce vlastníka)."},
-    {"otazka": "Aký je rozdiel medzi druhovým a účelovým členením nákladov?", "odpoved": "Druhové hovorí ČO sa spotrebovalo (materiál, mzdy, odpisy) – pohľad finančného účtovníctva, prvotné členenie. Účelové hovorí NA ČO a KDE (priame/nepriame, výroba/správa/odbyt) – základ kalkulácií. Ten istý druh (napr. mzdy) sa v účelovom pohľade rozpadne na priame mzdy a réžiu."},
-    {"otazka": "Aký je rozdiel medzi miestom vzniku nákladov a strediskom zodpovednosti?", "odpoved": "Miesto vzniku je KDE náklad fyzicky vznikol (výkonový pohľad). Stredisko zodpovednosti je KTO zaň zodpovedá (útvar s právomocou a rozpočtom). Nemusia sa kryť – napr. zmätky vo výrobe spôsobené nekvalitným nákupom: vznikajú vo výrobe, zodpovedá zásobovanie."},
-    {"otazka": "Na čo slúžia vnútropodnikové ceny a aké sú ich typy?", "odpoved": "Oceňujú výkony odovzdávané medzi strediskami ('vnútorný trh'). Umožňujú merať výkony, prideliť zodpovednosť a motivovať. Typy: nákladová cena (na úrovni nákladov – kontrola hospodárnosti) a cena so ziskom (náklady plus zisková prirážka – motivačný prvok pre ziskové strediská)."},
-    {"otazka": "Čím sa líši fixný a variabilný náklad a ako sa správa fixný náklad na jednotku?", "odpoved": "Fixný sa v rámci kapacity pri zmene objemu nemení (skokovo až pri prekročení kapacity); variabilný sa mení s objemom (proporcionálne, progresívne, degresívne, regresívne). Fixný náklad na jednotku s rastom objemu klesá – degresia fixných nákladov."}
+    {
+      "otazka": "Aký je vzťah medzi finančným, nákladovým a manažérskym účtovníctvom?",
+      "odpoved": "Finančné a manažérske sú dve vetvy účtovníctva. Manažérske je širší pojem orientovaný dovnútra; jeho jadrom je nákladové účtovníctvo. Manažérske = nákladové účtovníctvo + účtovníctvo na rozhodovanie + controllingové nástroje (rozpočty, kalkulácie, analýza odchýlok).",
+      "moznosti": [
+        "Nákladové účtovníctvo je najširší pojem; finančné aj manažérske účtovníctvo sú jeho podmnožinami zameranými na externých používateľov.",
+        "Finančné a manažérske sú dve vetvy; manažérske je širší pojem orientovaný dovnútra a jeho jadrom je nákladové účtovníctvo (= nákladové + účtovníctvo na rozhodovanie + controllingové nástroje).",
+        "Finančné, nákladové a manažérske účtovníctvo sú tri samostatné, navzájom neprepojené sústavy s vlastnou účtovou osnovou.",
+        "Manažérske účtovníctvo je užší pojem ako nákladové; nákladové dopĺňa o rozpočty a kalkulácie pre externých používateľov."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Finančné a manažérske sú dve vetvy účtovníctva. Manažérske je širší pojem orientovaný dovnútra; jeho jadrom je nákladové účtovníctvo. Manažérske = nákladové účtovníctvo + účtovníctvo na rozhodovanie + controllingové nástroje (rozpočty, kalkulácie, analýza odchýlok)."
+    },
+    {
+      "otazka": "Vymenujte a vysvetlite tri poňatia nákladov.",
+      "odpoved": "Finančné (len účtovne doložené náklady), hodnotové (+ kalkulačné náklady = ekonomická spotreba, ktorú účtovník nezaúčtuje alebo zaúčtuje inak) a manažérske/ekonomické (+ oportunitné náklady = ušlý prospech z nevyužitej alternatívy). Sú ako tri sústredné kruhy od najužšieho po najširšie.",
+      "moznosti": [
+        "Finančné (len účtovne doložené náklady), hodnotové (+ kalkulačné náklady, ekonomická spotreba nezaúčtovaná alebo zaúčtovaná inak) a manažérske/ekonomické (+ oportunitné náklady, ušlý prospech z nevyužitej alternatívy).",
+        "Daňové (uznané podľa zákona), účtovné (doložené dokladom) a rozpočtové (plánované) poňatie – usporiadané od najširšieho po najužšie.",
+        "Finančné (+ oportunitné náklady), hodnotové (len účtovné náklady) a manažérske (+ kalkulačné náklady) – ako tri samostatné okruhy.",
+        "Priame poňatie (jednicové náklady), nepriame poňatie (réžie) a úplné poňatie (priame + nepriame) ako tri sústredné kruhy."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Finančné (len účtovne doložené náklady), hodnotové (+ kalkulačné náklady = ekonomická spotreba, ktorú účtovník nezaúčtuje alebo zaúčtuje inak) a manažérske/ekonomické (+ oportunitné náklady = ušlý prospech z nevyužitej alternatívy). Sú ako tri sústredné kruhy od najužšieho po najširšie."
+    },
+    {
+      "otazka": "Čo sú kalkulačné náklady a ktoré poznáme?",
+      "odpoved": "Náklady patriace do hodnotového poňatia, ktoré sa líšia od účtovných (buď v účtovníctve nie sú, alebo majú inú výšku). Štyri klasické: kalkulačné odpisy (podľa reálneho opotrebenia), kalkulačné úroky (aj z vlastného kapitálu), náklady kalkulačného rizika (rezerva na bežné riziká) a kalkulačná podnikateľská mzda (ocenenie práce vlastníka).",
+      "moznosti": [
+        "Náklady patriace do finančného poňatia doložené dokladom; štyri klasické: spotreba materiálu, mzdy, odpisy a úroky z úveru.",
+        "Náklady patriace do manažérskeho poňatia rovné ušlému prospechu; štyri klasické: oportunitný nájom, oportunitná mzda, oportunitný úrok a oportunitné riziko.",
+        "Náklady patriace do hodnotového poňatia, ktoré sa líšia od účtovných; štyri klasické: kalkulačné odpisy (podľa reálneho opotrebenia), kalkulačné úroky (aj z vlastného kapitálu), náklady kalkulačného rizika a kalkulačná podnikateľská mzda.",
+        "Náklady, ktoré vstupujú do daňového základu navyše oproti účtovníctvu; štyri klasické: odpisy, rezervy, opravné položky a kurzové rozdiely."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Náklady patriace do hodnotového poňatia, ktoré sa líšia od účtovných (buď v účtovníctve nie sú, alebo majú inú výšku). Štyri klasické: kalkulačné odpisy (podľa reálneho opotrebenia), kalkulačné úroky (aj z vlastného kapitálu), náklady kalkulačného rizika (rezerva na bežné riziká) a kalkulačná podnikateľská mzda (ocenenie práce vlastníka)."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi druhovým a účelovým členením nákladov?",
+      "odpoved": "Druhové hovorí ČO sa spotrebovalo (materiál, mzdy, odpisy) – pohľad finančného účtovníctva, prvotné členenie. Účelové hovorí NA ČO a KDE (priame/nepriame, výroba/správa/odbyt) – základ kalkulácií. Ten istý druh (napr. mzdy) sa v účelovom pohľade rozpadne na priame mzdy a réžiu.",
+      "moznosti": [
+        "Druhové hovorí NA ČO/KDE (priame/nepriame, výroba/správa/odbyt) a je základom kalkulácií; účelové hovorí ČO sa spotrebovalo a je pohľadom finančného účtovníctva.",
+        "Druhové aj účelové členenie hovoria ČO sa spotrebovalo; líšia sa len tým, že účelové sa používa v podvojnom a druhové v jednoduchom účtovníctve.",
+        "Druhové hovorí ČO sa spotrebovalo (materiál, mzdy, odpisy) – pohľad finančného účtovníctva, prvotné členenie; účelové hovorí NA ČO a KDE (priame/nepriame, výroba/správa/odbyt) – základ kalkulácií.",
+        "Druhové delí náklady na fixné a variabilné; účelové delí náklady na proporcionálne, progresívne a degresívne podľa objemu výroby."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Druhové hovorí ČO sa spotrebovalo (materiál, mzdy, odpisy) – pohľad finančného účtovníctva, prvotné členenie. Účelové hovorí NA ČO a KDE (priame/nepriame, výroba/správa/odbyt) – základ kalkulácií. Ten istý druh (napr. mzdy) sa v účelovom pohľade rozpadne na priame mzdy a réžiu."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi miestom vzniku nákladov a strediskom zodpovednosti?",
+      "odpoved": "Miesto vzniku je KDE náklad fyzicky vznikol (výkonový pohľad). Stredisko zodpovednosti je KTO zaň zodpovedá (útvar s právomocou a rozpočtom). Nemusia sa kryť – napr. zmätky vo výrobe spôsobené nekvalitným nákupom: vznikajú vo výrobe, zodpovedá zásobovanie.",
+      "moznosti": [
+        "Miesto vzniku je KTO za náklad zodpovedá; stredisko zodpovednosti je KDE náklad fyzicky vznikol – obidva pohľady sa vždy kryjú.",
+        "Miesto vzniku je KDE náklad fyzicky vznikol (výkonový pohľad); stredisko zodpovednosti je KTO zaň zodpovedá (útvar s právomocou a rozpočtom). Nemusia sa kryť.",
+        "Miesto vzniku je organizačný útvar s rozpočtom a vedúcim; stredisko zodpovednosti je technologické miesto spotreby – ide o synonymá.",
+        "Miesto vzniku určuje výšku réžie; stredisko zodpovednosti určuje výšku priamych nákladov – obidva sa stanovujú vnútropodnikovou cenou."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Miesto vzniku je KDE náklad fyzicky vznikol (výkonový pohľad). Stredisko zodpovednosti je KTO zaň zodpovedá (útvar s právomocou a rozpočtom). Nemusia sa kryť – napr. zmätky vo výrobe spôsobené nekvalitným nákupom: vznikajú vo výrobe, zodpovedá zásobovanie."
+    },
+    {
+      "otazka": "Na čo slúžia vnútropodnikové ceny a aké sú ich typy?",
+      "odpoved": "Oceňujú výkony odovzdávané medzi strediskami ('vnútorný trh'). Umožňujú merať výkony, prideliť zodpovednosť a motivovať. Typy: nákladová cena (na úrovni nákladov – kontrola hospodárnosti) a cena so ziskom (náklady plus zisková prirážka – motivačný prvok pre ziskové strediská).",
+      "moznosti": [
+        "Oceňujú výkony predávané externým zákazníkom; typy: trhová cena (podľa konkurencie) a regulovaná cena (podľa štátu).",
+        "Slúžia výlučne na výpočet dane z výkonov medzi strediskami; typy: cena bez DPH a cena s DPH.",
+        "Oceňujú výkony odovzdávané medzi strediskami ('vnútorný trh'), merajú výkony, prideľujú zodpovednosť a motivujú; typy: nákladová cena (na úrovni nákladov, kontrola) a cena so ziskom (náklady plus zisková prirážka, motivácia).",
+        "Oceňujú zásoby vlastnej výroby v súvahe; typy: cena na úrovni priamych nákladov a cena na úrovni úplných vlastných nákladov."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Oceňujú výkony odovzdávané medzi strediskami ('vnútorný trh'). Umožňujú merať výkony, prideliť zodpovednosť a motivovať. Typy: nákladová cena (na úrovni nákladov – kontrola hospodárnosti) a cena so ziskom (náklady plus zisková prirážka – motivačný prvok pre ziskové strediská)."
+    },
+    {
+      "otazka": "Čím sa líši fixný a variabilný náklad a ako sa správa fixný náklad na jednotku?",
+      "odpoved": "Fixný sa v rámci kapacity pri zmene objemu nemení (skokovo až pri prekročení kapacity); variabilný sa mení s objemom (proporcionálne, progresívne, degresívne, regresívne). Fixný náklad na jednotku s rastom objemu klesá – degresia fixných nákladov.",
+      "moznosti": [
+        "Fixný sa mení s objemom a variabilný sa nemení; fixný náklad na jednotku s rastom objemu rastie (degresia).",
+        "Fixný aj variabilný náklad sa s objemom menia rovnako; fixný náklad na jednotku je stále konštantný bez ohľadu na objem.",
+        "Fixný sa mení proporcionálne s objemom; variabilný je v rámci kapacity stály; variabilný náklad na jednotku s rastom objemu klesá.",
+        "Fixný sa v rámci kapacity pri zmene objemu nemení (skokovo až pri prekročení kapacity); variabilný sa mení s objemom; fixný náklad na jednotku s rastom objemu klesá (degresia)."
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Fixný sa v rámci kapacity pri zmene objemu nemení (skokovo až pri prekročení kapacity); variabilný sa mení s objemom (proporcionálne, progresívne, degresívne, regresívne). Fixný náklad na jednotku s rastom objemu klesá – degresia fixných nákladov."
+    }
   ],
   "pasce_caste_chyby": [
     "Zamieňať nákladové a manažérske účtovníctvo – nákladové je len jadrom (podmnožinou) širšieho manažérskeho účtovníctva.",
@@ -79,28 +251,124 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Ktoré poňatie nákladov pridáva k účtovným nákladom kalkulačné odpisy, úroky, riziko a mzdu?", "moznosti": ["finančné poňatie", "hodnotové poňatie", "manažérske (ekonomické) poňatie", "daňové poňatie"], "spravna_index": 1, "vysvetlenie": "Hodnotové poňatie pridáva k finančnému poňatiu kalkulačné náklady. Oportunitné náklady pridáva až manažérske/ekonomické poňatie."},
-      {"otazka": "Oportunitný (alternatívny) náklad je:", "moznosti": ["úbytok peňazí z bankového účtu", "úrok z prijatého úveru", "ušlý prospech z nevyužitej alternatívy", "odpis dlhodobého majetku"], "spravna_index": 2, "vysvetlenie": "Oportunitný náklad je obetovaný prospech z nezvolenej alternatívy; v bežnom účtovníctve sa neeviduje a patrí do manažérskeho poňatia."},
-      {"otazka": "Spotreba materiálu, mzdy, odpisy a úroky sú príkladom členenia nákladov:", "moznosti": ["účelového", "druhového", "podľa miesta zodpovednosti", "kalkulačného"], "spravna_index": 1, "vysvetlenie": "Ide o druhové členenie – podľa ekonomického druhu spotrebovaného zdroja (ČO sa spotrebovalo). Je typické pre finančné účtovníctvo."},
-      {"otazka": "Ktoré tvrdenie o fixných nákladoch je správne?", "moznosti": ["na jednotku produkcie s rastom objemu rastú", "celkovo rastú priamo úmerne s objemom", "na jednotku produkcie s rastom objemu klesajú (degresia)", "vždy sa menia s každou vyrobenou jednotkou"], "spravna_index": 2, "vysvetlenie": "Celkové fixné náklady sú v rámci kapacity stále, preto na jednotku s rastúcim objemom klesajú – degresia fixných nákladov."},
-      {"otazka": "Náklad vznikol vo výrobnej dielni pre chybu zásobovania (nekvalitný nákup). Miesto vzniku a stredisko zodpovednosti sú:", "moznosti": ["totožné – obe je výroba", "totožné – obe je zásobovanie", "rôzne – vznik vo výrobe, zodpovednosť v zásobovaní", "rôzne – vznik v zásobovaní, zodpovednosť vo výrobe"], "spravna_index": 2, "vysvetlenie": "Miesto vzniku = KDE náklad fyzicky vznikol (výroba). Stredisko zodpovednosti = KTO ho spôsobil/zodpovedá (zásobovanie). Nemusia sa kryť."},
-      {"otazka": "Vnútropodniková cena stanovená 'na úrovni nákladov' (nákladová cena) sa hodí najmä pre:", "moznosti": ["ziskové strediská na motiváciu", "nákladové strediská na kontrolu hospodárnosti", "investičné strediská na meranie ROI", "externý predaj zákazníkom"], "spravna_index": 1, "vysvetlenie": "Nákladová cena nevytvára vnútorný zisk, slúži na kontrolu hospodárnosti a alokáciu nákladov – vhodná pre nákladové strediská. Cena so ziskom je motivačná pre ziskové/investičné strediská."}
+      {
+        "otazka": "Ktoré poňatie nákladov pridáva k účtovným nákladom kalkulačné odpisy, úroky, riziko a mzdu?",
+        "moznosti": [
+          "finančné poňatie",
+          "hodnotové poňatie",
+          "manažérske (ekonomické) poňatie",
+          "daňové poňatie"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Hodnotové poňatie pridáva k finančnému poňatiu kalkulačné náklady. Oportunitné náklady pridáva až manažérske/ekonomické poňatie."
+      },
+      {
+        "otazka": "Oportunitný (alternatívny) náklad je:",
+        "moznosti": [
+          "úbytok peňazí z bankového účtu",
+          "úrok z prijatého úveru",
+          "ušlý prospech z nevyužitej alternatívy",
+          "odpis dlhodobého majetku"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Oportunitný náklad je obetovaný prospech z nezvolenej alternatívy; v bežnom účtovníctve sa neeviduje a patrí do manažérskeho poňatia."
+      },
+      {
+        "otazka": "Spotreba materiálu, mzdy, odpisy a úroky sú príkladom členenia nákladov:",
+        "moznosti": [
+          "účelového",
+          "druhového",
+          "podľa miesta zodpovednosti",
+          "kalkulačného"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Ide o druhové členenie – podľa ekonomického druhu spotrebovaného zdroja (ČO sa spotrebovalo). Je typické pre finančné účtovníctvo."
+      },
+      {
+        "otazka": "Ktoré tvrdenie o fixných nákladoch je správne?",
+        "moznosti": [
+          "na jednotku produkcie s rastom objemu rastú",
+          "celkovo rastú priamo úmerne s objemom",
+          "na jednotku produkcie s rastom objemu klesajú (degresia)",
+          "vždy sa menia s každou vyrobenou jednotkou"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Celkové fixné náklady sú v rámci kapacity stále, preto na jednotku s rastúcim objemom klesajú – degresia fixných nákladov."
+      },
+      {
+        "otazka": "Náklad vznikol vo výrobnej dielni pre chybu zásobovania (nekvalitný nákup). Miesto vzniku a stredisko zodpovednosti sú:",
+        "moznosti": [
+          "totožné – obe je výroba",
+          "totožné – obe je zásobovanie",
+          "rôzne – vznik vo výrobe, zodpovednosť v zásobovaní",
+          "rôzne – vznik v zásobovaní, zodpovednosť vo výrobe"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Miesto vzniku = KDE náklad fyzicky vznikol (výroba). Stredisko zodpovednosti = KTO ho spôsobil/zodpovedá (zásobovanie). Nemusia sa kryť."
+      },
+      {
+        "otazka": "Vnútropodniková cena stanovená 'na úrovni nákladov' (nákladová cena) sa hodí najmä pre:",
+        "moznosti": [
+          "ziskové strediská na motiváciu",
+          "nákladové strediská na kontrolu hospodárnosti",
+          "investičné strediská na meranie ROI",
+          "externý predaj zákazníkom"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Nákladová cena nevytvára vnútorný zisk, slúži na kontrolu hospodárnosti a alokáciu nákladov – vhodná pre nákladové strediská. Cena so ziskom je motivačná pre ziskové/investičné strediská."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite vzťah finančného, nákladového a manažérskeho účtovníctva a hlavné rozdiely finančného vs. manažérskeho.", "vzorova_odpoved": "Manažérske účtovníctvo je širší pojem orientovaný dovnútra podniku; jeho jadrom je nákladové účtovníctvo (kalkulácie, sledovanie nákladov stredísk a výkonov), doplnené o účtovníctvo na rozhodovanie a controlling. Finančné je orientované navonok, do minulosti, je záväzne regulované (zákon č. 431/2002 Z. z.), slúži externým používateľom a člení náklady druhovo za celok. Manažérske je dobrovoľné, orientované aj do budúcnosti, slúži interným používateľom, pracuje v kratších cykloch, s nižšími stupňami a aj s vopred stanovenými/kalkulačnými/oportunitnými nákladmi."},
-      {"otazka": "Charakterizujte tri poňatia nákladov a uveďte, čo každé pridáva.", "vzorova_odpoved": "Finančné poňatie = účtovné náklady doložené dokladom (zákon o účtovníctve). Hodnotové poňatie pridáva kalkulačné náklady (kalkulačné odpisy podľa skutočného opotrebenia, kalkulačné úroky aj z vlastného kapitálu, náklady kalkulačného rizika, kalkulačnú podnikateľskú mzdu), aby kalkulácia odzrkadlila reálnu ekonomickú spotrebu. Manažérske/ekonomické poňatie je najširšie – pridáva oportunitné (alternatívne) náklady, t. j. ušlý prospech z nevyužitej alternatívy, používané pri rozhodovaní o budúcnosti. Vzťah: finančné ⊂ hodnotové ⊂ manažérske."},
-      {"otazka": "Vysvetlite rozdiel medzi miestom vzniku nákladov a strediskom zodpovednosti a úlohu vnútropodnikových cien.", "vzorova_odpoved": "Miesto vzniku je organizačné/technologické miesto, KDE sa náklad spotreboval (výkonový pohľad). Stredisko zodpovednosti je útvar s právomocou a zodpovednosťou za náklady (príp. výnosy/zisk/investície) a vlastným rozpočtom – KTO zaň zodpovedá. Nemusia sa kryť. Vnútropodnikové ceny oceňujú výkony odovzdávané medzi strediskami za vopred stanovenú cenu, čím merajú výkony, adresne priraďujú odchýlky (úspora/prekročenie) zodpovednému stredisku a motivujú. Môžu byť na úrovni nákladov (kontrola) alebo so ziskom (motivácia)."}
+      {
+        "otazka": "Vysvetlite vzťah finančného, nákladového a manažérskeho účtovníctva a hlavné rozdiely finančného vs. manažérskeho.",
+        "vzorova_odpoved": "Manažérske účtovníctvo je širší pojem orientovaný dovnútra podniku; jeho jadrom je nákladové účtovníctvo (kalkulácie, sledovanie nákladov stredísk a výkonov), doplnené o účtovníctvo na rozhodovanie a controlling. Finančné je orientované navonok, do minulosti, je záväzne regulované (zákon č. 431/2002 Z. z.), slúži externým používateľom a člení náklady druhovo za celok. Manažérske je dobrovoľné, orientované aj do budúcnosti, slúži interným používateľom, pracuje v kratších cykloch, s nižšími stupňami a aj s vopred stanovenými/kalkulačnými/oportunitnými nákladmi."
+      },
+      {
+        "otazka": "Charakterizujte tri poňatia nákladov a uveďte, čo každé pridáva.",
+        "vzorova_odpoved": "Finančné poňatie = účtovné náklady doložené dokladom (zákon o účtovníctve). Hodnotové poňatie pridáva kalkulačné náklady (kalkulačné odpisy podľa skutočného opotrebenia, kalkulačné úroky aj z vlastného kapitálu, náklady kalkulačného rizika, kalkulačnú podnikateľskú mzdu), aby kalkulácia odzrkadlila reálnu ekonomickú spotrebu. Manažérske/ekonomické poňatie je najširšie – pridáva oportunitné (alternatívne) náklady, t. j. ušlý prospech z nevyužitej alternatívy, používané pri rozhodovaní o budúcnosti. Vzťah: finančné ⊂ hodnotové ⊂ manažérske."
+      },
+      {
+        "otazka": "Vysvetlite rozdiel medzi miestom vzniku nákladov a strediskom zodpovednosti a úlohu vnútropodnikových cien.",
+        "vzorova_odpoved": "Miesto vzniku je organizačné/technologické miesto, KDE sa náklad spotreboval (výkonový pohľad). Stredisko zodpovednosti je útvar s právomocou a zodpovednosťou za náklady (príp. výnosy/zisk/investície) a vlastným rozpočtom – KTO zaň zodpovedá. Nemusia sa kryť. Vnútropodnikové ceny oceňujú výkony odovzdávané medzi strediskami za vopred stanovenú cenu, čím merajú výkony, adresne priraďujú odchýlky (úspora/prekročenie) zodpovednému stredisku a motivujú. Môžu byť na úrovni nákladov (kontrola) alebo so ziskom (motivácia)."
+      }
     ],
     "priklad": [
-      {"zadanie": "Podnikateľ – fyzická osoba má účtovné náklady 50 000 € (vrátane účtovných odpisov stroja 4 000 € a úroku z úveru 1 500 €). Reálne opotrebenie stroja je však 6 000 €/rok. Vlastný kapitál by inde zarobil 2 500 €/rok, podnikateľova práca má hodnotu mzdy 22 000 €/rok a voľný priestor mohol prenajať za 5 000 €/rok. Vyčíslite náklady v troch poňatiach.", "riesenie": "Finančné poňatie = účtovné náklady = 50 000 €. Hodnotové poňatie: kalkulačné odpisy 6 000 namiesto 4 000 (+2 000), kalkulačný úrok z vlastného kapitálu +2 500, kalkulačná podnikateľská mzda +22 000 → 50 000 + 2 000 + 2 500 + 22 000 = 76 500 €. Manažérske (ekonomické) poňatie: + oportunitný náklad obetovaného nájmu 5 000 → 76 500 + 5 000 = 81 500 €. Záver: finančné 50 000 € ⊂ hodnotové 76 500 € ⊂ manažérske 81 500 €. Kalkulačné a oportunitné náklady sú len pre interné rozhodovanie, do daňového základu nevstupujú."}
+      {
+        "zadanie": "Podnikateľ – fyzická osoba má účtovné náklady 50 000 € (vrátane účtovných odpisov stroja 4 000 € a úroku z úveru 1 500 €). Reálne opotrebenie stroja je však 6 000 €/rok. Vlastný kapitál by inde zarobil 2 500 €/rok, podnikateľova práca má hodnotu mzdy 22 000 €/rok a voľný priestor mohol prenajať za 5 000 €/rok. Vyčíslite náklady v troch poňatiach.",
+        "riesenie": "Finančné poňatie = účtovné náklady = 50 000 €. Hodnotové poňatie: kalkulačné odpisy 6 000 namiesto 4 000 (+2 000), kalkulačný úrok z vlastného kapitálu +2 500, kalkulačná podnikateľská mzda +22 000 → 50 000 + 2 000 + 2 500 + 22 000 = 76 500 €. Manažérske (ekonomické) poňatie: + oportunitný náklad obetovaného nájmu 5 000 → 76 500 + 5 000 = 81 500 €. Záver: finančné 50 000 € ⊂ hodnotové 76 500 € ⊂ manažérske 81 500 €. Kalkulačné a oportunitné náklady sú len pre interné rozhodovanie, do daňového základu nevstupujú."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Tumpach, M.: Manažérske a nákladové účtovníctvo, IURA Edition 2008 (základná literatúra; poňatia nákladov, členenie, kalkulácie, vnútropodnikové ceny)", "kde": "https://sekarl.euba.sk/arl-eu/sk/detail-eu_un_cat-0075017-Manazerske-a-nakladove-uctovnictvo/", "typ": "učebnica"},
-    {"nazov": "Interný výskumný podklad – Manažérske a nákladové účtovníctvo", "kde": "01_Zdroje/Vyskum_web/manazerske_nakladove_uctovnictvo.md", "typ": "web/overené"},
-    {"nazov": "Slovenská komora certifikovaných účtovníkov: Manažérske účtovníctvo (sylabus podľa Tumpacha) – poňatia nákladov, členenie, kalkulačné náklady, vnútropodnikové ceny", "kde": "https://skcu.sk/wp-content/uploads/2021/09/MANAZERSKE-UCTOVNICTVO.pdf", "typ": "web/overené"},
-    {"nazov": "Cvečková, M. (PARTNER AUDIT): Vnútropodnikové účtovníctvo – podstata, význam a spôsoby vedenia (porovnanie finančného a vnútropodnikového účtovníctva, strediská, vnútropodnikové ceny, jedno-/dvojokruhové vedenie)", "kde": "http://www.partneraudit.sk/vpn.pdf", "typ": "web/overené"},
-    {"nazov": "Euroekonom.sk: Charakteristika a klasifikácia nákladov – druhové, účelové, kalkulačné členenie, fixné/variabilné", "kde": "https://www.euroekonom.sk/charakteristika-a-klasifikacia-nakladov/", "typ": "web/overené"},
-    {"nazov": "Zákon č. 431/2002 Z. z. o účtovníctve, § 6 (organizácia vnútropodnikového/analytického vedenia účtovníctva)", "kde": "01_Zdroje/Zakony/ZZ_2002_431...asice", "typ": "primárny"}
+    {
+      "nazov": "Tumpach, M.: Manažérske a nákladové účtovníctvo, IURA Edition 2008 (základná literatúra; poňatia nákladov, členenie, kalkulácie, vnútropodnikové ceny)",
+      "kde": "https://sekarl.euba.sk/arl-eu/sk/detail-eu_un_cat-0075017-Manazerske-a-nakladove-uctovnictvo/",
+      "typ": "učebnica"
+    },
+    {
+      "nazov": "Interný výskumný podklad – Manažérske a nákladové účtovníctvo",
+      "kde": "01_Zdroje/Vyskum_web/manazerske_nakladove_uctovnictvo.md",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Slovenská komora certifikovaných účtovníkov: Manažérske účtovníctvo (sylabus podľa Tumpacha) – poňatia nákladov, členenie, kalkulačné náklady, vnútropodnikové ceny",
+      "kde": "https://skcu.sk/wp-content/uploads/2021/09/MANAZERSKE-UCTOVNICTVO.pdf",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Cvečková, M. (PARTNER AUDIT): Vnútropodnikové účtovníctvo – podstata, význam a spôsoby vedenia (porovnanie finančného a vnútropodnikového účtovníctva, strediská, vnútropodnikové ceny, jedno-/dvojokruhové vedenie)",
+      "kde": "http://www.partneraudit.sk/vpn.pdf",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Euroekonom.sk: Charakteristika a klasifikácia nákladov – druhové, účelové, kalkulačné členenie, fixné/variabilné",
+      "kde": "https://www.euroekonom.sk/charakteristika-a-klasifikacia-nakladov/",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Zákon č. 431/2002 Z. z. o účtovníctve, § 6 (organizácia vnútropodnikového/analytického vedenia účtovníctva)",
+      "kde": "01_Zdroje/Zakony/ZZ_2002_431...asice",
+      "typ": "primárny"
+    }
   ]
 }

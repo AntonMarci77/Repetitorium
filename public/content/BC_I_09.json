@@ -29,44 +29,338 @@
     "cielova_dlzka_slov": 1450,
     "uvod": "Rozpočtové a príspevkové organizácie a obce patria do sektora verejnej správy a účtujú v sústave podvojného účtovníctva podľa zákona č. 431/2002 Z. z. a osobitných postupov účtovania (od r. 2023 opatrenie MF/014454/2022-36 pre územnú samosprávu a MF/14522/2022-36 pre štátne subjekty). Od r. 2008 sa uplatňuje akruálny princíp – náklady a výnosy sa účtujú do obdobia, s ktorým vecne a časovo súvisia, nie podľa pohybu peňazí. Špecifiká oproti podnikateľom vyplývajú z rozpočtových pravidiel: existujú osobitné účtové skupiny pre transfery a pre vzťahy medzi verejnými subjektmi. Kľúčové je pochopiť rozdiel v napojení RO a PO na rozpočet zriaďovateľa a mechaniku účtovania transferov.",
     "casti": [
-      {"nadpis": "Vymedzenie RO a PO a ich zriaďovanie", "text": "Rozpočtová organizácia je právnická osoba štátu, obce alebo VÚC napojená na rozpočet zriaďovateľa svojimi príjmami aj výdavkami (brutto napojenie) – § 21 zákona 523/2004. Hospodári samostatne podľa schváleného rozpočtu s prostriedkami, ktoré jej určí zriaďovateľ. Príklady: školy, úrady, súdy, ústredné orgány štátnej správy. Príspevková organizácia je napojená na rozpočet zriaďovateľa príspevkom (netto napojenie), pričom jej tržby z vlastnej činnosti kryjú menej ako 50 % výrobných nákladov a zvyšok dorovná zriaďovateľ príspevkom tak, aby bol rozpočet PO vyrovnaný (§ 21 a § 24 zákona 523/2004). Príklady: divadlá, múzeá, galérie, technické služby obce. Zriaďovateľom je štát (ústredný orgán štátnej správy, napr. ministerstvo), obec (obecné zastupiteľstvo) alebo VÚC. RO/PO vzniká zo zákona alebo rozhodnutím zriaďovateľa; zmenu formy, zrušenie či zmenu zriaďovateľa schvaľuje zriaďovateľ od 1. dňa nasledujúceho rozpočtového roka, pri štátnych subjektoch s predchádzajúcim súhlasom MF SR."},
-      {"nadpis": "Podstata financovania RO vs. PO", "text": "RO sa financuje „brutto“: jej výdavky sú limitované rozpočtom zriaďovateľa a jej rozpočtové príjmy nie sú jej vlastným zdrojom – musí ich odviesť do rozpočtu zriaďovateľa (výnimkou sú napr. dary, poistné plnenia a niektoré účelovo určené príjmy, ktoré môže použiť na svoju činnosť). Štátna RO hospodári cez Štátnu pokladnicu (účty skupiny 22, osobitne 224 príjmy a 225 výdavky), obecná/VÚC RO cez bankové účty (221). PO sa financuje „netto“: zriaďovateľ jej poskytuje príspevok na prevádzku (bežný transfer) a prípadne kapitálový transfer na obstaranie majetku; PO si ponecháva vlastné výnosy a cieľom je vyrovnaný rozpočet. Zlepšený výsledok hospodárenia môže PO použiť na tvorbu peňažných fondov (rezervný fond, fond reprodukcie)."},
-      {"nadpis": "Charakteristika účtovníctva RO", "text": "Účtuje sa podvojne, akruálne, s rámcovou účtovou osnovou rovnakých tried 0–9 ako u podnikateľov, ale s osobitnými skupinami: trieda 2 obsahuje účty Štátnej pokladnice (224/225), trieda 3 skupinu 35 – Zúčtovanie medzi subjektmi verejnej správy, trieda 5 skupinu 58 – Náklady na transfery a náklady z odvodu príjmov, trieda 6 výnosy z transferov v skupine 68x (štátne RO/PO) alebo 69x (obce, VÚC a nimi zriadené RO/PO). Výsledok hospodárenia sa cez uzávierkový účet 710 prenáša na 431 – Výsledok hospodárenia v schvaľovaní. Mentálna pomôcka tried: 35 = peniaze medzi verejnými subjektmi, 58 = dávam transfer / odvádzam príjem, 68/69 = dostávam transfer."},
-      {"nadpis": "Účtovanie príjmov a výdavkov v štátnej RO a v RO obce/VÚC", "text": "Štátna RO inkasuje rozpočtové príjmy cez účet 224 – Účet štátnych rozpočtových príjmov a čerpá výdavky cez 225 – Účet štátnych rozpočtových výdavkov (účty Štátnej pokladnice); bežný náklad sa účtuje na nákladové účty triedy 5 súvzťažne so záväzkom alebo úhradou. RO zriadená obcou alebo VÚC vedie príjmy a výdavky cez bankové účty 221 s podúčtami pre kódy zdroja (41 z rozpočtu obce, 43 z predaja majetku, 46 z peňažných fondov a pod.). Bežný transfer od svojho zriaďovateľa (obce/VÚC) prijíma RO/PO cez účet skupiny 35x (zúčtovanie transferov z rozpočtu obce/VÚC) a zúčtuje ho do výnosov vo vecnej a časovej väzbe na náklad na účet 691 – Výnosy z bežných transferov z rozpočtu obce/VÚC (kapitálový obdobne cez 692). Štátna RO/PO prijíma transfer od svojho správcu kapitoly a zúčtuje do výnosov 681 (bežný zo ŠR), resp. 682 (kapitálový zo ŠR)."},
-      {"nadpis": "Výnosy z transferov a ich účtovné zobrazenie", "text": "Logika je zrkadlová: poskytovateľ účtuje náklad na skupine 58 (584 bežné, 585 kapitálové transfery), prijímateľ účtuje výnos na skupine 68x/69x, tok prostriedkov ide cez skupinu 35x. Kľúčový princíp je časové rozlíšenie: transfer sa nezúčtuje do výnosov naraz, ale postupne, vo vecnej a časovej väzbe na náklad. Pri bežnom transfere sa výnos zúčtuje vo výške spotreby (keď nastal náklad). Pri kapitálovom transfere na obstaranie dlhodobého majetku sa prijatá suma najprv „zaparkuje“ na účte 384 – Výnosy budúcich období a do výnosov sa rozpúšťa postupne, presne vo výške ročného odpisu obstaraného majetku. U obce/VÚC sa kapitálový transfer zo ŠR rozpúšťa cez 384 na účet 694 – Výnosy samosprávy z kapitálových transferov zo ŠR a od iných subjektov VS (bežný transfer samosprávy zo ŠR na 693), zatiaľ čo transfer poskytnutý z vlastného rozpočtu obce jej RO/PO sa u prijímateľa zúčtuje na 691/692. U štátnych subjektov sú výnosové účty v skupine 68x: 681 výnosy z bežných transferov zo ŠR, 682 z kapitálových transferov zo ŠR, 683 z bežných a 684 z kapitálových transferov od ostatných subjektov verejnej správy. Dôsledok: odpis (náklad 551) a rozpustenie transferu (výnos) idú v rovnakej sume súčasne, takže vplyv na výsledok hospodárenia je neutrálny."},
-      {"nadpis": "Pohľadávky z daňových a nedaňových príjmov; daňové výnosy obce", "text": "Pri obciach a VÚC sa predpis pohľadávok účtuje cez osobitné účty: 319 – Pohľadávky z daňových príjmov obcí a VÚC (predpis miestnej dane a podielovej dane) a 318 – Pohľadávky z nedaňových príjmov obcí a VÚC a ich RO (poplatky, nájom, sankcie). Predpis dane: MD 319 / D 632 – Daňové výnosy samosprávy; inkaso na účet: MD 221 / D 319. Predpis nedaňového príjmu: MD 318 / D príslušný výnos (napr. tržby, pokuty); inkaso MD 221 / D 318. Účet 632 zachytáva podielové dane (podiel na dani z príjmov FO) aj miestne dane – sú rozhodujúcim zdrojom obecných rozpočtov."},
-      {"nadpis": "Náklady z odvodu príjmov a zúčtovanie odvodu RO do rozpočtu zriaďovateľa", "text": "RO nie je vlastníkom svojich rozpočtových príjmov – musí ich odviesť zriaďovateľovi. Predpis tohto odvodu je pre RO nákladom: MD 588 – Náklady z odvodu príjmov / D 351 – Zúčtovanie odvodov príjmov RO do rozpočtu zriaďovateľa. Samotný odvod (úhrada) na účet zriaďovateľa: MD 351 / D 221 (alebo účet ŠP). U štátnej RO sa ku dňu závierky inkasované príjmy zúčtujú MD 351 / D 224. Zrkadlovo je tento odvod pre zriaďovateľa príjmom (výnosom). Pamäťová pomôcka: 588 → 351 = „odovzdávam (5 = náklad) cez medziúčet skupiny 35“."},
-      {"nadpis": "Podstata účtovného VH RO a PO; OP a rezervy v PO", "text": "Účtovný výsledok hospodárenia = výnosy (trieda 6) − náklady (trieda 5), zistený akruálne a prenesený cez 710 na 431 – VH v schvaľovaní. U RO je vďaka mechanizmu transferov (výnos sa rozpúšťa do výšky nákladu/odpisu) a odvodu vlastných príjmov účtovný VH spravidla blízky nule – účtovníctvo je „rozpočtovo neutrálne“. PO môže vykázať zlepšený (kladný) alebo zhoršený (záporný) VH a o jeho použití rozhoduje zriaďovateľ (napr. prídel do rezervného fondu). PO – podobne ako podnikateľ – pracuje s nástrojmi opatrnosti: opravné položky (tvorba MD 558 / D 39x; vyjadrujú prechodné zníženie hodnoty pohľadávok, zásob, majetku) a rezervy na neisté záväzky (tvorba MD náklad 5xx / D 323 krátkodobé alebo 451/459 dlhodobé; použitie alebo zrušenie v prospech výnosov). Platí princíp významnosti – OP ani rezerva bez významného vplyvu na VH sa neúčtuje."},
-      {"zaver": "Zapamätateľná kostra odpovede: (1) RO = brutto napojenie, príjmy odvádza (588/351), VH ≈ 0; PO = napojenie príspevkom, kryje menej ako 50 % nákladov, VH +/−, tvorí fondy/OP/rezervy. (2) Transfery: dávam = 58 (náklad), dostávam = 68/69 (výnos), tok cez 35; kapitálový sa cez 384 rozpúšťa do výnosov vo výške odpisu → neutrálny dopad na VH. (3) Obec: dane na 632, pohľadávky 318/319, a vždy rozlíš účtovný VH od rozpočtového prebytku/schodku."}
+      {
+        "nadpis": "Vymedzenie RO a PO a ich zriaďovanie",
+        "text": "Rozpočtová organizácia je právnická osoba štátu, obce alebo VÚC napojená na rozpočet zriaďovateľa svojimi príjmami aj výdavkami (brutto napojenie) – § 21 zákona 523/2004. Hospodári samostatne podľa schváleného rozpočtu s prostriedkami, ktoré jej určí zriaďovateľ. Príklady: školy, úrady, súdy, ústredné orgány štátnej správy. Príspevková organizácia je napojená na rozpočet zriaďovateľa príspevkom (netto napojenie), pričom jej tržby z vlastnej činnosti kryjú menej ako 50 % výrobných nákladov a zvyšok dorovná zriaďovateľ príspevkom tak, aby bol rozpočet PO vyrovnaný (§ 21 a § 24 zákona 523/2004). Príklady: divadlá, múzeá, galérie, technické služby obce. Zriaďovateľom je štát (ústredný orgán štátnej správy, napr. ministerstvo), obec (obecné zastupiteľstvo) alebo VÚC. RO/PO vzniká zo zákona alebo rozhodnutím zriaďovateľa; zmenu formy, zrušenie či zmenu zriaďovateľa schvaľuje zriaďovateľ od 1. dňa nasledujúceho rozpočtového roka, pri štátnych subjektoch s predchádzajúcim súhlasom MF SR."
+      },
+      {
+        "nadpis": "Podstata financovania RO vs. PO",
+        "text": "RO sa financuje „brutto“: jej výdavky sú limitované rozpočtom zriaďovateľa a jej rozpočtové príjmy nie sú jej vlastným zdrojom – musí ich odviesť do rozpočtu zriaďovateľa (výnimkou sú napr. dary, poistné plnenia a niektoré účelovo určené príjmy, ktoré môže použiť na svoju činnosť). Štátna RO hospodári cez Štátnu pokladnicu (účty skupiny 22, osobitne 224 príjmy a 225 výdavky), obecná/VÚC RO cez bankové účty (221). PO sa financuje „netto“: zriaďovateľ jej poskytuje príspevok na prevádzku (bežný transfer) a prípadne kapitálový transfer na obstaranie majetku; PO si ponecháva vlastné výnosy a cieľom je vyrovnaný rozpočet. Zlepšený výsledok hospodárenia môže PO použiť na tvorbu peňažných fondov (rezervný fond, fond reprodukcie)."
+      },
+      {
+        "nadpis": "Charakteristika účtovníctva RO",
+        "text": "Účtuje sa podvojne, akruálne, s rámcovou účtovou osnovou rovnakých tried 0–9 ako u podnikateľov, ale s osobitnými skupinami: trieda 2 obsahuje účty Štátnej pokladnice (224/225), trieda 3 skupinu 35 – Zúčtovanie medzi subjektmi verejnej správy, trieda 5 skupinu 58 – Náklady na transfery a náklady z odvodu príjmov, trieda 6 výnosy z transferov v skupine 68x (štátne RO/PO) alebo 69x (obce, VÚC a nimi zriadené RO/PO). Výsledok hospodárenia sa cez uzávierkový účet 710 prenáša na 431 – Výsledok hospodárenia v schvaľovaní. Mentálna pomôcka tried: 35 = peniaze medzi verejnými subjektmi, 58 = dávam transfer / odvádzam príjem, 68/69 = dostávam transfer."
+      },
+      {
+        "nadpis": "Účtovanie príjmov a výdavkov v štátnej RO a v RO obce/VÚC",
+        "text": "Štátna RO inkasuje rozpočtové príjmy cez účet 224 – Účet štátnych rozpočtových príjmov a čerpá výdavky cez 225 – Účet štátnych rozpočtových výdavkov (účty Štátnej pokladnice); bežný náklad sa účtuje na nákladové účty triedy 5 súvzťažne so záväzkom alebo úhradou. RO zriadená obcou alebo VÚC vedie príjmy a výdavky cez bankové účty 221 s podúčtami pre kódy zdroja (41 z rozpočtu obce, 43 z predaja majetku, 46 z peňažných fondov a pod.). Bežný transfer od svojho zriaďovateľa (obce/VÚC) prijíma RO/PO cez účet skupiny 35x (zúčtovanie transferov z rozpočtu obce/VÚC) a zúčtuje ho do výnosov vo vecnej a časovej väzbe na náklad na účet 691 – Výnosy z bežných transferov z rozpočtu obce/VÚC (kapitálový obdobne cez 692). Štátna RO/PO prijíma transfer od svojho správcu kapitoly a zúčtuje do výnosov 681 (bežný zo ŠR), resp. 682 (kapitálový zo ŠR)."
+      },
+      {
+        "nadpis": "Výnosy z transferov a ich účtovné zobrazenie",
+        "text": "Logika je zrkadlová: poskytovateľ účtuje náklad na skupine 58 (584 bežné, 585 kapitálové transfery), prijímateľ účtuje výnos na skupine 68x/69x, tok prostriedkov ide cez skupinu 35x. Kľúčový princíp je časové rozlíšenie: transfer sa nezúčtuje do výnosov naraz, ale postupne, vo vecnej a časovej väzbe na náklad. Pri bežnom transfere sa výnos zúčtuje vo výške spotreby (keď nastal náklad). Pri kapitálovom transfere na obstaranie dlhodobého majetku sa prijatá suma najprv „zaparkuje“ na účte 384 – Výnosy budúcich období a do výnosov sa rozpúšťa postupne, presne vo výške ročného odpisu obstaraného majetku. U obce/VÚC sa kapitálový transfer zo ŠR rozpúšťa cez 384 na účet 694 – Výnosy samosprávy z kapitálových transferov zo ŠR a od iných subjektov VS (bežný transfer samosprávy zo ŠR na 693), zatiaľ čo transfer poskytnutý z vlastného rozpočtu obce jej RO/PO sa u prijímateľa zúčtuje na 691/692. U štátnych subjektov sú výnosové účty v skupine 68x: 681 výnosy z bežných transferov zo ŠR, 682 z kapitálových transferov zo ŠR, 683 z bežných a 684 z kapitálových transferov od ostatných subjektov verejnej správy. Dôsledok: odpis (náklad 551) a rozpustenie transferu (výnos) idú v rovnakej sume súčasne, takže vplyv na výsledok hospodárenia je neutrálny."
+      },
+      {
+        "nadpis": "Pohľadávky z daňových a nedaňových príjmov; daňové výnosy obce",
+        "text": "Pri obciach a VÚC sa predpis pohľadávok účtuje cez osobitné účty: 319 – Pohľadávky z daňových príjmov obcí a VÚC (predpis miestnej dane a podielovej dane) a 318 – Pohľadávky z nedaňových príjmov obcí a VÚC a ich RO (poplatky, nájom, sankcie). Predpis dane: MD 319 / D 632 – Daňové výnosy samosprávy; inkaso na účet: MD 221 / D 319. Predpis nedaňového príjmu: MD 318 / D príslušný výnos (napr. tržby, pokuty); inkaso MD 221 / D 318. Účet 632 zachytáva podielové dane (podiel na dani z príjmov FO) aj miestne dane – sú rozhodujúcim zdrojom obecných rozpočtov."
+      },
+      {
+        "nadpis": "Náklady z odvodu príjmov a zúčtovanie odvodu RO do rozpočtu zriaďovateľa",
+        "text": "RO nie je vlastníkom svojich rozpočtových príjmov – musí ich odviesť zriaďovateľovi. Predpis tohto odvodu je pre RO nákladom: MD 588 – Náklady z odvodu príjmov / D 351 – Zúčtovanie odvodov príjmov RO do rozpočtu zriaďovateľa. Samotný odvod (úhrada) na účet zriaďovateľa: MD 351 / D 221 (alebo účet ŠP). U štátnej RO sa ku dňu závierky inkasované príjmy zúčtujú MD 351 / D 224. Zrkadlovo je tento odvod pre zriaďovateľa príjmom (výnosom). Pamäťová pomôcka: 588 → 351 = „odovzdávam (5 = náklad) cez medziúčet skupiny 35“."
+      },
+      {
+        "nadpis": "Podstata účtovného VH RO a PO; OP a rezervy v PO",
+        "text": "Účtovný výsledok hospodárenia = výnosy (trieda 6) − náklady (trieda 5), zistený akruálne a prenesený cez 710 na 431 – VH v schvaľovaní. U RO je vďaka mechanizmu transferov (výnos sa rozpúšťa do výšky nákladu/odpisu) a odvodu vlastných príjmov účtovný VH spravidla blízky nule – účtovníctvo je „rozpočtovo neutrálne“. PO môže vykázať zlepšený (kladný) alebo zhoršený (záporný) VH a o jeho použití rozhoduje zriaďovateľ (napr. prídel do rezervného fondu). PO – podobne ako podnikateľ – pracuje s nástrojmi opatrnosti: opravné položky (tvorba MD 558 / D 39x; vyjadrujú prechodné zníženie hodnoty pohľadávok, zásob, majetku) a rezervy na neisté záväzky (tvorba MD náklad 5xx / D 323 krátkodobé alebo 451/459 dlhodobé; použitie alebo zrušenie v prospech výnosov). Platí princíp významnosti – OP ani rezerva bez významného vplyvu na VH sa neúčtuje."
+      },
+      {
+        "zaver": "Zapamätateľná kostra odpovede: (1) RO = brutto napojenie, príjmy odvádza (588/351), VH ≈ 0; PO = napojenie príspevkom, kryje menej ako 50 % nákladov, VH +/−, tvorí fondy/OP/rezervy. (2) Transfery: dávam = 58 (náklad), dostávam = 68/69 (výnos), tok cez 35; kapitálový sa cez 384 rozpúšťa do výnosov vo výške odpisu → neutrálny dopad na VH. (3) Obec: dane na 632, pohľadávky 318/319, a vždy rozlíš účtovný VH od rozpočtového prebytku/schodku."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Obec – finančné hospodárenie", "text": "Obec hospodári podľa vlastného rozpočtu (zákon 583/2004, 369/1990), ktorý sa člení na bežný rozpočet (bežné príjmy/výdavky), kapitálový rozpočet (kapitálové príjmy/výdavky) a finančné operácie (úvery, splátky, fondy). Vlastné príjmy: podielové dane, miestne dane a poplatky, nedaňové príjmy (nájom, správne poplatky). Doplnkové zdroje: transfery zo ŠR a EÚ, návratné zdroje (úvery), peňažné fondy, podnikateľská činnosť. Na konci roka obec zostavuje záverečný účet overený audítorom."},
-    {"nadpis": "Poskytnuté a prijaté transfery v účtovníctve obce", "text": "Prijatý transfer obce zo ŠR/EÚ ide cez skupinu 35x (zúčtovanie transferov ŠR/EÚ) a do výnosov cez 693 (bežný) / 694 (kapitálový, s časovým rozlíšením cez 384). Poskytnutý transfer (napr. obec svojej RO/PO alebo dotácia inému subjektu) je nákladom na skupine 58x (584 bežné, 585 kapitálové transfery) súvzťažne s 35x alebo 221. Pozn.: u prijímateľa – RO/PO obce – sa transfer z rozpočtu obce zúčtuje cez skupinu 35x do výnosov 691/692."},
-    {"nadpis": "Účtovný VH obce vs. rozpočtový prebytok/schodok", "text": "Účtovný VH obce sa zisťuje akruálne ako rozdiel výnosov (6) a nákladov (5) a zachytáva aj nepeňažné položky (odpisy, OP, rezervy, časové rozlíšenie transferov). Líši sa od prebytku/schodku rozpočtu obce, ktorý sa zisťuje porovnaním rozpočtových príjmov a výdavkov v záverečnom účte na základe výkazu FIN 1-12. Tieto dve čísla sa spravidla nerovnajú – je to častá pasca."},
-    {"nadpis": "Peňažné fondy a rezervný fond", "text": "Obec aj PO tvoria peňažné fondy. Obec povinne tvorí rezervný fond (z prebytku rozpočtu) a môže tvoriť ďalšie fondy. PO môže zo zlepšeného VH tvoriť rezervný fond a fond reprodukcie. RO peňažné fondy spravidla netvorí (jej hospodárenie je rozpočtovo zviazané), s výnimkou napr. sociálneho fondu, ktorý tvoria všetky účtovné jednotky so zamestnancami."},
-    {"nadpis": "Akruál vs. rozpočet – dva pohľady na ten istý subjekt", "text": "Účtovníctvo (akruál) sleduje náklady, výnosy a majetok pre verný a pravdivý obraz; rozpočtovníctvo sleduje peňažné príjmy a výdavky podľa rozpočtovej klasifikácie pre kontrolu plnenia rozpočtu. Preto má subjekt účtovnú závierku (súvaha, výkaz ziskov a strát, poznámky) aj finančné výkazy FIN. Práve odlišnosť týchto dvoch systémov je dôvodom, prečo sa účtovný VH a rozpočtový výsledok líšia."}
+    {
+      "nadpis": "Obec – finančné hospodárenie",
+      "text": "Obec hospodári podľa vlastného rozpočtu (zákon 583/2004, 369/1990), ktorý sa člení na bežný rozpočet (bežné príjmy/výdavky), kapitálový rozpočet (kapitálové príjmy/výdavky) a finančné operácie (úvery, splátky, fondy). Vlastné príjmy: podielové dane, miestne dane a poplatky, nedaňové príjmy (nájom, správne poplatky). Doplnkové zdroje: transfery zo ŠR a EÚ, návratné zdroje (úvery), peňažné fondy, podnikateľská činnosť. Na konci roka obec zostavuje záverečný účet overený audítorom."
+    },
+    {
+      "nadpis": "Poskytnuté a prijaté transfery v účtovníctve obce",
+      "text": "Prijatý transfer obce zo ŠR/EÚ ide cez skupinu 35x (zúčtovanie transferov ŠR/EÚ) a do výnosov cez 693 (bežný) / 694 (kapitálový, s časovým rozlíšením cez 384). Poskytnutý transfer (napr. obec svojej RO/PO alebo dotácia inému subjektu) je nákladom na skupine 58x (584 bežné, 585 kapitálové transfery) súvzťažne s 35x alebo 221. Pozn.: u prijímateľa – RO/PO obce – sa transfer z rozpočtu obce zúčtuje cez skupinu 35x do výnosov 691/692."
+    },
+    {
+      "nadpis": "Účtovný VH obce vs. rozpočtový prebytok/schodok",
+      "text": "Účtovný VH obce sa zisťuje akruálne ako rozdiel výnosov (6) a nákladov (5) a zachytáva aj nepeňažné položky (odpisy, OP, rezervy, časové rozlíšenie transferov). Líši sa od prebytku/schodku rozpočtu obce, ktorý sa zisťuje porovnaním rozpočtových príjmov a výdavkov v záverečnom účte na základe výkazu FIN 1-12. Tieto dve čísla sa spravidla nerovnajú – je to častá pasca."
+    },
+    {
+      "nadpis": "Peňažné fondy a rezervný fond",
+      "text": "Obec aj PO tvoria peňažné fondy. Obec povinne tvorí rezervný fond (z prebytku rozpočtu) a môže tvoriť ďalšie fondy. PO môže zo zlepšeného VH tvoriť rezervný fond a fond reprodukcie. RO peňažné fondy spravidla netvorí (jej hospodárenie je rozpočtovo zviazané), s výnimkou napr. sociálneho fondu, ktorý tvoria všetky účtovné jednotky so zamestnancami."
+    },
+    {
+      "nadpis": "Akruál vs. rozpočet – dva pohľady na ten istý subjekt",
+      "text": "Účtovníctvo (akruál) sleduje náklady, výnosy a majetok pre verný a pravdivý obraz; rozpočtovníctvo sleduje peňažné príjmy a výdavky podľa rozpočtovej klasifikácie pre kontrolu plnenia rozpočtu. Preto má subjekt účtovnú závierku (súvaha, výkaz ziskov a strát, poznámky) aj finančné výkazy FIN. Práve odlišnosť týchto dvoch systémov je dôvodom, prečo sa účtovný VH a rozpočtový výsledok líšia."
+    }
   ],
   "priklady": [
-    {"nazov": "Kapitálový transfer obce na obstaranie majetku a jeho rozpúšťanie cez odpis", "zadanie": "Obec dostala kapitálový transfer zo ŠR (z fondov EÚ) 144 000 € na kúpu zariadenia. Majetok zaradí do používania a odpisuje ho 50 rokov rovnomerne (ročný odpis 2 880 €). Ako sa transfer zúčtuje v 1. roku?", "uctovanie": [{"rok": "1", "md": "221", "d": "357", "suma": 144000, "popis": "Prijatý kapitálový transfer na bankový účet obce (357 – ostatné zúčtovanie rozpočtu obce/VÚC, skupina 35x)"}, {"rok": "1", "md": "357", "d": "384", "suma": 144000, "popis": "Zúčtovanie transferu na výnosy budúcich období (časové rozlíšenie)"}, {"rok": "1", "md": "042", "d": "321", "suma": 144000, "popis": "Obstaranie majetku (faktúra)"}, {"rok": "1", "md": "021", "d": "042", "suma": 144000, "popis": "Zaradenie majetku do používania"}, {"rok": "1", "md": "551", "d": "081", "suma": 2880, "popis": "Ročný odpis majetku (náklad)"}, {"rok": "1", "md": "384", "d": "694", "suma": 2880, "popis": "Rozpustenie transferu do výnosov vo výške odpisu (694 – výnosy samosprávy z kapitálových transferov zo ŠR a od iných subjektov VS)"}], "riesenie": "Transfer sa nezúčtuje do výnosov naraz. Najprv „čaká“ na účte 384. Každý rok sa do výnosov rozpustí presne toľko, koľko je ročný odpis (2 880 €), takže náklad 551 a výnos 694 sa vyrušia. Na účte 384 zostane 141 120 € a rozpúšťa sa ďalších 49 rokov.", "dopad_na_zd": "Vplyv na účtovný VH = 0 (odpis −2 880 € a výnos +2 880 € sa rušia). RO/PO sa daň z príjmov pri tejto činnosti nerieši ako u podnikateľa – ide o rozpočtovo neutrálny mechanizmus."},
-    {"nazov": "Bežný transfer na prevádzku PO/RO obce", "zadanie": "Mestská PO (technické služby) dostane od svojho zriaďovateľa (obce) bežný transfer 30 000 € na prevádzku. Počas roka spotrebuje materiál a služby za 30 000 €.", "uctovanie": [{"rok": "1", "md": "221", "d": "355", "suma": 30000, "popis": "Prijatý bežný transfer od zriaďovateľa (obce) na účet (355 – zúčtovanie transferov rozpočtu obce a VÚC)"}, {"rok": "1", "md": "501", "d": "112", "suma": 30000, "popis": "Spotreba materiálu (vznik nákladu)"}, {"rok": "1", "md": "355", "d": "691", "suma": 30000, "popis": "Zúčtovanie transferu do výnosov vo výške spotreby (691 – výnosy z bežných transferov z rozpočtu obce/VÚC)"}], "riesenie": "Bežný transfer sa zúčtuje do výnosov vo vecnej a časovej väzbe na náklad – až keď a v rozsahu, v akom nastane spotreba. Ak by časť transferu zostala k 31. 12. nespotrebovaná, do výnosov sa nezúčtuje a zostane na účte skupiny 35x (355).", "dopad_na_zd": "Vplyv na VH = 0 pri plnej spotrebe (náklad 30 000 € = výnos 30 000 €)."},
-    {"nazov": "Odvod rozpočtových príjmov RO do rozpočtu zriaďovateľa", "zadanie": "Štátna RO počas roka inkasovala rozpočtové príjmy (napr. správne poplatky) 5 000 €, ktoré musí odviesť zriaďovateľovi.", "uctovanie": [{"rok": "1", "md": "588", "d": "351", "suma": 5000, "popis": "Predpis odvodu rozpočtových príjmov do rozpočtu zriaďovateľa (588 – náklady z odvodu príjmov)"}, {"rok": "1", "md": "351", "d": "224", "suma": 5000, "popis": "Odvod inkasovaných príjmov zriaďovateľovi (cez účet ŠP); u obecnej RO D 221"}], "riesenie": "RO nie je vlastníkom svojich príjmov – predpis ich odvodu je pre ňu nákladom (588) cez medziúčet 351. Tým sa „vlastný výnos“ z príjmu fakticky vynuluje a účtovný VH RO ostáva blízky nule.", "dopad_na_zd": "Náklad 588 v sume 5 000 € znižuje VH; spolu s príslušným výnosom z príjmu je čistý dopad na VH RO blízky nule."},
-    {"nazov": "Predpis a inkaso miestnej dane v obci", "zadanie": "Obec vyrubí daň z nehnuteľností 12 000 €; daňovník ju počas roka uhradí.", "uctovanie": [{"rok": "1", "md": "319", "d": "632", "suma": 12000, "popis": "Predpis miestnej dane (pohľadávka 319 / daňový výnos samosprávy 632)"}, {"rok": "1", "md": "221", "d": "319", "suma": 12000, "popis": "Inkaso dane na účet obce"}], "riesenie": "Daňový výnos obce sa účtuje akruálne pri predpise (632), nie až pri inkase. Pohľadávka 319 sa pri úhrade vyrovná. Ak by daň nebola uhradená, k pohľadávke možno tvoriť opravnú položku.", "dopad_na_zd": "Daňový výnos 632 zvyšuje účtovný VH obce o 12 000 € (v roku predpisu)."},
-    {"nazov": "Tvorba opravnej položky k pohľadávke v PO", "zadanie": "PO eviduje pohľadávku 4 000 € po splatnosti s rizikom nezaplatenia; rozhodne sa tvoriť opravnú položku 100 %.", "uctovanie": [{"rok": "1", "md": "558", "d": "391", "suma": 4000, "popis": "Tvorba opravnej položky k pohľadávke (558 – tvorba a zúčtovanie OP / 391 – OP k pohľadávkam)"}], "riesenie": "OP vyjadruje prechodné zníženie hodnoty pohľadávky a zvyšuje náklady (558), čím znižuje VH PO. Pri inkase alebo zániku dôvodu sa OP zruší v prospech výnosov. Účtuje sa len OP s významným vplyvom na VH.", "dopad_na_zd": "Náklad 558 v sume 4 000 € znižuje účtovný VH PO."}
+    {
+      "nazov": "Kapitálový transfer obce na obstaranie majetku a jeho rozpúšťanie cez odpis",
+      "zadanie": "Obec dostala kapitálový transfer zo ŠR (z fondov EÚ) 144 000 € na kúpu zariadenia. Majetok zaradí do používania a odpisuje ho 50 rokov rovnomerne (ročný odpis 2 880 €). Ako sa transfer zúčtuje v 1. roku?",
+      "uctovanie": [
+        {
+          "rok": "1",
+          "md": "221",
+          "d": "357",
+          "suma": 144000,
+          "popis": "Prijatý kapitálový transfer na bankový účet obce (357 – ostatné zúčtovanie rozpočtu obce/VÚC, skupina 35x)"
+        },
+        {
+          "rok": "1",
+          "md": "357",
+          "d": "384",
+          "suma": 144000,
+          "popis": "Zúčtovanie transferu na výnosy budúcich období (časové rozlíšenie)"
+        },
+        {
+          "rok": "1",
+          "md": "042",
+          "d": "321",
+          "suma": 144000,
+          "popis": "Obstaranie majetku (faktúra)"
+        },
+        {
+          "rok": "1",
+          "md": "021",
+          "d": "042",
+          "suma": 144000,
+          "popis": "Zaradenie majetku do používania"
+        },
+        {
+          "rok": "1",
+          "md": "551",
+          "d": "081",
+          "suma": 2880,
+          "popis": "Ročný odpis majetku (náklad)"
+        },
+        {
+          "rok": "1",
+          "md": "384",
+          "d": "694",
+          "suma": 2880,
+          "popis": "Rozpustenie transferu do výnosov vo výške odpisu (694 – výnosy samosprávy z kapitálových transferov zo ŠR a od iných subjektov VS)"
+        }
+      ],
+      "riesenie": "Transfer sa nezúčtuje do výnosov naraz. Najprv „čaká“ na účte 384. Každý rok sa do výnosov rozpustí presne toľko, koľko je ročný odpis (2 880 €), takže náklad 551 a výnos 694 sa vyrušia. Na účte 384 zostane 141 120 € a rozpúšťa sa ďalších 49 rokov.",
+      "dopad_na_zd": "Vplyv na účtovný VH = 0 (odpis −2 880 € a výnos +2 880 € sa rušia). RO/PO sa daň z príjmov pri tejto činnosti nerieši ako u podnikateľa – ide o rozpočtovo neutrálny mechanizmus."
+    },
+    {
+      "nazov": "Bežný transfer na prevádzku PO/RO obce",
+      "zadanie": "Mestská PO (technické služby) dostane od svojho zriaďovateľa (obce) bežný transfer 30 000 € na prevádzku. Počas roka spotrebuje materiál a služby za 30 000 €.",
+      "uctovanie": [
+        {
+          "rok": "1",
+          "md": "221",
+          "d": "355",
+          "suma": 30000,
+          "popis": "Prijatý bežný transfer od zriaďovateľa (obce) na účet (355 – zúčtovanie transferov rozpočtu obce a VÚC)"
+        },
+        {
+          "rok": "1",
+          "md": "501",
+          "d": "112",
+          "suma": 30000,
+          "popis": "Spotreba materiálu (vznik nákladu)"
+        },
+        {
+          "rok": "1",
+          "md": "355",
+          "d": "691",
+          "suma": 30000,
+          "popis": "Zúčtovanie transferu do výnosov vo výške spotreby (691 – výnosy z bežných transferov z rozpočtu obce/VÚC)"
+        }
+      ],
+      "riesenie": "Bežný transfer sa zúčtuje do výnosov vo vecnej a časovej väzbe na náklad – až keď a v rozsahu, v akom nastane spotreba. Ak by časť transferu zostala k 31. 12. nespotrebovaná, do výnosov sa nezúčtuje a zostane na účte skupiny 35x (355).",
+      "dopad_na_zd": "Vplyv na VH = 0 pri plnej spotrebe (náklad 30 000 € = výnos 30 000 €)."
+    },
+    {
+      "nazov": "Odvod rozpočtových príjmov RO do rozpočtu zriaďovateľa",
+      "zadanie": "Štátna RO počas roka inkasovala rozpočtové príjmy (napr. správne poplatky) 5 000 €, ktoré musí odviesť zriaďovateľovi.",
+      "uctovanie": [
+        {
+          "rok": "1",
+          "md": "588",
+          "d": "351",
+          "suma": 5000,
+          "popis": "Predpis odvodu rozpočtových príjmov do rozpočtu zriaďovateľa (588 – náklady z odvodu príjmov)"
+        },
+        {
+          "rok": "1",
+          "md": "351",
+          "d": "224",
+          "suma": 5000,
+          "popis": "Odvod inkasovaných príjmov zriaďovateľovi (cez účet ŠP); u obecnej RO D 221"
+        }
+      ],
+      "riesenie": "RO nie je vlastníkom svojich príjmov – predpis ich odvodu je pre ňu nákladom (588) cez medziúčet 351. Tým sa „vlastný výnos“ z príjmu fakticky vynuluje a účtovný VH RO ostáva blízky nule.",
+      "dopad_na_zd": "Náklad 588 v sume 5 000 € znižuje VH; spolu s príslušným výnosom z príjmu je čistý dopad na VH RO blízky nule."
+    },
+    {
+      "nazov": "Predpis a inkaso miestnej dane v obci",
+      "zadanie": "Obec vyrubí daň z nehnuteľností 12 000 €; daňovník ju počas roka uhradí.",
+      "uctovanie": [
+        {
+          "rok": "1",
+          "md": "319",
+          "d": "632",
+          "suma": 12000,
+          "popis": "Predpis miestnej dane (pohľadávka 319 / daňový výnos samosprávy 632)"
+        },
+        {
+          "rok": "1",
+          "md": "221",
+          "d": "319",
+          "suma": 12000,
+          "popis": "Inkaso dane na účet obce"
+        }
+      ],
+      "riesenie": "Daňový výnos obce sa účtuje akruálne pri predpise (632), nie až pri inkase. Pohľadávka 319 sa pri úhrade vyrovná. Ak by daň nebola uhradená, k pohľadávke možno tvoriť opravnú položku.",
+      "dopad_na_zd": "Daňový výnos 632 zvyšuje účtovný VH obce o 12 000 € (v roku predpisu)."
+    },
+    {
+      "nazov": "Tvorba opravnej položky k pohľadávke v PO",
+      "zadanie": "PO eviduje pohľadávku 4 000 € po splatnosti s rizikom nezaplatenia; rozhodne sa tvoriť opravnú položku 100 %.",
+      "uctovanie": [
+        {
+          "rok": "1",
+          "md": "558",
+          "d": "391",
+          "suma": 4000,
+          "popis": "Tvorba opravnej položky k pohľadávke (558 – tvorba a zúčtovanie OP / 391 – OP k pohľadávkam)"
+        }
+      ],
+      "riesenie": "OP vyjadruje prechodné zníženie hodnoty pohľadávky a zvyšuje náklady (558), čím znižuje VH PO. Pri inkase alebo zániku dôvodu sa OP zruší v prospech výnosov. Účtuje sa len OP s významným vplyvom na VH.",
+      "dopad_na_zd": "Náklad 558 v sume 4 000 € znižuje účtovný VH PO."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/BC_I_09_RO_vs_PO_financovanie.svg", "typ": "schéma", "popis": "Porovnanie napojenia RO (brutto – príjmy aj výdavky cez rozpočet, odvod príjmov 588/351) a PO (netto – príspevok od zriaďovateľa + vlastné výnosy > 50 % nákladov) na rozpočet zriaďovateľa."},
-    {"subor": "03_Vizualy/BC_I_09_tok_kapitaloveho_transferu.svg", "typ": "schéma", "popis": "Tok kapitálového transferu: prijatie (221/357) → časové rozlíšenie (357/384) → obstaranie a zaradenie majetku → ročný odpis (551/081) súčasne s rozpustením transferu do výnosov (384/694), čím je dopad na VH neutrálny."}
+    {
+      "subor": "03_Vizualy/BC_I_09_RO_vs_PO_financovanie.svg",
+      "typ": "schéma",
+      "popis": "Porovnanie napojenia RO (brutto – príjmy aj výdavky cez rozpočet, odvod príjmov 588/351) a PO (netto – príspevok od zriaďovateľa + vlastné výnosy > 50 % nákladov) na rozpočet zriaďovateľa."
+    },
+    {
+      "subor": "03_Vizualy/BC_I_09_tok_kapitaloveho_transferu.svg",
+      "typ": "schéma",
+      "popis": "Tok kapitálového transferu: prijatie (221/357) → časové rozlíšenie (357/384) → obstaranie a zaradenie majetku → ročný odpis (551/081) súčasne s rozpustením transferu do výnosov (384/694), čím je dopad na VH neutrálny."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Aký je hlavný rozdiel medzi rozpočtovou a príspevkovou organizáciou?", "odpoved": "RO je na rozpočet zriaďovateľa napojená brutto – príjmami aj výdavkami; svoje rozpočtové príjmy odvádza zriaďovateľovi (588/351). PO je napojená netto – príspevkom (rozdielom); vlastnými tržbami kryje menej ako 50 % nákladov a zvyšok dorovná zriaďovateľ príspevkom."},
-    {"otazka": "Prečo má RO účtovný výsledok hospodárenia spravidla blízky nule?", "odpoved": "Lebo výnosy z transferov sa rozpúšťajú len do výšky nákladov/odpisov a vlastné rozpočtové príjmy musí RO odviesť (588/351). Mechanizmus je rozpočtovo neutrálny, takže náklady a výnosy sa navzájom vyrovnávajú."},
-    {"otazka": "Ako sa účtuje kapitálový transfer na obstaranie majetku a prečo nejde celý do výnosov hneď?", "odpoved": "Prijatie 221/357, časové rozlíšenie 357/384, a do výnosov sa rozpúšťa postupne (384/694, resp. 692 u transferu z rozpočtu obce) presne vo výške ročného odpisu majetku. Naraz nejde, aby výnos vecne a časovo zodpovedal odpisu krytého majetku – inak by VH bol skreslený."},
-    {"otazka": "Na ktorých účtoch obec účtuje daňové výnosy a pohľadávky z nich?", "odpoved": "Daňové výnosy samosprávy (podielové aj miestne dane) na účte 632; pohľadávky z daňových príjmov na 319, z nedaňových príjmov na 318. Predpis dane: 319/632, inkaso 221/319."},
-    {"otazka": "Ako sa účtuje odvod rozpočtových príjmov RO?", "odpoved": "Predpis odvodu je nákladom: 588 – Náklady z odvodu príjmov / 351 – Zúčtovanie odvodov príjmov RO do rozpočtu zriaďovateľa. Úhrada odvodu: 351 / 221 (alebo účet ŠP)."},
-    {"otazka": "Aké výnosové účty pre transfery používajú štátne RO/PO a aké samospráva?", "odpoved": "Štátne RO/PO: 681 (bežné zo ŠR), 682 (kapitálové zo ŠR), 683 (bežné od ostatných subjektov VS), 684 (kapitálové od ostatných subjektov VS). Samospráva a jej RO/PO: 691/692 (bežné/kapitálové z rozpočtu obce alebo VÚC), 693/694 (bežné/kapitálové zo ŠR a od iných subjektov VS u samosprávy)."},
-    {"otazka": "V čom sa líši účtovný VH obce od prebytku/schodku jej rozpočtu?", "odpoved": "Účtovný VH je akruálny (výnosy − náklady, zahŕňa aj odpisy, OP, rezervy, časové rozlíšenie) a zisťuje sa v účtovnej závierke. Rozpočtový prebytok/schodok je rozdiel rozpočtových príjmov a výdavkov z plnenia rozpočtu (FIN 1-12) a vykazuje sa v záverečnom účte. Spravidla sa nerovnajú."},
-    {"otazka": "Tvorí RO opravné položky a rezervy ako PO?", "odpoved": "PO áno – pracuje s OP (558/39x) a rezervami (5xx/323, 451/459) ako podnikateľ, lebo má vlastný hospodársky výsledok. RO ich tvorí veľmi obmedzene, keďže je rozpočtovo zviazaná a jej VH je rozpočtovo neutrálny."}
+    {
+      "otazka": "Aký je hlavný rozdiel medzi rozpočtovou a príspevkovou organizáciou?",
+      "odpoved": "RO je na rozpočet zriaďovateľa napojená brutto – príjmami aj výdavkami; svoje rozpočtové príjmy odvádza zriaďovateľovi (588/351). PO je napojená netto – príspevkom (rozdielom); vlastnými tržbami kryje menej ako 50 % nákladov a zvyšok dorovná zriaďovateľ príspevkom.",
+      "moznosti": [
+        "RO je napojená netto (príspevkom) a vlastné príjmy si necháva; PO je napojená brutto a príjmy odvádza zriaďovateľovi",
+        "RO je napojená brutto (príjmami aj výdavkami) a príjmy odvádza zriaďovateľovi (588/351); PO je napojená netto (príspevkom) a vlastnými tržbami kryje menej ako 50 % nákladov",
+        "RO aj PO sú napojené brutto, líšia sa len v tom, že PO môže tvoriť peňažné fondy",
+        "RO je napojená brutto a vlastnými tržbami kryje viac ako 50 % nákladov; PO je úplne samostatná bez väzby na zriaďovateľa"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "RO je na rozpočet zriaďovateľa napojená brutto – príjmami aj výdavkami; svoje rozpočtové príjmy odvádza zriaďovateľovi (588/351). PO je napojená netto – príspevkom (rozdielom); vlastnými tržbami kryje menej ako 50 % nákladov a zvyšok dorovná zriaďovateľ príspevkom."
+    },
+    {
+      "otazka": "Prečo má RO účtovný výsledok hospodárenia spravidla blízky nule?",
+      "odpoved": "Lebo výnosy z transferov sa rozpúšťajú len do výšky nákladov/odpisov a vlastné rozpočtové príjmy musí RO odviesť (588/351). Mechanizmus je rozpočtovo neutrálny, takže náklady a výnosy sa navzájom vyrovnávajú.",
+      "moznosti": [
+        "Lebo všetky svoje rozpočtové príjmy si môže ponechať a celý transfer zúčtuje do výnosov naraz",
+        "Lebo zriaďovateľ jej každý rok dorovná zisk presne na nulu osobitným záverečným zápisom",
+        "Lebo výnosy z transferov sa rozpúšťajú len do výšky nákladov/odpisov a vlastné príjmy musí odviesť (588/351), takže náklady a výnosy sa vyrovnávajú",
+        "Lebo RO neúčtuje o nákladoch ani výnosoch, vedie len peňažné príjmy a výdavky"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Lebo výnosy z transferov sa rozpúšťajú len do výšky nákladov/odpisov a vlastné rozpočtové príjmy musí RO odviesť (588/351). Mechanizmus je rozpočtovo neutrálny, takže náklady a výnosy sa navzájom vyrovnávajú."
+    },
+    {
+      "otazka": "Ako sa účtuje kapitálový transfer na obstaranie majetku a prečo nejde celý do výnosov hneď?",
+      "odpoved": "Prijatie 221/357, časové rozlíšenie 357/384, a do výnosov sa rozpúšťa postupne (384/694, resp. 692 u transferu z rozpočtu obce) presne vo výške ročného odpisu majetku. Naraz nejde, aby výnos vecne a časovo zodpovedal odpisu krytého majetku – inak by VH bol skreslený.",
+      "moznosti": [
+        "Prijatie 221/357, časové rozlíšenie 357/384, a do výnosov sa rozpúšťa postupne (384/694) vo výške ročného odpisu; aby výnos vecne a časovo zodpovedal odpisu krytého majetku",
+        "Prijatie 221/357 a celá suma sa hneď zúčtuje do výnosov (357/694), pretože transfer je jednorazový príjem obdobia",
+        "Prijatie 042/321, časové rozlíšenie cez 388, a do výnosov sa rozpúšťa vo výške istiny záväzku voči zriaďovateľovi",
+        "Prijatie 221/357, časové rozlíšenie 357/384, a do výnosov sa rozpúšťa vo výške 1/5 ročne bez väzby na odpis majetku"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Prijatie 221/357, časové rozlíšenie 357/384, a do výnosov sa rozpúšťa postupne (384/694, resp. 692 u transferu z rozpočtu obce) presne vo výške ročného odpisu majetku. Naraz nejde, aby výnos vecne a časovo zodpovedal odpisu krytého majetku – inak by VH bol skreslený."
+    },
+    {
+      "otazka": "Na ktorých účtoch obec účtuje daňové výnosy a pohľadávky z nich?",
+      "odpoved": "Daňové výnosy samosprávy (podielové aj miestne dane) na účte 632; pohľadávky z daňových príjmov na 319, z nedaňových príjmov na 318. Predpis dane: 319/632, inkaso 221/319.",
+      "moznosti": [
+        "Daňové výnosy na účte 602; pohľadávky z daňových príjmov na 311, z nedaňových na 315",
+        "Daňové výnosy na účte 682; pohľadávky z daňových príjmov na 378, z nedaňových na 379",
+        "Daňové výnosy na účte 632; pohľadávky z daňových príjmov na 319, z nedaňových na 318. Predpis dane 319/632, inkaso 221/319",
+        "Daňové výnosy na účte 691; pohľadávky z daňových príjmov na 318, z nedaňových na 319. Predpis dane 318/691"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Daňové výnosy samosprávy (podielové aj miestne dane) na účte 632; pohľadávky z daňových príjmov na 319, z nedaňových príjmov na 318. Predpis dane: 319/632, inkaso 221/319."
+    },
+    {
+      "otazka": "Ako sa účtuje odvod rozpočtových príjmov RO?",
+      "odpoved": "Predpis odvodu je nákladom: 588 – Náklady z odvodu príjmov / 351 – Zúčtovanie odvodov príjmov RO do rozpočtu zriaďovateľa. Úhrada odvodu: 351 / 221 (alebo účet ŠP).",
+      "moznosti": [
+        "Predpis odvodu je výnosom: 632 / 351; úhrada odvodu 221 / 351",
+        "Predpis odvodu je nákladom: 588 – Náklady z odvodu príjmov / 351 – Zúčtovanie odvodov príjmov RO. Úhrada odvodu: 351 / 221 (alebo účet ŠP)",
+        "Predpis odvodu znižuje výnos: 691 / 355; úhrada odvodu 355 / 224",
+        "Predpis odvodu je nákladom: 584 / 351; úhrada odvodu 351 / 225 cez Štátnu pokladnicu"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Predpis odvodu je nákladom: 588 – Náklady z odvodu príjmov / 351 – Zúčtovanie odvodov príjmov RO do rozpočtu zriaďovateľa. Úhrada odvodu: 351 / 221 (alebo účet ŠP)."
+    },
+    {
+      "otazka": "Aké výnosové účty pre transfery používajú štátne RO/PO a aké samospráva?",
+      "odpoved": "Štátne RO/PO: 681 (bežné zo ŠR), 682 (kapitálové zo ŠR), 683 (bežné od ostatných subjektov VS), 684 (kapitálové od ostatných subjektov VS). Samospráva a jej RO/PO: 691/692 (bežné/kapitálové z rozpočtu obce alebo VÚC), 693/694 (bežné/kapitálové zo ŠR a od iných subjektov VS u samosprávy).",
+      "moznosti": [
+        "Štátne RO/PO: 691/692/693/694; samospráva: 681/682/683/684",
+        "Štátne RO/PO: 602/632; samospráva: 691/692 pre všetky druhy transferov bez ďalšieho členenia",
+        "Štátne RO/PO: 681/682 (zo ŠR), 683/684 (od ostatných subjektov VS); samospráva a jej RO/PO: 691/692 (z rozpočtu obce/VÚC), 693/694 (zo ŠR a od iných subjektov VS)",
+        "Štátne RO/PO: 681 pre bežné aj kapitálové transfery; samospráva: 632 pre všetky transfery"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Štátne RO/PO: 681 (bežné zo ŠR), 682 (kapitálové zo ŠR), 683 (bežné od ostatných subjektov VS), 684 (kapitálové od ostatných subjektov VS). Samospráva a jej RO/PO: 691/692 (bežné/kapitálové z rozpočtu obce alebo VÚC), 693/694 (bežné/kapitálové zo ŠR a od iných subjektov VS u samosprávy)."
+    },
+    {
+      "otazka": "V čom sa líši účtovný VH obce od prebytku/schodku jej rozpočtu?",
+      "odpoved": "Účtovný VH je akruálny (výnosy − náklady, zahŕňa aj odpisy, OP, rezervy, časové rozlíšenie) a zisťuje sa v účtovnej závierke. Rozpočtový prebytok/schodok je rozdiel rozpočtových príjmov a výdavkov z plnenia rozpočtu (FIN 1-12) a vykazuje sa v záverečnom účte. Spravidla sa nerovnajú.",
+      "moznosti": [
+        "Sú totožné – účtovný VH aj rozpočtový prebytok/schodok sa zisťujú z plnenia rozpočtu vo výkaze FIN 1-12",
+        "Účtovný VH sa zisťuje z plnenia rozpočtu (FIN 1-12), rozpočtový prebytok je akruálny rozdiel výnosov a nákladov zo závierky",
+        "Účtovný VH je akruálny rozdiel výnosov a nákladov (vrátane odpisov, OP, rezerv, časového rozlíšenia) zo závierky; rozpočtový prebytok/schodok je rozdiel rozpočtových príjmov a výdavkov (FIN 1-12) v záverečnom účte; spravidla sa nerovnajú",
+        "Účtovný VH zahŕňa len peňažné príjmy a výdavky, rozpočtový prebytok zahŕňa aj odpisy a rezervy; obe čísla sú spravidla rovnaké"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Účtovný VH je akruálny (výnosy − náklady, zahŕňa aj odpisy, OP, rezervy, časové rozlíšenie) a zisťuje sa v účtovnej závierke. Rozpočtový prebytok/schodok je rozdiel rozpočtových príjmov a výdavkov z plnenia rozpočtu (FIN 1-12) a vykazuje sa v záverečnom účte. Spravidla sa nerovnajú."
+    },
+    {
+      "otazka": "Tvorí RO opravné položky a rezervy ako PO?",
+      "odpoved": "PO áno – pracuje s OP (558/39x) a rezervami (5xx/323, 451/459) ako podnikateľ, lebo má vlastný hospodársky výsledok. RO ich tvorí veľmi obmedzene, keďže je rozpočtovo zviazaná a jej VH je rozpočtovo neutrálny.",
+      "moznosti": [
+        "RO aj PO tvoria OP a rezervy v rovnakom rozsahu, lebo obe majú vlastný hospodársky výsledok",
+        "PO áno – pracuje s OP (558/39x) a rezervami (5xx/323, 451/459) ako podnikateľ; RO ich tvorí veľmi obmedzene, keďže je rozpočtovo zviazaná a jej VH je rozpočtovo neutrálny",
+        "RO áno a PO nie – PO je napojená brutto, takže nemôže vykazovať záporný výsledok ani tvoriť OP",
+        "Ani RO ani PO netvoria OP a rezervy, lebo verejné účtovníctvo nepozná zásadu opatrnosti"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "PO áno – pracuje s OP (558/39x) a rezervami (5xx/323, 451/459) ako podnikateľ, lebo má vlastný hospodársky výsledok. RO ich tvorí veľmi obmedzene, keďže je rozpočtovo zviazaná a jej VH je rozpočtovo neutrálny."
+    }
   ],
   "pasce_caste_chyby": [
     "Zamieňať RO a PO – RO je napojená brutto (príjmy aj výdavky) a príjmy odvádza, PO len príspevkom a vlastné výnosy si necháva.",
@@ -82,32 +376,144 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Príspevková organizácia je na rozpočet zriaďovateľa napojená:", "moznosti": ["príjmami aj výdavkami (brutto)", "príspevkom – rozdielom (netto)", "vôbec, je úplne samostatná", "len kapitálovým transferom"], "spravna_index": 1, "vysvetlenie": "PO je napojená príspevkom (netto); vlastnými tržbami kryje menej ako 50 % nákladov a zvyšok dorovná zriaďovateľ. Brutto napojenie (príjmy aj výdavky) má RO."},
-      {"otazka": "Predpis odvodu rozpočtových príjmov RO do rozpočtu zriaďovateľa sa účtuje:", "moznosti": ["221 / 632", "588 / 351", "351 / 221", "691 / 355"], "spravna_index": 1, "vysvetlenie": "Predpis odvodu je pre RO nákladom: 588 – Náklady z odvodu príjmov / 351 – Zúčtovanie odvodov príjmov RO. Úhrada odvodu je následne 351 / 221."},
-      {"otazka": "Rozpustenie kapitálového transferu zo ŠR do výnosov u obce vo väzbe na odpis majetku sa účtuje:", "moznosti": ["221 / 357", "357 / 384", "384 / 694", "551 / 081"], "spravna_index": 2, "vysvetlenie": "Z účtu 384 (výnosy budúcich období) sa transfer rozpúšťa do výnosov 694 vo výške ročného odpisu. 551/081 je samotný odpis, 221/357 prijatie, 357/384 prvotné časové rozlíšenie."},
-      {"otazka": "Daňový výnos obce z miestnej dane sa účtuje na účte:", "moznosti": ["602", "632", "691", "682"], "spravna_index": 1, "vysvetlenie": "632 – Daňové výnosy samosprávy zachytáva podielové aj miestne dane obce; predpis je 319/632."},
-      {"otazka": "Výnosy z bežných transferov zo štátneho rozpočtu v štátnej rozpočtovej organizácii sa účtujú na účte:", "moznosti": ["691", "681", "693", "632"], "spravna_index": 1, "vysvetlenie": "Štátne RO/PO účtujú výnosy z bežných transferov zo ŠR na 681 (kapitálové na 682). Účty 691/693 patria samospráve (691 z rozpočtu obce/VÚC, 693 samosprávy zo ŠR)."},
-      {"otazka": "Ktorá účtová skupina slúži na zúčtovanie vzťahov medzi subjektmi verejnej správy?", "moznosti": ["skupina 22", "skupina 35", "skupina 58", "skupina 68"], "spravna_index": 1, "vysvetlenie": "Skupina 35 – Zúčtovanie medzi subjektmi verejnej správy (medziúčet pre tok prostriedkov). 58 = náklady na transfery/odvod, 68/69 = výnosy z transferov, 22 = účty v bankách."}
+      {
+        "otazka": "Príspevková organizácia je na rozpočet zriaďovateľa napojená:",
+        "moznosti": [
+          "príjmami aj výdavkami (brutto)",
+          "príspevkom – rozdielom (netto)",
+          "vôbec, je úplne samostatná",
+          "len kapitálovým transferom"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "PO je napojená príspevkom (netto); vlastnými tržbami kryje menej ako 50 % nákladov a zvyšok dorovná zriaďovateľ. Brutto napojenie (príjmy aj výdavky) má RO."
+      },
+      {
+        "otazka": "Predpis odvodu rozpočtových príjmov RO do rozpočtu zriaďovateľa sa účtuje:",
+        "moznosti": [
+          "221 / 632",
+          "588 / 351",
+          "351 / 221",
+          "691 / 355"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Predpis odvodu je pre RO nákladom: 588 – Náklady z odvodu príjmov / 351 – Zúčtovanie odvodov príjmov RO. Úhrada odvodu je následne 351 / 221."
+      },
+      {
+        "otazka": "Rozpustenie kapitálového transferu zo ŠR do výnosov u obce vo väzbe na odpis majetku sa účtuje:",
+        "moznosti": [
+          "221 / 357",
+          "357 / 384",
+          "384 / 694",
+          "551 / 081"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Z účtu 384 (výnosy budúcich období) sa transfer rozpúšťa do výnosov 694 vo výške ročného odpisu. 551/081 je samotný odpis, 221/357 prijatie, 357/384 prvotné časové rozlíšenie."
+      },
+      {
+        "otazka": "Daňový výnos obce z miestnej dane sa účtuje na účte:",
+        "moznosti": [
+          "602",
+          "632",
+          "691",
+          "682"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "632 – Daňové výnosy samosprávy zachytáva podielové aj miestne dane obce; predpis je 319/632."
+      },
+      {
+        "otazka": "Výnosy z bežných transferov zo štátneho rozpočtu v štátnej rozpočtovej organizácii sa účtujú na účte:",
+        "moznosti": [
+          "691",
+          "681",
+          "693",
+          "632"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Štátne RO/PO účtujú výnosy z bežných transferov zo ŠR na 681 (kapitálové na 682). Účty 691/693 patria samospráve (691 z rozpočtu obce/VÚC, 693 samosprávy zo ŠR)."
+      },
+      {
+        "otazka": "Ktorá účtová skupina slúži na zúčtovanie vzťahov medzi subjektmi verejnej správy?",
+        "moznosti": [
+          "skupina 22",
+          "skupina 35",
+          "skupina 58",
+          "skupina 68"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Skupina 35 – Zúčtovanie medzi subjektmi verejnej správy (medziúčet pre tok prostriedkov). 58 = náklady na transfery/odvod, 68/69 = výnosy z transferov, 22 = účty v bankách."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite mechanizmus časového rozlíšenia kapitálového transferu na obstaranie majetku a jeho dopad na výsledok hospodárenia.", "vzorova_odpoved": "Prijatý kapitálový transfer sa nezúčtuje do výnosov naraz: 221/357 (prijatie), 357/384 (časové rozlíšenie do výnosov budúcich období). Obstaraný majetok sa odpisuje (551/081) a súčasne sa každý rok z účtu 384 rozpustí do výnosov (384/694, resp. 692) presne výška ročného odpisu. Náklad (odpis) a výnos (rozpustenie) sa tak v každom roku vyrušia, takže dopad na účtovný VH je neutrálny – výnos vecne a časovo zodpovedá spotrebe majetku."},
-      {"otazka": "Porovnajte financovanie RO a PO a uveďte, ako sa to prejaví v ich účtovníctve.", "vzorova_odpoved": "RO je napojená brutto: výdavky limitované rozpočtom, príjmy odvádza zriaďovateľovi (588/351), hospodári cez 224/225 (štát) alebo 221 (obec/VÚC); jej účtovný VH je blízky nule. PO je napojená netto: dostáva príspevok (bežný transfer do výnosov 691/681, kapitálový cez 384), vlastné výnosy si necháva (kryje menej ako 50 % nákladov), môže mať kladný/záporný VH a tvorí fondy, OP a rezervy."},
-      {"otazka": "Ako obec účtuje daňové a nedaňové príjmy a aký je rozdiel medzi účtovným VH a rozpočtovým výsledkom obce?", "vzorova_odpoved": "Daňové príjmy: predpis 319/632 (632 = daňové výnosy samosprávy), inkaso 221/319. Nedaňové príjmy: predpis 318/príslušný výnos, inkaso 221/318. Účtovný VH je akruálny rozdiel výnosov a nákladov (vrátane odpisov, OP, rezerv, časového rozlíšenia) zo závierky; rozpočtový prebytok/schodok je rozdiel rozpočtových príjmov a výdavkov z plnenia rozpočtu (FIN 1-12) v záverečnom účte. Tieto dve čísla sa spravidla líšia."}
+      {
+        "otazka": "Vysvetlite mechanizmus časového rozlíšenia kapitálového transferu na obstaranie majetku a jeho dopad na výsledok hospodárenia.",
+        "vzorova_odpoved": "Prijatý kapitálový transfer sa nezúčtuje do výnosov naraz: 221/357 (prijatie), 357/384 (časové rozlíšenie do výnosov budúcich období). Obstaraný majetok sa odpisuje (551/081) a súčasne sa každý rok z účtu 384 rozpustí do výnosov (384/694, resp. 692) presne výška ročného odpisu. Náklad (odpis) a výnos (rozpustenie) sa tak v každom roku vyrušia, takže dopad na účtovný VH je neutrálny – výnos vecne a časovo zodpovedá spotrebe majetku."
+      },
+      {
+        "otazka": "Porovnajte financovanie RO a PO a uveďte, ako sa to prejaví v ich účtovníctve.",
+        "vzorova_odpoved": "RO je napojená brutto: výdavky limitované rozpočtom, príjmy odvádza zriaďovateľovi (588/351), hospodári cez 224/225 (štát) alebo 221 (obec/VÚC); jej účtovný VH je blízky nule. PO je napojená netto: dostáva príspevok (bežný transfer do výnosov 691/681, kapitálový cez 384), vlastné výnosy si necháva (kryje menej ako 50 % nákladov), môže mať kladný/záporný VH a tvorí fondy, OP a rezervy."
+      },
+      {
+        "otazka": "Ako obec účtuje daňové a nedaňové príjmy a aký je rozdiel medzi účtovným VH a rozpočtovým výsledkom obce?",
+        "vzorova_odpoved": "Daňové príjmy: predpis 319/632 (632 = daňové výnosy samosprávy), inkaso 221/319. Nedaňové príjmy: predpis 318/príslušný výnos, inkaso 221/318. Účtovný VH je akruálny rozdiel výnosov a nákladov (vrátane odpisov, OP, rezerv, časového rozlíšenia) zo závierky; rozpočtový prebytok/schodok je rozdiel rozpočtových príjmov a výdavkov z plnenia rozpočtu (FIN 1-12) v záverečnom účte. Tieto dve čísla sa spravidla líšia."
+      }
     ],
     "priklad": [
-      {"zadanie": "Mestská PO počas roka: (a) dostala bežný transfer od obce 40 000 € a celý ho spotrebovala; (b) dostala kapitálový transfer od obce 60 000 € na stroj odpisovaný 10 rokov (ročný odpis 6 000 €); (c) k pohľadávke 3 000 € po splatnosti vytvorila 100 % opravnú položku. Uveďte hlavné zápisy a dopad na účtovný VH za 1. rok.", "riesenie": "(a) 221/355 40 000; spotreba 5xx 40 000; zúčtovanie do výnosov 355/691 40 000 → dopad na VH 0. (b) 221/355 60 000; 355/384 60 000 (časové rozlíšenie); zaradenie stroja 021/042; odpis 551/081 6 000; rozpustenie transferu 384/692 6 000 → dopad na VH 0; na 384 zostáva 54 000 €. (c) tvorba OP 558/391 3 000 → znižuje VH o 3 000 €. Celkový dopad na účtovný VH 1. roka: −3 000 € (z OP), transfery sú neutrálne."}
+      {
+        "zadanie": "Mestská PO počas roka: (a) dostala bežný transfer od obce 40 000 € a celý ho spotrebovala; (b) dostala kapitálový transfer od obce 60 000 € na stroj odpisovaný 10 rokov (ročný odpis 6 000 €); (c) k pohľadávke 3 000 € po splatnosti vytvorila 100 % opravnú položku. Uveďte hlavné zápisy a dopad na účtovný VH za 1. rok.",
+        "riesenie": "(a) 221/355 40 000; spotreba 5xx 40 000; zúčtovanie do výnosov 355/691 40 000 → dopad na VH 0. (b) 221/355 60 000; 355/384 60 000 (časové rozlíšenie); zaradenie stroja 021/042; odpis 551/081 6 000; rozpustenie transferu 384/692 6 000 → dopad na VH 0; na 384 zostáva 54 000 €. (c) tvorba OP 558/391 3 000 → znižuje VH o 3 000 €. Celkový dopad na účtovný VH 1. roka: −3 000 € (z OP), transfery sú neutrálne."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Opatrenie MF SR č. MF/014454/2022-36 z 12. 12. 2022 (opatrenie 13/2022 FS, oznámenie 484/2022 Z. z.) – postupy účtovania a rámcová účtová osnova pre obce, VÚC a nimi zriadené RO/PO (od 1. 1. 2023; novela MF/014915/2023-361 od 1. 1. 2024)", "kde": "https://www.aspi.sk/products/lawText/1/99817/1/2", "typ": "primárny"},
-    {"nazov": "Opatrenie MF SR č. MF/14522/2022-36 zo 7. 12. 2022 (opatrenie 12/2022 FS) – postupy účtovania pre štátne RO, PO a štátne účelové fondy (od 1. 1. 2023; novela MF/13953/2023-361 / oznámenie 499/2023 Z. z. od 1. 1. 2024)", "kde": "https://www.aspi.sk/products/lawText/1/99816/1/2", "typ": "primárny"},
-    {"nazov": "Opatrenie MF SR č. MF/25755/2007-31 v znení MF/13542/2023-36 – individuálna účtovná závierka RO, PO, ŠF, obcí a VÚC (úplné znenie od 1. 1. 2024)", "kde": "https://www.mfsr.sk/sk/financie/statne-vykaznictvo/legislativa/individualna-uctovna-zavierka-ropo-obci-vuc-statnych-fondov/", "typ": "primárny"},
-    {"nazov": "Zákon č. 523/2004 Z. z. o rozpočtových pravidlách verejnej správy (§ 21, § 24 – vymedzenie RO a PO, financovanie)", "kde": "https://www.slov-lex.sk/ezbierky-fe/pravne-predpisy/SK/ZZ/2004/523/", "typ": "primárny"},
-    {"nazov": "Zákon č. 583/2004 Z. z. o rozpočtových pravidlách územnej samosprávy; zákon č. 369/1990 Zb. o obecnom zriadení", "kde": "https://www.slov-lex.sk/", "typ": "primárny"},
-    {"nazov": "Referenčný súbor – ROPO postupy a závierka (presné identifikátory opatrení, účty 35x/58x/68x/69x, 588/351, 318/319/632, súčasti závierky, rozpočtová klasifikácia, FIN výkazy)", "kde": "01_Zdroje/Postupy_uctovania/ROPO_postupy_a_zavierka_REFERENCIA.md", "typ": "web/overené"},
-    {"nazov": "Interný výskumný podklad – verejný sektor RO, PO, obce (účty 35x, 58x, 68x/69x, 588/351, 318/319, 632)", "kde": "01_Zdroje/Vyskum_web/verejny_sektor_RO_PO_obce.md", "typ": "web/overené"},
-    {"nazov": "VSSR – účtovné súvzťažnosti IÚZ 2024 ROPO: účty 588, 351, 632, 318, 682, 684, 691, 693", "kde": "https://www.vssr.sk/uctovne-suvztaznosti/ucet-588-naklady-z-odvodu-prijmov-iou-2024-ropo.htm", "typ": "web/overené"},
-    {"nazov": "EPI – Účtovanie bežných a kapitálových transferov (357/384/694, 551/081) v štátnej správe a samospráve", "kde": "https://www.epi.sk/odborny-clanok/1-uctovanie-beznych-a-kapitalovych-transferov.htm", "typ": "web/overené"},
-    {"nazov": "Kordošová, M. (2024): Účtovníctvo rozpočtových organizácií, príspevkových organizácií a obcí", "kde": "učebnica (odporúčaná literatúra)", "typ": "učebnica"}
+    {
+      "nazov": "Opatrenie MF SR č. MF/014454/2022-36 z 12. 12. 2022 (opatrenie 13/2022 FS, oznámenie 484/2022 Z. z.) – postupy účtovania a rámcová účtová osnova pre obce, VÚC a nimi zriadené RO/PO (od 1. 1. 2023; novela MF/014915/2023-361 od 1. 1. 2024)",
+      "kde": "https://www.aspi.sk/products/lawText/1/99817/1/2",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Opatrenie MF SR č. MF/14522/2022-36 zo 7. 12. 2022 (opatrenie 12/2022 FS) – postupy účtovania pre štátne RO, PO a štátne účelové fondy (od 1. 1. 2023; novela MF/13953/2023-361 / oznámenie 499/2023 Z. z. od 1. 1. 2024)",
+      "kde": "https://www.aspi.sk/products/lawText/1/99816/1/2",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Opatrenie MF SR č. MF/25755/2007-31 v znení MF/13542/2023-36 – individuálna účtovná závierka RO, PO, ŠF, obcí a VÚC (úplné znenie od 1. 1. 2024)",
+      "kde": "https://www.mfsr.sk/sk/financie/statne-vykaznictvo/legislativa/individualna-uctovna-zavierka-ropo-obci-vuc-statnych-fondov/",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Zákon č. 523/2004 Z. z. o rozpočtových pravidlách verejnej správy (§ 21, § 24 – vymedzenie RO a PO, financovanie)",
+      "kde": "https://www.slov-lex.sk/ezbierky-fe/pravne-predpisy/SK/ZZ/2004/523/",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Zákon č. 583/2004 Z. z. o rozpočtových pravidlách územnej samosprávy; zákon č. 369/1990 Zb. o obecnom zriadení",
+      "kde": "https://www.slov-lex.sk/",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Referenčný súbor – ROPO postupy a závierka (presné identifikátory opatrení, účty 35x/58x/68x/69x, 588/351, 318/319/632, súčasti závierky, rozpočtová klasifikácia, FIN výkazy)",
+      "kde": "01_Zdroje/Postupy_uctovania/ROPO_postupy_a_zavierka_REFERENCIA.md",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Interný výskumný podklad – verejný sektor RO, PO, obce (účty 35x, 58x, 68x/69x, 588/351, 318/319, 632)",
+      "kde": "01_Zdroje/Vyskum_web/verejny_sektor_RO_PO_obce.md",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "VSSR – účtovné súvzťažnosti IÚZ 2024 ROPO: účty 588, 351, 632, 318, 682, 684, 691, 693",
+      "kde": "https://www.vssr.sk/uctovne-suvztaznosti/ucet-588-naklady-z-odvodu-prijmov-iou-2024-ropo.htm",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "EPI – Účtovanie bežných a kapitálových transferov (357/384/694, 551/081) v štátnej správe a samospráve",
+      "kde": "https://www.epi.sk/odborny-clanok/1-uctovanie-beznych-a-kapitalovych-transferov.htm",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Kordošová, M. (2024): Účtovníctvo rozpočtových organizácií, príspevkových organizácií a obcí",
+      "kde": "učebnica (odporúčaná literatúra)",
+      "typ": "učebnica"
+    }
   ]
 }

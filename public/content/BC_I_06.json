@@ -28,44 +28,325 @@
     "cielova_dlzka_slov": 1400,
     "uvod": "Zúčtovacie vzťahy tvoria účtovú triedu 3 a zachytávajú krátkodobé pohľadávky a záväzky účtovnej jednotky voči jej okoliu – odberateľom, dodávateľom, zamestnancom, Sociálnej a zdravotným poisťovniam, daňovému úradu a spoločníkom. Sú to vzťahy, kde firma niekomu dlhuje alebo jej niekto dlhuje. Oceňujú sa menovitou hodnotou pri vzniku; pri riziku nezaplatenia sa zníženie hodnoty pohľadávky vyjadrí opravnou položkou. Ťažiskom tézy je mzdová oblasť, lebo práve mzdy generujú najviac zúčtovacích vzťahov: voči zamestnancom (331, 333, 335), voči poisťovniam (336) a voči daňovému úradu (342). Na to nadväzuje pracovnoprávny rámec – povinnosti zamestnávateľa pri vzniku a zániku pracovného pomeru, špecifiká dohôd a výpočty náhrad (PN, OČR, dovolenka) a odstupného a odchodného.",
     "casti": [
-      {"nadpis": "Obsah a štruktúra účtovej triedy 3", "text": "Trieda 3 zahŕňa: pohľadávky (skupina 31 – 311 Odberatelia, 314 Poskytnuté preddavky, 315 Ostatné pohľadávky), záväzky (skupina 32 – 321 Dodávatelia, 323 Krátkodobé rezervy, 324 Prijaté preddavky, 326 Nevyfakturované dodávky), zúčtovanie so zamestnancami a poisťovňami (skupina 33), zúčtovanie daní a dotácií (skupina 34 – 341 Daň z príjmov ÚJ, 342 Ostatné priame dane, 343 DPH, 345 Ostatné dane, 346/347 Dotácie), vzťahy so spoločníkmi (35 pohľadávky, 36 záväzky), iné pohľadávky a záväzky (37), časové rozlíšenie (38) a opravnú položku k pohľadávkam (391). Spoločná logika: účty pohľadávok majú aktívny zostatok (na strane MD), účty záväzkov pasívny (na strane D). Analytická evidencia sa vedie podľa partnerov (dodávateľov, odberateľov, zamestnancov)."},
-      {"nadpis": "Obchodné pohľadávky a záväzky (311, 321) a ich oceňovanie", "text": "Na účte 311 – Odberatelia sa účtuje pohľadávka pri splnení dodávky odberateľovi (311/6xx výnos, resp. 311/343 DPH). Na účte 321 – Dodávatelia sa účtuje záväzok pri jeho vzniku (5xx alebo majetkový účet / 321, plus 343/321 pri odpočte DPH). Tá istá faktúra je teda u jednej strany pohľadávkou (311) a u druhej záväzkom (321). Oceňovanie: pohľadávky aj záväzky sa oceňujú MENOVITOU hodnotou pri vzniku; pohľadávky nadobudnuté postúpením obstarávacou cenou. Pohľadávky a záväzky v cudzej mene sa ku dňu zostavenia účtovnej závierky prepočítavajú referenčným kurzom ECB – vzniká kurzový rozdiel (563/A alebo A/663). Riziko nevymožiteľnosti pohľadávky sa rieši nepriamo opravnou položkou (547/391 alebo 553/391), nie znížením menovitej hodnoty; trvalé nevymoženie sa rieši odpisom pohľadávky (546)."},
-      {"nadpis": "Mzda: tri sumy a ich zaúčtovanie (331, 336, 342)", "text": "Pri mzde rozlišujeme HRUBÚ mzdu, ČISTÚ mzdu a CENU práce. Hrubá mzda je náklad zamestnávateľa: 521 – Mzdové náklady / 331 – Zamestnanci. Z hrubej mzdy sa zamestnancovi strhávajú jeho odvody (2026: sociálne 9,4 % + zdravotné 5 % = 14,4 %) a preddavok na daň – obe znižujú jeho záväzok 331: odvody zamestnanca 331/336, preddavok dane 331/342. Odvody ZAMESTNÁVATEĽA (2026: sociálne 25,2 % + zdravotné 11 %) sú samostatný náklad navyše: 524 – Zákonné sociálne poistenie / 336. To, čo zamestnancovi reálne ostane (čistá mzda), sa vyplatí: 331/221 (z bankového účtu) alebo 331/211 (z pokladnice). Záväzky voči poisťovniam a daňovému úradu sa následne uhradia 336/221 a 342/221. Cena práce = hrubá mzda + odvody zamestnávateľa."},
-      {"nadpis": "Ďalšie mzdové účty: 333, 335, 366", "text": "Účet 333 – Ostatné záväzky voči zamestnancom slúži na nemzdové záväzky, typicky náhradu cestovných výdavkov (333/211 výplata, 512/333 náklad na cestovné). Účet 335 – Pohľadávky voči zamestnancom zachytáva napr. poskytnuté preddavky na pracovnú cestu (335/211), preddavky na vyúčtovanie či uplatnenú náhradu škody voči zamestnancovi (335/648). Účet 366 – Záväzky voči spoločníkom a členom zo závislej činnosti sa používa namiesto 331, ak ide o odmenu spoločníka/konateľa za prácu pre spoločnosť (jeho mzdové záväzky 366, nie 331); 365 – Ostatné záväzky voči spoločníkom (napr. podiel na zisku, pôžička od spoločníka)."},
-      {"nadpis": "Povinnosti zamestnávateľa pri vzniku pracovného pomeru", "text": "Pred vznikom pracovnoprávneho vzťahu musí zamestnávateľ uzatvoriť písomnú pracovnú zmluvu (§ 42–43 ZP: druh práce, miesto, deň nástupu, mzdové podmienky). Registračné povinnosti: do Sociálnej poisťovne sa zamestnanec prihlasuje Registračným listom FO PRED vznikom poistenia, najneskôr deň pred začatím výkonu činnosti; do zdravotnej poisťovne najneskôr do 8 pracovných dní od nástupu (elektronicky). Sám zamestnávateľ ako nový subjekt sa do SP musí registrovať do 8 dní od prijatia prvého zamestnanca. Nesplnenie hrozí pokutou (SP, inšpektorát práce – nelegálne zamestnávanie až 200 000 €). Pri vzniku pracovného pomeru tak vznikajú zúčtovacie vzťahy 331, 336 a 342."},
-      {"nadpis": "Povinnosti pri zániku pracovného pomeru", "text": "Pri skončení pracovného pomeru zamestnávateľ vykoná vyúčtovanie mzdy a náhrad (vrátane nevyčerpanej dovolenky), prípadne vyplatí odstupné/odchodné, vydá zamestnancovi potvrdenie o zamestnaní (zápočtový list) a na požiadanie potvrdenie o zdaniteľných príjmoch. Odhlásenie: zo Sociálnej poisťovne najneskôr v deň nasledujúci po zániku poistenia, zo zdravotnej poisťovne do 8 pracovných dní. Spôsoby skončenia: dohodou (§ 60), výpoveďou (§ 61–62 + výpovedná doba), okamžitým skončením (§ 68–69), skončením v skúšobnej dobe (§ 72), uplynutím doby určitej."},
-      {"nadpis": "Špecifiká dohôd o prácach mimo pracovného pomeru (§ 223–228a)", "text": "ZP umožňuje výnimočne uzavrieť tri dohody: (1) Dohoda o vykonaní práce (§ 226) – práca vymedzená VÝSLEDKOM, max 350 hodín u jedného zamestnávateľa za rok; (2) Dohoda o pracovnej činnosti (§ 228a) – práca vymedzená DRUHOM, max 10 hodín týždenne (sezónna práca až 520 hodín ročne); (3) Dohoda o brigádnickej práci študenta (§ 227) – len pre žiaka SŠ/denného študenta VŠ do konca roka, v ktorom dovŕši 26 rokov, max 20 hodín týždenne v priemere. Odvody: bežná dohoda podlieha sociálnemu aj zdravotnému poisteniu podobne ako pracovný pomer; dôchodca-dohodár a študent-dohodár majú výhody. Študent si môže uplatniť odvodovú odpočítateľnú položku (zníži VZ na dôchodkové poistenie) a jeho príjem z DoBPŠ nepodlieha zdravotným odvodom. Odmena z dohody sa účtuje rovnako ako mzda – cez 521/331 (resp. 331/336, 331/342)."},
-      {"nadpis": "Náhrada príjmu pri PN a ošetrovné (OČR)", "text": "Pri dočasnej pracovnej neschopnosti (PN) hradí prvé obdobie zamestnávateľ formou náhrady príjmu, potom Sociálna poisťovňa nemocenské. V roku 2025: dni 1–3 vo výške 25 % DVZ, dni 4–10 vo výške 55 % DVZ, od 11. dňa nemocenské zo SP (55 % DVZ). OD 1. 1. 2026 sa obdobie platené zamestnávateľom predĺžilo z 10 na 14 dní: dni 1–3 = 25 % DVZ, dni 4–14 = 55 % DVZ, nemocenské zo SP až od 15. dňa. DVZ = denný vymeriavací základ (vymeriavací základ za rozhodujúce obdobie / počet dní). Ošetrovné (OČR) vypláca Sociálna poisťovňa vo výške 55 % DVZ; krátkodobé OČR najviac 14 dní. Náhrada príjmu pri PN sa u zamestnávateľa účtuje ako náklad 527 – Zákonné sociálne náklady / 331."},
-      {"nadpis": "Náhrada mzdy za dovolenku, odstupné a odchodné", "text": "Základná výmera dovolenky je najmenej 4 týždne, najmenej 5 týždňov pre zamestnanca, ktorý do konca roka dovŕši 33 rokov (alebo sa trvalo stará o dieťa), a najmenej 8 týždňov pre pedagógov, výskumných a vysokoškolských pracovníkov. Za čerpanú dovolenku patrí náhrada mzdy vo výške 100 % priemerného zárobku (521/331 ako pri mzde). Odstupné (§ 76) patrí pri výpovedi/dohode z organizačných dôvodov, nadbytočnosti alebo straty zdravotnej spôsobilosti; jeho výška rastie s dĺžkou pracovného pomeru (pri výpovedi 1–4-násobok, pri dohode o 1 stupeň viac, t. j. 1–5-násobok priemerného mesačného zárobku; pri pracovnom úraze/chorobe z povolania najmenej 10-násobok). Odchodné (§ 76a) patrí pri prvom skončení pomeru pri odchode do starobného, predčasného alebo invalidného dôchodku, najmenej vo výške 1 priemerného mesačného zárobku. Účtujú sa 527 (resp. 528) / 331 a vyplácajú 331/221."},
-      {"zaver": "Zhrnutie: trieda 3 zachytáva krátkodobé pohľadávky a záväzky oceňované menovitou hodnotou (riziko cez OP 391). Pri mzde si treba pamätať rozdiel hrubá mzda (521) → čistá mzda (331/221) cez odvody zamestnanca (331/336), daň (331/342) a odvody zamestnávateľa navyše (524/336). Pracovnoprávny rámec určuje konkrétne sumy: registračné termíny do SP a ZP, limity dohôd, percentá a dni náhrady pri PN (2025: 10 dní, 2026: 14 dní), OČR 55 % DVZ a graduované odstupné a odchodné."}
+      {
+        "nadpis": "Obsah a štruktúra účtovej triedy 3",
+        "text": "Trieda 3 zahŕňa: pohľadávky (skupina 31 – 311 Odberatelia, 314 Poskytnuté preddavky, 315 Ostatné pohľadávky), záväzky (skupina 32 – 321 Dodávatelia, 323 Krátkodobé rezervy, 324 Prijaté preddavky, 326 Nevyfakturované dodávky), zúčtovanie so zamestnancami a poisťovňami (skupina 33), zúčtovanie daní a dotácií (skupina 34 – 341 Daň z príjmov ÚJ, 342 Ostatné priame dane, 343 DPH, 345 Ostatné dane, 346/347 Dotácie), vzťahy so spoločníkmi (35 pohľadávky, 36 záväzky), iné pohľadávky a záväzky (37), časové rozlíšenie (38) a opravnú položku k pohľadávkam (391). Spoločná logika: účty pohľadávok majú aktívny zostatok (na strane MD), účty záväzkov pasívny (na strane D). Analytická evidencia sa vedie podľa partnerov (dodávateľov, odberateľov, zamestnancov)."
+      },
+      {
+        "nadpis": "Obchodné pohľadávky a záväzky (311, 321) a ich oceňovanie",
+        "text": "Na účte 311 – Odberatelia sa účtuje pohľadávka pri splnení dodávky odberateľovi (311/6xx výnos, resp. 311/343 DPH). Na účte 321 – Dodávatelia sa účtuje záväzok pri jeho vzniku (5xx alebo majetkový účet / 321, plus 343/321 pri odpočte DPH). Tá istá faktúra je teda u jednej strany pohľadávkou (311) a u druhej záväzkom (321). Oceňovanie: pohľadávky aj záväzky sa oceňujú MENOVITOU hodnotou pri vzniku; pohľadávky nadobudnuté postúpením obstarávacou cenou. Pohľadávky a záväzky v cudzej mene sa ku dňu zostavenia účtovnej závierky prepočítavajú referenčným kurzom ECB – vzniká kurzový rozdiel (563/A alebo A/663). Riziko nevymožiteľnosti pohľadávky sa rieši nepriamo opravnou položkou (547/391 alebo 553/391), nie znížením menovitej hodnoty; trvalé nevymoženie sa rieši odpisom pohľadávky (546)."
+      },
+      {
+        "nadpis": "Mzda: tri sumy a ich zaúčtovanie (331, 336, 342)",
+        "text": "Pri mzde rozlišujeme HRUBÚ mzdu, ČISTÚ mzdu a CENU práce. Hrubá mzda je náklad zamestnávateľa: 521 – Mzdové náklady / 331 – Zamestnanci. Z hrubej mzdy sa zamestnancovi strhávajú jeho odvody (2026: sociálne 9,4 % + zdravotné 5 % = 14,4 %) a preddavok na daň – obe znižujú jeho záväzok 331: odvody zamestnanca 331/336, preddavok dane 331/342. Odvody ZAMESTNÁVATEĽA (2026: sociálne 25,2 % + zdravotné 11 %) sú samostatný náklad navyše: 524 – Zákonné sociálne poistenie / 336. To, čo zamestnancovi reálne ostane (čistá mzda), sa vyplatí: 331/221 (z bankového účtu) alebo 331/211 (z pokladnice). Záväzky voči poisťovniam a daňovému úradu sa následne uhradia 336/221 a 342/221. Cena práce = hrubá mzda + odvody zamestnávateľa."
+      },
+      {
+        "nadpis": "Ďalšie mzdové účty: 333, 335, 366",
+        "text": "Účet 333 – Ostatné záväzky voči zamestnancom slúži na nemzdové záväzky, typicky náhradu cestovných výdavkov (333/211 výplata, 512/333 náklad na cestovné). Účet 335 – Pohľadávky voči zamestnancom zachytáva napr. poskytnuté preddavky na pracovnú cestu (335/211), preddavky na vyúčtovanie či uplatnenú náhradu škody voči zamestnancovi (335/648). Účet 366 – Záväzky voči spoločníkom a členom zo závislej činnosti sa používa namiesto 331, ak ide o odmenu spoločníka/konateľa za prácu pre spoločnosť (jeho mzdové záväzky 366, nie 331); 365 – Ostatné záväzky voči spoločníkom (napr. podiel na zisku, pôžička od spoločníka)."
+      },
+      {
+        "nadpis": "Povinnosti zamestnávateľa pri vzniku pracovného pomeru",
+        "text": "Pred vznikom pracovnoprávneho vzťahu musí zamestnávateľ uzatvoriť písomnú pracovnú zmluvu (§ 42–43 ZP: druh práce, miesto, deň nástupu, mzdové podmienky). Registračné povinnosti: do Sociálnej poisťovne sa zamestnanec prihlasuje Registračným listom FO PRED vznikom poistenia, najneskôr deň pred začatím výkonu činnosti; do zdravotnej poisťovne najneskôr do 8 pracovných dní od nástupu (elektronicky). Sám zamestnávateľ ako nový subjekt sa do SP musí registrovať do 8 dní od prijatia prvého zamestnanca. Nesplnenie hrozí pokutou (SP, inšpektorát práce – nelegálne zamestnávanie až 200 000 €). Pri vzniku pracovného pomeru tak vznikajú zúčtovacie vzťahy 331, 336 a 342."
+      },
+      {
+        "nadpis": "Povinnosti pri zániku pracovného pomeru",
+        "text": "Pri skončení pracovného pomeru zamestnávateľ vykoná vyúčtovanie mzdy a náhrad (vrátane nevyčerpanej dovolenky), prípadne vyplatí odstupné/odchodné, vydá zamestnancovi potvrdenie o zamestnaní (zápočtový list) a na požiadanie potvrdenie o zdaniteľných príjmoch. Odhlásenie: zo Sociálnej poisťovne najneskôr v deň nasledujúci po zániku poistenia, zo zdravotnej poisťovne do 8 pracovných dní. Spôsoby skončenia: dohodou (§ 60), výpoveďou (§ 61–62 + výpovedná doba), okamžitým skončením (§ 68–69), skončením v skúšobnej dobe (§ 72), uplynutím doby určitej."
+      },
+      {
+        "nadpis": "Špecifiká dohôd o prácach mimo pracovného pomeru (§ 223–228a)",
+        "text": "ZP umožňuje výnimočne uzavrieť tri dohody: (1) Dohoda o vykonaní práce (§ 226) – práca vymedzená VÝSLEDKOM, max 350 hodín u jedného zamestnávateľa za rok; (2) Dohoda o pracovnej činnosti (§ 228a) – práca vymedzená DRUHOM, max 10 hodín týždenne (sezónna práca až 520 hodín ročne); (3) Dohoda o brigádnickej práci študenta (§ 227) – len pre žiaka SŠ/denného študenta VŠ do konca roka, v ktorom dovŕši 26 rokov, max 20 hodín týždenne v priemere. Odvody: bežná dohoda podlieha sociálnemu aj zdravotnému poisteniu podobne ako pracovný pomer; dôchodca-dohodár a študent-dohodár majú výhody. Študent si môže uplatniť odvodovú odpočítateľnú položku (zníži VZ na dôchodkové poistenie) a jeho príjem z DoBPŠ nepodlieha zdravotným odvodom. Odmena z dohody sa účtuje rovnako ako mzda – cez 521/331 (resp. 331/336, 331/342)."
+      },
+      {
+        "nadpis": "Náhrada príjmu pri PN a ošetrovné (OČR)",
+        "text": "Pri dočasnej pracovnej neschopnosti (PN) hradí prvé obdobie zamestnávateľ formou náhrady príjmu, potom Sociálna poisťovňa nemocenské. V roku 2025: dni 1–3 vo výške 25 % DVZ, dni 4–10 vo výške 55 % DVZ, od 11. dňa nemocenské zo SP (55 % DVZ). OD 1. 1. 2026 sa obdobie platené zamestnávateľom predĺžilo z 10 na 14 dní: dni 1–3 = 25 % DVZ, dni 4–14 = 55 % DVZ, nemocenské zo SP až od 15. dňa. DVZ = denný vymeriavací základ (vymeriavací základ za rozhodujúce obdobie / počet dní). Ošetrovné (OČR) vypláca Sociálna poisťovňa vo výške 55 % DVZ; krátkodobé OČR najviac 14 dní. Náhrada príjmu pri PN sa u zamestnávateľa účtuje ako náklad 527 – Zákonné sociálne náklady / 331."
+      },
+      {
+        "nadpis": "Náhrada mzdy za dovolenku, odstupné a odchodné",
+        "text": "Základná výmera dovolenky je najmenej 4 týždne, najmenej 5 týždňov pre zamestnanca, ktorý do konca roka dovŕši 33 rokov (alebo sa trvalo stará o dieťa), a najmenej 8 týždňov pre pedagógov, výskumných a vysokoškolských pracovníkov. Za čerpanú dovolenku patrí náhrada mzdy vo výške 100 % priemerného zárobku (521/331 ako pri mzde). Odstupné (§ 76) patrí pri výpovedi/dohode z organizačných dôvodov, nadbytočnosti alebo straty zdravotnej spôsobilosti; jeho výška rastie s dĺžkou pracovného pomeru (pri výpovedi 1–4-násobok, pri dohode o 1 stupeň viac, t. j. 1–5-násobok priemerného mesačného zárobku; pri pracovnom úraze/chorobe z povolania najmenej 10-násobok). Odchodné (§ 76a) patrí pri prvom skončení pomeru pri odchode do starobného, predčasného alebo invalidného dôchodku, najmenej vo výške 1 priemerného mesačného zárobku. Účtujú sa 527 (resp. 528) / 331 a vyplácajú 331/221."
+      },
+      {
+        "zaver": "Zhrnutie: trieda 3 zachytáva krátkodobé pohľadávky a záväzky oceňované menovitou hodnotou (riziko cez OP 391). Pri mzde si treba pamätať rozdiel hrubá mzda (521) → čistá mzda (331/221) cez odvody zamestnanca (331/336), daň (331/342) a odvody zamestnávateľa navyše (524/336). Pracovnoprávny rámec určuje konkrétne sumy: registračné termíny do SP a ZP, limity dohôd, percentá a dni náhrady pri PN (2025: 10 dní, 2026: 14 dní), OČR 55 % DVZ a graduované odstupné a odchodné."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Aktuálne sadzby odvodov 2025 vs. 2026", "text": "Zamestnanec 2025: sociálne 9,4 % + zdravotné 4 % = 13,4 %. Zamestnanec 2026: sociálne 9,4 % + zdravotné 5 % = 14,4 % (zdravotné stúplo o 1 p. b.). Zamestnávateľ: sociálne 25,2 % + zdravotné 11 % = 36,2 % nad hrubú mzdu (rovnaké v 2025 aj 2026). Pozn.: zamestnávateľská nezamestnanosť je 0,5 % + financovanie podpory v čase skrátenej práce 0,5 %. Sociálne poistenie zamestnanca po fondoch: nemocenské 1,4 %, starobné 4 %, invalidné 3 %, nezamestnanosť 1 %. Maximálny mesačný vymeriavací základ pre sociálne poistenie 2026 = 16 764 € (2025 = 15 730 €); zdravotné poistenie nemá maximálny VZ. Minimálna mzda 2025 = 816 €, 2026 = 915 €."},
-    {"nadpis": "Opravná položka a odpis pohľadávky (391, 546)", "text": "Ak je pohľadávka riziková, zníženie jej hodnoty sa nevyjadrí priamo (menovitá hodnota ostáva), ale tvorbou opravnej položky: účtovne 547 – Tvorba a zúčtovanie OP / 391 – Opravné položky k pohľadávkam (v niektorých prípadoch 553/391 pre finančné OP). Pri zániku dôvodu sa OP zruší (391/547). Pri trvalom nevymožení sa pohľadávka odpíše do nákladov 546 – Odpis pohľadávky / 311 a zruší sa súvisiaca OP. Toto je prepojenie na daňový pohľad – daňová uznateľnosť OP a odpisu sa riadi § 20 a § 19 ods. 2 ZDP (časový test 360/720/1080 dní)."},
-    {"nadpis": "Cena práce – ekonomická podstata", "text": "Cena práce = hrubá mzda + odvody zamestnávateľa. Pri hrubej mzde 1 000 € v roku 2026 je odvod zamestnávateľa cca 362 € (36,2 %), takže cena práce ≈ 1 362 €. Zamestnancovi sa z 1 000 € strhne 144 € odvodov (14,4 %) a preddavok dane z upraveného základu (po NČZD a odvodoch), čistá mzda je teda výrazne nižšia než hrubá a hlboko pod cenou práce. Tento 'odvodový klin' je častou témou – ilustruje, že náklad firmy (cena práce) a čistý príjem zamestnanca sú dve rôzne čísla."},
-    {"nadpis": "Preddavok na daň zo závislej činnosti (342)", "text": "Mesačný preddavok na daň: základ = hrubá mzda − odvody zamestnanca − 1/12 nezdaniteľnej časti na daňovníka (2026 NČZD 5 966,73 €/rok, t. j. 497,23 €/mes.). Sadzba 19 % do 1/12 hranice 176,8-násobku ŽM (mesačne), nad ňu 25 %. Daňový bonus na dieťa (2026: 100 €/mes. do 15 r., 50 €/mes. 15–18 r.) sa odpočíta od preddavku. Zrazený preddavok 331/342, odvod daňovému úradu 342/221. Po skončení roka sa robí ročné zúčtovanie dane (zamestnávateľom) alebo daňové priznanie."},
-    {"nadpis": "Vzťahy so spoločníkmi a združením (35, 36)", "text": "Skupina 35 (pohľadávky) a 36 (záväzky) zachytáva vzťahy s prepojenými osobami a spoločníkmi: 353 Pohľadávky za upísané vlastné imanie (nesplatené vklady), 354 Pohľadávky voči spoločníkom pri úhrade straty, 364 Záväzky voči spoločníkom pri rozdeľovaní zisku (podiel na zisku), 365 Ostatné záväzky voči spoločníkom (napr. pôžička od spoločníka), 366 Záväzky zo závislej činnosti voči spoločníkovi (mzda konateľa), 367 Záväzky z upísaných nesplatených CP a vkladov."}
+    {
+      "nadpis": "Aktuálne sadzby odvodov 2025 vs. 2026",
+      "text": "Zamestnanec 2025: sociálne 9,4 % + zdravotné 4 % = 13,4 %. Zamestnanec 2026: sociálne 9,4 % + zdravotné 5 % = 14,4 % (zdravotné stúplo o 1 p. b.). Zamestnávateľ: sociálne 25,2 % + zdravotné 11 % = 36,2 % nad hrubú mzdu (rovnaké v 2025 aj 2026). Pozn.: zamestnávateľská nezamestnanosť je 0,5 % + financovanie podpory v čase skrátenej práce 0,5 %. Sociálne poistenie zamestnanca po fondoch: nemocenské 1,4 %, starobné 4 %, invalidné 3 %, nezamestnanosť 1 %. Maximálny mesačný vymeriavací základ pre sociálne poistenie 2026 = 16 764 € (2025 = 15 730 €); zdravotné poistenie nemá maximálny VZ. Minimálna mzda 2025 = 816 €, 2026 = 915 €."
+    },
+    {
+      "nadpis": "Opravná položka a odpis pohľadávky (391, 546)",
+      "text": "Ak je pohľadávka riziková, zníženie jej hodnoty sa nevyjadrí priamo (menovitá hodnota ostáva), ale tvorbou opravnej položky: účtovne 547 – Tvorba a zúčtovanie OP / 391 – Opravné položky k pohľadávkam (v niektorých prípadoch 553/391 pre finančné OP). Pri zániku dôvodu sa OP zruší (391/547). Pri trvalom nevymožení sa pohľadávka odpíše do nákladov 546 – Odpis pohľadávky / 311 a zruší sa súvisiaca OP. Toto je prepojenie na daňový pohľad – daňová uznateľnosť OP a odpisu sa riadi § 20 a § 19 ods. 2 ZDP (časový test 360/720/1080 dní)."
+    },
+    {
+      "nadpis": "Cena práce – ekonomická podstata",
+      "text": "Cena práce = hrubá mzda + odvody zamestnávateľa. Pri hrubej mzde 1 000 € v roku 2026 je odvod zamestnávateľa cca 362 € (36,2 %), takže cena práce ≈ 1 362 €. Zamestnancovi sa z 1 000 € strhne 144 € odvodov (14,4 %) a preddavok dane z upraveného základu (po NČZD a odvodoch), čistá mzda je teda výrazne nižšia než hrubá a hlboko pod cenou práce. Tento 'odvodový klin' je častou témou – ilustruje, že náklad firmy (cena práce) a čistý príjem zamestnanca sú dve rôzne čísla."
+    },
+    {
+      "nadpis": "Preddavok na daň zo závislej činnosti (342)",
+      "text": "Mesačný preddavok na daň: základ = hrubá mzda − odvody zamestnanca − 1/12 nezdaniteľnej časti na daňovníka (2026 NČZD 5 966,73 €/rok, t. j. 497,23 €/mes.). Sadzba 19 % do 1/12 hranice 176,8-násobku ŽM (mesačne), nad ňu 25 %. Daňový bonus na dieťa (2026: 100 €/mes. do 15 r., 50 €/mes. 15–18 r.) sa odpočíta od preddavku. Zrazený preddavok 331/342, odvod daňovému úradu 342/221. Po skončení roka sa robí ročné zúčtovanie dane (zamestnávateľom) alebo daňové priznanie."
+    },
+    {
+      "nadpis": "Vzťahy so spoločníkmi a združením (35, 36)",
+      "text": "Skupina 35 (pohľadávky) a 36 (záväzky) zachytáva vzťahy s prepojenými osobami a spoločníkmi: 353 Pohľadávky za upísané vlastné imanie (nesplatené vklady), 354 Pohľadávky voči spoločníkom pri úhrade straty, 364 Záväzky voči spoločníkom pri rozdeľovaní zisku (podiel na zisku), 365 Ostatné záväzky voči spoločníkom (napr. pôžička od spoločníka), 366 Záväzky zo závislej činnosti voči spoločníkovi (mzda konateľa), 367 Záväzky z upísaných nesplatených CP a vkladov."
+    }
   ],
   "priklady": [
-    {"nazov": "Zaúčtovanie mzdy a výpočet čistej mzdy (rok 2026)", "zadanie": "Zamestnanec má hrubú mzdu 1 200 €, podpísané vyhlásenie (uplatňuje NČZD 497,23 €/mes.), bez detí. Vypočítajte čistú mzdu a zaúčtujte (rok 2026, zdravotné zamestnanca 5 %).", "uctovanie": [{"rok": "2026", "md": "521", "d": "331", "suma": 1200, "popis": "Hrubá mzda (mzdový náklad)"}, {"rok": "2026", "md": "331", "d": "336", "suma": 173, "popis": "Odvody zamestnanca 14,4 % (sociálne 9,4 % = 112,80 + zdravotné 5 % = 60,00 ≈ 172,80)"}, {"rok": "2026", "md": "331", "d": "342", "suma": 100, "popis": "Preddavok na daň 19 % zo ZD (≈ 530,0 → 100,68)"}, {"rok": "2026", "md": "524", "d": "336", "suma": 434, "popis": "Odvody zamestnávateľa ~36,2 % (sociálne 25,2 % + zdravotné 11 %)"}, {"rok": "2026", "md": "331", "d": "221", "suma": 927, "popis": "Výplata čistej mzdy na účet"}], "riesenie": "Hrubá 1 200 €. Odvody zamestnanca 14,4 % = 172,80 €. Čiastkový ZD = 1 200 − 172,80 = 1 027,20 €. Po NČZD: 1 027,20 − 497,23 = 529,97 €. Preddavok dane 19 % = 100,69 €. Čistá mzda = 1 200 − 172,80 − 100,69 = 926,51 € (≈ 927). Cena práce = 1 200 + ~434 (odvody zamestnávateľa 36,2 %) = ~1 634 €.", "dopad_na_zd": "Náklad firmy (521 + 524) = 1 200 + 434 = 1 634 € (cena práce). Pre rok 2025 by zdravotné zamestnanca bolo 4 % (= 48 €), odvody zamestnanca 13,4 % = 160,80 €, čistá mzda mierne vyššia."},
-    {"nazov": "Náhrada príjmu pri PN (rozdiel 2025 vs. 2026)", "zadanie": "Zamestnanec je práceneschopný 20 kalendárnych dní. DVZ = 30 €. Vypočítajte náhradu od zamestnávateľa a nemocenské zo SP podľa pravidiel 2026.", "riesenie": "2026 (zamestnávateľ platí 14 dní): dni 1–3 = 25 % × 30 × 3 = 22,50 €; dni 4–14 (11 dní) = 55 % × 30 × 11 = 181,50 €; spolu náhrada od zamestnávateľa = 204,00 € (účet 527/331). Od 15. dňa nemocenské zo SP: dni 15–20 (6 dní) = 55 % × 30 × 6 = 99,00 € (vypláca SP, nie cez účtovníctvo zamestnávateľa). Podľa pravidiel 2025 by zamestnávateľ platil len do 10. dňa a od 11. dňa by hradila SP.", "dopad_na_zd": "Náklad zamestnávateľa 2026: 204 € (527). 2025: zamestnávateľ by hradil dni 1–10 = 22,50 + 55 % × 30 × 7 = 22,50 + 115,50 = 138,00 €."},
-    {"nazov": "Faktúra od dodávateľa s DPH a jej úhrada (321)", "zadanie": "Firma (platiteľ DPH) prijala faktúru za materiál 1 000 € + 23 % DPH = 1 230 €. Materiál prijala na sklad, faktúru neskôr uhradila z účtu.", "uctovanie": [{"rok": "2026", "md": "112", "d": "321", "suma": 1000, "popis": "Materiál na sklad (spôsob A) – základ"}, {"rok": "2026", "md": "343", "d": "321", "suma": 230, "popis": "DPH 23 % – nárok na odpočet"}, {"rok": "2026", "md": "321", "d": "221", "suma": 1230, "popis": "Úhrada záväzku dodávateľovi"}], "riesenie": "Záväzok 321 vzniká v menovitej hodnote 1 230 €. DPH 230 € ide na 343 (odpočet). Úhradou 321/221 sa záväzok vyrovná. U dodávateľa je tá istá faktúra pohľadávkou 311 (311/604 a 311/343).", "dopad_na_zd": "Náklad nevzniká pri obstaraní materiálu (vstupuje do zásob); ide len o zúčtovací vzťah a DPH."},
-    {"nazov": "Odstupné pri nadbytočnosti (§ 76)", "zadanie": "Zamestnanec pracoval u zamestnávateľa 7 rokov. Pracovný pomer sa skončil výpoveďou pre nadbytočnosť. Priemerný mesačný zárobok 1 500 €. Aké odstupné mu patrí a ako sa zaúčtuje?", "uctovanie": [{"rok": "2026", "md": "527", "d": "331", "suma": 3000, "popis": "Nárok na odstupné (2-násobok pri 5–10 rokoch)"}, {"rok": "2026", "md": "331", "d": "221", "suma": 3000, "popis": "Výplata odstupného (po zrazení dane a odvodov podľa pravidiel)"}], "riesenie": "Pri pracovnom pomere najmenej 5 a menej ako 10 rokov je odstupné pri výpovedi z organizačných dôvodov najmenej 2-násobok priemerného mesačného zárobku = 2 × 1 500 = 3 000 €. (Ak by pomer skončil DOHODOU z tých istých dôvodov, odstupné by bolo o stupeň vyššie – 3-násobok = 4 500 €.)", "dopad_na_zd": "Náklad zamestnávateľa 3 000 € (527). Odstupné podlieha dani zo závislej činnosti; nepodlieha sociálnym a zdravotným odvodom (nie je za vykonanú prácu)."},
-    {"nazov": "Náhrada cestovných výdavkov zamestnanca (333, 335)", "zadanie": "Zamestnancovi bol poskytnutý preddavok na pracovnú cestu 100 € (z pokladnice). Po ceste vyúčtoval výdavky 130 €.", "uctovanie": [{"rok": "2026", "md": "335", "d": "211", "suma": 100, "popis": "Poskytnutý preddavok na cestu"}, {"rok": "2026", "md": "512", "d": "333", "suma": 130, "popis": "Náklad na cestovné (nárok zamestnanca)"}, {"rok": "2026", "md": "333", "d": "335", "suma": 100, "popis": "Zúčtovanie preddavku oproti nároku"}, {"rok": "2026", "md": "333", "d": "211", "suma": 30, "popis": "Doplatenie rozdielu zamestnancovi"}], "riesenie": "Preddavok je pohľadávka 335. Vyúčtované cestovné je náklad 512 a záväzok 333 voči zamestnancovi. Preddavok sa započíta (333/335) a zvyšok 30 € sa zamestnancovi doplatí.", "dopad_na_zd": "Daňový náklad 512 do výšky nároku podľa zákona o cestovných náhradách."}
+    {
+      "nazov": "Zaúčtovanie mzdy a výpočet čistej mzdy (rok 2026)",
+      "zadanie": "Zamestnanec má hrubú mzdu 1 200 €, podpísané vyhlásenie (uplatňuje NČZD 497,23 €/mes.), bez detí. Vypočítajte čistú mzdu a zaúčtujte (rok 2026, zdravotné zamestnanca 5 %).",
+      "uctovanie": [
+        {
+          "rok": "2026",
+          "md": "521",
+          "d": "331",
+          "suma": 1200,
+          "popis": "Hrubá mzda (mzdový náklad)"
+        },
+        {
+          "rok": "2026",
+          "md": "331",
+          "d": "336",
+          "suma": 173,
+          "popis": "Odvody zamestnanca 14,4 % (sociálne 9,4 % = 112,80 + zdravotné 5 % = 60,00 ≈ 172,80)"
+        },
+        {
+          "rok": "2026",
+          "md": "331",
+          "d": "342",
+          "suma": 100,
+          "popis": "Preddavok na daň 19 % zo ZD (≈ 530,0 → 100,68)"
+        },
+        {
+          "rok": "2026",
+          "md": "524",
+          "d": "336",
+          "suma": 434,
+          "popis": "Odvody zamestnávateľa ~36,2 % (sociálne 25,2 % + zdravotné 11 %)"
+        },
+        {
+          "rok": "2026",
+          "md": "331",
+          "d": "221",
+          "suma": 927,
+          "popis": "Výplata čistej mzdy na účet"
+        }
+      ],
+      "riesenie": "Hrubá 1 200 €. Odvody zamestnanca 14,4 % = 172,80 €. Čiastkový ZD = 1 200 − 172,80 = 1 027,20 €. Po NČZD: 1 027,20 − 497,23 = 529,97 €. Preddavok dane 19 % = 100,69 €. Čistá mzda = 1 200 − 172,80 − 100,69 = 926,51 € (≈ 927). Cena práce = 1 200 + ~434 (odvody zamestnávateľa 36,2 %) = ~1 634 €.",
+      "dopad_na_zd": "Náklad firmy (521 + 524) = 1 200 + 434 = 1 634 € (cena práce). Pre rok 2025 by zdravotné zamestnanca bolo 4 % (= 48 €), odvody zamestnanca 13,4 % = 160,80 €, čistá mzda mierne vyššia."
+    },
+    {
+      "nazov": "Náhrada príjmu pri PN (rozdiel 2025 vs. 2026)",
+      "zadanie": "Zamestnanec je práceneschopný 20 kalendárnych dní. DVZ = 30 €. Vypočítajte náhradu od zamestnávateľa a nemocenské zo SP podľa pravidiel 2026.",
+      "riesenie": "2026 (zamestnávateľ platí 14 dní): dni 1–3 = 25 % × 30 × 3 = 22,50 €; dni 4–14 (11 dní) = 55 % × 30 × 11 = 181,50 €; spolu náhrada od zamestnávateľa = 204,00 € (účet 527/331). Od 15. dňa nemocenské zo SP: dni 15–20 (6 dní) = 55 % × 30 × 6 = 99,00 € (vypláca SP, nie cez účtovníctvo zamestnávateľa). Podľa pravidiel 2025 by zamestnávateľ platil len do 10. dňa a od 11. dňa by hradila SP.",
+      "dopad_na_zd": "Náklad zamestnávateľa 2026: 204 € (527). 2025: zamestnávateľ by hradil dni 1–10 = 22,50 + 55 % × 30 × 7 = 22,50 + 115,50 = 138,00 €."
+    },
+    {
+      "nazov": "Faktúra od dodávateľa s DPH a jej úhrada (321)",
+      "zadanie": "Firma (platiteľ DPH) prijala faktúru za materiál 1 000 € + 23 % DPH = 1 230 €. Materiál prijala na sklad, faktúru neskôr uhradila z účtu.",
+      "uctovanie": [
+        {
+          "rok": "2026",
+          "md": "112",
+          "d": "321",
+          "suma": 1000,
+          "popis": "Materiál na sklad (spôsob A) – základ"
+        },
+        {
+          "rok": "2026",
+          "md": "343",
+          "d": "321",
+          "suma": 230,
+          "popis": "DPH 23 % – nárok na odpočet"
+        },
+        {
+          "rok": "2026",
+          "md": "321",
+          "d": "221",
+          "suma": 1230,
+          "popis": "Úhrada záväzku dodávateľovi"
+        }
+      ],
+      "riesenie": "Záväzok 321 vzniká v menovitej hodnote 1 230 €. DPH 230 € ide na 343 (odpočet). Úhradou 321/221 sa záväzok vyrovná. U dodávateľa je tá istá faktúra pohľadávkou 311 (311/604 a 311/343).",
+      "dopad_na_zd": "Náklad nevzniká pri obstaraní materiálu (vstupuje do zásob); ide len o zúčtovací vzťah a DPH."
+    },
+    {
+      "nazov": "Odstupné pri nadbytočnosti (§ 76)",
+      "zadanie": "Zamestnanec pracoval u zamestnávateľa 7 rokov. Pracovný pomer sa skončil výpoveďou pre nadbytočnosť. Priemerný mesačný zárobok 1 500 €. Aké odstupné mu patrí a ako sa zaúčtuje?",
+      "uctovanie": [
+        {
+          "rok": "2026",
+          "md": "527",
+          "d": "331",
+          "suma": 3000,
+          "popis": "Nárok na odstupné (2-násobok pri 5–10 rokoch)"
+        },
+        {
+          "rok": "2026",
+          "md": "331",
+          "d": "221",
+          "suma": 3000,
+          "popis": "Výplata odstupného (po zrazení dane a odvodov podľa pravidiel)"
+        }
+      ],
+      "riesenie": "Pri pracovnom pomere najmenej 5 a menej ako 10 rokov je odstupné pri výpovedi z organizačných dôvodov najmenej 2-násobok priemerného mesačného zárobku = 2 × 1 500 = 3 000 €. (Ak by pomer skončil DOHODOU z tých istých dôvodov, odstupné by bolo o stupeň vyššie – 3-násobok = 4 500 €.)",
+      "dopad_na_zd": "Náklad zamestnávateľa 3 000 € (527). Odstupné podlieha dani zo závislej činnosti; nepodlieha sociálnym a zdravotným odvodom (nie je za vykonanú prácu)."
+    },
+    {
+      "nazov": "Náhrada cestovných výdavkov zamestnanca (333, 335)",
+      "zadanie": "Zamestnancovi bol poskytnutý preddavok na pracovnú cestu 100 € (z pokladnice). Po ceste vyúčtoval výdavky 130 €.",
+      "uctovanie": [
+        {
+          "rok": "2026",
+          "md": "335",
+          "d": "211",
+          "suma": 100,
+          "popis": "Poskytnutý preddavok na cestu"
+        },
+        {
+          "rok": "2026",
+          "md": "512",
+          "d": "333",
+          "suma": 130,
+          "popis": "Náklad na cestovné (nárok zamestnanca)"
+        },
+        {
+          "rok": "2026",
+          "md": "333",
+          "d": "335",
+          "suma": 100,
+          "popis": "Zúčtovanie preddavku oproti nároku"
+        },
+        {
+          "rok": "2026",
+          "md": "333",
+          "d": "211",
+          "suma": 30,
+          "popis": "Doplatenie rozdielu zamestnancovi"
+        }
+      ],
+      "riesenie": "Preddavok je pohľadávka 335. Vyúčtované cestovné je náklad 512 a záväzok 333 voči zamestnancovi. Preddavok sa započíta (333/335) a zvyšok 30 € sa zamestnancovi doplatí.",
+      "dopad_na_zd": "Daňový náklad 512 do výšky nároku podľa zákona o cestovných náhradách."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/BC_I_06_cesta_hruba_cista_mzda.svg", "typ": "schéma", "popis": "Cesta od hrubej mzdy k čistej mzde a k cene práce: rozpad hrubej mzdy na čistú mzdu, odvody zamestnanca (331/336), preddavok dane (331/342) a odvody zamestnávateľa navyše (524/336), s vyznačením účtov a sadzieb pre rok 2026."},
-    {"subor": "03_Vizualy/BC_I_06_struktura_triedy_3.svg", "typ": "schéma", "popis": "Mapa účtovej triedy 3 – Zúčtovacie vzťahy: skupiny 31–39 s kľúčovými účtami (311, 321, 331, 333, 335, 336, 342, 365/366, 391) rozdelené na pohľadávky a záväzky."}
+    {
+      "subor": "03_Vizualy/BC_I_06_cesta_hruba_cista_mzda.svg",
+      "typ": "schéma",
+      "popis": "Cesta od hrubej mzdy k čistej mzde a k cene práce: rozpad hrubej mzdy na čistú mzdu, odvody zamestnanca (331/336), preddavok dane (331/342) a odvody zamestnávateľa navyše (524/336), s vyznačením účtov a sadzieb pre rok 2026."
+    },
+    {
+      "subor": "03_Vizualy/BC_I_06_struktura_triedy_3.svg",
+      "typ": "schéma",
+      "popis": "Mapa účtovej triedy 3 – Zúčtovacie vzťahy: skupiny 31–39 s kľúčovými účtami (311, 321, 331, 333, 335, 336, 342, 365/366, 391) rozdelené na pohľadávky a záväzky."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Aký je rozdiel medzi hrubou mzdou, čistou mzdou a cenou práce a ako sa účtujú?", "odpoved": "Hrubá mzda je náklad firmy (521/331). Čistá mzda je to, čo zamestnancovi reálne ostane po strhnutí jeho odvodov (331/336) a preddavku dane (331/342) – vyplatí sa 331/221. Cena práce = hrubá mzda + odvody zamestnávateľa (524/336), je to celkový náklad firmy na zamestnanca."},
-    {"otazka": "Sú odvody zamestnanca nákladom zamestnávateľa?", "odpoved": "Nie. Odvody a daň zamestnanca sú strhnuté z jeho hrubej mzdy (znižujú záväzok 331), firma ich len odvádza. Nákladom firmy je len hrubá mzda (521) a odvody zamestnávateľa (524)."},
-    {"otazka": "Ako sa oceňujú pohľadávky a záväzky a ako sa rieši riziko nezaplatenia?", "odpoved": "Menovitou hodnotou pri vzniku (pohľadávky nadobudnuté postúpením obstarávacou cenou). Riziko nevymožiteľnosti sa nerieši znížením menovitej hodnoty, ale tvorbou opravnej položky (547/391); trvalé nevymoženie odpisom pohľadávky (546)."},
-    {"otazka": "Kedy a kam musí zamestnávateľ prihlásiť nového zamestnanca?", "odpoved": "Do Sociálnej poisťovne pred vznikom poistenia, najneskôr deň pred začatím výkonu činnosti (Registračný list FO). Do zdravotnej poisťovne najneskôr do 8 pracovných dní od nástupu, elektronicky."},
-    {"otazka": "Aké sú tri dohody mimo pracovného pomeru a ich hodinové limity?", "odpoved": "Dohoda o vykonaní práce (max 350 h/rok, práca podľa výsledku), dohoda o pracovnej činnosti (max 10 h/týž, sezónna 520 h/rok, práca podľa druhu), dohoda o brigádnickej práci študenta (max 20 h/týž priemerne, do 26 rokov)."},
-    {"otazka": "Ako sa zmenila náhrada príjmu pri PN od roku 2026?", "odpoved": "Obdobie platené zamestnávateľom sa predĺžilo z 10 na 14 dní. 2026: dni 1–3 = 25 % DVZ, dni 4–14 = 55 % DVZ, nemocenské zo SP od 15. dňa. 2025: zamestnávateľ do 10. dňa, SP od 11. dňa."},
-    {"otazka": "Kedy patrí odstupné a kedy odchodné?", "odpoved": "Odstupné (§ 76) pri skončení z organizačných dôvodov, nadbytočnosti alebo straty zdravotnej spôsobilosti – graduované podľa odpracovaných rokov (1–4× pri výpovedi, +1 stupeň pri dohode, 10× pri pracovnom úraze/chorobe z povolania). Odchodné (§ 76a) pri prvom odchode do dôchodku, najmenej 1× priemerný mesačný zárobok."}
+    {
+      "otazka": "Aký je rozdiel medzi hrubou mzdou, čistou mzdou a cenou práce a ako sa účtujú?",
+      "odpoved": "Hrubá mzda je náklad firmy (521/331). Čistá mzda je to, čo zamestnancovi reálne ostane po strhnutí jeho odvodov (331/336) a preddavku dane (331/342) – vyplatí sa 331/221. Cena práce = hrubá mzda + odvody zamestnávateľa (524/336), je to celkový náklad firmy na zamestnanca.",
+      "moznosti": [
+        "Hrubá mzda je čistý príjem zamestnanca (331/221); cena práce je hrubá mzda znížená o odvody zamestnanca; čistá mzda je celkový náklad firmy vrátane odvodov zamestnávateľa.",
+        "Hrubá mzda je náklad firmy (521/331); čistá mzda je to, čo zamestnancovi ostane po strhnutí jeho odvodov (331/336) a dane (331/342), vyplatí sa 331/221; cena práce = hrubá mzda + odvody zamestnávateľa (524/336).",
+        "Hrubá mzda sa účtuje 524/336; čistá mzda je hrubá mzda plus odvody zamestnávateľa; cena práce je suma vyplatená zamestnancovi po zrazení dane.",
+        "Hrubá mzda je náklad firmy (524/331); čistá mzda zahŕňa odvody zamestnávateľa; cena práce je hrubá mzda mínus preddavok dane vyplatená cez 331/211."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Hrubá mzda je náklad firmy (521/331). Čistá mzda je to, čo zamestnancovi reálne ostane po strhnutí jeho odvodov (331/336) a preddavku dane (331/342) – vyplatí sa 331/221. Cena práce = hrubá mzda + odvody zamestnávateľa (524/336), je to celkový náklad firmy na zamestnanca."
+    },
+    {
+      "otazka": "Sú odvody zamestnanca nákladom zamestnávateľa?",
+      "odpoved": "Nie. Odvody a daň zamestnanca sú strhnuté z jeho hrubej mzdy (znižujú záväzok 331), firma ich len odvádza. Nákladom firmy je len hrubá mzda (521) a odvody zamestnávateľa (524).",
+      "moznosti": [
+        "Áno, odvody aj daň zamestnanca sú nákladom firmy účtovaným na 524, lebo ich firma platí poisťovniam.",
+        "Áno, odvody zamestnanca sú nákladom firmy (521), len daň zamestnanca nákladom nie je.",
+        "Nie. Odvody a daň zamestnanca sú strhnuté z jeho hrubej mzdy (znižujú 331), firma ich len odvádza; nákladom firmy je hrubá mzda (521) a odvody zamestnávateľa (524).",
+        "Nie. Odvody zamestnanca aj zamestnávateľa znižujú záväzok 331 a žiadne z nich nie sú nákladom firmy."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Nie. Odvody a daň zamestnanca sú strhnuté z jeho hrubej mzdy (znižujú záväzok 331), firma ich len odvádza. Nákladom firmy je len hrubá mzda (521) a odvody zamestnávateľa (524)."
+    },
+    {
+      "otazka": "Ako sa oceňujú pohľadávky a záväzky a ako sa rieši riziko nezaplatenia?",
+      "odpoved": "Menovitou hodnotou pri vzniku (pohľadávky nadobudnuté postúpením obstarávacou cenou). Riziko nevymožiteľnosti sa nerieši znížením menovitej hodnoty, ale tvorbou opravnej položky (547/391); trvalé nevymoženie odpisom pohľadávky (546).",
+      "moznosti": [
+        "Reprodukčnou obstarávacou cenou pri vzniku; riziko nezaplatenia sa rieši priamym znížením menovitej hodnoty na účte 311.",
+        "Menovitou hodnotou pri vzniku (postúpené pohľadávky obstarávacou cenou); riziko nevymožiteľnosti tvorbou opravnej položky (547/391), trvalé nevymoženie odpisom pohľadávky (546).",
+        "Obstarávacou cenou pri vzniku; riziko nevymožiteľnosti odpisom pohľadávky (546) už pri prvom omeškaní úhrady.",
+        "Menovitou hodnotou pri vzniku; riziko nezaplatenia sa rieši tvorbou rezervy na pohľadávky (323), nie opravnou položkou."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Menovitou hodnotou pri vzniku (pohľadávky nadobudnuté postúpením obstarávacou cenou). Riziko nevymožiteľnosti sa nerieši znížením menovitej hodnoty, ale tvorbou opravnej položky (547/391); trvalé nevymoženie odpisom pohľadávky (546)."
+    },
+    {
+      "otazka": "Kedy a kam musí zamestnávateľ prihlásiť nového zamestnanca?",
+      "odpoved": "Do Sociálnej poisťovne pred vznikom poistenia, najneskôr deň pred začatím výkonu činnosti (Registračný list FO). Do zdravotnej poisťovne najneskôr do 8 pracovných dní od nástupu, elektronicky.",
+      "moznosti": [
+        "Do zdravotnej poisťovne pred vznikom poistenia (najneskôr deň predtým) a do Sociálnej poisťovne do 8 pracovných dní od nástupu.",
+        "Do Sociálnej aj zdravotnej poisťovne zhodne do 8 kalendárnych dní od nástupu do zamestnania.",
+        "Do Sociálnej poisťovne pred vznikom poistenia, najneskôr deň pred začatím výkonu činnosti; do zdravotnej poisťovne najneskôr do 8 pracovných dní od nástupu.",
+        "Do Sociálnej poisťovne do 8 pracovných dní od nástupu a do zdravotnej poisťovne pred vznikom poistenia, najneskôr deň predtým."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Do Sociálnej poisťovne pred vznikom poistenia, najneskôr deň pred začatím výkonu činnosti (Registračný list FO). Do zdravotnej poisťovne najneskôr do 8 pracovných dní od nástupu, elektronicky."
+    },
+    {
+      "otazka": "Aké sú tri dohody mimo pracovného pomeru a ich hodinové limity?",
+      "odpoved": "Dohoda o vykonaní práce (max 350 h/rok, práca podľa výsledku), dohoda o pracovnej činnosti (max 10 h/týž, sezónna 520 h/rok, práca podľa druhu), dohoda o brigádnickej práci študenta (max 20 h/týž priemerne, do 26 rokov).",
+      "moznosti": [
+        "Dohoda o vykonaní práce (max 350 h/rok, podľa výsledku), dohoda o pracovnej činnosti (max 10 h/týž, sezónna 520 h/rok, podľa druhu), dohoda o brigádnickej práci študenta (max 20 h/týž priemerne, do 26 rokov).",
+        "Dohoda o vykonaní práce (max 520 h/rok, podľa druhu), dohoda o pracovnej činnosti (max 20 h/týž, podľa výsledku), dohoda o brigádnickej práci študenta (max 350 h/rok, do 30 rokov).",
+        "Dohoda o vykonaní práce (max 100 h/rok, podľa výsledku), dohoda o pracovnej činnosti (max 40 h/týž, podľa druhu), dohoda o brigádnickej práci študenta (max 10 h/týž, do 26 rokov).",
+        "Dohoda o vykonaní práce (max 350 h/rok, podľa druhu), dohoda o pracovnej činnosti (max 30 h/týž, podľa výsledku), dohoda o brigádnickej práci študenta (max 20 h/týž, do 18 rokov)."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Dohoda o vykonaní práce (max 350 h/rok, práca podľa výsledku), dohoda o pracovnej činnosti (max 10 h/týž, sezónna 520 h/rok, práca podľa druhu), dohoda o brigádnickej práci študenta (max 20 h/týž priemerne, do 26 rokov)."
+    },
+    {
+      "otazka": "Ako sa zmenila náhrada príjmu pri PN od roku 2026?",
+      "odpoved": "Obdobie platené zamestnávateľom sa predĺžilo z 10 na 14 dní. 2026: dni 1–3 = 25 % DVZ, dni 4–14 = 55 % DVZ, nemocenské zo SP od 15. dňa. 2025: zamestnávateľ do 10. dňa, SP od 11. dňa.",
+      "moznosti": [
+        "Obdobie platené zamestnávateľom sa skrátilo zo 14 na 10 dní; 2026: dni 1–3 = 25 % DVZ, dni 4–10 = 55 % DVZ, nemocenské zo SP od 11. dňa.",
+        "Náhrada príjmu sa zvýšila na 70 % DVZ počas celého obdobia plateného zamestnávateľom (14 dní), nemocenské zo SP od 15. dňa.",
+        "Obdobie platené Sociálnou poisťovňou sa predĺžilo na 14 dní; zamestnávateľ od roku 2026 náhradu príjmu pri PN neplatí vôbec.",
+        "Obdobie platené zamestnávateľom sa predĺžilo z 10 na 14 dní; 2026: dni 1–3 = 25 % DVZ, dni 4–14 = 55 % DVZ, nemocenské zo SP od 15. dňa."
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Obdobie platené zamestnávateľom sa predĺžilo z 10 na 14 dní. 2026: dni 1–3 = 25 % DVZ, dni 4–14 = 55 % DVZ, nemocenské zo SP od 15. dňa. 2025: zamestnávateľ do 10. dňa, SP od 11. dňa."
+    },
+    {
+      "otazka": "Kedy patrí odstupné a kedy odchodné?",
+      "odpoved": "Odstupné (§ 76) pri skončení z organizačných dôvodov, nadbytočnosti alebo straty zdravotnej spôsobilosti – graduované podľa odpracovaných rokov (1–4× pri výpovedi, +1 stupeň pri dohode, 10× pri pracovnom úraze/chorobe z povolania). Odchodné (§ 76a) pri prvom odchode do dôchodku, najmenej 1× priemerný mesačný zárobok.",
+      "moznosti": [
+        "Odstupné (§ 76) pri prvom odchode do dôchodku (najmenej 1× priemerný zárobok); odchodné (§ 76a) pri skončení z organizačných dôvodov, graduované podľa odpracovaných rokov.",
+        "Odstupné (§ 76) pri skončení z organizačných dôvodov, nadbytočnosti alebo straty zdravotnej spôsobilosti – graduované podľa rokov; odchodné (§ 76a) pri prvom odchode do dôchodku, najmenej 1× priemerný mesačný zárobok.",
+        "Odstupné aj odchodné (§ 76) patria len pri okamžitom skončení pracovného pomeru zo strany zamestnávateľa, obe najmenej vo výške 10× priemerného zárobku.",
+        "Odstupné (§ 76a) pri výpovedi v skúšobnej dobe; odchodné (§ 76) pri nadbytočnosti, vždy presne 4× priemerný mesačný zárobok bez ohľadu na odpracované roky."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Odstupné (§ 76) pri skončení z organizačných dôvodov, nadbytočnosti alebo straty zdravotnej spôsobilosti – graduované podľa odpracovaných rokov (1–4× pri výpovedi, +1 stupeň pri dohode, 10× pri pracovnom úraze/chorobe z povolania). Odchodné (§ 76a) pri prvom odchode do dôchodku, najmenej 1× priemerný mesačný zárobok."
+    }
   ],
   "pasce_caste_chyby": [
     "Považovať odvody a daň zamestnanca za náklad firmy – sú strhnuté z hrubej mzdy (331), nákladom je len hrubá mzda (521) a odvody zamestnávateľa (524).",
@@ -79,29 +360,129 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Hrubá mzda zamestnanca sa účtuje zápisom:", "moznosti": ["331 / 521", "521 / 331", "524 / 336", "331 / 221"], "spravna_index": 1, "vysvetlenie": "Hrubá mzda je mzdový náklad: 521 – Mzdové náklady / 331 – Zamestnanci."},
-      {"otazka": "Odvody, ktoré platí ZAMESTNÁVATEĽ za zamestnanca, sa účtujú:", "moznosti": ["331 / 336", "331 / 342", "524 / 336", "521 / 331"], "spravna_index": 2, "vysvetlenie": "Odvody zamestnávateľa sú samostatný náklad: 524 – Zákonné sociálne poistenie / 336. Odvody zamestnanca naopak znižujú jeho mzdu: 331/336."},
-      {"otazka": "Aká je sadzba zdravotného poistenia zamestnanca od 1. 1. 2026?", "moznosti": ["4 %", "5 %", "11 %", "14 %"], "spravna_index": 1, "vysvetlenie": "Od 1. 1. 2026 stúplo zdravotné poistné zamestnanca zo 4 % na 5 %. Sociálne poistenie zamestnanca ostáva 9,4 %."},
-      {"otazka": "Maximálny rozsah dohody o vykonaní práce u jedného zamestnávateľa za kalendárny rok je:", "moznosti": ["100 hodín", "350 hodín", "520 hodín", "10 hodín týždenne"], "spravna_index": 1, "vysvetlenie": "DoVP (práca podľa výsledku) je max 350 hodín ročne. 10 h/týž je DoPČ, 520 h/rok je sezónna DoPČ, 20 h/týž je DoBPŠ."},
-      {"otazka": "Od roku 2026 platí náhradu príjmu pri PN zamestnávateľ za dni:", "moznosti": ["1.–10. deň, SP od 11.", "1.–14. deň, SP od 15.", "1.–3. deň, SP od 4.", "celú PN platí SP"], "spravna_index": 1, "vysvetlenie": "Od 1. 1. 2026 zamestnávateľ platí náhradu príjmu 14 dní (1.–3. deň 25 % DVZ, 4.–14. deň 55 % DVZ), nemocenské zo SP od 15. dňa."},
-      {"otazka": "Riziko nevymožiteľnosti pohľadávky sa v účtovníctve vyjadrí:", "moznosti": ["znížením menovitej hodnoty na účte 311", "tvorbou opravnej položky 547/391", "odpisom na účet 521", "preúčtovaním na 333"], "spravna_index": 1, "vysvetlenie": "Tvorí sa opravná položka 547/391; menovitá hodnota pohľadávky sa nemení. Trvalé nevymoženie sa rieši odpisom 546/311."}
+      {
+        "otazka": "Hrubá mzda zamestnanca sa účtuje zápisom:",
+        "moznosti": [
+          "331 / 521",
+          "521 / 331",
+          "524 / 336",
+          "331 / 221"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Hrubá mzda je mzdový náklad: 521 – Mzdové náklady / 331 – Zamestnanci."
+      },
+      {
+        "otazka": "Odvody, ktoré platí ZAMESTNÁVATEĽ za zamestnanca, sa účtujú:",
+        "moznosti": [
+          "331 / 336",
+          "331 / 342",
+          "524 / 336",
+          "521 / 331"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Odvody zamestnávateľa sú samostatný náklad: 524 – Zákonné sociálne poistenie / 336. Odvody zamestnanca naopak znižujú jeho mzdu: 331/336."
+      },
+      {
+        "otazka": "Aká je sadzba zdravotného poistenia zamestnanca od 1. 1. 2026?",
+        "moznosti": [
+          "4 %",
+          "5 %",
+          "11 %",
+          "14 %"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Od 1. 1. 2026 stúplo zdravotné poistné zamestnanca zo 4 % na 5 %. Sociálne poistenie zamestnanca ostáva 9,4 %."
+      },
+      {
+        "otazka": "Maximálny rozsah dohody o vykonaní práce u jedného zamestnávateľa za kalendárny rok je:",
+        "moznosti": [
+          "100 hodín",
+          "350 hodín",
+          "520 hodín",
+          "10 hodín týždenne"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "DoVP (práca podľa výsledku) je max 350 hodín ročne. 10 h/týž je DoPČ, 520 h/rok je sezónna DoPČ, 20 h/týž je DoBPŠ."
+      },
+      {
+        "otazka": "Od roku 2026 platí náhradu príjmu pri PN zamestnávateľ za dni:",
+        "moznosti": [
+          "1.–10. deň, SP od 11.",
+          "1.–14. deň, SP od 15.",
+          "1.–3. deň, SP od 4.",
+          "celú PN platí SP"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Od 1. 1. 2026 zamestnávateľ platí náhradu príjmu 14 dní (1.–3. deň 25 % DVZ, 4.–14. deň 55 % DVZ), nemocenské zo SP od 15. dňa."
+      },
+      {
+        "otazka": "Riziko nevymožiteľnosti pohľadávky sa v účtovníctve vyjadrí:",
+        "moznosti": [
+          "znížením menovitej hodnoty na účte 311",
+          "tvorbou opravnej položky 547/391",
+          "odpisom na účet 521",
+          "preúčtovaním na 333"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Tvorí sa opravná položka 547/391; menovitá hodnota pohľadávky sa nemení. Trvalé nevymoženie sa rieši odpisom 546/311."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite rozdiel medzi hrubou mzdou, čistou mzdou a cenou práce a uveďte účtovné zápisy.", "vzorova_odpoved": "Hrubá mzda = mzdový náklad firmy (521/331). Z nej sa zamestnancovi strhnú jeho odvody (331/336) a preddavok dane (331/342); zvyšok = čistá mzda, ktorá sa vyplatí (331/221). Cena práce = hrubá mzda + odvody zamestnávateľa (524/336), je to celkový náklad firmy. Odvody a daň zamestnanca nie sú nákladom firmy – len ich preposiela."},
-      {"otazka": "Aké sú povinnosti zamestnávateľa pri vzniku a zániku pracovného pomeru voči Sociálnej a zdravotným poisťovniam?", "vzorova_odpoved": "Pri vzniku: prihlásiť zamestnanca do Sociálnej poisťovne pred začatím výkonu činnosti (najneskôr deň predtým, Registračný list FO) a do zdravotnej poisťovne do 8 pracovných dní od nástupu. Pri zániku: odhlásiť zo SP (do 8 dní) a zo ZP (do 8 pracovných dní), vyúčtovať mzdu a náhrady, vydať zápočtový list. Tieto vzťahy sa účtujú cez 331, 336 a 342."},
-      {"otazka": "Charakterizujte tri dohody mimo pracovného pomeru a ich odvodové špecifiká.", "vzorova_odpoved": "DoVP (§ 226) – práca podľa výsledku, max 350 h/rok. DoPČ (§ 228a) – práca podľa druhu, max 10 h/týž (sezónna 520 h/rok). DoBPŠ (§ 227) – len študent do 26 rokov, max 20 h/týž priemerne. Bežná dohoda podlieha soc. aj zdrav. poisteniu; študent si môže uplatniť odvodovú odpočítateľnú položku na dôchodkové poistenie a jeho príjem z DoBPŠ nepodlieha zdravotným odvodom."}
+      {
+        "otazka": "Vysvetlite rozdiel medzi hrubou mzdou, čistou mzdou a cenou práce a uveďte účtovné zápisy.",
+        "vzorova_odpoved": "Hrubá mzda = mzdový náklad firmy (521/331). Z nej sa zamestnancovi strhnú jeho odvody (331/336) a preddavok dane (331/342); zvyšok = čistá mzda, ktorá sa vyplatí (331/221). Cena práce = hrubá mzda + odvody zamestnávateľa (524/336), je to celkový náklad firmy. Odvody a daň zamestnanca nie sú nákladom firmy – len ich preposiela."
+      },
+      {
+        "otazka": "Aké sú povinnosti zamestnávateľa pri vzniku a zániku pracovného pomeru voči Sociálnej a zdravotným poisťovniam?",
+        "vzorova_odpoved": "Pri vzniku: prihlásiť zamestnanca do Sociálnej poisťovne pred začatím výkonu činnosti (najneskôr deň predtým, Registračný list FO) a do zdravotnej poisťovne do 8 pracovných dní od nástupu. Pri zániku: odhlásiť zo SP (do 8 dní) a zo ZP (do 8 pracovných dní), vyúčtovať mzdu a náhrady, vydať zápočtový list. Tieto vzťahy sa účtujú cez 331, 336 a 342."
+      },
+      {
+        "otazka": "Charakterizujte tri dohody mimo pracovného pomeru a ich odvodové špecifiká.",
+        "vzorova_odpoved": "DoVP (§ 226) – práca podľa výsledku, max 350 h/rok. DoPČ (§ 228a) – práca podľa druhu, max 10 h/týž (sezónna 520 h/rok). DoBPŠ (§ 227) – len študent do 26 rokov, max 20 h/týž priemerne. Bežná dohoda podlieha soc. aj zdrav. poisteniu; študent si môže uplatniť odvodovú odpočítateľnú položku na dôchodkové poistenie a jeho príjem z DoBPŠ nepodlieha zdravotným odvodom."
+      }
     ],
     "priklad": [
-      {"zadanie": "Zamestnanec má hrubú mzdu 1 500 € (rok 2026, uplatňuje NČZD 497,23 €/mes., bez detí). Vypočítajte: a) odvody zamestnanca (14,4 %), b) základ dane a preddavok dane (19 %), c) čistú mzdu, d) odvody zamestnávateľa (36,2 %) a cenu práce. Uveďte aj účtovné zápisy.", "riesenie": "a) Odvody zamestnanca = 14,4 % × 1 500 = 216,00 €. b) Čiastkový ZD = 1 500 − 216 = 1 284,00 €; po NČZD = 1 284 − 497,23 = 786,77 €; preddavok dane 19 % = 149,49 €. c) Čistá mzda = 1 500 − 216 − 149,49 = 1 134,51 €. d) Odvody zamestnávateľa = 36,2 % × 1 500 = 543,00 €; cena práce = 1 500 + 543 = 2 043 €. Zápisy: 521/331 1 500; 331/336 216; 331/342 149,49; 524/336 543; 331/221 1 134,51."}
+      {
+        "zadanie": "Zamestnanec má hrubú mzdu 1 500 € (rok 2026, uplatňuje NČZD 497,23 €/mes., bez detí). Vypočítajte: a) odvody zamestnanca (14,4 %), b) základ dane a preddavok dane (19 %), c) čistú mzdu, d) odvody zamestnávateľa (36,2 %) a cenu práce. Uveďte aj účtovné zápisy.",
+        "riesenie": "a) Odvody zamestnanca = 14,4 % × 1 500 = 216,00 €. b) Čiastkový ZD = 1 500 − 216 = 1 284,00 €; po NČZD = 1 284 − 497,23 = 786,77 €; preddavok dane 19 % = 149,49 €. c) Čistá mzda = 1 500 − 216 − 149,49 = 1 134,51 €. d) Odvody zamestnávateľa = 36,2 % × 1 500 = 543,00 €; cena práce = 1 500 + 543 = 2 043 €. Zápisy: 521/331 1 500; 331/336 216; 331/342 149,49; 524/336 543; 331/221 1 134,51."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Postupy účtovania pre podnikateľov – účtová trieda 3 (§ 49–52: 311, 321, 331, 333, 335, 336, 341, 342, 365, 366) a účtová osnova", "kde": "01_Zdroje/Postupy_uctovania/Postupy podnikatelia.pdf", "typ": "primárny"},
-    {"nazov": "Zákonník práce č. 311/2001 Z. z. – dohody (§ 223–228a), výmera dovolenky (§ 100–103), náhrada mzdy za dovolenku, odstupné (§ 76), odchodné (§ 76a)", "kde": "Zákon č. 311/2001 Z. z. (Slov-lex)", "typ": "primárny"},
-    {"nazov": "Zákon č. 461/2003 Z. z. o sociálnom poistení a zákon č. 580/2004 Z. z. o zdravotnom poistení – sadzby a VZ; zákon č. 462/2003 Z. z. o náhrade príjmu pri PN", "kde": "Slov-lex; socpoist.sk; financnasprava.sk", "typ": "primárny"},
-    {"nazov": "Aktuálne čísla SR 2025/2026 (sadzby odvodov, min. mzda, max. VZ, NČZD, náhrada príjmu pri PN 10→14 dní)", "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md", "typ": "web/overené"},
-    {"nazov": "Podnikajte.sk – odstupné a odchodné (tabuľky § 76, § 76a), dohody 2025/2026, prihlasovanie do SP a ZP, ošetrovné a PN 2026, dovolenka 2025", "kde": "https://www.podnikajte.sk/pracovne-pravo-bozp/vypovedna-doba-odstupne-tabulka", "typ": "web/overené"},
-    {"nazov": "Sociálna poisťovňa – ošetrovné (55 % DVZ, max 14 dní), prihlásenie zamestnanca, PN od 1. 1. 2026; tabuľky platenia poistného od 1. 1. 2026", "kde": "https://www.socpoist.sk", "typ": "web/overené"},
-    {"nazov": "Prednáška PR-06 – Stravné, cestovné, PHL, manká a škody (A. Marci) – náhrady a účet 333/335", "kde": "01_Zdroje/PR-06 Stravné, cestovné, PHL, manká a škody.pptx", "typ": "prednáška"}
+    {
+      "nazov": "Postupy účtovania pre podnikateľov – účtová trieda 3 (§ 49–52: 311, 321, 331, 333, 335, 336, 341, 342, 365, 366) a účtová osnova",
+      "kde": "01_Zdroje/Postupy_uctovania/Postupy podnikatelia.pdf",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Zákonník práce č. 311/2001 Z. z. – dohody (§ 223–228a), výmera dovolenky (§ 100–103), náhrada mzdy za dovolenku, odstupné (§ 76), odchodné (§ 76a)",
+      "kde": "Zákon č. 311/2001 Z. z. (Slov-lex)",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Zákon č. 461/2003 Z. z. o sociálnom poistení a zákon č. 580/2004 Z. z. o zdravotnom poistení – sadzby a VZ; zákon č. 462/2003 Z. z. o náhrade príjmu pri PN",
+      "kde": "Slov-lex; socpoist.sk; financnasprava.sk",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Aktuálne čísla SR 2025/2026 (sadzby odvodov, min. mzda, max. VZ, NČZD, náhrada príjmu pri PN 10→14 dní)",
+      "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Podnikajte.sk – odstupné a odchodné (tabuľky § 76, § 76a), dohody 2025/2026, prihlasovanie do SP a ZP, ošetrovné a PN 2026, dovolenka 2025",
+      "kde": "https://www.podnikajte.sk/pracovne-pravo-bozp/vypovedna-doba-odstupne-tabulka",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Sociálna poisťovňa – ošetrovné (55 % DVZ, max 14 dní), prihlásenie zamestnanca, PN od 1. 1. 2026; tabuľky platenia poistného od 1. 1. 2026",
+      "kde": "https://www.socpoist.sk",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Prednáška PR-06 – Stravné, cestovné, PHL, manká a škody (A. Marci) – náhrady a účet 333/335",
+      "kde": "01_Zdroje/PR-06 Stravné, cestovné, PHL, manká a škody.pptx",
+      "typ": "prednáška"
+    }
   ]
 }

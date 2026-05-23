@@ -28,43 +28,215 @@
     "cielova_dlzka_slov": 1400,
     "uvod": "Finančná analýza hodnotí finančnú situáciu a výkonnosť podniku z údajov účtovnej závierky – súvahy, výkazu ziskov a strát a poznámok (vrátane prehľadu peňažných tokov). Jej jadrom je pomerová analýza, ktorá dáva do vzťahu dve položky závierky. Štyri kľúčové skupiny pomerových ukazovateľov – aktivita, zadlženosť, rentabilita a likvidita – odpovedajú na otázky, ako efektívne podnik využíva majetok, z akých zdrojov je financovaný, koľko zisku tvorí a či dokáže hradiť záväzky. Žiadny ukazovateľ sa nehodnotí izolovane: vždy sa porovnáva v čase, s plánom, s odvetvím alebo s konkurenciou a slovne sa interpretuje.",
     "casti": [
-      {"nadpis": "Ukazovatele AKTIVITY – ako pracuje majetok", "text": "Ukazovatele aktivity merajú efektívnosť využívania majetku. Majú dve podoby: obrátky (koľkokrát za rok sa majetok pretočí v tržbách) a doby obratu (koľko dní). Obrat celkových aktív = tržby / celkové aktíva – koľkokrát sa aktíva za rok 'obrátia' v tržbách; vyššia hodnota = lepšie využitie majetku. Obrat zásob = tržby / priemerné zásoby (presnejšie náklady na predaj / zásoby). Doba obratu zásob = priemerné zásoby / (tržby / 365) – koľko dní zásoby ležia na sklade (nižšie = lepšie). Doba inkasa pohľadávok = priemerné pohľadávky / (tržby / 365) – za koľko dní zaplatia odberatelia (nižšie = lepšia platobná disciplína). Doba úhrady záväzkov = priemerné záväzky / (tržby / 365) – za koľko dní platí podnik dodávateľom. Ekonomická interpretácia: zdravé je inkasovať od odberateľov skôr, ako platím dodávateľom (doba pohľadávok < doba záväzkov) – podnik si tak bezplatne požičiava prevádzkový kapitál od dodávateľov."},
-      {"nadpis": "Aktivita – súvis s viazanosťou a obchodným úverom", "text": "Prevrátenou hodnotou obratu aktív je viazanosť celkových aktív = celkové aktíva / tržby – koľko € majetku treba na 1 € tržieb; čím nižšie, tým 'štíhlejší' podnik. Doby obratu spolu tvoria obchodný (prevádzkový) cyklus: kombinácia doby obratu zásob a doby inkasa pohľadávok zníženej o dobu úhrady záväzkov dáva obratový cyklus peňazí – ako dlho sú peniaze viazané, kým sa vrátia v tržbách. Skrátenie tohto cyklu (rýchlejší predaj zásob, rýchlejšie inkaso, neskoršie platby dodávateľom) uvoľňuje hotovosť a zlepšuje likviditu. Odvetvie rozhoduje: výrobné podniky majú nižší obrat aktív (veľa dlhodobého majetku), obchod a služby vyšší."},
-      {"nadpis": "Ukazovatele ZADLŽENOSTI – z čoho je podnik financovaný", "text": "Zadlženosť hodnotí kapitálovú štruktúru a riziko z cudzích zdrojov. Celková zadlženosť = cudzí kapitál / celkové aktíva – aká časť majetku je krytá dlhom; za vysokú sa považuje nad 50 %, prakticky maximum okolo 70 % (silne závisí od odvetvia). Stupeň samofinancovania (kvóta vlastného imania) = vlastné imanie / celkové aktíva – finančná nezávislosť; je doplnkom celkovej zadlženosti (spolu = 100 %). Úrokové krytie = EBIT / nákladové úroky – koľkokrát zisk pokryje úroky; optimum okolo 5, nemalo by klesnúť pod 3. Finančná páka = celkové aktíva / vlastné imanie (alebo cudzí kapitál / vlastné imanie) – štruktúra zdrojov, ktorá násobí účinok na ROE."},
-      {"nadpis": "Zadlženosť – ekonomická interpretácia a efekt páky", "text": "Cudzí kapitál je spravidla lacnejší ako vlastný (úrok je daňovo uznaný – daňový štít) a nezrieďuje vlastníctvo, no zvyšuje fixné záväzky a riziko. Pozitívny efekt finančnej páky nastáva, keď je rentabilita aktív vyššia ako úroková sadzba cudzieho kapitálu – vtedy zadlženie zvyšuje ROE. Ak však rentabilita klesne pod cenu dlhu, páka pôsobí opačne a 'vysáva' výnos vlastníka. Preto sa zadlženosť hodnotí spolu s úrokovým krytím a rentabilitou: vysoká zadlženosť s nízkym úrokovým krytím je varovný signál pre veriteľov i vlastníkov."},
-      {"nadpis": "Ukazovatele RENTABILITY – koľko zisku to tvorí", "text": "Rentabilita meria schopnosť tvoriť zisk vo vzťahu k vloženým prostriedkom, spravidla v %. ROA (rentabilita aktív) = EBIT / celkové aktíva – zhodnotenie celého majetku bez ohľadu na spôsob financovania. ROE (rentabilita vlastného imania) = čistý zisk / vlastné imanie – výnosnosť kapitálu vlastníkov, ktorá by mala prevyšovať alternatívny (bezrizikový) výnos. ROS (rentabilita tržieb) = zisk / tržby – zisková marža, koľko centov zisku z 1 € tržieb. ROCE = EBIT / (vlastné imanie + dlhodobé záväzky) – výnosnosť dlhodobo viazaného kapitálu, vhodná na porovnanie firiem s rôznym dlhom. Pri každom ukazovateli platí mentálny vzorec: zisk delený tým, do čoho som vložil peniaze."},
-      {"nadpis": "DuPont rozklad ROE a ekonomická pridaná hodnota (EVA)", "text": "DuPont rozklad ukazuje, ODKIAĽ rentabilita vlastného imania pochádza: ROE = ROS × obrat aktív × finančná páka = (čistý zisk / tržby) × (tržby / aktíva) × (aktíva / vlastné imanie). Teda ROE rastie z lepšej marže (cenotvorba, náklady), z vyššieho obratu (efektívne aktíva) alebo z vyššej páky (viac dlhu) – posledné však zvyšuje riziko. Ekonomická pridaná hodnota EVA = (ROIC − WACC) × investovaný kapitál, kde ROIC = NOPAT / investovaný kapitál (NOPAT = prevádzkový zisk po zdanení) a WACC je vážený priemer nákladov na kapitál. EVA pridáva nad účtovný zisk aj cenu vlastného kapitálu: EVA > 0 znamená, že podnik tvorí hodnotu (zarába viac, než stoja jeho zdroje), EVA < 0 znamená, že hodnotu 'ničí'. Účtovne ziskový podnik môže mať zápornú EVA, ak nepokryje náklady na kapitál."},
-      {"nadpis": "Ukazovatele LIKVIDITY – schopnosť hradiť záväzky", "text": "Likvidita vyjadruje schopnosť uhradiť krátkodobé záväzky. Stupne sa líšia tým, čo je v čitateli (je to 'rebrík' – čím vyšší stupeň, tým viac majetku pridávame). Likvidita 1. stupňa – okamžitá (L1) = finančný majetok (peniaze + účty + krátkodobé CP) / krátkodobé záväzky, optimum cca 0,2 – 0,6. Likvidita 2. stupňa – pohotová (L2) = (obežný majetok − zásoby) / krátkodobé záväzky, optimum cca 1,0 – 1,5 (niektoré zdroje 0,7 – 1,2). Likvidita 3. stupňa – bežná (L3) = obežný majetok / krátkodobé záväzky, optimum cca 1,5 – 2,5 (často sa uvádza 2,0 – 2,5); kľúčové je byť výrazne nad 1. Súvisí čistý pracovný kapitál = obežný majetok − krátkodobé záväzky, ktorý je 'vankúšom' obežného majetku financovaného dlhodobými zdrojmi."},
-      {"nadpis": "Likvidita na báze cash flow a interpretácia", "text": "Statická likvidita zo súvahy meria stav majetku k jednému dňu a môže byť skreslená 'nehybnými' zásobami či nedobytnými pohľadávkami. Preto sa dopĺňa likvidita na báze cash flow, napr. prevádzkový cash flow / krátkodobé záväzky – meria krytie záväzkov skutočne vygenerovanými peňažnými tokmi, nie len stavom majetku. Je odolnejšia voči zadrhnutiu obežného majetku. Ekonomická interpretácia likvidity má dve strany: príliš nízka likvidita (L3 pod 1) hrozí platobnou neschopnosťou, ale príliš vysoká likvidita znamená neproduktívne viazané peniaze – nevyužitý majetok, ktorý netvorí výnos. Optimum je preto rozpätie, nie maximum, a hodnotí sa v kontexte odvetvia a obratového cyklu."},
-      {"zaver": "Štyri skupiny ukazovateľov tvoria komplexný obraz: aktivita ukáže, ako pracuje majetok; zadlženosť, ako je podnik financovaný a aké nesie riziko; rentabilita, koľko zisku tvorí; likvidita, či vie platiť. Cez DuPont rozklad sa prepoja (ROE = marža × obrat × páka) a EVA navyše posúdi, či zisk pokrýva náklady kapitálu. Rozhodujúca nie je samotná číselná hodnota, ale jej trend, porovnanie s odvetvím a slovná ekonomická interpretácia."}
+      {
+        "nadpis": "Ukazovatele AKTIVITY – ako pracuje majetok",
+        "text": "Ukazovatele aktivity merajú efektívnosť využívania majetku. Majú dve podoby: obrátky (koľkokrát za rok sa majetok pretočí v tržbách) a doby obratu (koľko dní). Obrat celkových aktív = tržby / celkové aktíva – koľkokrát sa aktíva za rok 'obrátia' v tržbách; vyššia hodnota = lepšie využitie majetku. Obrat zásob = tržby / priemerné zásoby (presnejšie náklady na predaj / zásoby). Doba obratu zásob = priemerné zásoby / (tržby / 365) – koľko dní zásoby ležia na sklade (nižšie = lepšie). Doba inkasa pohľadávok = priemerné pohľadávky / (tržby / 365) – za koľko dní zaplatia odberatelia (nižšie = lepšia platobná disciplína). Doba úhrady záväzkov = priemerné záväzky / (tržby / 365) – za koľko dní platí podnik dodávateľom. Ekonomická interpretácia: zdravé je inkasovať od odberateľov skôr, ako platím dodávateľom (doba pohľadávok < doba záväzkov) – podnik si tak bezplatne požičiava prevádzkový kapitál od dodávateľov."
+      },
+      {
+        "nadpis": "Aktivita – súvis s viazanosťou a obchodným úverom",
+        "text": "Prevrátenou hodnotou obratu aktív je viazanosť celkových aktív = celkové aktíva / tržby – koľko € majetku treba na 1 € tržieb; čím nižšie, tým 'štíhlejší' podnik. Doby obratu spolu tvoria obchodný (prevádzkový) cyklus: kombinácia doby obratu zásob a doby inkasa pohľadávok zníženej o dobu úhrady záväzkov dáva obratový cyklus peňazí – ako dlho sú peniaze viazané, kým sa vrátia v tržbách. Skrátenie tohto cyklu (rýchlejší predaj zásob, rýchlejšie inkaso, neskoršie platby dodávateľom) uvoľňuje hotovosť a zlepšuje likviditu. Odvetvie rozhoduje: výrobné podniky majú nižší obrat aktív (veľa dlhodobého majetku), obchod a služby vyšší."
+      },
+      {
+        "nadpis": "Ukazovatele ZADLŽENOSTI – z čoho je podnik financovaný",
+        "text": "Zadlženosť hodnotí kapitálovú štruktúru a riziko z cudzích zdrojov. Celková zadlženosť = cudzí kapitál / celkové aktíva – aká časť majetku je krytá dlhom; za vysokú sa považuje nad 50 %, prakticky maximum okolo 70 % (silne závisí od odvetvia). Stupeň samofinancovania (kvóta vlastného imania) = vlastné imanie / celkové aktíva – finančná nezávislosť; je doplnkom celkovej zadlženosti (spolu = 100 %). Úrokové krytie = EBIT / nákladové úroky – koľkokrát zisk pokryje úroky; optimum okolo 5, nemalo by klesnúť pod 3. Finančná páka = celkové aktíva / vlastné imanie (alebo cudzí kapitál / vlastné imanie) – štruktúra zdrojov, ktorá násobí účinok na ROE."
+      },
+      {
+        "nadpis": "Zadlženosť – ekonomická interpretácia a efekt páky",
+        "text": "Cudzí kapitál je spravidla lacnejší ako vlastný (úrok je daňovo uznaný – daňový štít) a nezrieďuje vlastníctvo, no zvyšuje fixné záväzky a riziko. Pozitívny efekt finančnej páky nastáva, keď je rentabilita aktív vyššia ako úroková sadzba cudzieho kapitálu – vtedy zadlženie zvyšuje ROE. Ak však rentabilita klesne pod cenu dlhu, páka pôsobí opačne a 'vysáva' výnos vlastníka. Preto sa zadlženosť hodnotí spolu s úrokovým krytím a rentabilitou: vysoká zadlženosť s nízkym úrokovým krytím je varovný signál pre veriteľov i vlastníkov."
+      },
+      {
+        "nadpis": "Ukazovatele RENTABILITY – koľko zisku to tvorí",
+        "text": "Rentabilita meria schopnosť tvoriť zisk vo vzťahu k vloženým prostriedkom, spravidla v %. ROA (rentabilita aktív) = EBIT / celkové aktíva – zhodnotenie celého majetku bez ohľadu na spôsob financovania. ROE (rentabilita vlastného imania) = čistý zisk / vlastné imanie – výnosnosť kapitálu vlastníkov, ktorá by mala prevyšovať alternatívny (bezrizikový) výnos. ROS (rentabilita tržieb) = zisk / tržby – zisková marža, koľko centov zisku z 1 € tržieb. ROCE = EBIT / (vlastné imanie + dlhodobé záväzky) – výnosnosť dlhodobo viazaného kapitálu, vhodná na porovnanie firiem s rôznym dlhom. Pri každom ukazovateli platí mentálny vzorec: zisk delený tým, do čoho som vložil peniaze."
+      },
+      {
+        "nadpis": "DuPont rozklad ROE a ekonomická pridaná hodnota (EVA)",
+        "text": "DuPont rozklad ukazuje, ODKIAĽ rentabilita vlastného imania pochádza: ROE = ROS × obrat aktív × finančná páka = (čistý zisk / tržby) × (tržby / aktíva) × (aktíva / vlastné imanie). Teda ROE rastie z lepšej marže (cenotvorba, náklady), z vyššieho obratu (efektívne aktíva) alebo z vyššej páky (viac dlhu) – posledné však zvyšuje riziko. Ekonomická pridaná hodnota EVA = (ROIC − WACC) × investovaný kapitál, kde ROIC = NOPAT / investovaný kapitál (NOPAT = prevádzkový zisk po zdanení) a WACC je vážený priemer nákladov na kapitál. EVA pridáva nad účtovný zisk aj cenu vlastného kapitálu: EVA > 0 znamená, že podnik tvorí hodnotu (zarába viac, než stoja jeho zdroje), EVA < 0 znamená, že hodnotu 'ničí'. Účtovne ziskový podnik môže mať zápornú EVA, ak nepokryje náklady na kapitál."
+      },
+      {
+        "nadpis": "Ukazovatele LIKVIDITY – schopnosť hradiť záväzky",
+        "text": "Likvidita vyjadruje schopnosť uhradiť krátkodobé záväzky. Stupne sa líšia tým, čo je v čitateli (je to 'rebrík' – čím vyšší stupeň, tým viac majetku pridávame). Likvidita 1. stupňa – okamžitá (L1) = finančný majetok (peniaze + účty + krátkodobé CP) / krátkodobé záväzky, optimum cca 0,2 – 0,6. Likvidita 2. stupňa – pohotová (L2) = (obežný majetok − zásoby) / krátkodobé záväzky, optimum cca 1,0 – 1,5 (niektoré zdroje 0,7 – 1,2). Likvidita 3. stupňa – bežná (L3) = obežný majetok / krátkodobé záväzky, optimum cca 1,5 – 2,5 (často sa uvádza 2,0 – 2,5); kľúčové je byť výrazne nad 1. Súvisí čistý pracovný kapitál = obežný majetok − krátkodobé záväzky, ktorý je 'vankúšom' obežného majetku financovaného dlhodobými zdrojmi."
+      },
+      {
+        "nadpis": "Likvidita na báze cash flow a interpretácia",
+        "text": "Statická likvidita zo súvahy meria stav majetku k jednému dňu a môže byť skreslená 'nehybnými' zásobami či nedobytnými pohľadávkami. Preto sa dopĺňa likvidita na báze cash flow, napr. prevádzkový cash flow / krátkodobé záväzky – meria krytie záväzkov skutočne vygenerovanými peňažnými tokmi, nie len stavom majetku. Je odolnejšia voči zadrhnutiu obežného majetku. Ekonomická interpretácia likvidity má dve strany: príliš nízka likvidita (L3 pod 1) hrozí platobnou neschopnosťou, ale príliš vysoká likvidita znamená neproduktívne viazané peniaze – nevyužitý majetok, ktorý netvorí výnos. Optimum je preto rozpätie, nie maximum, a hodnotí sa v kontexte odvetvia a obratového cyklu."
+      },
+      {
+        "zaver": "Štyri skupiny ukazovateľov tvoria komplexný obraz: aktivita ukáže, ako pracuje majetok; zadlženosť, ako je podnik financovaný a aké nesie riziko; rentabilita, koľko zisku tvorí; likvidita, či vie platiť. Cez DuPont rozklad sa prepoja (ROE = marža × obrat × páka) a EVA navyše posúdi, či zisk pokrýva náklady kapitálu. Rozhodujúca nie je samotná číselná hodnota, ale jej trend, porovnanie s odvetvím a slovná ekonomická interpretácia."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Vstupné údaje a metódy finančnej analýzy", "text": "Pomerová analýza je len jednou z metód. Horizontálna analýza sleduje vývoj položky v čase (absolútna zmena = bežné − minulé obdobie; relatívna = zmena / minulé × 100). Vertikálna analýza vyjadruje každú položku ako podiel na základni (v súvahe celkové aktíva = 100 %, vo výsledovke tržby = 100 %). Sústavy ukazovateľov sú pyramídové rozklady (DuPont) a syntetické bonitné/bankrotové modely. Pamäťová pomôcka: horizontálna = pohľad 'doľava-doprava' v čase, vertikálna = pohľad 'zhora-nadol' na štruktúru."},
-    {"nadpis": "Pomocné kategórie zisku (EBIT, EBITDA, EBT)", "text": "Pre rentabilitu a zadlženosť sú dôležité stupne zisku: EBT (VH pred zdanením), EBIT (zisk pred úrokmi a zdanením) a EBITDA (EBIT + odpisy). EBIT sa používa v ROA, ROCE a úrokovom krytí, lebo abstrahuje od spôsobu financovania (úrokov) aj od zdanenia, a tým umožňuje porovnať prevádzkovú výkonnosť firiem s rôznou kapitálovou štruktúrou. EBITDA navyše vylučuje vplyv odpisovej politiky."},
-    {"nadpis": "Nákladovosť, účinnosť a viazanosť", "text": "Doplnkové ukazovatele efektívnosti: nákladovosť = náklady / výnosy (koľko € nákladov na 1 € výnosov, čím nižšie tým lepšie; doplnok do 1 je zisková marža); účinnosť = výnosy / náklady (prevrátená hodnota nákladovosti, čím vyššie tým lepšie); viazanosť celkových aktív = celkové aktíva / tržby (prevrátená hodnota obratu aktív, čím nižšie tým lepšie)."},
-    {"nadpis": "Vzájomné väzby ukazovateľov (likvidita vs. rentabilita)", "text": "Skupiny ukazovateľov si často protirečia. Vysoká likvidita (veľa hotovosti a zásob) znižuje rentabilitu, lebo viazaný majetok nezarába. Vysoká zadlženosť cez pozitívnu finančnú páku zvyšuje ROE, ale zhoršuje likviditu a zvyšuje riziko. Rýchly obrat (aktivita) podporuje rentabilitu aj likviditu. Preto sa nehľadá maximum jedného ukazovateľa, ale vyvážený profil – cieľom je optimum, nie extrém."},
-    {"nadpis": "Predikčné a bankrotové modely ako nadstavba", "text": "Syntetické modely zhŕňajú viacero pomerových ukazovateľov do jedného skóre a varujú pred úpadkom. Altmanovo Z-score (pre kótované a.s.) a Z'-score (pre nekótované, používa účtovné vlastné imanie), index IN05 (manželia Neumaierovci, ČR – nepracuje s trhovou hodnotou, vhodný pre strednú Európu), Tafflerov model (rozhoduje znamienko) a Beaverova jednorozmerná analýza (sleduje trend ukazovateľov, najsilnejší je cash flow / cudzie zdroje). Pravidlo: pri Altmanovi a IN05 vyššie skóre = zdravšia firma, medzi prahmi je 'sivá zóna' neistoty."}
+    {
+      "nadpis": "Vstupné údaje a metódy finančnej analýzy",
+      "text": "Pomerová analýza je len jednou z metód. Horizontálna analýza sleduje vývoj položky v čase (absolútna zmena = bežné − minulé obdobie; relatívna = zmena / minulé × 100). Vertikálna analýza vyjadruje každú položku ako podiel na základni (v súvahe celkové aktíva = 100 %, vo výsledovke tržby = 100 %). Sústavy ukazovateľov sú pyramídové rozklady (DuPont) a syntetické bonitné/bankrotové modely. Pamäťová pomôcka: horizontálna = pohľad 'doľava-doprava' v čase, vertikálna = pohľad 'zhora-nadol' na štruktúru."
+    },
+    {
+      "nadpis": "Pomocné kategórie zisku (EBIT, EBITDA, EBT)",
+      "text": "Pre rentabilitu a zadlženosť sú dôležité stupne zisku: EBT (VH pred zdanením), EBIT (zisk pred úrokmi a zdanením) a EBITDA (EBIT + odpisy). EBIT sa používa v ROA, ROCE a úrokovom krytí, lebo abstrahuje od spôsobu financovania (úrokov) aj od zdanenia, a tým umožňuje porovnať prevádzkovú výkonnosť firiem s rôznou kapitálovou štruktúrou. EBITDA navyše vylučuje vplyv odpisovej politiky."
+    },
+    {
+      "nadpis": "Nákladovosť, účinnosť a viazanosť",
+      "text": "Doplnkové ukazovatele efektívnosti: nákladovosť = náklady / výnosy (koľko € nákladov na 1 € výnosov, čím nižšie tým lepšie; doplnok do 1 je zisková marža); účinnosť = výnosy / náklady (prevrátená hodnota nákladovosti, čím vyššie tým lepšie); viazanosť celkových aktív = celkové aktíva / tržby (prevrátená hodnota obratu aktív, čím nižšie tým lepšie)."
+    },
+    {
+      "nadpis": "Vzájomné väzby ukazovateľov (likvidita vs. rentabilita)",
+      "text": "Skupiny ukazovateľov si často protirečia. Vysoká likvidita (veľa hotovosti a zásob) znižuje rentabilitu, lebo viazaný majetok nezarába. Vysoká zadlženosť cez pozitívnu finančnú páku zvyšuje ROE, ale zhoršuje likviditu a zvyšuje riziko. Rýchly obrat (aktivita) podporuje rentabilitu aj likviditu. Preto sa nehľadá maximum jedného ukazovateľa, ale vyvážený profil – cieľom je optimum, nie extrém."
+    },
+    {
+      "nadpis": "Predikčné a bankrotové modely ako nadstavba",
+      "text": "Syntetické modely zhŕňajú viacero pomerových ukazovateľov do jedného skóre a varujú pred úpadkom. Altmanovo Z-score (pre kótované a.s.) a Z'-score (pre nekótované, používa účtovné vlastné imanie), index IN05 (manželia Neumaierovci, ČR – nepracuje s trhovou hodnotou, vhodný pre strednú Európu), Tafflerov model (rozhoduje znamienko) a Beaverova jednorozmerná analýza (sleduje trend ukazovateľov, najsilnejší je cash flow / cudzie zdroje). Pravidlo: pri Altmanovi a IN05 vyššie skóre = zdravšia firma, medzi prahmi je 'sivá zóna' neistoty."
+    }
   ],
   "priklady": [
-    {"nazov": "Aktivita – doba inkasa a obrat aktív", "zadanie": "Podnik má tržby 1 000 000 €, celkové aktíva 800 000 €, priemerné pohľadávky 100 000 €, priemerné zásoby 150 000 €.", "riesenie": "Obrat celkových aktív = 1 000 000 / 800 000 = 1,25-krát ročne (každé euro aktív vytvorí 1,25 € tržieb). Denné tržby = 1 000 000 / 365 ≈ 2 740 €. Doba inkasa pohľadávok = 100 000 / 2 740 ≈ 36,5 dňa (odberatelia platia v priemere za vyše 36 dní). Doba obratu zásob = 150 000 / 2 740 ≈ 54,8 dňa (zásoby ležia na sklade ~55 dní). Interpretácia: ak doba úhrady záväzkov presahuje 36,5 dňa, podnik financuje pohľadávky obchodným úverom od dodávateľov.", "dopad_na_zd": "Obrat aktív 1,25; doba inkasa ≈ 36,5 dňa; doba obratu zásob ≈ 54,8 dňa."},
-    {"nazov": "Zadlženosť a úrokové krytie", "zadanie": "Aktíva 1 000 000 €, cudzí kapitál 600 000 €, vlastné imanie 400 000 €, EBIT 120 000 €, nákladové úroky 30 000 €.", "riesenie": "Celková zadlženosť = 600 000 / 1 000 000 = 60 % (majetok je z 60 % krytý dlhom – nad odporúčaných 50 %, ešte v tolerancii do ~70 %). Stupeň samofinancovania = 400 000 / 1 000 000 = 40 % (spolu so zadlženosťou dáva 100 %). Úrokové krytie = 120 000 / 30 000 = 4 (zisk pokryje úroky 4-krát – nad kritickou hranicou 3, no pod optimom 5). Finančná páka = 1 000 000 / 400 000 = 2,5.", "dopad_na_zd": "Zadlženosť 60 %, samofinancovanie 40 %, úrokové krytie 4, páka 2,5."},
-    {"nazov": "Rentabilita a DuPont rozklad ROE", "zadanie": "Tržby 1 000 000 €, čistý zisk 50 000 €, celkové aktíva 800 000 €, vlastné imanie 320 000 €.", "riesenie": "ROS = 50 000 / 1 000 000 = 5 % (z 1 € tržieb 5 centov čistého zisku). Obrat aktív = 1 000 000 / 800 000 = 1,25. Finančná páka = 800 000 / 320 000 = 2,5. DuPont: ROE = ROS × obrat × páka = 0,05 × 1,25 × 2,5 = 0,15625 ≈ 15,6 %. Kontrola priamo: ROE = čistý zisk / vlastné imanie = 50 000 / 320 000 = 15,625 % – sedí. Interpretácia: ROE 15,6 % stojí na priemernej marži (5 %), slušnom obrate (1,25) a páke 2,5; zvýšenie ktorejkoľvek zložky by ROE zvýšilo, páka však aj riziko.", "dopad_na_zd": "ROS 5 %, obrat 1,25, páka 2,5 → ROE ≈ 15,6 % (overené priamym výpočtom)."},
-    {"nazov": "EVA – tvorí podnik hodnotu?", "zadanie": "Investovaný kapitál 500 000 €, NOPAT (prevádzkový zisk po zdanení) 45 000 €, WACC 8 %.", "riesenie": "ROIC = NOPAT / investovaný kapitál = 45 000 / 500 000 = 9 %. EVA = (ROIC − WACC) × investovaný kapitál = (0,09 − 0,08) × 500 000 = 0,01 × 500 000 = 5 000 €. EVA > 0 → podnik tvorí hodnotu (zarobí o 5 000 € viac, než stoja jeho zdroje). Keby WACC bol 10 %, EVA = (0,09 − 0,10) × 500 000 = −5 000 € – účtovne ziskový podnik by hodnotu ničil.", "dopad_na_zd": "ROIC 9 % > WACC 8 % → EVA = +5 000 € (tvorba hodnoty)."},
-    {"nazov": "Likvidita L1/L2/L3", "zadanie": "Obežný majetok 400 000 € (z toho zásoby 150 000 €, finančný majetok 50 000 €), krátkodobé záväzky 200 000 €.", "riesenie": "L1 (okamžitá) = 50 000 / 200 000 = 0,25 (v pásme 0,2 – 0,6 – v poriadku). L2 (pohotová) = (400 000 − 150 000) / 200 000 = 250 000 / 200 000 = 1,25 (v pásme 1,0 – 1,5 – v poriadku). L3 (bežná) = 400 000 / 200 000 = 2,0 (v pásme ~1,5 – 2,5 – v poriadku). Čistý pracovný kapitál = 400 000 − 200 000 = 200 000 € (kladný 'vankúš'). Interpretácia: podnik je likvidný na všetkých troch stupňoch.", "dopad_na_zd": "L1 = 0,25; L2 = 1,25; L3 = 2,0; ČPK = 200 000 € – zdravá likvidita."}
+    {
+      "nazov": "Aktivita – doba inkasa a obrat aktív",
+      "zadanie": "Podnik má tržby 1 000 000 €, celkové aktíva 800 000 €, priemerné pohľadávky 100 000 €, priemerné zásoby 150 000 €.",
+      "riesenie": "Obrat celkových aktív = 1 000 000 / 800 000 = 1,25-krát ročne (každé euro aktív vytvorí 1,25 € tržieb). Denné tržby = 1 000 000 / 365 ≈ 2 740 €. Doba inkasa pohľadávok = 100 000 / 2 740 ≈ 36,5 dňa (odberatelia platia v priemere za vyše 36 dní). Doba obratu zásob = 150 000 / 2 740 ≈ 54,8 dňa (zásoby ležia na sklade ~55 dní). Interpretácia: ak doba úhrady záväzkov presahuje 36,5 dňa, podnik financuje pohľadávky obchodným úverom od dodávateľov.",
+      "dopad_na_zd": "Obrat aktív 1,25; doba inkasa ≈ 36,5 dňa; doba obratu zásob ≈ 54,8 dňa."
+    },
+    {
+      "nazov": "Zadlženosť a úrokové krytie",
+      "zadanie": "Aktíva 1 000 000 €, cudzí kapitál 600 000 €, vlastné imanie 400 000 €, EBIT 120 000 €, nákladové úroky 30 000 €.",
+      "riesenie": "Celková zadlženosť = 600 000 / 1 000 000 = 60 % (majetok je z 60 % krytý dlhom – nad odporúčaných 50 %, ešte v tolerancii do ~70 %). Stupeň samofinancovania = 400 000 / 1 000 000 = 40 % (spolu so zadlženosťou dáva 100 %). Úrokové krytie = 120 000 / 30 000 = 4 (zisk pokryje úroky 4-krát – nad kritickou hranicou 3, no pod optimom 5). Finančná páka = 1 000 000 / 400 000 = 2,5.",
+      "dopad_na_zd": "Zadlženosť 60 %, samofinancovanie 40 %, úrokové krytie 4, páka 2,5."
+    },
+    {
+      "nazov": "Rentabilita a DuPont rozklad ROE",
+      "zadanie": "Tržby 1 000 000 €, čistý zisk 50 000 €, celkové aktíva 800 000 €, vlastné imanie 320 000 €.",
+      "riesenie": "ROS = 50 000 / 1 000 000 = 5 % (z 1 € tržieb 5 centov čistého zisku). Obrat aktív = 1 000 000 / 800 000 = 1,25. Finančná páka = 800 000 / 320 000 = 2,5. DuPont: ROE = ROS × obrat × páka = 0,05 × 1,25 × 2,5 = 0,15625 ≈ 15,6 %. Kontrola priamo: ROE = čistý zisk / vlastné imanie = 50 000 / 320 000 = 15,625 % – sedí. Interpretácia: ROE 15,6 % stojí na priemernej marži (5 %), slušnom obrate (1,25) a páke 2,5; zvýšenie ktorejkoľvek zložky by ROE zvýšilo, páka však aj riziko.",
+      "dopad_na_zd": "ROS 5 %, obrat 1,25, páka 2,5 → ROE ≈ 15,6 % (overené priamym výpočtom)."
+    },
+    {
+      "nazov": "EVA – tvorí podnik hodnotu?",
+      "zadanie": "Investovaný kapitál 500 000 €, NOPAT (prevádzkový zisk po zdanení) 45 000 €, WACC 8 %.",
+      "riesenie": "ROIC = NOPAT / investovaný kapitál = 45 000 / 500 000 = 9 %. EVA = (ROIC − WACC) × investovaný kapitál = (0,09 − 0,08) × 500 000 = 0,01 × 500 000 = 5 000 €. EVA > 0 → podnik tvorí hodnotu (zarobí o 5 000 € viac, než stoja jeho zdroje). Keby WACC bol 10 %, EVA = (0,09 − 0,10) × 500 000 = −5 000 € – účtovne ziskový podnik by hodnotu ničil.",
+      "dopad_na_zd": "ROIC 9 % > WACC 8 % → EVA = +5 000 € (tvorba hodnoty)."
+    },
+    {
+      "nazov": "Likvidita L1/L2/L3",
+      "zadanie": "Obežný majetok 400 000 € (z toho zásoby 150 000 €, finančný majetok 50 000 €), krátkodobé záväzky 200 000 €.",
+      "riesenie": "L1 (okamžitá) = 50 000 / 200 000 = 0,25 (v pásme 0,2 – 0,6 – v poriadku). L2 (pohotová) = (400 000 − 150 000) / 200 000 = 250 000 / 200 000 = 1,25 (v pásme 1,0 – 1,5 – v poriadku). L3 (bežná) = 400 000 / 200 000 = 2,0 (v pásme ~1,5 – 2,5 – v poriadku). Čistý pracovný kapitál = 400 000 − 200 000 = 200 000 € (kladný 'vankúš'). Interpretácia: podnik je likvidný na všetkých troch stupňoch.",
+      "dopad_na_zd": "L1 = 0,25; L2 = 1,25; L3 = 2,0; ČPK = 200 000 € – zdravá likvidita."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/BC_II_04_styri_skupiny_ukazovatelov.svg", "typ": "schéma", "popis": "Štyri skupiny pomerových ukazovateľov (aktivita, zadlženosť, rentabilita, likvidita) s typickými vzorcami a otázkou, na ktorú odpovedajú."},
-    {"subor": "03_Vizualy/BC_II_04_dupont_rozklad_roe.svg", "typ": "schéma", "popis": "DuPont rozklad ROE = ROS × obrat aktív × finančná páka, s prepojením na skupiny rentability, aktivity a zadlženosti a číselným príkladom (5 % × 1,25 × 2,5 ≈ 15,6 %)."}
+    {
+      "subor": "03_Vizualy/BC_II_04_styri_skupiny_ukazovatelov.svg",
+      "typ": "schéma",
+      "popis": "Štyri skupiny pomerových ukazovateľov (aktivita, zadlženosť, rentabilita, likvidita) s typickými vzorcami a otázkou, na ktorú odpovedajú."
+    },
+    {
+      "subor": "03_Vizualy/BC_II_04_dupont_rozklad_roe.svg",
+      "typ": "schéma",
+      "popis": "DuPont rozklad ROE = ROS × obrat aktív × finančná páka, s prepojením na skupiny rentability, aktivity a zadlženosti a číselným príkladom (5 % × 1,25 × 2,5 ≈ 15,6 %)."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Aký je rozdiel medzi obrátkou a dobou obratu?", "odpoved": "Obrátka hovorí, koľkokrát za rok sa položka (aktíva, zásoby) pretočí v tržbách; doba obratu hovorí, koľko dní v priemere v nej čakám. Sú navzájom prevrátené: doba obratu = 365 / obrátka. Vyššia obrátka a kratšia doba znamenajú efektívnejšie využitie majetku."},
-    {"otazka": "Prečo by mala byť doba inkasa pohľadávok kratšia ako doba úhrady záväzkov?", "odpoved": "Ak inkasujem od odberateľov skôr, ako platím dodávateľom, podnik si bezplatne požičiava prevádzkový kapitál od dodávateľov a nemusí ho financovať z vlastných zdrojov či úveru – zlepšuje sa cash flow a likvidita."},
-    {"otazka": "Kedy finančná páka zvyšuje ROE a kedy ho znižuje?", "odpoved": "Pozitívne pôsobí, keď je rentabilita aktív vyššia ako úroková sadzba cudzieho kapitálu – vtedy dlh zvyšuje výnos vlastníka. Ak rentabilita klesne pod cenu dlhu, páka pôsobí opačne a ROE znižuje; zároveň vždy zvyšuje riziko (fixné úroky)."},
-    {"otazka": "Čo ukazuje DuPont rozklad a načo je dobrý?", "odpoved": "Rozkladá ROE na ROS × obrat aktív × finančná páka, čím odhalí, ODKIAĽ rentabilita vlastníka pochádza – z marže, z efektívnosti aktív alebo zo zadlženia. Umožňuje cielene hľadať, kde podnik zlepšiť."},
-    {"otazka": "Ako môže byť účtovne ziskový podnik 'stratový' podľa EVA?", "odpoved": "EVA = (ROIC − WACC) × investovaný kapitál zohľadňuje aj náklady vlastného kapitálu (oportunitný výnos vlastníka). Ak podnik zarobí účtovný zisk, ale jeho ROIC je nižší ako WACC, EVA je záporná – nepokryje cenu zdrojov a ničí hodnotu."},
-    {"otazka": "Aký je rozdiel medzi pohotovou a bežnou likviditou?", "odpoved": "Bežná likvidita (L3) má v čitateli celý obežný majetok; pohotová (L2) z neho vylučuje zásoby (najmenej likvidnú časť), takže je prísnejšia a lepšie meria schopnosť platiť bez núteného výpredaja zásob."},
-    {"otazka": "Prečo je likvidita na báze cash flow lepšia než statická?", "odpoved": "Statická likvidita meria stav majetku k jednému dňu a môže byť skreslená nedobytnými pohľadávkami či nepredajnými zásobami. Likvidita z cash flow (prevádzkový CF / krátkodobé záväzky) meria krytie záväzkov skutočne vygenerovanými peniazmi za obdobie."}
+    {
+      "otazka": "Aký je rozdiel medzi obrátkou a dobou obratu?",
+      "odpoved": "Obrátka hovorí, koľkokrát za rok sa položka (aktíva, zásoby) pretočí v tržbách; doba obratu hovorí, koľko dní v priemere v nej čakám. Sú navzájom prevrátené: doba obratu = 365 / obrátka. Vyššia obrátka a kratšia doba znamenajú efektívnejšie využitie majetku.",
+      "moznosti": [
+        "Obrátka hovorí, koľko dní v priemere v položke čakám; doba obratu hovorí, koľkokrát za rok sa pretočí v tržbách; sú zhodné.",
+        "Obrátka aj doba obratu vyjadrujú podiel na celkových aktívach; líšia sa len jednotkou (% verzus dni).",
+        "Obrátka hovorí, koľkokrát za rok sa položka pretočí v tržbách; doba obratu hovorí, koľko dní v nej v priemere čakám; sú prevrátené (doba = 365 / obrátka).",
+        "Obrátka sa počíta z nákladov, doba obratu z výnosov; vyššia obrátka znamená dlhšiu dobu obratu."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Obrátka hovorí, koľkokrát za rok sa položka (aktíva, zásoby) pretočí v tržbách; doba obratu hovorí, koľko dní v priemere v nej čakám. Sú navzájom prevrátené: doba obratu = 365 / obrátka. Vyššia obrátka a kratšia doba znamenajú efektívnejšie využitie majetku."
+    },
+    {
+      "otazka": "Prečo by mala byť doba inkasa pohľadávok kratšia ako doba úhrady záväzkov?",
+      "odpoved": "Ak inkasujem od odberateľov skôr, ako platím dodávateľom, podnik si bezplatne požičiava prevádzkový kapitál od dodávateľov a nemusí ho financovať z vlastných zdrojov či úveru – zlepšuje sa cash flow a likvidita.",
+      "moznosti": [
+        "Ak inkasujem od odberateľov skôr, ako platím dodávateľom, podnik si bezplatne požičiava prevádzkový kapitál od dodávateľov; zlepšuje sa cash flow a likvidita.",
+        "Ak platím dodávateľom skôr, ako inkasujem od odberateľov, získavam zľavy a zvyšujem ROE cez finančnú páku.",
+        "Aby sa zvýšila doba obratu zásob a tým aj obrat celkových aktív a rentabilita tržieb.",
+        "Aby sa znížila celková zadlženosť, lebo kratšia doba inkasa znamená nižší podiel cudzieho kapitálu."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Ak inkasujem od odberateľov skôr, ako platím dodávateľom, podnik si bezplatne požičiava prevádzkový kapitál od dodávateľov a nemusí ho financovať z vlastných zdrojov či úveru – zlepšuje sa cash flow a likvidita."
+    },
+    {
+      "otazka": "Kedy finančná páka zvyšuje ROE a kedy ho znižuje?",
+      "odpoved": "Pozitívne pôsobí, keď je rentabilita aktív vyššia ako úroková sadzba cudzieho kapitálu – vtedy dlh zvyšuje výnos vlastníka. Ak rentabilita klesne pod cenu dlhu, páka pôsobí opačne a ROE znižuje; zároveň vždy zvyšuje riziko (fixné úroky).",
+      "moznosti": [
+        "Páka zvyšuje ROE vždy, lebo cudzí kapitál je vždy lacnejší ako vlastný; riziko pritom neovplyvňuje.",
+        "Páka zvyšuje ROE, keď je úroková sadzba cudzieho kapitálu vyššia ako rentabilita aktív; inak ROE znižuje.",
+        "Páka zvyšuje ROE, keď klesá obrat aktív, a znižuje ho, keď obrat aktív rastie.",
+        "Páka zvyšuje ROE, keď je rentabilita aktív vyššia ako úroková sadzba cudzieho kapitálu; ak rentabilita klesne pod cenu dlhu, ROE znižuje a vždy zvyšuje riziko."
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Pozitívne pôsobí, keď je rentabilita aktív vyššia ako úroková sadzba cudzieho kapitálu – vtedy dlh zvyšuje výnos vlastníka. Ak rentabilita klesne pod cenu dlhu, páka pôsobí opačne a ROE znižuje; zároveň vždy zvyšuje riziko (fixné úroky)."
+    },
+    {
+      "otazka": "Čo ukazuje DuPont rozklad a načo je dobrý?",
+      "odpoved": "Rozkladá ROE na ROS × obrat aktív × finančná páka, čím odhalí, ODKIAĽ rentabilita vlastníka pochádza – z marže, z efektívnosti aktív alebo zo zadlženia. Umožňuje cielene hľadať, kde podnik zlepšiť.",
+      "moznosti": [
+        "Rozkladá ROA na ROS × likviditu × úrokové krytie, čím ukáže, či podnik dokáže platiť záväzky.",
+        "Rozkladá ROE na ROS × obrat aktív × finančnú páku, čím odhalí, odkiaľ rentabilita vlastníka pochádza – z marže, z efektívnosti aktív alebo zo zadlženia.",
+        "Rozkladá ROE na maržu × zadlženosť × likviditu, čím určí optimálnu kapitálovú štruktúru.",
+        "Rozkladá EVA na ROIC × WACC × investovaný kapitál, čím zistí tvorbu hodnoty."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Rozkladá ROE na ROS × obrat aktív × finančná páka, čím odhalí, ODKIAĽ rentabilita vlastníka pochádza – z marže, z efektívnosti aktív alebo zo zadlženia. Umožňuje cielene hľadať, kde podnik zlepšiť."
+    },
+    {
+      "otazka": "Ako môže byť účtovne ziskový podnik 'stratový' podľa EVA?",
+      "odpoved": "EVA = (ROIC − WACC) × investovaný kapitál zohľadňuje aj náklady vlastného kapitálu (oportunitný výnos vlastníka). Ak podnik zarobí účtovný zisk, ale jeho ROIC je nižší ako WACC, EVA je záporná – nepokryje cenu zdrojov a ničí hodnotu.",
+      "moznosti": [
+        "EVA zohľadňuje aj náklady vlastného kapitálu; ak podnik zarobí účtovný zisk, ale jeho ROIC je nižší ako WACC, EVA je záporná a podnik ničí hodnotu.",
+        "EVA porovnáva čistý zisk s úrokmi z cudzieho kapitálu; ak úroky prevýšia zisk, EVA je záporná aj pri kladnom účtovnom zisku.",
+        "EVA odpočítava od zisku daň a odpisy; pri vysokých odpisoch je EVA záporná aj napriek účtovnému zisku.",
+        "EVA meria likviditu na báze cash flow; ak je prevádzkový cash flow nižší než zisk, EVA je záporná."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "EVA = (ROIC − WACC) × investovaný kapitál zohľadňuje aj náklady vlastného kapitálu (oportunitný výnos vlastníka). Ak podnik zarobí účtovný zisk, ale jeho ROIC je nižší ako WACC, EVA je záporná – nepokryje cenu zdrojov a ničí hodnotu."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi pohotovou a bežnou likviditou?",
+      "odpoved": "Bežná likvidita (L3) má v čitateli celý obežný majetok; pohotová (L2) z neho vylučuje zásoby (najmenej likvidnú časť), takže je prísnejšia a lepšie meria schopnosť platiť bez núteného výpredaja zásob.",
+      "moznosti": [
+        "Bežná likvidita (L3) vylučuje z čitateľa zásoby, kým pohotová (L2) zahŕňa celý obežný majetok, preto je L2 menej prísna.",
+        "Pohotová likvidita (L2) má v čitateli len finančný majetok, bežná (L3) obežný majetok bez zásob; L2 je preto prísnejšia.",
+        "Bežná likvidita (L3) má v čitateli celý obežný majetok; pohotová (L2) z neho vylučuje zásoby (najmenej likvidnú časť), takže je prísnejšia.",
+        "Pohotová likvidita (L2) pridáva k obežnému majetku dlhodobé pohľadávky, bežná (L3) ich vylučuje, preto je L2 vyššia."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Bežná likvidita (L3) má v čitateli celý obežný majetok; pohotová (L2) z neho vylučuje zásoby (najmenej likvidnú časť), takže je prísnejšia a lepšie meria schopnosť platiť bez núteného výpredaja zásob."
+    },
+    {
+      "otazka": "Prečo je likvidita na báze cash flow lepšia než statická?",
+      "odpoved": "Statická likvidita meria stav majetku k jednému dňu a môže byť skreslená nedobytnými pohľadávkami či nepredajnými zásobami. Likvidita z cash flow (prevádzkový CF / krátkodobé záväzky) meria krytie záväzkov skutočne vygenerovanými peniazmi za obdobie.",
+      "moznosti": [
+        "Statická likvidita počíta s budúcimi peňažnými tokmi a môže nadhodnotiť záväzky; likvidita z cash flow vychádza zo stavu majetku k jednému dňu.",
+        "Statická likvidita zohľadňuje len dlhodobé záväzky; likvidita z cash flow meria krytie krátkodobých aj dlhodobých záväzkov.",
+        "Statická likvidita pracuje s trhovou hodnotou majetku; likvidita z cash flow s účtovnou hodnotou, ktorá je spoľahlivejšia.",
+        "Statická likvidita meria stav majetku k jednému dňu a môže byť skreslená nedobytnými pohľadávkami či nepredajnými zásobami; likvidita z cash flow meria krytie záväzkov skutočne vygenerovanými peniazmi za obdobie."
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Statická likvidita meria stav majetku k jednému dňu a môže byť skreslená nedobytnými pohľadávkami či nepredajnými zásobami. Likvidita z cash flow (prevádzkový CF / krátkodobé záväzky) meria krytie záväzkov skutočne vygenerovanými peniazmi za obdobie."
+    }
   ],
   "pasce_caste_chyby": [
     "Hodnotiť ukazovateľ izolovane bez porovnania v čase, s odvetvím alebo plánom – jedno číslo samo o sebe nič nehovorí.",
@@ -78,28 +250,124 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Doba obratu zásob sa vypočíta ako:", "moznosti": ["tržby / priemerné zásoby", "priemerné zásoby / (tržby / 365)", "priemerné zásoby / krátkodobé záväzky", "tržby / celkové aktíva"], "spravna_index": 1, "vysvetlenie": "Doba obratu zásob = priemerné zásoby / denné tržby = priemerné zásoby / (tržby / 365); udáva počet dní, počas ktorých zásoby ležia na sklade."},
-      {"otazka": "Celková zadlženosť 60 % znamená, že stupeň samofinancovania je:", "moznosti": ["60 %", "40 %", "100 %", "nedá sa určiť"], "spravna_index": 1, "vysvetlenie": "Celková zadlženosť a stupeň samofinancovania sú doplnkové (spolu = 100 %), takže 100 % − 60 % = 40 %."},
-      {"otazka": "DuPont rozklad ROE je:", "moznosti": ["ROA × obrat zásob × likvidita", "ROS × obrat aktív × finančná páka", "EBIT / úroky × zadlženosť", "čistý zisk / tržby × likvidita"], "spravna_index": 1, "vysvetlenie": "ROE = (čistý zisk / tržby) × (tržby / aktíva) × (aktíva / vlastné imanie) = ROS × obrat aktív × finančná páka."},
-      {"otazka": "Pri ROIC 9 % a WACC 11 % je ekonomická pridaná hodnota (EVA):", "moznosti": ["kladná – podnik tvorí hodnotu", "záporná – podnik ničí hodnotu", "nulová", "rovná účtovnému zisku"], "spravna_index": 1, "vysvetlenie": "EVA = (ROIC − WACC) × investovaný kapitál; ak ROIC < WACC (9 % < 11 %), je EVA záporná – podnik nepokryje náklady kapitálu."},
-      {"otazka": "Pohotová likvidita (L2) sa od bežnej (L3) líši tým, že v čitateli:", "moznosti": ["pridáva dlhodobý majetok", "odpočíta zásoby od obežného majetku", "používa len peniaze v pokladni", "počíta s cudzím kapitálom"], "spravna_index": 1, "vysvetlenie": "L2 = (obežný majetok − zásoby) / krátkodobé záväzky; vylučuje najmenej likvidné zásoby, preto je prísnejšia ako L3."},
-      {"otazka": "Úrokové krytie 2 znamená pre veriteľa:", "moznosti": ["bezpečnú situáciu nad optimom", "varovný signál – pod kritickou hranicou", "že podnik nemá žiadny dlh", "vysokú rentabilitu aktív"], "spravna_index": 1, "vysvetlenie": "Úrokové krytie = EBIT / úroky; optimum je okolo 5 a nemalo by klesnúť pod 3. Hodnota 2 je pod kritickou hranicou – riziko, že zisk nepokryje úroky."}
+      {
+        "otazka": "Doba obratu zásob sa vypočíta ako:",
+        "moznosti": [
+          "tržby / priemerné zásoby",
+          "priemerné zásoby / (tržby / 365)",
+          "priemerné zásoby / krátkodobé záväzky",
+          "tržby / celkové aktíva"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Doba obratu zásob = priemerné zásoby / denné tržby = priemerné zásoby / (tržby / 365); udáva počet dní, počas ktorých zásoby ležia na sklade."
+      },
+      {
+        "otazka": "Celková zadlženosť 60 % znamená, že stupeň samofinancovania je:",
+        "moznosti": [
+          "60 %",
+          "40 %",
+          "100 %",
+          "nedá sa určiť"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Celková zadlženosť a stupeň samofinancovania sú doplnkové (spolu = 100 %), takže 100 % − 60 % = 40 %."
+      },
+      {
+        "otazka": "DuPont rozklad ROE je:",
+        "moznosti": [
+          "ROA × obrat zásob × likvidita",
+          "ROS × obrat aktív × finančná páka",
+          "EBIT / úroky × zadlženosť",
+          "čistý zisk / tržby × likvidita"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "ROE = (čistý zisk / tržby) × (tržby / aktíva) × (aktíva / vlastné imanie) = ROS × obrat aktív × finančná páka."
+      },
+      {
+        "otazka": "Pri ROIC 9 % a WACC 11 % je ekonomická pridaná hodnota (EVA):",
+        "moznosti": [
+          "kladná – podnik tvorí hodnotu",
+          "záporná – podnik ničí hodnotu",
+          "nulová",
+          "rovná účtovnému zisku"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "EVA = (ROIC − WACC) × investovaný kapitál; ak ROIC < WACC (9 % < 11 %), je EVA záporná – podnik nepokryje náklady kapitálu."
+      },
+      {
+        "otazka": "Pohotová likvidita (L2) sa od bežnej (L3) líši tým, že v čitateli:",
+        "moznosti": [
+          "pridáva dlhodobý majetok",
+          "odpočíta zásoby od obežného majetku",
+          "používa len peniaze v pokladni",
+          "počíta s cudzím kapitálom"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "L2 = (obežný majetok − zásoby) / krátkodobé záväzky; vylučuje najmenej likvidné zásoby, preto je prísnejšia ako L3."
+      },
+      {
+        "otazka": "Úrokové krytie 2 znamená pre veriteľa:",
+        "moznosti": [
+          "bezpečnú situáciu nad optimom",
+          "varovný signál – pod kritickou hranicou",
+          "že podnik nemá žiadny dlh",
+          "vysokú rentabilitu aktív"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Úrokové krytie = EBIT / úroky; optimum je okolo 5 a nemalo by klesnúť pod 3. Hodnota 2 je pod kritickou hranicou – riziko, že zisk nepokryje úroky."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite štyri základné skupiny pomerových ukazovateľov a otázku, na ktorú každá odpovedá.", "vzorova_odpoved": "Aktivita – ako efektívne podnik využíva majetok (obrátky a doby obratu). Zadlženosť – z čoho je financovaný a aké nesie riziko (celková zadlženosť, samofinancovanie, úrokové krytie, páka). Rentabilita – koľko zisku tvorí vo vzťahu k vloženým prostriedkom (ROA, ROE, ROS, ROCE). Likvidita – či dokáže hradiť krátkodobé záväzky (L1, L2, L3, CF likvidita). Hodnotia sa v trende a porovnaní s odvetvím."},
-      {"otazka": "Vysvetlite DuPont rozklad ROE a čo z neho podnik zistí.", "vzorova_odpoved": "ROE = ROS × obrat aktív × finančná páka = (čistý zisk/tržby) × (tržby/aktíva) × (aktíva/vlastné imanie). Ukazuje, odkiaľ ROE pochádza – z marže (cenotvorba a náklady), z efektívnosti aktív (obrat) alebo zo zadlženia (páka). Podnik tak vie cielene zlepšiť slabú zložku; páka však zvyšuje aj riziko."},
-      {"otazka": "Čo meria EVA a aký je rozdiel oproti účtovnému zisku?", "vzorova_odpoved": "EVA = (ROIC − WACC) × investovaný kapitál, kde ROIC = NOPAT / investovaný kapitál. Na rozdiel od účtovného zisku zohľadňuje aj náklad vlastného kapitálu (WACC). EVA > 0 = tvorba hodnoty (zarobí viac, než stoja zdroje), EVA < 0 = ničenie hodnoty. Účtovne ziskový podnik môže mať zápornú EVA, ak ROIC < WACC."}
+      {
+        "otazka": "Vysvetlite štyri základné skupiny pomerových ukazovateľov a otázku, na ktorú každá odpovedá.",
+        "vzorova_odpoved": "Aktivita – ako efektívne podnik využíva majetok (obrátky a doby obratu). Zadlženosť – z čoho je financovaný a aké nesie riziko (celková zadlženosť, samofinancovanie, úrokové krytie, páka). Rentabilita – koľko zisku tvorí vo vzťahu k vloženým prostriedkom (ROA, ROE, ROS, ROCE). Likvidita – či dokáže hradiť krátkodobé záväzky (L1, L2, L3, CF likvidita). Hodnotia sa v trende a porovnaní s odvetvím."
+      },
+      {
+        "otazka": "Vysvetlite DuPont rozklad ROE a čo z neho podnik zistí.",
+        "vzorova_odpoved": "ROE = ROS × obrat aktív × finančná páka = (čistý zisk/tržby) × (tržby/aktíva) × (aktíva/vlastné imanie). Ukazuje, odkiaľ ROE pochádza – z marže (cenotvorba a náklady), z efektívnosti aktív (obrat) alebo zo zadlženia (páka). Podnik tak vie cielene zlepšiť slabú zložku; páka však zvyšuje aj riziko."
+      },
+      {
+        "otazka": "Čo meria EVA a aký je rozdiel oproti účtovnému zisku?",
+        "vzorova_odpoved": "EVA = (ROIC − WACC) × investovaný kapitál, kde ROIC = NOPAT / investovaný kapitál. Na rozdiel od účtovného zisku zohľadňuje aj náklad vlastného kapitálu (WACC). EVA > 0 = tvorba hodnoty (zarobí viac, než stoja zdroje), EVA < 0 = ničenie hodnoty. Účtovne ziskový podnik môže mať zápornú EVA, ak ROIC < WACC."
+      }
     ],
     "priklad": [
-      {"zadanie": "Podnik: tržby 2 000 000 €, čistý zisk 120 000 €, celkové aktíva 1 600 000 €, vlastné imanie 640 000 €, cudzí kapitál 960 000 €, EBIT 200 000 €, nákladové úroky 40 000 €, obežný majetok 700 000 € (zásoby 250 000 €, finančný majetok 80 000 €), krátkodobé záväzky 500 000 €. Vypočítajte vybrané ukazovatele aktivity, zadlženosti, rentability a likvidity a DuPont rozklad ROE.", "riesenie": "AKTIVITA: obrat aktív = 2 000 000 / 1 600 000 = 1,25. ZADLŽENOSŤ: celková zadlženosť = 960 000 / 1 600 000 = 60 %; samofinancovanie = 40 %; úrokové krytie = 200 000 / 40 000 = 5; páka = 1 600 000 / 640 000 = 2,5. RENTABILITA: ROS = 120 000 / 2 000 000 = 6 %; ROA = 200 000 / 1 600 000 = 12,5 %; ROE = 120 000 / 640 000 = 18,75 %. DuPont: ROS × obrat × páka = 0,06 × 1,25 × 2,5 = 0,1875 = 18,75 % (sedí). LIKVIDITA: L1 = 80 000 / 500 000 = 0,16 (mierne pod pásmom 0,2–0,6); L2 = (700 000 − 250 000) / 500 000 = 0,90 (mierne pod pásmom 1,0–1,5); L3 = 700 000 / 500 000 = 1,4 (v dolnej časti pásma ~1,5–2,5). Záver: dobrá rentabilita a úrokové krytie 5, no likvidita je na spodnej hranici – treba sledovať platobnú schopnosť."}
+      {
+        "zadanie": "Podnik: tržby 2 000 000 €, čistý zisk 120 000 €, celkové aktíva 1 600 000 €, vlastné imanie 640 000 €, cudzí kapitál 960 000 €, EBIT 200 000 €, nákladové úroky 40 000 €, obežný majetok 700 000 € (zásoby 250 000 €, finančný majetok 80 000 €), krátkodobé záväzky 500 000 €. Vypočítajte vybrané ukazovatele aktivity, zadlženosti, rentability a likvidity a DuPont rozklad ROE.",
+        "riesenie": "AKTIVITA: obrat aktív = 2 000 000 / 1 600 000 = 1,25. ZADLŽENOSŤ: celková zadlženosť = 960 000 / 1 600 000 = 60 %; samofinancovanie = 40 %; úrokové krytie = 200 000 / 40 000 = 5; páka = 1 600 000 / 640 000 = 2,5. RENTABILITA: ROS = 120 000 / 2 000 000 = 6 %; ROA = 200 000 / 1 600 000 = 12,5 %; ROE = 120 000 / 640 000 = 18,75 %. DuPont: ROS × obrat × páka = 0,06 × 1,25 × 2,5 = 0,1875 = 18,75 % (sedí). LIKVIDITA: L1 = 80 000 / 500 000 = 0,16 (mierne pod pásmom 0,2–0,6); L2 = (700 000 − 250 000) / 500 000 = 0,90 (mierne pod pásmom 1,0–1,5); L3 = 700 000 / 500 000 = 1,4 (v dolnej časti pásma ~1,5–2,5). Záver: dobrá rentabilita a úrokové krytie 5, no likvidita je na spodnej hranici – treba sledovať platobnú schopnosť."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Finančná analýza individuálnej účtovnej závierky – metodický podklad (vzorce aktivity, zadlženosti, rentability vrátane DuPont a EVA, likvidity L1/L2/L3 a cash flow)", "kde": "01_Zdroje/Vyskum_web/financna_analyza_metodika.md", "typ": "web/overené"},
-    {"nazov": "Šlosárová, A. – Blahušiaková, M.: Analýza účtovnej závierky (Wolters Kluwer) – odporúčaná učebnica k téme", "kde": "https://sekarl.euba.sk/arl-eu/sk/detail/?idx=eu_un_cat*0262196", "typ": "učebnica"},
-    {"nazov": "Podnikajte.sk – Pomerové ukazovatele finančnej analýzy (vzorce a odporúčané hodnoty rentability, aktivity, likvidity, zadlženosti)", "kde": "https://www.podnikajte.sk/assets/prilohy-v-clankoch/2011-04-27-pomerove-ukazovatele-financnej-analyzy.pdf", "typ": "web/overené"},
-    {"nazov": "Euroekonom.sk – Výpočet a interpretácia ukazovateľov rentability; analýza efektívnosti podniku (ROCE, ROIC, EVA, WACC, DuPont)", "kde": "https://www.euroekonom.sk/vypocet-a-interpretacia-ukazovatelov-rentability/", "typ": "web/overené"},
-    {"nazov": "Derivat.sk – Ukazovatele likvidity (stupne L1/L2/L3, odporúčané hodnoty)", "kde": "https://www.derivat.sk/files/mur/Ukazovatele%20likvidity.pdf", "typ": "web/overené"},
-    {"nazov": "FHI EUBA – Otázky na skúšku Analýza účtovnej závierky", "kde": "https://fhi.euba.sk/www_write/files/katedry/kua/studijne_materialy/Otazky_AUZ_1819.pdf", "typ": "web/overené"}
+    {
+      "nazov": "Finančná analýza individuálnej účtovnej závierky – metodický podklad (vzorce aktivity, zadlženosti, rentability vrátane DuPont a EVA, likvidity L1/L2/L3 a cash flow)",
+      "kde": "01_Zdroje/Vyskum_web/financna_analyza_metodika.md",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Šlosárová, A. – Blahušiaková, M.: Analýza účtovnej závierky (Wolters Kluwer) – odporúčaná učebnica k téme",
+      "kde": "https://sekarl.euba.sk/arl-eu/sk/detail/?idx=eu_un_cat*0262196",
+      "typ": "učebnica"
+    },
+    {
+      "nazov": "Podnikajte.sk – Pomerové ukazovatele finančnej analýzy (vzorce a odporúčané hodnoty rentability, aktivity, likvidity, zadlženosti)",
+      "kde": "https://www.podnikajte.sk/assets/prilohy-v-clankoch/2011-04-27-pomerove-ukazovatele-financnej-analyzy.pdf",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Euroekonom.sk – Výpočet a interpretácia ukazovateľov rentability; analýza efektívnosti podniku (ROCE, ROIC, EVA, WACC, DuPont)",
+      "kde": "https://www.euroekonom.sk/vypocet-a-interpretacia-ukazovatelov-rentability/",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Derivat.sk – Ukazovatele likvidity (stupne L1/L2/L3, odporúčané hodnoty)",
+      "kde": "https://www.derivat.sk/files/mur/Ukazovatele%20likvidity.pdf",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "FHI EUBA – Otázky na skúšku Analýza účtovnej závierky",
+      "kde": "https://fhi.euba.sk/www_write/files/katedry/kua/studijne_materialy/Otazky_AUZ_1819.pdf",
+      "typ": "web/overené"
+    }
   ]
 }

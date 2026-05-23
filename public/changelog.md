@@ -11,6 +11,7 @@ Našli ste chybu alebo máte návrh? Použite v aplikácii tlačidlo **„Nahlá
 ## 2026-05-23 — spustenie
 
 - **Spustenie aplikácie** s obsahom **36 téz** (bakalárske 18 + inžinierske 18), vrátane vizuálov, mentálnych máp a slovníka skratiek.
+- **Sebatestovanie:** ku všetkým doplňujúcim otázkam (spolu 258) doplnené **ABCD možnosti** pre Korda-style precvičovanie (1 správna + 3 distraktory; možnosť viacerých správnych cez `spravne_indexy`).
 - **BC II.1 (Účtovná závierka a uzávierka) — oprava:** veľkostné kritériá účtovných jednotiek aktualizované na znenie novely č. 105/2024 (mikro ≤ 450 000 / 900 000 / 10; malá ≤ 5 mil. / 10 mil. / 50; veľká nad 2 z 3 kritérií malej).
 - **BC I.6 (Zúčtovacie vzťahy) — oprava:** odvody zamestnávateľa pre rok 2026 opravené na **36,2 %** (zdravotné 11 % + sociálne 25,2 %); prepočítané príklady ceny práce (1 000 € → 1 362 €, 1 200 € → 1 634 €, 1 500 € → 2 043 €).
 

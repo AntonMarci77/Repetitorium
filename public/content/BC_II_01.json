@@ -29,44 +29,274 @@
     "cielova_dlzka_slov": 1400,
     "uvod": "Téma spája dva odlišné, no nadväzujúce pojmy. Účtovná uzávierka je proces uzatvárania účtovných kníh na konci účtovného obdobia (§ 16 zákona o účtovníctve a § 8 postupov účtovania), ktorého súčasťou sú uzávierkové operácie a zistenie výsledku hospodárenia. Účtovná závierka je až jej výstupom – štruktúrovaná prezentácia skutočností, ktoré sú predmetom účtovníctva, poskytovaná používateľom (§ 17 ods. 1). U podnikateľa účtujúceho v podvojnom účtovníctve závierku tvoria tri súčasti: súvaha, výkaz ziskov a strát a poznámky. Nevyhnutným predpokladom preukázateľnosti je inventarizácia podľa § 29 a § 30. Komisia veľmi často testuje práve rozlíšenie uzávierka vs. závierka.",
     "casti": [
-      {"nadpis": "Účtovná uzávierka – uzatvorenie účtovných kníh", "text": "Účtovná uzávierka je činnosť, ktorou účtovná jednotka uzatvára účtovné knihy. Podľa § 16 ods. 4 zákona právnická osoba uzavrie knihy vždy k poslednému dňu účtovného obdobia (a v ďalších prípadoch – pri zániku, vstupe do likvidácie, vyhlásení konkurzu a pod.). Podľa § 8 postupov účtovania sa pri uzavretí účtov hlavnej knihy zistia obraty strán Má dať a Dal, konečné stavy výsledkových a konečné zostatky súvahových účtov, vyčísli sa výsledok hospodárenia pred zdanením, mimo účtovníctva sa zistí základ dane a zaúčtuje splatná daň z príjmov. Platí zásada bilančnej kontinuity (§ 16 ods. 12): konečné zostatky účtov k poslednému dňu obdobia sa musia rovnať začiatočným stavom k prvému dňu nasledujúceho obdobia."},
-      {"nadpis": "Uzávierkové operácie", "text": "Pred samotným uzavretím kníh treba doúčtovať všetko, čo časovo a vecne patrí do obdobia – to sú uzávierkové (závierkové) účtovné operácie podľa § 2a postupov. Patria sem najmä: zaúčtovanie odpisov dlhodobého majetku, tvorba a zúčtovanie opravných položiek a rezerv, výpočet a zaúčtovanie kurzových rozdielov k súvahovému dňu z neuhradených pohľadávok a záväzkov v cudzej mene (563 – Kurzové straty / 663 – Kurzové zisky), časové rozlíšenie nákladov a výnosov (účty 381 – 385), dohadné položky aktívne a pasívne, doúčtovanie mánk a škôd, inventarizačných rozdielov a napokon zaúčtovanie splatnej dane z príjmov (591/341). Cieľom je naplniť zásadu vecnej a časovej súvislosti a zásadu opatrnosti, aby závierka podala verný a pravdivý obraz."},
-      {"nadpis": "Uzatvorenie účtov cez uzávierkové účty", "text": "Vlastné technické uzatvorenie účtov sa robí cez uzávierkové účty účtovej triedy 7. Konečné stavy nákladových účtov (trieda 5) sa prevedú na ťarchu účtu 710 – Účet ziskov a strát a konečné stavy výnosových účtov (trieda 6) v prospech účtu 710; rozdiel na účte 710 je výsledok hospodárenia. Konečné zostatky súvahových účtov majetku (aktíva) sa prevedú na ťarchu účtu 702 – Konečný účet súvahový a konečné zostatky účtov záväzkov a vlastného imania (pasíva) v prospech účtu 702. Výsledok hospodárenia z účtu 710 sa preúčtuje na účet 702 (zisk: 710/702, strata: 702/710). Tým sa knihy uzatvoria. Pri otvorení nasledujúceho obdobia sa použije účet 701 – Začiatočný účet súvahový a výsledok hospodárenia minulého obdobia sa eviduje na účte 431 – Výsledok hospodárenia v schvaľovaní."},
-      {"nadpis": "Účtovná závierka – charakteristika a náležitosti", "text": "Účtovná závierka je podľa § 17 ods. 1 štruktúrovaná prezentácia skutočností, ktoré sú predmetom účtovníctva, poskytovaná používateľom; tvorí jeden celok. Účtovná jednotka ju zostavuje vždy, keď uzavrie účtovné knihy. Rozlišujeme riadnu (k poslednému dňu obdobia), mimoriadnu (napr. pri likvidácii, konkurze) a priebežnú závierku. Každá závierka má všeobecné náležitosti (§ 17 ods. 2): obchodné meno/názov a sídlo, IČO, deň ku ktorému sa zostavuje, deň jej zostavenia, obdobie, za ktoré sa zostavuje, a podpisový záznam štatutárneho orgánu. Informácie sa uvádzajú podľa stavu ku dňu, ku ktorému sa závierka zostavuje, a musia byť významné, zrozumiteľné, porovnateľné a spoľahlivé (§ 17 ods. 8 a 9)."},
-      {"nadpis": "Súvaha a výkaz ziskov a strát", "text": "Súvaha (bilancia) je výkaz o majetku, záväzkoch a rozdiele majetku a záväzkov (vlastnom imaní) ku dňu, ku ktorému sa zostavuje závierka – ide o stavovú veličinu k určitému okamihu. Platí v nej bilančná rovnica: aktíva = pasíva (majetok = vlastné imanie + záväzky). Výkaz ziskov a strát (výsledovka) zachytáva náklady, výnosy a výsledok hospodárenia za celé účtovné obdobie – ide o tokovú veličinu. U podnikateľov sa zostavuje v druhovom členení. V oboch výkazoch sa vykazujú údaje za bežné aj za bezprostredne predchádzajúce účtovné obdobie kvôli porovnateľnosti (§ 18 ods. 3 a 4). Konkrétnu štruktúru (riadky, formát) ustanovujú opatrenia MF SR podľa veľkostnej skupiny ÚJ (mikro, malá, veľká)."},
-      {"nadpis": "Poznámky – význam a obsah", "text": "Poznámky sú treťou, rovnocennou súčasťou závierky a často podceňovaná, hoci nesú najviac informácií. Podľa § 18 ods. 5 v nich účtovná jednotka uvádza informácie, ktoré vysvetľujú a dopĺňajú údaje v súvahe a výkaze ziskov a strát, informácie o použitých účtovných zásadách a metódach a ďalšie informácie podľa požiadaviek zákona. Uvádzajú sa v nich aj skutočnosti, ktoré sa nevykazujú v ostatných súčastiach (napr. podmienené záväzky, udalosti po dni závierky, súdne spory, vzťahy so spriaznenými osobami), ak významne menia pohľad na finančnú situáciu. Poznámky tak zabezpečujú verný a pravdivý obraz, ktorý samotné čísla výkazov nedokážu poskytnúť. Rozsah poznámok sa líši podľa veľkostnej skupiny."},
-      {"nadpis": "Kontrola vecnej a formálnej správnosti účtovníctva", "text": "Pred zostavením závierky musí byť účtovníctvo skontrolované. Formálna správnosť znamená dodržanie formálnych pravidiel: úplnosť a správnosť účtovných dokladov a zápisov, podvojnosť, súlad obratov a zostatkov (predvaha – kontrolný súpis, kde sa musí rovnať suma strán Má dať a Dal), bilančná kontinuita, dodržanie metodiky. Vecná správnosť znamená, že zaúčtované skutočnosti zodpovedajú realite – že stav v účtovníctve sa zhoduje so skutočným stavom majetku a záväzkov. Práve vecnú správnosť preukazuje inventarizácia a jej výstup – inventarizačný zápis (§ 30 ods. 3)."},
-      {"nadpis": "Inventarizácia – charakteristika a priebeh", "text": "Inventarizáciou účtovná jednotka overuje, či stav majetku, záväzkov a rozdielu majetku a záväzkov v účtovníctve zodpovedá skutočnosti (§ 29 ods. 1). Je nástrojom preukázateľnosti účtovníctva a základom uzávierkových prác. Vykonáva sa ku dňu, ku ktorému sa zostavuje riadna alebo mimoriadna závierka (§ 29 ods. 2). Pri hmotnom majetku okrem zásob a peňažných prostriedkov možno inventarizovať aj v inej lehote, ktorá však nesmie prekročiť štyri roky. Priebeh: 1. inventúra (zistenie skutočného stavu), 2. vyhotovenie inventúrneho súpisu, 3. porovnanie so stavom v účtovníctve, 4. zistenie inventarizačných rozdielov, 5. vyhotovenie inventarizačného zápisu a zaúčtovanie rozdielov."},
-      {"nadpis": "Druhy inventúr, súpis, rozdiely a zápis", "text": "Skutočný stav sa zisťuje inventúrou (§ 30 ods. 1): fyzickou pri majetku hmotnej a nehmotnej povahy (počítanie, váženie, meranie), dokladovou pri záväzkoch, rozdiele majetku a záväzkov a tam, kde fyzická nie je možná; ak je to možné, použije sa kombinácia. Inventúrny súpis (§ 30 ods. 2) je účtovný záznam, ktorý zabezpečuje preukázateľnosť účtovníctva – obsahuje názov ÚJ, dni začatia, vykonania a skončenia inventúry, stav majetku s jednotkami množstva a cenou, miesto uloženia a podpisové záznamy zodpovedných osôb. Inventarizačný rozdiel (§ 30 ods. 5) má dvojaký charakter: manko, ak je skutočný stav nižší než účtovný a nemožno ho preukázať záznamom (pri peniazoch a ceninách sa nazýva schodok), a prebytok, ak je skutočný stav vyšší. Inventarizačný zápis (§ 30 ods. 3) je účtovný záznam, ktorým sa preukazuje vecná správnosť účtovníctva; obsahuje výsledky porovnania, posúdenie reálnosti ocenenia a podpis zodpovednej osoby. Rozdiel sa zaúčtuje do obdobia, za ktoré sa inventarizáciou overuje stav (§ 30 ods. 7)."},
-      {"zaver": "V skratke: účtovná uzávierka je činnosť (uzávierkové operácie + uzatvorenie účtov cez 710 a 702), účtovná závierka je výstup (súvaha + výkaz ziskov a strát + poznámky ako jeden celok). Most medzi nimi a záruka vernosti je inventarizácia, ktorá preukazuje vecnú správnosť účtovníctva. Najprv knihy uzavriem, potom zostavím a zverejním výkazy."}
+      {
+        "nadpis": "Účtovná uzávierka – uzatvorenie účtovných kníh",
+        "text": "Účtovná uzávierka je činnosť, ktorou účtovná jednotka uzatvára účtovné knihy. Podľa § 16 ods. 4 zákona právnická osoba uzavrie knihy vždy k poslednému dňu účtovného obdobia (a v ďalších prípadoch – pri zániku, vstupe do likvidácie, vyhlásení konkurzu a pod.). Podľa § 8 postupov účtovania sa pri uzavretí účtov hlavnej knihy zistia obraty strán Má dať a Dal, konečné stavy výsledkových a konečné zostatky súvahových účtov, vyčísli sa výsledok hospodárenia pred zdanením, mimo účtovníctva sa zistí základ dane a zaúčtuje splatná daň z príjmov. Platí zásada bilančnej kontinuity (§ 16 ods. 12): konečné zostatky účtov k poslednému dňu obdobia sa musia rovnať začiatočným stavom k prvému dňu nasledujúceho obdobia."
+      },
+      {
+        "nadpis": "Uzávierkové operácie",
+        "text": "Pred samotným uzavretím kníh treba doúčtovať všetko, čo časovo a vecne patrí do obdobia – to sú uzávierkové (závierkové) účtovné operácie podľa § 2a postupov. Patria sem najmä: zaúčtovanie odpisov dlhodobého majetku, tvorba a zúčtovanie opravných položiek a rezerv, výpočet a zaúčtovanie kurzových rozdielov k súvahovému dňu z neuhradených pohľadávok a záväzkov v cudzej mene (563 – Kurzové straty / 663 – Kurzové zisky), časové rozlíšenie nákladov a výnosov (účty 381 – 385), dohadné položky aktívne a pasívne, doúčtovanie mánk a škôd, inventarizačných rozdielov a napokon zaúčtovanie splatnej dane z príjmov (591/341). Cieľom je naplniť zásadu vecnej a časovej súvislosti a zásadu opatrnosti, aby závierka podala verný a pravdivý obraz."
+      },
+      {
+        "nadpis": "Uzatvorenie účtov cez uzávierkové účty",
+        "text": "Vlastné technické uzatvorenie účtov sa robí cez uzávierkové účty účtovej triedy 7. Konečné stavy nákladových účtov (trieda 5) sa prevedú na ťarchu účtu 710 – Účet ziskov a strát a konečné stavy výnosových účtov (trieda 6) v prospech účtu 710; rozdiel na účte 710 je výsledok hospodárenia. Konečné zostatky súvahových účtov majetku (aktíva) sa prevedú na ťarchu účtu 702 – Konečný účet súvahový a konečné zostatky účtov záväzkov a vlastného imania (pasíva) v prospech účtu 702. Výsledok hospodárenia z účtu 710 sa preúčtuje na účet 702 (zisk: 710/702, strata: 702/710). Tým sa knihy uzatvoria. Pri otvorení nasledujúceho obdobia sa použije účet 701 – Začiatočný účet súvahový a výsledok hospodárenia minulého obdobia sa eviduje na účte 431 – Výsledok hospodárenia v schvaľovaní."
+      },
+      {
+        "nadpis": "Účtovná závierka – charakteristika a náležitosti",
+        "text": "Účtovná závierka je podľa § 17 ods. 1 štruktúrovaná prezentácia skutočností, ktoré sú predmetom účtovníctva, poskytovaná používateľom; tvorí jeden celok. Účtovná jednotka ju zostavuje vždy, keď uzavrie účtovné knihy. Rozlišujeme riadnu (k poslednému dňu obdobia), mimoriadnu (napr. pri likvidácii, konkurze) a priebežnú závierku. Každá závierka má všeobecné náležitosti (§ 17 ods. 2): obchodné meno/názov a sídlo, IČO, deň ku ktorému sa zostavuje, deň jej zostavenia, obdobie, za ktoré sa zostavuje, a podpisový záznam štatutárneho orgánu. Informácie sa uvádzajú podľa stavu ku dňu, ku ktorému sa závierka zostavuje, a musia byť významné, zrozumiteľné, porovnateľné a spoľahlivé (§ 17 ods. 8 a 9)."
+      },
+      {
+        "nadpis": "Súvaha a výkaz ziskov a strát",
+        "text": "Súvaha (bilancia) je výkaz o majetku, záväzkoch a rozdiele majetku a záväzkov (vlastnom imaní) ku dňu, ku ktorému sa zostavuje závierka – ide o stavovú veličinu k určitému okamihu. Platí v nej bilančná rovnica: aktíva = pasíva (majetok = vlastné imanie + záväzky). Výkaz ziskov a strát (výsledovka) zachytáva náklady, výnosy a výsledok hospodárenia za celé účtovné obdobie – ide o tokovú veličinu. U podnikateľov sa zostavuje v druhovom členení. V oboch výkazoch sa vykazujú údaje za bežné aj za bezprostredne predchádzajúce účtovné obdobie kvôli porovnateľnosti (§ 18 ods. 3 a 4). Konkrétnu štruktúru (riadky, formát) ustanovujú opatrenia MF SR podľa veľkostnej skupiny ÚJ (mikro, malá, veľká)."
+      },
+      {
+        "nadpis": "Poznámky – význam a obsah",
+        "text": "Poznámky sú treťou, rovnocennou súčasťou závierky a často podceňovaná, hoci nesú najviac informácií. Podľa § 18 ods. 5 v nich účtovná jednotka uvádza informácie, ktoré vysvetľujú a dopĺňajú údaje v súvahe a výkaze ziskov a strát, informácie o použitých účtovných zásadách a metódach a ďalšie informácie podľa požiadaviek zákona. Uvádzajú sa v nich aj skutočnosti, ktoré sa nevykazujú v ostatných súčastiach (napr. podmienené záväzky, udalosti po dni závierky, súdne spory, vzťahy so spriaznenými osobami), ak významne menia pohľad na finančnú situáciu. Poznámky tak zabezpečujú verný a pravdivý obraz, ktorý samotné čísla výkazov nedokážu poskytnúť. Rozsah poznámok sa líši podľa veľkostnej skupiny."
+      },
+      {
+        "nadpis": "Kontrola vecnej a formálnej správnosti účtovníctva",
+        "text": "Pred zostavením závierky musí byť účtovníctvo skontrolované. Formálna správnosť znamená dodržanie formálnych pravidiel: úplnosť a správnosť účtovných dokladov a zápisov, podvojnosť, súlad obratov a zostatkov (predvaha – kontrolný súpis, kde sa musí rovnať suma strán Má dať a Dal), bilančná kontinuita, dodržanie metodiky. Vecná správnosť znamená, že zaúčtované skutočnosti zodpovedajú realite – že stav v účtovníctve sa zhoduje so skutočným stavom majetku a záväzkov. Práve vecnú správnosť preukazuje inventarizácia a jej výstup – inventarizačný zápis (§ 30 ods. 3)."
+      },
+      {
+        "nadpis": "Inventarizácia – charakteristika a priebeh",
+        "text": "Inventarizáciou účtovná jednotka overuje, či stav majetku, záväzkov a rozdielu majetku a záväzkov v účtovníctve zodpovedá skutočnosti (§ 29 ods. 1). Je nástrojom preukázateľnosti účtovníctva a základom uzávierkových prác. Vykonáva sa ku dňu, ku ktorému sa zostavuje riadna alebo mimoriadna závierka (§ 29 ods. 2). Pri hmotnom majetku okrem zásob a peňažných prostriedkov možno inventarizovať aj v inej lehote, ktorá však nesmie prekročiť štyri roky. Priebeh: 1. inventúra (zistenie skutočného stavu), 2. vyhotovenie inventúrneho súpisu, 3. porovnanie so stavom v účtovníctve, 4. zistenie inventarizačných rozdielov, 5. vyhotovenie inventarizačného zápisu a zaúčtovanie rozdielov."
+      },
+      {
+        "nadpis": "Druhy inventúr, súpis, rozdiely a zápis",
+        "text": "Skutočný stav sa zisťuje inventúrou (§ 30 ods. 1): fyzickou pri majetku hmotnej a nehmotnej povahy (počítanie, váženie, meranie), dokladovou pri záväzkoch, rozdiele majetku a záväzkov a tam, kde fyzická nie je možná; ak je to možné, použije sa kombinácia. Inventúrny súpis (§ 30 ods. 2) je účtovný záznam, ktorý zabezpečuje preukázateľnosť účtovníctva – obsahuje názov ÚJ, dni začatia, vykonania a skončenia inventúry, stav majetku s jednotkami množstva a cenou, miesto uloženia a podpisové záznamy zodpovedných osôb. Inventarizačný rozdiel (§ 30 ods. 5) má dvojaký charakter: manko, ak je skutočný stav nižší než účtovný a nemožno ho preukázať záznamom (pri peniazoch a ceninách sa nazýva schodok), a prebytok, ak je skutočný stav vyšší. Inventarizačný zápis (§ 30 ods. 3) je účtovný záznam, ktorým sa preukazuje vecná správnosť účtovníctva; obsahuje výsledky porovnania, posúdenie reálnosti ocenenia a podpis zodpovednej osoby. Rozdiel sa zaúčtuje do obdobia, za ktoré sa inventarizáciou overuje stav (§ 30 ods. 7)."
+      },
+      {
+        "zaver": "V skratke: účtovná uzávierka je činnosť (uzávierkové operácie + uzatvorenie účtov cez 710 a 702), účtovná závierka je výstup (súvaha + výkaz ziskov a strát + poznámky ako jeden celok). Most medzi nimi a záruka vernosti je inventarizácia, ktorá preukazuje vecnú správnosť účtovníctva. Najprv knihy uzavriem, potom zostavím a zverejním výkazy."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Kedy sa knihy otvárajú a uzatvárajú (§ 16)", "text": "Právnická osoba otvorí knihy ku dňu vzniku a k prvému dňu účtovného obdobia; uzavrie ich k poslednému dňu obdobia, ku dňu zániku, ku dňu predchádzajúcemu vstupu do likvidácie či vyhlásenia konkurzu a pod. (§ 16 ods. 1 a 4). Po zostavení závierky nemožno uzavreté knihy znova otvárať, s výnimkou § 16 ods. 10 – do schválenia závierky možno knihy opäť otvoriť, ak treba zabezpečiť verný a pravdivý obraz. Účtovným obdobím je spravidla kalendárny rok, môže ním byť aj hospodársky rok."},
-    {"nadpis": "Druhy účtovných závierok", "text": "Riadna závierka sa zostavuje k poslednému dňu bežného účtovného obdobia. Mimoriadna sa zostavuje v osobitných situáciách (vstup do likvidácie, vyhlásenie konkurzu, premena, zánik). Priebežná (§ 18 ods. 1 a 2) sa zostavuje počas obdobia, ak to vyžaduje osobitný predpis, v úplnej alebo skrátenej štruktúre; pri nej sa knihy neuzatvárajú a nevykonáva sa plná inventarizácia. Účtovná jednotka môže zostaviť aj otváraciu súvahu (§ 17 ods. 7) – ku dňu vzniku, vstupu do likvidácie, účinnosti vyhlásenia konkurzu, k rozhodnému dňu."},
-    {"nadpis": "Zostavenie, schválenie, uloženie a zverejnenie", "text": "Po zostavení sa závierka schvaľuje príslušným orgánom ÚJ (napr. valné zhromaždenie) najneskôr do 12 mesiacov od dátumu, ku ktorému sa zostavuje. Ukladá sa do registra účtovných závierok – riadna a mimoriadna do 6 mesiacov od dátumu, ku ktorému sa zostavuje, ak osobitný predpis neustanovuje inak. V praxi pre kalendárny rok platí, že podľa zákona o dani z príjmov treba závierku uložiť v lehote na podanie daňového priznania (spravidla do 31. 3., resp. do predĺženej lehoty). Ak ÚJ nemá závierku do tejto lehoty schválenú, uloží neschválenú a oznámenie o schválení doloží do 15 pracovných dní (overiť). Podáva sa elektronicky cez portál finančnej správy."},
-    {"nadpis": "Overenie audítorom (§ 19)", "text": "Riadnu a mimoriadnu individuálnu závierku musí mať overenú audítorom obchodná spoločnosť a družstvo, ak ku dňu závierky a za bezprostredne predchádzajúce obdobie spĺňa aspoň dve z troch podmienok: celková suma majetku presiahla 4 000 000 €, čistý obrat presiahol 8 000 000 €, priemerný prepočítaný počet zamestnancov presiahol 50. Povinnosť majú aj subjekty, ktorých cenné papiere sú na regulovanom trhu, a ďalšie podľa osobitných predpisov. Závierka musí byť overená do jedného roka od skončenia obdobia (§ 19 ods. 3)."},
-    {"nadpis": "Veľkostné skupiny a štruktúra výkazov", "text": "Konkrétnu štruktúru a rozsah výkazov ustanovujú opatrenia MF SR podľa veľkostnej skupiny: mikro ÚJ (opatrenie MF/15464/2013-74), malá ÚJ (MF/23378/2014-74), veľká ÚJ a subjekt verejného záujmu (MF/23377/2014-74). Zatriedenie podľa § 2 zákona (aspoň 2 z 3 kritérií, 2 obdobia po sebe): mikro do 450 000 € majetku / 900 000 € obratu / 10 zamestnancov; malá do 5 mil. / 10 mil. / 50; veľká nad 5 mil. / 10 mil. / 50. Čím väčšia ÚJ, tým podrobnejšie výkazy a obsiahlejšie poznámky. (Detaily rieši samostatná téza II.2.)"},
-    {"nadpis": "Súvaha vs. výkaz ziskov a strát – stav vs. tok", "text": "Kľúčový pojmový rozdiel: súvaha je momentka k určitému dňu (stavová veličina – koľko majetku a z akých zdrojov máme k 31. 12.), kým výkaz ziskov a strát je film za obdobie (toková veličina – aké náklady a výnosy vznikli za rok). Výsledok hospodárenia z výkazu ziskov a strát sa premieta do vlastného imania v súvahe – tým sú oba výkazy previazané. Bilančná rovnica (aktíva = pasíva) je dôsledkom podvojného účtovania."}
+    {
+      "nadpis": "Kedy sa knihy otvárajú a uzatvárajú (§ 16)",
+      "text": "Právnická osoba otvorí knihy ku dňu vzniku a k prvému dňu účtovného obdobia; uzavrie ich k poslednému dňu obdobia, ku dňu zániku, ku dňu predchádzajúcemu vstupu do likvidácie či vyhlásenia konkurzu a pod. (§ 16 ods. 1 a 4). Po zostavení závierky nemožno uzavreté knihy znova otvárať, s výnimkou § 16 ods. 10 – do schválenia závierky možno knihy opäť otvoriť, ak treba zabezpečiť verný a pravdivý obraz. Účtovným obdobím je spravidla kalendárny rok, môže ním byť aj hospodársky rok."
+    },
+    {
+      "nadpis": "Druhy účtovných závierok",
+      "text": "Riadna závierka sa zostavuje k poslednému dňu bežného účtovného obdobia. Mimoriadna sa zostavuje v osobitných situáciách (vstup do likvidácie, vyhlásenie konkurzu, premena, zánik). Priebežná (§ 18 ods. 1 a 2) sa zostavuje počas obdobia, ak to vyžaduje osobitný predpis, v úplnej alebo skrátenej štruktúre; pri nej sa knihy neuzatvárajú a nevykonáva sa plná inventarizácia. Účtovná jednotka môže zostaviť aj otváraciu súvahu (§ 17 ods. 7) – ku dňu vzniku, vstupu do likvidácie, účinnosti vyhlásenia konkurzu, k rozhodnému dňu."
+    },
+    {
+      "nadpis": "Zostavenie, schválenie, uloženie a zverejnenie",
+      "text": "Po zostavení sa závierka schvaľuje príslušným orgánom ÚJ (napr. valné zhromaždenie) najneskôr do 12 mesiacov od dátumu, ku ktorému sa zostavuje. Ukladá sa do registra účtovných závierok – riadna a mimoriadna do 6 mesiacov od dátumu, ku ktorému sa zostavuje, ak osobitný predpis neustanovuje inak. V praxi pre kalendárny rok platí, že podľa zákona o dani z príjmov treba závierku uložiť v lehote na podanie daňového priznania (spravidla do 31. 3., resp. do predĺženej lehoty). Ak ÚJ nemá závierku do tejto lehoty schválenú, uloží neschválenú a oznámenie o schválení doloží do 15 pracovných dní (overiť). Podáva sa elektronicky cez portál finančnej správy."
+    },
+    {
+      "nadpis": "Overenie audítorom (§ 19)",
+      "text": "Riadnu a mimoriadnu individuálnu závierku musí mať overenú audítorom obchodná spoločnosť a družstvo, ak ku dňu závierky a za bezprostredne predchádzajúce obdobie spĺňa aspoň dve z troch podmienok: celková suma majetku presiahla 4 000 000 €, čistý obrat presiahol 8 000 000 €, priemerný prepočítaný počet zamestnancov presiahol 50. Povinnosť majú aj subjekty, ktorých cenné papiere sú na regulovanom trhu, a ďalšie podľa osobitných predpisov. Závierka musí byť overená do jedného roka od skončenia obdobia (§ 19 ods. 3)."
+    },
+    {
+      "nadpis": "Veľkostné skupiny a štruktúra výkazov",
+      "text": "Konkrétnu štruktúru a rozsah výkazov ustanovujú opatrenia MF SR podľa veľkostnej skupiny: mikro ÚJ (opatrenie MF/15464/2013-74), malá ÚJ (MF/23378/2014-74), veľká ÚJ a subjekt verejného záujmu (MF/23377/2014-74). Zatriedenie podľa § 2 zákona (aspoň 2 z 3 kritérií, 2 obdobia po sebe): mikro do 450 000 € majetku / 900 000 € obratu / 10 zamestnancov; malá do 5 mil. / 10 mil. / 50; veľká nad 5 mil. / 10 mil. / 50. Čím väčšia ÚJ, tým podrobnejšie výkazy a obsiahlejšie poznámky. (Detaily rieši samostatná téza II.2.)"
+    },
+    {
+      "nadpis": "Súvaha vs. výkaz ziskov a strát – stav vs. tok",
+      "text": "Kľúčový pojmový rozdiel: súvaha je momentka k určitému dňu (stavová veličina – koľko majetku a z akých zdrojov máme k 31. 12.), kým výkaz ziskov a strát je film za obdobie (toková veličina – aké náklady a výnosy vznikli za rok). Výsledok hospodárenia z výkazu ziskov a strát sa premieta do vlastného imania v súvahe – tým sú oba výkazy previazané. Bilančná rovnica (aktíva = pasíva) je dôsledkom podvojného účtovania."
+    }
   ],
   "priklady": [
-    {"nazov": "Uzatvorenie nákladových a výnosových účtov (účet 710)", "zadanie": "Firma má na konci roka 2025 konečné stavy: náklady (trieda 5) spolu 80 000 €, výnosy (trieda 6) spolu 100 000 €. Zostavte uzatvorenie výsledkových účtov a zistite výsledok hospodárenia.", "uctovanie": [{"rok": "2025", "md": "710", "d": "5xx", "suma": 80000, "popis": "Prevod konečných stavov nákladov na účet ziskov a strát"}, {"rok": "2025", "md": "6xx", "d": "710", "suma": 100000, "popis": "Prevod konečných stavov výnosov na účet ziskov a strát"}, {"rok": "2025", "md": "710", "d": "702", "suma": 20000, "popis": "Prevod výsledku hospodárenia (zisk) na konečný účet súvahový"}], "riesenie": "Na účte 710 je na strane MD 80 000 € (náklady) a na strane D 100 000 € (výnosy). Zostatok v prospech (D) = zisk 20 000 €. Tento zisk sa preúčtuje zápisom 710/702. Účet 710 sa tým vyrovná na nulu a knihy možno uzavrieť.", "dopad_na_zd": "Výsledok hospodárenia pred zdanením = +20 000 € (východisko pre základ dane; nie je to ešte základ dane)."},
-    {"nazov": "Uzatvorenie súvahových účtov (účet 702)", "zadanie": "K 31. 12. 2025 sú konečné zostatky: aktíva (majetok) 150 000 €, záväzky 70 000 €, vlastné imanie pred VH 60 000 €, zisk bežného roka 20 000 €. Zostavte uzatvorenie súvahových účtov.", "uctovanie": [{"rok": "2025", "md": "702", "d": "majetok (A)", "suma": 150000, "popis": "Prevod konečných zostatkov majetku na konečný účet súvahový"}, {"rok": "2025", "md": "záväzky + VI (P)", "d": "702", "suma": 150000, "popis": "Prevod záväzkov, vlastného imania a VH na konečný účet súvahový"}], "riesenie": "Na účet 702 sa prevedú aktíva na ťarchu (150 000 €) a pasíva v prospech (záväzky 70 000 + VI 60 000 + zisk 20 000 = 150 000 €). Účet 702 je vyrovnaný (MD = D = 150 000 €), čím sa potvrdí bilančná rovnica aktíva = pasíva a knihy sa uzatvoria. Konečné zostatky sú zároveň začiatočnými stavmi pri otvorení účtu 701 v roku 2026.", "dopad_na_zd": "Bez priameho daňového dopadu – ide o technické uzatvorenie kníh (preukázanie bilančnej kontinuity)."},
-    {"nazov": "Inventarizačný rozdiel – manko na zásobách", "zadanie": "Účtovný stav zásob materiálu k 31. 12. 2025 je 12 000 €. Fyzická inventúra zistila skutočný stav 11 500 €. Rozdiel nemožno preukázať účtovným záznamom.", "uctovanie": [{"rok": "2025", "md": "501", "d": "112", "suma": 500, "popis": "Zaúčtovanie manka na materiáli (úbytok zásob nad normu)"}], "riesenie": "Skutočný stav (11 500 €) je nižší než účtovný (12 000 €) a rozdiel sa nedá preukázať → ide o manko 500 € (§ 30 ods. 5 písm. a). Vyčíslí sa v inventúrnom súpise, premietne do inventarizačného zápisu a zaúčtuje do obdobia 2025. Manko nad rámec noriem prirodzených úbytkov je následne predmetom daňového posúdenia (manká a škody nad náhrady sú spravidla nedaňové – rieši téza II.8).", "dopad_na_zd": "Účtovne náklad 500 €; daňovo zvyčajne nedaňový výdavok nad prijaté náhrady (pripočítateľná položka)."},
-    {"nazov": "Kurzový rozdiel ako uzávierková operácia", "zadanie": "Firma eviduje k 31. 12. 2025 neuhradenú pohľadávku 10 000 USD zaúčtovanú kurzom 0,90 €/USD (9 000 €). Referenčný kurz ECB k 31. 12. 2025 je 0,95 €/USD.", "uctovanie": [{"rok": "2025", "md": "311", "d": "663", "suma": 500, "popis": "Kurzový zisk z precenenia pohľadávky k súvahovému dňu"}], "riesenie": "Pohľadávka sa k súvahovému dňu prepočíta referenčným kurzom: 10 000 × 0,95 = 9 500 €. Pôvodne 9 000 € → vzniká kurzový zisk 500 €, ktorý sa zaúčtuje 311/663 (§ 24 zákona, postupy účtovania). Ide o typickú uzávierkovú operáciu pred uzatvorením kníh.", "dopad_na_zd": "Štandardne je kurzový zisk súčasťou VH aj základu dane roka 2025 (s možnosťou odložiť nezrealizované KR podľa § 17 ods. 17 ZDP – rieši téza II.8)."}
+    {
+      "nazov": "Uzatvorenie nákladových a výnosových účtov (účet 710)",
+      "zadanie": "Firma má na konci roka 2025 konečné stavy: náklady (trieda 5) spolu 80 000 €, výnosy (trieda 6) spolu 100 000 €. Zostavte uzatvorenie výsledkových účtov a zistite výsledok hospodárenia.",
+      "uctovanie": [
+        {
+          "rok": "2025",
+          "md": "710",
+          "d": "5xx",
+          "suma": 80000,
+          "popis": "Prevod konečných stavov nákladov na účet ziskov a strát"
+        },
+        {
+          "rok": "2025",
+          "md": "6xx",
+          "d": "710",
+          "suma": 100000,
+          "popis": "Prevod konečných stavov výnosov na účet ziskov a strát"
+        },
+        {
+          "rok": "2025",
+          "md": "710",
+          "d": "702",
+          "suma": 20000,
+          "popis": "Prevod výsledku hospodárenia (zisk) na konečný účet súvahový"
+        }
+      ],
+      "riesenie": "Na účte 710 je na strane MD 80 000 € (náklady) a na strane D 100 000 € (výnosy). Zostatok v prospech (D) = zisk 20 000 €. Tento zisk sa preúčtuje zápisom 710/702. Účet 710 sa tým vyrovná na nulu a knihy možno uzavrieť.",
+      "dopad_na_zd": "Výsledok hospodárenia pred zdanením = +20 000 € (východisko pre základ dane; nie je to ešte základ dane)."
+    },
+    {
+      "nazov": "Uzatvorenie súvahových účtov (účet 702)",
+      "zadanie": "K 31. 12. 2025 sú konečné zostatky: aktíva (majetok) 150 000 €, záväzky 70 000 €, vlastné imanie pred VH 60 000 €, zisk bežného roka 20 000 €. Zostavte uzatvorenie súvahových účtov.",
+      "uctovanie": [
+        {
+          "rok": "2025",
+          "md": "702",
+          "d": "majetok (A)",
+          "suma": 150000,
+          "popis": "Prevod konečných zostatkov majetku na konečný účet súvahový"
+        },
+        {
+          "rok": "2025",
+          "md": "záväzky + VI (P)",
+          "d": "702",
+          "suma": 150000,
+          "popis": "Prevod záväzkov, vlastného imania a VH na konečný účet súvahový"
+        }
+      ],
+      "riesenie": "Na účet 702 sa prevedú aktíva na ťarchu (150 000 €) a pasíva v prospech (záväzky 70 000 + VI 60 000 + zisk 20 000 = 150 000 €). Účet 702 je vyrovnaný (MD = D = 150 000 €), čím sa potvrdí bilančná rovnica aktíva = pasíva a knihy sa uzatvoria. Konečné zostatky sú zároveň začiatočnými stavmi pri otvorení účtu 701 v roku 2026.",
+      "dopad_na_zd": "Bez priameho daňového dopadu – ide o technické uzatvorenie kníh (preukázanie bilančnej kontinuity)."
+    },
+    {
+      "nazov": "Inventarizačný rozdiel – manko na zásobách",
+      "zadanie": "Účtovný stav zásob materiálu k 31. 12. 2025 je 12 000 €. Fyzická inventúra zistila skutočný stav 11 500 €. Rozdiel nemožno preukázať účtovným záznamom.",
+      "uctovanie": [
+        {
+          "rok": "2025",
+          "md": "501",
+          "d": "112",
+          "suma": 500,
+          "popis": "Zaúčtovanie manka na materiáli (úbytok zásob nad normu)"
+        }
+      ],
+      "riesenie": "Skutočný stav (11 500 €) je nižší než účtovný (12 000 €) a rozdiel sa nedá preukázať → ide o manko 500 € (§ 30 ods. 5 písm. a). Vyčíslí sa v inventúrnom súpise, premietne do inventarizačného zápisu a zaúčtuje do obdobia 2025. Manko nad rámec noriem prirodzených úbytkov je následne predmetom daňového posúdenia (manká a škody nad náhrady sú spravidla nedaňové – rieši téza II.8).",
+      "dopad_na_zd": "Účtovne náklad 500 €; daňovo zvyčajne nedaňový výdavok nad prijaté náhrady (pripočítateľná položka)."
+    },
+    {
+      "nazov": "Kurzový rozdiel ako uzávierková operácia",
+      "zadanie": "Firma eviduje k 31. 12. 2025 neuhradenú pohľadávku 10 000 USD zaúčtovanú kurzom 0,90 €/USD (9 000 €). Referenčný kurz ECB k 31. 12. 2025 je 0,95 €/USD.",
+      "uctovanie": [
+        {
+          "rok": "2025",
+          "md": "311",
+          "d": "663",
+          "suma": 500,
+          "popis": "Kurzový zisk z precenenia pohľadávky k súvahovému dňu"
+        }
+      ],
+      "riesenie": "Pohľadávka sa k súvahovému dňu prepočíta referenčným kurzom: 10 000 × 0,95 = 9 500 €. Pôvodne 9 000 € → vzniká kurzový zisk 500 €, ktorý sa zaúčtuje 311/663 (§ 24 zákona, postupy účtovania). Ide o typickú uzávierkovú operáciu pred uzatvorením kníh.",
+      "dopad_na_zd": "Štandardne je kurzový zisk súčasťou VH aj základu dane roka 2025 (s možnosťou odložiť nezrealizované KR podľa § 17 ods. 17 ZDP – rieši téza II.8)."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/BC_II_01_uzavierka_vs_zavierka.svg", "typ": "schéma", "popis": "Tok od priebežného účtovania cez účtovnú UZÁVIERKU (uzávierkové operácie + uzatvorenie účtov 710/702/701) k účtovnej ZÁVIERKE (súvaha, výkaz ziskov a strát, poznámky ako jeden celok)."},
-    {"subor": "03_Vizualy/BC_II_01_inventarizacia_kolobeh.svg", "typ": "schéma", "popis": "Kolobeh inventarizácie podľa § 29 – 30: inventúra (fyzická/dokladová/kombinovaná) → inventúrny súpis → porovnanie → inventarizačný rozdiel (manko/schodok, prebytok) → inventarizačný zápis a zaúčtovanie."}
+    {
+      "subor": "03_Vizualy/BC_II_01_uzavierka_vs_zavierka.svg",
+      "typ": "schéma",
+      "popis": "Tok od priebežného účtovania cez účtovnú UZÁVIERKU (uzávierkové operácie + uzatvorenie účtov 710/702/701) k účtovnej ZÁVIERKE (súvaha, výkaz ziskov a strát, poznámky ako jeden celok)."
+    },
+    {
+      "subor": "03_Vizualy/BC_II_01_inventarizacia_kolobeh.svg",
+      "typ": "schéma",
+      "popis": "Kolobeh inventarizácie podľa § 29 – 30: inventúra (fyzická/dokladová/kombinovaná) → inventúrny súpis → porovnanie → inventarizačný rozdiel (manko/schodok, prebytok) → inventarizačný zápis a zaúčtovanie."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Aký je rozdiel medzi účtovnou uzávierkou a účtovnou závierkou?", "odpoved": "Uzávierka je činnosť – uzatvorenie účtovných kníh vrátane uzávierkových operácií a zistenia VH. Závierka je výstup – štruktúrovaná prezentácia (súvaha, výkaz ziskov a strát, poznámky), ktorá tvorí jeden celok. Najprv knihy uzavriem, potom zostavím výkazy."},
-    {"otazka": "Aké sú súčasti účtovnej závierky v podvojnom účtovníctve?", "odpoved": "Podľa § 17 ods. 3: súvaha, výkaz ziskov a strát a poznámky. V jednoduchom účtovníctve to je výkaz o príjmoch a výdavkoch a výkaz o majetku a záväzkoch (§ 17 ods. 4)."},
-    {"otazka": "Na čo slúžia uzávierkové účty 710, 702 a 701?", "odpoved": "710 – Účet ziskov a strát uzatvára výsledkové účty (náklady a výnosy) a zisťuje VH. 702 – Konečný účet súvahový uzatvára súvahové účty (aktíva, pasíva) a preberá VH. 701 – Začiatočný účet súvahový otvára účty na začiatku nasledujúceho obdobia (bilančná kontinuita)."},
-    {"otazka": "Čo overuje inventarizácia a prečo je dôležitá?", "odpoved": "Overuje, či stav majetku, záväzkov a rozdielu majetku a záväzkov v účtovníctve zodpovedá skutočnosti (§ 29 ods. 1). Je nástrojom preukázateľnosti účtovníctva a preukazuje jeho vecnú správnosť; bez nej by závierka nebola verná a pravdivá."},
-    {"otazka": "Aké druhy inventúr poznáme a kedy sa ktorá použije?", "odpoved": "Fyzická (počítanie/váženie/meranie hmotného a nehmotného majetku), dokladová (záväzky, pohľadávky, majetok kde fyzická nie je možná) a kombinovaná. Pri majetku, kde sa zisťuje skutočný stav fyzicky, sa robí fyzická; pri zostatkoch, kde nie je čo počítať, dokladová."},
-    {"otazka": "Aký je rozdiel medzi mankom, schodkom a prebytkom?", "odpoved": "Manko = skutočný stav nižší než účtovný (a nemožno ho preukázať záznamom). Pri peňažných prostriedkoch a ceninách sa manko nazýva schodok. Prebytok = skutočný stav vyšší než účtovný (§ 30 ods. 5)."},
-    {"otazka": "Aký je rozdiel medzi formálnou a vecnou správnosťou účtovníctva?", "odpoved": "Formálna = dodržanie formálnych pravidiel (úplnosť dokladov, podvojnosť, súlad obratov a zostatkov v predvahe, bilančná kontinuita). Vecná = zhoda zaúčtovaného stavu so skutočnosťou; preukazuje ju inventarizácia a inventarizačný zápis."}
+    {
+      "otazka": "Aký je rozdiel medzi účtovnou uzávierkou a účtovnou závierkou?",
+      "odpoved": "Uzávierka je činnosť – uzatvorenie účtovných kníh vrátane uzávierkových operácií a zistenia VH. Závierka je výstup – štruktúrovaná prezentácia (súvaha, výkaz ziskov a strát, poznámky), ktorá tvorí jeden celok. Najprv knihy uzavriem, potom zostavím výkazy.",
+      "moznosti": [
+        "Uzávierka je súbor výkazov, závierka je proces uzatvorenia účtovných kníh vrátane uzávierkových operácií.",
+        "Uzávierka aj závierka sú synonymá pre zostavenie súvahy, výkazu ziskov a strát a poznámok.",
+        "Uzávierka je činnosť – uzatvorenie kníh vrátane uzávierkových operácií a zistenia VH; závierka je výstup – súvaha, výkaz ziskov a strát a poznámky tvoriace jeden celok.",
+        "Uzávierka sa robí len v jednoduchom účtovníctve, závierka len v podvojnom účtovníctve."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Uzávierka je činnosť – uzatvorenie účtovných kníh vrátane uzávierkových operácií a zistenia VH. Závierka je výstup – štruktúrovaná prezentácia (súvaha, výkaz ziskov a strát, poznámky), ktorá tvorí jeden celok. Najprv knihy uzavriem, potom zostavím výkazy."
+    },
+    {
+      "otazka": "Aké sú súčasti účtovnej závierky v podvojnom účtovníctve?",
+      "odpoved": "Podľa § 17 ods. 3: súvaha, výkaz ziskov a strát a poznámky. V jednoduchom účtovníctve to je výkaz o príjmoch a výdavkoch a výkaz o majetku a záväzkoch (§ 17 ods. 4).",
+      "moznosti": [
+        "Podľa § 17 ods. 3: súvaha, výkaz ziskov a strát a poznámky.",
+        "Podľa § 17 ods. 3: súvaha, výkaz ziskov a strát a daňové priznanie.",
+        "Podľa § 17 ods. 3: výkaz o príjmoch a výdavkoch a výkaz o majetku a záväzkoch.",
+        "Podľa § 17 ods. 3: súvaha, výkaz ziskov a strát a prehľad peňažných tokov."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Podľa § 17 ods. 3: súvaha, výkaz ziskov a strát a poznámky. V jednoduchom účtovníctve to je výkaz o príjmoch a výdavkoch a výkaz o majetku a záväzkoch (§ 17 ods. 4)."
+    },
+    {
+      "otazka": "Na čo slúžia uzávierkové účty 710, 702 a 701?",
+      "odpoved": "710 – Účet ziskov a strát uzatvára výsledkové účty (náklady a výnosy) a zisťuje VH. 702 – Konečný účet súvahový uzatvára súvahové účty (aktíva, pasíva) a preberá VH. 701 – Začiatočný účet súvahový otvára účty na začiatku nasledujúceho obdobia (bilančná kontinuita).",
+      "moznosti": [
+        "710 uzatvára súvahové účty, 702 výsledkové účty a 701 zisťuje výsledok hospodárenia.",
+        "710 uzatvára výsledkové účty a zisťuje VH, 702 uzatvára súvahové účty a preberá VH, 701 otvára účty na začiatku nasledujúceho obdobia.",
+        "710 otvára účty na začiatku obdobia, 702 uzatvára výsledkové účty, 701 uzatvára súvahové účty.",
+        "710 eviduje výsledok hospodárenia v schvaľovaní, 702 otvára súvahové účty, 701 uzatvára náklady a výnosy."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "710 – Účet ziskov a strát uzatvára výsledkové účty (náklady a výnosy) a zisťuje VH. 702 – Konečný účet súvahový uzatvára súvahové účty (aktíva, pasíva) a preberá VH. 701 – Začiatočný účet súvahový otvára účty na začiatku nasledujúceho obdobia (bilančná kontinuita)."
+    },
+    {
+      "otazka": "Čo overuje inventarizácia a prečo je dôležitá?",
+      "odpoved": "Overuje, či stav majetku, záväzkov a rozdielu majetku a záväzkov v účtovníctve zodpovedá skutočnosti (§ 29 ods. 1). Je nástrojom preukázateľnosti účtovníctva a preukazuje jeho vecnú správnosť; bez nej by závierka nebola verná a pravdivá.",
+      "moznosti": [
+        "Overuje formálnu správnosť dokladov a podvojnosť zápisov; je nástrojom na výpočet výsledku hospodárenia.",
+        "Overuje, či výkazy zodpovedajú daňovému priznaniu; je nástrojom na výpočet základu dane.",
+        "Overuje súlad obratov strán Má dať a Dal v predvahe; preukazuje bilančnú kontinuitu medzi obdobiami.",
+        "Overuje, či stav majetku, záväzkov a ich rozdielu v účtovníctve zodpovedá skutočnosti (§ 29 ods. 1); preukazuje vecnú správnosť účtovníctva a vernosť závierky."
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Overuje, či stav majetku, záväzkov a rozdielu majetku a záväzkov v účtovníctve zodpovedá skutočnosti (§ 29 ods. 1). Je nástrojom preukázateľnosti účtovníctva a preukazuje jeho vecnú správnosť; bez nej by závierka nebola verná a pravdivá."
+    },
+    {
+      "otazka": "Aké druhy inventúr poznáme a kedy sa ktorá použije?",
+      "odpoved": "Fyzická (počítanie/váženie/meranie hmotného a nehmotného majetku), dokladová (záväzky, pohľadávky, majetok kde fyzická nie je možná) a kombinovaná. Pri majetku, kde sa zisťuje skutočný stav fyzicky, sa robí fyzická; pri zostatkoch, kde nie je čo počítať, dokladová.",
+      "moznosti": [
+        "Fyzická (počítanie/váženie/meranie hmotného a nehmotného majetku), dokladová (záväzky, pohľadávky, majetok kde fyzická nie je možná) a kombinovaná.",
+        "Riadna (k poslednému dňu obdobia), mimoriadna (pri likvidácii) a priebežná (počas obdobia).",
+        "Plná (celý majetok), čiastková (vybrané položky) a priebežná (kontinuálne počas roka).",
+        "Peňažná (pokladnica a ceniny), majetková (zásoby a dlhodobý majetok) a záväzková (pohľadávky a záväzky)."
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Fyzická (počítanie/váženie/meranie hmotného a nehmotného majetku), dokladová (záväzky, pohľadávky, majetok kde fyzická nie je možná) a kombinovaná. Pri majetku, kde sa zisťuje skutočný stav fyzicky, sa robí fyzická; pri zostatkoch, kde nie je čo počítať, dokladová."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi mankom, schodkom a prebytkom?",
+      "odpoved": "Manko = skutočný stav nižší než účtovný (a nemožno ho preukázať záznamom). Pri peňažných prostriedkoch a ceninách sa manko nazýva schodok. Prebytok = skutočný stav vyšší než účtovný (§ 30 ods. 5).",
+      "moznosti": [
+        "Manko = skutočný stav vyšší než účtovný; pri peniazoch sa nazýva schodok; prebytok = skutočný stav nižší než účtovný.",
+        "Manko = skutočný stav nižší než účtovný (a nemožno ho preukázať záznamom); pri peniazoch a ceninách sa nazýva schodok; prebytok = skutočný stav vyšší než účtovný.",
+        "Manko = rozdiel pri zásobách; schodok = rozdiel pri dlhodobom majetku; prebytok = rozdiel pri pohľadávkach.",
+        "Manko = skutočný stav nižší než účtovný; schodok = skutočný stav vyšší než účtovný; prebytok = nulový rozdiel medzi stavmi."
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Manko = skutočný stav nižší než účtovný (a nemožno ho preukázať záznamom). Pri peňažných prostriedkoch a ceninách sa manko nazýva schodok. Prebytok = skutočný stav vyšší než účtovný (§ 30 ods. 5)."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi formálnou a vecnou správnosťou účtovníctva?",
+      "odpoved": "Formálna = dodržanie formálnych pravidiel (úplnosť dokladov, podvojnosť, súlad obratov a zostatkov v predvahe, bilančná kontinuita). Vecná = zhoda zaúčtovaného stavu so skutočnosťou; preukazuje ju inventarizácia a inventarizačný zápis.",
+      "moznosti": [
+        "Formálna = zhoda zaúčtovaného stavu so skutočnosťou, ktorú preukazuje inventarizácia; vecná = dodržanie podvojnosti a súladu obratov v predvahe.",
+        "Formálna = správne ocenenie majetku k súvahovému dňu; vecná = úplnosť a včasnosť účtovných dokladov.",
+        "Formálna = dodržanie formálnych pravidiel (úplnosť dokladov, podvojnosť, súlad obratov a zostatkov, bilančná kontinuita); vecná = zhoda zaúčtovaného stavu so skutočnosťou, ktorú preukazuje inventarizácia.",
+        "Formálna = súlad účtovníctva s daňovými predpismi; vecná = súlad účtovníctva s opatreniami MF SR o štruktúre výkazov."
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Formálna = dodržanie formálnych pravidiel (úplnosť dokladov, podvojnosť, súlad obratov a zostatkov v predvahe, bilančná kontinuita). Vecná = zhoda zaúčtovaného stavu so skutočnosťou; preukazuje ju inventarizácia a inventarizačný zápis."
+    }
   ],
   "pasce_caste_chyby": [
     "Zamieňať účtovnú uzávierku (činnosť, uzatvorenie kníh) a účtovnú závierku (výkazy). Toto je najčastejšia chyba na skúške.",
@@ -80,28 +310,124 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Ktoré tvrdenie správne odlišuje uzávierku a závierku?", "moznosti": ["Uzávierka je súbor výkazov, závierka je uzatvorenie kníh", "Uzávierka je uzatvorenie účtovných kníh, závierka je súbor výkazov", "Sú to synonymá", "Uzávierka sa robí len v jednoduchom účtovníctve"], "spravna_index": 1, "vysvetlenie": "Uzávierka = činnosť (uzatvorenie kníh, uzávierkové operácie). Závierka = výstup (súvaha, výkaz ziskov a strát, poznámky)."},
-      {"otazka": "Súčasťami účtovnej závierky v podvojnom účtovníctve podľa § 17 ods. 3 sú:", "moznosti": ["súvaha, výkaz ziskov a strát, poznámky", "výkaz o príjmoch a výdavkoch a výkaz o majetku a záväzkoch", "súvaha a daňové priznanie", "len súvaha a výkaz ziskov a strát"], "spravna_index": 0, "vysvetlenie": "§ 17 ods. 3: súvaha, výkaz ziskov a strát a poznámky. Možnosť b) platí pre jednoduché účtovníctvo (ods. 4)."},
-      {"otazka": "Na ktorý uzávierkový účet sa prevedú konečné stavy nákladových a výnosových účtov?", "moznosti": ["702 – Konečný účet súvahový", "701 – Začiatočný účet súvahový", "710 – Účet ziskov a strát", "431 – Výsledok hospodárenia v schvaľovaní"], "spravna_index": 2, "vysvetlenie": "Náklady (tr. 5) na MD 710 a výnosy (tr. 6) na D 710; rozdiel na 710 je výsledok hospodárenia."},
-      {"otazka": "Čo je inventarizačný rozdiel, keď je skutočný stav nižší než účtovný a nemožno ho preukázať záznamom?", "moznosti": ["prebytok", "manko (pri peniazoch schodok)", "kurzový rozdiel", "opravná položka"], "spravna_index": 1, "vysvetlenie": "§ 30 ods. 5 písm. a) – manko; pri peňažných prostriedkoch a ceninách sa nazýva schodok."},
-      {"otazka": "Vecnú správnosť účtovníctva preukazuje predovšetkým:", "moznosti": ["predvaha", "inventarizačný zápis", "hlavná kniha", "daňové priznanie"], "spravna_index": 1, "vysvetlenie": "§ 30 ods. 3 – inventarizačný zápis je účtovný záznam, ktorým sa preukazuje vecná správnosť účtovníctva (zhoda so skutočnosťou)."},
-      {"otazka": "Kedy musí mať obchodná spoločnosť overenú závierku audítorom (§ 19)?", "moznosti": ["vždy", "ak spĺňa aspoň 2 z 3: majetok nad 4 mil. €, obrat nad 8 mil. €, viac ako 50 zamestnancov", "len ak je platiteľom DPH", "ak má zisk nad 1 mil. €"], "spravna_index": 1, "vysvetlenie": "§ 19 ods. 1 písm. a): aspoň dve z troch podmienok (4 mil. € majetok / 8 mil. € čistý obrat / 50 zamestnancov), splnené za bežné aj predchádzajúce obdobie."}
+      {
+        "otazka": "Ktoré tvrdenie správne odlišuje uzávierku a závierku?",
+        "moznosti": [
+          "Uzávierka je súbor výkazov, závierka je uzatvorenie kníh",
+          "Uzávierka je uzatvorenie účtovných kníh, závierka je súbor výkazov",
+          "Sú to synonymá",
+          "Uzávierka sa robí len v jednoduchom účtovníctve"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Uzávierka = činnosť (uzatvorenie kníh, uzávierkové operácie). Závierka = výstup (súvaha, výkaz ziskov a strát, poznámky)."
+      },
+      {
+        "otazka": "Súčasťami účtovnej závierky v podvojnom účtovníctve podľa § 17 ods. 3 sú:",
+        "moznosti": [
+          "súvaha, výkaz ziskov a strát, poznámky",
+          "výkaz o príjmoch a výdavkoch a výkaz o majetku a záväzkoch",
+          "súvaha a daňové priznanie",
+          "len súvaha a výkaz ziskov a strát"
+        ],
+        "spravna_index": 0,
+        "vysvetlenie": "§ 17 ods. 3: súvaha, výkaz ziskov a strát a poznámky. Možnosť b) platí pre jednoduché účtovníctvo (ods. 4)."
+      },
+      {
+        "otazka": "Na ktorý uzávierkový účet sa prevedú konečné stavy nákladových a výnosových účtov?",
+        "moznosti": [
+          "702 – Konečný účet súvahový",
+          "701 – Začiatočný účet súvahový",
+          "710 – Účet ziskov a strát",
+          "431 – Výsledok hospodárenia v schvaľovaní"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Náklady (tr. 5) na MD 710 a výnosy (tr. 6) na D 710; rozdiel na 710 je výsledok hospodárenia."
+      },
+      {
+        "otazka": "Čo je inventarizačný rozdiel, keď je skutočný stav nižší než účtovný a nemožno ho preukázať záznamom?",
+        "moznosti": [
+          "prebytok",
+          "manko (pri peniazoch schodok)",
+          "kurzový rozdiel",
+          "opravná položka"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 30 ods. 5 písm. a) – manko; pri peňažných prostriedkoch a ceninách sa nazýva schodok."
+      },
+      {
+        "otazka": "Vecnú správnosť účtovníctva preukazuje predovšetkým:",
+        "moznosti": [
+          "predvaha",
+          "inventarizačný zápis",
+          "hlavná kniha",
+          "daňové priznanie"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 30 ods. 3 – inventarizačný zápis je účtovný záznam, ktorým sa preukazuje vecná správnosť účtovníctva (zhoda so skutočnosťou)."
+      },
+      {
+        "otazka": "Kedy musí mať obchodná spoločnosť overenú závierku audítorom (§ 19)?",
+        "moznosti": [
+          "vždy",
+          "ak spĺňa aspoň 2 z 3: majetok nad 4 mil. €, obrat nad 8 mil. €, viac ako 50 zamestnancov",
+          "len ak je platiteľom DPH",
+          "ak má zisk nad 1 mil. €"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 19 ods. 1 písm. a): aspoň dve z troch podmienok (4 mil. € majetok / 8 mil. € čistý obrat / 50 zamestnancov), splnené za bežné aj predchádzajúce obdobie."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite postupnosť účtovnej uzávierky od uzávierkových operácií po uzatvorenie kníh.", "vzorova_odpoved": "Najprv sa zaúčtujú uzávierkové operácie (odpisy, opravné položky, rezervy, kurzové rozdiely k súvahovému dňu, časové rozlíšenie, dohadné položky, inventarizačné rozdiely, splatná daň). Zistia sa obraty a konečné stavy účtov, vyčísli sa VH pred zdanením. Náklady a výnosy sa prevedú na účet 710 (zistí sa VH), aktíva a pasíva na účet 702; VH z 710 sa preúčtuje na 702. Tým sa knihy uzatvoria a zostaví sa závierka. Nasledujúce obdobie sa otvorí cez účet 701."},
-      {"otazka": "Charakterizujte poznámky a vysvetlite ich význam v účtovnej závierke.", "vzorova_odpoved": "Poznámky (§ 18 ods. 5) sú rovnocennou treťou súčasťou závierky. Vysvetľujú a dopĺňajú údaje v súvahe a výkaze ziskov a strát, uvádzajú použité účtovné zásady a metódy a ďalšie informácie podľa zákona, vrátane skutočností nevykazovaných inde (podmienené záväzky, súdne spory, udalosti po dni závierky, spriaznené osoby). Zabezpečujú verný a pravdivý obraz, ktorý samotné čísla výkazov nedávajú. Ich rozsah závisí od veľkostnej skupiny ÚJ."},
-      {"otazka": "Opíšte priebeh inventarizácie a vysvetlite pojmy inventúra, inventúrny súpis a inventarizačný zápis.", "vzorova_odpoved": "Inventarizácia overuje zhodu účtovného a skutočného stavu (§ 29). Priebeh: inventúrou (fyzickou, dokladovou alebo kombinovanou) sa zistí skutočný stav; výsledok sa zapíše do inventúrneho súpisu (účtovný záznam o skutočnom stave – názov ÚJ, dni, množstvá, ceny, miesto, podpisy). Skutočný stav sa porovná s účtovným, zistia sa inventarizačné rozdiely (manko/schodok, prebytok), ktoré sa uvedú v inventarizačnom zápise (preukazuje vecnú správnosť) a zaúčtujú do obdobia, za ktoré sa stav overuje."}
+      {
+        "otazka": "Vysvetlite postupnosť účtovnej uzávierky od uzávierkových operácií po uzatvorenie kníh.",
+        "vzorova_odpoved": "Najprv sa zaúčtujú uzávierkové operácie (odpisy, opravné položky, rezervy, kurzové rozdiely k súvahovému dňu, časové rozlíšenie, dohadné položky, inventarizačné rozdiely, splatná daň). Zistia sa obraty a konečné stavy účtov, vyčísli sa VH pred zdanením. Náklady a výnosy sa prevedú na účet 710 (zistí sa VH), aktíva a pasíva na účet 702; VH z 710 sa preúčtuje na 702. Tým sa knihy uzatvoria a zostaví sa závierka. Nasledujúce obdobie sa otvorí cez účet 701."
+      },
+      {
+        "otazka": "Charakterizujte poznámky a vysvetlite ich význam v účtovnej závierke.",
+        "vzorova_odpoved": "Poznámky (§ 18 ods. 5) sú rovnocennou treťou súčasťou závierky. Vysvetľujú a dopĺňajú údaje v súvahe a výkaze ziskov a strát, uvádzajú použité účtovné zásady a metódy a ďalšie informácie podľa zákona, vrátane skutočností nevykazovaných inde (podmienené záväzky, súdne spory, udalosti po dni závierky, spriaznené osoby). Zabezpečujú verný a pravdivý obraz, ktorý samotné čísla výkazov nedávajú. Ich rozsah závisí od veľkostnej skupiny ÚJ."
+      },
+      {
+        "otazka": "Opíšte priebeh inventarizácie a vysvetlite pojmy inventúra, inventúrny súpis a inventarizačný zápis.",
+        "vzorova_odpoved": "Inventarizácia overuje zhodu účtovného a skutočného stavu (§ 29). Priebeh: inventúrou (fyzickou, dokladovou alebo kombinovanou) sa zistí skutočný stav; výsledok sa zapíše do inventúrneho súpisu (účtovný záznam o skutočnom stave – názov ÚJ, dni, množstvá, ceny, miesto, podpisy). Skutočný stav sa porovná s účtovným, zistia sa inventarizačné rozdiely (manko/schodok, prebytok), ktoré sa uvedú v inventarizačnom zápise (preukazuje vecnú správnosť) a zaúčtujú do obdobia, za ktoré sa stav overuje."
+      }
     ],
     "priklad": [
-      {"zadanie": "Firma BETA s.r.o. má k 31. 12. 2025 po uzávierkových operáciách: náklady spolu 240 000 €, výnosy spolu 300 000 €, majetok 500 000 €, záväzky 260 000 €, vlastné imanie pred VH 180 000 €. (a) Zistite výsledok hospodárenia a zaúčtujte uzatvorenie výsledkových účtov. (b) Overte bilančnú rovnicu cez účet 702. (c) Uveďte, čo je VH v tomto kontexte pre daňové účely.", "riesenie": "(a) VH = výnosy − náklady = 300 000 − 240 000 = +60 000 € (zisk). Uzatvorenie: 710/5xx 240 000; 6xx/710 300 000; zisk 710/702 60 000. (b) Na účte 702: aktíva (MD) 500 000 = pasíva (D) záväzky 260 000 + VI 180 000 + zisk 60 000 = 500 000. Rovnica aktíva = pasíva platí, knihy možno uzavrieť. (c) VH 60 000 € je len účtovné východisko (výsledok hospodárenia pred zdanením); základ dane sa z neho ešte odvodí úpravou o pripočítateľné a odpočítateľné položky (rieši téza II.8)."}
+      {
+        "zadanie": "Firma BETA s.r.o. má k 31. 12. 2025 po uzávierkových operáciách: náklady spolu 240 000 €, výnosy spolu 300 000 €, majetok 500 000 €, záväzky 260 000 €, vlastné imanie pred VH 180 000 €. (a) Zistite výsledok hospodárenia a zaúčtujte uzatvorenie výsledkových účtov. (b) Overte bilančnú rovnicu cez účet 702. (c) Uveďte, čo je VH v tomto kontexte pre daňové účely.",
+        "riesenie": "(a) VH = výnosy − náklady = 300 000 − 240 000 = +60 000 € (zisk). Uzatvorenie: 710/5xx 240 000; 6xx/710 300 000; zisk 710/702 60 000. (b) Na účte 702: aktíva (MD) 500 000 = pasíva (D) záväzky 260 000 + VI 180 000 + zisk 60 000 = 500 000. Rovnica aktíva = pasíva platí, knihy možno uzavrieť. (c) VH 60 000 € je len účtovné východisko (výsledok hospodárenia pred zdanením); základ dane sa z neho ešte odvodí úpravou o pripočítateľné a odpočítateľné položky (rieši téza II.8)."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Zákon č. 431/2002 Z. z. o účtovníctve – § 6, § 16 (otvorenie/uzavretie kníh), § 17 (závierka, súčasti), § 18 (poznámky, výkazy), § 19 (audit), § 29 – § 30 (inventarizácia)", "kde": "01_Zdroje/Zakony/ZZ_2002_431_20260204_metalex.asice", "typ": "primárny"},
-    {"nazov": "Postupy účtovania pre podnikateľov (opatrenie MF/23054/2002-92) – § 2a (závierkové operácie), § 7 (otvorenie účtov, 701, 431), § 8 (uzavretie kníh, 710, 702)", "kde": "01_Zdroje/Postupy_uctovania/Postupy podnikatelia.pdf", "typ": "primárny"},
-    {"nazov": "Opatrenia MF SR k štruktúre výkazov závierky – mikro (MF/15464/2013-74), malé (MF/23378/2014-74), veľké (MF/23377/2014-74)", "kde": "01_Zdroje/Opatrenia_zavierka/", "typ": "primárny"},
-    {"nazov": "Veľkostné kritériá ÚJ a aktuálne parametre SR 2025/2026", "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md", "typ": "web/overené"},
-    {"nazov": "Lehoty uloženia do registra účtovných závierok a rozdiel uzávierka/závierka", "kde": "https://www.podnikajte.sk/uctovnictvo/schvalenie-uctovnej-zavierky-rozdelenie-zisku-2026", "typ": "web/overené"},
-    {"nazov": "Juhászová, Z. – Máziková, K. a kol. (2021): Účtovníctvo. Wolters Kluwer; Sklenka, M. a kol. (2019): Účtovníctvo podnikateľských subjektov II", "kde": "Odporúčaná literatúra k téze (FHI EU)", "typ": "učebnica"}
+    {
+      "nazov": "Zákon č. 431/2002 Z. z. o účtovníctve – § 6, § 16 (otvorenie/uzavretie kníh), § 17 (závierka, súčasti), § 18 (poznámky, výkazy), § 19 (audit), § 29 – § 30 (inventarizácia)",
+      "kde": "01_Zdroje/Zakony/ZZ_2002_431_20260204_metalex.asice",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Postupy účtovania pre podnikateľov (opatrenie MF/23054/2002-92) – § 2a (závierkové operácie), § 7 (otvorenie účtov, 701, 431), § 8 (uzavretie kníh, 710, 702)",
+      "kde": "01_Zdroje/Postupy_uctovania/Postupy podnikatelia.pdf",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Opatrenia MF SR k štruktúre výkazov závierky – mikro (MF/15464/2013-74), malé (MF/23378/2014-74), veľké (MF/23377/2014-74)",
+      "kde": "01_Zdroje/Opatrenia_zavierka/",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Veľkostné kritériá ÚJ a aktuálne parametre SR 2025/2026",
+      "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Lehoty uloženia do registra účtovných závierok a rozdiel uzávierka/závierka",
+      "kde": "https://www.podnikajte.sk/uctovnictvo/schvalenie-uctovnej-zavierky-rozdelenie-zisku-2026",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Juhászová, Z. – Máziková, K. a kol. (2021): Účtovníctvo. Wolters Kluwer; Sklenka, M. a kol. (2019): Účtovníctvo podnikateľských subjektov II",
+      "kde": "Odporúčaná literatúra k téze (FHI EU)",
+      "typ": "učebnica"
+    }
   ]
 }

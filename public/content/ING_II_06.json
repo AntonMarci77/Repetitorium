@@ -25,52 +25,245 @@
     "register dlhodobého majetku",
     "odpisy a odpisový plán"
   ],
-  "princip_mentalny_model": "Audítor neoveruje 'majetok' a 'zásoby' ako celok, ale rozkladá zostatok účtu na audítorské tvrdenia (assertions) podľa ISA 315 a ku každému tvrdeniu navrhuje konkrétny postup. Mentálna mapa: EXISTENCIA = je to naozaj tam? (riziko nadhodnotenia – fiktívny majetok, neexistujúce zásoby) → idem sa pozrieť (fyzická inšpekcia, účasť na inventúre). ÚPLNOSŤ = je tam všetko, čo má byť? (riziko podhodnotenia, opačný smer testovania – od dokladu k záznamu). OCENENIE A ALOKÁCIA = je suma správna? (odpisy, zníženie hodnoty pri majetku; nižšia z obstarávacej ceny a čistej realizačnej hodnoty pri zásobách – tu vzniká najviac úsudku a najväčšie riziko). PRÁVA A ZÁVÄZKY = patrí to firme? (vlastníctvo – list vlastníctva, kúpne a leasingové zmluvy; pri zálohovaných zásobách a komisionálnom tovare pozor). PREZENTÁCIA A ZVEREJNENIE = je to správne vykázané a opísané v poznámkach? Smer testovania je kľúč: nadhodnotenie testujem od záznamu k realite (existencia), podhodnotenie od reality k záznamu (úplnosť). Pri majetku býva dominantné riziko ocenenia (odpisy, impairment) a existencie; pri zásobách ocenenie (NRV, zastarané zásoby), existencia (inventúra) a cut-off na prelome roka."
-,
+  "princip_mentalny_model": "Audítor neoveruje 'majetok' a 'zásoby' ako celok, ale rozkladá zostatok účtu na audítorské tvrdenia (assertions) podľa ISA 315 a ku každému tvrdeniu navrhuje konkrétny postup. Mentálna mapa: EXISTENCIA = je to naozaj tam? (riziko nadhodnotenia – fiktívny majetok, neexistujúce zásoby) → idem sa pozrieť (fyzická inšpekcia, účasť na inventúre). ÚPLNOSŤ = je tam všetko, čo má byť? (riziko podhodnotenia, opačný smer testovania – od dokladu k záznamu). OCENENIE A ALOKÁCIA = je suma správna? (odpisy, zníženie hodnoty pri majetku; nižšia z obstarávacej ceny a čistej realizačnej hodnoty pri zásobách – tu vzniká najviac úsudku a najväčšie riziko). PRÁVA A ZÁVÄZKY = patrí to firme? (vlastníctvo – list vlastníctva, kúpne a leasingové zmluvy; pri zálohovaných zásobách a komisionálnom tovare pozor). PREZENTÁCIA A ZVEREJNENIE = je to správne vykázané a opísané v poznámkach? Smer testovania je kľúč: nadhodnotenie testujem od záznamu k realite (existencia), podhodnotenie od reality k záznamu (úplnosť). Pri majetku býva dominantné riziko ocenenia (odpisy, impairment) a existencie; pri zásobách ocenenie (NRV, zastarané zásoby), existencia (inventúra) a cut-off na prelome roka.",
   "jadro_odpovede_10min": {
     "cielova_dlzka_slov": 1450,
     "uvod": "Pri audite dlhodobého nehmotného a hmotného majetku (DNM, DHM) aj zásob postupuje audítor podľa rizikovo orientovaného prístupu: identifikuje a vyhodnotí riziká významnej nesprávnosti na úrovni tvrdení (ISA 315 revidovaný 2019) a reaguje na ne ďalšími audítorskými postupmi (ISA 330) – testami kontrol a/alebo substantívnymi postupmi (test detailov, substantívne analytické postupy podľa ISA 520, externé potvrdenia podľa ISA 505). Získané dôkazy musia byť dostatočné a vhodné (ISA 500). Štruktúrovať odpoveď je najlepšie podľa audítorských tvrdení: existencia, úplnosť, ocenenie a alokácia, práva a záväzky, prezentácia a zverejnenie – pre každú oblasť priradíme typické riziká a konkrétne postupy. Špecifikom zásob je povinná účasť audítora na fyzickej inventúre podľa ISA 501.",
     "casti": [
-      {"nadpis": "Rizikovo orientovaný rámec a tvrdenia (ISA 315, 330)", "text": "Audítorské tvrdenia sú implicitné vyhlásenia manažmentu obsiahnuté v účtovnej závierke. ISA 315 ich delí do troch skupín: tvrdenia o triedach transakcií (výskyt, úplnosť, presnosť, časové ohraničenie/cut-off, zatriedenie), tvrdenia o zostatkoch účtov ku koncu obdobia (existencia, práva a záväzky, úplnosť, ocenenie a alokácia) a tvrdenia o prezentácii a zverejnení. Audítor najprv pochopí účtovnú jednotku a procesy (obstaranie, evidencia, odpisovanie, vyradenie majetku; nákup, skladovanie, výdaj a oceňovanie zásob), identifikuje riziká významnej nesprávnosti na úrovni tvrdení a potom podľa ISA 330 navrhne reakciu: pri spoľahnutí sa na vnútorný kontrolný systém testy kontrol, vždy však aj substantívne postupy. Čím vyššie posúdené riziko, tým presvedčivejší dôkaz audítor potrebuje (väčší rozsah a kvalita postupov)."},
-      {"nadpis": "DNM a DHM – existencia a práva (vlastníctvo)", "text": "Existencia odpovedá na otázku, či zaúčtovaný majetok reálne existuje – hlavné riziko je nadhodnotenie (fiktívny alebo už vyradený majetok stále v evidencii). Audítor vyberie vzorku z registra dlhodobého majetku a vykoná fyzickú obhliadku (inšpekciu) – smer testovania od záznamu k realite. Pri nehmotnom majetku (softvér, licencie, oceniteľné práva) sa 'existencia' overuje cez zmluvy, faktúry, doklady o sprístupnení a používaní. Práva a záväzky (vlastníctvo) overuje audítor cez listy vlastníctva pri nehnuteľnostiach, kúpne zmluvy, leasingové a úverové zmluvy (či nie je majetok prenajatý/založený), technické preukazy pri vozidlách. Pozor na majetok obstaraný finančným leasingom a na záložné práva, ktoré sa musia zverejniť."},
-      {"nadpis": "DNM a DHM – ocenenie a alokácia (odpisy, zníženie hodnoty)", "text": "Ocenenie je pri majetku najnáročnejšia oblasť. Audítor overí správnosť obstarávacej ceny (faktúry, vedľajšie obstarávacie náklady, hranica technického zhodnotenia vs. opravy a údržby), správnosť odpisového plánu (metóda, doba odpisovania, zostatková cena) a prepočíta odpisy. Kľúčové je zníženie hodnoty (impairment): audítor hľadá indikátory znehodnotenia (nevyužívaný, poškodený, zastaraný majetok, technologická zmena, pokles trhovej hodnoty) a posúdi, či účtovná jednotka správne vytvorila opravnú položku. Pri obstaranom majetku vo výstavbe (účtová skupina 04) overí, či sú náklady oprávnene aktivované a či dlho nedokončené investície netreba znížiť. Audit ocenenia sa opiera o ISA 540 (audit účtovných odhadov – doby životnosti, zostatkové ceny, impairment)."},
-      {"nadpis": "DNM a DHM – úplnosť, obstaranie a vyradenie", "text": "Úplnosť (riziko podhodnotenia) sa testuje opačným smerom – od zdroja k záznamu: audítor preverí, či boli všetky obstarané položky zaevidované (napr. či náklady na opravu neboli vlastne technickým zhodnotením, ktoré sa malo aktivovať). Pri obstaraní overí oprávnenosť kapitalizácie a správny okamih zaradenia do užívania. Pri vyradení (predaj, likvidácia, škoda, darovanie) overí, či bol majetok riadne vyradený z evidencie, či sa správne zaúčtoval zostatková cena a výnos/strata z predaja, a či súvisiace operácie spadajú do správneho obdobia (cut-off). Analytickým postupom (ISA 520) audítor porovná medziročný vývoj odpisov, prírastkov a úbytkov a pomer odpisov k vstupnej cene."},
-      {"nadpis": "Zásoby – účasť audítora na inventúre (ISA 501)", "text": "Ak sú zásoby významné, ISA 501 vyžaduje, aby audítor získal dostatočné a vhodné dôkazy o ich existencii a stave účasťou na fyzickej inventúre (ak je uskutočniteľná). Počas účasti audítor: (1) vyhodnotí pokyny a procedúry manažmentu na vykonanie a kontrolu inventúry, (2) pozoruje dodržiavanie týchto procedúr, (3) inšpekciou overí existenciu a stav zásob a (4) vykoná vlastné testovacie počty – obojsmerne (z fyzických zásob do záznamov = úplnosť, zo záznamov do fyzických zásob = existencia). Sleduje aj cut-off pohybov tovaru na prelome dňa inventúry. Ak je účasť neuskutočniteľná (nie však len nepohodlná), použije alternatívne postupy – napr. inšpekciu dokladov o následnom predaji konkrétnych položiek; ak ani tie nestačia, ide o obmedzenie rozsahu a modifikáciu názoru (ISA 705). Pri zásobách v úschove u tretej strany audítor žiada externé potvrdenie (ISA 505)."},
-      {"nadpis": "Zásoby – ocenenie (nižšia z OC a NRV), zastarané zásoby", "text": "Zásoby sa oceňujú nižšou z dvoch hodnôt: obstarávacej ceny (resp. vlastných nákladov pri zásobách vlastnej výroby) a čistej realizačnej hodnoty (NRV = predpokladaná predajná cena znížená o náklady na dokončenie a predaj). Toto je najrizikovejšie tvrdenie pri zásobách – riziko nadhodnotenia. Audítor overí správnosť obstarávacej ceny (faktúry, metóda úbytku FIFO/vážený priemer), prepočíta NRV pri vybraných položkách (porovná s cenníkmi a cenami následných predajov) a posúdi, či účtovná jednotka vytvorila opravnú položku k pomaly obrátkovým, poškodeným a zastaraným zásobám (analýza vekovej štruktúry a obrátkovosti zásob). Substantívne analytické postupy: vývoj obrátky zásob, hrubá marža, podiel opravných položiek."},
-      {"nadpis": "Zásoby – cut-off, úplnosť a prezentácia", "text": "Cut-off (časové ohraničenie) je kritické na prelome roka: audítor preverí posledné príjemky a výdajky pred a prvé po dátume závierky a spáruje ich s nákupmi, predajmi a záväzkami/pohľadávkami – aby tovar na ceste a nevyfakturované dodávky boli v správnom období a aby sa nepredávaný tovar neúčtoval ako úbytok zásob predčasne. Úplnosť overí, či sú v súvahe všetky zásoby vrátane tovaru na ceste a v konsignačných skladoch, a naopak či komisionálny (cudzí) tovar nie je nesprávne zahrnutý (to súvisí aj s tvrdením práva a záväzky). Prezentácia a zverejnenie: správne zatriedenie (materiál, nedokončená výroba, výrobky, tovar), zverejnenie metódy oceňovania, opravných položiek a založených zásob."},
-      {"nadpis": "Výsledky auditu – typické zistenia a ich dôsledok", "text": "Výsledkom práce v týchto oblastiach je súbor zistení (nesprávností), ktoré audítor vyhodnotí podľa ISA 450 vo vzťahu k významnosti. Typické zistenia pri majetku: fiktívny alebo už vyradený majetok stále v evidencii (nadhodnotenie aktív), chýbajúca opravná položka k nevyužívanému/poškodenému majetku, nesprávne odpisy, opravy zaúčtované namiesto technického zhodnotenia (alebo naopak). Pri zásobách: nadhodnotené zásoby (zásoby ocenené nad NRV), chýbajúca opravná položka k zastaraným/pomaly obrátkovým zásobám, chyby v cut-off (tovar na ceste), zahrnutie cudzieho (komisionálneho) tovaru. Ak audítor nezíska dostatočné dôkazy (napr. nemohol byť na inventúre a alternatívy nestačia) alebo zistené nesprávnosti sú významné a manažment ich neopraví, premietne to do modifikácie názoru v správe audítora."},
-      {"zaver": "Postup audítora pri DNM, DHM aj zásobách stojí na rozklade na audítorské tvrdenia a na rizikovo orientovanom prístupe ISA 315/330. Pri majetku dominuje existencia (fyzická obhliadka), ocenenie (odpisy a zníženie hodnoty) a práva (vlastníctvo); pri zásobách povinná účasť na inventúre (ISA 501), ocenenie nižšou z OC a NRV, zastarané zásoby a cut-off. Ku každému tvrdeniu audítor priradí konkrétny postup, získa dostatočné a vhodné dôkazy (ISA 500) a zistenia vyhodnotí voči významnosti, čo vyústi do názoru v správe nezávislého audítora."}
+      {
+        "nadpis": "Rizikovo orientovaný rámec a tvrdenia (ISA 315, 330)",
+        "text": "Audítorské tvrdenia sú implicitné vyhlásenia manažmentu obsiahnuté v účtovnej závierke. ISA 315 ich delí do troch skupín: tvrdenia o triedach transakcií (výskyt, úplnosť, presnosť, časové ohraničenie/cut-off, zatriedenie), tvrdenia o zostatkoch účtov ku koncu obdobia (existencia, práva a záväzky, úplnosť, ocenenie a alokácia) a tvrdenia o prezentácii a zverejnení. Audítor najprv pochopí účtovnú jednotku a procesy (obstaranie, evidencia, odpisovanie, vyradenie majetku; nákup, skladovanie, výdaj a oceňovanie zásob), identifikuje riziká významnej nesprávnosti na úrovni tvrdení a potom podľa ISA 330 navrhne reakciu: pri spoľahnutí sa na vnútorný kontrolný systém testy kontrol, vždy však aj substantívne postupy. Čím vyššie posúdené riziko, tým presvedčivejší dôkaz audítor potrebuje (väčší rozsah a kvalita postupov)."
+      },
+      {
+        "nadpis": "DNM a DHM – existencia a práva (vlastníctvo)",
+        "text": "Existencia odpovedá na otázku, či zaúčtovaný majetok reálne existuje – hlavné riziko je nadhodnotenie (fiktívny alebo už vyradený majetok stále v evidencii). Audítor vyberie vzorku z registra dlhodobého majetku a vykoná fyzickú obhliadku (inšpekciu) – smer testovania od záznamu k realite. Pri nehmotnom majetku (softvér, licencie, oceniteľné práva) sa 'existencia' overuje cez zmluvy, faktúry, doklady o sprístupnení a používaní. Práva a záväzky (vlastníctvo) overuje audítor cez listy vlastníctva pri nehnuteľnostiach, kúpne zmluvy, leasingové a úverové zmluvy (či nie je majetok prenajatý/založený), technické preukazy pri vozidlách. Pozor na majetok obstaraný finančným leasingom a na záložné práva, ktoré sa musia zverejniť."
+      },
+      {
+        "nadpis": "DNM a DHM – ocenenie a alokácia (odpisy, zníženie hodnoty)",
+        "text": "Ocenenie je pri majetku najnáročnejšia oblasť. Audítor overí správnosť obstarávacej ceny (faktúry, vedľajšie obstarávacie náklady, hranica technického zhodnotenia vs. opravy a údržby), správnosť odpisového plánu (metóda, doba odpisovania, zostatková cena) a prepočíta odpisy. Kľúčové je zníženie hodnoty (impairment): audítor hľadá indikátory znehodnotenia (nevyužívaný, poškodený, zastaraný majetok, technologická zmena, pokles trhovej hodnoty) a posúdi, či účtovná jednotka správne vytvorila opravnú položku. Pri obstaranom majetku vo výstavbe (účtová skupina 04) overí, či sú náklady oprávnene aktivované a či dlho nedokončené investície netreba znížiť. Audit ocenenia sa opiera o ISA 540 (audit účtovných odhadov – doby životnosti, zostatkové ceny, impairment)."
+      },
+      {
+        "nadpis": "DNM a DHM – úplnosť, obstaranie a vyradenie",
+        "text": "Úplnosť (riziko podhodnotenia) sa testuje opačným smerom – od zdroja k záznamu: audítor preverí, či boli všetky obstarané položky zaevidované (napr. či náklady na opravu neboli vlastne technickým zhodnotením, ktoré sa malo aktivovať). Pri obstaraní overí oprávnenosť kapitalizácie a správny okamih zaradenia do užívania. Pri vyradení (predaj, likvidácia, škoda, darovanie) overí, či bol majetok riadne vyradený z evidencie, či sa správne zaúčtoval zostatková cena a výnos/strata z predaja, a či súvisiace operácie spadajú do správneho obdobia (cut-off). Analytickým postupom (ISA 520) audítor porovná medziročný vývoj odpisov, prírastkov a úbytkov a pomer odpisov k vstupnej cene."
+      },
+      {
+        "nadpis": "Zásoby – účasť audítora na inventúre (ISA 501)",
+        "text": "Ak sú zásoby významné, ISA 501 vyžaduje, aby audítor získal dostatočné a vhodné dôkazy o ich existencii a stave účasťou na fyzickej inventúre (ak je uskutočniteľná). Počas účasti audítor: (1) vyhodnotí pokyny a procedúry manažmentu na vykonanie a kontrolu inventúry, (2) pozoruje dodržiavanie týchto procedúr, (3) inšpekciou overí existenciu a stav zásob a (4) vykoná vlastné testovacie počty – obojsmerne (z fyzických zásob do záznamov = úplnosť, zo záznamov do fyzických zásob = existencia). Sleduje aj cut-off pohybov tovaru na prelome dňa inventúry. Ak je účasť neuskutočniteľná (nie však len nepohodlná), použije alternatívne postupy – napr. inšpekciu dokladov o následnom predaji konkrétnych položiek; ak ani tie nestačia, ide o obmedzenie rozsahu a modifikáciu názoru (ISA 705). Pri zásobách v úschove u tretej strany audítor žiada externé potvrdenie (ISA 505)."
+      },
+      {
+        "nadpis": "Zásoby – ocenenie (nižšia z OC a NRV), zastarané zásoby",
+        "text": "Zásoby sa oceňujú nižšou z dvoch hodnôt: obstarávacej ceny (resp. vlastných nákladov pri zásobách vlastnej výroby) a čistej realizačnej hodnoty (NRV = predpokladaná predajná cena znížená o náklady na dokončenie a predaj). Toto je najrizikovejšie tvrdenie pri zásobách – riziko nadhodnotenia. Audítor overí správnosť obstarávacej ceny (faktúry, metóda úbytku FIFO/vážený priemer), prepočíta NRV pri vybraných položkách (porovná s cenníkmi a cenami následných predajov) a posúdi, či účtovná jednotka vytvorila opravnú položku k pomaly obrátkovým, poškodeným a zastaraným zásobám (analýza vekovej štruktúry a obrátkovosti zásob). Substantívne analytické postupy: vývoj obrátky zásob, hrubá marža, podiel opravných položiek."
+      },
+      {
+        "nadpis": "Zásoby – cut-off, úplnosť a prezentácia",
+        "text": "Cut-off (časové ohraničenie) je kritické na prelome roka: audítor preverí posledné príjemky a výdajky pred a prvé po dátume závierky a spáruje ich s nákupmi, predajmi a záväzkami/pohľadávkami – aby tovar na ceste a nevyfakturované dodávky boli v správnom období a aby sa nepredávaný tovar neúčtoval ako úbytok zásob predčasne. Úplnosť overí, či sú v súvahe všetky zásoby vrátane tovaru na ceste a v konsignačných skladoch, a naopak či komisionálny (cudzí) tovar nie je nesprávne zahrnutý (to súvisí aj s tvrdením práva a záväzky). Prezentácia a zverejnenie: správne zatriedenie (materiál, nedokončená výroba, výrobky, tovar), zverejnenie metódy oceňovania, opravných položiek a založených zásob."
+      },
+      {
+        "nadpis": "Výsledky auditu – typické zistenia a ich dôsledok",
+        "text": "Výsledkom práce v týchto oblastiach je súbor zistení (nesprávností), ktoré audítor vyhodnotí podľa ISA 450 vo vzťahu k významnosti. Typické zistenia pri majetku: fiktívny alebo už vyradený majetok stále v evidencii (nadhodnotenie aktív), chýbajúca opravná položka k nevyužívanému/poškodenému majetku, nesprávne odpisy, opravy zaúčtované namiesto technického zhodnotenia (alebo naopak). Pri zásobách: nadhodnotené zásoby (zásoby ocenené nad NRV), chýbajúca opravná položka k zastaraným/pomaly obrátkovým zásobám, chyby v cut-off (tovar na ceste), zahrnutie cudzieho (komisionálneho) tovaru. Ak audítor nezíska dostatočné dôkazy (napr. nemohol byť na inventúre a alternatívy nestačia) alebo zistené nesprávnosti sú významné a manažment ich neopraví, premietne to do modifikácie názoru v správe audítora."
+      },
+      {
+        "zaver": "Postup audítora pri DNM, DHM aj zásobách stojí na rozklade na audítorské tvrdenia a na rizikovo orientovanom prístupe ISA 315/330. Pri majetku dominuje existencia (fyzická obhliadka), ocenenie (odpisy a zníženie hodnoty) a práva (vlastníctvo); pri zásobách povinná účasť na inventúre (ISA 501), ocenenie nižšou z OC a NRV, zastarané zásoby a cut-off. Ku každému tvrdeniu audítor priradí konkrétny postup, získa dostatočné a vhodné dôkazy (ISA 500) a zistenia vyhodnotí voči významnosti, čo vyústi do názoru v správe nezávislého audítora."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Smer testovania: nadhodnotenie vs. podhodnotenie", "text": "Kľúčová audítorská logika: existenciu (riziko nadhodnotenia) testujem od záznamu v evidencii smerom k realite (vyberiem položku z registra/skladovej evidencie a idem ju nájsť). Úplnosť (riziko podhodnotenia) testujem opačne – od reálnej položky alebo prvotného dokladu smerom k záznamu (vezmem fyzický kus / faktúru a overím, či je zaúčtovaný). Pri inventúre zásob audítor robí test count obojsmerne práve preto, aby pokryl existenciu aj úplnosť."},
-    {"nadpis": "Reakcia na riziko: testy kontrol vs. substantívne postupy (ISA 330)", "text": "Ak má účtovná jednotka funkčný vnútorný kontrolný systém (schvaľovanie obstarania majetku, periodická inventúra, kontrola odpisového plánu), audítor môže testovať jeho účinnosť (testy kontrol) a obmedziť rozsah substantívnych postupov. Substantívne postupy sú však vždy potrebné pri významných tvrdeniach; pri vysokom riziku alebo neúčinných kontrolách sa audítor opiera prevažne o testy detailov. Substantívne analytické postupy (ISA 520) sú vhodné tam, kde existuje predvídateľný vzťah (napr. odpisy k vstupnej cene, obrátka zásob)."},
-    {"nadpis": "Audit účtovných odhadov pri majetku a zásobách (ISA 540)", "text": "Doba odpisovania, zostatková hodnota, zníženie hodnoty majetku, výška opravnej položky k zásobám aj čistá realizačná hodnota sú účtovné odhady. Audítor podľa ISA 540 posúdi, ako manažment odhad robí, aké predpoklady a dáta používa, či nie je odhad zaujatý (management bias) a otestuje primeranosť odhadu (spätné testovanie, vlastný odhad/rozpätie). Odhady sú oblasťou zvýšeného rizika a profesijného skepticizmu."},
-    {"nadpis": "Externé potvrdenia a expert (ISA 505, ISA 620)", "text": "Pri zásobách uskladnených u tretej strany (verejný sklad, konsignácia) audítor získava externé potvrdenie od skladovateľa (ISA 505). Pri ocenení špecifického majetku (nehnuteľnosti, znalecké ohodnotenie pri precenení na reálnu hodnotu) alebo zložitých zásob (drahé kovy, nedokončená výroba) môže audítor využiť prácu experta nominovaného audítorom (ISA 620) a posúdiť jeho kompetentnosť, objektivitu a vhodnosť jeho práce."},
-    {"nadpis": "Slovenské oceňovacie pravidlá ako kritérium auditu", "text": "Audítor posudzuje súlad s rámcom finančného vykazovania. V SR sa dlhodobý majetok oceňuje obstarávacou cenou / vlastnými nákladmi a odpisuje (zákon č. 431/2002 Z. z. o účtovníctve, postupy účtovania pre podnikateľov); pri trvalom znížení hodnoty sa tvorí opravná položka. Zásoby sa oceňujú obstarávacou cenou alebo vlastnými nákladmi, ku dňu závierky sa testuje, či úžitková hodnota neklesla – pri nižšej čistej realizačnej hodnote sa tvorí opravná položka. Pri jednotke vykazujúcej podľa IFRS je kritériom IAS 16/38/36 (majetok) a IAS 2 (zásoby – nižšia z OC a NRV)."},
-    {"nadpis": "Prepojenie na ostatné oblasti auditu", "text": "Oblasť majetku sa prelína s odpismi (vplyv na výsledok hospodárenia), s daňou (rozdiel účtovných a daňových odpisov → odložená daň) a s leasingom. Oblasť zásob sa prelína s nákladmi (spotreba materiálu, zmena stavu zásob vlastnej výroby), s tržbami a maržou, so záväzkami voči dodávateľom a s cut-off pri pohľadávkach a záväzkoch. Audítor tieto väzby využíva pri analytických postupoch a krížovej kontrole."}
+    {
+      "nadpis": "Smer testovania: nadhodnotenie vs. podhodnotenie",
+      "text": "Kľúčová audítorská logika: existenciu (riziko nadhodnotenia) testujem od záznamu v evidencii smerom k realite (vyberiem položku z registra/skladovej evidencie a idem ju nájsť). Úplnosť (riziko podhodnotenia) testujem opačne – od reálnej položky alebo prvotného dokladu smerom k záznamu (vezmem fyzický kus / faktúru a overím, či je zaúčtovaný). Pri inventúre zásob audítor robí test count obojsmerne práve preto, aby pokryl existenciu aj úplnosť."
+    },
+    {
+      "nadpis": "Reakcia na riziko: testy kontrol vs. substantívne postupy (ISA 330)",
+      "text": "Ak má účtovná jednotka funkčný vnútorný kontrolný systém (schvaľovanie obstarania majetku, periodická inventúra, kontrola odpisového plánu), audítor môže testovať jeho účinnosť (testy kontrol) a obmedziť rozsah substantívnych postupov. Substantívne postupy sú však vždy potrebné pri významných tvrdeniach; pri vysokom riziku alebo neúčinných kontrolách sa audítor opiera prevažne o testy detailov. Substantívne analytické postupy (ISA 520) sú vhodné tam, kde existuje predvídateľný vzťah (napr. odpisy k vstupnej cene, obrátka zásob)."
+    },
+    {
+      "nadpis": "Audit účtovných odhadov pri majetku a zásobách (ISA 540)",
+      "text": "Doba odpisovania, zostatková hodnota, zníženie hodnoty majetku, výška opravnej položky k zásobám aj čistá realizačná hodnota sú účtovné odhady. Audítor podľa ISA 540 posúdi, ako manažment odhad robí, aké predpoklady a dáta používa, či nie je odhad zaujatý (management bias) a otestuje primeranosť odhadu (spätné testovanie, vlastný odhad/rozpätie). Odhady sú oblasťou zvýšeného rizika a profesijného skepticizmu."
+    },
+    {
+      "nadpis": "Externé potvrdenia a expert (ISA 505, ISA 620)",
+      "text": "Pri zásobách uskladnených u tretej strany (verejný sklad, konsignácia) audítor získava externé potvrdenie od skladovateľa (ISA 505). Pri ocenení špecifického majetku (nehnuteľnosti, znalecké ohodnotenie pri precenení na reálnu hodnotu) alebo zložitých zásob (drahé kovy, nedokončená výroba) môže audítor využiť prácu experta nominovaného audítorom (ISA 620) a posúdiť jeho kompetentnosť, objektivitu a vhodnosť jeho práce."
+    },
+    {
+      "nadpis": "Slovenské oceňovacie pravidlá ako kritérium auditu",
+      "text": "Audítor posudzuje súlad s rámcom finančného vykazovania. V SR sa dlhodobý majetok oceňuje obstarávacou cenou / vlastnými nákladmi a odpisuje (zákon č. 431/2002 Z. z. o účtovníctve, postupy účtovania pre podnikateľov); pri trvalom znížení hodnoty sa tvorí opravná položka. Zásoby sa oceňujú obstarávacou cenou alebo vlastnými nákladmi, ku dňu závierky sa testuje, či úžitková hodnota neklesla – pri nižšej čistej realizačnej hodnote sa tvorí opravná položka. Pri jednotke vykazujúcej podľa IFRS je kritériom IAS 16/38/36 (majetok) a IAS 2 (zásoby – nižšia z OC a NRV)."
+    },
+    {
+      "nadpis": "Prepojenie na ostatné oblasti auditu",
+      "text": "Oblasť majetku sa prelína s odpismi (vplyv na výsledok hospodárenia), s daňou (rozdiel účtovných a daňových odpisov → odložená daň) a s leasingom. Oblasť zásob sa prelína s nákladmi (spotreba materiálu, zmena stavu zásob vlastnej výroby), s tržbami a maržou, so záväzkami voči dodávateľom a s cut-off pri pohľadávkach a záväzkoch. Audítor tieto väzby využíva pri analytických postupoch a krížovej kontrole."
+    }
   ],
   "priklady": [
-    {"nazov": "Fiktívny / neexistujúci majetok (tvrdenie existencia)", "zadanie": "V registri DHM je zaevidovaný výrobný stroj v zostatkovej cene 40 000 €. Audítor vyberie túto položku do vzorky a požiada o fyzickú obhliadku.", "riesenie": "Audítor ide overiť existenciu od záznamu k realite (fyzická inšpekcia). Zistí, že stroj bol pred dvomi rokmi zošrotovaný, ale nebol vyradený z evidencie. Ide o nadhodnotenie DHM o 40 000 € a nadhodnotenie výsledku (chýba zaúčtované vyradenie a odpis zostatkovej ceny). Audítor navrhne opravu (vyradenie majetku). Ak manažment neopraví a suma je významná, premietne sa to do modifikácie názoru.", "dopad_na_zd": "Aktíva nadhodnotené o 40 000 €; potrebná oprava – vyradenie a doúčtovanie nákladu."},
-    {"nazov": "Chýbajúca opravná položka k nevyužívanému majetku (ocenenie/impairment)", "zadanie": "Účtovná jednotka eviduje linku v zostatkovej cene 120 000 €, ktorá je 18 mesiacov mimo prevádzky pre stratu odbytu. Opravná položka nie je vytvorená.", "riesenie": "Audítor identifikoval indikátor zníženia hodnoty (nevyužívaný majetok). Posúdi spätne získateľnú/úžitkovú hodnotu; ak je nižšia než zostatková, mala byť vytvorená opravná položka (impairment). Chýbajúca opravná položka znamená nadhodnotenie aktíva a výsledku hospodárenia. Audítor žiada doúčtovanie opravnej položky a vyhodnotí významnosť zistenia (ISA 450).", "dopad_na_zd": "Nadhodnotené aktíva a VH; chýba opravná položka – tvrdenie ocenenie."},
-    {"nazov": "Účasť audítora na inventúre zásob a test count (ISA 501)", "zadanie": "Zásoby tovaru 850 000 € sú významné. Audítor sa zúčastní fyzickej inventúry k 31. 12.", "riesenie": "Audítor vyhodnotí pokyny manažmentu, pozoruje priebeh a vykoná vlastné testovacie počty obojsmerne: (a) vyberie položky z fyzických regálov a overí ich v skladovej evidencii (úplnosť), (b) vyberie položky zo skladovej evidencie a nájde ich vo fyzickom sklade (existencia). Zaznamená posledné čísla príjemok/výdajok pre cut-off. Pri nezrovnalostiach v počtoch rozšíri vzorku. Tým získa dôkaz o existencii a stave zásob (ISA 501).", "dopad_na_zd": "Dôkaz o existencii a úplnosti zásob; podklad pre cut-off."},
-    {"nazov": "Nadhodnotené zásoby – ocenenie nad čistú realizačnú hodnotu", "zadanie": "Na sklade je 2 000 ks sezónneho tovaru ocenených obstarávacou cenou 30 €/ks (spolu 60 000 €). Tovar sa po sezóne vypredáva po 22 €/ks, náklady na predaj 2 €/ks.", "riesenie": "Čistá realizačná hodnota = 22 − 2 = 20 €/ks. Zásoby sa majú oceniť nižšou z OC (30 €) a NRV (20 €), teda 20 €/ks. Správne ocenenie = 40 000 €, evidované 60 000 € → nadhodnotenie o 20 000 €. Mala byť vytvorená opravná položka 20 000 €. Audítor žiada jej doúčtovanie; ak suma presahuje významnosť a nie je opravená, modifikuje názor.", "dopad_na_zd": "Zásoby nadhodnotené o 20 000 €; chýbajúca OP – tvrdenie ocenenie."},
-    {"nazov": "Pomaly obrátkové / zastarané zásoby (analýza vekovej štruktúry)", "zadanie": "Audítor analyzuje vekovú štruktúru zásob a zistí, že položky za 35 000 € sa nepohli viac ako 2 roky.", "riesenie": "Pomaly obrátkové a zastarané zásoby sú indikátorom, že čistá realizačná hodnota môže byť nižšia než obstarávacia cena. Audítor preverí, či účtovná jednotka má systém identifikácie zastaraných zásob a či vytvorila primeranú opravnú položku. Posúdi predpoklady manažmentu (možnosť predaja, zľavy). Ak OP chýba alebo je nedostatočná, ide o nadhodnotenie zásob.", "dopad_na_zd": "Možné nadhodnotenie zásob; potrebná opravná položka podľa stupňa zastaranosti."},
-    {"nazov": "Chyba v cut-off zásob na prelome roka", "zadanie": "Tovar za 15 000 € prijatý na sklad 28. 12. je fyzicky na sklade a zarátaný do inventúry k 31. 12., ale dodávateľská faktúra a záväzok boli zaúčtované až 3. 1.", "riesenie": "Cut-off chyba: zásoby sú v súvahe k 31. 12. (správne, tovar bol prijatý), ale súvisiaci záväzok chýba → podhodnotené záväzky a nadhodnotený výsledok (resp. nesúlad medzi zásobami a záväzkami). Audítor pri teste cut-off páruje posledné príjemky so záväzkami a žiada doúčtovanie dohadnej položky / záväzku do roka prijatia tovaru.", "dopad_na_zd": "Podhodnotené záväzky o 15 000 €; potrebné dorovnanie do správneho obdobia (cut-off)."}
+    {
+      "nazov": "Fiktívny / neexistujúci majetok (tvrdenie existencia)",
+      "zadanie": "V registri DHM je zaevidovaný výrobný stroj v zostatkovej cene 40 000 €. Audítor vyberie túto položku do vzorky a požiada o fyzickú obhliadku.",
+      "riesenie": "Audítor ide overiť existenciu od záznamu k realite (fyzická inšpekcia). Zistí, že stroj bol pred dvomi rokmi zošrotovaný, ale nebol vyradený z evidencie. Ide o nadhodnotenie DHM o 40 000 € a nadhodnotenie výsledku (chýba zaúčtované vyradenie a odpis zostatkovej ceny). Audítor navrhne opravu (vyradenie majetku). Ak manažment neopraví a suma je významná, premietne sa to do modifikácie názoru.",
+      "dopad_na_zd": "Aktíva nadhodnotené o 40 000 €; potrebná oprava – vyradenie a doúčtovanie nákladu."
+    },
+    {
+      "nazov": "Chýbajúca opravná položka k nevyužívanému majetku (ocenenie/impairment)",
+      "zadanie": "Účtovná jednotka eviduje linku v zostatkovej cene 120 000 €, ktorá je 18 mesiacov mimo prevádzky pre stratu odbytu. Opravná položka nie je vytvorená.",
+      "riesenie": "Audítor identifikoval indikátor zníženia hodnoty (nevyužívaný majetok). Posúdi spätne získateľnú/úžitkovú hodnotu; ak je nižšia než zostatková, mala byť vytvorená opravná položka (impairment). Chýbajúca opravná položka znamená nadhodnotenie aktíva a výsledku hospodárenia. Audítor žiada doúčtovanie opravnej položky a vyhodnotí významnosť zistenia (ISA 450).",
+      "dopad_na_zd": "Nadhodnotené aktíva a VH; chýba opravná položka – tvrdenie ocenenie."
+    },
+    {
+      "nazov": "Účasť audítora na inventúre zásob a test count (ISA 501)",
+      "zadanie": "Zásoby tovaru 850 000 € sú významné. Audítor sa zúčastní fyzickej inventúry k 31. 12.",
+      "riesenie": "Audítor vyhodnotí pokyny manažmentu, pozoruje priebeh a vykoná vlastné testovacie počty obojsmerne: (a) vyberie položky z fyzických regálov a overí ich v skladovej evidencii (úplnosť), (b) vyberie položky zo skladovej evidencie a nájde ich vo fyzickom sklade (existencia). Zaznamená posledné čísla príjemok/výdajok pre cut-off. Pri nezrovnalostiach v počtoch rozšíri vzorku. Tým získa dôkaz o existencii a stave zásob (ISA 501).",
+      "dopad_na_zd": "Dôkaz o existencii a úplnosti zásob; podklad pre cut-off."
+    },
+    {
+      "nazov": "Nadhodnotené zásoby – ocenenie nad čistú realizačnú hodnotu",
+      "zadanie": "Na sklade je 2 000 ks sezónneho tovaru ocenených obstarávacou cenou 30 €/ks (spolu 60 000 €). Tovar sa po sezóne vypredáva po 22 €/ks, náklady na predaj 2 €/ks.",
+      "riesenie": "Čistá realizačná hodnota = 22 − 2 = 20 €/ks. Zásoby sa majú oceniť nižšou z OC (30 €) a NRV (20 €), teda 20 €/ks. Správne ocenenie = 40 000 €, evidované 60 000 € → nadhodnotenie o 20 000 €. Mala byť vytvorená opravná položka 20 000 €. Audítor žiada jej doúčtovanie; ak suma presahuje významnosť a nie je opravená, modifikuje názor.",
+      "dopad_na_zd": "Zásoby nadhodnotené o 20 000 €; chýbajúca OP – tvrdenie ocenenie."
+    },
+    {
+      "nazov": "Pomaly obrátkové / zastarané zásoby (analýza vekovej štruktúry)",
+      "zadanie": "Audítor analyzuje vekovú štruktúru zásob a zistí, že položky za 35 000 € sa nepohli viac ako 2 roky.",
+      "riesenie": "Pomaly obrátkové a zastarané zásoby sú indikátorom, že čistá realizačná hodnota môže byť nižšia než obstarávacia cena. Audítor preverí, či účtovná jednotka má systém identifikácie zastaraných zásob a či vytvorila primeranú opravnú položku. Posúdi predpoklady manažmentu (možnosť predaja, zľavy). Ak OP chýba alebo je nedostatočná, ide o nadhodnotenie zásob.",
+      "dopad_na_zd": "Možné nadhodnotenie zásob; potrebná opravná položka podľa stupňa zastaranosti."
+    },
+    {
+      "nazov": "Chyba v cut-off zásob na prelome roka",
+      "zadanie": "Tovar za 15 000 € prijatý na sklad 28. 12. je fyzicky na sklade a zarátaný do inventúry k 31. 12., ale dodávateľská faktúra a záväzok boli zaúčtované až 3. 1.",
+      "riesenie": "Cut-off chyba: zásoby sú v súvahe k 31. 12. (správne, tovar bol prijatý), ale súvisiaci záväzok chýba → podhodnotené záväzky a nadhodnotený výsledok (resp. nesúlad medzi zásobami a záväzkami). Audítor pri teste cut-off páruje posledné príjemky so záväzkami a žiada doúčtovanie dohadnej položky / záväzku do roka prijatia tovaru.",
+      "dopad_na_zd": "Podhodnotené záväzky o 15 000 €; potrebné dorovnanie do správneho obdobia (cut-off)."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/ING_II_06_tvrdenia_postupy.svg", "typ": "schéma", "popis": "Matica audítorských tvrdení (existencia, úplnosť, ocenenie a alokácia, práva a záväzky, prezentácia) → typické riziká a konkrétne audítorské postupy pre DNM/DHM a pre zásoby."},
-    {"subor": "03_Vizualy/ING_II_06_postup_inventura_zasoby.svg", "typ": "schéma", "popis": "Postup auditu zásob vrátane účasti na inventúre podľa ISA 501: pred inventúrou, počas inventúry (testovacie počty obojsmerne, cut-off), po inventúre (ocenenie NRV, opravné položky, vyhodnotenie zistení)."}
+    {
+      "subor": "03_Vizualy/ING_II_06_tvrdenia_postupy.svg",
+      "typ": "schéma",
+      "popis": "Matica audítorských tvrdení (existencia, úplnosť, ocenenie a alokácia, práva a záväzky, prezentácia) → typické riziká a konkrétne audítorské postupy pre DNM/DHM a pre zásoby."
+    },
+    {
+      "subor": "03_Vizualy/ING_II_06_postup_inventura_zasoby.svg",
+      "typ": "schéma",
+      "popis": "Postup auditu zásob vrátane účasti na inventúre podľa ISA 501: pred inventúrou, počas inventúry (testovacie počty obojsmerne, cut-off), po inventúre (ocenenie NRV, opravné položky, vyhodnotenie zistení)."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Podľa čoho audítor štruktúruje postup pri audite majetku a zásob?", "odpoved": "Podľa audítorských tvrdení (assertions) podľa ISA 315: existencia, úplnosť, ocenenie a alokácia, práva a záväzky, prezentácia a zverejnenie (plus pri transakciách výskyt, presnosť, cut-off, zatriedenie). Ku každému tvrdeniu priradí riziko a konkrétny postup."},
-    {"otazka": "Aký je rozdiel v smere testovania pri existencii a úplnosti?", "odpoved": "Existencia (riziko nadhodnotenia) sa testuje od záznamu v evidencii k realite (vyberiem položku z registra a idem ju nájsť). Úplnosť (riziko podhodnotenia) sa testuje opačne – od reálnej položky/dokladu k záznamu."},
-    {"otazka": "Čo vyžaduje ISA 501 pri zásobách a kedy audítor použije alternatívne postupy?", "odpoved": "Ak sú zásoby významné, audítor sa musí zúčastniť fyzickej inventúry (vyhodnotiť pokyny, pozorovať, inšpekciou overiť existenciu/stav, vykonať testovacie počty), ak je to uskutočniteľné. Ak je účasť neuskutočniteľná (nie len nepohodlná), použije alternatívne postupy (napr. doklady o následnom predaji); ak ani tie nestačia, ide o obmedzenie rozsahu a modifikáciu názoru."},
-    {"otazka": "Ako sa oceňujú zásoby a aké je tu hlavné audítorské riziko?", "odpoved": "Nižšou z obstarávacej ceny (vlastných nákladov) a čistej realizačnej hodnoty (NRV = predajná cena mínus náklady na dokončenie a predaj). Hlavné riziko je nadhodnotenie – zásoby ocenené nad NRV a chýbajúce opravné položky k zastaraným zásobám."},
-    {"otazka": "Ktoré postupy použije audítor pri overení vlastníctva (práva) DHM?", "odpoved": "Listy vlastníctva pri nehnuteľnostiach, kúpne, leasingové a úverové zmluvy, technické preukazy vozidiel; sleduje záložné práva a majetok obstaraný finančným leasingom, ktoré sa musia zverejniť."},
-    {"otazka": "Ako audítor overuje ocenenie dlhodobého majetku?", "odpoved": "Overí obstarávaciu cenu a vedľajšie náklady, odpisový plán a prepočíta odpisy, hľadá indikátory zníženia hodnoty (nevyužívaný, poškodený, zastaraný majetok) a posúdi primeranosť opravnej položky/impairmentu; ide o audit účtovného odhadu (ISA 540)."},
-    {"otazka": "Aké typické zistenia vznikajú pri audite zásob?", "odpoved": "Nadhodnotené zásoby (nad NRV), chýbajúca opravná položka k pomaly obrátkovým a zastaraným zásobám, chyby v cut-off (tovar na ceste, nevyfakturované dodávky) a nesprávne zahrnutie cudzieho/komisionálneho tovaru."},
-    {"otazka": "Čo robí audítor, ak zistené nesprávnosti nie sú opravené?", "odpoved": "Vyhodnotí ich významnosť (ISA 450) jednotlivo aj súhrnne. Ak sú významné a manažment ich neopraví, alebo ak audítor nezíska dostatočné dôkazy, premietne to do modifikácie názoru v správe nezávislého audítora (výrok s výhradou alebo záporný/odmietnutie)."}
+    {
+      "otazka": "Podľa čoho audítor štruktúruje postup pri audite majetku a zásob?",
+      "odpoved": "Podľa audítorských tvrdení (assertions) podľa ISA 315: existencia, úplnosť, ocenenie a alokácia, práva a záväzky, prezentácia a zverejnenie (plus pri transakciách výskyt, presnosť, cut-off, zatriedenie). Ku každému tvrdeniu priradí riziko a konkrétny postup.",
+      "moznosti": [
+        "Podľa jednotlivých súvahových účtov v poradí účtovej osnovy, pričom ku každému účtu vykoná všetky dostupné postupy",
+        "Podľa audítorských tvrdení (ISA 315): existencia, úplnosť, ocenenie a alokácia, práva a záväzky, prezentácia a zverejnenie; ku každému priradí riziko a konkrétny postup",
+        "Podľa veľkosti položiek od najväčších po najmenšie, pričom malé položky netestuje vôbec",
+        "Podľa chronológie obstarania majetku a zásob, od najstarších prírastkov po najnovšie"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Podľa audítorských tvrdení (assertions) podľa ISA 315: existencia, úplnosť, ocenenie a alokácia, práva a záväzky, prezentácia a zverejnenie (plus pri transakciách výskyt, presnosť, cut-off, zatriedenie). Ku každému tvrdeniu priradí riziko a konkrétny postup."
+    },
+    {
+      "otazka": "Aký je rozdiel v smere testovania pri existencii a úplnosti?",
+      "odpoved": "Existencia (riziko nadhodnotenia) sa testuje od záznamu v evidencii k realite (vyberiem položku z registra a idem ju nájsť). Úplnosť (riziko podhodnotenia) sa testuje opačne – od reálnej položky/dokladu k záznamu.",
+      "moznosti": [
+        "Existencia aj úplnosť sa testujú rovnako – od reálnej položky k záznamu v evidencii",
+        "Existencia sa testuje od reálnej položky k záznamu, úplnosť od záznamu k realite",
+        "Existencia (riziko nadhodnotenia) sa testuje od záznamu v evidencii k realite, úplnosť (riziko podhodnotenia) opačne – od reálnej položky/dokladu k záznamu",
+        "Existencia sa testuje analytickými postupmi, úplnosť výhradne externým potvrdením od tretích strán"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Existencia (riziko nadhodnotenia) sa testuje od záznamu v evidencii k realite (vyberiem položku z registra a idem ju nájsť). Úplnosť (riziko podhodnotenia) sa testuje opačne – od reálnej položky/dokladu k záznamu."
+    },
+    {
+      "otazka": "Čo vyžaduje ISA 501 pri zásobách a kedy audítor použije alternatívne postupy?",
+      "odpoved": "Ak sú zásoby významné, audítor sa musí zúčastniť fyzickej inventúry (vyhodnotiť pokyny, pozorovať, inšpekciou overiť existenciu/stav, vykonať testovacie počty), ak je to uskutočniteľné. Ak je účasť neuskutočniteľná (nie len nepohodlná), použije alternatívne postupy (napr. doklady o následnom predaji); ak ani tie nestačia, ide o obmedzenie rozsahu a modifikáciu názoru.",
+      "moznosti": [
+        "Pri významných zásobách účasť audítora na fyzickej inventúre (ak je uskutočniteľná); ak je neuskutočniteľná, alternatívne postupy, inak obmedzenie rozsahu a modifikácia názoru",
+        "Aby audítor sám vykonal kompletnú inventúru namiesto účtovnej jednotky a zodpovedal za jej výsledok",
+        "Výlučne externé potvrdenie stavu zásob od dodávateľov; fyzická prítomnosť audítora nie je potrebná",
+        "Len analytický prepočet obrátkovosti zásob; alternatívne postupy audítor nepoužíva ani pri neúčasti"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Ak sú zásoby významné, audítor sa musí zúčastniť fyzickej inventúry (vyhodnotiť pokyny, pozorovať, inšpekciou overiť existenciu/stav, vykonať testovacie počty), ak je to uskutočniteľné. Ak je účasť neuskutočniteľná (nie len nepohodlná), použije alternatívne postupy (napr. doklady o následnom predaji); ak ani tie nestačia, ide o obmedzenie rozsahu a modifikáciu názoru."
+    },
+    {
+      "otazka": "Ako sa oceňujú zásoby a aké je tu hlavné audítorské riziko?",
+      "odpoved": "Nižšou z obstarávacej ceny (vlastných nákladov) a čistej realizačnej hodnoty (NRV = predajná cena mínus náklady na dokončenie a predaj). Hlavné riziko je nadhodnotenie – zásoby ocenené nad NRV a chýbajúce opravné položky k zastaraným zásobám.",
+      "moznosti": [
+        "Vždy obstarávacou cenou; hlavné riziko je podhodnotenie zásob pri náraste trhových cien",
+        "Reálnou hodnotou k súvahovému dňu; hlavné riziko je nesprávne zatriedenie zásob",
+        "Vyššou z obstarávacej ceny a čistej realizačnej hodnoty; hlavné riziko je porušenie cut-off",
+        "Nižšou z obstarávacej ceny (vlastných nákladov) a čistej realizačnej hodnoty; hlavné riziko je nadhodnotenie – zásoby nad NRV a chýbajúce opravné položky"
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Nižšou z obstarávacej ceny (vlastných nákladov) a čistej realizačnej hodnoty (NRV = predajná cena mínus náklady na dokončenie a predaj). Hlavné riziko je nadhodnotenie – zásoby ocenené nad NRV a chýbajúce opravné položky k zastaraným zásobám."
+    },
+    {
+      "otazka": "Ktoré postupy použije audítor pri overení vlastníctva (práva) DHM?",
+      "odpoved": "Listy vlastníctva pri nehnuteľnostiach, kúpne, leasingové a úverové zmluvy, technické preukazy vozidiel; sleduje záložné práva a majetok obstaraný finančným leasingom, ktoré sa musia zverejniť.",
+      "moznosti": [
+        "Listy vlastníctva pri nehnuteľnostiach, kúpne, leasingové a úverové zmluvy, technické preukazy; sleduje záložné práva a majetok na finančný leasing",
+        "Fyzickú obhliadku majetku a prepočet odpisov, ktoré spolu jednoznačne preukazujú vlastníctvo jednotky",
+        "Externé potvrdenia od dodávateľov majetku, ktoré potvrdzujú existenciu aj vlastnícke právo súčasne",
+        "Analýzu vekovej štruktúry majetku a porovnanie medziročného vývoja prírastkov a úbytkov"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Listy vlastníctva pri nehnuteľnostiach, kúpne, leasingové a úverové zmluvy, technické preukazy vozidiel; sleduje záložné práva a majetok obstaraný finančným leasingom, ktoré sa musia zverejniť."
+    },
+    {
+      "otazka": "Ako audítor overuje ocenenie dlhodobého majetku?",
+      "odpoved": "Overí obstarávaciu cenu a vedľajšie náklady, odpisový plán a prepočíta odpisy, hľadá indikátory zníženia hodnoty (nevyužívaný, poškodený, zastaraný majetok) a posúdi primeranosť opravnej položky/impairmentu; ide o audit účtovného odhadu (ISA 540).",
+      "moznosti": [
+        "Iba prepočtom odpisov podľa odpisového plánu; zníženie hodnoty nie je súčasťou tvrdenia ocenenie",
+        "Overí obstarávaciu cenu a vedľajšie náklady, odpisový plán a prepočíta odpisy, hľadá indikátory zníženia hodnoty a posúdi primeranosť opravnej položky/impairmentu (účtovný odhad – ISA 540)",
+        "Výlučne externým potvrdením trhovej ceny majetku od nezávislého znalca pre každú položku majetku",
+        "Porovnaním účtovných a daňových odpisov, pričom rozhodujúca je vždy daňová zostatková cena majetku"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Overí obstarávaciu cenu a vedľajšie náklady, odpisový plán a prepočíta odpisy, hľadá indikátory zníženia hodnoty (nevyužívaný, poškodený, zastaraný majetok) a posúdi primeranosť opravnej položky/impairmentu; ide o audit účtovného odhadu (ISA 540)."
+    },
+    {
+      "otazka": "Aké typické zistenia vznikajú pri audite zásob?",
+      "odpoved": "Nadhodnotené zásoby (nad NRV), chýbajúca opravná položka k pomaly obrátkovým a zastaraným zásobám, chyby v cut-off (tovar na ceste, nevyfakturované dodávky) a nesprávne zahrnutie cudzieho/komisionálneho tovaru.",
+      "moznosti": [
+        "Podhodnotené zásoby pod NRV, nadbytočné opravné položky, predčasné vyradenie zásob a vynechanie cudzieho tovaru zo súvahy",
+        "Výlučne chyby v odpisovom pláne a v zatriedení dlhodobého majetku do účtových skupín",
+        "Nadhodnotené zásoby (nad NRV), chýbajúca opravná položka k pomaly obrátkovým a zastaraným zásobám, chyby v cut-off a nesprávne zahrnutie cudzieho/komisionálneho tovaru",
+        "Len kurzové rozdiely pri zásobách v cudzej mene a nesprávne číslovanie skladových kariet"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Nadhodnotené zásoby (nad NRV), chýbajúca opravná položka k pomaly obrátkovým a zastaraným zásobám, chyby v cut-off (tovar na ceste, nevyfakturované dodávky) a nesprávne zahrnutie cudzieho/komisionálneho tovaru."
+    },
+    {
+      "otazka": "Čo robí audítor, ak zistené nesprávnosti nie sú opravené?",
+      "odpoved": "Vyhodnotí ich významnosť (ISA 450) jednotlivo aj súhrnne. Ak sú významné a manažment ich neopraví, alebo ak audítor nezíska dostatočné dôkazy, premietne to do modifikácie názoru v správe nezávislého audítora (výrok s výhradou alebo záporný/odmietnutie).",
+      "moznosti": [
+        "Považuje každé zistenie automaticky za významné a vždy modifikuje názor bez ohľadu na sumu",
+        "Ponechá ich bez ďalšieho posúdenia, ak ich manažment odmietol opraviť, a uvedie ich len v dokumentácii",
+        "Postúpi rozhodnutie o ich významnosti výboru pre audit, ktorý určí dopad na výrok audítora",
+        "Vyhodnotí ich významnosť (ISA 450) jednotlivo aj súhrnne; ak sú významné a neopravené, alebo nezíska dostatočné dôkazy, premietne to do modifikácie názoru (výhrada, záporný alebo odmietnutie)"
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "Vyhodnotí ich významnosť (ISA 450) jednotlivo aj súhrnne. Ak sú významné a manažment ich neopraví, alebo ak audítor nezíska dostatočné dôkazy, premietne to do modifikácie názoru v správe nezávislého audítora (výrok s výhradou alebo záporný/odmietnutie)."
+    }
   ],
   "pasce_caste_chyby": [
     "Zamieňať smer testovania: existencia sa testuje od záznamu k realite, úplnosť od reality k záznamu – nie naopak.",
@@ -86,30 +279,134 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Audítor vyberie stroj z registra dlhodobého majetku a ide ho fyzicky nájsť. Ktoré tvrdenie primárne overuje?", "moznosti": ["úplnosť", "existencia", "ocenenie", "prezentácia"], "spravna_index": 1, "vysvetlenie": "Smer od záznamu k realite overuje existenciu (riziko nadhodnotenia – fiktívny/vyradený majetok stále v evidencii)."},
-      {"otazka": "Čo vyžaduje ISA 501 pri významných zásobách?", "moznosti": ["aby audítor sám vykonal inventúru namiesto jednotky", "účasť audítora na fyzickej inventúre, ak je uskutočniteľná", "výlučne externé potvrdenie od dodávateľov", "len analytický postup obrátky zásob"], "spravna_index": 1, "vysvetlenie": "ISA 501 vyžaduje účasť na fyzickej inventúre (pozorovanie, testovacie počty, inšpekcia), ak je uskutočniteľná; inventúru robí jednotka, nie audítor."},
-      {"otazka": "Ako sa ku dňu závierky oceňujú zásoby?", "moznosti": ["vždy obstarávacou cenou", "vždy reálnou hodnotou", "nižšou z obstarávacej ceny a čistej realizačnej hodnoty", "vyššou z obstarávacej ceny a NRV"], "spravna_index": 2, "vysvetlenie": "Platí pravidlo nižšej z OC a NRV; pri poklese NRV sa tvorí opravná položka, inak hrozí nadhodnotenie zásob."},
-      {"otazka": "Linka je 18 mesiacov mimo prevádzky, opravná položka nie je vytvorená. O ktoré tvrdenie ide a aké je riziko?", "moznosti": ["úplnosť, riziko podhodnotenia", "ocenenie, riziko nadhodnotenia (chýba impairment)", "práva, riziko cudzieho majetku", "cut-off, riziko zlého obdobia"], "spravna_index": 1, "vysvetlenie": "Nevyužívaný majetok je indikátor zníženia hodnoty; chýbajúca opravná položka znamená nadhodnotenie aktíva – tvrdenie ocenenie."},
-      {"otazka": "Tovar je fyzicky na sklade a v inventúre k 31.12., ale záväzok zaúčtovaný až 3.1. Aký je problém?", "moznosti": ["nadhodnotenie zásob", "chyba v cut-off – podhodnotené záväzky", "porušenie vlastníckeho tvrdenia", "neúplná inventúra"], "spravna_index": 1, "vysvetlenie": "Zásoby sú správne v súvahe, ale chýbajúci záväzok je cut-off chyba – záväzky podhodnotené, treba doúčtovať do roka prijatia tovaru."},
-      {"otazka": "Ktorý štandard upravuje reakciu audítora na posúdené riziká (testy kontrol vs. substantívne postupy)?", "moznosti": ["ISA 315", "ISA 330", "ISA 505", "ISA 230"], "spravna_index": 1, "vysvetlenie": "ISA 315 riziká identifikuje a posudzuje; ISA 330 upravuje reakciu na ne (ďalšie audítorské postupy)."}
+      {
+        "otazka": "Audítor vyberie stroj z registra dlhodobého majetku a ide ho fyzicky nájsť. Ktoré tvrdenie primárne overuje?",
+        "moznosti": [
+          "úplnosť",
+          "existencia",
+          "ocenenie",
+          "prezentácia"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Smer od záznamu k realite overuje existenciu (riziko nadhodnotenia – fiktívny/vyradený majetok stále v evidencii)."
+      },
+      {
+        "otazka": "Čo vyžaduje ISA 501 pri významných zásobách?",
+        "moznosti": [
+          "aby audítor sám vykonal inventúru namiesto jednotky",
+          "účasť audítora na fyzickej inventúre, ak je uskutočniteľná",
+          "výlučne externé potvrdenie od dodávateľov",
+          "len analytický postup obrátky zásob"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "ISA 501 vyžaduje účasť na fyzickej inventúre (pozorovanie, testovacie počty, inšpekcia), ak je uskutočniteľná; inventúru robí jednotka, nie audítor."
+      },
+      {
+        "otazka": "Ako sa ku dňu závierky oceňujú zásoby?",
+        "moznosti": [
+          "vždy obstarávacou cenou",
+          "vždy reálnou hodnotou",
+          "nižšou z obstarávacej ceny a čistej realizačnej hodnoty",
+          "vyššou z obstarávacej ceny a NRV"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Platí pravidlo nižšej z OC a NRV; pri poklese NRV sa tvorí opravná položka, inak hrozí nadhodnotenie zásob."
+      },
+      {
+        "otazka": "Linka je 18 mesiacov mimo prevádzky, opravná položka nie je vytvorená. O ktoré tvrdenie ide a aké je riziko?",
+        "moznosti": [
+          "úplnosť, riziko podhodnotenia",
+          "ocenenie, riziko nadhodnotenia (chýba impairment)",
+          "práva, riziko cudzieho majetku",
+          "cut-off, riziko zlého obdobia"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Nevyužívaný majetok je indikátor zníženia hodnoty; chýbajúca opravná položka znamená nadhodnotenie aktíva – tvrdenie ocenenie."
+      },
+      {
+        "otazka": "Tovar je fyzicky na sklade a v inventúre k 31.12., ale záväzok zaúčtovaný až 3.1. Aký je problém?",
+        "moznosti": [
+          "nadhodnotenie zásob",
+          "chyba v cut-off – podhodnotené záväzky",
+          "porušenie vlastníckeho tvrdenia",
+          "neúplná inventúra"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Zásoby sú správne v súvahe, ale chýbajúci záväzok je cut-off chyba – záväzky podhodnotené, treba doúčtovať do roka prijatia tovaru."
+      },
+      {
+        "otazka": "Ktorý štandard upravuje reakciu audítora na posúdené riziká (testy kontrol vs. substantívne postupy)?",
+        "moznosti": [
+          "ISA 315",
+          "ISA 330",
+          "ISA 505",
+          "ISA 230"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "ISA 315 riziká identifikuje a posudzuje; ISA 330 upravuje reakciu na ne (ďalšie audítorské postupy)."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite, ako audítor štruktúruje postup pri audite DNM/DHM podľa audítorských tvrdení a priraďte ku každému aspoň jeden postup.", "vzorova_odpoved": "Existencia – fyzická obhliadka vybraných položiek z registra (od záznamu k realite). Úplnosť – overenie, či boli všetky obstarania zaevidované (od dokladu k záznamu; pozor na opravy vs. technické zhodnotenie). Ocenenie a alokácia – overenie obstarávacej ceny, prepočet odpisov, posúdenie zníženia hodnoty/opravnej položky (ISA 540). Práva a záväzky – listy vlastníctva, kúpne/leasingové/úverové zmluvy, záložné práva. Prezentácia a zverejnenie – správne zatriedenie a zverejnenie metód, OP a založeného majetku."},
-      {"otazka": "Opíšte postup audítora pri zásobách vrátane účasti na inventúre a ocenenia.", "vzorova_odpoved": "Pred inventúrou: posúdenie rizík a pokynov manažmentu. Počas inventúry (ISA 501): pozorovanie dodržiavania procedúr, inšpekcia existencie a stavu, testovacie počty obojsmerne (existencia aj úplnosť), zaznamenanie cut-off dokladov. Po inventúre: overenie ocenenia nižšou z OC a NRV, posúdenie opravných položiek k zastaraným/pomaly obrátkovým zásobám, test cut-off (príjemky/výdajky vs. záväzky/pohľadávky), externé potvrdenia pri zásobách u tretích strán (ISA 505). Zistenia vyhodnotí voči významnosti (ISA 450)."},
-      {"otazka": "Uveďte typické zistenia (nesprávnosti) pri audite majetku a zásob a ich dôsledok pre názor audítora.", "vzorova_odpoved": "Majetok: fiktívny/vyradený majetok v evidencii (nadhodnotenie), chýbajúci impairment, nesprávne odpisy, chybná kapitalizácia. Zásoby: ocenenie nad NRV, chýbajúce OP k zastaraným zásobám, cut-off chyby, cudzí tovar v súvahe. Audítor zistenia vyhodnotí podľa významnosti (ISA 450); ak sú významné a neopravené, alebo nezíska dostatočné dôkazy (napr. neúčasť na inventúre bez postačujúcich alternatív), modifikuje názor (s výhradou, záporný alebo odmietnutie)."}
+      {
+        "otazka": "Vysvetlite, ako audítor štruktúruje postup pri audite DNM/DHM podľa audítorských tvrdení a priraďte ku každému aspoň jeden postup.",
+        "vzorova_odpoved": "Existencia – fyzická obhliadka vybraných položiek z registra (od záznamu k realite). Úplnosť – overenie, či boli všetky obstarania zaevidované (od dokladu k záznamu; pozor na opravy vs. technické zhodnotenie). Ocenenie a alokácia – overenie obstarávacej ceny, prepočet odpisov, posúdenie zníženia hodnoty/opravnej položky (ISA 540). Práva a záväzky – listy vlastníctva, kúpne/leasingové/úverové zmluvy, záložné práva. Prezentácia a zverejnenie – správne zatriedenie a zverejnenie metód, OP a založeného majetku."
+      },
+      {
+        "otazka": "Opíšte postup audítora pri zásobách vrátane účasti na inventúre a ocenenia.",
+        "vzorova_odpoved": "Pred inventúrou: posúdenie rizík a pokynov manažmentu. Počas inventúry (ISA 501): pozorovanie dodržiavania procedúr, inšpekcia existencie a stavu, testovacie počty obojsmerne (existencia aj úplnosť), zaznamenanie cut-off dokladov. Po inventúre: overenie ocenenia nižšou z OC a NRV, posúdenie opravných položiek k zastaraným/pomaly obrátkovým zásobám, test cut-off (príjemky/výdajky vs. záväzky/pohľadávky), externé potvrdenia pri zásobách u tretích strán (ISA 505). Zistenia vyhodnotí voči významnosti (ISA 450)."
+      },
+      {
+        "otazka": "Uveďte typické zistenia (nesprávnosti) pri audite majetku a zásob a ich dôsledok pre názor audítora.",
+        "vzorova_odpoved": "Majetok: fiktívny/vyradený majetok v evidencii (nadhodnotenie), chýbajúci impairment, nesprávne odpisy, chybná kapitalizácia. Zásoby: ocenenie nad NRV, chýbajúce OP k zastaraným zásobám, cut-off chyby, cudzí tovar v súvahe. Audítor zistenia vyhodnotí podľa významnosti (ISA 450); ak sú významné a neopravené, alebo nezíska dostatočné dôkazy (napr. neúčasť na inventúre bez postačujúcich alternatív), modifikuje názor (s výhradou, záporný alebo odmietnutie)."
+      }
     ],
     "priklad": [
-      {"zadanie": "Spoločnosť eviduje k 31.12.2025: (a) tovar 1 000 ks á 50 € (OC 50 000 €), pričom predajná cena klesla na 44 €/ks a náklady na predaj sú 3 €/ks; (b) v registri DHM stroj v zostatkovej cene 25 000 €, ktorý audítor pri obhliadke nenašiel – bol zošrotovaný; (c) na sklade tovar za 12 000 €, ktorý je v komisionálnom predaji (vlastníctvo dodávateľa), ale je zarátaný do zásob. Vyčíslite potrebné úpravy a uveďte dotknuté tvrdenia.", "riesenie": "(a) NRV = 44 − 3 = 41 €/ks; nižšia z OC (50) a NRV (41) = 41 €/ks → správne ocenenie 41 000 €; nadhodnotenie o 9 000 € → opravná položka 9 000 € (tvrdenie ocenenie). (b) Stroj neexistuje – nadhodnotenie DHM o 25 000 €, treba vyradiť a doúčtovať zostatkovú cenu do nákladov (tvrdenie existencia). (c) Komisionálny tovar nepatrí jednotke – treba vylúčiť 12 000 € zo zásob (tvrdenie práva a záväzky, resp. existencia). Spolu: zníženie zásob o 21 000 € (9 000 + 12 000) a zníženie DHM o 25 000 €; audítor vyhodnotí významnosť a žiada opravy."}
+      {
+        "zadanie": "Spoločnosť eviduje k 31.12.2025: (a) tovar 1 000 ks á 50 € (OC 50 000 €), pričom predajná cena klesla na 44 €/ks a náklady na predaj sú 3 €/ks; (b) v registri DHM stroj v zostatkovej cene 25 000 €, ktorý audítor pri obhliadke nenašiel – bol zošrotovaný; (c) na sklade tovar za 12 000 €, ktorý je v komisionálnom predaji (vlastníctvo dodávateľa), ale je zarátaný do zásob. Vyčíslite potrebné úpravy a uveďte dotknuté tvrdenia.",
+        "riesenie": "(a) NRV = 44 − 3 = 41 €/ks; nižšia z OC (50) a NRV (41) = 41 €/ks → správne ocenenie 41 000 €; nadhodnotenie o 9 000 € → opravná položka 9 000 € (tvrdenie ocenenie). (b) Stroj neexistuje – nadhodnotenie DHM o 25 000 €, treba vyradiť a doúčtovať zostatkovú cenu do nákladov (tvrdenie existencia). (c) Komisionálny tovar nepatrí jednotke – treba vylúčiť 12 000 € zo zásob (tvrdenie práva a záväzky, resp. existencia). Spolu: zníženie zásob o 21 000 € (9 000 + 12 000) a zníženie DHM o 25 000 €; audítor vyhodnotí významnosť a žiada opravy."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "ISA 315 (revidovaný 2019) – Identifikovanie a posúdenie rizík významnej nesprávnosti; kategórie tvrdení (výskyt, úplnosť, presnosť, cut-off, zatriedenie; existencia, práva a záväzky, ocenenie a alokácia; prezentácia)", "kde": "https://www.ifac.org/ (IAASB) – ISA 315", "typ": "web/overené"},
-    {"nazov": "ISA 330 – Reakcia audítora na posúdené riziká (testy kontrol a substantívne postupy)", "kde": "https://www.ifac.org/ (IAASB) – ISA 330", "typ": "web/overené"},
-    {"nazov": "ISA 500 – Audítorské dôkazy (dostatočné a vhodné); ISA 501 – Špecifické zretele pri vybraných položkách (účasť na inventúre zásob)", "kde": "https://www.ifac.org/ (IAASB) – ISA 500, ISA 501", "typ": "web/overené"},
-    {"nazov": "ISA 505 – Externé potvrdenia; ISA 520 – Analytické postupy; ISA 540 – Audit účtovných odhadov; ISA 450 – Vyhodnotenie nesprávností", "kde": "https://www.ifac.org/ (IAASB)", "typ": "web/overené"},
-    {"nazov": "KAREŠ, L.: Audítorstvo. 1. vyd. Bratislava: SKCÚ, 2020. ISBN 978-80-972525-7-1", "kde": "Učebnica (odporúčaná literatúra k tézam)", "typ": "učebnica"},
-    {"nazov": "Zákon č. 423/2015 Z. z. o štatutárnom audite", "kde": "01_Zdroje/Audit/ZZ_2015_423_20260110_metalex.asice", "typ": "primárny"},
-    {"nazov": "Zákon č. 431/2002 Z. z. o účtovníctve (oceňovanie majetku a zásob, opravné položky) a postupy účtovania pre podnikateľov", "kde": "01_Zdroje/Zakony/ZZ_2002_431...; 01_Zdroje/Postupy_uctovania/", "typ": "primárny"},
-    {"nazov": "Tézy na inžinierske štátne skúšky – Účtovníctvo a audítorstvo 2025/2026, II. okruh, téza 6", "kde": "ing_tézy_na_štátne_skúšky_účtovníctvo_a_audítorstvo2026 (2).pdf", "typ": "primárny"}
+    {
+      "nazov": "ISA 315 (revidovaný 2019) – Identifikovanie a posúdenie rizík významnej nesprávnosti; kategórie tvrdení (výskyt, úplnosť, presnosť, cut-off, zatriedenie; existencia, práva a záväzky, ocenenie a alokácia; prezentácia)",
+      "kde": "https://www.ifac.org/ (IAASB) – ISA 315",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "ISA 330 – Reakcia audítora na posúdené riziká (testy kontrol a substantívne postupy)",
+      "kde": "https://www.ifac.org/ (IAASB) – ISA 330",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "ISA 500 – Audítorské dôkazy (dostatočné a vhodné); ISA 501 – Špecifické zretele pri vybraných položkách (účasť na inventúre zásob)",
+      "kde": "https://www.ifac.org/ (IAASB) – ISA 500, ISA 501",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "ISA 505 – Externé potvrdenia; ISA 520 – Analytické postupy; ISA 540 – Audit účtovných odhadov; ISA 450 – Vyhodnotenie nesprávností",
+      "kde": "https://www.ifac.org/ (IAASB)",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "KAREŠ, L.: Audítorstvo. 1. vyd. Bratislava: SKCÚ, 2020. ISBN 978-80-972525-7-1",
+      "kde": "Učebnica (odporúčaná literatúra k tézam)",
+      "typ": "učebnica"
+    },
+    {
+      "nazov": "Zákon č. 423/2015 Z. z. o štatutárnom audite",
+      "kde": "01_Zdroje/Audit/ZZ_2015_423_20260110_metalex.asice",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Zákon č. 431/2002 Z. z. o účtovníctve (oceňovanie majetku a zásob, opravné položky) a postupy účtovania pre podnikateľov",
+      "kde": "01_Zdroje/Zakony/ZZ_2002_431...; 01_Zdroje/Postupy_uctovania/",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Tézy na inžinierske štátne skúšky – Účtovníctvo a audítorstvo 2025/2026, II. okruh, téza 6",
+      "kde": "ing_tézy_na_štátne_skúšky_účtovníctvo_a_audítorstvo2026 (2).pdf",
+      "typ": "primárny"
+    }
   ]
 }

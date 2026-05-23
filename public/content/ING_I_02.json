@@ -28,42 +28,252 @@
     "cielova_dlzka_slov": 1450,
     "uvod": "Daň z príjmov je súčasťou nákladov účtovnej jednotky a ovplyvňuje výsledok hospodárenia po zdanení. Účtovne ju delíme na dve zložky: splatnú daň, ktorá je externým zúčtovacím vzťahom voči štátu za bežné zdaňovacie obdobie, a odloženú daň, ktorá je interným nástrojom účtovníctva. Splatná daň sa počíta zo základu dane podľa zákona č. 595/2003 Z. z., kým odložená daň reaguje na to, že účtovný a daňový pohľad na hodnotu majetku a záväzkov sa líši. Odloženú daň účtujú povinne účtovné jednotky s povinnosťou auditu (§ 19 zákona o účtovníctve), ostatné dobrovoľne; mikro účtovná jednotka o nej neúčtuje.",
     "casti": [
-      {"nadpis": "Splatná daň z príjmov – podstata", "text": "Splatná daň je daň za bežné účtovné a zdaňovacie obdobie. Predmetom je príjem z činnosti daňovníka a z nakladania s jeho majetkom; základom dane je rozdiel, o ktorý zdaniteľné príjmy prevyšujú daňové výdavky pri rešpektovaní vecnej a časovej súvislosti. U právnickej osoby účtujúcej v podvojnom účtovníctve sa základ dane podľa § 17 ods. 1 písm. b) ZDP zisťuje z výsledku hospodárenia pred zdanením (riadok 100 daňového priznania), ktorý sám daňovník v daňovom priznaní upraví o pripočítateľné a odpočítateľné položky. Vypočítaná daň sa účtuje 591 – Splatná daň z príjmov / 341 – Daň z príjmov. Účtovníctvo je teda informačným zdrojom na zistenie základu dane: dodáva výsledok hospodárenia aj analytickú evidenciu položiek, z ktorých sa robí transformácia."},
-      {"nadpis": "Transformácia VH na základ dane", "text": "Schéma je: VH pred zdanením + pripočítateľné položky − odpočítateľné položky = základ dane (kladný) alebo daňová strata (záporný). Zvyšujú ho najmä náklady, ktoré nie sú daňovým výdavkom (§ 21 – reprezentácia, pokuty od štátu) alebo sú ním až po zaplatení (§ 17 ods. 19), účtovné odpisy nad daňové, nedaňové rezervy a opravné položky mimo § 20, záväzky po splatnosti (§ 17 ods. 27). Znižujú ho výnosy, ktoré nie sú zdaniteľným príjmom (oslobodená dividenda, príjem už zdanený zrážkou), prevýšenie daňových odpisov nad účtovné a sumy už raz zdanené. Hlavný problém transformácie je práve odlíšiť trvalý rozdiel (nikdy sa nevyrovná) od dočasného (vyrovná sa v inom období) – lebo len dočasný vyvoláva odloženú daň."},
-      {"nadpis": "Odložená daň – podstata a dôvod vzniku", "text": "Odložená daň je daň odložená do budúcich období. Vzniká z rozdielneho pohľadu na výšku dane v účtovnom a v zdaňovacom období. Jej zmyslom je naplniť akruálny princíp (náklad na daň priradiť do obdobia, s ktorým vecne a časovo súvisí) a zásadu opatrnosti (zaúčtovať očakávaný budúci záväzok a objektivizovať tak výsledok hospodárenia – zaúčtovaním odloženého daňového záväzku sa bráni rozdeleniu zisku vlastníkom, ktorý bude treba neskôr odviesť ako daň). Rozlišujeme tri zdroje: trvalé rozdiely (nedaňové výdavky – odloženú daň NEvyvolávajú), dočasné rozdiely (medzi účtovnou hodnotou aktíva/záväzku v súvahe a jeho daňovou základňou) a ostatné rozdiely (možnosť umoriť daňovú stratu, previesť nevyužité daňové nároky)."},
-      {"nadpis": "Záväzková súvahová metóda a daňová základňa", "text": "Zákon a postupy účtovania predpisujú záväzkovú metódu s väzbou na súvahu. Porovnáva sa účtovná hodnota položky (vykázaná v súvahe v stĺpci NETTO) s jej daňovou základňou (suma, ktorá z daného aktíva ešte daňovo 'prejde' do nákladov, resp. ktorá sa pri záväzku daňovo uzná v budúcnosti). Dočasný rozdiel = ÚH − daňová základňa. Dôležité: dočasné rozdiely sa násobia sadzbou dane, ktorá bude platiť až v období, keď sa rozdiel vyrovná (nie sadzbou pri vzniku) – to je rozdiel oproti staršej metóde odloženia, ktorá viazala odloženú daň na výsledovku a zmenu sadzby neprepočítavala. Odložená daň sa NEdiskontuje (neodúročuje)."},
-      {"nadpis": "Smer rozdielu: záväzok vs. pohľadávka", "text": "Zdaniteľný (pripočítateľný) dočasný rozdiel → ODLOŽENÝ DAŇOVÝ ZÁVÄZOK: vzniká, keď ÚH aktíva > daňová základňa, alebo ÚH záväzku < daňová základňa. V bežnom období je daň nižšia, ale v budúcnosti sa situácia obráti a zaplatí sa viac – preto sa tvorí zdroj na budúcu vyššiu daň (typicky daňové odpisy rýchlejšie ako účtovné). Odpočítateľný dočasný rozdiel → ODLOŽENÁ DAŇOVÁ POHĽADÁVKA: vzniká, keď ÚH aktíva < daňová základňa, alebo ÚH záväzku > daňová základňa. V bežnom období sa zaplatí viac, ale v budúcnosti menej – preplatok sa započíta (typicky účtovné OP k pohľadávkam/zásobám zatiaľ daňovo neuznané, účtovné rezervy, náklady uznané až po zaplatení, umorovateľná daňová strata). Pohľadávku vykážem len ak je pravdepodobné, že v budúcnosti dosiahnem dostatočný základ dane na jej vyrovnanie."},
-      {"nadpis": "Postup zisťovania a účtovanie odloženej dane", "text": "Postup má päť krokov: 1. identifikujú sa skutočnosti spôsobujúce dočasný rozdiel; 2. zistí sa účtovná hodnota a daňová základňa; 3. vyčíslia sa dočasné rozdiely v členení na zdaniteľné a odpočítateľné; 4. vyčísli sa odložená daň (rozdiel × budúca sadzba); 5. zaúčtuje sa ZMENA stavu tak, aby konečný zostatok účtu 481 zodpovedal skutočnej výške odloženej dane ku dňu závierky. Účtuje sa vždy na súvahovom účte 481 – Odložený daňový záväzok a odložená daňová pohľadávka. Bežný súvzťažný účet je 592 – Odložená daň z príjmov (výsledkovo): vznik/zvýšenie záväzku 592/481, vznik/zvýšenie pohľadávky 481/592. Ak rozdiel vznikol z položky účtovanej do vlastného imania (precenenie), súvzťažným účtom je 414, prípadne 428/429."},
-      {"nadpis": "Vykazovanie v účtovnej závierke", "text": "V súvahe sa odložená daňová pohľadávka vykazuje na strane aktív v rámci dlhodobých pohľadávok a odložený daňový záväzok na strane pasív v rámci dlhodobých záväzkov. Ak sa pohľadávka aj záväzok týkajú toho istého daňovníka a toho istého daňového úradu, môže sa vykázať len výsledný zostatok účtu 481 (saldo): zostatok na strane MD ako pohľadávka (aktíva), na strane D ako záväzok (pasíva). Vo výkaze ziskov a strát sa náklad na daň člení na splatnú (591) a odloženú (592) daň. Účtovanie o odloženej dani sa nevzťahuje na prvotné zaúčtovanie goodwillu."},
-      {"nadpis": "Základné konštrukčné prvky dane a daň PO", "text": "Konštrukčné prvky dane: daňový subjekt (daňovník PO), predmet dane (príjem/výnos), základ dane, sadzba a zdaňovacie obdobie. Sadzby DPPO (§ 15) od 1. 1. 2025 (platia aj pre 2026): 10 % pri zdaniteľných príjmoch ≤ 100 000 €, 21 % nad 100 000 do 5 mil. €, 24 % nad 5 mil. €; sadzba sa uplatní na celý základ dane a o jej výške rozhoduje výška PRÍJMOV (výnosov), nie základu dane. Po zostavení základu dane sa odpočíta daňová strata (§ 30 – max. 5 období, max. 50 % ZD, mikrodaňovník 100 %), uplatnia prípadné úľavy na dani a porovná sa s minimálnou daňou (§ 46b)."},
-      {"nadpis": "Závislé osoby, dividendy a zrážková daň", "text": "Transakcie závislých osôb (ekonomicky, personálne alebo inak prepojených) musia byť ocenené podľa princípu nezávislého vzťahu (§ 17 ods. 5, § 18) – ak sa líšia od trhových, základ dane sa zvýši; pri kontrole sa rozdiel určí podľa mediánu nezávislých porovnateľných hodnôt a použije sa metodika OECD pre transferové oceňovanie. Prijatá dividenda zo zisku tuzemskej PO je u PO mimo predmetu dane (odpočítateľná položka, trvalý rozdiel); u fyzickej osoby sa zdaňuje zrážkou 7 % zo zisku za rok 2025 (10 % zo zisku za 2024), 35 % voči nespolupracujúcim štátom. Daň vyberaná zrážkou (§ 43) je u príjemcu spravidla vysporiadaná. Oprava chyby minulých období: ak ovplyvnila základ dane, rieši sa dodatočným daňovým priznaním za to obdobie, nie cez bežný rok.", "zaver": "Pri tejto téze drž tri kotvy: (1) splatná = reálna daň zo základu dane (591/341), odložená = akruálne dorovnanie cez súvahu (592/481); (2) odložená daň vzniká LEN z dočasných rozdielov, ktoré nájdeš porovnaním účtovnej hodnoty a daňovej základne; (3) smer (záväzok/pohľadávka) odvodíš z toho, či v budúcnosti zaplatíš viac alebo menej. Tým spojíš účtovný a daňový pohľad do verného obrazu výsledku po zdanení."}
+      {
+        "nadpis": "Splatná daň z príjmov – podstata",
+        "text": "Splatná daň je daň za bežné účtovné a zdaňovacie obdobie. Predmetom je príjem z činnosti daňovníka a z nakladania s jeho majetkom; základom dane je rozdiel, o ktorý zdaniteľné príjmy prevyšujú daňové výdavky pri rešpektovaní vecnej a časovej súvislosti. U právnickej osoby účtujúcej v podvojnom účtovníctve sa základ dane podľa § 17 ods. 1 písm. b) ZDP zisťuje z výsledku hospodárenia pred zdanením (riadok 100 daňového priznania), ktorý sám daňovník v daňovom priznaní upraví o pripočítateľné a odpočítateľné položky. Vypočítaná daň sa účtuje 591 – Splatná daň z príjmov / 341 – Daň z príjmov. Účtovníctvo je teda informačným zdrojom na zistenie základu dane: dodáva výsledok hospodárenia aj analytickú evidenciu položiek, z ktorých sa robí transformácia."
+      },
+      {
+        "nadpis": "Transformácia VH na základ dane",
+        "text": "Schéma je: VH pred zdanením + pripočítateľné položky − odpočítateľné položky = základ dane (kladný) alebo daňová strata (záporný). Zvyšujú ho najmä náklady, ktoré nie sú daňovým výdavkom (§ 21 – reprezentácia, pokuty od štátu) alebo sú ním až po zaplatení (§ 17 ods. 19), účtovné odpisy nad daňové, nedaňové rezervy a opravné položky mimo § 20, záväzky po splatnosti (§ 17 ods. 27). Znižujú ho výnosy, ktoré nie sú zdaniteľným príjmom (oslobodená dividenda, príjem už zdanený zrážkou), prevýšenie daňových odpisov nad účtovné a sumy už raz zdanené. Hlavný problém transformácie je práve odlíšiť trvalý rozdiel (nikdy sa nevyrovná) od dočasného (vyrovná sa v inom období) – lebo len dočasný vyvoláva odloženú daň."
+      },
+      {
+        "nadpis": "Odložená daň – podstata a dôvod vzniku",
+        "text": "Odložená daň je daň odložená do budúcich období. Vzniká z rozdielneho pohľadu na výšku dane v účtovnom a v zdaňovacom období. Jej zmyslom je naplniť akruálny princíp (náklad na daň priradiť do obdobia, s ktorým vecne a časovo súvisí) a zásadu opatrnosti (zaúčtovať očakávaný budúci záväzok a objektivizovať tak výsledok hospodárenia – zaúčtovaním odloženého daňového záväzku sa bráni rozdeleniu zisku vlastníkom, ktorý bude treba neskôr odviesť ako daň). Rozlišujeme tri zdroje: trvalé rozdiely (nedaňové výdavky – odloženú daň NEvyvolávajú), dočasné rozdiely (medzi účtovnou hodnotou aktíva/záväzku v súvahe a jeho daňovou základňou) a ostatné rozdiely (možnosť umoriť daňovú stratu, previesť nevyužité daňové nároky)."
+      },
+      {
+        "nadpis": "Záväzková súvahová metóda a daňová základňa",
+        "text": "Zákon a postupy účtovania predpisujú záväzkovú metódu s väzbou na súvahu. Porovnáva sa účtovná hodnota položky (vykázaná v súvahe v stĺpci NETTO) s jej daňovou základňou (suma, ktorá z daného aktíva ešte daňovo 'prejde' do nákladov, resp. ktorá sa pri záväzku daňovo uzná v budúcnosti). Dočasný rozdiel = ÚH − daňová základňa. Dôležité: dočasné rozdiely sa násobia sadzbou dane, ktorá bude platiť až v období, keď sa rozdiel vyrovná (nie sadzbou pri vzniku) – to je rozdiel oproti staršej metóde odloženia, ktorá viazala odloženú daň na výsledovku a zmenu sadzby neprepočítavala. Odložená daň sa NEdiskontuje (neodúročuje)."
+      },
+      {
+        "nadpis": "Smer rozdielu: záväzok vs. pohľadávka",
+        "text": "Zdaniteľný (pripočítateľný) dočasný rozdiel → ODLOŽENÝ DAŇOVÝ ZÁVÄZOK: vzniká, keď ÚH aktíva > daňová základňa, alebo ÚH záväzku < daňová základňa. V bežnom období je daň nižšia, ale v budúcnosti sa situácia obráti a zaplatí sa viac – preto sa tvorí zdroj na budúcu vyššiu daň (typicky daňové odpisy rýchlejšie ako účtovné). Odpočítateľný dočasný rozdiel → ODLOŽENÁ DAŇOVÁ POHĽADÁVKA: vzniká, keď ÚH aktíva < daňová základňa, alebo ÚH záväzku > daňová základňa. V bežnom období sa zaplatí viac, ale v budúcnosti menej – preplatok sa započíta (typicky účtovné OP k pohľadávkam/zásobám zatiaľ daňovo neuznané, účtovné rezervy, náklady uznané až po zaplatení, umorovateľná daňová strata). Pohľadávku vykážem len ak je pravdepodobné, že v budúcnosti dosiahnem dostatočný základ dane na jej vyrovnanie."
+      },
+      {
+        "nadpis": "Postup zisťovania a účtovanie odloženej dane",
+        "text": "Postup má päť krokov: 1. identifikujú sa skutočnosti spôsobujúce dočasný rozdiel; 2. zistí sa účtovná hodnota a daňová základňa; 3. vyčíslia sa dočasné rozdiely v členení na zdaniteľné a odpočítateľné; 4. vyčísli sa odložená daň (rozdiel × budúca sadzba); 5. zaúčtuje sa ZMENA stavu tak, aby konečný zostatok účtu 481 zodpovedal skutočnej výške odloženej dane ku dňu závierky. Účtuje sa vždy na súvahovom účte 481 – Odložený daňový záväzok a odložená daňová pohľadávka. Bežný súvzťažný účet je 592 – Odložená daň z príjmov (výsledkovo): vznik/zvýšenie záväzku 592/481, vznik/zvýšenie pohľadávky 481/592. Ak rozdiel vznikol z položky účtovanej do vlastného imania (precenenie), súvzťažným účtom je 414, prípadne 428/429."
+      },
+      {
+        "nadpis": "Vykazovanie v účtovnej závierke",
+        "text": "V súvahe sa odložená daňová pohľadávka vykazuje na strane aktív v rámci dlhodobých pohľadávok a odložený daňový záväzok na strane pasív v rámci dlhodobých záväzkov. Ak sa pohľadávka aj záväzok týkajú toho istého daňovníka a toho istého daňového úradu, môže sa vykázať len výsledný zostatok účtu 481 (saldo): zostatok na strane MD ako pohľadávka (aktíva), na strane D ako záväzok (pasíva). Vo výkaze ziskov a strát sa náklad na daň člení na splatnú (591) a odloženú (592) daň. Účtovanie o odloženej dani sa nevzťahuje na prvotné zaúčtovanie goodwillu."
+      },
+      {
+        "nadpis": "Základné konštrukčné prvky dane a daň PO",
+        "text": "Konštrukčné prvky dane: daňový subjekt (daňovník PO), predmet dane (príjem/výnos), základ dane, sadzba a zdaňovacie obdobie. Sadzby DPPO (§ 15) od 1. 1. 2025 (platia aj pre 2026): 10 % pri zdaniteľných príjmoch ≤ 100 000 €, 21 % nad 100 000 do 5 mil. €, 24 % nad 5 mil. €; sadzba sa uplatní na celý základ dane a o jej výške rozhoduje výška PRÍJMOV (výnosov), nie základu dane. Po zostavení základu dane sa odpočíta daňová strata (§ 30 – max. 5 období, max. 50 % ZD, mikrodaňovník 100 %), uplatnia prípadné úľavy na dani a porovná sa s minimálnou daňou (§ 46b)."
+      },
+      {
+        "nadpis": "Závislé osoby, dividendy a zrážková daň",
+        "text": "Transakcie závislých osôb (ekonomicky, personálne alebo inak prepojených) musia byť ocenené podľa princípu nezávislého vzťahu (§ 17 ods. 5, § 18) – ak sa líšia od trhových, základ dane sa zvýši; pri kontrole sa rozdiel určí podľa mediánu nezávislých porovnateľných hodnôt a použije sa metodika OECD pre transferové oceňovanie. Prijatá dividenda zo zisku tuzemskej PO je u PO mimo predmetu dane (odpočítateľná položka, trvalý rozdiel); u fyzickej osoby sa zdaňuje zrážkou 7 % zo zisku za rok 2025 (10 % zo zisku za 2024), 35 % voči nespolupracujúcim štátom. Daň vyberaná zrážkou (§ 43) je u príjemcu spravidla vysporiadaná. Oprava chyby minulých období: ak ovplyvnila základ dane, rieši sa dodatočným daňovým priznaním za to obdobie, nie cez bežný rok.",
+        "zaver": "Pri tejto téze drž tri kotvy: (1) splatná = reálna daň zo základu dane (591/341), odložená = akruálne dorovnanie cez súvahu (592/481); (2) odložená daň vzniká LEN z dočasných rozdielov, ktoré nájdeš porovnaním účtovnej hodnoty a daňovej základne; (3) smer (záväzok/pohľadávka) odvodíš z toho, či v budúcnosti zaplatíš viac alebo menej. Tým spojíš účtovný a daňový pohľad do verného obrazu výsledku po zdanení."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Metóda odloženia vs. záväzková metóda", "text": "Staršia metóda odloženia viaže odloženú daň na výkaz ziskov a strát (časové rozdiely nákladov a výnosov), dočasné rozdiely násobí sadzbou platnou v čase ich vzniku a pri zmene sadzby pôvodný zostatok neprepočítava – nevie vždy presne vyčísliť súvahovú položku. Záväzková (súvahová) metóda, ktorú predpisujú slovenské postupy aj IAS 12, kladie dôraz na presné vykázanie odloženej dane v súvahe: vychádza z rozdielu medzi účtovnou hodnotou a daňovou základňou aktíva/záväzku a násobí ho BUDÚCOU sadzbou; pri zmene sadzby sa zostatok prepočíta. Pri stabilnej sadzbe dávajú obe metódy podobný výsledok."},
-    {"nadpis": "Typické príčiny dočasných rozdielov", "text": "Zdaniteľné (→ záväzok): vyššia účtovná zostatková cena majetku ako daňová (rýchlejšie daňové odpisy), nezinkasované úroky z omeškania, precenenie cenných papierov a finančných nástrojov na reálnu hodnotu smerom nahor, majetok z nepeňažného vkladu ocenený vyššie než u vkladateľa. Odpočítateľné (→ pohľadávka): nižšia účtovná ZC majetku ako daňová, opravné položky k zásobám/pohľadávkam/majetku zatiaľ daňovo neuznané, záväzky súvzťažné s nákladom uznaným až po zaplatení (faktúry za poradenstvo, právne služby, nájom), tvorba účtovných rezerv mimo § 20, precenenie nadol, umorovateľná daňová strata."},
-    {"nadpis": "Daňová strata podrobnejšie (§ 30)", "text": "Daňová strata = záporný základ dane. Odpočítava sa najviac v 5 bezprostredne nasledujúcich zdaňovacích obdobiach, v každom najviac do 50 % základu dane (mikrodaňovník až do 100 %). Daňovník si volí výšku odpočtu nerovnomerne, ale len od kladného ZD; neuplatnená časť po 5 rokoch prepadá. Možnosť umoriť stratu je 'ostatným rozdielom', z ktorého môže vzniknúť odložená daňová pohľadávka – avšak len ak je pravdepodobné, že firma dosiahne dostatočný budúci základ dane."},
-    {"nadpis": "Úľavy na dani a minimálna daň", "text": "Po výpočte dane môže daňovník uplatniť úľavy na dani (napr. pre prijímateľa investičnej pomoci podľa § 30a, § 30b) – znižujú výslednú daňovú povinnosť. Súčasne sa daň porovná s minimálnou daňou PO (§ 46b, od 2024 nahradila daňové licencie): 340 € až 11 520 € podľa výšky zdaniteľných príjmov; platí sa vyššia z dvoch súm. Kladný rozdiel zaplatenej minimálnej dane nad vypočítanú daň možno započítať v nasledujúcich 3 obdobiach."},
-    {"nadpis": "Vzťah k IAS 12 a vlastnému imaniu", "text": "Slovenská úprava odloženej dane je principiálne zhodná s IAS 12 (záväzková súvahová metóda, dočasné rozdiely, zákaz diskontovania). Ak dočasný rozdiel vznikol z transakcie účtovanej priamo do vlastného imania (napr. precenenie cenných papierov na účte 414, prepočet majetku a záväzkov), aj príslušná odložená daň sa účtuje súvzťažne s vlastným imaním (414, prípadne 428/429), nie cez účet 592 – inak by sa skreslil výsledok hospodárenia."}
+    {
+      "nadpis": "Metóda odloženia vs. záväzková metóda",
+      "text": "Staršia metóda odloženia viaže odloženú daň na výkaz ziskov a strát (časové rozdiely nákladov a výnosov), dočasné rozdiely násobí sadzbou platnou v čase ich vzniku a pri zmene sadzby pôvodný zostatok neprepočítava – nevie vždy presne vyčísliť súvahovú položku. Záväzková (súvahová) metóda, ktorú predpisujú slovenské postupy aj IAS 12, kladie dôraz na presné vykázanie odloženej dane v súvahe: vychádza z rozdielu medzi účtovnou hodnotou a daňovou základňou aktíva/záväzku a násobí ho BUDÚCOU sadzbou; pri zmene sadzby sa zostatok prepočíta. Pri stabilnej sadzbe dávajú obe metódy podobný výsledok."
+    },
+    {
+      "nadpis": "Typické príčiny dočasných rozdielov",
+      "text": "Zdaniteľné (→ záväzok): vyššia účtovná zostatková cena majetku ako daňová (rýchlejšie daňové odpisy), nezinkasované úroky z omeškania, precenenie cenných papierov a finančných nástrojov na reálnu hodnotu smerom nahor, majetok z nepeňažného vkladu ocenený vyššie než u vkladateľa. Odpočítateľné (→ pohľadávka): nižšia účtovná ZC majetku ako daňová, opravné položky k zásobám/pohľadávkam/majetku zatiaľ daňovo neuznané, záväzky súvzťažné s nákladom uznaným až po zaplatení (faktúry za poradenstvo, právne služby, nájom), tvorba účtovných rezerv mimo § 20, precenenie nadol, umorovateľná daňová strata."
+    },
+    {
+      "nadpis": "Daňová strata podrobnejšie (§ 30)",
+      "text": "Daňová strata = záporný základ dane. Odpočítava sa najviac v 5 bezprostredne nasledujúcich zdaňovacích obdobiach, v každom najviac do 50 % základu dane (mikrodaňovník až do 100 %). Daňovník si volí výšku odpočtu nerovnomerne, ale len od kladného ZD; neuplatnená časť po 5 rokoch prepadá. Možnosť umoriť stratu je 'ostatným rozdielom', z ktorého môže vzniknúť odložená daňová pohľadávka – avšak len ak je pravdepodobné, že firma dosiahne dostatočný budúci základ dane."
+    },
+    {
+      "nadpis": "Úľavy na dani a minimálna daň",
+      "text": "Po výpočte dane môže daňovník uplatniť úľavy na dani (napr. pre prijímateľa investičnej pomoci podľa § 30a, § 30b) – znižujú výslednú daňovú povinnosť. Súčasne sa daň porovná s minimálnou daňou PO (§ 46b, od 2024 nahradila daňové licencie): 340 € až 11 520 € podľa výšky zdaniteľných príjmov; platí sa vyššia z dvoch súm. Kladný rozdiel zaplatenej minimálnej dane nad vypočítanú daň možno započítať v nasledujúcich 3 obdobiach."
+    },
+    {
+      "nadpis": "Vzťah k IAS 12 a vlastnému imaniu",
+      "text": "Slovenská úprava odloženej dane je principiálne zhodná s IAS 12 (záväzková súvahová metóda, dočasné rozdiely, zákaz diskontovania). Ak dočasný rozdiel vznikol z transakcie účtovanej priamo do vlastného imania (napr. precenenie cenných papierov na účte 414, prepočet majetku a záväzkov), aj príslušná odložená daň sa účtuje súvzťažne s vlastným imaním (414, prípadne 428/429), nie cez účet 592 – inak by sa skreslil výsledok hospodárenia."
+    }
   ],
   "priklady": [
-    {"nazov": "Odložený daňový záväzok z rozdielu odpisov (592/481)", "zadanie": "BETA s.r.o. obstarala v r. 2025 stroj za 100 000 €. Účtovne ho odpisuje rovnomerne 10 rokov (10 000 €/rok). Daňovo patrí do 2. odpisovej skupiny (6 rokov), daňový odpis za r. 2025 = 16 667 €. Sadzba DPPO platná pre budúce obdobia 21 %.", "uctovanie": [{"rok": "2025", "md": "592", "d": "481", "suma": 1400, "popis": "Tvorba odloženého daňového záväzku (zmena stavu za r. 2025)"}], "riesenie": "Účtovná ZC stroja k 31.12.2025 = 100 000 − 10 000 = 90 000 €. Daňová základňa (daňová ZC) = 100 000 − 16 667 = 83 333 €. Účtovná hodnota (90 000) > daňová základňa (83 333) → ZDANITEĽNÝ dočasný rozdiel = 6 667 €. Daňové odpisy bežia rýchlejšie, takže v budúcnosti budú daňové odpisy nižšie a daň vyššia → vzniká odložený daňový ZÁVÄZOK = 6 667 × 21 % = 1 400 € (zaokr.). Účtuje sa 592/481. V daňovom priznaní r. 2025 sa navyše prejaví odpočítateľná položka −6 667 € (daňové odpisy nad účtovné), ktorá zníži splatnú daň – odložená daň tento dočasný prospech 'objektivizuje'.", "dopad_na_zd": "Splatná daň 2025: odpočítateľná položka −6 667 € (daňové odpisy > účtovné). Odložená daň: záväzok +1 400 € (592/481). V ďalších rokoch sa rozdiel a tým aj záväzok postupne rozpustí."},
-    {"nazov": "Odložená daňová pohľadávka z účtovnej OP k pohľadávke (481/592)", "zadanie": "GAMA s.r.o. má pohľadávku 20 000 € (zahrnutú do zdaniteľných príjmov). V r. 2025 k nej vytvorila účtovnú opravnú položku 100 % = 20 000 €, daňovo však zatiaľ nie je uznaná žiadna časť (pohľadávka ešte nie je 360 dní po splatnosti). Budúca sadzba 21 %.", "uctovanie": [{"rok": "2025", "md": "547", "d": "391", "suma": 20000, "popis": "Tvorba účtovnej OP k pohľadávke"}, {"rok": "2025", "md": "481", "d": "592", "suma": 4200, "popis": "Tvorba odloženej daňovej pohľadávky"}], "riesenie": "Účtovná hodnota pohľadávky v súvahe (NETTO) = 20 000 − 20 000 = 0 €. Daňová základňa = 20 000 € (daňovo bude pohľadávka uznateľná v budúcnosti cez časový test § 20). ÚH aktíva (0) < daňová základňa (20 000) → ODPOČÍTATEĽNÝ dočasný rozdiel = 20 000 €. Dnes je OP nedaňová (pripočítateľná položka +20 000 € v splatnej dani), ale v budúcnosti sa daňovo uzná → menej dane → odložená daňová POHĽADÁVKA = 20 000 × 21 % = 4 200 € (481/592). Vykáže sa len ak je pravdepodobný dostatočný budúci základ dane.", "dopad_na_zd": "Splatná daň 2025: pripočítateľná položka +20 000 € (účtovná OP nedaňová). Odložená daň: pohľadávka +4 200 € (481/592), ktorá budúci náklad na daň zníži."},
-    {"nazov": "Trvalý rozdiel bez odloženej dane (pokuta + dividenda)", "zadanie": "DELTA s.r.o. zaúčtovala v r. 2025 pokutu od daňového úradu 2 000 € a prijala dividendu od tuzemskej s.r.o. 5 000 € zaúčtovanú do výnosov.", "riesenie": "Pokuta od štátu je nedaňová natrvalo (§ 21 ods. 2) → pripočítateľná položka +2 000 €, TRVALÝ rozdiel. Prijatá dividenda od tuzemskej PO nie je predmetom dane → odpočítateľná položka −5 000 €, TRVALÝ rozdiel. Ani jeden sa v budúcnosti nevyrovná, preto NEVZNIKÁ žiadna odložená daň – účtuje sa len ich vplyv na splatnú daň cez daňové priznanie.", "dopad_na_zd": "Splatná daň 2025: +2 000 € (pokuta) a −5 000 € (dividenda). Odložená daň: 0 € (trvalé rozdiely)."},
-    {"nazov": "Komplexný výpočet splatnej a odloženej dane", "zadanie": "EPSILON s.r.o., zdaniteľné príjmy 280 000 €, VH pred zdanením 60 000 €. Pripočítateľné: účtovná rezerva na bonusy +8 000 €, účtovné odpisy nad daňové +3 000 €. Odpočítateľné: oslobodená dividenda −5 000 €. Z toho rezerva (8 000) a rozdiel odpisov (3 000) sú dočasné, dividenda je trvalá. Sadzba 21 %.", "uctovanie": [{"rok": "2025", "md": "591", "d": "341", "suma": 13860, "popis": "Splatná daň zo základu dane"}, {"rok": "2025", "md": "481", "d": "592", "suma": 2310, "popis": "Odložená daňová pohľadávka z dočasných rozdielov (11 000 × 21 %)"}], "riesenie": "Základ dane = 60 000 + 8 000 + 3 000 − 5 000 = 66 000 €. Sadzba 21 % (príjmy > 100 000 €). Splatná daň = 66 000 × 21 % = 13 860 € (591/341). Dočasné odpočítateľné rozdiely spolu 11 000 € (rezerva 8 000 + odpisy 3 000) sa v budúcnosti daňovo uznajú → odložená daňová pohľadávka 11 000 × 21 % = 2 310 € (481/592). Dividenda je trvalý rozdiel, odloženú daň nevyvolá. Celkový náklad na daň vo VZaS = 13 860 (591) − 2 310 (592, ako zníženie nákladu) = 11 550 €.", "dopad_na_zd": "Splatná daň 13 860 €; odložená daňová pohľadávka 2 310 €; výsledný účtovný náklad na daň 11 550 €."}
+    {
+      "nazov": "Odložený daňový záväzok z rozdielu odpisov (592/481)",
+      "zadanie": "BETA s.r.o. obstarala v r. 2025 stroj za 100 000 €. Účtovne ho odpisuje rovnomerne 10 rokov (10 000 €/rok). Daňovo patrí do 2. odpisovej skupiny (6 rokov), daňový odpis za r. 2025 = 16 667 €. Sadzba DPPO platná pre budúce obdobia 21 %.",
+      "uctovanie": [
+        {
+          "rok": "2025",
+          "md": "592",
+          "d": "481",
+          "suma": 1400,
+          "popis": "Tvorba odloženého daňového záväzku (zmena stavu za r. 2025)"
+        }
+      ],
+      "riesenie": "Účtovná ZC stroja k 31.12.2025 = 100 000 − 10 000 = 90 000 €. Daňová základňa (daňová ZC) = 100 000 − 16 667 = 83 333 €. Účtovná hodnota (90 000) > daňová základňa (83 333) → ZDANITEĽNÝ dočasný rozdiel = 6 667 €. Daňové odpisy bežia rýchlejšie, takže v budúcnosti budú daňové odpisy nižšie a daň vyššia → vzniká odložený daňový ZÁVÄZOK = 6 667 × 21 % = 1 400 € (zaokr.). Účtuje sa 592/481. V daňovom priznaní r. 2025 sa navyše prejaví odpočítateľná položka −6 667 € (daňové odpisy nad účtovné), ktorá zníži splatnú daň – odložená daň tento dočasný prospech 'objektivizuje'.",
+      "dopad_na_zd": "Splatná daň 2025: odpočítateľná položka −6 667 € (daňové odpisy > účtovné). Odložená daň: záväzok +1 400 € (592/481). V ďalších rokoch sa rozdiel a tým aj záväzok postupne rozpustí."
+    },
+    {
+      "nazov": "Odložená daňová pohľadávka z účtovnej OP k pohľadávke (481/592)",
+      "zadanie": "GAMA s.r.o. má pohľadávku 20 000 € (zahrnutú do zdaniteľných príjmov). V r. 2025 k nej vytvorila účtovnú opravnú položku 100 % = 20 000 €, daňovo však zatiaľ nie je uznaná žiadna časť (pohľadávka ešte nie je 360 dní po splatnosti). Budúca sadzba 21 %.",
+      "uctovanie": [
+        {
+          "rok": "2025",
+          "md": "547",
+          "d": "391",
+          "suma": 20000,
+          "popis": "Tvorba účtovnej OP k pohľadávke"
+        },
+        {
+          "rok": "2025",
+          "md": "481",
+          "d": "592",
+          "suma": 4200,
+          "popis": "Tvorba odloženej daňovej pohľadávky"
+        }
+      ],
+      "riesenie": "Účtovná hodnota pohľadávky v súvahe (NETTO) = 20 000 − 20 000 = 0 €. Daňová základňa = 20 000 € (daňovo bude pohľadávka uznateľná v budúcnosti cez časový test § 20). ÚH aktíva (0) < daňová základňa (20 000) → ODPOČÍTATEĽNÝ dočasný rozdiel = 20 000 €. Dnes je OP nedaňová (pripočítateľná položka +20 000 € v splatnej dani), ale v budúcnosti sa daňovo uzná → menej dane → odložená daňová POHĽADÁVKA = 20 000 × 21 % = 4 200 € (481/592). Vykáže sa len ak je pravdepodobný dostatočný budúci základ dane.",
+      "dopad_na_zd": "Splatná daň 2025: pripočítateľná položka +20 000 € (účtovná OP nedaňová). Odložená daň: pohľadávka +4 200 € (481/592), ktorá budúci náklad na daň zníži."
+    },
+    {
+      "nazov": "Trvalý rozdiel bez odloženej dane (pokuta + dividenda)",
+      "zadanie": "DELTA s.r.o. zaúčtovala v r. 2025 pokutu od daňového úradu 2 000 € a prijala dividendu od tuzemskej s.r.o. 5 000 € zaúčtovanú do výnosov.",
+      "riesenie": "Pokuta od štátu je nedaňová natrvalo (§ 21 ods. 2) → pripočítateľná položka +2 000 €, TRVALÝ rozdiel. Prijatá dividenda od tuzemskej PO nie je predmetom dane → odpočítateľná položka −5 000 €, TRVALÝ rozdiel. Ani jeden sa v budúcnosti nevyrovná, preto NEVZNIKÁ žiadna odložená daň – účtuje sa len ich vplyv na splatnú daň cez daňové priznanie.",
+      "dopad_na_zd": "Splatná daň 2025: +2 000 € (pokuta) a −5 000 € (dividenda). Odložená daň: 0 € (trvalé rozdiely)."
+    },
+    {
+      "nazov": "Komplexný výpočet splatnej a odloženej dane",
+      "zadanie": "EPSILON s.r.o., zdaniteľné príjmy 280 000 €, VH pred zdanením 60 000 €. Pripočítateľné: účtovná rezerva na bonusy +8 000 €, účtovné odpisy nad daňové +3 000 €. Odpočítateľné: oslobodená dividenda −5 000 €. Z toho rezerva (8 000) a rozdiel odpisov (3 000) sú dočasné, dividenda je trvalá. Sadzba 21 %.",
+      "uctovanie": [
+        {
+          "rok": "2025",
+          "md": "591",
+          "d": "341",
+          "suma": 13860,
+          "popis": "Splatná daň zo základu dane"
+        },
+        {
+          "rok": "2025",
+          "md": "481",
+          "d": "592",
+          "suma": 2310,
+          "popis": "Odložená daňová pohľadávka z dočasných rozdielov (11 000 × 21 %)"
+        }
+      ],
+      "riesenie": "Základ dane = 60 000 + 8 000 + 3 000 − 5 000 = 66 000 €. Sadzba 21 % (príjmy > 100 000 €). Splatná daň = 66 000 × 21 % = 13 860 € (591/341). Dočasné odpočítateľné rozdiely spolu 11 000 € (rezerva 8 000 + odpisy 3 000) sa v budúcnosti daňovo uznajú → odložená daňová pohľadávka 11 000 × 21 % = 2 310 € (481/592). Dividenda je trvalý rozdiel, odloženú daň nevyvolá. Celkový náklad na daň vo VZaS = 13 860 (591) − 2 310 (592, ako zníženie nákladu) = 11 550 €.",
+      "dopad_na_zd": "Splatná daň 13 860 €; odložená daňová pohľadávka 2 310 €; výsledný účtovný náklad na daň 11 550 €."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/ING_I_02_schema_odlozena_dan.svg", "typ": "schéma", "popis": "Vznik odloženej dane: porovnanie účtovnej hodnoty (súvaha NETTO) a daňovej základne aktíva/záväzku → zdaniteľný rozdiel (ÚH aktíva > DZ) = odložený daňový záväzok 592/481, odpočítateľný rozdiel (ÚH aktíva < DZ) = odložená daňová pohľadávka 481/592; trvalé rozdiely bez odloženej dane."},
-    {"subor": "03_Vizualy/ING_I_02_dan_zlozky.svg", "typ": "schéma", "popis": "Dve zložky dane z príjmov: splatná daň (591/341, zo základu dane) a odložená daň (592/481, z dočasných rozdielov) a ich spojenie do nákladu na daň vo výkaze ziskov a strát."}
+    {
+      "subor": "03_Vizualy/ING_I_02_schema_odlozena_dan.svg",
+      "typ": "schéma",
+      "popis": "Vznik odloženej dane: porovnanie účtovnej hodnoty (súvaha NETTO) a daňovej základne aktíva/záväzku → zdaniteľný rozdiel (ÚH aktíva > DZ) = odložený daňový záväzok 592/481, odpočítateľný rozdiel (ÚH aktíva < DZ) = odložená daňová pohľadávka 481/592; trvalé rozdiely bez odloženej dane."
+    },
+    {
+      "subor": "03_Vizualy/ING_I_02_dan_zlozky.svg",
+      "typ": "schéma",
+      "popis": "Dve zložky dane z príjmov: splatná daň (591/341, zo základu dane) a odložená daň (592/481, z dočasných rozdielov) a ich spojenie do nákladu na daň vo výkaze ziskov a strát."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Aký je rozdiel medzi splatnou a odloženou daňou?", "odpoved": "Splatná daň (591/341) je daň za bežné obdobie vypočítaná zo základu dane, reálny záväzok voči štátu. Odložená daň (592/481) je účtovný nástroj, ktorý do nákladu na daň podľa akruálneho princípu zahrnie daňový dosah dočasných rozdielov, ktoré sa daňovo prejavia až v budúcnosti."},
-    {"otazka": "Ktorá metóda výpočtu odloženej dane sa používa a v čom spočíva?", "odpoved": "Záväzková súvahová metóda: porovnáva účtovnú hodnotu aktíva/záväzku (súvaha NETTO) s jeho daňovou základňou, rozdiel násobí BUDÚCOU sadzbou dane a pri zmene sadzby zostatok prepočíta. Na rozdiel od metódy odloženia (väzba na výsledovku, sadzba pri vzniku, bez prepočtu)."},
-    {"otazka": "Kedy vzniká odložený daňový záväzok a kedy pohľadávka?", "odpoved": "Záväzok pri zdaniteľnom dočasnom rozdiele (ÚH aktíva > daňová základňa, napr. daňové odpisy rýchlejšie než účtovné) – v budúcnosti zaplatím viac. Pohľadávka pri odpočítateľnom rozdiele (ÚH aktíva < daňová základňa, napr. účtovná OP/rezerva zatiaľ daňovo neuznaná) – v budúcnosti zaplatím menej."},
-    {"otazka": "Prečo trvalé rozdiely nevyvolávajú odloženú daň?", "odpoved": "Pretože sa nikdy nevyrovnajú – napr. pokuta od štátu zostáva nedaňová natrvalo, oslobodená dividenda sa nikdy nedodaní. Niet teda budúceho obdobia, v ktorom by sa rozdiel obrátil; ovplyvňujú len splatnú daň."},
-    {"otazka": "Na ktorých účtoch sa odložená daň účtuje a ako sa vykazuje?", "odpoved": "Súvahový účet 481 – Odložený daňový záväzok a odložená daňová pohľadávka; bežný súvzťažný výsledkový účet 592 – Odložená daň z príjmov (záväzok 592/481, pohľadávka 481/592). Ak rozdiel vznikol vo vlastnom imaní, súvzťažne 414/428/429. V súvahe: pohľadávka v dlhodobých pohľadávkach (aktíva), záväzok v dlhodobých záväzkoch (pasíva); pri tom istom daňovom úrade možno vykázať saldo účtu 481."},
-    {"otazka": "Ako sa upravuje základ dane pri transakciách závislých osôb?", "odpoved": "Podľa § 17 ods. 5 a § 18 musia byť ceny v súlade s princípom nezávislého vzťahu (arm's length). Ak sa líšia od trhových a znižujú základ dane, ten sa o rozdiel zvýši; pri kontrole sa rozdiel určí podľa mediánu nezávislých porovnateľných hodnôt s použitím metodiky OECD pre transferové oceňovanie."},
-    {"otazka": "Kto musí účtovať o odloženej dani?", "odpoved": "Povinne účtovné jednotky s povinnosťou auditu (§ 19 zákona o účtovníctve), ostatné dobrovoľne. Mikro účtovná jednotka o odloženej dani neúčtuje. Odložená daň sa nediskontuje."}
+    {
+      "otazka": "Aký je rozdiel medzi splatnou a odloženou daňou?",
+      "odpoved": "Splatná daň (591/341) je daň za bežné obdobie vypočítaná zo základu dane, reálny záväzok voči štátu. Odložená daň (592/481) je účtovný nástroj, ktorý do nákladu na daň podľa akruálneho princípu zahrnie daňový dosah dočasných rozdielov, ktoré sa daňovo prejavia až v budúcnosti.",
+      "moznosti": [
+        "Splatná daň je účtovný nástroj z dočasných rozdielov; odložená daň je reálny záväzok voči štátu zo základu dane",
+        "Splatná daň (591/341) je daň za bežné obdobie vypočítaná zo základu dane, reálny záväzok voči štátu. Odložená daň (592/481) podľa akruálneho princípu zahrnie do nákladu daňový dosah dočasných rozdielov, ktoré sa prejavia až v budúcnosti",
+        "Splatná aj odložená daň sa počítajú z účtovného výsledku hospodárenia pred zdanením a líšia sa len účtom, na ktorom sú vykázané",
+        "Splatná daň sa diskontuje na súčasnú hodnotu, odložená daň sa účtuje v menovitej hodnote zo základu dane"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Splatná daň (591/341) je daň za bežné obdobie vypočítaná zo základu dane, reálny záväzok voči štátu. Odložená daň (592/481) je účtovný nástroj, ktorý do nákladu na daň podľa akruálneho princípu zahrnie daňový dosah dočasných rozdielov, ktoré sa daňovo prejavia až v budúcnosti."
+    },
+    {
+      "otazka": "Ktorá metóda výpočtu odloženej dane sa používa a v čom spočíva?",
+      "odpoved": "Záväzková súvahová metóda: porovnáva účtovnú hodnotu aktíva/záväzku (súvaha NETTO) s jeho daňovou základňou, rozdiel násobí BUDÚCOU sadzbou dane a pri zmene sadzby zostatok prepočíta. Na rozdiel od metódy odloženia (väzba na výsledovku, sadzba pri vzniku, bez prepočtu).",
+      "moznosti": [
+        "Záväzková súvahová metóda: porovnáva účtovnú hodnotu aktíva/záväzku (súvaha NETTO) s jeho daňovou základňou, rozdiel násobí budúcou sadzbou dane a pri zmene sadzby zostatok prepočíta",
+        "Metóda odloženia: porovnáva výnosy a náklady vo výsledovke, rozdiel násobí sadzbou platnou v čase vzniku a pri zmene sadzby zostatok neprepočítava",
+        "Diskontovaná metóda: budúce dočasné rozdiely sa odúročia na súčasnú hodnotu a vynásobia priemernou sadzbou za 5 období",
+        "Záväzková výsledková metóda: porovnáva základ dane s výsledkom hospodárenia a rozdiel násobí sadzbou platnou pri vzniku rozdielu"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Záväzková súvahová metóda: porovnáva účtovnú hodnotu aktíva/záväzku (súvaha NETTO) s jeho daňovou základňou, rozdiel násobí BUDÚCOU sadzbou dane a pri zmene sadzby zostatok prepočíta. Na rozdiel od metódy odloženia (väzba na výsledovku, sadzba pri vzniku, bez prepočtu)."
+    },
+    {
+      "otazka": "Kedy vzniká odložený daňový záväzok a kedy pohľadávka?",
+      "odpoved": "Záväzok pri zdaniteľnom dočasnom rozdiele (ÚH aktíva > daňová základňa, napr. daňové odpisy rýchlejšie než účtovné) – v budúcnosti zaplatím viac. Pohľadávka pri odpočítateľnom rozdiele (ÚH aktíva < daňová základňa, napr. účtovná OP/rezerva zatiaľ daňovo neuznaná) – v budúcnosti zaplatím menej.",
+      "moznosti": [
+        "Záväzok pri odpočítateľnom rozdiele (ÚH aktíva < daňová základňa); pohľadávka pri zdaniteľnom rozdiele (ÚH aktíva > daňová základňa)",
+        "Záväzok aj pohľadávka vznikajú len z trvalých rozdielov; dočasné rozdiely odloženú daň nevyvolávajú",
+        "Záväzok pri zdaniteľnom dočasnom rozdiele (ÚH aktíva > daňová základňa, napr. daňové odpisy rýchlejšie než účtovné) – v budúcnosti zaplatím viac. Pohľadávka pri odpočítateľnom rozdiele (ÚH aktíva < daňová základňa, napr. účtovná OP/rezerva zatiaľ daňovo neuznaná) – v budúcnosti zaplatím menej",
+        "Záväzok vždy, keď je účtovný zisk vyšší ako základ dane; pohľadávka vždy, keď je základ dane vyšší ako účtovný zisk"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Záväzok pri zdaniteľnom dočasnom rozdiele (ÚH aktíva > daňová základňa, napr. daňové odpisy rýchlejšie než účtovné) – v budúcnosti zaplatím viac. Pohľadávka pri odpočítateľnom rozdiele (ÚH aktíva < daňová základňa, napr. účtovná OP/rezerva zatiaľ daňovo neuznaná) – v budúcnosti zaplatím menej."
+    },
+    {
+      "otazka": "Prečo trvalé rozdiely nevyvolávajú odloženú daň?",
+      "odpoved": "Pretože sa nikdy nevyrovnajú – napr. pokuta od štátu zostáva nedaňová natrvalo, oslobodená dividenda sa nikdy nedodaní. Niet teda budúceho obdobia, v ktorom by sa rozdiel obrátil; ovplyvňujú len splatnú daň.",
+      "moznosti": [
+        "Pretože sa nikdy nevyrovnajú – napr. pokuta od štátu zostáva nedaňová natrvalo, oslobodená dividenda sa nikdy nedodaní; niet budúceho obdobia, v ktorom by sa rozdiel obrátil, ovplyvňujú len splatnú daň",
+        "Pretože sa vyrovnajú už v tom istom období, takže ich daňový dosah je nulový a netreba ich evidovať",
+        "Pretože sa vyrovnajú až po 5 rokoch, kedy už odložená daň podľa § 30 prepadá a nemôže sa vykázať",
+        "Pretože z nich vzniká vždy odložená daňová pohľadávka, ktorá sa hneď započíta proti splatnej dani"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Pretože sa nikdy nevyrovnajú – napr. pokuta od štátu zostáva nedaňová natrvalo, oslobodená dividenda sa nikdy nedodaní. Niet teda budúceho obdobia, v ktorom by sa rozdiel obrátil; ovplyvňujú len splatnú daň."
+    },
+    {
+      "otazka": "Na ktorých účtoch sa odložená daň účtuje a ako sa vykazuje?",
+      "odpoved": "Súvahový účet 481 – Odložený daňový záväzok a odložená daňová pohľadávka; bežný súvzťažný výsledkový účet 592 – Odložená daň z príjmov (záväzok 592/481, pohľadávka 481/592). Ak rozdiel vznikol vo vlastnom imaní, súvzťažne 414/428/429. V súvahe: pohľadávka v dlhodobých pohľadávkach (aktíva), záväzok v dlhodobých záväzkoch (pasíva); pri tom istom daňovom úrade možno vykázať saldo účtu 481.",
+      "moznosti": [
+        "Výsledkový účet 481 oproti súvahovému 592 (záväzok 481/592, pohľadávka 592/481); v súvahe sa vykazuje vždy len v krátkodobých záväzkoch",
+        "Splatný účet 341 oproti 591 (záväzok 341/591); v súvahe sa odložená daň vôbec nevykazuje, len v poznámkach",
+        "Súvahový účet 481 – Odložený daňový záväzok a odložená daňová pohľadávka; bežný súvzťažný výsledkový účet 592 (záväzok 592/481, pohľadávka 481/592); ak rozdiel vznikol vo vlastnom imaní, súvzťažne 414/428/429. V súvahe pohľadávka v dlhodobých pohľadávkach, záväzok v dlhodobých záväzkoch",
+        "Súvahový účet 481 oproti splatnému 341 (záväzok 481/341); v súvahe sa vždy vykazuje brutto bez možnosti salda"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Súvahový účet 481 – Odložený daňový záväzok a odložená daňová pohľadávka; bežný súvzťažný výsledkový účet 592 – Odložená daň z príjmov (záväzok 592/481, pohľadávka 481/592). Ak rozdiel vznikol vo vlastnom imaní, súvzťažne 414/428/429. V súvahe: pohľadávka v dlhodobých pohľadávkach (aktíva), záväzok v dlhodobých záväzkoch (pasíva); pri tom istom daňovom úrade možno vykázať saldo účtu 481."
+    },
+    {
+      "otazka": "Ako sa upravuje základ dane pri transakciách závislých osôb?",
+      "odpoved": "Podľa § 17 ods. 5 a § 18 musia byť ceny v súlade s princípom nezávislého vzťahu (arm's length). Ak sa líšia od trhových a znižujú základ dane, ten sa o rozdiel zvýši; pri kontrole sa rozdiel určí podľa mediánu nezávislých porovnateľných hodnôt s použitím metodiky OECD pre transferové oceňovanie.",
+      "moznosti": [
+        "Ceny medzi závislými osobami sa nikdy neupravujú, keďže ide o vnútroskupinové transakcie mimo predmetu dane",
+        "Podľa § 17 ods. 5 a § 18 musia byť ceny v súlade s princípom nezávislého vzťahu (arm's length); ak sa líšia od trhových a znižujú základ dane, ten sa o rozdiel zvýši; pri kontrole sa rozdiel určí podľa mediánu nezávislých porovnateľných hodnôt s použitím metodiky OECD",
+        "Základ dane sa pri závislých osobách upravuje vždy nadol o 50 % hodnoty transakcie podľa pravidla nízkej kapitalizácie",
+        "Ceny závislých osôb sa porovnávajú s priemerom nezávislých hodnôt a rozdiel sa rieši zrážkovou daňou podľa § 43"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Podľa § 17 ods. 5 a § 18 musia byť ceny v súlade s princípom nezávislého vzťahu (arm's length). Ak sa líšia od trhových a znižujú základ dane, ten sa o rozdiel zvýši; pri kontrole sa rozdiel určí podľa mediánu nezávislých porovnateľných hodnôt s použitím metodiky OECD pre transferové oceňovanie."
+    },
+    {
+      "otazka": "Kto musí účtovať o odloženej dani?",
+      "odpoved": "Povinne účtovné jednotky s povinnosťou auditu (§ 19 zákona o účtovníctve), ostatné dobrovoľne. Mikro účtovná jednotka o odloženej dani neúčtuje. Odložená daň sa nediskontuje.",
+      "moznosti": [
+        "O odloženej dani musí účtovať každá účtovná jednotka vrátane mikro ÚJ; odložená daň sa vždy diskontuje",
+        "Povinne účtovné jednotky s povinnosťou auditu (§ 19 zákona o účtovníctve), ostatné dobrovoľne; mikro účtovná jednotka o odloženej dani neúčtuje. Odložená daň sa nediskontuje",
+        "Povinne len mikro účtovné jednotky; veľké auditované ÚJ o odloženej dani neúčtujú, lebo ju nahrádza splatná daň",
+        "Povinne všetky ÚJ okrem akciových spoločností; odložená daň sa diskontuje budúcou sadzbou dane"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Povinne účtovné jednotky s povinnosťou auditu (§ 19 zákona o účtovníctve), ostatné dobrovoľne. Mikro účtovná jednotka o odloženej dani neúčtuje. Odložená daň sa nediskontuje."
+    }
   ],
   "pasce_caste_chyby": [
     "Zamieňať splatnú a odloženú daň – splatná je reálna daň zo ZD (591/341), odložená je akruálne dorovnanie cez súvahu (592/481).",
@@ -78,29 +288,129 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Účtovná zostatková cena stroja je 90 000 €, daňová zostatková cena 83 000 €. Aký dočasný rozdiel a aká odložená daň vzniká (sadzba 21 %)?", "moznosti": ["Odpočítateľný rozdiel, odložená pohľadávka 1 470 €", "Zdaniteľný rozdiel, odložený záväzok 1 470 €", "Trvalý rozdiel, bez odloženej dane", "Zdaniteľný rozdiel, odložená pohľadávka 1 470 €"], "spravna_index": 1, "vysvetlenie": "ÚH aktíva (90 000) > daňová základňa (83 000) → zdaniteľný dočasný rozdiel 7 000 € → odložený daňový záväzok 7 000 × 21 % = 1 470 € (592/481)."},
-      {"otazka": "Na ktorom účte sa vykazuje odložená daň v súvahe?", "moznosti": ["341", "481", "591", "592"], "spravna_index": 1, "vysvetlenie": "Súvahový účet 481 – Odložený daňový záväzok a odložená daňová pohľadávka. 591/592 sú výsledkové, 341 je splatná daň."},
-      {"otazka": "Ktorá z položiek NEVYVOLÁVA odloženú daň?", "moznosti": ["účtovná rezerva na bonusy mimo § 20", "rozdiel daňových a účtovných odpisov", "pokuta od daňového úradu", "účtovná OP k pohľadávke zatiaľ daňovo neuznaná"], "spravna_index": 2, "vysvetlenie": "Pokuta od štátu je trvalý rozdiel (nikdy sa nevyrovná) → bez odloženej dane. Ostatné sú dočasné rozdiely."},
-      {"otazka": "Akou sadzbou sa pri záväzkovej metóde násobí dočasný rozdiel?", "moznosti": ["sadzbou platnou v čase vzniku rozdielu", "sadzbou, ktorá bude platiť, keď sa rozdiel vyrovná", "vždy 21 %", "priemernou sadzbou za 5 rokov"], "spravna_index": 1, "vysvetlenie": "Záväzková metóda používa budúcu sadzbu (keď sa dočasný rozdiel zohľadní v základe splatnej dane); pri zmene sadzby sa zostatok prepočíta."},
-      {"otazka": "Sadzba DPPO sa od 1.1.2025 určuje podľa:", "moznosti": ["výšky základu dane", "výšky zdaniteľných príjmov (výnosov)", "počtu zamestnancov", "veľkostnej skupiny ÚJ"], "spravna_index": 1, "vysvetlenie": "§ 15 ZDP: 10 % (príjmy ≤ 100 000 €), 21 % (> 100 000 do 5 mil. €), 24 % (> 5 mil. €) – rozhoduje výška príjmov, sadzba sa uplatní na celý ZD."},
-      {"otazka": "Prijatá dividenda od tuzemskej s.r.o. je u prijímateľa PO:", "moznosti": ["zdaniteľným príjmom v 21 %", "odpočítateľnou položkou (trvalý rozdiel)", "zdrojom odloženého daňového záväzku", "pripočítateľnou položkou"], "spravna_index": 1, "vysvetlenie": "Nie je predmetom dane → trvalo sa vylúči zo ZD ako odpočítateľná položka, odloženú daň nevyvoláva."}
+      {
+        "otazka": "Účtovná zostatková cena stroja je 90 000 €, daňová zostatková cena 83 000 €. Aký dočasný rozdiel a aká odložená daň vzniká (sadzba 21 %)?",
+        "moznosti": [
+          "Odpočítateľný rozdiel, odložená pohľadávka 1 470 €",
+          "Zdaniteľný rozdiel, odložený záväzok 1 470 €",
+          "Trvalý rozdiel, bez odloženej dane",
+          "Zdaniteľný rozdiel, odložená pohľadávka 1 470 €"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "ÚH aktíva (90 000) > daňová základňa (83 000) → zdaniteľný dočasný rozdiel 7 000 € → odložený daňový záväzok 7 000 × 21 % = 1 470 € (592/481)."
+      },
+      {
+        "otazka": "Na ktorom účte sa vykazuje odložená daň v súvahe?",
+        "moznosti": [
+          "341",
+          "481",
+          "591",
+          "592"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Súvahový účet 481 – Odložený daňový záväzok a odložená daňová pohľadávka. 591/592 sú výsledkové, 341 je splatná daň."
+      },
+      {
+        "otazka": "Ktorá z položiek NEVYVOLÁVA odloženú daň?",
+        "moznosti": [
+          "účtovná rezerva na bonusy mimo § 20",
+          "rozdiel daňových a účtovných odpisov",
+          "pokuta od daňového úradu",
+          "účtovná OP k pohľadávke zatiaľ daňovo neuznaná"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Pokuta od štátu je trvalý rozdiel (nikdy sa nevyrovná) → bez odloženej dane. Ostatné sú dočasné rozdiely."
+      },
+      {
+        "otazka": "Akou sadzbou sa pri záväzkovej metóde násobí dočasný rozdiel?",
+        "moznosti": [
+          "sadzbou platnou v čase vzniku rozdielu",
+          "sadzbou, ktorá bude platiť, keď sa rozdiel vyrovná",
+          "vždy 21 %",
+          "priemernou sadzbou za 5 rokov"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Záväzková metóda používa budúcu sadzbu (keď sa dočasný rozdiel zohľadní v základe splatnej dane); pri zmene sadzby sa zostatok prepočíta."
+      },
+      {
+        "otazka": "Sadzba DPPO sa od 1.1.2025 určuje podľa:",
+        "moznosti": [
+          "výšky základu dane",
+          "výšky zdaniteľných príjmov (výnosov)",
+          "počtu zamestnancov",
+          "veľkostnej skupiny ÚJ"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "§ 15 ZDP: 10 % (príjmy ≤ 100 000 €), 21 % (> 100 000 do 5 mil. €), 24 % (> 5 mil. €) – rozhoduje výška príjmov, sadzba sa uplatní na celý ZD."
+      },
+      {
+        "otazka": "Prijatá dividenda od tuzemskej s.r.o. je u prijímateľa PO:",
+        "moznosti": [
+          "zdaniteľným príjmom v 21 %",
+          "odpočítateľnou položkou (trvalý rozdiel)",
+          "zdrojom odloženého daňového záväzku",
+          "pripočítateľnou položkou"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Nie je predmetom dane → trvalo sa vylúči zo ZD ako odpočítateľná položka, odloženú daň nevyvoláva."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite podstatu a rozdiel splatnej a odloženej dane vrátane účtovania.", "vzorova_odpoved": "Daň z príjmov je náklad ÚJ. Splatná daň je daň za bežné obdobie vypočítaná zo základu dane (VH pred zdanením upravený o pripočítateľné a odpočítateľné položky), účtuje sa 591/341 a je reálnym záväzkom voči štátu. Odložená daň je účtovný nástroj podľa akruálneho princípu a zásady opatrnosti: dorovnáva do nákladu na daň daňový dosah dočasných rozdielov medzi účtovnou hodnotou a daňovou základňou, ktoré sa prejavia až v budúcnosti. Účtuje sa na súvahovom účte 481 oproti 592 (záväzok 592/481, pohľadávka 481/592)."},
-      {"otazka": "Opíšte záväzkovú súvahovú metódu a postup zisťovania odloženej dane.", "vzorova_odpoved": "Metóda porovnáva účtovnú hodnotu aktíva/záväzku (súvaha NETTO) s jeho daňovou základňou; rozdiel (dočasný) násobí budúcou sadzbou dane, pri zmene sadzby prepočíta. Postup: 1. identifikácia skutočností spôsobujúcich dočasný rozdiel, 2. zistenie ÚH a daňovej základne, 3. vyčíslenie dočasných rozdielov (zdaniteľné/odpočítateľné), 4. výpočet odloženej dane, 5. zaúčtovanie zmeny stavu tak, aby zostatok účtu 481 zodpovedal skutočnej výške ku dňu závierky. Pohľadávka len pri pravdepodobnom dostatočnom budúcom ZD."},
-      {"otazka": "Ako sa upravuje základ dane pri transakciách závislých osôb a ako sa zdaňujú dividendy?", "vzorova_odpoved": "Závislé osoby (ekonomicky, personálne či inak prepojené) musia transakcie oceniť podľa princípu nezávislého vzťahu (§ 17 ods. 5, § 18); ak ceny znižujú ZD, ten sa o rozdiel zvýši, pri kontrole sa použije medián a metodika OECD. Prijatá dividenda zo zisku tuzemskej PO je u PO mimo predmetu dane (odpočítateľná, trvalý rozdiel); u FO sa zdaňuje zrážkou 7 % zo zisku za 2025 (10 % za 2024), 35 % voči nespolupracujúcim štátom. Zrážková daň (§ 43) je u príjemcu spravidla vysporiadaná."}
+      {
+        "otazka": "Vysvetlite podstatu a rozdiel splatnej a odloženej dane vrátane účtovania.",
+        "vzorova_odpoved": "Daň z príjmov je náklad ÚJ. Splatná daň je daň za bežné obdobie vypočítaná zo základu dane (VH pred zdanením upravený o pripočítateľné a odpočítateľné položky), účtuje sa 591/341 a je reálnym záväzkom voči štátu. Odložená daň je účtovný nástroj podľa akruálneho princípu a zásady opatrnosti: dorovnáva do nákladu na daň daňový dosah dočasných rozdielov medzi účtovnou hodnotou a daňovou základňou, ktoré sa prejavia až v budúcnosti. Účtuje sa na súvahovom účte 481 oproti 592 (záväzok 592/481, pohľadávka 481/592)."
+      },
+      {
+        "otazka": "Opíšte záväzkovú súvahovú metódu a postup zisťovania odloženej dane.",
+        "vzorova_odpoved": "Metóda porovnáva účtovnú hodnotu aktíva/záväzku (súvaha NETTO) s jeho daňovou základňou; rozdiel (dočasný) násobí budúcou sadzbou dane, pri zmene sadzby prepočíta. Postup: 1. identifikácia skutočností spôsobujúcich dočasný rozdiel, 2. zistenie ÚH a daňovej základne, 3. vyčíslenie dočasných rozdielov (zdaniteľné/odpočítateľné), 4. výpočet odloženej dane, 5. zaúčtovanie zmeny stavu tak, aby zostatok účtu 481 zodpovedal skutočnej výške ku dňu závierky. Pohľadávka len pri pravdepodobnom dostatočnom budúcom ZD."
+      },
+      {
+        "otazka": "Ako sa upravuje základ dane pri transakciách závislých osôb a ako sa zdaňujú dividendy?",
+        "vzorova_odpoved": "Závislé osoby (ekonomicky, personálne či inak prepojené) musia transakcie oceniť podľa princípu nezávislého vzťahu (§ 17 ods. 5, § 18); ak ceny znižujú ZD, ten sa o rozdiel zvýši, pri kontrole sa použije medián a metodika OECD. Prijatá dividenda zo zisku tuzemskej PO je u PO mimo predmetu dane (odpočítateľná, trvalý rozdiel); u FO sa zdaňuje zrážkou 7 % zo zisku za 2025 (10 % za 2024), 35 % voči nespolupracujúcim štátom. Zrážková daň (§ 43) je u príjemcu spravidla vysporiadaná."
+      }
     ],
     "priklad": [
-      {"zadanie": "OMEGA s.r.o. (zdaniteľné príjmy 90 000 €) má za r. 2025: VH pred zdanením 40 000 €; účtovné odpisy nad daňové +2 000 € (dočasné); účtovnú rezervu na audit +1 500 € (dočasné); reprezentáciu +600 € (trvalé); oslobodenú dividendu −3 000 € (trvalé). Sadzba 21 % (budúca aj bežná). Vypočítajte základ dane, splatnú daň a odloženú daň a uveďte účtovanie.", "riesenie": "Základ dane = 40 000 + 2 000 + 1 500 + 600 − 3 000 = 41 100 €. Príjmy 90 000 € ≤ 100 000 € → sadzba 10 %! Splatná daň = 41 100 × 10 % = 4 110 € → 591/341. Dočasné odpočítateľné rozdiely 3 500 € (odpisy 2 000 + rezerva 1 500) → odložená daňová pohľadávka 3 500 × 10 % = 350 € → 481/592 (pozor: použiť reálne očakávanú budúcu sadzbu; ak by sa očakávalo 21 %, bolo by 735 €). Reprezentácia a dividenda sú trvalé → bez odloženej dane. Výsledný náklad na daň = 4 110 − 350 = 3 760 €."}
+      {
+        "zadanie": "OMEGA s.r.o. (zdaniteľné príjmy 90 000 €) má za r. 2025: VH pred zdanením 40 000 €; účtovné odpisy nad daňové +2 000 € (dočasné); účtovnú rezervu na audit +1 500 € (dočasné); reprezentáciu +600 € (trvalé); oslobodenú dividendu −3 000 € (trvalé). Sadzba 21 % (budúca aj bežná). Vypočítajte základ dane, splatnú daň a odloženú daň a uveďte účtovanie.",
+        "riesenie": "Základ dane = 40 000 + 2 000 + 1 500 + 600 − 3 000 = 41 100 €. Príjmy 90 000 € ≤ 100 000 € → sadzba 10 %! Splatná daň = 41 100 × 10 % = 4 110 € → 591/341. Dočasné odpočítateľné rozdiely 3 500 € (odpisy 2 000 + rezerva 1 500) → odložená daňová pohľadávka 3 500 × 10 % = 350 € → 481/592 (pozor: použiť reálne očakávanú budúcu sadzbu; ak by sa očakávalo 21 %, bolo by 735 €). Reprezentácia a dividenda sú trvalé → bez odloženej dane. Výsledný náklad na daň = 4 110 − 350 = 3 760 €."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Zákon č. 595/2003 Z. z. o dani z príjmov, § 15 (sadzby), § 17 (ods. 1, 5 – závislé osoby), § 18 (transferové oceňovanie), § 19, § 20, § 21, § 30 (daňová strata), § 43 (zrážková daň), § 46b (minimálna daň)", "kde": "01_Zdroje/Zakony/ZZ_2003_595_20260101_metalex.asice", "typ": "primárny"},
-    {"nazov": "Postupy účtovania pre podnikateľov (opatrenie MF SR č. 23054/2002-92), § 10 – odložená daň z príjmov; účty 481, 591, 592, súvzťažne 414/428/429", "kde": "01_Zdroje/Postupy_uctovania/", "typ": "primárny"},
-    {"nazov": "Prednáška PR-03 – Zisťovanie základu dane PO (transformácia VH na ZD, sadzby 10/21/24 %)", "kde": "01_Zdroje/PR-03 Zaklad_dane_PO_prezentacia.pptx", "typ": "prednáška"},
-    {"nazov": "Prednáška PR-08 – Sadzby dane, preddavky, minimálna daň, daňová strata (§ 15, § 30, § 42, § 46b)", "kde": "01_Zdroje/PR-08 Sadzby dane, preddavky, minimálna daň, daňová strata.pptx", "typ": "prednáška"},
-    {"nazov": "Minuloročný materiál – Splatná a odložená daň z príjmov (podstata, metódy, účtovanie 481/592, vykazovanie)", "kde": "inžinierske-štátnice-2025 2 (1).docx", "typ": "učebnica"},
-    {"nazov": "Aktuálne čísla SR 2025/2026 (sadzby DPPO, daň z dividend 7 %, zrážková daň)", "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md", "typ": "web/overené"},
-    {"nazov": "Podnikajte.sk – Zrážková daň z dividend 2024/2025 (návrat na 7 % zo zisku za 2025)", "kde": "https://www.podnikajte.sk/dan-z-prijmov/zrazkova-dan-z-dividend-v-roku-2024-2025", "typ": "web/overené"}
+    {
+      "nazov": "Zákon č. 595/2003 Z. z. o dani z príjmov, § 15 (sadzby), § 17 (ods. 1, 5 – závislé osoby), § 18 (transferové oceňovanie), § 19, § 20, § 21, § 30 (daňová strata), § 43 (zrážková daň), § 46b (minimálna daň)",
+      "kde": "01_Zdroje/Zakony/ZZ_2003_595_20260101_metalex.asice",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Postupy účtovania pre podnikateľov (opatrenie MF SR č. 23054/2002-92), § 10 – odložená daň z príjmov; účty 481, 591, 592, súvzťažne 414/428/429",
+      "kde": "01_Zdroje/Postupy_uctovania/",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "Prednáška PR-03 – Zisťovanie základu dane PO (transformácia VH na ZD, sadzby 10/21/24 %)",
+      "kde": "01_Zdroje/PR-03 Zaklad_dane_PO_prezentacia.pptx",
+      "typ": "prednáška"
+    },
+    {
+      "nazov": "Prednáška PR-08 – Sadzby dane, preddavky, minimálna daň, daňová strata (§ 15, § 30, § 42, § 46b)",
+      "kde": "01_Zdroje/PR-08 Sadzby dane, preddavky, minimálna daň, daňová strata.pptx",
+      "typ": "prednáška"
+    },
+    {
+      "nazov": "Minuloročný materiál – Splatná a odložená daň z príjmov (podstata, metódy, účtovanie 481/592, vykazovanie)",
+      "kde": "inžinierske-štátnice-2025 2 (1).docx",
+      "typ": "učebnica"
+    },
+    {
+      "nazov": "Aktuálne čísla SR 2025/2026 (sadzby DPPO, daň z dividend 7 %, zrážková daň)",
+      "kde": "01_Zdroje/Aktualne_cisla_web/parametre_SR_2025_2026.md",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Podnikajte.sk – Zrážková daň z dividend 2024/2025 (návrat na 7 % zo zisku za 2025)",
+      "kde": "https://www.podnikajte.sk/dan-z-prijmov/zrazkova-dan-z-dividend-v-roku-2024-2025",
+      "typ": "web/overené"
+    }
   ]
 }

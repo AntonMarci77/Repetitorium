@@ -29,45 +29,221 @@
     "cielova_dlzka_slov": 1450,
     "uvod": "Audit konsolidovanej účtovnej závierky je auditom účtovnej závierky skupiny – konsolidovaného celku tvoreného materskou účtovnou jednotkou a jej dcérami (prípadne pridruženými a spoločnými podnikmi zahrnutými metódou vlastného imania). Cieľ je rovnaký ako pri individuálnom audite: získať primerané uistenie, že konsolidovaná závierka neobsahuje významné nesprávnosti, a vydať na ňu výrok. Špecifikum je v ROZSAHU a v ORGANIZÁCII práce: na auditovaných jednotkách (komponentoch) môžu pracovať iní audítori (audítori komponentov), pričom skupinový audítor zodpovedá za výrok ako celok. Túto oblasť upravuje najmä revidovaný ISA 600 (účinný pre obdobia začínajúce 15. 12. 2023), ktorý priniesol rizikovo orientovaný prístup zhora nadol. Na audit nadväzujú prierezové štandardy o využití práce iných (ISA 610, 620) a o oblastiach zvýšeného úsudku (ISA 540, 550, 560, 570, 580).",
     "casti": [
-      {"nadpis": "Skupinový audítor, audítor komponentu, komponent (ISA 600 revidovaný)", "text": "Komponent je jednotka alebo podnikateľská činnosť, za ktorú vedenie skupiny pripravuje finančné informácie, ktoré sa zahŕňajú do konsolidovanej závierky (dcéra, pobočka, divízia, prevádzka, spoločná činnosť). Tím skupinovej zákazky vedie poverený (skupinový) audítor, ktorý nesie PLNÚ a nedeliteľnú zodpovednosť za riadenie, dohľad a vykonanie skupinového auditu a za vydaný výrok. Audítor komponentu vykonáva prácu na finančných informáciách komponentu pre potreby skupinového auditu. Zásadná zmena revidovaného ISA 600: audítor komponentu sa explicitne považuje za ČLENA tímu skupinovej zákazky – opustil sa starý model 'spoliehania sa' na samostatný subjekt. To kladie dôraz na vedenie, dohľad, dvojsmernú a včasnú komunikáciu počas celej zákazky a na prístup skupinového tímu k dokumentácii audítora komponentu (aj pre kontrolu kvality)."},
-      {"nadpis": "Rizikovo orientovaný prístup zhora nadol a rozsah (scoping)", "text": "Revidovaný ISA 600 zrušil delenie na 'významné' a 'nevýznamné' komponenty podľa veľkostných prahov. Namiesto toho sa najprv identifikujú a posúdia riziká významnej nesprávnosti na úrovni KONSOLIDOVANEJ závierky (porozumenie skupine, jej prostrediu, konsolidačnému procesu a vnútornému kontrolnému systému) a až potom sa určí, na ktorých komponentoch a v akom rozsahu sa bude pracovať tak, aby sa tieto riziká pokryli. Pre každý komponent, kde sa pracuje, sa stanoví reakcia: audit celej finančnej informácie komponentu, audit konkrétnych zostatkov či transakcií, alebo špecifikované audítorské postupy. Skupinový tím určí významnosť pre komponent (component performance materiality) nižšiu než významnosť pre skupinu, aby agregát neodhalených nesprávností neprekročil významnosť skupiny."},
-      {"nadpis": "Komunikácia, dohľad a vyhodnotenie práce audítora komponentu", "text": "Skupinový audítor musí audítorovi komponentu jasne komunikovať svoje požiadavky (rozsah práce, časový rámec, významnosť pre komponent, identifikované riziká, etické a nezávislostné požiadavky) a spätne získať jeho zistenia, závery a informácie o nesprávnostiach a slabinách kontrol. Musí byť dostatočne zapojený do práce audítora komponentu – posúdiť jeho kompetentnosť a objektivitu, usmerniť, dohliadať a preskúmať jeho prácu primerane k riziku, a vyhodnotiť, či získané dôkazy sú dostatočné a vhodné. Ak práca nie je dostatočná, skupinový tím vykoná ďalšie postupy. Konsolidačný proces (eliminácie vnútroskupinových transakcií, zjednotenie účtovnej politiky, prepočet cudzích mien, vznik a alokácia goodwillu, nekontrolujúce podiely) audituje spravidla priamo skupinový tím – tu vznikajú špecifické riziká skupinovej závierky."},
-      {"nadpis": "Využitie práce interného auditu (ISA 610)", "text": "ISA 610 (revidovaný 2013) rieši dve roviny. Po prvé využitie PRÁCE útvaru interného auditu: audítor ju môže využiť, ak je interný audit dostatočne objektívny a kompetentný a uplatňuje systematický a disciplinovaný prístup vrátane kontroly kvality; rozsah využitia je nepriamo úmerný riziku a úsudku. Po druhé PRIAMA POMOC – interní audítori vykonávajú audítorské postupy pod vedením, dohľadom a preskúmaním externého audítora (v niektorých jurisdikciách zakázaná). V oboch prípadoch externý audítor nesie výhradnú zodpovednosť za výrok, preto nesmie využitím interného auditu túto zodpovednosť rozriediť – sám musí robiť postupy pri oblastiach s vysokým úsudkom a vysokým rizikom významnej nesprávnosti. Posudzuje aj ohrozenia objektivity interného auditu (napr. postavenie v organizácii, komu reportuje)."},
-      {"nadpis": "Využitie práce experta audítora (ISA 620)", "text": "Ak si získanie dôkazov vyžaduje odbornosť mimo účtovníctva a auditu (oceňovanie nehnuteľností a podnikov, poistná matematika, znalecké ocenenie zásob, environmentálne záväzky, právne posudky, IT), audítor môže využiť experta – fyzickú osobu alebo organizáciu. Rozlišuje experta AUDÍTORA (interný = zamestnanec firmy audítora, alebo externý, ktorého si najal audítor) od experta MANAŽMENTU. Audítor posúdi kompetentnosť, schopnosti a objektivitu experta, dohodne rozsah a ciele práce, porozumie odbornej oblasti experta a vyhodnotí primeranosť jeho zistení (relevantnosť a primeranosť východiskových údajov, predpokladov a metód). Zodpovednosť za výrok ostáva na audítorovi a v nemodifikovanej správe sa expert nespomína; spomenúť ho možno len ak to vyžaduje zákon, alebo ak je to relevantné pre pochopenie modifikácie (a so súhlasom experta)."},
-      {"nadpis": "Audit účtovných odhadov (ISA 540 revidovaný)", "text": "Revidovaný ISA 540 (účinný od 15. 12. 2019) reaguje na rastúcu zložitosť odhadov (očakávané úverové straty, reálne hodnoty, opravné položky, rezervy, goodwill, odložená daň). Vyžaduje hĺbkové porozumenie, ako manažment robí odhad – metódy, modely, predpoklady a vstupné údaje – a posúdenie inherentného rizika cez faktory neistoty odhadu, zložitosti, subjektívnosti a náchylnosti na zaujatosť manažmentu (management bias). Audítor reaguje jedným z prístupov alebo ich kombináciou: testovaním, ako manažment robil odhad; vypracovaním vlastného bodového odhadu alebo rozpätia; alebo testovaním udalostí po dátume závierky. Štandard kladie dôraz na profesionálny skepticizmus a na audit zverejnení o neistote odhadu (disclosures). Pri skupine sú odhady často kritickou oblasťou na úrovni komponentov aj konsolidácie (napr. test goodwillu na zníženie hodnoty podľa IAS 36)."},
-      {"nadpis": "Spriaznené osoby (ISA 550)", "text": "Vzťahy a transakcie so spriaznenými osobami nesú zvýšené riziko nesprávnosti a podvodu, lebo nemusia prebiehať za bežných trhových podmienok a môžu byť použité na skreslenie výsledku alebo na únik aktív. Audítor získa porozumenie spriazneným vzťahom a transakciám, ostane voči nim profesionálne skeptický, identifikuje transakcie mimo bežnej činnosti a transakcie tvrdené ako 'za trhových podmienok' kriticky preverí. Pri skupine sú vnútroskupinové vzťahy samé osebe vzťahmi spriaznených osôb – ich úplné zachytenie a správna eliminácia v konsolidácii je kľúčová. Audítor získava aj písomné vyhlásenia manažmentu o úplnosti spriaznených vzťahov a transakcií."},
-      {"nadpis": "Následné udalosti (ISA 560)", "text": "Následné udalosti sú udalosti medzi dátumom účtovnej závierky a dátumom správy audítora a skutočnosti, ktoré audítor zistí po dátume správy. Rozlišujú sa upravujúce udalosti (poskytujú dôkaz o stave existujúcom k súvahovému dňu – napr. súdne rozhodnutie potvrdzujúce existenciu záväzku, konkurz odberateľa potvrdzujúci nevymožiteľnosť pohľadávky → premietajú sa do závierky) a neupravujúce udalosti (vznikli po dni, do závierky sa len zverejnia). Audítor vykonáva postupy do dátumu správy a po jej vydaní už nemá povinnosť pátrať, no ak sa dozvie o skutočnosti, ktorá by ovplyvnila správu, koná. Pri skupine treba pokryť obdobie následných udalostí aj na úrovni komponentov."},
-      {"nadpis": "Going concern – nepretržité pokračovanie (ISA 570)", "text": "Predpoklad nepretržitého pokračovania v činnosti je základom zostavenia závierky. Audítor posudzuje, či je jeho použitie vhodné, a či existujú udalosti alebo okolnosti, ktoré môžu vyvolať VÝZNAMNÚ POCHYBNOSŤ o schopnosti jednotky pokračovať (záporné vlastné imanie, strata kľúčových trhov, neschopnosť splácať úvery, odňatie licencie). Posudzuje hodnotenie manažmentu (obdobie najmenej 12 mesiacov od dátumu závierky). Dopady na správu: ak je predpoklad vhodný, ale existuje významná neistota PRIMERANE zverejnená → nemodifikovaný výrok s OSOBITNÝM ODSEKOM o významnej neistote (going concern); ak neistota nie je primerane zverejnená → modifikácia (výhrada alebo záporný výrok); ak je predpoklad úplne nevhodný → záporný výrok. Pozn.: ISA 570 (revidovaný 2024) sprísňuje povinnosti, ale je účinný až od 15. 12. 2026."},
-      {"nadpis": "Písomné vyhlásenia manažmentu (ISA 580)", "text": "Písomné vyhlásenia sú dôkaz, ktorým manažment (a osoby poverené správou) potvrdzuje svoju zodpovednosť za zostavenie závierky a za úplnosť poskytnutých informácií, ako aj špecifické tvrdenia vyžadované inými ISA (napr. úplnosť spriaznených vzťahov – 550, plány relevantné pre going concern – 570, posúdenie následných udalostí – 560, predpoklady pri odhadoch – 540). Sú nutným, no NIE postačujúcim dôkazom – nenahrádzajú iné audítorské dôkazy. Dátum vyhlásení je čo najbližšie k dátumu správy audítora. Pri skupine sa vyhlásenia získavajú od manažmentu skupiny; ak manažment odmietne poskytnúť vyžadované vyhlásenie alebo je nespoľahlivé, audítor zvažuje dosah na výrok až po odmietnutie vyjadrenia výroku."},
-      {"zaver": "Audit skupinovej závierky drží pohromade jedna logika: skupinový audítor zodpovedá za celý výrok, prácu rozdelí rizikovo (ISA 600 revidovaný – zhora nadol, audítori komponentov ako súčasť tímu) a smie využiť prácu iných (interný audit 610, expert 620), no zodpovednosť ostáva jeho. Záverečné prierezové oblasti (odhady 540, spriaznené osoby 550, následné udalosti 560, going concern 570, vyhlásenia 580) sú miesta najvyššieho úsudku a priamo určujú, či výrok bude nemodifikovaný, s osobitným odsekom, alebo modifikovaný."}
+      {
+        "nadpis": "Skupinový audítor, audítor komponentu, komponent (ISA 600 revidovaný)",
+        "text": "Komponent je jednotka alebo podnikateľská činnosť, za ktorú vedenie skupiny pripravuje finančné informácie, ktoré sa zahŕňajú do konsolidovanej závierky (dcéra, pobočka, divízia, prevádzka, spoločná činnosť). Tím skupinovej zákazky vedie poverený (skupinový) audítor, ktorý nesie PLNÚ a nedeliteľnú zodpovednosť za riadenie, dohľad a vykonanie skupinového auditu a za vydaný výrok. Audítor komponentu vykonáva prácu na finančných informáciách komponentu pre potreby skupinového auditu. Zásadná zmena revidovaného ISA 600: audítor komponentu sa explicitne považuje za ČLENA tímu skupinovej zákazky – opustil sa starý model 'spoliehania sa' na samostatný subjekt. To kladie dôraz na vedenie, dohľad, dvojsmernú a včasnú komunikáciu počas celej zákazky a na prístup skupinového tímu k dokumentácii audítora komponentu (aj pre kontrolu kvality)."
+      },
+      {
+        "nadpis": "Rizikovo orientovaný prístup zhora nadol a rozsah (scoping)",
+        "text": "Revidovaný ISA 600 zrušil delenie na 'významné' a 'nevýznamné' komponenty podľa veľkostných prahov. Namiesto toho sa najprv identifikujú a posúdia riziká významnej nesprávnosti na úrovni KONSOLIDOVANEJ závierky (porozumenie skupine, jej prostrediu, konsolidačnému procesu a vnútornému kontrolnému systému) a až potom sa určí, na ktorých komponentoch a v akom rozsahu sa bude pracovať tak, aby sa tieto riziká pokryli. Pre každý komponent, kde sa pracuje, sa stanoví reakcia: audit celej finančnej informácie komponentu, audit konkrétnych zostatkov či transakcií, alebo špecifikované audítorské postupy. Skupinový tím určí významnosť pre komponent (component performance materiality) nižšiu než významnosť pre skupinu, aby agregát neodhalených nesprávností neprekročil významnosť skupiny."
+      },
+      {
+        "nadpis": "Komunikácia, dohľad a vyhodnotenie práce audítora komponentu",
+        "text": "Skupinový audítor musí audítorovi komponentu jasne komunikovať svoje požiadavky (rozsah práce, časový rámec, významnosť pre komponent, identifikované riziká, etické a nezávislostné požiadavky) a spätne získať jeho zistenia, závery a informácie o nesprávnostiach a slabinách kontrol. Musí byť dostatočne zapojený do práce audítora komponentu – posúdiť jeho kompetentnosť a objektivitu, usmerniť, dohliadať a preskúmať jeho prácu primerane k riziku, a vyhodnotiť, či získané dôkazy sú dostatočné a vhodné. Ak práca nie je dostatočná, skupinový tím vykoná ďalšie postupy. Konsolidačný proces (eliminácie vnútroskupinových transakcií, zjednotenie účtovnej politiky, prepočet cudzích mien, vznik a alokácia goodwillu, nekontrolujúce podiely) audituje spravidla priamo skupinový tím – tu vznikajú špecifické riziká skupinovej závierky."
+      },
+      {
+        "nadpis": "Využitie práce interného auditu (ISA 610)",
+        "text": "ISA 610 (revidovaný 2013) rieši dve roviny. Po prvé využitie PRÁCE útvaru interného auditu: audítor ju môže využiť, ak je interný audit dostatočne objektívny a kompetentný a uplatňuje systematický a disciplinovaný prístup vrátane kontroly kvality; rozsah využitia je nepriamo úmerný riziku a úsudku. Po druhé PRIAMA POMOC – interní audítori vykonávajú audítorské postupy pod vedením, dohľadom a preskúmaním externého audítora (v niektorých jurisdikciách zakázaná). V oboch prípadoch externý audítor nesie výhradnú zodpovednosť za výrok, preto nesmie využitím interného auditu túto zodpovednosť rozriediť – sám musí robiť postupy pri oblastiach s vysokým úsudkom a vysokým rizikom významnej nesprávnosti. Posudzuje aj ohrozenia objektivity interného auditu (napr. postavenie v organizácii, komu reportuje)."
+      },
+      {
+        "nadpis": "Využitie práce experta audítora (ISA 620)",
+        "text": "Ak si získanie dôkazov vyžaduje odbornosť mimo účtovníctva a auditu (oceňovanie nehnuteľností a podnikov, poistná matematika, znalecké ocenenie zásob, environmentálne záväzky, právne posudky, IT), audítor môže využiť experta – fyzickú osobu alebo organizáciu. Rozlišuje experta AUDÍTORA (interný = zamestnanec firmy audítora, alebo externý, ktorého si najal audítor) od experta MANAŽMENTU. Audítor posúdi kompetentnosť, schopnosti a objektivitu experta, dohodne rozsah a ciele práce, porozumie odbornej oblasti experta a vyhodnotí primeranosť jeho zistení (relevantnosť a primeranosť východiskových údajov, predpokladov a metód). Zodpovednosť za výrok ostáva na audítorovi a v nemodifikovanej správe sa expert nespomína; spomenúť ho možno len ak to vyžaduje zákon, alebo ak je to relevantné pre pochopenie modifikácie (a so súhlasom experta)."
+      },
+      {
+        "nadpis": "Audit účtovných odhadov (ISA 540 revidovaný)",
+        "text": "Revidovaný ISA 540 (účinný od 15. 12. 2019) reaguje na rastúcu zložitosť odhadov (očakávané úverové straty, reálne hodnoty, opravné položky, rezervy, goodwill, odložená daň). Vyžaduje hĺbkové porozumenie, ako manažment robí odhad – metódy, modely, predpoklady a vstupné údaje – a posúdenie inherentného rizika cez faktory neistoty odhadu, zložitosti, subjektívnosti a náchylnosti na zaujatosť manažmentu (management bias). Audítor reaguje jedným z prístupov alebo ich kombináciou: testovaním, ako manažment robil odhad; vypracovaním vlastného bodového odhadu alebo rozpätia; alebo testovaním udalostí po dátume závierky. Štandard kladie dôraz na profesionálny skepticizmus a na audit zverejnení o neistote odhadu (disclosures). Pri skupine sú odhady často kritickou oblasťou na úrovni komponentov aj konsolidácie (napr. test goodwillu na zníženie hodnoty podľa IAS 36)."
+      },
+      {
+        "nadpis": "Spriaznené osoby (ISA 550)",
+        "text": "Vzťahy a transakcie so spriaznenými osobami nesú zvýšené riziko nesprávnosti a podvodu, lebo nemusia prebiehať za bežných trhových podmienok a môžu byť použité na skreslenie výsledku alebo na únik aktív. Audítor získa porozumenie spriazneným vzťahom a transakciám, ostane voči nim profesionálne skeptický, identifikuje transakcie mimo bežnej činnosti a transakcie tvrdené ako 'za trhových podmienok' kriticky preverí. Pri skupine sú vnútroskupinové vzťahy samé osebe vzťahmi spriaznených osôb – ich úplné zachytenie a správna eliminácia v konsolidácii je kľúčová. Audítor získava aj písomné vyhlásenia manažmentu o úplnosti spriaznených vzťahov a transakcií."
+      },
+      {
+        "nadpis": "Následné udalosti (ISA 560)",
+        "text": "Následné udalosti sú udalosti medzi dátumom účtovnej závierky a dátumom správy audítora a skutočnosti, ktoré audítor zistí po dátume správy. Rozlišujú sa upravujúce udalosti (poskytujú dôkaz o stave existujúcom k súvahovému dňu – napr. súdne rozhodnutie potvrdzujúce existenciu záväzku, konkurz odberateľa potvrdzujúci nevymožiteľnosť pohľadávky → premietajú sa do závierky) a neupravujúce udalosti (vznikli po dni, do závierky sa len zverejnia). Audítor vykonáva postupy do dátumu správy a po jej vydaní už nemá povinnosť pátrať, no ak sa dozvie o skutočnosti, ktorá by ovplyvnila správu, koná. Pri skupine treba pokryť obdobie následných udalostí aj na úrovni komponentov."
+      },
+      {
+        "nadpis": "Going concern – nepretržité pokračovanie (ISA 570)",
+        "text": "Predpoklad nepretržitého pokračovania v činnosti je základom zostavenia závierky. Audítor posudzuje, či je jeho použitie vhodné, a či existujú udalosti alebo okolnosti, ktoré môžu vyvolať VÝZNAMNÚ POCHYBNOSŤ o schopnosti jednotky pokračovať (záporné vlastné imanie, strata kľúčových trhov, neschopnosť splácať úvery, odňatie licencie). Posudzuje hodnotenie manažmentu (obdobie najmenej 12 mesiacov od dátumu závierky). Dopady na správu: ak je predpoklad vhodný, ale existuje významná neistota PRIMERANE zverejnená → nemodifikovaný výrok s OSOBITNÝM ODSEKOM o významnej neistote (going concern); ak neistota nie je primerane zverejnená → modifikácia (výhrada alebo záporný výrok); ak je predpoklad úplne nevhodný → záporný výrok. Pozn.: ISA 570 (revidovaný 2024) sprísňuje povinnosti, ale je účinný až od 15. 12. 2026."
+      },
+      {
+        "nadpis": "Písomné vyhlásenia manažmentu (ISA 580)",
+        "text": "Písomné vyhlásenia sú dôkaz, ktorým manažment (a osoby poverené správou) potvrdzuje svoju zodpovednosť za zostavenie závierky a za úplnosť poskytnutých informácií, ako aj špecifické tvrdenia vyžadované inými ISA (napr. úplnosť spriaznených vzťahov – 550, plány relevantné pre going concern – 570, posúdenie následných udalostí – 560, predpoklady pri odhadoch – 540). Sú nutným, no NIE postačujúcim dôkazom – nenahrádzajú iné audítorské dôkazy. Dátum vyhlásení je čo najbližšie k dátumu správy audítora. Pri skupine sa vyhlásenia získavajú od manažmentu skupiny; ak manažment odmietne poskytnúť vyžadované vyhlásenie alebo je nespoľahlivé, audítor zvažuje dosah na výrok až po odmietnutie vyjadrenia výroku."
+      },
+      {
+        "zaver": "Audit skupinovej závierky drží pohromade jedna logika: skupinový audítor zodpovedá za celý výrok, prácu rozdelí rizikovo (ISA 600 revidovaný – zhora nadol, audítori komponentov ako súčasť tímu) a smie využiť prácu iných (interný audit 610, expert 620), no zodpovednosť ostáva jeho. Záverečné prierezové oblasti (odhady 540, spriaznené osoby 550, následné udalosti 560, going concern 570, vyhlásenia 580) sú miesta najvyššieho úsudku a priamo určujú, či výrok bude nemodifikovaný, s osobitným odsekom, alebo modifikovaný."
+      }
     ]
   },
   "rozsirena_baza": [
-    {"nadpis": "Čo presne zmenil revidovaný ISA 600 oproti starej verzii", "text": "Stará verzia delila komponenty na 'významné' (kvôli individuálnej finančnej dôležitosti alebo pravdepodobnosti významných rizík) a 'nevýznamné' a od toho odvíjala rozsah práce; audítor komponentu bol vnímaný ako externý subjekt, na ktorého sa skupinový tím 'spolieha'. Revidovaný ISA 600 (účinný 15. 12. 2023): (1) zrušil kategorizáciu na významné/nevýznamné komponenty; (2) zaviedol rizikovo orientovaný prístup ZHORA NADOL (najprv riziká skupinovej závierky, potom scoping komponentov); (3) audítora komponentu zaradil do TÍMU zákazky; (4) posilnil dvojsmernú a priebežnú komunikáciu a prístup k dokumentácii; (5) prepojil sa s revidovanými ISA 220 (riadenie kvality zákazky) a ISA 315 (revidovaný 2019, riziká). Cieľom je vyššia kvalita a jasnejšia zodpovednosť skupinového audítora."},
-    {"nadpis": "Významnosť v skupinovom audite", "text": "Stanovuje sa významnosť pre skupinovú závierku ako celok (a vykonávacia významnosť na úrovni skupiny). Pre komponenty, na ktorých sa pracuje, sa určí významnosť pre komponent (a vykonávacia významnosť komponentu) NIŽŠIA než pre skupinu, aby kumulácia neodhalených nesprávností naprieč komponentmi neprekročila významnosť skupiny. Stanoví sa aj prah na komunikáciu nesprávností medzi audítorom komponentu a skupinovým tímom (clearly trivial)."},
-    {"nadpis": "Vzťah k správe audítora a komunikácii", "text": "Téza č. 4 priamo nadväzuje na tézu č. 5 (Správa nezávislého audítora). Výsledky oblastí 540–580 určujú typ výroku: going concern významná neistota → osobitný odsek; nezverejnená neistota → výhrada/záporný; obmedzenie rozsahu (napr. nemožno získať dôkazy od komponentu alebo odmietnuté písomné vyhlásenia) → výhrada až odmietnutie výroku. Going concern a kľúčové záležitosti auditu (KAM) podľa ISA 701 sa môžu prelínať."},
-    {"nadpis": "Expert audítora vs. expert manažmentu", "text": "Expert audítora (ISA 620) pracuje pre audítora a jeho prácu si audítor privlastňuje ako dôkaz, ktorý sám vyhodnotí. Expert manažmentu (rieši ISA 500 – audítorské dôkazy) pracuje pre účtovnú jednotku, ktorá použila jeho výstup pri zostavení závierky; audítor potom posudzuje kompetentnosť a objektivitu experta manažmentu, vhodnosť jeho práce ako audítorského dôkazu a primeranosť jeho zistení. Je dôležité tieto dve roly nezamieňať."},
-    {"nadpis": "Going concern – obdobie hodnotenia a 2024 revízia", "text": "Manažment hodnotí schopnosť pokračovať za obdobie najmenej 12 mesiacov od dátumu (resp. od schválenia) závierky; audítor zvažuje aj udalosti po tomto horizonte, o ktorých vie. ISA 570 (revidovaný 2024) – účinný pre obdobia začínajúce 15. 12. 2026 – posilní povinnosti: skoršia a robustnejšia identifikácia udalostí a okolností (finančných aj nefinančných), dôslednejšie vyhodnotenie hodnotenia manažmentu, vyššia transparentnosť v komunikácii a v správe audítora. Pre audity bežných období v máji 2026 ešte platí staršie revidované znenie."},
-    {"nadpis": "Právny rámec auditu v SR", "text": "Štatutárny audit v SR upravuje zákon č. 423/2015 Z. z. o štatutárnom audite, nariadenie EÚ č. 537/2014 (subjekty verejného záujmu) a smernica 2006/43/ES. Audit sa vykonáva v súlade s medzinárodnými audítorskými štandardmi (ISA) prijatými na použitie v SR. Konsolidovanú závierku zostavuje materská jednotka podľa § 22/§ 22a zákona o účtovníctve (IFRS prijaté EÚ); jej overenie audítorom je povinné."}
+    {
+      "nadpis": "Čo presne zmenil revidovaný ISA 600 oproti starej verzii",
+      "text": "Stará verzia delila komponenty na 'významné' (kvôli individuálnej finančnej dôležitosti alebo pravdepodobnosti významných rizík) a 'nevýznamné' a od toho odvíjala rozsah práce; audítor komponentu bol vnímaný ako externý subjekt, na ktorého sa skupinový tím 'spolieha'. Revidovaný ISA 600 (účinný 15. 12. 2023): (1) zrušil kategorizáciu na významné/nevýznamné komponenty; (2) zaviedol rizikovo orientovaný prístup ZHORA NADOL (najprv riziká skupinovej závierky, potom scoping komponentov); (3) audítora komponentu zaradil do TÍMU zákazky; (4) posilnil dvojsmernú a priebežnú komunikáciu a prístup k dokumentácii; (5) prepojil sa s revidovanými ISA 220 (riadenie kvality zákazky) a ISA 315 (revidovaný 2019, riziká). Cieľom je vyššia kvalita a jasnejšia zodpovednosť skupinového audítora."
+    },
+    {
+      "nadpis": "Významnosť v skupinovom audite",
+      "text": "Stanovuje sa významnosť pre skupinovú závierku ako celok (a vykonávacia významnosť na úrovni skupiny). Pre komponenty, na ktorých sa pracuje, sa určí významnosť pre komponent (a vykonávacia významnosť komponentu) NIŽŠIA než pre skupinu, aby kumulácia neodhalených nesprávností naprieč komponentmi neprekročila významnosť skupiny. Stanoví sa aj prah na komunikáciu nesprávností medzi audítorom komponentu a skupinovým tímom (clearly trivial)."
+    },
+    {
+      "nadpis": "Vzťah k správe audítora a komunikácii",
+      "text": "Téza č. 4 priamo nadväzuje na tézu č. 5 (Správa nezávislého audítora). Výsledky oblastí 540–580 určujú typ výroku: going concern významná neistota → osobitný odsek; nezverejnená neistota → výhrada/záporný; obmedzenie rozsahu (napr. nemožno získať dôkazy od komponentu alebo odmietnuté písomné vyhlásenia) → výhrada až odmietnutie výroku. Going concern a kľúčové záležitosti auditu (KAM) podľa ISA 701 sa môžu prelínať."
+    },
+    {
+      "nadpis": "Expert audítora vs. expert manažmentu",
+      "text": "Expert audítora (ISA 620) pracuje pre audítora a jeho prácu si audítor privlastňuje ako dôkaz, ktorý sám vyhodnotí. Expert manažmentu (rieši ISA 500 – audítorské dôkazy) pracuje pre účtovnú jednotku, ktorá použila jeho výstup pri zostavení závierky; audítor potom posudzuje kompetentnosť a objektivitu experta manažmentu, vhodnosť jeho práce ako audítorského dôkazu a primeranosť jeho zistení. Je dôležité tieto dve roly nezamieňať."
+    },
+    {
+      "nadpis": "Going concern – obdobie hodnotenia a 2024 revízia",
+      "text": "Manažment hodnotí schopnosť pokračovať za obdobie najmenej 12 mesiacov od dátumu (resp. od schválenia) závierky; audítor zvažuje aj udalosti po tomto horizonte, o ktorých vie. ISA 570 (revidovaný 2024) – účinný pre obdobia začínajúce 15. 12. 2026 – posilní povinnosti: skoršia a robustnejšia identifikácia udalostí a okolností (finančných aj nefinančných), dôslednejšie vyhodnotenie hodnotenia manažmentu, vyššia transparentnosť v komunikácii a v správe audítora. Pre audity bežných období v máji 2026 ešte platí staršie revidované znenie."
+    },
+    {
+      "nadpis": "Právny rámec auditu v SR",
+      "text": "Štatutárny audit v SR upravuje zákon č. 423/2015 Z. z. o štatutárnom audite, nariadenie EÚ č. 537/2014 (subjekty verejného záujmu) a smernica 2006/43/ES. Audit sa vykonáva v súlade s medzinárodnými audítorskými štandardmi (ISA) prijatými na použitie v SR. Konsolidovanú závierku zostavuje materská jednotka podľa § 22/§ 22a zákona o účtovníctve (IFRS prijaté EÚ); jej overenie audítorom je povinné."
+    }
   ],
   "priklady": [
-    {"nazov": "Scoping komponentov rizikovo, nie podľa veľkosti (ISA 600 revidovaný)", "zadanie": "Skupina ALFA má materskú spoločnosť a tri dcéry: D1 (60 % aktív skupiny, stabilná, jednoduché transakcie), D2 (15 % aktív, ale významné odhady reálnej hodnoty derivátov a súdny spor), D3 (5 % aktív, nová akvizícia s goodwillom a alokáciou kúpnej ceny). Ako určiť rozsah práce podľa revidovaného ISA 600?", "riesenie": "Po starom by sa scoping viazal hlavne na D1 ako 'významný komponent' podľa veľkosti. Revidovaný ISA 600 ide zhora nadol podľa RIZIKA významnej nesprávnosti skupinovej závierky: D1 – síce veľká, ale nízke riziko → môže stačiť audit vybraných zostatkov alebo špecifikované postupy s primeranou hĺbkou; D2 – malá veľkosťou, ale vysoké riziko (reálne hodnoty, súdny spor) → audit dotknutých zostatkov, prípadne zapojenie experta (ISA 620, oceňovanie derivátov) a dôraz na odhady (ISA 540); D3 – akvizícia → riziko v alokácii kúpnej ceny a goodwille → cielené postupy + test goodwillu na zníženie hodnoty. Konsolidačný proces (eliminácie, prepočty, nekontrolujúce podiely) audituje priamo skupinový tím.", "dopad_na_zd": "Rozsah práce sa odvíja od rizika, nie od veľkosti; D2 a D3 dostanú väčšiu pozornosť napriek malej veľkosti."},
-    {"nazov": "Going concern – významná pochybnosť a dopad na správu (ISA 570)", "zadanie": "Dcéra D2 stratila hlavného odberateľa (70 % tržieb), má záporné prevádzkové cash flow a úver splatný o 6 mesiacov bez prísľubu refinancovania. Skupina vykáže významnú neistotu o going concern.", "riesenie": "Audítor posúdi hodnotenie manažmentu a plány (refinancovanie, kapitálová podpora od matky, predaj aktív). Tri scenáre dopadu na výrok: (a) predpoklad pokračovania je VHODNÝ a významná neistota je v poznámkach PRIMERANE zverejnená → nemodifikovaný výrok + osobitný odsek 'Významná neistota týkajúca sa nepretržitého pokračovania v činnosti'; (b) neistota NIE je primerane zverejnená → modifikácia: výhrada, alebo pri zásadnom rozsahu záporný výrok; (c) predpoklad pokračovania je NEVHODNÝ (jednotka zjavne neprežije, no závierka je zostavená na going concern báze) → záporný výrok.", "dopad_na_zd": "Typ výroku závisí od (ne)vhodnosti predpokladu a od (ne)primeranosti zverejnenia neistoty."},
-    {"nazov": "Využitie experta audítora pri ocenení nehnuteľnosti (ISA 620)", "zadanie": "Skupina precenila investičnú nehnuteľnosť na reálnu hodnotu (IAS 40); ide o významnú a subjektívnu sumu. Skupinový audítor nemá vlastnú odbornosť v oceňovaní nehnuteľností.", "riesenie": "Audítor zapojí experta audítora (externého znalca na oceňovanie). Posúdi jeho kompetentnosť, schopnosti a objektivitu, dohodne s ním rozsah, ciele a formu výstupu, porozumie metóde ocenenia a vyhodnotí primeranosť jeho zistení – najmä relevantnosť a primeranosť použitých vstupných údajov, predpokladov (výnosnosť, diskontná sadzba) a metód. Keďže ide aj o účtovný odhad, prepojí to s ISA 540. V nemodifikovanej správe sa expert nespomína; spomenutie len ak by to bolo relevantné pre vysvetlenie modifikácie a so súhlasom experta.", "dopad_na_zd": "Expertova práca je audítorským dôkazom, ktorý audítor sám vyhodnotí; zodpovednosť za výrok ostáva na audítorovi."},
-    {"nazov": "Spriaznené osoby a vnútroskupinová transakcia (ISA 550)", "zadanie": "Materská spoločnosť predala dcére tovar s 30 % maržou tesne pred koncom roka; manažment tvrdí, že transakcia bola 'za bežných trhových podmienok'.", "riesenie": "Ide o transakciu spriaznených osôb (vnútroskupinovú). Audítor zachová profesionálny skepticizmus, overí, či bola identifikovaná a zachytená, posúdi tvrdenie o trhových podmienkach (porovnateľné ceny voči tretím stranám) a hlavne overí ELIMINÁCIU vnútroskupinového zisku v zásobách dcéry v konsolidácii (nerealizovaný zisk sa musí vylúčiť). Získa písomné vyhlásenie manažmentu o úplnosti spriaznených vzťahov a transakcií (väzba na ISA 580).", "dopad_na_zd": "Neeliminovaný vnútroskupinový zisk by nadhodnotil zásoby a výsledok skupiny – významná nesprávnosť konsolidácie."}
+    {
+      "nazov": "Scoping komponentov rizikovo, nie podľa veľkosti (ISA 600 revidovaný)",
+      "zadanie": "Skupina ALFA má materskú spoločnosť a tri dcéry: D1 (60 % aktív skupiny, stabilná, jednoduché transakcie), D2 (15 % aktív, ale významné odhady reálnej hodnoty derivátov a súdny spor), D3 (5 % aktív, nová akvizícia s goodwillom a alokáciou kúpnej ceny). Ako určiť rozsah práce podľa revidovaného ISA 600?",
+      "riesenie": "Po starom by sa scoping viazal hlavne na D1 ako 'významný komponent' podľa veľkosti. Revidovaný ISA 600 ide zhora nadol podľa RIZIKA významnej nesprávnosti skupinovej závierky: D1 – síce veľká, ale nízke riziko → môže stačiť audit vybraných zostatkov alebo špecifikované postupy s primeranou hĺbkou; D2 – malá veľkosťou, ale vysoké riziko (reálne hodnoty, súdny spor) → audit dotknutých zostatkov, prípadne zapojenie experta (ISA 620, oceňovanie derivátov) a dôraz na odhady (ISA 540); D3 – akvizícia → riziko v alokácii kúpnej ceny a goodwille → cielené postupy + test goodwillu na zníženie hodnoty. Konsolidačný proces (eliminácie, prepočty, nekontrolujúce podiely) audituje priamo skupinový tím.",
+      "dopad_na_zd": "Rozsah práce sa odvíja od rizika, nie od veľkosti; D2 a D3 dostanú väčšiu pozornosť napriek malej veľkosti."
+    },
+    {
+      "nazov": "Going concern – významná pochybnosť a dopad na správu (ISA 570)",
+      "zadanie": "Dcéra D2 stratila hlavného odberateľa (70 % tržieb), má záporné prevádzkové cash flow a úver splatný o 6 mesiacov bez prísľubu refinancovania. Skupina vykáže významnú neistotu o going concern.",
+      "riesenie": "Audítor posúdi hodnotenie manažmentu a plány (refinancovanie, kapitálová podpora od matky, predaj aktív). Tri scenáre dopadu na výrok: (a) predpoklad pokračovania je VHODNÝ a významná neistota je v poznámkach PRIMERANE zverejnená → nemodifikovaný výrok + osobitný odsek 'Významná neistota týkajúca sa nepretržitého pokračovania v činnosti'; (b) neistota NIE je primerane zverejnená → modifikácia: výhrada, alebo pri zásadnom rozsahu záporný výrok; (c) predpoklad pokračovania je NEVHODNÝ (jednotka zjavne neprežije, no závierka je zostavená na going concern báze) → záporný výrok.",
+      "dopad_na_zd": "Typ výroku závisí od (ne)vhodnosti predpokladu a od (ne)primeranosti zverejnenia neistoty."
+    },
+    {
+      "nazov": "Využitie experta audítora pri ocenení nehnuteľnosti (ISA 620)",
+      "zadanie": "Skupina precenila investičnú nehnuteľnosť na reálnu hodnotu (IAS 40); ide o významnú a subjektívnu sumu. Skupinový audítor nemá vlastnú odbornosť v oceňovaní nehnuteľností.",
+      "riesenie": "Audítor zapojí experta audítora (externého znalca na oceňovanie). Posúdi jeho kompetentnosť, schopnosti a objektivitu, dohodne s ním rozsah, ciele a formu výstupu, porozumie metóde ocenenia a vyhodnotí primeranosť jeho zistení – najmä relevantnosť a primeranosť použitých vstupných údajov, predpokladov (výnosnosť, diskontná sadzba) a metód. Keďže ide aj o účtovný odhad, prepojí to s ISA 540. V nemodifikovanej správe sa expert nespomína; spomenutie len ak by to bolo relevantné pre vysvetlenie modifikácie a so súhlasom experta.",
+      "dopad_na_zd": "Expertova práca je audítorským dôkazom, ktorý audítor sám vyhodnotí; zodpovednosť za výrok ostáva na audítorovi."
+    },
+    {
+      "nazov": "Spriaznené osoby a vnútroskupinová transakcia (ISA 550)",
+      "zadanie": "Materská spoločnosť predala dcére tovar s 30 % maržou tesne pred koncom roka; manažment tvrdí, že transakcia bola 'za bežných trhových podmienok'.",
+      "riesenie": "Ide o transakciu spriaznených osôb (vnútroskupinovú). Audítor zachová profesionálny skepticizmus, overí, či bola identifikovaná a zachytená, posúdi tvrdenie o trhových podmienkach (porovnateľné ceny voči tretím stranám) a hlavne overí ELIMINÁCIU vnútroskupinového zisku v zásobách dcéry v konsolidácii (nerealizovaný zisk sa musí vylúčiť). Získa písomné vyhlásenie manažmentu o úplnosti spriaznených vzťahov a transakcií (väzba na ISA 580).",
+      "dopad_na_zd": "Neeliminovaný vnútroskupinový zisk by nadhodnotil zásoby a výsledok skupiny – významná nesprávnosť konsolidácie."
+    }
   ],
   "vizualy": [
-    {"subor": "03_Vizualy/ING_II_04_struktura_skupinoveho_auditu.svg", "typ": "schéma", "popis": "Štruktúra skupinového auditu podľa revidovaného ISA 600: skupinový (poverený) audítor a tím zákazky, audítori komponentov ako súčasť tímu, smerovanie inštrukcií a komunikácie, konsolidačný proces auditovaný priamo skupinovým tímom; plná zodpovednosť za výrok u skupinového audítora."},
-    {"subor": "03_Vizualy/ING_II_04_prehlad_ISA.svg", "typ": "schéma", "popis": "Prehľad súvisiacich ISA pre tézu: ISA 600 (skupina/komponenty), ISA 610 (interný audit), ISA 620 (expert), a prierezové oblasti ISA 540, 550, 560, 570, 580 s ich dopadom na správu audítora."}
+    {
+      "subor": "03_Vizualy/ING_II_04_struktura_skupinoveho_auditu.svg",
+      "typ": "schéma",
+      "popis": "Štruktúra skupinového auditu podľa revidovaného ISA 600: skupinový (poverený) audítor a tím zákazky, audítori komponentov ako súčasť tímu, smerovanie inštrukcií a komunikácie, konsolidačný proces auditovaný priamo skupinovým tímom; plná zodpovednosť za výrok u skupinového audítora."
+    },
+    {
+      "subor": "03_Vizualy/ING_II_04_prehlad_ISA.svg",
+      "typ": "schéma",
+      "popis": "Prehľad súvisiacich ISA pre tézu: ISA 600 (skupina/komponenty), ISA 610 (interný audit), ISA 620 (expert), a prierezové oblasti ISA 540, 550, 560, 570, 580 s ich dopadom na správu audítora."
+    }
   ],
   "caste_doplnujuce_otazky": [
-    {"otazka": "Aká je hlavná zmena v revidovanom ISA 600 účinnom od 15. 12. 2023?", "odpoved": "Rizikovo orientovaný prístup zhora nadol (najprv riziká skupinovej závierky, potom scoping komponentov), zrušenie kategórie 'významný komponent' podľa veľkosti a zaradenie audítora komponentu priamo do tímu skupinovej zákazky (namiesto modelu 'spoliehania sa'). Posilnená komunikácia a prístup k dokumentácii."},
-    {"otazka": "Kto nesie zodpovednosť za výrok pri skupinovom audite, ak časť práce robia audítori komponentov?", "odpoved": "Výhradne a nedeliteľne skupinový (poverený) audítor – tím skupinovej zákazky. Využitie audítorov komponentov, interného auditu ani expertov túto zodpovednosť neznižuje."},
-    {"otazka": "Aký je rozdiel medzi využitím práce interného auditu a priamou pomocou (ISA 610)?", "odpoved": "Pri využití PRÁCE audítor používa výstupy útvaru interného auditu po posúdení objektivity, kompetentnosti a systematického prístupu. Pri PRIAMEJ POMOCI interní audítori vykonávajú postupy pod vedením, dohľadom a preskúmaním externého audítora (v niektorých jurisdikciách zakázaná). Vždy ostáva výhradná zodpovednosť na externom audítorovi."},
-    {"otazka": "Kedy sa expert audítora spomína v správe audítora (ISA 620)?", "odpoved": "V nemodifikovanej správe sa nespomína. Spomenúť ho možno, len ak to vyžaduje zákon, alebo ak je to relevantné pre pochopenie modifikácie výroku – a aj vtedy len so súhlasom experta, pričom to neznižuje zodpovednosť audítora."},
-    {"otazka": "Ako going concern (ISA 570) ovplyvní typ výroku?", "odpoved": "Vhodný predpoklad + primerane zverejnená významná neistota → nemodifikovaný výrok s osobitným odsekom o významnej neistote. Nezverejnená neistota → výhrada/záporný výrok. Nevhodný predpoklad (závierka napriek tomu na going concern báze) → záporný výrok."},
-    {"otazka": "Sú písomné vyhlásenia manažmentu (ISA 580) postačujúcim dôkazom?", "odpoved": "Nie. Sú nutným dôkazom, ale nie postačujúcim – nenahrádzajú iné audítorské dôkazy. Ich dátum je čo najbližšie dátumu správy. Odmietnutie poskytnúť vyžadované vyhlásenie môže viesť až k odmietnutiu vyjadrenia výroku."},
-    {"otazka": "Ako revidovaný ISA 540 pristupuje k účtovným odhadom?", "odpoved": "Vyžaduje posúdenie inherentného rizika cez neistotu odhadu, zložitosť, subjektívnosť a náchylnosť na zaujatosť manažmentu; reakciou je testovanie postupu manažmentu, vlastný odhad/rozpätie audítora alebo udalosti po dátume závierky, so silným dôrazom na profesionálny skepticizmus a audit zverejnení."}
+    {
+      "otazka": "Aká je hlavná zmena v revidovanom ISA 600 účinnom od 15. 12. 2023?",
+      "odpoved": "Rizikovo orientovaný prístup zhora nadol (najprv riziká skupinovej závierky, potom scoping komponentov), zrušenie kategórie 'významný komponent' podľa veľkosti a zaradenie audítora komponentu priamo do tímu skupinovej zákazky (namiesto modelu 'spoliehania sa'). Posilnená komunikácia a prístup k dokumentácii.",
+      "moznosti": [
+        "Zaviedol delenie komponentov na významné a nevýznamné podľa veľkostných prahov a posilnil úlohu audítora skupiny",
+        "Rizikovo orientovaný prístup zhora nadol, zrušenie kategórie 'významný komponent' podľa veľkosti a zaradenie audítora komponentu priamo do tímu skupinovej zákazky",
+        "Presunul plnú zodpovednosť za výrok na audítorov komponentov a obmedzil úlohu skupinového audítora na koordináciu",
+        "Zaviedol prístup zdola nahor, pri ktorom sa najprv auditujú jednotlivé dcéry a ich výsledky sa následne agregujú"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Rizikovo orientovaný prístup zhora nadol (najprv riziká skupinovej závierky, potom scoping komponentov), zrušenie kategórie 'významný komponent' podľa veľkosti a zaradenie audítora komponentu priamo do tímu skupinovej zákazky (namiesto modelu 'spoliehania sa'). Posilnená komunikácia a prístup k dokumentácii."
+    },
+    {
+      "otazka": "Kto nesie zodpovednosť za výrok pri skupinovom audite, ak časť práce robia audítori komponentov?",
+      "odpoved": "Výhradne a nedeliteľne skupinový (poverený) audítor – tím skupinovej zákazky. Využitie audítorov komponentov, interného auditu ani expertov túto zodpovednosť neznižuje.",
+      "moznosti": [
+        "Spoločne a nerozdielne skupinový audítor aj audítori komponentov podľa rozsahu vykonanej práce",
+        "Audítori komponentov za svoje časti a skupinový audítor len za konsolidačný proces",
+        "Výhradne a nedeliteľne skupinový (poverený) audítor – tím skupinovej zákazky; využitie iných túto zodpovednosť neznižuje",
+        "Materská účtovná jednotka, ktorá zostavuje konsolidovanú závierku a poveruje skupinový tím"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Výhradne a nedeliteľne skupinový (poverený) audítor – tím skupinovej zákazky. Využitie audítorov komponentov, interného auditu ani expertov túto zodpovednosť neznižuje."
+    },
+    {
+      "otazka": "Aký je rozdiel medzi využitím práce interného auditu a priamou pomocou (ISA 610)?",
+      "odpoved": "Pri využití PRÁCE audítor používa výstupy útvaru interného auditu po posúdení objektivity, kompetentnosti a systematického prístupu. Pri PRIAMEJ POMOCI interní audítori vykonávajú postupy pod vedením, dohľadom a preskúmaním externého audítora (v niektorých jurisdikciách zakázaná). Vždy ostáva výhradná zodpovednosť na externom audítorovi.",
+      "moznosti": [
+        "Pri využití práce audítor používa výstupy interného auditu po posúdení objektivity a kompetentnosti; pri priamej pomoci interní audítori vykonávajú postupy pod vedením, dohľadom a preskúmaním externého audítora",
+        "Pri využití práce externý audítor robí postupy sám; pri priamej pomoci preberá hotové závery interného auditu bez ďalšieho overenia",
+        "Využitie práce sa týka len finančného auditu, priama pomoc len auditu IT systémov; v oboch prípadoch zodpovednosť prechádza na interný audit",
+        "Pri využití práce sa interný audit stáva členom tímu zákazky; pri priamej pomoci externý audítor expertne dohliada na celý interný útvar"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Pri využití PRÁCE audítor používa výstupy útvaru interného auditu po posúdení objektivity, kompetentnosti a systematického prístupu. Pri PRIAMEJ POMOCI interní audítori vykonávajú postupy pod vedením, dohľadom a preskúmaním externého audítora (v niektorých jurisdikciách zakázaná). Vždy ostáva výhradná zodpovednosť na externom audítorovi."
+    },
+    {
+      "otazka": "Kedy sa expert audítora spomína v správe audítora (ISA 620)?",
+      "odpoved": "V nemodifikovanej správe sa nespomína. Spomenúť ho možno, len ak to vyžaduje zákon, alebo ak je to relevantné pre pochopenie modifikácie výroku – a aj vtedy len so súhlasom experta, pričom to neznižuje zodpovednosť audítora.",
+      "moznosti": [
+        "Spomína sa povinne v každej správe, v ktorej audítor využil prácu experta, vrátane nemodifikovaného výroku",
+        "Spomína sa vždy, keď expert vykonal významnú časť audítorských postupov, bez ohľadu na typ výroku",
+        "Nespomína sa nikdy, ani pri modifikácii výroku, lebo by to znižovalo zodpovednosť audítora za výrok",
+        "V nemodifikovanej správe sa nespomína; spomenúť ho možno len ak to vyžaduje zákon alebo ak je to relevantné pre pochopenie modifikácie, a aj vtedy so súhlasom experta"
+      ],
+      "spravna_index": 3,
+      "spravne_indexy": [
+        3
+      ],
+      "vysvetlenie": "V nemodifikovanej správe sa nespomína. Spomenúť ho možno, len ak to vyžaduje zákon, alebo ak je to relevantné pre pochopenie modifikácie výroku – a aj vtedy len so súhlasom experta, pričom to neznižuje zodpovednosť audítora."
+    },
+    {
+      "otazka": "Ako going concern (ISA 570) ovplyvní typ výroku?",
+      "odpoved": "Vhodný predpoklad + primerane zverejnená významná neistota → nemodifikovaný výrok s osobitným odsekom o významnej neistote. Nezverejnená neistota → výhrada/záporný výrok. Nevhodný predpoklad (závierka napriek tomu na going concern báze) → záporný výrok.",
+      "moznosti": [
+        "Vhodný predpoklad + primerane zverejnená významná neistota → nemodifikovaný výrok s osobitným odsekom; nezverejnená neistota → výhrada/záporný; nevhodný predpoklad → záporný výrok",
+        "Akákoľvek významná neistota o pokračovaní vedie automaticky k záporimu výroku bez ohľadu na zverejnenie",
+        "Vhodný predpoklad + zverejnená neistota → výhrada; nezverejnená neistota → nemodifikovaný výrok s osobitným odsekom; nevhodný predpoklad → odmietnutie výroku",
+        "Významná neistota o pokračovaní vždy vedie len k osobitnému odseku a nikdy neovplyvní samotný typ výroku"
+      ],
+      "spravna_index": 0,
+      "spravne_indexy": [
+        0
+      ],
+      "vysvetlenie": "Vhodný predpoklad + primerane zverejnená významná neistota → nemodifikovaný výrok s osobitným odsekom o významnej neistote. Nezverejnená neistota → výhrada/záporný výrok. Nevhodný predpoklad (závierka napriek tomu na going concern báze) → záporný výrok."
+    },
+    {
+      "otazka": "Sú písomné vyhlásenia manažmentu (ISA 580) postačujúcim dôkazom?",
+      "odpoved": "Nie. Sú nutným dôkazom, ale nie postačujúcim – nenahrádzajú iné audítorské dôkazy. Ich dátum je čo najbližšie dátumu správy. Odmietnutie poskytnúť vyžadované vyhlásenie môže viesť až k odmietnutiu vyjadrenia výroku.",
+      "moznosti": [
+        "Áno, sú postačujúcim dôkazom, ktorý nahrádza iné audítorské postupy v oblastiach, ktorých sa vyhlásenia týkajú",
+        "Nie. Sú nutným, ale nie postačujúcim dôkazom – nenahrádzajú iné dôkazy; ich dátum je čo najbližšie dátumu správy a odmietnutie môže viesť až k odmietnutiu vyjadrenia výroku",
+        "Sú postačujúcim dôkazom len pri subjektoch verejného záujmu; pri ostatných slúžia len ako doplnková informácia",
+        "Nie sú dôkazom vôbec; ide len o formálnu súčasť dokumentácie získanú až po dátume správy audítora"
+      ],
+      "spravna_index": 1,
+      "spravne_indexy": [
+        1
+      ],
+      "vysvetlenie": "Nie. Sú nutným dôkazom, ale nie postačujúcim – nenahrádzajú iné audítorské dôkazy. Ich dátum je čo najbližšie dátumu správy. Odmietnutie poskytnúť vyžadované vyhlásenie môže viesť až k odmietnutiu vyjadrenia výroku."
+    },
+    {
+      "otazka": "Ako revidovaný ISA 540 pristupuje k účtovným odhadom?",
+      "odpoved": "Vyžaduje posúdenie inherentného rizika cez neistotu odhadu, zložitosť, subjektívnosť a náchylnosť na zaujatosť manažmentu; reakciou je testovanie postupu manažmentu, vlastný odhad/rozpätie audítora alebo udalosti po dátume závierky, so silným dôrazom na profesionálny skepticizmus a audit zverejnení.",
+      "moznosti": [
+        "Preberá odhad manažmentu bez ďalších postupov, ak ho manažment doložil písomným vyhlásením",
+        "Posudzuje len matematickú správnosť výpočtu odhadu a nezaoberá sa predpokladmi ani vstupnými údajmi",
+        "Vyžaduje posúdenie inherentného rizika cez neistotu odhadu, zložitosť, subjektívnosť a náchylnosť na zaujatosť manažmentu; reakciou je testovanie postupu, vlastný odhad/rozpätie alebo udalosti po závierke",
+        "Sústreďuje sa výhradne na zverejnenia o odhade v poznámkach, pričom samotnú hodnotu odhadu netestuje"
+      ],
+      "spravna_index": 2,
+      "spravne_indexy": [
+        2
+      ],
+      "vysvetlenie": "Vyžaduje posúdenie inherentného rizika cez neistotu odhadu, zložitosť, subjektívnosť a náchylnosť na zaujatosť manažmentu; reakciou je testovanie postupu manažmentu, vlastný odhad/rozpätie audítora alebo udalosti po dátume závierky, so silným dôrazom na profesionálny skepticizmus a audit zverejnení."
+    }
   ],
   "pasce_caste_chyby": [
     "Tvrdiť, že skupinový audit je súčet auditov dcér – je to jeden audit jednej (konsolidovanej) závierky s jedným výrokom.",
@@ -82,30 +258,134 @@
   ],
   "test": {
     "vyber_z_moznosti": [
-      {"otazka": "Ktoré tvrdenie o revidovanom ISA 600 (účinnom od 15. 12. 2023) je správne?", "moznosti": ["Komponenty sa naďalej delia na významné a nevýznamné podľa veľkosti", "Audítor komponentu je súčasťou tímu skupinovej zákazky a scoping je rizikový zhora nadol", "Za výrok zodpovedá spoločne skupinový audítor a audítori komponentov", "Skupinový audítor sa môže úplne spoľahnúť na audítora komponentu bez vlastného zapojenia"], "spravna_index": 1, "vysvetlenie": "Revidovaný ISA 600 zrušil delenie podľa veľkosti, zaviedol rizikový prístup zhora nadol a audítora komponentu zaradil do tímu zákazky; zodpovednosť za výrok ostáva výhradne skupinovému audítorovi."},
-      {"otazka": "Pri going concern je predpoklad pokračovania vhodný a významná neistota je v poznámkach primerane zverejnená. Aký je dopad na správu (ISA 570)?", "moznosti": ["Záporný výrok", "Výhrada vo výroku", "Nemodifikovaný výrok s osobitným odsekom o významnej neistote", "Odmietnutie vyjadrenia výroku"], "spravna_index": 2, "vysvetlenie": "Ak je predpoklad vhodný a neistota primerane zverejnená, výrok je nemodifikovaný, doplnený osobitným odsekom 'Významná neistota týkajúca sa nepretržitého pokračovania v činnosti'."},
-      {"otazka": "Čo platí o písomných vyhláseniach manažmentu (ISA 580)?", "moznosti": ["Sú postačujúcim dôkazom a nahrádzajú iné postupy", "Sú nutným, ale nie postačujúcim dôkazom", "Získavajú sa až po dátume správy audítora", "Týkajú sa len spriaznených osôb"], "spravna_index": 1, "vysvetlenie": "Vyhlásenia sú nutným dôkazom, ale nenahrádzajú iné audítorské dôkazy; ich dátum je čo najbližšie k dátumu správy audítora."},
-      {"otazka": "Ktorá situácia je príkladom UPRAVUJÚCEJ následnej udalosti (ISA 560)?", "moznosti": ["Požiar skladu mesiac po súvahovom dni", "Vyhlásenie konkurzu odberateľa po súvahovom dni, ktoré potvrdzuje nevymožiteľnosť pohľadávky existujúcej k súvahovému dňu", "Rozhodnutie o vyplatení dividend po súvahovom dni", "Akvizícia nového podniku po súvahovom dni"], "spravna_index": 1, "vysvetlenie": "Upravujúca udalosť poskytuje dôkaz o stave existujúcom k súvahovému dňu (nevymožiteľnosť pohľadávky) a premieta sa do závierky; ostatné sú neupravujúce – len zverejnenie."},
-      {"otazka": "Aký prístup NIE je reakciou audítora na účtovný odhad podľa revidovaného ISA 540?", "moznosti": ["Testovanie, ako manažment robil odhad", "Vypracovanie vlastného bodového odhadu alebo rozpätia audítorom", "Posúdenie udalostí po dátume závierky", "Automatické prevzatie odhadu manažmentu bez ďalších postupov"], "spravna_index": 3, "vysvetlenie": "ISA 540 (revidovaný) vyžaduje aktívnu reakciu (testovanie postupu, vlastný odhad/rozpätie alebo udalosti po závierke) a profesionálny skepticizmus; pasívne prevzatie nie je prípustné."},
-      {"otazka": "V čom sa líši expert audítora (ISA 620) od experta manažmentu?", "moznosti": ["Expert audítora pracuje pre účtovnú jednotku", "Expert manažmentu pracuje pre audítora", "Expert audítora pracuje pre audítora a jeho prácu audítor vyhodnotí ako svoj dôkaz; expert manažmentu pracuje pre účtovnú jednotku", "Medzi nimi nie je žiadny rozdiel"], "spravna_index": 2, "vysvetlenie": "Expert audítora pracuje pre audítora (ISA 620); expert manažmentu pracuje pre účtovnú jednotku a jeho výstup posudzuje audítor v rámci ISA 500."}
+      {
+        "otazka": "Ktoré tvrdenie o revidovanom ISA 600 (účinnom od 15. 12. 2023) je správne?",
+        "moznosti": [
+          "Komponenty sa naďalej delia na významné a nevýznamné podľa veľkosti",
+          "Audítor komponentu je súčasťou tímu skupinovej zákazky a scoping je rizikový zhora nadol",
+          "Za výrok zodpovedá spoločne skupinový audítor a audítori komponentov",
+          "Skupinový audítor sa môže úplne spoľahnúť na audítora komponentu bez vlastného zapojenia"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Revidovaný ISA 600 zrušil delenie podľa veľkosti, zaviedol rizikový prístup zhora nadol a audítora komponentu zaradil do tímu zákazky; zodpovednosť za výrok ostáva výhradne skupinovému audítorovi."
+      },
+      {
+        "otazka": "Pri going concern je predpoklad pokračovania vhodný a významná neistota je v poznámkach primerane zverejnená. Aký je dopad na správu (ISA 570)?",
+        "moznosti": [
+          "Záporný výrok",
+          "Výhrada vo výroku",
+          "Nemodifikovaný výrok s osobitným odsekom o významnej neistote",
+          "Odmietnutie vyjadrenia výroku"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Ak je predpoklad vhodný a neistota primerane zverejnená, výrok je nemodifikovaný, doplnený osobitným odsekom 'Významná neistota týkajúca sa nepretržitého pokračovania v činnosti'."
+      },
+      {
+        "otazka": "Čo platí o písomných vyhláseniach manažmentu (ISA 580)?",
+        "moznosti": [
+          "Sú postačujúcim dôkazom a nahrádzajú iné postupy",
+          "Sú nutným, ale nie postačujúcim dôkazom",
+          "Získavajú sa až po dátume správy audítora",
+          "Týkajú sa len spriaznených osôb"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Vyhlásenia sú nutným dôkazom, ale nenahrádzajú iné audítorské dôkazy; ich dátum je čo najbližšie k dátumu správy audítora."
+      },
+      {
+        "otazka": "Ktorá situácia je príkladom UPRAVUJÚCEJ následnej udalosti (ISA 560)?",
+        "moznosti": [
+          "Požiar skladu mesiac po súvahovom dni",
+          "Vyhlásenie konkurzu odberateľa po súvahovom dni, ktoré potvrdzuje nevymožiteľnosť pohľadávky existujúcej k súvahovému dňu",
+          "Rozhodnutie o vyplatení dividend po súvahovom dni",
+          "Akvizícia nového podniku po súvahovom dni"
+        ],
+        "spravna_index": 1,
+        "vysvetlenie": "Upravujúca udalosť poskytuje dôkaz o stave existujúcom k súvahovému dňu (nevymožiteľnosť pohľadávky) a premieta sa do závierky; ostatné sú neupravujúce – len zverejnenie."
+      },
+      {
+        "otazka": "Aký prístup NIE je reakciou audítora na účtovný odhad podľa revidovaného ISA 540?",
+        "moznosti": [
+          "Testovanie, ako manažment robil odhad",
+          "Vypracovanie vlastného bodového odhadu alebo rozpätia audítorom",
+          "Posúdenie udalostí po dátume závierky",
+          "Automatické prevzatie odhadu manažmentu bez ďalších postupov"
+        ],
+        "spravna_index": 3,
+        "vysvetlenie": "ISA 540 (revidovaný) vyžaduje aktívnu reakciu (testovanie postupu, vlastný odhad/rozpätie alebo udalosti po závierke) a profesionálny skepticizmus; pasívne prevzatie nie je prípustné."
+      },
+      {
+        "otazka": "V čom sa líši expert audítora (ISA 620) od experta manažmentu?",
+        "moznosti": [
+          "Expert audítora pracuje pre účtovnú jednotku",
+          "Expert manažmentu pracuje pre audítora",
+          "Expert audítora pracuje pre audítora a jeho prácu audítor vyhodnotí ako svoj dôkaz; expert manažmentu pracuje pre účtovnú jednotku",
+          "Medzi nimi nie je žiadny rozdiel"
+        ],
+        "spravna_index": 2,
+        "vysvetlenie": "Expert audítora pracuje pre audítora (ISA 620); expert manažmentu pracuje pre účtovnú jednotku a jeho výstup posudzuje audítor v rámci ISA 500."
+      }
     ],
     "otvorene": [
-      {"otazka": "Vysvetlite hlavné zmeny revidovaného ISA 600 a kto nesie zodpovednosť za výrok pri skupinovom audite.", "vzorova_odpoved": "Revidovaný ISA 600 (účinný pre obdobia od 15. 12. 2023) zrušil delenie na významné a nevýznamné komponenty podľa veľkosti, zaviedol rizikovo orientovaný prístup zhora nadol (najprv riziká významnej nesprávnosti skupinovej závierky, potom rozsah práce na komponentoch) a audítora komponentu zaradil do tímu skupinovej zákazky namiesto modelu 'spoliehania sa'. Posilnil dvojsmernú a priebežnú komunikáciu a prístup skupinového tímu k dokumentácii. Za výrok na konsolidovanú závierku nesie plnú a nedeliteľnú zodpovednosť skupinový (poverený) audítor."},
-      {"otazka": "Opíšte možné dopady going concern (ISA 570) na výrok audítora.", "vzorova_odpoved": "Ak je predpoklad nepretržitého pokračovania vhodný a významná neistota je v poznámkach primerane zverejnená, výrok je nemodifikovaný s osobitným odsekom o významnej neistote. Ak neistota nie je primerane zverejnená, audítor modifikuje výrok (výhrada, pri zásadnom rozsahu záporný). Ak je predpoklad pokračovania nevhodný, no závierka je zostavená na going concern báze, audítor vydá záporný výrok. ISA 570 (revidovaný 2024) sprísnenia sú účinné až od 15. 12. 2026."},
-      {"otazka": "Ako audítor využíva prácu interného auditu (ISA 610) a aké sú obmedzenia?", "vzorova_odpoved": "Audítor môže využiť prácu útvaru interného auditu, ak je dostatočne objektívny a kompetentný a uplatňuje systematický a disciplinovaný prístup; rozsah využitia je nepriamo úmerný riziku a úsudku. Môže využiť aj priamu pomoc (interní audítori robia postupy pod jeho vedením, dohľadom a preskúmaním), ak to nie je v jurisdikcii zakázané. Vždy nesie výhradnú zodpovednosť za výrok, preto oblasti s vysokým úsudkom a vysokým rizikom musí robiť sám a posudzuje ohrozenia objektivity interného auditu."}
+      {
+        "otazka": "Vysvetlite hlavné zmeny revidovaného ISA 600 a kto nesie zodpovednosť za výrok pri skupinovom audite.",
+        "vzorova_odpoved": "Revidovaný ISA 600 (účinný pre obdobia od 15. 12. 2023) zrušil delenie na významné a nevýznamné komponenty podľa veľkosti, zaviedol rizikovo orientovaný prístup zhora nadol (najprv riziká významnej nesprávnosti skupinovej závierky, potom rozsah práce na komponentoch) a audítora komponentu zaradil do tímu skupinovej zákazky namiesto modelu 'spoliehania sa'. Posilnil dvojsmernú a priebežnú komunikáciu a prístup skupinového tímu k dokumentácii. Za výrok na konsolidovanú závierku nesie plnú a nedeliteľnú zodpovednosť skupinový (poverený) audítor."
+      },
+      {
+        "otazka": "Opíšte možné dopady going concern (ISA 570) na výrok audítora.",
+        "vzorova_odpoved": "Ak je predpoklad nepretržitého pokračovania vhodný a významná neistota je v poznámkach primerane zverejnená, výrok je nemodifikovaný s osobitným odsekom o významnej neistote. Ak neistota nie je primerane zverejnená, audítor modifikuje výrok (výhrada, pri zásadnom rozsahu záporný). Ak je predpoklad pokračovania nevhodný, no závierka je zostavená na going concern báze, audítor vydá záporný výrok. ISA 570 (revidovaný 2024) sprísnenia sú účinné až od 15. 12. 2026."
+      },
+      {
+        "otazka": "Ako audítor využíva prácu interného auditu (ISA 610) a aké sú obmedzenia?",
+        "vzorova_odpoved": "Audítor môže využiť prácu útvaru interného auditu, ak je dostatočne objektívny a kompetentný a uplatňuje systematický a disciplinovaný prístup; rozsah využitia je nepriamo úmerný riziku a úsudku. Môže využiť aj priamu pomoc (interní audítori robia postupy pod jeho vedením, dohľadom a preskúmaním), ak to nie je v jurisdikcii zakázané. Vždy nesie výhradnú zodpovednosť za výrok, preto oblasti s vysokým úsudkom a vysokým rizikom musí robiť sám a posudzuje ohrozenia objektivity interného auditu."
+      }
     ],
     "priklad": [
-      {"zadanie": "Skupina BETA: materská + dcéry D1 (55 % aktív, nízke riziko, jednoduché transakcie), D2 (10 % aktív, významné odhady reálnej hodnoty a prebiehajúci súdny spor), D3 (nová akvizícia, goodwill, alokácia kúpnej ceny). Dcéra D2 navyše vykazuje záporné prevádzkové cash flow a úver splatný do 8 mesiacov. (a) Ako určíte rozsah práce na komponentoch podľa revidovaného ISA 600? (b) Aké štandardy zapojíte pri D2 a D3? (c) Ak sa významná neistota o going concern D2 (prejaví sa na úrovni skupiny) v poznámkach primerane zverejní, aký bude výrok?", "riesenie": "(a) Scoping rizikovo zhora nadol, nie podľa veľkosti: D1 (veľká, nízke riziko) → primerané postupy/audit vybraných zostatkov; D2 (malá, vysoké riziko) → audit dotknutých zostatkov s hĺbkou; D3 → cielené postupy na alokáciu kúpnej ceny a goodwill. Konsolidačný proces (eliminácie, prepočty, nekontrolujúce podiely) audituje priamo skupinový tím. (b) D2: ISA 540 (odhady reálnej hodnoty), ISA 620 (expert na ocenenie), ISA 550 (ak súvisí so spriaznenými osobami), ISA 570 (going concern); D3: ISA 540 (odhady pri alokácii a goodwille), test goodwillu IAS 36. (c) Predpoklad pokračovania je vhodný a významná neistota je primerane zverejnená → nemodifikovaný výrok s osobitným odsekom 'Významná neistota týkajúca sa nepretržitého pokračovania v činnosti'. Doplní sa získanie písomných vyhlásení manažmentu (ISA 580) k plánom a k úplnosti informácií."}
+      {
+        "zadanie": "Skupina BETA: materská + dcéry D1 (55 % aktív, nízke riziko, jednoduché transakcie), D2 (10 % aktív, významné odhady reálnej hodnoty a prebiehajúci súdny spor), D3 (nová akvizícia, goodwill, alokácia kúpnej ceny). Dcéra D2 navyše vykazuje záporné prevádzkové cash flow a úver splatný do 8 mesiacov. (a) Ako určíte rozsah práce na komponentoch podľa revidovaného ISA 600? (b) Aké štandardy zapojíte pri D2 a D3? (c) Ak sa významná neistota o going concern D2 (prejaví sa na úrovni skupiny) v poznámkach primerane zverejní, aký bude výrok?",
+        "riesenie": "(a) Scoping rizikovo zhora nadol, nie podľa veľkosti: D1 (veľká, nízke riziko) → primerané postupy/audit vybraných zostatkov; D2 (malá, vysoké riziko) → audit dotknutých zostatkov s hĺbkou; D3 → cielené postupy na alokáciu kúpnej ceny a goodwill. Konsolidačný proces (eliminácie, prepočty, nekontrolujúce podiely) audituje priamo skupinový tím. (b) D2: ISA 540 (odhady reálnej hodnoty), ISA 620 (expert na ocenenie), ISA 550 (ak súvisí so spriaznenými osobami), ISA 570 (going concern); D3: ISA 540 (odhady pri alokácii a goodwille), test goodwillu IAS 36. (c) Predpoklad pokračovania je vhodný a významná neistota je primerane zverejnená → nemodifikovaný výrok s osobitným odsekom 'Významná neistota týkajúca sa nepretržitého pokračovania v činnosti'. Doplní sa získanie písomných vyhlásení manažmentu (ISA 580) k plánom a k úplnosti informácií."
+      }
     ]
   },
   "zdroje": [
-    {"nazov": "Tézy na inžinierske štátne skúšky 2025/2026 – II. okruh, téza č. 4 (oficiálny rozsah)", "kde": "ing_tézy_na_štátne_skúšky_účtovníctvo_a_audítorstvo2026 (2).pdf", "typ": "primárny"},
-    {"nazov": "KAREŠ, L. (2020): Audítorstvo. Bratislava: SKCÚ. ISBN 978-80-972525-7-1 (učebnica – odporúčaná literatúra katedry)", "kde": "odporúčaná literatúra katedry (téza ING II.4)", "typ": "učebnica"},
-    {"nazov": "ISA 600 (Revised), Special Considerations – Audits of Group Financial Statements (Including the Work of Component Auditors), účinný od 15. 12. 2023", "kde": "https://www.iaasb.org/publications/international-standard-auditing-600-revised-special-considerations-audits-group-financial-statements", "typ": "web/overené"},
-    {"nazov": "ISA 600 (Revised) – kľúčové zmeny v skupinových auditoch (zrušenie 'významného komponentu', rizikový prístup, audítor komponentu v tíme)", "kde": "https://www.icaew.com/technical/audit-and-assurance/faculty-resources/audit-and-beyond/2023/articles/group-audits-key-changes-from-december-2023", "typ": "web/overené"},
-    {"nazov": "ISA 540 (Revised), Auditing Accounting Estimates and Related Disclosures (účinný od 15. 12. 2019)", "kde": "https://www.iaasb.org/publications/isa-540-revised-auditing-accounting-estimates-and-related-disclosures-9", "typ": "web/overené"},
-    {"nazov": "ISA 570 (Revised), Going Concern (v platnosti pre bežné obdobia) a ISA 570 (Revised 2024) účinný od 15. 12. 2026", "kde": "https://www.iaasb.org/publications/isa-570-revised-2024-going-concern", "typ": "web/overené"},
-    {"nazov": "ACCA: Audit of related parties, going concern, subsequent events (ISA 550, 560, 570)", "kde": "https://www.accaglobal.com/learning-and-events/audit-and-assurance/audit-related-parties-going-concern.html", "typ": "web/overené"},
-    {"nazov": "Zákon č. 423/2015 Z. z. o štatutárnom audite (znenie k máju 2026)", "kde": "01_Zdroje/Audit/ZZ_2015_423_20260110_metalex.asice", "typ": "primárny"}
+    {
+      "nazov": "Tézy na inžinierske štátne skúšky 2025/2026 – II. okruh, téza č. 4 (oficiálny rozsah)",
+      "kde": "ing_tézy_na_štátne_skúšky_účtovníctvo_a_audítorstvo2026 (2).pdf",
+      "typ": "primárny"
+    },
+    {
+      "nazov": "KAREŠ, L. (2020): Audítorstvo. Bratislava: SKCÚ. ISBN 978-80-972525-7-1 (učebnica – odporúčaná literatúra katedry)",
+      "kde": "odporúčaná literatúra katedry (téza ING II.4)",
+      "typ": "učebnica"
+    },
+    {
+      "nazov": "ISA 600 (Revised), Special Considerations – Audits of Group Financial Statements (Including the Work of Component Auditors), účinný od 15. 12. 2023",
+      "kde": "https://www.iaasb.org/publications/international-standard-auditing-600-revised-special-considerations-audits-group-financial-statements",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "ISA 600 (Revised) – kľúčové zmeny v skupinových auditoch (zrušenie 'významného komponentu', rizikový prístup, audítor komponentu v tíme)",
+      "kde": "https://www.icaew.com/technical/audit-and-assurance/faculty-resources/audit-and-beyond/2023/articles/group-audits-key-changes-from-december-2023",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "ISA 540 (Revised), Auditing Accounting Estimates and Related Disclosures (účinný od 15. 12. 2019)",
+      "kde": "https://www.iaasb.org/publications/isa-540-revised-auditing-accounting-estimates-and-related-disclosures-9",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "ISA 570 (Revised), Going Concern (v platnosti pre bežné obdobia) a ISA 570 (Revised 2024) účinný od 15. 12. 2026",
+      "kde": "https://www.iaasb.org/publications/isa-570-revised-2024-going-concern",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "ACCA: Audit of related parties, going concern, subsequent events (ISA 550, 560, 570)",
+      "kde": "https://www.accaglobal.com/learning-and-events/audit-and-assurance/audit-related-parties-going-concern.html",
+      "typ": "web/overené"
+    },
+    {
+      "nazov": "Zákon č. 423/2015 Z. z. o štatutárnom audite (znenie k máju 2026)",
+      "kde": "01_Zdroje/Audit/ZZ_2015_423_20260110_metalex.asice",
+      "typ": "primárny"
+    }
   ]
 }

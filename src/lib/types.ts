@@ -41,7 +41,16 @@ export type TezaPriklad = {
   riesenie: string;
   dopad_na_zd?: string;
 };
-export type TezaOtazkaOdpoved = { otazka: string; odpoved: string };
+export type TezaOtazkaOdpoved = {
+  otazka: string;
+  odpoved: string;
+  // Polia pridané pre Korda-style MC rendering doplňujúcich otázok
+  // (per SCHEMA_doplnujuce_MC.md). Backward compat: ak chýbajú, rendruje sa po starom.
+  moznosti?: string[];
+  spravna_index?: number;
+  spravne_indexy?: number[];
+  vysvetlenie?: string;
+};
 export type TezaMC = { otazka: string; moznosti: string[]; spravna_index: number; vysvetlenie?: string };
 export type TezaOpen = { otazka: string; vzorova_odpoved: string };
 export type TezaPriklady = { zadanie: string; riesenie: string };
