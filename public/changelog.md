@@ -8,6 +8,10 @@ Našli ste chybu alebo máte návrh? Použite v aplikácii tlačidlo **„Nahlá
 
 ---
 
+## 2026-05-25 — oprava cache
+
+- **PWA cache:** opravená situácia, keď aplikácia mohla zobraziť zastaraný / poškodený obsah niektorej tézy (hlásená chyba pri BC-I-4: „Unexpected non-whitespace character after JSON"). Stratégia ukladania obsahu prešla na **NetworkFirst** (čerstvé dáta majú prednosť, cache je len fallback pri offline). Pribudlo tlačidlo **„Obnoviť obsah"** v Nastaveniach.
+
 ## 2026-05-23 — spustenie
 
 - **Spustenie aplikácie** s obsahom **36 téz** (bakalárske 18 + inžinierske 18), vrátane vizuálov, mentálnych máp a slovníka skratiek.
