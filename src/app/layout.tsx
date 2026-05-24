@@ -4,6 +4,7 @@ import "./globals.css";
 import { Providers } from "@/components/providers";
 import { AppShell } from "@/components/app-shell";
 import { OnboardingGate } from "@/components/onboarding-gate";
+import { Analytics } from "@vercel/analytics/next";
 
 const kanit = Kanit({
   subsets: ["latin", "latin-ext"],
@@ -48,6 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <AppShell>{children}</AppShell>
           </OnboardingGate>
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
