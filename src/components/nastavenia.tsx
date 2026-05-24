@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { defaultProfile, exportBackup, getProfile, importBackup, patchProfile, resetAll, setProfile } from "@/lib/storage";
+import { clearContentCaches } from "@/lib/loaders";
 import { programLabel } from "@/lib/thesis-index";
 import type { Profile, Program } from "@/lib/types";
 
@@ -112,6 +113,24 @@ export function Nastavenia() {
           <button onClick={() => fileRef.current?.click()} className="rp-btn-ghost">Načítať zálohu…</button>
         </div>
         {msg && <p className="text-sm">{msg}</p>}
+      </section>
+
+      <section className="rp-section space-y-3">
+        <h2 className="font-heading text-lg">Obnoviť obsah</h2>
+        <p className="text-sm text-[var(--rp-muted)]">
+          Ak vidíš zastaraný alebo poškodený obsah (napr. chyba parsovania JSON), zmaž lokálny cache aplikácie a stiahni najnovšie tézy, mapy a skratky zo servera. Tvoj profil a progres ostávajú.
+        </p>
+        <button
+          onClick={async () => {
+            const r = await clearContentCaches();
+            setMsg(`Cache zmazaný (${r.entries} položiek v ${r.caches} úložiskách). Obnovujem…`);
+            // Hard reload aby sa service worker preregistroval
+            setTimeout(() => window.location.reload(), 600);
+          }}
+          className="rp-btn-accent"
+        >
+          Obnoviť obsah (vyčistiť cache)
+        </button>
       </section>
 
       <section className="rp-section space-y-3">

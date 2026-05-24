@@ -34,7 +34,14 @@ export function TezaDetail({ id }: { id: string }) {
   const isCommittee = profile?.program === "OBE";
   const e = useMemo(() => entry(id), [id, markedRead]);
 
-  if (error) return <div className="rp-section text-euba-red">Chyba: {error}</div>;
+  if (error) return (
+    <div className="rp-section space-y-3">
+      <p className="text-euba-red"><strong>Chyba pri načítaní tézy:</strong> {error}</p>
+      <p className="text-sm text-[var(--rp-muted)]">
+        Toto býva spôsobené zastaraným cache. Choď do <Link href="/nastavenia" className="rp-link">Nastavení → Obnoviť obsah</Link> a skús to znova.
+      </p>
+    </div>
+  );
   if (!teza) return <div className="rp-section">Načítavam…</div>;
 
   const fullText = (() => {
