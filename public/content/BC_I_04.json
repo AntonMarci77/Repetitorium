@@ -5,7 +5,7 @@
   "cislo": 4,
   "nazov": "Dlhodobý hmotný majetok, dlhodobý nehmotný majetok a zásoby",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
+  "verzia": "1.1",
   "stav_legislativy": "Zákon č. 431/2002 Z. z. o účtovníctve (znenie k 4. 2. 2026, § 25 oceňovanie, § 26 OP a čistá realizačná hodnota); Postupy účtovania pre podnikateľov (opatrenie MF/23054/2002-92, vrátane noviel účinných od 1. 1. 2026); daňové odpisy podľa zákona č. 595/2003 Z. z. (§ 22 – 29) k 1. 1. 2026. Hranice ocenenia (1 700 € HM, 2 400 € NM) a odpisové skupiny 0 – 6 overené k máju 2026.",
   "klucove_pojmy": [
     "dlhodobý hmotný majetok (DHM)",
@@ -120,8 +120,8 @@
           "rok": "obstaranie",
           "md": "343",
           "d": "321",
-          "suma": 10600,
-          "popis": "Odpočet DPH 20 % z 53 000 €"
+          "suma": 12190,
+          "popis": "Odpočet DPH 23 % z 53 000 €"
         },
         {
           "rok": "zaradenie",
@@ -200,8 +200,8 @@
           "rok": "predaj",
           "md": "311",
           "d": "343",
-          "suma": 1600,
-          "popis": "DPH na výstupe 20 %"
+          "suma": 1840,
+          "popis": "DPH na výstupe 23 %"
         }
       ],
       "riesenie": "Zostatková cena = 53 000 − 42 400 = 10 600 € → na 541. Obstarávacia cena sa vyradí v dvoch zápisoch: oprávky 082/022 (42 400) a zostatková cena 541/022 (10 600). Výnos z predaja 641 = 8 000 €. Predaj bol stratový (ZC 10 600 > tržba 8 000); strata je účtovne aj daňovo uznaná (okrem vybraných druhov majetku).",

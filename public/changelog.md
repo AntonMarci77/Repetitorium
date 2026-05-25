@@ -8,9 +8,10 @@ Našli ste chybu alebo máte návrh? Použite v aplikácii tlačidlo **„Nahlá
 
 ---
 
-## 2026-05-25 — oprava cache
+## 2026-05-25
 
-- **PWA cache:** opravená situácia, keď aplikácia mohla zobraziť zastaraný / poškodený obsah niektorej tézy (hlásená chyba pri BC-I-4: „Unexpected non-whitespace character after JSON"). Stratégia ukladania obsahu prešla na **NetworkFirst** (čerstvé dáta majú prednosť, cache je len fallback pri offline). Pribudlo tlačidlo **„Obnoviť obsah"** v Nastaveniach.
+- **BC I.4 (Dlhodobý hmotný majetok, dlhodobý nehmotný majetok a zásoby) — oprava:** sadzba DPH v príkladoch opravená z **20 % na 23 %** (základná sadzba platná od 1. 1. 2025). Príklad „Obstaranie a zaradenie stroja": odpočet DPH z 53 000 € = **12 190 €** (predtým 10 600 €). Príklad „Vyradenie DHM predajom": DPH na výstupe z 8 000 € = **1 840 €** (predtým 1 600 €). Verzia tézy 1.0 → 1.1.
+- **PWA cache — vylepšenie:** stratégia ukladania obsahu prešla na **NetworkFirst** (čerstvé dáta majú prednosť, cache je len fallback pri offline). Pribudlo tlačidlo **„Obnoviť obsah"** v Nastaveniach pre prípad, že by sa aplikácia chytila na zastaranom obsahu.
 
 ## 2026-05-23 — spustenie
 
