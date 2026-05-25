@@ -6,10 +6,18 @@ import { idsForProgram, indexForProgram, programLabel } from "@/lib/thesis-index
 import { ensureIndexMeta } from "@/lib/loaders";
 import type { Profile, ProgressMap, TezaIndexItem } from "@/lib/types";
 
+function greetingForHour(h: number): string {
+  if (h >= 22 || h < 6) return "Dobrú noc";
+  if (h < 10) return "Dobré ráno";
+  if (h < 18) return "Dobrý deň";
+  return "Dobrý večer";
+}
+
 export function Dashboard() {
   const [profile, setProfile] = useState<Profile | null>(null);
   const [progress, setProgress] = useState<ProgressMap>({});
   const [index, setIndex] = useState<TezaIndexItem[]>([]);
+  const [greeting, setGreeting] = useState<string>(() => greetingForHour(new Date().getHours()));
 
   useEffect(() => {
     const refresh = () => {
@@ -19,9 +27,14 @@ export function Dashboard() {
     refresh();
     window.addEventListener("rp:profile", refresh);
     window.addEventListener("rp:progress", refresh);
+    // Aktualizuj pozdrav každú minútu — lacné, zachytí prechod cez hraničné hodiny
+    const t = window.setInterval(() => {
+      setGreeting(greetingForHour(new Date().getHours()));
+    }, 60_000);
     return () => {
       window.removeEventListener("rp:profile", refresh);
       window.removeEventListener("rp:progress", refresh);
+      window.clearInterval(t);
     };
   }, []);
 
@@ -57,7 +70,7 @@ export function Dashboard() {
       <header className="rp-card p-5 md:p-6">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <h1 className="font-heading text-2xl md:text-3xl text-euba-ink dark:text-white">Dobré ráno!</h1>
+            <h1 className="font-heading text-2xl md:text-3xl text-euba-ink dark:text-white">{greeting}!</h1>
             <p className="text-[var(--rp-muted)] text-sm">
               Program: <strong className="text-[var(--rp-fg)]">{programLabel(profile.program)}</strong>
               {" · "}
@@ -83,7 +96,7 @@ export function Dashboard() {
           <span className="rp-chip bg-euba-accent/10 text-euba-accent">{todayPack} položiek</span>
         </div>
         <p className="text-sm text-[var(--rp-muted)]">
-          {pacing.novychZaDen} nových téz + {due.length} dnes splatných opakovaní. Tempo: aby si stihol prvý prechod, potrebuješ {pacing.novychZaDen}/deň počas {pacing.firstPassDays} dní.
+          {pacing.novychZaDen} nových téz + {due.length} dnes potrebných opakovaní. Tempo: aby si stihol prvý prechod, potrebuješ {pacing.novychZaDen}/deň počas {pacing.firstPassDays} dní.
         </p>
         <div className="flex flex-wrap gap-2 mt-4">
           <Link href="/test?mode=dnes" className="rp-btn-primary">Pokračovať</Link>

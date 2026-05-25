@@ -4,6 +4,7 @@ import type { Profile, ProgressMap, Program, Rating, ProgressEntry } from "./typ
 const K = {
   profile: "rp.profile",
   progress: "rp.progress",
+  dailyReviews: "rp.dailyReviews",
 } as const;
 
 const isBrowser = () => typeof window !== "undefined";
@@ -63,10 +64,34 @@ export function updateEntry(id: string, mutate: (e: ProgressEntry) => ProgressEn
   setProgress(all);
 }
 
+// ── Daily reviews counter (lokálny dátum) ─────────────────────────────────
+type DailyReviews = { date: string; count: number };
+
+function todayISO(): string {
+  // Lokálny dátum (nie UTC) — reset o lokálnej polnoci
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+export function getDailyReviews(): DailyReviews {
+  const raw = safeGet<DailyReviews>(K.dailyReviews);
+  const today = todayISO();
+  if (!raw || raw.date !== today) return { date: today, count: 0 };
+  return raw;
+}
+
+export function incrementDailyReviews() {
+  const cur = getDailyReviews();
+  const next: DailyReviews = { date: cur.date, count: cur.count + 1 };
+  safeSet(K.dailyReviews, next);
+  if (isBrowser()) window.dispatchEvent(new CustomEvent("rp:progress"));
+}
+
 // ── Leitner (8.2) ──────────────────────────────────────────────────────────
 const LEITNER_INTERVAL_DAYS: Record<1|2|3|4|5, number> = { 1: 1, 2: 2, 3: 4, 4: 7, 5: 14 };
 
 export function applyRating(id: string, rating: Rating, examISO?: string) {
+  incrementDailyReviews();
   updateEntry(id, (e) => {
     const next: ProgressEntry = { ...e };
     if (rating === "nevedel") next.box = 1;

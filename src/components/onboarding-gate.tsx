@@ -52,7 +52,7 @@ function Onboarding() {
         </header>
 
         <section>
-          <label className="block text-sm font-medium mb-2">Som…</label>
+          <label className="block text-sm font-medium mb-2">Potrebujem sa pripraviť na štátnice typu:</label>
           <div className="grid sm:grid-cols-3 gap-2">
             {(["BC", "ING", "OBE"] as Program[]).map((p) => (
               <button
@@ -77,7 +77,7 @@ function Onboarding() {
         </section>
 
         <section>
-          <label htmlFor="exam" className="block text-sm font-medium mb-2">Dátum štátnice</label>
+          <label htmlFor="exam" className="block text-sm font-medium mb-2">Moja štátnica bude dňa:</label>
           <input
             id="exam"
             type="date"
@@ -98,7 +98,7 @@ function Onboarding() {
             <li>Čítaj jadro tézy a pozri mentálnu mapu.</li>
             <li>Hovor odpoveď nahlas (počúvaj cez TTS, ak chceš).</li>
             <li>Otestuj sa otázkami a ohodnoť sa: nevedel / čiastočne / vedel.</li>
-            <li>Appka ti vráti ťažké tézy presne vtedy, keď ich treba zopakovať.</li>
+            <li>Opakuj dokým budeš ready.</li>
           </ol>
         </section>
 
