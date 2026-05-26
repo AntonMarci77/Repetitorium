@@ -33,9 +33,75 @@ npm run build && npm start
 - `FORMSPREE_DEPLOY_KEY` — **TAJNÉ**. Nikdy necommitovať. Nastaviť vo Vercel (Environment Variables) a lokálne v `.env.local`. Používa sa len pri nasadení definície formulára: `npx @formspree/cli deploy`.
 - `.gitignore` musí obsahovať `.env*.local` (a `.env`). Vzor premenných je v `.env.example`.
 
-## Štruktúra obsahu
-Obsah je statický (v `/public`):
-- `content/*.json` — 36 téz (BC 18 + ING 18), zdroj pravdy. Schéma vrátane MC distraktorov pre doplňujúce otázky.
+## Obsah — tok dát a ako ho aktualizovať
+
+**Zdroj pravdy** obsahu nie je v tomto repe, ale v OneDrive priečinku autora. Tento repo má len **kópiu** v `/public/`, ktorá sa nahráva na Vercel pri deployi.
+
+```
+┌──────────────────────────────────────────────┐
+│ ZDROJ (OneDrive)                              │   ← edituj sa TU
+│  …/Štátnice app/                              │
+│    02_Obsah/*.json          (36 téz)          │
+│    03_Vizualy/*.svg         (71 schém)        │
+│    05_Aplikacia/mapy/*.svg  (36 máp)          │
+│    05_Aplikacia/mapy/*.json (36 fallback)     │
+│    05_Aplikacia/esencie/*.json                │
+│    05_Aplikacia/skratky.json                  │
+│    05_Aplikacia/changelog.md                  │
+└──────────────────────────────────────────────┘
+                 │  npm run sync
+                 ▼
+┌──────────────────────────────────────────────┐
+│ REPO (tento priečinok)                        │
+│  public/                                      │
+│    content/, visuals/, mapy/, mapy-esencie/,  │
+│    skratky.json, changelog.md                 │
+└──────────────────────────────────────────────┘
+                 │  git push
+                 ▼
+┌──────────────────────────────────────────────┐
+│ GITHUB (AntonMarci77/Repetitorium)            │
+└──────────────────────────────────────────────┘
+                 │  npx vercel --prod
+                 ▼
+┌──────────────────────────────────────────────┐
+│ VERCEL (repetitorium.vercel.app)              │
+│ Appka číta s NetworkFirst stratégiou —        │
+│ čerstvé dáta majú prednosť pred PWA cache.    │
+└──────────────────────────────────────────────┘
+```
+
+### Ako aktualizovať obsah
+
+1. **Edituj v zdroji** (OneDrive) — uprav JSON tézy, pridaj záznam do `changelog.md`, zvýš `verzia` v upravenej téze (napr. `"1.0"` → `"1.1"`).
+2. **Sync do repa:**
+   ```bash
+   npm run sync
+   ```
+   Skript validuje všetky JSONy, zobrazí počty súborov a verzie všetkých téz, vypíše ktoré sa zmenili.
+3. **Deploy:**
+   ```bash
+   npm run release
+   ```
+   Spraví sync + `git commit` + `git push` + `vercel --prod` v jednom kroku.
+
+   Alebo manuálne:
+   ```bash
+   git add public && git commit -m "content: …" && git push
+   npx vercel --prod --yes
+   ```
+
+### Vlastná zdrojová cesta
+
+Defaultný zdroj je `C:/Users/anton/OneDrive/EUBA - výuka/20252026/Štátnice app`. Ak je inde:
+```bash
+npm run sync -- /iná/cesta
+# alebo
+RP_SOURCE=/iná/cesta npm run sync
+```
+
+### Štruktúra `/public/`
+- `content/*.json` — 36 téz (BC 18 + ING 18), schéma vrátane MC distraktorov pre doplňujúce otázky.
 - `visuals/*.svg` — 71 schém a grafov (klikateľné, otvoria sa v lightboxe so zoomom).
 - `mapy/*.svg` — 36 grafických mentálnych máp (stred = názov tézy, vetva = bod osnovy + esencia odpovede).
 - `mapy/*.json` — JSON tree mapy (fallback ak by SVG zlyhal).
