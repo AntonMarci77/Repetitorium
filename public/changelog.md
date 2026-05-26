@@ -8,6 +8,13 @@ Našli ste chybu alebo máte návrh? Použite v aplikácii tlačidlo **„Nahlá
 
 ---
 
+## 2026-05-27
+
+- **MC kvíz — nový režim** (`/kviz`): rýchly „klikací" tréning len z testových otázok (ABCD), bez „hovor nahlas" a bez vplyvu na plán opakovaní. Filtre: úroveň (BC/ING/komisia), rozsah (všetky / Okruh I / Okruh II / konkrétna téza), zdroj (doplňujúce / testové / obidva), počet (10 / 20 / všetky). Skóre v % na konci.
+- **Test — vylepšenia:** rámček „Dnes zopakované" ukazuje denný pokrok ako zlomok (zopakované / potrebné, reset o lokálnej polnoci). Rod-neutrálne znenie „Nové (ešte neprešiel/neprešla)".
+- **Dashboard — pozdrav podľa času:** Dobré ráno (6–10), Dobrý deň (10–18), Dobrý večer (18–22), Dobrú noc (22–6).
+- **Onboarding — jemnejšie texty:** „Potrebujem sa pripraviť na štátnice typu:", „Moja štátnica bude dňa:", „Opakuj dokým budeš ready.".
+
 ## 2026-05-25
 
 - **BC I.4 (Dlhodobý hmotný majetok, dlhodobý nehmotný majetok a zásoby) — oprava:** sadzba DPH v príkladoch opravená z **20 % na 23 %** (základná sadzba platná od 1. 1. 2025). Príklad „Obstaranie a zaradenie stroja": odpočet DPH z 53 000 € = **12 190 €** (predtým 10 600 €). Príklad „Vyradenie DHM predajom": DPH na výstupe z 8 000 € = **1 840 €** (predtým 1 600 €). Verzia tézy 1.0 → 1.1.
