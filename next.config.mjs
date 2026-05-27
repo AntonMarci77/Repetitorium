@@ -2,7 +2,7 @@ import nextPwa from "next-pwa";
 
 // Bumpni túto verziu pri zmene obsahu/PWA stratégie — zlikviduje staré cache
 // na klientoch, ktorí si držia stale (možno poškodené) JSON responses.
-const CACHE_VER = "v2";
+const CACHE_VER = "v3";
 
 const withPWA = nextPwa({
   dest: "public",

@@ -9,13 +9,15 @@ let indexMetaLoaded = false;
 
 /**
  * Robustný JSON fetch:
- * - prvý pokus z PWA cache (rýchle, offline-friendly)
- * - ak fetch alebo JSON.parse zlyhá (napr. stale/poškodený cache), retry
- *   s `cache: 'reload'` ktorý obíde service worker aj HTTP cache
+ * - cache: "no-cache" → prehliadač vždy revaliduje s serverom (304 If-None-Match,
+ *   lacné). Service worker (NetworkFirst) má prednosť pred HTTP cache.
+ *   `force-cache` by mohlo viesť k zobrazovaniu zastaranej verzie obsahu.
+ * - ak fetch alebo JSON.parse zlyhá (napr. poškodený cache), retry s `reload`
+ *   ktorý obíde service worker aj HTTP cache úplne.
  */
 async function fetchJSON<T>(url: string): Promise<T> {
   try {
-    const r = await fetch(url, { cache: "force-cache" });
+    const r = await fetch(url, { cache: "no-cache" });
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const txt = await r.text();
     return JSON.parse(txt) as T;
@@ -73,7 +75,7 @@ export async function loadSkratky(): Promise<SkratkySubor> {
 }
 
 export async function loadChangelog(): Promise<string> {
-  const r = await fetch(`/changelog.md`, { cache: "force-cache" });
+  const r = await fetch(`/changelog.md`, { cache: "no-cache" });
   if (!r.ok) return "";
   return await r.text();
 }
@@ -143,7 +145,7 @@ export async function svgMapaExists(id: string): Promise<boolean> {
   const url = mapSvgPath(id);
   if (!url) return false;
   try {
-    const r = await fetch(url, { method: "HEAD", cache: "force-cache" });
+    const r = await fetch(url, { method: "HEAD", cache: "no-cache" });
     return r.ok;
   } catch {
     return false;
