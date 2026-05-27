@@ -5,8 +5,8 @@
   "cislo": 3,
   "nazov": "Oceňovanie, účtovné zásady a účtovné metódy",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.1 (po kritickej revízii – znenie zákona + web)",
-  "stav_legislativy": "Znenie zákona č. 431/2002 Z. z. o účtovníctve k 4. 2. 2026 (§ 7, § 24 – § 27). Postupy účtovania pre podnikateľov (opatrenie MF SR č. 23054/2002-92 v platnom znení). Pozn.: pojem 'reprodukčná obstarávacia cena' v platnom zákone NIE JE – do 31. 12. 2015 ním boli ocenené napr. dar a inventarizačný prebytok, od 1. 1. 2016 ich nahradila reálna hodnota (overené na fin. správe). V tomto okruhu je preto vedený ako historická/zrušená oceňovacia veličina.",
+  "verzia": "1.2",
+  "stav_legislativy": "Znenie zákona č. 431/2002 Z. z. o účtovníctve k 4. 2. 2026 (§ 7, § 24 – § 27). Postupy účtovania pre podnikateľov (opatrenie MF SR č. 23054/2002-92 v platnom znení). Pozn.: pojem 'reprodukčná obstarávacia cena' v platnom zákone NIE JE – do 31. 12. 2015 ním boli ocenené napr. dar a inventarizačný prebytok, od 1. 1. 2016 ich nahradila reálna hodnota (overené na fin. správe). V tomto okruhu je preto vedený ako historická/zrušená oceňovacia veličina. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "deň ocenenia (§ 24 ods. 1)",
     "obstarávacia cena (OC)",
@@ -38,7 +38,7 @@
       },
       {
         "nadpis": "Reprodukčná obstarávacia cena – historická veličina",
-        "text": "Reprodukčná obstarávacia cena (ROC) bola cena, za ktorú by sa majetok obstaral v čase, keď sa o ňom účtuje. Do 31. 12. 2015 sa ňou oceňoval napríklad dar, majetok preradený z osobného vlastníctva a inventarizačný prebytok. Od 1. 1. 2016 ju pri týchto položkách nahradila reálna hodnota – v platnom zákone o účtovníctve sa pojem ROC už nenachádza. V skúške ju treba vedieť vymenovať a vysvetliť, no zároveň poznamenať, že ide o zrušenú veličinu nahradenú reálnou hodnotou."
+        "text": "Reprodukčná obstarávacia cena (ROC) bola cena, za ktorú by sa majetok obstaral v čase, keď sa o ňom účtuje. Do 31. 12. 2015 sa ňou oceňoval napríklad dar, majetok preradený z osobného vlastníctva a inventarizačný prebytok. Od 1. 1. 2016 ju pri týchto položkách nahradila reálna hodnota – v platnom zákone o účtovníctve sa pojem ROC už nenachádza. V skúške ju treba vedieť vymenovať a vysvetliť, no zároveň poznamenať, že ide o zrušenú veličinu nahradenú reálnou hodnotou. Praktická rada na štátnici: ROC treba vedieť vymenovať ako historickú veličinu (do 31. 12. 2015), vždy ju však spojiť s konštatovaním, že platný zákon ju nepoužíva a od 1. 1. 2016 ju pre dar, prebytky a preradenie z osobného vlastníctva nahradila reálna hodnota; tým sa študent vyhne pasci komisie, ktorá môže testovať obe verzie."
       },
       {
         "nadpis": "Reálna hodnota – charakteristika (§ 27 ods. 2)",
@@ -46,11 +46,11 @@
       },
       {
         "nadpis": "Aký majetok sa oceňuje reálnou hodnotou ku dňu závierky (§ 27 ods. 1)",
-        "text": "Ku dňu závierky sa na reálnu hodnotu preceňujú najmä: cenné papiere a podiely na základnom imaní (s výnimkami – cenné papiere držané do splatnosti, vlastné emitované cenné papiere a podiely v dcérskych/pridružených spoločnostiach sa NEpreceňujú), deriváty, komodity obchodované na verejnom trhu, drahé kovy a podielové listy v majetku fondu, nehnuteľnosti v špeciálnom fonde nehnuteľností a v krytí technických rezerv poisťovní. Pre bežného podnikateľa sú prakticky najdôležitejšie cenné papiere určené na obchodovanie a deriváty. Naopak zásoby, dlhodobý hmotný a nehmotný majetok sa štandardne na reálnu hodnotu NEpreceňujú – pri nich rieši ku dňu závierky pokles hodnoty opravná položka."
+        "text": "Ku dňu závierky sa na reálnu hodnotu preceňujú najmä: cenné papiere a podiely na základnom imaní (s výnimkami – cenné papiere držané do splatnosti, vlastné emitované cenné papiere a podiely v dcérskych a pridružených spoločnostiach sa NEpreceňujú na reálnu hodnotu – môžu však byť ocenené metódou vlastného imania (equity method, § 27 ods. 8)), deriváty, komodity obchodované na verejnom trhu, drahé kovy a podielové listy v majetku fondu, nehnuteľnosti v špeciálnom fonde nehnuteľností a v krytí technických rezerv poisťovní. Pre bežného podnikateľa sú prakticky najdôležitejšie cenné papiere určené na obchodovanie a deriváty. Naopak zásoby, dlhodobý hmotný a nehmotný majetok sa štandardne na reálnu hodnotu NEpreceňujú – pri nich rieši ku dňu závierky pokles hodnoty opravná položka. Pri zásobách a iných položkách, ktoré sa nepreceňujú na reálnu hodnotu (RH), sa pokles hodnoty NEpremieta zmenou hodnoty samotného účtu majetku, ale NEPRIAMO – tvorbou opravnej položky (§ 26 ods. 1 a 4): účet zásoby (napr. 112) ostáva v OC a opravná položka (191) je samostatným kontraaktívom, ktoré zníži netto hodnotu v súvahe."
       },
       {
         "nadpis": "Oceňovanie cudzou menou (§ 24 ods. 2 – 6)",
-        "text": "Majetok a záväzky v cudzej mene prepočítava účtovná jednotka na eurá REFERENČNÝM KURZOM určeným a vyhláseným Európskou centrálnou bankou (alebo NBS), a to: pri účtovnom prípade kurzom v deň PREDCHÁDZAJÚCI dňu uskutočnenia účtovného prípadu, a ku dňu závierky kurzom v tento deň. Pri prírastku cudzej meny kúpenej za eurá sa použije kurz, za ktorý bola nakúpená. Na úbytok rovnakej cudzej meny možno použiť vážený aritmetický priemer alebo metódu FIFO. Ku dňu závierky sa neuhradené pohľadávky a záväzky v cudzej mene preceňujú referenčným kurzom – vzniká kurzový rozdiel (563 kurzová strata / 663 kurzový zisk). Pri preddavkoch sa použije kurz v čase prijatia/poskytnutia preddavku."
+        "text": "Majetok a záväzky v cudzej mene prepočítava účtovná jednotka na eurá REFERENČNÝM KURZOM určeným a vyhláseným Európskou centrálnou bankou (alebo NBS), a to: pri účtovnom prípade kurzom v deň PREDCHÁDZAJÚCI dňu uskutočnenia účtovného prípadu, a ku dňu závierky kurzom v tento deň. Pri prírastku cudzej meny kúpenej za eurá môže jednotka použiť buď kurz, za ktorý bola cudzia mena reálne nakúpená, alebo referenčný kurz ECB v deň predchádzajúci dňu prípadu (§ 24 ods. 5). Na úbytok rovnakej cudzej meny z DEVÍZOVÉHO ÚČTU a VALUTOVEJ POKLADNICE možno použiť vážený aritmetický priemer alebo metódu FIFO (§ 24 ods. 4); pre bežné pohľadávky a záväzky platí všeobecné pravidlo § 25 ods. 5. Ku dňu závierky sa neuhradené pohľadávky a záväzky v cudzej mene preceňujú referenčným kurzom – vzniká kurzový rozdiel (563 kurzová strata / 663 kurzový zisk). Pri preddavkoch sa použije kurz v čase prijatia/poskytnutia preddavku."
       },
       {
         "nadpis": "Ocenenie ku dňu závierky a zásada opatrnosti (§ 26)",
@@ -72,7 +72,7 @@
   "rozsirena_baza": [
     {
       "nadpis": "Súčasti obstarávacej ceny dlhodobého majetku",
-      "text": "Do OC dlhodobého majetku patria okrem ceny dodávateľa aj náklady súvisiace s obstaraním do času uvedenia do používania: doprava, montáž, clo, prieskumné a projektové práce, úroky z úveru do zaradenia (ak sa tak jednotka rozhodne) a pod. Naopak do OC NEvstupujú napr. kurzové rozdiely, úroky po zaradení, zmluvné pokuty a penále, náklady na zaškolenie. Pri zásobách OC zahŕňa cenu obstarania a náklady súvisiace (doprava, clo, provízie); skladovacie náklady spravidla nie."
+      "text": "Do OC dlhodobého majetku patria okrem ceny dodávateľa aj náklady súvisiace s obstaraním do času uvedenia do používania: doprava, montáž, clo, prieskumné a projektové práce, úroky z úveru do zaradenia (ak sa tak jednotka rozhodne) a pod. Pri kurzových rozdieloch je úprava asymetrická: KR vzniknuté do okamihu zaradenia dlhodobého majetku do používania môžu byť súčasťou OC, ak sa tak jednotka rozhodne (§ 25 zákona, § 35 Postupov); KR po zaradení už do OC nepatria. Do OC ďalej NEvstupujú úroky po zaradení, zmluvné pokuty a penále, náklady na zaškolenie. Pri zásobách OC zahŕňa cenu obstarania a náklady súvisiace (doprava, clo, provízie); skladovacie náklady spravidla nie."
     },
     {
       "nadpis": "Kurzové rozdiely realizované vs. nerealizované",
@@ -84,7 +84,7 @@
     },
     {
       "nadpis": "Účtovanie precenenia na reálnu hodnotu",
-      "text": "Spôsob zaúčtovania rozdielu z precenenia závisí od kategórie. Pri cenných papieroch určených na obchodovanie sa zmena reálnej hodnoty účtuje výsledkovo (564/664 – náklady/výnosy z precenenia). Pri cenných papieroch určených na predaj sa preceňuje súvahovo cez účet 414 – Oceňovacie rozdiely z precenenia majetku a záväzkov (vlastné imanie). Deriváty na obchodovanie sa preceňujú výsledkovo, zabezpečovacie deriváty spravidla súvahovo cez 414."
+      "text": "Spôsob zaúčtovania rozdielu z precenenia závisí od kategórie. Pri cenných papieroch určených na obchodovanie sa zmena reálnej hodnoty účtuje výsledkovo (564/664 – náklady/výnosy z precenenia). Pri realizovateľných cenných papieroch (CP určených na predaj) sa preceňuje súvahovo cez účet 414 – Oceňovacie rozdiely z precenenia majetku a záväzkov (vlastné imanie). Deriváty na obchodovanie sa preceňujú výsledkovo, zabezpečovacie deriváty spravidla súvahovo cez 414."
     },
     {
       "nadpis": "Vzťah k IFRS",
@@ -122,14 +122,28 @@
           "popis": "Peniaze v menovitej hodnote"
         },
         {
-          "rok": "",
+          "rok": "obstaranie",
           "md": "042",
-          "d": "384/648",
+          "d": "384",
           "suma": 8000,
-          "popis": "Dar v reálnej hodnote"
+          "popis": "Prijatý dar DHM – obstaranie v reálnej hodnote oproti výnosom budúcich období (postupy § 56 ods. 12)"
+        },
+        {
+          "rok": "zaradenie",
+          "md": "022",
+          "d": "042",
+          "suma": 8000,
+          "popis": "Zaradenie automobilu z daru do používania"
+        },
+        {
+          "rok": "postupne",
+          "md": "384",
+          "d": "648",
+          "suma": "ročný odpis",
+          "popis": "Postupné rozpúšťanie 384 do výnosov vo výške ročných odpisov (zaúčtovanie daru počas životnosti)"
         }
       ],
-      "riesenie": "(a) obstarávacia cena = 21 000 € (cena + súvisiace náklady). (b) vlastné náklady = 3 500 €. (c) menovitá hodnota = 1 500 €. (d) reálna hodnota = 8 000 € (do 2015 by to bola reprodukčná OC).",
+      "riesenie": "(a) obstarávacia cena = 21 000 € (cena + súvisiace náklady). (b) vlastné náklady = 3 500 €. (c) menovitá hodnota = 1 500 €. (d) reálna hodnota = 8 000 € (do 2015 by to bola reprodukčná OC). Účtovanie daru DHM má tri kroky: (1) obstaranie 042/384 v reálnej hodnote 8 000 €; (2) zaradenie do používania 022/042; (3) postupné rozpúšťanie účtu 384 do výnosov 384/648 vo výške ročných odpisov 551/082 (matching: výnos sa rozpúšťa v rovnakom rytme, v akom sa náklad zaúčtuje cez odpisy).",
       "dopad_na_zd": "Vstupné ceny určujú základ pre odpisy a neskoršie vyradenie; dar sa zúčtuje do výnosov rozpúšťaním cez 384."
     },
     {
@@ -173,7 +187,7 @@
           "popis": "Precenenie na reálnu hodnotu – výnos"
         }
       ],
-      "riesenie": "Cenné papiere na obchodovanie sa ku dňu závierky preceňujú na reálnu hodnotu (§ 27 ods. 1). Reálnou hodnotou je trhová cena = záverečná burzová cena 5 800 €. Rozdiel +800 € sa účtuje výsledkovo (664). Pri poklese by išlo o náklad (564).",
+      "riesenie": "Cenné papiere na obchodovanie sa ku dňu závierky preceňujú na reálnu hodnotu (fair value) (§ 27 ods. 1). Reálnou hodnotou je trhová cena = záverečná burzová cena 5 800 €. Rozdiel +800 € sa účtuje výsledkovo cez 251/664 (Výnosy z precenenia cenných papierov). Pri poklese by išlo o náklad 564/251 (Náklady na precenenie cenných papierov). Pozn.: účty 567/667 sa používajú pre derivátové operácie (precenenie derivátov), nie pre štandardné CP na obchodovanie.",
       "dopad_na_zd": "Zmena reálnej hodnoty CP na obchodovanie ovplyvňuje výsledok hospodárenia; daňový režim podľa ZDP."
     },
     {
@@ -194,7 +208,7 @@
     {
       "nazov": "Oprava chyby minulého obdobia podľa významnosti",
       "zadanie": "V roku 2026 firma zistila, že v roku 2024 nezaúčtovala náklad na službu 600 € (nevýznamný) a v inom prípade neúčtovala výnos 40 000 € (významný).",
-      "riesenie": "Nevýznamná chyba (600 €) sa zaúčtuje ako účtovný prípad bežného obdobia 2026 na príslušnom nákladovom účte (518/321). Významná chyba (40 000 €) sa zaúčtuje retrospektívne na účet 428 – Nerozdelený zisk minulých rokov (315/428), teda mimo výsledku hospodárenia roku 2026 a uvedie sa v poznámkach.",
+      "riesenie": "Nevýznamná chyba (600 €) sa zaúčtuje ako účtovný prípad bežného obdobia 2026 na príslušnom nákladovom účte (518/321). Významná chyba (40 000 €) sa zaúčtuje retrospektívne na účet 428 – Nerozdelený zisk minulých rokov (315 alebo 311/428 (315 – Ostatné pohľadávky pri pohľadávke neobchodnej povahy; 311 – Odberatelia ak ide o doúčtovanie obchodnej pohľadávky napr. neúčtovanej tržby)), teda mimo výsledku hospodárenia roku 2026 a uvedie sa v poznámkach.",
       "dopad_na_zd": "Významná oprava cez 428/429 sa premietne do dodatočného daňového priznania za rok 2024, nie do ZD roku 2026."
     },
     {
@@ -394,7 +408,7 @@
           "komodity obchodované na verejnom trhu"
         ],
         "spravna_index": 2,
-        "vysvetlenie": "§ 27 ods. 1 písm. a) – cenné papiere držané do splatnosti (a vlastné CP, podiely v dcérach) sa nepreceňujú."
+        "vysvetlenie": "§ 27 ods. 1 písm. a) – cenné papiere držané do splatnosti (a vlastné CP, podiely v dcérach) sa nepreceňujú. Pokles hodnoty týchto položiek sa premieta nepriamo – tvorbou opravnej položky (§ 26 ods. 4), nie zmenou hodnoty samotného účtu majetku (napr. 11x ostáva v OC, OP 19x kontraaktívum)."
       }
     ],
     "otvorene": [
@@ -414,7 +428,7 @@
     "priklad": [
       {
         "zadanie": "Firma k 31. 12. 2025 eviduje: (a) neuhradenú pohľadávku 2 000 USD (vznik pri kurze 1,08; kurz k 31.12. = 1,00); (b) zásobu materiálu v účtovníctve 5 000 €, čistá realizačná hodnota 4 200 €; (c) akcie na obchodovanie obstarané za 3 000 €, trhová cena 2 600 €. Určte správne ocenenie a zaúčtovanie ku dňu závierky.",
-        "riesenie": "(a) Pohľadávka pri vzniku 2000/1,08 = 1 851,85 €; k 31.12. 2000/1,00 = 2 000 € → kurzový zisk 148,15 € (311/663). (b) Čistá realizačná hodnota 4 200 < 5 000 → opravná položka 800 € (505/191). (c) Akcie na obchodovanie sa preceňujú na reálnu hodnotu 2 600 €, pokles 400 € výsledkovo (564/251). Spolu sa premietne zásada opatrnosti (OP, precenenie nadol) a povinné použitie referenčného kurzu."
+        "riesenie": "(a) Pohľadávka pri vzniku 2000/1,08 = 1 851,85 €; k 31.12. 2000/1,00 = 2 000 € → kurzový zisk 148,15 € – zápis 311/663 vo výške 148,15 € (§ 24 ods. 6). (b) Čistá realizačná hodnota 4 200 < 5 000 → opravná položka 800 € (505/191). (c) Akcie na obchodovanie sa preceňujú na reálnu hodnotu 2 600 €, pokles 400 € výsledkovo (564/251). Spolu sa premietne zásada opatrnosti (OP, precenenie nadol) a povinné použitie referenčného kurzu."
       }
     ]
   },

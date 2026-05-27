@@ -5,8 +5,8 @@
   "cislo": 7,
   "nazov": "Postup audítora v oblasti pohľadávok a záväzkov",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Medzinárodné audítorské štandardy (ISA) v znení účinnom k máju 2026. KĽÚČOVÉ: ISA 505 Externé potvrdenia, ISA 315 (revidovaný 2019) Identifikácia a posúdenie rizík významnej nesprávnosti, ISA 330 Reakcie audítora na posúdené riziká, ISA 500 Audítorské dôkazy, ISA 520 Analytické postupy, ISA 540 (revidovaný) Audit účtovných odhadov (opravné položky), ISA 560 Následné udalosti. Štatutárny audit v SR: zákon č. 423/2015 Z. z. v znení k máju 2026. Účtovný rámec: zákon č. 431/2002 Z. z. o účtovníctve a postupy účtovania pre podnikateľov.",
+  "verzia": "1.2",
+  "stav_legislativy": "Medzinárodné audítorské štandardy (ISA) v znení účinnom k máju 2026. KĽÚČOVÉ: ISA 505 Externé potvrdenia, ISA 315 (revidovaný 2019) Identifikácia a posúdenie rizík významnej nesprávnosti, ISA 330 Reakcie audítora na posúdené riziká, ISA 500 Audítorské dôkazy, ISA 520 Analytické postupy, ISA 540 (revidovaný) Audit účtovných odhadov (opravné položky), ISA 560 Následné udalosti. Štatutárny audit v SR: zákon č. 423/2015 Z. z. v znení k máju 2026. Účtovný rámec: zákon č. 431/2002 Z. z. o účtovníctve a postupy účtovania pre podnikateľov. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "audítorské tvrdenia (assertions) – existencia, úplnosť, ocenenie, práva a záväzky, cut-off, prezentácia",
     "smer rizika (directional risk): pohľadávky/výnosy → riziko NADHODNOTENIA; záväzky → riziko PODHODNOTENIA",
@@ -40,7 +40,7 @@
       },
       {
         "nadpis": "Pohľadávky – ocenenie a vymožiteľnosť (opravné položky, veková štruktúra)",
-        "text": "Druhým ťažiskom je OCENENIE – či sú pohľadávky vykázané v reálne inkasovateľnej hodnote, teda znížené o opravné položky k pochybným a nevymožiteľným pohľadávkam (účtovný odhad – ISA 540). Kľúčový nástroj je VEKOVÁ ŠTRUKTÚRA pohľadávok (aging): audítor ju otestuje na správnosť (preverí zaradenie do pásiem podľa splatnosti) a posúdi primeranosť opravných položiek na staré a sporné saldá. Postupy: následné inkaso po súvahovom dni (najpresvedčivejší dôkaz vymožiteľnosti – väzba na ISA 560), preverenie korešpondencie a upomienok, posúdenie bonity a finančnej situácie odberateľov, kontrola sporných a reklamovaných pohľadávok, posúdenie metodiky tvorby opravných položiek a dobytnosti pohľadávok po splatnosti. Pri pohľadávkach v cudzej mene aj správnosť prepočtu kurzom k súvahovému dňu."
+        "text": "Druhým ťažiskom je OCENENIE – či sú pohľadávky vykázané v reálne inkasovateľnej hodnote, teda znížené o opravné položky k pochybným a nevymožiteľným pohľadávkam (účtovný odhad – ISA 540). Kľúčový nástroj je VEKOVÁ ŠTRUKTÚRA pohľadávok (aging): audítor ju otestuje na správnosť (preverí zaradenie do pásiem podľa splatnosti) a posúdi primeranosť opravných položiek na staré a sporné saldá. Postupy: následné inkaso po súvahovom dni (najpresvedčivejší dôkaz vymožiteľnosti – väzba na ISA 560), preverenie korešpondencie a upomienok, posúdenie bonity a finančnej situácie odberateľov, kontrola sporných a reklamovaných pohľadávok, posúdenie metodiky tvorby opravných položiek a dobytnosti pohľadávok po splatnosti. Pri pohľadávkach v cudzej mene aj správnosť prepočtu kurzom k súvahovému dňu. V IFRS rámci je opravná položka modelovaná ako očakávané úverové straty (Expected Credit Losses, ECL podľa IFRS 9) — model je odhadovo náročnejší (vstupy, fázy 1–3, forward-looking informácie) a u SVZ veľmi často predstavuje kľúčovú záležitosť auditu (KAM)."
       },
       {
         "nadpis": "Pohľadávky – existencia, cut-off a analytické postupy",

@@ -9,7 +9,7 @@
   <text x="60" y="148" font-size="14" fill="#333">Dcérsky podnik (subsidiary)</text>
   <rect x="540" y="92" width="280" height="60" rx="8" fill="#3367d6"/>
   <text x="680" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">ÚPLNÁ KONSOLIDÁCIA</text>
-  <text x="680" y="140" text-anchor="middle" font-size="12" fill="#dce6fb">100 % aktív, záväzkov, V, N + NP</text>
+  <text x="680" y="140" text-anchor="middle" font-size="12" fill="#dce6fb">100 % aktív, záväzkov, V, N + nekontrolný podiel (NP)</text>
 
   <!-- Level 2: Joint control -->
   <rect x="40" y="186" width="800" height="186" rx="10" fill="#fef3e0" stroke="#e8820c" stroke-width="2"/>

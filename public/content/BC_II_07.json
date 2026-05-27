@@ -5,8 +5,8 @@
   "cislo": 7,
   "nazov": "Nezdaniteľné časti základu dane z príjmov fyzických osôb",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Znenie ZDP č. 595/2003 Z. z. účinné k 1. 1. 2026; sumy a sadzby overené k máju 2026 (ŽM 273,99 € pre rok 2025, 284,13 € pre rok 2026). Pozn.: starší údaj 'NČZD na daňovníka = 0 pri ZD od 47 058,57 € (2025)' z pomocného materiálu je nesprávny – správne je 42 413,65 € (= 154,8× ŽM 273,99).",
+  "verzia": "1.2",
+  "stav_legislativy": "Znenie ZDP č. 595/2003 Z. z. účinné k 1. 1. 2026; sumy a sadzby overené k máju 2026 (ŽM 273,99 € pre rok 2025, 284,13 € pre rok 2026). Pozn.: starší údaj 'NČZD na daňovníka = 0 pri ZD od 47 058,57 € (2025)' z pomocného materiálu je nesprávny – správne je 42 413,65 € (= 154,8× ŽM 273,99). Druhé kolo revízie (máj 2026, Klaster E – Dane): opravené N-10/ID 156 (nulový bod NČZD na manželku 60 349,21 € v 2026; 58 200,28 € v 2025; 70,8× ŽM = 20 116,40 €), N-11 (§ 11 ods. 11 DDS dodanenie – nie '3 roky'), N-12 (stravné samostatne od náhrady za vozidlo), N-13 (predpoklad sadzby 19 %), N-14 (do 6 r. len pri ZŤP dieťati), N-15 (rozlíšenie 154,8× vs. 212,4× ŽM), N-16 (SZČO 15 % do 100k), N-17 (pasca paušál 80 % DZP vs. 50 % DPH), N-18 (dopočet dane 3 135,54 €).",
   "klucove_pojmy": [
     "nezdaniteľná časť základu dane (NČZD)",
     "životné minimum (ŽM)",
@@ -21,7 +21,8 @@
     "nedaňový výdavok (§ 21)",
     "paušál 80 % (§ 19 ods. 2 písm. t)",
     "cestovné náhrady (§ 19 ods. 2 písm. d)",
-    "stravné a stravovanie (§ 152 ZP)"
+    "stravné a stravovanie (§ 152 ZP)",
+    "nulový bod NČZD na manželku pri ZD ≥ 212,4× ŽM (60 349,21 € v 2026; 58 200,28 € v 2025)"
   ],
   "princip_mentalny_model": "NČZD je 'odpočet zo základu dane' – nie zľava na dani. Funguje ako sito v dvoch krokoch. Krok 1: na ktorý ZD sa vôbec dá uplatniť? NČZD znižujú len čiastkový ZD z AKTÍVNYCH príjmov – zo závislej činnosti (§ 5) a z podnikania/SZČ (§ 6 ods. 1 a 2). Pasívne príjmy (prenájom § 6/3, kapitál § 7, ostatné § 8) sa cez NČZD znížiť nedajú. Krok 2: koľko? Základná veličina je ŽIVOTNÉ MINIMUM platné k 1. 1. daného roka, od ktorého sa všetko odvodzuje cez násobky. NČZD na daňovníka = 21× ŽM, ale len do hranice ZD 91,8× ŽM; nad ňu sa lineárne kráti vzorcom (51,6× ŽM − 1/3 ZD) až na nulu pri ZD = 154,8× ŽM. NČZD na manželku = 19,2× ŽM, kráti sa DVOMA pákami: vlastným príjmom manželky a (pri vyššom ZD daňovníka) vzorcom 70,8× ŽM − 1/3 ZD; navyše má prísne podmienky (dieťa do 3/6 r., evidencia uchádzačov, ZŤP). Tretia NČZD – príspevky na DDS/PEPP do 180 € – je z reálne zaplatených súm. Druhá veľká téma okruhu sú DAŇOVÉ VÝDAVKY FO: tie znižujú ZD ešte pred NČZD a riadia sa otázkou 'súvisí výdavok so zdaniteľným príjmom?' (§ 2 písm. i, § 19) a 'nie je vylúčený?' (§ 21). Pri majetku používanom aj súkromne ZDP ponúka pohodlný paušál 80 %.",
   "jadro_odpovede_10min": {
@@ -38,11 +39,11 @@
       },
       {
         "nadpis": "NČZD na manželku/manžela – podmienky a dvojité krátenie",
-        "text": "Základná suma je 19,2-násobok ŽM: 5 260,61 € (2025), 5 455,30 € (2026) – ale len ak manželka nemá vlastný príjem. Ak má vlastný príjem do tejto sumy, NČZD = rozdiel (suma 19,2× ŽM − vlastný príjem); ak príjem prevyšuje, NČZD = 0. Vlastný príjem sa berie znížený o povinné poistné; nezahŕňa sa doň napr. daňový bonus, štátne sociálne dávky, štipendium. Druhé krátenie nastáva pri vysokom ZD daňovníka: ak ZD > 154,8× ŽM, NČZD na manželku = (70,8× ŽM − 1/3 ZD) − vlastný príjem. Navyše platí prísna podmienka uplatniteľnosti (§ 11 ods. 4): manželka musí spĺňať aspoň jedno – starať sa o vyživované dieťa do 3 (resp. 6) rokov, poberať peňažný príspevok na opatrovanie, byť v evidencii uchádzačov o zamestnanie, alebo byť občan so zdravotným/ťažkým zdravotným postihnutím. NČZD sa uplatní pomerne – 1/12 za každý mesiac, na začiatku ktorého boli podmienky splnené."
+        "text": "Základná suma je 19,2-násobok ŽM: 5 260,61 € (2025), 5 455,30 € (2026) – ale len ak manželka nemá vlastný príjem. Ak má vlastný príjem do tejto sumy, NČZD = rozdiel (suma 19,2× ŽM − vlastný príjem); ak príjem prevyšuje, NČZD = 0. Vlastný príjem sa berie znížený o povinné poistné; nezahŕňa sa doň napr. daňový bonus, štátne sociálne dávky, štipendium. Druhé krátenie nastáva pri vysokom ZD daňovníka: ak ZD > 154,8× ŽM, NČZD na manželku = (70,8× ŽM − 1/3 ZD) − vlastný príjem. Navyše platí prísna podmienka uplatniteľnosti (§ 11 ods. 4): manželka musí spĺňať aspoň jedno – starať sa o vyživované dieťa do 3 rokov veku (do 6 rokov pri dieťati s dlhodobo nepriaznivým zdravotným stavom), poberať peňažný príspevok na opatrovanie, byť v evidencii uchádzačov o zamestnanie, alebo byť občan so zdravotným/ťažkým zdravotným postihnutím. NČZD sa uplatní pomerne – 1/12 za každý mesiac, na začiatku ktorého boli podmienky splnené. Z dvojitého krátenia vyplýva NULOVÝ BOD NČZD na manželku: pri ZD daňovníka ≥ 212,4× ŽM, t. j. 60 349,21 € v 2026 (212,4 × 284,13) alebo 58 200,28 € v 2025 (212,4 × 273,99) klesne NČZD na manželku na nulu (aj keď manželka nemá žiadny vlastný príjem). Suma 70,8× ŽM = 20 116,40 € v 2026, resp. 19 398,49 € v 2025."
       },
       {
         "nadpis": "NČZD na príspevky na DDS a PEPP (max 180 €)",
-        "text": "Tretia NČZD sú preukázateľne zaplatené príspevky na doplnkové dôchodkové sporenie a na PEPP – v úhrne najviac 180 € za rok (§ 11 ods. 8 a 9). Podmienky (§ 11 ods. 10): účastnícka zmluva uzatvorená alebo zmenená po 31. 12. 2013 (so zrušením dávkového plánu) a daňovník nemá uzatvorenú inú, staršiu nevyhovujúcu zmluvu. Ide o jediný limit vyjadrený pevnou sumou (nie násobkom ŽM). Pri predčasnom výbere je daňovník povinný do troch rokov dodaniť už uplatnené sumy (§ 11 ods. 11) – ide o tzv. 'vrátenie' výhody."
+        "text": "Tretia NČZD sú preukázateľne zaplatené príspevky na doplnkové dôchodkové sporenie a na PEPP – v úhrne najviac 180 € za rok (§ 11 ods. 8 a 9). Podmienky (§ 11 ods. 10): účastnícka zmluva uzatvorená alebo zmenená po 31. 12. 2013 (so zrušením dávkového plánu) a daňovník nemá uzatvorenú inú, staršiu nevyhovujúcu zmluvu. Ide o jediný limit vyjadrený pevnou sumou (nie násobkom ŽM). Pri porušení podmienok (napr. predčasný výber, zmena typu zmluvy, ktorá vedie k nesplneniu podmienok § 11 ods. 10) musí daňovník v zdaňovacom období, v ktorom k porušeniu došlo, ZVÝŠIŤ základ dane o sumy, ktoré si v predchádzajúcich obdobiach uplatnil ako NČZD na DDS/PEPP (§ 11 ods. 11). Nejde teda o 'trojročnú lehotu', ale o jednorazové zvýšenie ZD v období, keď nastane skutočnosť porušenia."
       },
       {
         "nadpis": "Daňové výdavky FO a ich vplyv na ZD",
@@ -68,7 +69,7 @@
   "rozsirena_baza": [
     {
       "nadpis": "Prečo práve životné minimum a násobky",
-      "text": "Naviazanie NČZD na životné minimum k 1. 1. zabezpečuje, že 'existenčné minimum' príjmu sa nezdaňuje a suma sa automaticky valorizuje. Konsolidácia 2025/2026 ponechala násobky (21×, 19,2×, 91,8×, 51,6×, 154,8×, 70,8×) nezmenené – menia sa len absolútne sumy cez vyššie ŽM (273,99 € → 284,13 €). Pozor: hranice daňových PÁSIEM FO sa po novele od 1. 1. 2026 menia inak (4 pásma od 154,8× ŽM = 43 983,32 €), nemýliť si ich s krátením NČZD."
+      "text": "Naviazanie NČZD na životné minimum k 1. 1. zabezpečuje, že 'existenčné minimum' príjmu sa nezdaňuje a suma sa automaticky valorizuje. Konsolidácia 2025/2026 ponechala násobky (21×, 19,2×, 91,8×, 51,6×, 154,8×, 70,8×) nezmenené – menia sa len absolútne sumy cez vyššie ŽM (273,99 € → 284,13 €). Pozor: hranice daňových PÁSIEM FO sa po novele od 1. 1. 2026 menia inak (4 pásma od 154,8× ŽM = 43 983,32 €), nemýliť si ich s krátením NČZD. POZOR: pre SZČO podľa § 6 ods. 1 a 2 sa do zdaniteľných príjmov 100 000 € použije plošne 15 % na celý ZD; pásma 19/25/30/35 % sa pri SZČO uplatnia až nad obrat 100 000 €."
     },
     {
       "nadpis": "Daňový bonus vs. NČZD",
@@ -97,7 +98,7 @@
     {
       "nazov": "NČZD na daňovníka – plná suma a porovnanie 2025 vs 2026",
       "zadanie": "Zamestnanec má za rok ZD zo závislej činnosti 18 000 €. Aká je NČZD a ZD po znížení v roku 2025 a 2026?",
-      "riesenie": "ZD 18 000 € ≤ 91,8× ŽM (25 152,28 € v 2025, 26 083,13 € v 2026), takže plná NČZD. 2025: NČZD 5 753,79 € → ZD po znížení 12 246,21 €. 2026: NČZD 5 966,73 € → ZD po znížení 12 033,27 €. Daňový efekt NČZD pri sadzbe 19 %: 2025 ≈ 1 093,22 €, 2026 ≈ 1 133,68 € ušetrenej dane.",
+      "riesenie": "ZD 18 000 € ≤ 91,8× ŽM (25 152,28 € v 2025, 26 083,13 € v 2026), takže plná NČZD. 2025: NČZD 5 753,79 € → ZD po znížení 12 246,21 €. 2026: NČZD 5 966,73 € → ZD po znížení 12 033,27 €. Daňový efekt NČZD pri sadzbe 19 %: 2025 ≈ 1 093,22 €, 2026 ≈ 1 133,68 € ušetrenej dane. Predpoklad: daňovník nemá iné príjmy a ZD je hlboko pod hranicou 1. pásma DPFO 2026 (43 983,32 €) → uplatní sa sadzba 19 %.",
       "dopad_na_zd": "2025: −5 753,79 €; 2026: −5 966,73 € (plná NČZD na daňovníka)."
     },
     {
@@ -115,8 +116,8 @@
     {
       "nazov": "Cestovné náhrady – tuzemská PC vlastným autom (rok 2026)",
       "zadanie": "Zamestnanec na pracovnej ceste (14 hodín) použil vlastné auto, najazdil 200 km. Spotreba podľa TP 6,5 l/100 km, cena PHL 1,60 €/l. Sadzba základnej náhrady 0,313 €/km (od 1. 1. 2026).",
-      "riesenie": "Základná náhrada = 200 × 0,313 = 62,60 €. Náhrada za PHL = (6,5/100) × 1,60 × 200 = 0,104 × 200 = 20,80 €. Stravné (pásmo 12–18 h) = 13,80 €. Spolu cestovná náhrada = 62,60 + 20,80 + 13,80 = 97,20 €. Celá suma je do výšky nároku podľa zákona o CN → daňový výdavok zamestnávateľa.",
-      "dopad_na_zd": "Daňový výdavok 97,20 € (do výšky nároku podľa § 19 ods. 2 písm. d)."
+      "riesenie": "Základná náhrada = 200 × 0,313 = 62,60 €. Náhrada za PHL = (6,5/100) × 1,60 × 200 = 0,104 × 200 = 20,80 €. Stravné (pásmo 12–18 h) = 13,80 €. Náhrada za používanie vlastného vozidla (§ 7 zákona č. 283/2002 Z. z.) = základná náhrada 62,60 € + náhrada za PHL 20,80 € = 83,40 €. Stravné (§ 4 zákona č. 283/2002, pásmo 12–18 h) = 13,80 € – ide o samostatný typ cestovnej náhrady. SPOLU cestovné náhrady na PC = 83,40 + 13,80 = 97,20 €. Celá suma je do výšky nároku podľa zákona o CN → daňový výdavok zamestnávateľa.",
+      "dopad_na_zd": "Daňový výdavok spolu 97,20 € (z toho náhrada za vozidlo 83,40 € a stravné 13,80 €) (do výšky nároku podľa § 19 ods. 2 písm. d)."
     },
     {
       "nazov": "Stravné SZČO za odpracované dni (rok 2026)",
@@ -170,7 +171,7 @@
     },
     {
       "otazka": "Ako sa kráti NČZD na daňovníka pri vysokom základe dane?",
-      "odpoved": "Do ZD 91,8× ŽM plná suma 21× ŽM. Nad ňu lineárne: NČZD = 51,6× ŽM − 1/3 ZD. Pri ZD ≥ 154,8× ŽM (42 413,65 € v 2025, 43 983,32 € v 2026) je NČZD nula.",
+      "odpoved": "Do ZD 91,8× ŽM plná suma 21× ŽM. Nad ňu lineárne: NČZD = 51,6× ŽM − 1/3 ZD. Pri ZD ≥ 154,8× ŽM (42 413,65 € v 2025, 43 983,32 € v 2026) je NČZD nula. POZOR na rozlíšenie: 154,8× ŽM platí pre nulový bod NČZD NA DAŇOVNÍKA; NČZD na manželku/manžela klesá na nulu pri ZD daňovníka ≥ 212,4× ŽM (60 349,21 € v 2026).",
       "moznosti": [
         "Do ZD 91,8× ŽM plná suma 21× ŽM, nad ňu lineárne 51,6× ŽM − 1/3 ZD, nula pri ZD ≥ 154,8× ŽM",
         "Do ZD 154,8× ŽM plná suma 19,2× ŽM, nad ňu skokovo na nulu",
@@ -181,7 +182,7 @@
       "spravne_indexy": [
         0
       ],
-      "vysvetlenie": "Do ZD 91,8× ŽM plná suma 21× ŽM. Nad ňu lineárne: NČZD = 51,6× ŽM − 1/3 ZD. Pri ZD ≥ 154,8× ŽM (42 413,65 € v 2025, 43 983,32 € v 2026) je NČZD nula."
+      "vysvetlenie": "Do ZD 91,8× ŽM plná suma 21× ŽM. Nad ňu lineárne: NČZD = 51,6× ŽM − 1/3 ZD. Pri ZD ≥ 154,8× ŽM (42 413,65 € v 2025, 43 983,32 € v 2026) je NČZD nula. POZOR na rozlíšenie: 154,8× ŽM platí pre nulový bod NČZD NA DAŇOVNÍKA; NČZD na manželku/manžela klesá na nulu pri ZD daňovníka ≥ 212,4× ŽM (60 349,21 € v 2026)."
     },
     {
       "otazka": "Kedy si možno uplatniť NČZD na manželku a koľko?",
@@ -253,7 +254,8 @@
     "Myslieť si, že limit DDS je násobok ŽM – je to pevná suma 180 € ročne.",
     "Pliesť hranicu krátenia NČZD (91,8×/154,8× ŽM) s hranicami daňových pásiem FO od 2026.",
     "Pri aute používanom aj súkromne uplatniť 100 % výdavkov – treba paušál 80 % alebo preukázaný pomer.",
-    "Považovať cestovné náhrady nad zákonný rámec za daňové – sú daňové len do výšky nároku podľa zákona o CN."
+    "Považovať cestovné náhrady nad zákonný rámec za daňové – sú daňové len do výšky nároku podľa zákona o CN.",
+    "Nezamieňať paušál 80 % v dani z príjmov (§ 19 ods. 2 písm. t) ZDP – pri majetku používanom aj súkromne) s paušálnym odpočtom DPH 50 % pri obstaraní osobných áut kategórie M1 platným od 1. 1. 2026 do 30. 6. 2028 (§ 49 ZDPH; zákon č. 261/2025)."
   ],
   "test": {
     "vyber_z_moznosti": [
@@ -341,7 +343,7 @@
     "priklad": [
       {
         "zadanie": "SZČO za rok 2026 (ŽM 284,13 €): čiastkový ZD z podnikania 30 000 €. Manželka sa stará o 1-ročné dieťa, vlastný príjem 1 200 €. Daňovník zaplatil príspevky na DDS 250 €. Vypočítajte všetky NČZD a ZD po znížení.",
-        "riesenie": "NČZD na daňovníka: ZD 30 000 € > 26 083,13 € → krátenie = 14 661,11 − 30 000/3 = 14 661,11 − 10 000 = 4 661,11 €. NČZD na manželku: ZD < 43 983,32 €, podmienka splnená → 5 455,30 − 1 200 = 4 255,30 €. NČZD na DDS: zaplatené 250 €, ale max 180 € → 180 €. Spolu NČZD = 4 661,11 + 4 255,30 + 180 = 9 096,41 €. ZD po znížení = 30 000 − 9 096,41 = 20 903,59 €."
+        "riesenie": "NČZD na daňovníka: ZD 30 000 € > 26 083,13 € → krátenie = 14 661,11 − 30 000/3 = 14 661,11 − 10 000 = 4 661,11 €. NČZD na manželku: ZD < 43 983,32 €, podmienka splnená → 5 455,30 − 1 200 = 4 255,30 €. NČZD na DDS: zaplatené 250 €, ale max 180 € → 180 €. Spolu NČZD = 4 661,11 + 4 255,30 + 180 = 9 096,41 €. ZD po znížení = 30 000 − 9 096,41 = 20 903,59 €. Dopočet dane: predpokladajme SZČO so zdaniteľnými príjmami ≤ 100 000 € → sadzba 15 % → daň = 20 903,59 × 15 % = 3 135,54 €. Ak by SZČO mala zdaniteľné príjmy > 100 000 €, uplatnia sa pásma DPFO 2026 (19/25/30/35 %)."
       }
     ]
   },

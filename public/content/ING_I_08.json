@@ -5,12 +5,12 @@
   "cislo": 8,
   "nazov": "Model kontroly a postupy konsolidácie dcérskych podnikov podľa IFRS",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "IFRS 10 Konsolidovaná účtovná závierka v znení prijatom EÚ (konsolidované nariadenie (EÚ) 2023/1803, znenie k 30. 7. 2025). Definícia ovládania IFRS 10.6–7, výnimky 10.4–4B, deň závierky a pravidlo troch mesiacov B92, jednotná účtovná politika B87, postupy konsolidácie B86–B89, investičné jednotky 10.27–33, zmeny podielu 10.23 (bez straty kontroly) a 10.25–26 (so stratou kontroly).",
+  "verzia": "1.2",
+  "stav_legislativy": "IFRS 10 Konsolidovaná účtovná závierka v znení prijatom EÚ (konsolidované nariadenie (EÚ) 2023/1803, znenie k 30. 7. 2025). Definícia ovládania IFRS 10.6–7, výnimky 10.4–4B, deň závierky a pravidlo troch mesiacov B92, jednotná účtovná politika B87, postupy konsolidácie B86–B89, investičné spoločnosti 10.27–33, zmeny podielu 10.23 (bez straty kontroly) a 10.25–26 (so stratou kontroly). Overené k máju 2026. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "ovládanie (kontrola) podľa IFRS 10",
-    "moc / právomoci nad subjektom",
-    "expozícia voči variabilným (premenlivým) výnosom",
+    "právomoci nad subjektom",
+    "expozícia voči premenlivým výnosom (variabilným)",
     "schopnosť ovplyvniť výnosy mocou (väzba moc–výnosy)",
     "relevantné činnosti",
     "konsolidovaná účtovná závierka (KÚZ)",
@@ -18,22 +18,22 @@
     "agregácia (súčet 100 %)",
     "konsolidácia kapitálu (eliminácia investície proti VI)",
     "goodwill / zisk z výhodnej kúpy (IFRS 3)",
-    "nekontrolujúce podiely (NCI / NP)",
+    "nekontrolný podiel (NP / NCI)",
     "eliminácia vnútroskupinových transakcií a medzivýsledku",
     "pravidlo troch mesiacov (B92)",
     "jednotná účtovná politika",
-    "investičná jednotka (výnimka z konsolidácie)",
+    "investičná spoločnosť (investment entity) (výnimka z konsolidácie)",
     "zmena podielu bez straty kontroly (transakcia s vlastníkmi)",
     "strata kontroly / odkonsolidácia"
   ],
-  "princip_mentalny_model": "IFRS 10 stojí na jedinej myšlienke: konsoliduj všetko, čo OVLÁDAŠ – bez ohľadu na to, koľko percent vlastníš. Ovládanie nie je o vlastníckom podiele, ale o troch prvkoch súčasne (IFRS 10.7): (1) MOC nad subjektom (existujúce práva riadiť relevantné činnosti, t. j. tie, ktoré ovplyvňujú výnosy), (2) EXPOZÍCIA voči variabilným (premenlivým) výnosom z podielu a (3) VÄZBA – schopnosť využiť moc na ovplyvnenie výšky vlastných výnosov. Chýba čo i len jeden prvok = niet kontroly = nekonsoliduje sa. Keď kontrola existuje, uplatní sa metóda úplnej konsolidácie postavená na FIKCII PRÁVNICKEJ JEDNOTKY: na skupinu sa hľadí, akoby bola jediným podnikom. Z toho plynie celá mechanika: sčítaj 100 % všetkého (agregácia), vymaž investíciu materskej proti vlastnému imaniu dcéry (konsolidácia kapitálu, rozdiel = goodwill alebo zisk z výhodnej kúpy podľa IFRS 3), vyhoď všetko, čo vznikol iba preto, že firmy obchodovali medzi sebou (vnútroskupinové pohľadávky/záväzky, N a V, nerealizovaný medzivýsledok v zásobách a majetku) a to, čo nepatrí matke, vyčleň ako nekontrolujúce podiely. Mantra do skúšky: 'Ovládam → konsolidujem 100 % → eliminujem investíciu aj vnútroskupinové vzťahy → cudzie vyčlením do NCI.'",
+  "princip_mentalny_model": "IFRS 10 stojí na jedinej myšlienke: konsoliduj všetko, čo OVLÁDAŠ – bez ohľadu na to, koľko percent vlastníš. Ovládanie nie je o vlastníckom podiele, ale o troch prvkoch súčasne (IFRS 10.7): (1) PRÁVOMOCI nad subjektom (existujúce práva riadiť relevantné činnosti, t. j. tie, ktoré ovplyvňujú výnosy), (2) EXPOZÍCIA voči premenlivým výnosom (variabilným) z podielu a (3) VÄZBA – schopnosť využiť právomoci na ovplyvnenie výšky vlastných výnosov. Chýba čo i len jeden prvok = niet kontroly = nekonsoliduje sa. Keď kontrola existuje, uplatní sa metóda úplnej konsolidácie postavená na FIKCII PRÁVNICKEJ JEDNOTKY: na skupinu sa hľadí, akoby bola jediným podnikom. Z toho plynie celá mechanika: sčítaj 100 % všetkého (agregácia), vymaž investíciu materskej proti vlastnému imaniu dcéry (konsolidácia kapitálu, rozdiel = goodwill alebo zisk z výhodnej kúpy podľa IFRS 3), vyhoď všetko, čo vznikol iba preto, že firmy obchodovali medzi sebou (vnútroskupinové pohľadávky/záväzky, N a V, nerealizovaný medzivýsledok v zásobách a majetku) a to, čo nepatrí matke, vyčleň ako nekontrolné podiely (NP). Mantra do skúšky: 'Ovládam (mám právomoci) → konsolidujem 100 % → eliminujem investíciu aj vnútroskupinové vzťahy → cudzie vyčlením do NCI.'",
   "jadro_odpovede_10min": {
     "cielova_dlzka_slov": 1450,
-    "uvod": "IFRS 10 Konsolidovaná účtovná závierka stanovuje jednotný princíp pre to, kedy musí účtovná jednotka (materská spoločnosť) zostaviť konsolidovanú závierku: konsoliduje každý subjekt, ktorý OVLÁDA. Ovládanie je definované cez tri prvky, ktoré musia byť splnené súčasne. Ak ovládanie existuje, uplatní sa metóda úplnej konsolidácie založená na fikcii právnickej jednotky – skupina sa vykáže, akoby šlo o jeden podnik. Štandard zároveň rieši výnimky z konsolidácie, deň zostavenia závierky, jednotnú účtovnú politiku, vyčíslenie nekontrolujúcich podielov a osobitné situácie: investičné jednotky a zmeny vlastníckeho podielu so stratou a bez straty kontroly.",
+    "uvod": "IFRS 10 Konsolidovaná účtovná závierka stanovuje jednotný princíp pre to, kedy musí účtovná jednotka (materská spoločnosť) zostaviť konsolidovanú závierku: konsoliduje každý subjekt, ktorý OVLÁDA. Ovládanie je definované cez tri prvky, ktoré musia byť splnené súčasne. Ak ovládanie existuje, uplatní sa metóda úplnej konsolidácie založená na fikcii právnickej jednotky – skupina sa vykáže, akoby šlo o jeden podnik. Štandard zároveň rieši výnimky z konsolidácie, deň zostavenia závierky, jednotnú účtovnú politiku, vyčíslenie nekontrolných podielov a osobitné situácie: investičné spoločnosti a zmeny vlastníckeho podielu so stratou a bez straty kontroly.",
     "casti": [
       {
         "nadpis": "Model kontroly – tri prvky ovládania (IFRS 10.6–7)",
-        "text": "Investor (materská spoločnosť) ovláda subjekt, do ktorého investuje, vtedy a len vtedy, keď má expozíciu voči variabilným výnosom z podielu (alebo právo na ne) a je schopný tieto výnosy ovplyvňovať prostredníctvom svojej moci nad subjektom. Tri prvky musia platiť SÚČASNE: (1) MOC (právomoci) nad subjektom – existujúce práva, ktoré umožňujú riadiť relevantné činnosti, teda činnosti významne ovplyvňujúce výnosy subjektu (typicky väčšina hlasovacích práv, ale aj práva zo zmlúv či dohôd); (2) EXPOZÍCIA voči variabilným výnosom – výnosy sa môžu meniť podľa výkonnosti subjektu (dividendy, zmena hodnoty investície, ale aj iné prínosy); (3) VÄZBA medzi mocou a výnosmi – schopnosť využiť moc na ovplyvnenie výšky vlastných výnosov (otázka, či investor koná ako mocnár/principál, alebo len ako agent v cudzom záujme). Ak chýba čo i len jeden prvok, ovládanie neexistuje. IFRS 10 vyžaduje NEPRETRŽITÉ posudzovanie: pri zmene skutočností a okolností sa ovládanie prehodnocuje (10.8). Postup: identifikuj relevantné činnosti → posúď práva (aké mám a ako ich uplatňujem) → urči väzbu na variabilné výnosy."
+        "text": "Investor (materská spoločnosť) ovláda subjekt, do ktorého investuje, vtedy a len vtedy, keď má expozíciu voči premenlivým výnosom (variabilným) z podielu (alebo právo na ne) a je schopný tieto výnosy ovplyvňovať prostredníctvom svojich právomocí nad subjektom. Tri prvky musia platiť SÚČASNE: (1) PRÁVOMOCI nad subjektom – existujúce práva, ktoré umožňujú riadiť relevantné činnosti, teda činnosti významne ovplyvňujúce výnosy subjektu (typicky väčšina hlasovacích práv, ale aj práva zo zmlúv či dohôd); (2) EXPOZÍCIA voči premenlivým výnosom (variabilným) – výnosy sa môžu meniť podľa výkonnosti subjektu (dividendy, zmena hodnoty investície, ale aj iné prínosy); (3) VÄZBA medzi mocou a výnosmi – schopnosť využiť právomoci na ovplyvnenie výšky vlastných výnosov (otázka, či investor koná ako mocnár/principál, alebo len ako agent v cudzom záujme). Ak chýba čo i len jeden prvok, ovládanie neexistuje. IFRS 10 vyžaduje NEPRETRŽITÉ posudzovanie: pri zmene skutočností a okolností sa ovládanie prehodnocuje (10.8). Postup: identifikuj relevantné činnosti → posúď práva (aké mám a ako ich uplatňujem) → urči väzbu na premenlivé výnosy (variabilné)."
       },
       {
         "nadpis": "Výnimky z pôsobnosti a oslobodenie od konsolidácie (IFRS 10.4–4B)",
@@ -49,41 +49,41 @@
       },
       {
         "nadpis": "Postupy úplnej konsolidácie I. – agregácia a konsolidácia kapitálu (IFRS 10 B86)",
-        "text": "Metóda úplnej konsolidácie sa aplikuje odo dňa získania kontroly do dňa jej straty. Krok 1 – AGREGÁCIA: zlúčia sa rovnaké položky aktív, záväzkov, vlastného imania, výnosov a nákladov materskej a všetkých dcér riadok po riadku, v 100 % výške BEZ OHĽADU na výšku vlastníckeho podielu. Pred súčtom musia mať individuálne výkazy rovnakú štruktúru, byť v jednej mene a používať rovnaké metódy oceňovania a odpisovania; v súlade s IFRS 3 sa majetok a záväzky dcéry precenia na reálnu hodnotu k dátumu akvizície. Krok 2 – KONSOLIDÁCIA KAPITÁLU: eliminuje sa účtovná hodnota investície materskej v každej dcére proti podielu materskej na vlastnom imaní dcéry. Vzniknutý rozdiel sa spracuje podľa IFRS 3: ak je poskytnutá protihodnota vyššia než reálna hodnota nadobudnutých čistých aktív → GOODWILL (aktívum); ak nižšia → ZISK Z VÝHODNEJ KÚPY (výnos vo výsledku hospodárenia)."
+        "text": "Metóda úplnej konsolidácie sa aplikuje odo dňa získania kontroly do dňa jej straty. Krok 1 – AGREGÁCIA: zlúčia sa rovnaké položky aktív, záväzkov, vlastného imania, výnosov a nákladov materskej a všetkých dcér riadok po riadku, v 100 % výške BEZ OHĽADU na výšku vlastníckeho podielu. Pred súčtom musia mať individuálne výkazy rovnakú štruktúru, byť v jednej mene a používať rovnaké metódy oceňovania a odpisovania; v súlade s IFRS 3 sa majetok a záväzky dcéry precenia na reálnu hodnotu k dátumu akvizície (pozor: precenenie sa vykonáva na úrovni KÚZ — v individuálnej účtovnej závierke dcéry zostávajú aktíva a záväzky v pôvodnom ocenení, aplikuje sa len pre potreby konsolidácie). Krok 2 – KONSOLIDÁCIA KAPITÁLU: eliminuje sa účtovná hodnota investície materskej v každej dcére proti podielu materskej na vlastnom imaní dcéry. Vzniknutý rozdiel sa spracuje podľa IFRS 3: ak je poskytnutá protihodnota vyššia než reálna hodnota nadobudnutých čistých aktív → GOODWILL (aktívum); ak nižšia → ZISK Z VÝHODNEJ KÚPY (výnos vo výsledku hospodárenia)."
       },
       {
         "nadpis": "Postupy úplnej konsolidácie II. – eliminácia vnútroskupinových vzťahov a medzivýsledku (B86)",
         "text": "Krok 3 – ELIMINÁCIA VNÚTROSKUPINOVÝCH VZŤAHOV v plnom rozsahu (fikcia právnickej jednotky – tieto vzťahy by neexistovali, keby šlo o jeden podnik): (a) vzájomné pohľadávky a záväzky medzi členmi skupiny – v úplnej výške bez ohľadu na podiel materskej (konsolidácia záväzkov); (b) vnútroskupinové výnosy a náklady (napr. vzájomné fakturácie, predaj zásob); (c) NEREALIZOVANÝ MEDZIVÝSLEDOK aktivovaný v majetku – zisk/strata zabudovaná v ocenení zásob, dlhodobého majetku či cenných papierov u kupujúceho v skupine, kým majetok nebol predaný mimo skupiny (medzizisk = majetok nadhodnotený, medzistrata = podhodnotený). Pozor: vnútroskupinové straty, ktoré naznačujú zníženie hodnoty, sa neeliminujú (zásada opatrnosti). Na dočasné rozdiely z eliminácie sa aplikuje IAS 12 (odložená daň). Pri prvej konsolidácii sa medzivýsledok eliminuje v celej výške, pri nasledujúcich vo výške jeho ZMENY (zásada kontinuity)."
       },
       {
-        "nadpis": "Nekontrolujúce podiely (NCI) – vyčlenenie cudzieho vlastníctva",
-        "text": "Pretože sa agreguje 100 % dcéry, ale materská nemusí vlastniť 100 %, časť vlastného imania a výsledku hospodárenia patrí cudzím vlastníkom – nekontrolujúcim podielom (NP/NCI). NP sa vykazujú ODDELENE od vlastného imania pripadajúceho na vlastníkov materskej, a to osobitne na časť viažucu sa na ČISTÉ AKTÍVA dcéry a na časť viažucu sa na ZISK/STRATU dcéry. NP na čistých aktívach = hodnota NP k dátumu akvizície (ocenená podľa voľby materskej v IFRS 3) +/- podiel NP na zmenách vlastného imania od dátumu kombinácie. Voľba ocenenia NP k dátumu akvizície: buď reálnou hodnotou (→ PLNÝ goodwill aj na NP), alebo proporcionálnym podielom na čistých aktívach dcéry (→ ČIASTKOVÝ goodwill iba na podiel materskej). V konsolidovanom výkaze komplexného výsledku sa zisk/strata aj ostatný komplexný výsledok rozdelia samostatne na NP a na vlastníkov materskej."
+        "nadpis": "Nekontrolné podiely (NCI) – vyčlenenie cudzieho vlastníctva",
+        "text": "Pretože sa agreguje 100 % dcéry, ale materská nemusí vlastniť 100 %, časť vlastného imania a výsledku hospodárenia patrí cudzím vlastníkom – nekontrolným podielom (NP/NCI). NP sa vykazujú ODDELENE od vlastného imania pripadajúceho na vlastníkov materskej, a to osobitne na časť viažucu sa na ČISTÉ AKTÍVA dcéry a na časť viažucu sa na ZISK/STRATU dcéry. NP na čistých aktívach = hodnota NP k dátumu akvizície (ocenená podľa voľby materskej v IFRS 3) +/- podiel NP na zmenách vlastného imania od dátumu kombinácie. Voľba ocenenia NP k dátumu akvizície: buď reálnou hodnotou (→ PLNÝ goodwill aj na NP), alebo čiastkovým podielom (proporcionálnym) na čistých aktívach dcéry (→ ČIASTKOVÝ goodwill iba na podiel materskej). V konsolidovanom výkaze komplexného výsledku sa zisk/strata aj ostatný komplexný výsledok rozdelia samostatne na NP a na vlastníkov materskej."
       },
       {
-        "nadpis": "Investičné jednotky – výnimka z konsolidácie (IFRS 10.27–33)",
-        "text": "Investičná jednotka je subjekt, ktorý súčasne: (1) získava prostriedky od jedného alebo viacerých investorov s cieľom poskytovať im služby správy investícií; (2) zaväzuje sa, že jeho obchodným účelom je investovať len kvôli kapitálovému zhodnoteniu, investičnému výnosu alebo obom; a (3) oceňuje a posudzuje výkonnosť v podstate všetkých svojich investícií reálnou hodnotou. Investičná jednotka svoje dcéry NEKONSOLIDUJE a neuplatňuje IFRS 3 – namiesto toho ocení investíciu v dcére REÁLNOU HODNOTOU s vplyvom na výsledok hospodárenia podľa IFRS 9. Výnimka z výnimky (10.32): dcéru, ktorej hlavným účelom je poskytovať služby SÚVISIACE s investičnou činnosťou samotnej investičnej jednotky, treba normálne konsolidovať. Materská spoločnosť investičnej jednotky, ak sama nie je investičnou jednotkou, konsoliduje všetky subjekty pod svojou kontrolou (vrátane tých cez investičnú dcéru)."
+        "nadpis": "Investičné spoločnosti – výnimka z konsolidácie (IFRS 10.27–33)",
+        "text": "Investičná spoločnosť (investment entity) je subjekt, ktorý súčasne: (1) získava prostriedky od jedného alebo viacerých investorov s cieľom poskytovať im služby správy investícií; (2) zaväzuje sa, že jeho obchodným účelom je investovať len kvôli kapitálovému zhodnoteniu, investičnému výnosu alebo obom; a (3) oceňuje a posudzuje výkonnosť v podstate všetkých svojich investícií reálnou hodnotou. Investičná spoločnosť (investment entity) svoje dcéry NEKONSOLIDUJE a neuplatňuje IFRS 3 – namiesto toho ocení investíciu v dcére REÁLNOU HODNOTOU s vplyvom na výsledok hospodárenia podľa IFRS 9. Výnimka z výnimky (10.32): dcéru, ktorej hlavným účelom je poskytovať služby SÚVISIACE s investičnou činnosťou samotnej investičnej spoločnosti, treba normálne konsolidovať. Materská spoločnosť investičnej spoločnosti, ak sama nie je investičnou spoločnosťou, konsoliduje všetky subjekty pod svojou kontrolou (vrátane tých cez investičnú dcéru). POZOR: všetky tri kritériá musia byť splnené SÚČASNE — chýbajúce čo len jedno z nich znamená, že subjekt NIE JE investičnou spoločnosťou a musí konsolidovať svoje dcéry štandardne."
       },
       {
         "nadpis": "Zmeny vlastníckeho podielu – so stratou a bez straty kontroly (IFRS 10.23, 10.25–26)",
-        "text": "BEZ STRATY KONTROLY (10.23): zmena podielu materskej, pri ktorej naďalej ovláda dcéru (dokúpenie/predaj malého balíka, emisia nových akcií dcéry, odkup vlastných akcií dcérou). Ide o TRANSAKCIU S VLASTNÍKMI v rámci vlastného imania – materská upraví účtovné hodnoty kontrolujúcich a nekontrolujúcich podielov a prípadný rozdiel medzi zmenou NP a zaplatenou/prijatou protihodnotou vykáže PRIAMO VO VLASTNOM IMANÍ, BEZ vplyvu na výsledok hospodárenia skupiny (nevzniká goodwill ani zisk/strata). SO STRATOU KONTROLY (10.25–26): nastáva ODKONSOLIDÁCIA (predaj podielu, emisia akcií tretej strane, zánik zmluvy o kontrole, nútená správa/konkurz). Ku dňu straty kontroly materská: prestane vykazovať aktíva (vrátane goodwillu) a záväzky dcéry v ich účtovnej hodnote a NP; vykáže reálnu hodnotu prijatej protihodnoty a reálnu hodnotu ponechaného podielu v bývalej dcére; výsledný rozdiel (zisk/stratu) vykáže VÝSLEDKOVO. Všetky úpravy sa robia ku dňu straty kontroly a s dopadom na zisk/stratu (nie vo vlastnom imaní)."
+        "text": "BEZ STRATY KONTROLY (10.23): zmena podielu materskej, pri ktorej naďalej ovláda dcéru (dokúpenie/predaj malého balíka, emisia nových akcií dcéry, odkup vlastných akcií dcérou). Ide o TRANSAKCIU S VLASTNÍKMI v rámci vlastného imania – materská upraví účtovné hodnoty kontrolujúcich a nekontrolných podielov a prípadný rozdiel medzi zmenou NP a zaplatenou/prijatou protihodnotou vykáže PRIAMO VO VLASTNOM IMANÍ, BEZ vplyvu na výsledok hospodárenia skupiny (nevzniká goodwill ani zisk/strata). SO STRATOU KONTROLY (10.25–26): nastáva ODKONSOLIDÁCIA (predaj podielu, emisia akcií tretej strane, zánik zmluvy o kontrole, nútená správa/konkurz). Ku dňu straty kontroly materská: prestane vykazovať aktíva (vrátane goodwillu) a záväzky dcéry v ich účtovnej hodnote a NP; vykáže reálnu hodnotu prijatej protihodnoty a reálnu hodnotu ponechaného podielu v bývalej dcére; výsledný rozdiel (zisk/stratu) vykáže VÝSLEDKOVO. Všetky úpravy sa robia ku dňu straty kontroly a s dopadom na zisk/stratu (nie vo vlastnom imaní)."
       },
       {
-        "zaver": "IFRS 10 možno zhrnúť reťazcom: tri prvky ovládania (moc + variabilné výnosy + väzba) → ak existujú, povinná konsolidácia → metóda úplnej konsolidácie na fikcii právnickej jednotky (agregácia 100 % → eliminácia investície proti VI s goodwillom/ziskom z výhodnej kúpy → eliminácia vnútroskupinových vzťahov a medzivýsledku → vyčlenenie NCI). Výnimky: oslobodenie na medzistupni a investičné jednotky (oceňujú reálnou hodnotou cez VH). A dve dynamiky vlastníctva: zmena bez straty kontroly = transakcia s vlastníkmi vo VI, strata kontroly = odkonsolidácia výsledkovo."
+        "zaver": "IFRS 10 možno zhrnúť reťazcom: tri prvky ovládania (moc + premenlivé výnosy (variabilné) + väzba) → ak existujú, povinná konsolidácia → metóda úplnej konsolidácie na fikcii právnickej jednotky (agregácia 100 % → eliminácia investície proti VI s goodwillom/ziskom z výhodnej kúpy → eliminácia vnútroskupinových vzťahov a medzivýsledku → vyčlenenie NCI). Výnimky: oslobodenie na medzistupni a investičné spoločnosti (oceňujú reálnou hodnotou cez VH). A dve dynamiky vlastníctva: zmena bez straty kontroly = transakcia s vlastníkmi vo VI, strata kontroly = odkonsolidácia výsledkovo."
       }
     ]
   },
   "rozsirena_baza": [
     {
-      "nadpis": "Relevantné činnosti a posúdenie moci",
-      "text": "Relevantné činnosti sú tie, ktoré VÝZNAMNE ovplyvňujú výnosy subjektu (napr. predaj a nákup tovaru, riadenie financovania, výber a riadenie aktív, vymenovanie kľúčového manažmentu). Moc plynie z EXISTUJÚCICH práv riadiť tieto činnosti – najčastejšie z väčšiny hlasovacích práv, ale aj z potenciálnych hlasovacích práv (opcie, konvertibilné nástroje), zo zmluvných dohôd, alebo z faktickej kontroly (de facto control) pri rozdrobenom vlastníctve. Hodnotí sa podstata, nie iba forma."
+      "nadpis": "Relevantné činnosti a posúdenie právomocí",
+      "text": "Relevantné činnosti sú tie, ktoré VÝZNAMNE ovplyvňujú výnosy subjektu (napr. predaj a nákup tovaru, riadenie financovania, výber a riadenie aktív, vymenovanie kľúčového manažmentu). Právomoci plynú z EXISTUJÚCICH práv riadiť tieto činnosti – najčastejšie z väčšiny hlasovacích práv, ale aj z potenciálnych hlasovacích práv (opcie, konvertibilné nástroje), zo zmluvných dohôd, alebo z faktickej kontroly (de facto control) pri rozdrobenom vlastníctve. Hodnotí sa podstata, nie iba forma."
     },
     {
       "nadpis": "Principál vs. agent (väzba moc–výnosy)",
-      "text": "Tretí prvok rieši, či investor využíva moc vo VLASTNOM záujme (principál → konsoliduje), alebo koná v mene iných (agent → nekonsoliduje). Posudzuje sa rozsah rozhodovacej právomoci, práva iných strán (napr. právo odvolať správcu), odmena rozhodovateľa a jeho expozícia voči variabilite výnosov. Toto je kľúčové pri štruktúrovaných subjektoch a fondoch."
+      "text": "Tretí prvok rieši, či investor využíva právomoci vo VLASTNOM záujme (principál → konsoliduje), alebo koná v mene iných (agent → nekonsoliduje). Posudzuje sa rozsah rozhodovacej právomoci, práva iných strán (napr. právo odvolať správcu), odmena rozhodovateľa a jeho expozícia voči premenlivosti výnosov (variabilite). Toto je kľúčové pri štruktúrovaných subjektoch a fondoch."
     },
     {
       "nadpis": "Štruktúrované subjekty (SPE/VIE)",
-      "text": "Subjekt môže byť ovládaný aj bez väčšiny hlasovacích práv – ak je navrhnutý tak, že hlasovacie práva nie sú dominantným faktorom (napr. účelová jednotka riadená zmluvne). Vtedy sa kontrola posudzuje cez zmluvné dohody a expozíciu voči variabilným výnosom. IFRS 12 vyžaduje rozsiahle zverejnenia o podieloch v takýchto subjektoch."
+      "text": "Subjekt môže byť ovládaný aj bez väčšiny hlasovacích práv – ak je navrhnutý tak, že hlasovacie práva nie sú dominantným faktorom (napr. účelová jednotka riadená zmluvne). Vtedy sa kontrola posudzuje cez zmluvné dohody a expozíciu voči premenlivým výnosom (variabilným). IFRS 12 vyžaduje rozsiahle zverejnenia o podieloch v takýchto subjektoch."
     },
     {
       "nadpis": "Goodwill: plný vs. čiastkový a zisk z výhodnej kúpy",
@@ -111,7 +111,7 @@
           "popis": "Konsolidačná operácia: eliminácia investície proti VI dcéry, doplnenie goodwillu a NCI"
         }
       ],
-      "riesenie": "Podiel M na čistých aktívach = 80 % z 900 = 720 €. Investícia 800 € − 720 € = GOODWILL 80 € (aktívum). NP (proporcionálne) = 20 % z 900 = 180 €. Konsolidačná operácia eliminuje 100 % VI dcéry (900) a investíciu (800), pričom doplní goodwill 80 a NCI 180 (800 + 180 = 980 = 900 VI + 80 GW). V konsolidovanej súvahe po agregácii ostanú namiesto investície a VI dcéry: pôvodné aktíva a záväzky dcéry, goodwill 80 a nekontrolujúci podiel 180.",
+      "riesenie": "Podiel M na čistých aktívach = 80 % z 900 = 720 €. Investícia 800 € − 720 € = GOODWILL 80 € (aktívum). NP (proporcionálne) = 20 % z 900 = 180 €. Konsolidačná operácia eliminuje 100 % VI dcéry (900) a investíciu (800), pričom doplní goodwill 80 a NCI 180 (800 + 180 = 980 = 900 VI + 80 GW). V konsolidovanej súvahe po agregácii ostanú namiesto investície a VI dcéry: pôvodné aktíva a záväzky dcéry, goodwill 80 a nekontrolný podiel (NP) 180.",
       "dopad_na_zd": "Goodwill 80 € (aktívum, testuje sa na zníženie hodnoty); NCI 180 € (samostatne vo vlastnom imaní). Konsolidácia nemení daňový základ – ide o vykázanie pre KÚZ."
     },
     {
@@ -149,7 +149,7 @@
         }
       ],
       "riesenie": "Zásoby u M sú nadhodnotené o nerealizovaný zisk 5 000 € (medzizisk) – eliminuje sa v PLNEJ výške, lebo za fikcie jedného podniku zisk z vnútroskupinového predaja ešte nevznikol. Zásoby v KÚZ sa znížia o 5 000 €, výsledok hospodárenia skupiny klesne o 5 000 €. Podľa IAS 12 sa vykáže odložená daňová pohľadávka 5 000 × 21 % = 1 050 €, čistý dopad na VH je −3 950 €. Keďže zisk dosiahla DCÉRA (predávajúci), eliminácia zníži jej VH, preto sa čistý dopad rozdelí aj na NCI: na NP pripadne 20 % z 3 950 = 790 €, na vlastníkov M 3 160 €.",
-      "dopad_na_zd": "Zásoby −5 000 €; odložená daňová pohľadávka +1 050 €; VH skupiny −3 950 € (z toho NCI −790 €, vlastníci M −3 160 €). V nasledujúcom období po predaji zásob von zo skupiny sa medzizisk zrealizuje."
+      "dopad_na_zd": "Zásoby −5 000 €; odložená daňová pohľadávka +1 050 €; VH skupiny −3 950 € (z toho NCI −790 €, vlastníci M −3 160 €). V nasledujúcom období po predaji zásob von zo skupiny sa medzizisk zrealizuje. · Pozn. k sadzbe dane: príklad používa štandardnú sadzbu 21 %. Aktuálne sadzby DPPO v SR od 1. 1. 2025 sú 10 % (malý daňovník — výnosy do 100 000 €), 21 % (štandard) a 24 % (od 1. 1. 2025 pre základ dane > 5 mil. €). V príklade sa sadzba uplatní podľa sadzby platenej konkrétnou entitou (10 %, 21 % alebo 24 %)."
     },
     {
       "nazov": "Zmena podielu BEZ straty kontroly (transakcia s vlastníkmi)",
@@ -160,7 +160,7 @@
     {
       "nazov": "Strata kontroly – odkonsolidácia (IFRS 10.25)",
       "zadanie": "M vlastní 80 % dcéry D. Predá 60 % za 900 € (ponechá 20 %, kontrolu stráca). Čisté aktíva D ku dňu straty kontroly = 1 000 €, goodwill v KÚZ = 80 €, NP = 200 €. Reálna hodnota ponechaného 20 % podielu = 280 €.",
-      "riesenie": "Ku dňu straty kontroly M PRESTANE vykazovať aktíva a záväzky D (čisté aktíva 1 000 €), goodwill (80 €) a NP (200 €). VYKÁŽE: reálnu hodnotu prijatej protihodnoty 900 € a reálnu hodnotu ponechaného podielu 280 €. Zisk/strata z odkonsolidácie vo VH = (900 + 280 + 200) − (1 000 + 80) = 1 380 − 1 080 = +300 €. Ponechaný 20 % podiel sa odteraz účtuje podľa IFRS 9 alebo IAS 28 (pridružený podnik). Všetky úpravy ku dňu straty kontroly a VÝSLEDKOVO.",
+      "riesenie": "Ku dňu straty kontroly M PRESTANE vykazovať aktíva a záväzky D (čisté aktíva 1 000 €), goodwill (80 €) a NP (200 €). VYKÁŽE: reálnu hodnotu prijatej protihodnoty 900 € a reálnu hodnotu ponechaného podielu 280 €. Zisk/strata z odkonsolidácie vo VH = (900 + 280 + 200) − (1 000 + 80) = 1 380 − 1 080 = +300 €. Didaktická pomôcka: NP (200 €) sú v 'kladnej' časti vzorca, lebo predstavujú vlastné imanie dcéry pripadajúce na cudzích vlastníkov, ktoré sa pri strate kontroly tiež odúčtuje (a teda zvyšuje 'zarobenú' stranu rovnice). Ponechaný 20 % podiel sa odteraz účtuje podľa IFRS 9 alebo IAS 28 (pridružený podnik). Všetky úpravy ku dňu straty kontroly a VÝSLEDKOVO.",
       "dopad_na_zd": "Zisk z odkonsolidácie +300 € vo výsledku hospodárenia; ponechaný podiel preceneny na reálnu hodnotu 280 € (preceňuje sa aj ponechaná časť)."
     }
   ],
@@ -168,44 +168,44 @@
     {
       "subor": "03_Vizualy/ING_I_08_tri_prvky_kontroly.svg",
       "typ": "schéma",
-      "popis": "Tri prvky ovládania podľa IFRS 10.7 (moc nad subjektom + expozícia voči variabilným výnosom + väzba moc–výnosy) – musia platiť súčasne, inak niet kontroly."
+      "popis": "Tri prvky ovládania podľa IFRS 10.7 (právomoci nad subjektom + expozícia voči premenlivým výnosom (variabilným) + väzba moc–výnosy) – musia platiť súčasne, inak niet kontroly."
     },
     {
       "subor": "03_Vizualy/ING_I_08_kroky_uplnej_konsolidacie.svg",
       "typ": "schéma",
-      "popis": "Štyri kroky metódy úplnej konsolidácie: agregácia 100 % → konsolidácia kapitálu (eliminácia investície proti VI, goodwill) → eliminácia vnútroskupinových vzťahov a medzivýsledku → vyčlenenie nekontrolujúcich podielov."
+      "popis": "Štyri kroky metódy úplnej konsolidácie: agregácia 100 % → konsolidácia kapitálu (eliminácia investície proti VI, goodwill) → eliminácia vnútroskupinových vzťahov a medzivýsledku → vyčlenenie nekontrolných podielov."
     }
   ],
   "caste_doplnujuce_otazky": [
     {
       "otazka": "Aké tri prvky musia byť splnené, aby investor ovládal subjekt podľa IFRS 10?",
-      "odpoved": "Súčasne: (1) moc nad subjektom (existujúce práva riadiť relevantné činnosti), (2) expozícia voči variabilným výnosom z podielu (alebo právo na ne) a (3) schopnosť využiť moc na ovplyvnenie výšky vlastných výnosov (väzba moc–výnosy). Chýba jeden = niet kontroly.",
+      "odpoved": "Súčasne: (1) právomoci nad subjektom (existujúce práva riadiť relevantné činnosti), (2) expozícia voči premenlivým výnosom (variabilným) z podielu (alebo právo na ne) a (3) schopnosť využiť právomoci na ovplyvnenie výšky vlastných výnosov (väzba moc–výnosy). Chýba jeden = niet kontroly.",
       "moznosti": [
         "Väčšina hlasovacích práv, väčšina vloženého kapitálu a väčšina členov v dozornom orgáne – stačí splniť ktorýkoľvek z nich.",
-        "Súčasne: (1) moc nad subjektom (existujúce práva riadiť relevantné činnosti), (2) expozícia voči variabilným výnosom z podielu (alebo právo na ne) a (3) schopnosť využiť moc na ovplyvnenie výšky vlastných výnosov (väzba moc–výnosy). Chýba jeden = niet kontroly.",
+        "Súčasne: (1) právomoci nad subjektom (existujúce práva riadiť relevantné činnosti), (2) expozícia voči premenlivým výnosom (variabilným) z podielu (alebo právo na ne) a (3) schopnosť využiť právomoci na ovplyvnenie výšky vlastných výnosov (väzba moc–výnosy). Chýba jeden = niet kontroly.",
         "Súčasne vlastníctvo nad 50 %, právo na dividendu a rovnaké sídlo materskej a dcéry; ak chýba jeden prvok, kontrola predsa existuje.",
-        "Postačuje samotná moc nad subjektom – existujúce práva riadiť relevantné činnosti; expozícia voči výnosom ani väzba sa neposudzujú."
+        "Postačuje samotná právomoci nad subjektom – existujúce práva riadiť relevantné činnosti; expozícia voči výnosom ani väzba sa neposudzujú."
       ],
       "spravna_index": 1,
       "spravne_indexy": [
         1
       ],
-      "vysvetlenie": "Súčasne: (1) moc nad subjektom (existujúce práva riadiť relevantné činnosti), (2) expozícia voči variabilným výnosom z podielu (alebo právo na ne) a (3) schopnosť využiť moc na ovplyvnenie výšky vlastných výnosov (väzba moc–výnosy). Chýba jeden = niet kontroly."
+      "vysvetlenie": "Súčasne: (1) právomoci nad subjektom (existujúce práva riadiť relevantné činnosti), (2) expozícia voči premenlivým výnosom (variabilným) z podielu (alebo právo na ne) a (3) schopnosť využiť právomoci na ovplyvnenie výšky vlastných výnosov (väzba moc–výnosy). Chýba jeden = niet kontroly."
     },
     {
       "otazka": "Konsoliduje sa dcéra, v ktorej má materská len 55 %? A v akej výške sa agreguje?",
-      "odpoved": "Áno – rozhoduje ovládanie, nie percento; pri 55 % hlasov spravidla kontrola existuje. Agreguje sa 100 % aktív, záväzkov, výnosov a nákladov dcéry; cudzích 45 % sa vyčlení ako nekontrolujúci podiel.",
+      "odpoved": "Áno – rozhoduje ovládanie, nie percento; pri 55 % hlasov spravidla kontrola existuje. Agreguje sa 100 % aktív, záväzkov, výnosov a nákladov dcéry; cudzích 45 % sa vyčlení ako nekontrolný podiel (NP).",
       "moznosti": [
         "Nie – pri 55 % nevzniká kontrola, kým podiel nepresiahne 75 %; konsoliduje sa len pomerná časť 55 %.",
         "Áno, ale agreguje sa len 55 % aktív, záväzkov, výnosov a nákladov dcéry; cudzích 45 % sa vôbec nevykazuje.",
-        "Áno – rozhoduje ovládanie, nie percento; pri 55 % hlasov spravidla kontrola existuje. Agreguje sa 100 % aktív, záväzkov, výnosov a nákladov dcéry; cudzích 45 % sa vyčlení ako nekontrolujúci podiel.",
+        "Áno – rozhoduje ovládanie, nie percento; pri 55 % hlasov spravidla kontrola existuje. Agreguje sa 100 % aktív, záväzkov, výnosov a nákladov dcéry; cudzích 45 % sa vyčlení ako nekontrolný podiel (NP).",
         "Áno – ale namiesto agregácie sa uplatní metóda vlastného imania a investícia sa upraví o podiel na zmene vlastného imania dcéry."
       ],
       "spravna_index": 2,
       "spravne_indexy": [
         2
       ],
-      "vysvetlenie": "Áno – rozhoduje ovládanie, nie percento; pri 55 % hlasov spravidla kontrola existuje. Agreguje sa 100 % aktív, záväzkov, výnosov a nákladov dcéry; cudzích 45 % sa vyčlení ako nekontrolujúci podiel."
+      "vysvetlenie": "Áno – rozhoduje ovládanie, nie percento; pri 55 % hlasov spravidla kontrola existuje. Agreguje sa 100 % aktív, záväzkov, výnosov a nákladov dcéry; cudzích 45 % sa vyčlení ako nekontrolný podiel (NP)."
     },
     {
       "otazka": "Čo je pravidlo troch mesiacov?",
@@ -229,7 +229,7 @@
         "Pretože vnútroskupinový predaj vždy znamená skutočnú stratu skupiny, ktorá sa musí vykázať okamžite v plnej výške bez odloženej dane.",
         "Za fikcie právnickej jednotky by zisk z predaja v rámci skupiny ešte nevznikol – zrealizuje sa až predajom mimo skupiny. Preto sa nadhodnotenie majetku (medzizisk) eliminuje v plnej výške, s odloženou daňou podľa IAS 12; pri neúplne vlastnenej predávajúcej dcére sa dopad rozdelí aj na NCI.",
         "Pretože medzizisk sa musí preklasifikovať na goodwill a otestovať na zníženie hodnoty podľa IAS 36; eliminuje sa len v pomere podielu matky.",
-        "Za fikcie právnickej jednotky sa zisk z vnútroskupinového predaja realizuje hneď, preto sa medzizisk eliminuje len v rozsahu nekontrolujúceho podielu a bez odloženej dane."
+        "Za fikcie právnickej jednotky sa zisk z vnútroskupinového predaja realizuje hneď, preto sa medzizisk eliminuje len v rozsahu nekontrolného podielu (NP) a bez odloženej dane."
       ],
       "spravna_index": 1,
       "spravne_indexy": [
@@ -254,18 +254,18 @@
     },
     {
       "otazka": "Kedy materská spoločnosť nekonsoliduje, hoci ovláda dcéru?",
-      "odpoved": "Ak je investičnou jednotkou – dcéry oceňuje reálnou hodnotou cez VH podľa IFRS 9 a KÚZ neprezentuje (s výnimkou dcéry poskytujúcej služby pre jej investičnú činnosť, ktorá sa konsoliduje). Tiež pri oslobodení na medzistupni (10.4 písm. a).",
+      "odpoved": "Ak je investičnou spoločnosťou – dcéry oceňuje reálnou hodnotou cez VH podľa IFRS 9 a KÚZ neprezentuje (s výnimkou dcéry poskytujúcej služby pre jej investičnú činnosť, ktorá sa konsoliduje). Tiež pri oslobodení na medzistupni (10.4 písm. a).",
       "moznosti": [
-        "Ak je investičnou jednotkou – dcéry oceňuje reálnou hodnotou cez VH podľa IFRS 9 a KÚZ neprezentuje (s výnimkou dcéry poskytujúcej služby pre jej investičnú činnosť, ktorá sa konsoliduje). Tiež pri oslobodení na medzistupni (10.4 písm. a).",
+        "Ak je investičnou spoločnosťou – dcéry oceňuje reálnou hodnotou cez VH podľa IFRS 9 a KÚZ neprezentuje (s výnimkou dcéry poskytujúcej služby pre jej investičnú činnosť, ktorá sa konsoliduje). Tiež pri oslobodení na medzistupni (10.4 písm. a).",
         "Ak je pridruženým podnikom – dcéry vykazuje metódou vlastného imania a KÚZ neprezentuje; výnimkou je dcéra v inom členskom štáte.",
         "Vždy, keď vlastní menej ako 75 % hlasovacích práv dcéry – vtedy sa namiesto konsolidácie použije obstarávacia cena podielu.",
-        "Ak je investičnou jednotkou – dcéry konsoliduje úplnou konsolidáciou, ale goodwill neúčtuje a NP nevyčleňuje."
+        "Ak je investičnou spoločnosťou – dcéry konsoliduje úplnou konsolidáciou, ale goodwill neúčtuje a NP nevyčleňuje."
       ],
       "spravna_index": 0,
       "spravne_indexy": [
         0
       ],
-      "vysvetlenie": "Ak je investičnou jednotkou – dcéry oceňuje reálnou hodnotou cez VH podľa IFRS 9 a KÚZ neprezentuje (s výnimkou dcéry poskytujúcej služby pre jej investičnú činnosť, ktorá sa konsoliduje). Tiež pri oslobodení na medzistupni (10.4 písm. a)."
+      "vysvetlenie": "Ak je investičnou spoločnosťou – dcéry oceňuje reálnou hodnotou cez VH podľa IFRS 9 a KÚZ neprezentuje (s výnimkou dcéry poskytujúcej služby pre jej investičnú činnosť, ktorá sa konsoliduje). Tiež pri oslobodení na medzistupni (10.4 písm. a)."
     },
     {
       "otazka": "Aký je rozdiel medzi plným a čiastkovým goodwillom?",
@@ -291,9 +291,10 @@
     "Pri eliminácii medzizisku, ktorý dosiahla dcéra, nepremietnuť dopad aj do NCI (pri neúplne vlastnenej dcére).",
     "Zamieňať zmenu podielu bez straty kontroly (do VI, bez VH) so stratou kontroly (výsledkovo, odkonsolidácia).",
     "Pri strate kontroly zabudnúť preceniť PONECHANÝ podiel na reálnu hodnotu ku dňu straty kontroly.",
-    "Myslieť si, že investičná jednotka konsoliduje – oceňuje dcéry reálnou hodnotou cez VH podľa IFRS 9 (okrem dcéry poskytujúcej investičné služby).",
+    "Myslieť si, že investičná spoločnosť (investment entity) konsoliduje – oceňuje dcéry reálnou hodnotou cez VH podľa IFRS 9 (okrem dcéry poskytujúcej investičné služby).",
     "Prekročiť tri mesiace pri rozdielnych dátumoch závierok dcéry a KÚZ (B92).",
-    "Nezabezpečiť jednotnú účtovnú politiku skupiny pred agregáciou (B87)."
+    "Nezabezpečiť jednotnú účtovnú politiku skupiny pred agregáciou (B87).",
+    "Pri investičnej spoločnosti (investment entity) zabudnúť, že dcéry poskytujúce SLUŽBY súvisiace s jej investičnou činnosťou (napr. správa investícií, poradenstvo) sa KONSOLIDUJÚ podľa IFRS 10.32 — výnimka z výnimky."
   ],
   "test": {
     "vyber_z_moznosti": [
@@ -301,12 +302,12 @@
         "otazka": "Ktoré tri prvky musia byť podľa IFRS 10 splnené súčasne, aby existovalo ovládanie?",
         "moznosti": [
           "väčšina hlasov, väčšina kapitálu, väčšina v dozornej rade",
-          "moc nad subjektom, expozícia voči variabilným výnosom, schopnosť ovplyvniť výnosy mocou",
+          "právomoci nad subjektom, expozícia voči premenlivým výnosom (variabilným), schopnosť ovplyvniť výnosy mocou",
           "vlastníctvo nad 50 %, právo na dividendu, sídlo v tom istom štáte",
           "konsolidačný balík, jednotná mena, jednotná účtovná politika"
         ],
         "spravna_index": 1,
-        "vysvetlenie": "IFRS 10.7: moc nad subjektom + expozícia voči variabilným (premenlivým) výnosom + schopnosť využiť moc na ovplyvnenie výšky výnosov (väzba). Musia platiť súčasne."
+        "vysvetlenie": "IFRS 10.7: právomoci nad subjektom + expozícia voči premenlivým výnosom (variabilným) + schopnosť využiť právomoci na ovplyvnenie výšky výnosov (väzba). Musia platiť súčasne."
       },
       {
         "otazka": "V akej výške sa pri úplnej konsolidácii agregujú aktíva a záväzky dcéry, v ktorej má materská 70 %?",
@@ -317,7 +318,7 @@
           "podľa reálnej hodnoty podielu"
         ],
         "spravna_index": 2,
-        "vysvetlenie": "Agreguje sa 100 % bez ohľadu na výšku podielu; cudzích 30 % sa vyčlení ako nekontrolujúci podiel."
+        "vysvetlenie": "Agreguje sa 100 % bez ohľadu na výšku podielu; cudzích 30 % sa vyčlení ako nekontrolný podiel (NP)."
       },
       {
         "otazka": "Rozdiel medzi dátumom závierky dcéry a dátumom KÚZ podľa IFRS 10 (B92) nesmie byť viac ako:",
@@ -342,7 +343,7 @@
         "vysvetlenie": "IFRS 10.23 – ide o transakciu s vlastníkmi; rozdiel sa vykáže priamo vo vlastnom imaní, bez vplyvu na VH a bez nového goodwillu."
       },
       {
-        "otazka": "Investičná jednotka podľa IFRS 10 svoje dcéry:",
+        "otazka": "Investičná spoločnosť (investment entity) podľa IFRS 10 svoje dcéry:",
         "moznosti": [
           "konsoliduje metódou úplnej konsolidácie",
           "oceňuje reálnou hodnotou cez výsledok hospodárenia (IFRS 9) a nekonsoliduje",
@@ -350,7 +351,7 @@
           "vykazuje v obstarávacej cene"
         ],
         "spravna_index": 1,
-        "vysvetlenie": "IFRS 10.31 – investičná jednotka dcéry nekonsoliduje, oceňuje ich reálnou hodnotou cez VH podľa IFRS 9; výnimkou je dcéra poskytujúca služby pre jej investičnú činnosť (10.32)."
+        "vysvetlenie": "IFRS 10.31 – investičná spoločnosť (investment entity) dcéry nekonsoliduje, oceňuje ich reálnou hodnotou cez VH podľa IFRS 9; výnimkou je dcéra poskytujúca služby pre jej investičnú činnosť (10.32)."
       },
       {
         "otazka": "Nerealizovaný zisk v zásobách z predaja v rámci skupiny sa pri konsolidácii:",
@@ -367,7 +368,7 @@
     "otvorene": [
       {
         "otazka": "Vysvetlite model kontroly podľa IFRS 10 a uveďte, prečo nestačí samotná výška vlastníckeho podielu.",
-        "vzorova_odpoved": "Ovládanie = súčasné splnenie troch prvkov (10.7): (1) moc nad subjektom – existujúce práva riadiť relevantné činnosti ovplyvňujúce výnosy; (2) expozícia voči variabilným výnosom z podielu; (3) schopnosť využiť moc na ovplyvnenie výšky vlastných výnosov (väzba, otázka principál vs. agent). Percento samo o sebe nestačí: kontrola môže existovať aj bez väčšiny hlasov (de facto kontrola, zmluvné dohody, potenciálne hlasovacie práva pri štruktúrovaných subjektoch) a naopak väčšina hlasov nemusí znamenať kontrolu, ak investor koná len ako agent. IFRS 10 vyžaduje nepretržité prehodnocovanie."
+        "vzorova_odpoved": "Ovládanie = súčasné splnenie troch prvkov (10.7): (1) právomoci nad subjektom – existujúce práva riadiť relevantné činnosti ovplyvňujúce výnosy; (2) expozícia voči premenlivým výnosom (variabilným) z podielu; (3) schopnosť využiť právomoci na ovplyvnenie výšky vlastných výnosov (väzba, otázka principál vs. agent). Percento samo o sebe nestačí: kontrola môže existovať aj bez väčšiny hlasov (de facto kontrola, zmluvné dohody, potenciálne hlasovacie práva pri štruktúrovaných subjektoch) a naopak väčšina hlasov nemusí znamenať kontrolu, ak investor koná len ako agent. IFRS 10 vyžaduje nepretržité prehodnocovanie."
       },
       {
         "otazka": "Opíšte kroky metódy úplnej konsolidácie dcérskeho podniku podľa IFRS 10.",
@@ -387,7 +388,7 @@
   },
   "zdroje": [
     {
-      "nazov": "IFRS 10 Konsolidovaná účtovná závierka – definícia ovládania (10.6–7), výnimky (10.4–4B), investičné jednotky (10.27–33), zmeny podielu (10.23, 10.25–26), postupy konsolidácie (B86–B89), deň závierky a tri mesiace (B92), jednotná politika (B87)",
+      "nazov": "IFRS 10 Konsolidovaná účtovná závierka – definícia ovládania (10.6–7), výnimky (10.4–4B), investičné spoločnosti (10.27–33), zmeny podielu (10.23, 10.25–26), postupy konsolidácie (B86–B89), deň závierky a tri mesiace (B92), jednotná politika (B87)",
       "kde": "01_Zdroje/IFRS_IAS/Konsolidovaný TEXT_ 32023R1803 — SK — 30.07.2025.html",
       "typ": "primárny"
     },

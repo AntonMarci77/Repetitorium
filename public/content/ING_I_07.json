@@ -5,8 +5,8 @@
   "cislo": 7,
   "nazov": "Akvizičná metóda účtovania podľa IFRS a jej uplatnenie v konsolidovanej účtovnej závierke",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "IFRS v znení prevzatom EÚ (nariadenie (EÚ) 2023/1803, konsolidované znenie k 30. 7. 2025): IFRS 3 Podnikové kombinácie, IFRS 10 Konsolidovaná účtovná závierka, IFRS 13 Oceňovanie reálnou hodnotou, IAS 36 Zníženie hodnoty aktív, IAS 12, IAS 38. Stav overený k máju 2026.",
+  "verzia": "1.2",
+  "stav_legislativy": "IFRS v znení prevzatom EÚ (nariadenie (EÚ) 2023/1803, konsolidované znenie k 30. 7. 2025): IFRS 3 Podnikové kombinácie, IFRS 10 Konsolidovaná účtovná závierka, IFRS 13 Oceňovanie reálnou hodnotou, IAS 36 Zníženie hodnoty aktív, IAS 12, IAS 38. Stav overený k máju 2026. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "podniková kombinácia",
     "ovládanie (kontrola podľa IFRS 10)",
@@ -15,7 +15,7 @@
     "deň akvizície",
     "prevedená protihodnota v reálnej hodnote",
     "identifikovateľné aktíva a prevzaté záväzky v RH",
-    "nekontrolujúci podiel (NCI / NP)",
+    "nekontrolný podiel (NP / NCI)",
     "goodwill",
     "zisk z výhodnej kúpy",
     "metóda úplnej konsolidácie",
@@ -24,7 +24,7 @@
     "spätne získateľná suma",
     "test zníženia hodnoty goodwillu (IAS 36)"
   ],
-  "princip_mentalny_model": "Akvizičná metóda je JEDINÁ povolená metóda účtovania podnikovej kombinácie podľa IFRS 3 (zrušila sa metóda spojenia podielov). Mentálny model: na podnikovú kombináciu sa pozeráme očami NADOBÚDATEĽA, ktorý 'kupuje' identifikovateľný majetok a záväzky cieľa za reálnu hodnotu – akoby to bol nákup balíka aktív. Goodwill je 'zvyšok ceny' – to, čo nadobúdateľ zaplatil navyše nad reálnu hodnotu čistých identifikovateľných aktív (synergie, kvalifikovaní zamestnanci, trhová pozícia – veci, ktoré sa samostatne nedajú vykázať). Vzorec je vždy ten istý MOSTÍK: (protihodnota + NCI + RH predtým držaného podielu) − RH čistých identifikovateľných aktív = goodwill. Ak vyjde záporne, ide o výhodnú kúpu (lacný nákup) a po preverení sa vykáže ako zisk vo VzaS. Goodwill sa NEODPISUJE – len sa raz ročne (a pri náznaku) testuje na zníženie hodnoty podľa IAS 36; jeho zníženie sa NIKDY nereverzuje. Pri konsolidácii sa akvizičná metóda 'zhmotní' v prvej konsolidácii kapitálu: investícia materskej účtovnej jednotky sa eliminuje proti podielu na vlastnom imaní dcéry a rozdiel sa zaúčtuje ako goodwill alebo zisk z výhodnej kúpy.",
+  "princip_mentalny_model": "Akvizičná metóda je JEDINÁ povolená metóda účtovania podnikovej kombinácie podľa IFRS 3 (zrušila sa metóda spojenia podielov). Mentálny model: na podnikovú kombináciu sa pozeráme očami NADOBÚDATEĽA, ktorý 'kupuje' identifikovateľný majetok a záväzky cieľa za reálnu hodnotu – akoby to bol nákup balíka aktív. Goodwill je 'zvyšok ceny' – to, čo nadobúdateľ zaplatil navyše nad reálnu hodnotu čistých identifikovateľných aktív (synergie, kvalifikovaní zamestnanci, trhová pozícia – veci, ktoré sa samostatne nedajú vykázať). Vzorec je vždy ten istý MOSTÍK: (protihodnota + NCI + RH predtým držaného podielu) − RH čistých identifikovateľných aktív = goodwill. Pri POSTUPNEJ akvizícii sa predtým držaný podiel precení na RH s vykázaním zisku/straty vo VH, a akýkoľvek predtým vykázaný prebytok v OSKV (precenenie, kurzové rozdiely a pod.) sa reklasifikuje alebo prevedie do nerozdelených ziskov analogicky vyradeniu podielu (IFRS 3.42). Ak vyjde záporne, ide o výhodnú kúpu (lacný nákup) a po preverení sa vykáže ako zisk vo VzaS. Goodwill sa NEODPISUJE – len sa raz ročne (a pri náznaku) testuje na zníženie hodnoty podľa IAS 36; jeho zníženie sa NIKDY nereverzuje. Pri konsolidácii sa akvizičná metóda 'zhmotní' v prvej konsolidácii kapitálu: investícia materskej účtovnej jednotky sa eliminuje proti podielu na vlastnom imaní dcéry a rozdiel sa zaúčtuje ako goodwill alebo zisk z výhodnej kúpy.",
   "jadro_odpovede_10min": {
     "cielova_dlzka_slov": 1450,
     "uvod": "IFRS 3 Podnikové kombinácie upravuje, ako nadobúdateľ vykazuje a oceňuje vo svojej účtovnej závierke podnikovú kombináciu. Podniková kombinácia je transakcia alebo iná udalosť, v rámci ktorej nadobúdateľ získa ovládanie (kontrolu) nad jedným alebo viacerými podnikmi. Každú podnikovú kombináciu treba zaúčtovať akvizičnou metódou (metódou nadobudnutia) – iná metóda nie je povolená. Pri zostavení konsolidovanej účtovnej závierky sa akvizičná metóda uplatní pri prvej konsolidácii kapitálu dcérskej účtovnej jednotky a goodwill, ktorý z nej vznikne, sa následne každoročne testuje na zníženie hodnoty podľa IAS 36.",
@@ -35,7 +35,7 @@
       },
       {
         "nadpis": "Podstata akvizičnej metódy a jej štyri kroky",
-        "text": "Akvizičná metóda znamená, že na kombináciu sa pozeráme očami nadobúdateľa, ktorý k dňu akvizície ocení nadobudnuté aktíva a prevzaté záväzky reálnou hodnotou. IFRS 3 stanovuje štyri kroky: (1) identifikovať nadobúdateľa; (2) určiť deň akvizície; (3) vykázať a oceniť identifikovateľné nadobudnuté aktíva, prevzaté záväzky a každý nekontrolujúci podiel; (4) vykázať a oceniť goodwill alebo zisk z výhodnej kúpy. Náklady súvisiace s akvizíciou (poradcovia, právnici, znalci) sa NEZAhŕňajú do protihodnoty – účtujú sa do nákladov obdobia, v ktorom vznikli (výnimkou sú náklady na vydanie dlhových/podielových cenných papierov podľa IFRS 9 / IAS 32)."
+        "text": "Akvizičná metóda znamená, že na kombináciu sa pozeráme očami nadobúdateľa, ktorý k dňu akvizície ocení nadobudnuté aktíva a prevzaté záväzky reálnou hodnotou. IFRS 3 stanovuje štyri kroky: (1) identifikovať nadobúdateľa; (2) určiť deň akvizície; (3) vykázať a oceniť identifikovateľné nadobudnuté aktíva, prevzaté záväzky a každý nekontrolný podiel (NCI); (4) vykázať a oceniť goodwill alebo zisk z výhodnej kúpy. Náklady súvisiace s akvizíciou (poradcovia, právnici, znalci) sa NEZAhŕňajú do protihodnoty – účtujú sa do nákladov obdobia, v ktorom vznikli (výnimkou sú náklady na vydanie dlhových/podielových cenných papierov podľa IFRS 9 / IAS 32)."
       },
       {
         "nadpis": "Krok 1 a 2: nadobúdateľ a deň akvizície",
@@ -43,11 +43,11 @@
       },
       {
         "nadpis": "Krok 3a: vykázanie a ocenenie aktív a záväzkov",
-        "text": "K dňu akvizície nadobúdateľ vykáže ODDELENE od goodwillu identifikovateľné nadobudnuté aktíva a prevzaté záväzky, ktoré spĺňajú definíciu aktíva/záväzku podľa Koncepčného rámca a sú súčasťou výmeny v rámci kombinácie. Oceňujú sa reálnou hodnotou k dňu akvizície (IFRS 13). Dôležitý dôsledok: nadobúdateľ vykáže aj také položky, ktoré cieľ vo svojej závierke nemal – typicky interne vytvorené nehmotné aktíva (obchodná značka, patent, vzťahy so zákazníkmi), pri ktorých sa kritériá pravdepodobnosti aj spoľahlivosti ocenenia považujú za splnené. Existujú obmedzené VÝNIMKY zo zásady vykazovania/oceňovania: podmienené záväzky (vykážu sa, aj keď odliv nie je pravdepodobný, ak je RH spoľahlivo merateľná), odložené dane podľa IAS 12 (no nie z prvotného goodwillu), zamestnanecké požitky podľa IAS 19, znovunadobudnuté práva, platby na základe podielov (IFRS 2) a aktíva držané na predaj (IFRS 5)."
+        "text": "K dňu akvizície nadobúdateľ vykáže ODDELENE od goodwillu identifikovateľné nadobudnuté aktíva a prevzaté záväzky, ktoré spĺňajú definíciu aktíva/záväzku podľa Koncepčného rámca a sú súčasťou výmeny v rámci kombinácie. Oceňujú sa reálnou hodnotou k dňu akvizície (IFRS 13). Dôležitý dôsledok: nadobúdateľ vykáže aj také položky, ktoré cieľ vo svojej závierke nemal – typicky interne vytvorené nehmotné aktíva (obchodná značka, patent, vzťahy so zákazníkmi), pri ktorých sa kritériá pravdepodobnosti aj spoľahlivosti ocenenia považujú za splnené. Existujú obmedzené VÝNIMKY zo zásady vykazovania/oceňovania: podmienené záväzky (vykážu sa, aj keď odliv nie je pravdepodobný, ak je RH spoľahlivo merateľná), odložené dane podľa IAS 12 (no nie z prvotného goodwillu), zamestnanecké požitky podľa IAS 19, znovunadobudnuté práva, platby na základe podielov (IFRS 2) a aktíva držané na predaj (IFRS 5). Pozn.: Pri podmienených záväzkoch v podnikovej kombinácii (IFRS 3.23) sa záväzok vykáže AJ KEĎ odliv úžitkov nie je pravdepodobný — postačuje súčasná povinnosť z minulých udalostí a spoľahlivo merateľná RH. Tento prístup sa LÍŠI od IAS 37 (ods. 27), ktorý pre bežné podmienené záväzky pravdepodobnosť vyžaduje. V kombinácii má teda prednosť špecifické pravidlo IFRS 3."
       },
       {
-        "nadpis": "Krok 3b: nekontrolujúci podiel (NCI / NP)",
-        "text": "Nekontrolujúci podiel je tá časť vlastného imania dcéry, ktorá nepatrí (priamo ani nepriamo) materskej účtovnej jednotke – vzniká pri neúplne vlastnenej dcére. IFRS 3 dáva pre NCI VOĽBU ocenenia, ktorú robí nadobúdateľ pri každej kombinácii samostatne: buď (a) v reálnej hodnote (tzv. metóda plného goodwillu), alebo (b) ako proporcionálny (pomerný) podiel NCI na reálnej hodnote čistých identifikovateľných aktív cieľa (metóda čiastočného goodwillu). Voľba (b) je možná len pre NCI, ktoré sú súčasným vlastníckym podielom s nárokom na pomerný podiel čistých aktív pri likvidácii. Voľba ocenenia NCI priamo ovplyvňuje výšku goodwillu: pri RH sa vykazuje aj časť goodwillu pripadajúca na NCI (plný goodwill), pri proporcionálnom podiele len goodwill pripadajúci na materskú. NCI sa prezentuje vo vlastnom imaní konsolidovanej súvahy, ale oddelene od vlastného imania materskej; môže byť aj záporný."
+        "nadpis": "Krok 3b: nekontrolný podiel (NP / NCI)",
+        "text": "Nekontrolný podiel je tá časť vlastného imania dcéry, ktorá nepatrí (priamo ani nepriamo) materskej účtovnej jednotke – vzniká pri neúplne vlastnenej dcére. IFRS 3 dáva pre NCI VOĽBU ocenenia, ktorú robí nadobúdateľ pri každej kombinácii samostatne: buď (a) v reálnej hodnote (tzv. metóda plného goodwillu), alebo (b) ako proporcionálny (pomerný) podiel NCI na reálnej hodnote čistých identifikovateľných aktív cieľa (metóda čiastkového goodwillu (partial)). Voľba (b) je možná len pre NCI, ktoré sú súčasným vlastníckym podielom s nárokom na pomerný podiel čistých aktív pri likvidácii. Voľba ocenenia NCI priamo ovplyvňuje výšku goodwillu: pri RH sa vykazuje aj časť goodwillu pripadajúca na NCI (plný goodwill), pri proporcionálnom podiele len goodwill pripadajúci na materskú. NCI sa prezentuje vo vlastnom imaní konsolidovanej súvahy, ale oddelene od vlastného imania materskej; môže byť aj záporný."
       },
       {
         "nadpis": "Krok 4: goodwill alebo zisk z výhodnej kúpy",
@@ -65,7 +65,7 @@
   "rozsirena_baza": [
     {
       "nadpis": "Uplatnenie akvizičnej metódy pri zostavení KÚZ – konsolidácia kapitálu",
-      "text": "Pri zostavení konsolidovanej účtovnej závierky sa dcéra zahŕňa metódou úplnej konsolidácie (IFRS 10) od dňa získania kontroly do dňa jej straty. Najprv sa zostavia súčtové výkazy (aktíva, záväzky, náklady, výnosy dcéry sa preberajú v PLNEJ výške bez ohľadu na podiel), potom sa robia konsolidačné úpravy. Kľúčová je prvá konsolidácia kapitálu: eliminuje sa účtovná hodnota investície materskej v dcére proti podielu materskej na vlastnom imaní dcéry k dňu akvizície; vzniknutý rozdiel sa spracuje podľa IFRS 3 ako goodwill (aktívum) alebo zisk z výhodnej kúpy (výnos). Pri neúplne vlastnenej dcére sa vyčlení nekontrolujúci podiel. Pri nasledujúcej konsolidácii kapitálu sa vychádza z prvej konsolidácie a zohľadnia sa zmeny vlastného imania dcéry odo dňa akvizície (podiel materskej do konsolidovaných ziskov, podiel NCI do NCI). Ďalej sa eliminujú vnútroskupinové pohľadávky a záväzky, vnútroskupinové náklady a výnosy a nerealizovaný medzivýsledok (medzizisk/medzistrata) v ocenení aktív – všetko v plnej výške."
+      "text": "Pri zostavení konsolidovanej účtovnej závierky sa dcéra zahŕňa metódou úplnej konsolidácie (IFRS 10) od dňa získania kontroly do dňa jej straty. Najprv sa zostavia súčtové výkazy (aktíva, záväzky, náklady, výnosy dcéry sa preberajú v PLNEJ výške bez ohľadu na podiel), potom sa robia konsolidačné úpravy. Kľúčová je prvá konsolidácia kapitálu: eliminuje sa účtovná hodnota investície materskej v dcére proti podielu materskej na vlastnom imaní dcéry k dňu akvizície; vzniknutý rozdiel sa spracuje podľa IFRS 3 ako goodwill (aktívum) alebo zisk z výhodnej kúpy (výnos). Pri neúplne vlastnenej dcére sa vyčlení nekontrolný podiel (NCI). Pri nasledujúcej konsolidácii kapitálu sa vychádza z prvej konsolidácie a zohľadnia sa zmeny vlastného imania dcéry odo dňa akvizície (podiel materskej do konsolidovaných ziskov, podiel NCI do NCI). Ďalej sa eliminujú vnútroskupinové pohľadávky a záväzky, vnútroskupinové náklady a výnosy a nerealizovaný medzivýsledok (medzizisk/medzistrata) v ocenení aktív – všetko v plnej výške."
     },
     {
       "nadpis": "Postupná (viacfázová) akvizícia a kombinácia bez prevodu protihodnoty",
@@ -73,7 +73,7 @@
     },
     {
       "nadpis": "Obdobie oceňovania (measurement period)",
-      "text": "Ak prvotné účtovanie kombinácie nie je k dňu akvizície ukončené, nadobúdateľ vykáže predbežné sumy a má obdobie oceňovania – najviac jeden rok od dňa akvizície – na ich spätné upravenie o nové informácie o skutočnostiach, ktoré existovali k dňu akvizície. Tieto úpravy retrospektívne menia goodwill. Po uplynutí obdobia oceňovania sa už opravy robia len ako oprava chýb podľa IAS 8, nie cez goodwill."
+      "text": "Ak prvotné účtovanie kombinácie nie je k dňu akvizície ukončené, nadobúdateľ vykáže predbežné sumy a má obdobie oceňovania – najviac jeden rok od dňa akvizície – na ich spätné upravenie o nové informácie o skutočnostiach, ktoré existovali k dňu akvizície. Tieto úpravy sa premietnu retrospektívne do VŠETKÝCH prvkov akvizičného mostíka — protihodnoty, NCI, RH čistých aktív aj rezultujúceho goodwillu/zisku z výhodnej kúpy (nielen do goodwillu). Po uplynutí obdobia oceňovania sa už opravy robia len ako oprava chýb podľa IAS 8, nie cez goodwill."
     },
     {
       "nadpis": "Goodwill v IAS 36 – alokácia na peňazotvorné jednotky (CGU)",
@@ -92,7 +92,7 @@
     {
       "nazov": "Výpočet goodwillu – NCI proporcionálne vs. v reálnej hodnote",
       "zadanie": "Materská M kúpila 80 % podielu v dcére D. Reálna hodnota prevedenej protihodnoty (peniaze) = 800. Reálna hodnota identifikovateľných čistých aktív D k dňu akvizície (aktíva − záväzky) = 900. Reálna hodnota celého NCI (20 %) bola znalecky stanovená na 190. Vypočítajte goodwill v oboch variantoch ocenenia NCI.",
-      "riesenie": "VARIANT A – NCI v pomernom podiele na čistých aktívach: NCI = 20 % × 900 = 180. Goodwill = protihodnota 800 + NCI 180 − čisté aktíva 900 = 80. Vykazuje sa len goodwill pripadajúci na materskú (čiastočný goodwill). VARIANT B – NCI v reálnej hodnote (plný goodwill): NCI = 190. Goodwill = 800 + 190 − 900 = 90. Rozdiel 90 − 80 = 10 je goodwill pripadajúci na NCI. Pozn.: protihodnota 800 implikuje RH 100 % cieľa cca 1 000 (800/0,8), čomu zodpovedá NCI v RH ~200; znalecky stanovených 190 je nižších kvôli prémii za kontrolu, čo je bežné.",
+      "riesenie": "VARIANT A – NCI v pomernom podiele na čistých aktívach: NCI = 20 % × 900 = 180. Goodwill = protihodnota 800 + NCI 180 − čisté aktíva 900 = 80. Vykazuje sa len goodwill pripadajúci na materskú (čiastočný goodwill). VARIANT B – NCI v reálnej hodnote (plný goodwill): NCI = 190. Goodwill = 800 + 190 − 900 = 90. Rozdiel 90 − 80 = 10 je goodwill pripadajúci na NCI. Pozn.: protihodnota 800 implikuje RH 100 % cieľa cca 1 000 (800/0,8), čomu zodpovedá NCI v RH ~200; znalecky stanovených 190 je nižších kvôli prémii za kontrolu, čo je bežné. Pozor pri následnom teste IAS 36: pri voľbe (a) — NCI proporcionálne (čiastkový goodwill) — sa pri teste CGU musí vykázaný goodwill 'gross-upovať' (IAS 36.C4): notional/teoretický celkový goodwill = vykázaný goodwill / podiel materskej, aby sa do testu zahrnula aj 'neviditeľná' časť pripadajúca na NCI. V príklade A by sa teda do testu zahrnul gross-up goodwillu = 80 / 80 % = 100; zníženie hodnoty alokované na 'neviditeľnú' časť (20) sa však NEVYKAZUJE (lebo nie je vykázané v súvahe).",
       "dopad_na_zd": "Goodwill je aktívum v konsolidovanej súvahe (80 alebo 90 podľa voľby); nemá vplyv na základ dane (konsolidovaná ÚZ neslúži na daňové účely)."
     },
     {
@@ -158,7 +158,7 @@
       "vysvetlenie": "Goodwill = protihodnota v RH + NCI + RH predtým držaného podielu − RH čistých identifikovateľných aktív. Záporný výsledok je výhodná kúpa: po povinnom prehodnotení ocenenia sa vykáže ako zisk z výhodnej kúpy vo výsledku hospodárenia."
     },
     {
-      "otazka": "Aké sú dve možnosti ocenenia nekontrolujúceho podielu a ako ovplyvňujú goodwill?",
+      "otazka": "Aké sú dve možnosti ocenenia nekontrolného podielu (NCI) a ako ovplyvňujú goodwill?",
       "odpoved": "NCI sa oceňuje buď v reálnej hodnote (plný goodwill – zahŕňa aj časť pripadajúcu na NCI), alebo pomerným podielom na RH čistých identifikovateľných aktív (čiastočný goodwill – len časť pripadajúca na materskú). Voľbu robí nadobúdateľ pri každej kombinácii.",
       "moznosti": [
         "NCI sa oceňuje vždy v obstarávacej cene podielu alebo v menovitej hodnote; voľba neovplyvňuje výšku goodwillu.",

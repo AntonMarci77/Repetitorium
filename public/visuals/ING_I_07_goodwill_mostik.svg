@@ -1,7 +1,7 @@
 <svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
   <rect x="0" y="0" width="900" height="560" fill="#ffffff"/>
   <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Výpočet goodwillu – mostík (IFRS 3)</text>
-  <text x="450" y="58" text-anchor="middle" font-size="14" fill="#55607a">Protihodnota + NCI + RH predtým drž. podielu − RH čistých identifik. aktív = goodwill</text>
+  <text x="450" y="58" text-anchor="middle" font-size="14" fill="#55607a">Protihodnota + NCI (nekontrolný podiel) + RH predtým drž. podielu − RH čistých identifik. aktív = goodwill</text>
 
   <!-- bridge bars (illustrative numbers: protihodnota 800, NCI, čisté aktíva 900) -->
   <!-- consideration bar -->

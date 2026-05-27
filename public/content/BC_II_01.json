@@ -5,8 +5,8 @@
   "cislo": 1,
   "nazov": "Účtovná závierka a účtovná uzávierka v SR",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Znenie zákona č. 431/2002 Z. z. o účtovníctve účinné k 4. 2. 2026; Postupy účtovania pre podnikateľov (opatrenie MF/23054/2002-92 v platnom znení); veľkostné kritériá ÚJ podľa novely č. 105/2024 Z. z. (od účtovných období začínajúcich 1. 1. 2025). Lehoty a sumy overené k máju 2026.",
+  "verzia": "1.2",
+  "stav_legislativy": "Znenie zákona č. 431/2002 Z. z. o účtovníctve účinné k 4. 2. 2026; Postupy účtovania pre podnikateľov (opatrenie MF/23054/2002-92 v platnom znení); veľkostné kritériá ÚJ podľa novely č. 105/2024 Z. z. (od účtovných období začínajúcich 1. 1. 2025). Lehoty a sumy overené k máju 2026. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "účtovná uzávierka (uzatvorenie účtovných kníh)",
     "účtovná závierka (výkazy)",
@@ -43,7 +43,7 @@
       },
       {
         "nadpis": "Účtovná závierka – charakteristika a náležitosti",
-        "text": "Účtovná závierka je podľa § 17 ods. 1 štruktúrovaná prezentácia skutočností, ktoré sú predmetom účtovníctva, poskytovaná používateľom; tvorí jeden celok. Účtovná jednotka ju zostavuje vždy, keď uzavrie účtovné knihy. Rozlišujeme riadnu (k poslednému dňu obdobia), mimoriadnu (napr. pri likvidácii, konkurze) a priebežnú závierku. Každá závierka má všeobecné náležitosti (§ 17 ods. 2): obchodné meno/názov a sídlo, IČO, deň ku ktorému sa zostavuje, deň jej zostavenia, obdobie, za ktoré sa zostavuje, a podpisový záznam štatutárneho orgánu. Informácie sa uvádzajú podľa stavu ku dňu, ku ktorému sa závierka zostavuje, a musia byť významné, zrozumiteľné, porovnateľné a spoľahlivé (§ 17 ods. 8 a 9)."
+        "text": "Účtovná závierka je podľa § 17 ods. 1 štruktúrovaná prezentácia skutočností, ktoré sú predmetom účtovníctva, poskytovaná používateľom; tvorí jeden celok. Riadnu a mimoriadnu závierku zostavuje vtedy, keď uzatvára účtovné knihy; priebežnú závierku (§ 18 ods. 1) zostavuje počas účtovného obdobia bez uzatvorenia kníh. Rozlišujeme riadnu (k poslednému dňu obdobia), mimoriadnu (napr. pri likvidácii, konkurze) a priebežnú závierku. Každá závierka má všeobecné náležitosti (§ 17 ods. 2): obchodné meno/názov a sídlo, IČO, deň ku ktorému sa zostavuje, deň jej zostavenia, obdobie, za ktoré sa zostavuje, a podpisový záznam štatutárneho orgánu. Informácie sa uvádzajú podľa stavu ku dňu, ku ktorému sa závierka zostavuje, a musia byť významné, zrozumiteľné, porovnateľné a spoľahlivé (§ 17 ods. 8 a 9)."
       },
       {
         "nadpis": "Súvaha a výkaz ziskov a strát",
@@ -63,7 +63,7 @@
       },
       {
         "nadpis": "Druhy inventúr, súpis, rozdiely a zápis",
-        "text": "Skutočný stav sa zisťuje inventúrou (§ 30 ods. 1): fyzickou pri majetku hmotnej a nehmotnej povahy (počítanie, váženie, meranie), dokladovou pri záväzkoch, rozdiele majetku a záväzkov a tam, kde fyzická nie je možná; ak je to možné, použije sa kombinácia. Inventúrny súpis (§ 30 ods. 2) je účtovný záznam, ktorý zabezpečuje preukázateľnosť účtovníctva – obsahuje názov ÚJ, dni začatia, vykonania a skončenia inventúry, stav majetku s jednotkami množstva a cenou, miesto uloženia a podpisové záznamy zodpovedných osôb. Inventarizačný rozdiel (§ 30 ods. 5) má dvojaký charakter: manko, ak je skutočný stav nižší než účtovný a nemožno ho preukázať záznamom (pri peniazoch a ceninách sa nazýva schodok), a prebytok, ak je skutočný stav vyšší. Inventarizačný zápis (§ 30 ods. 3) je účtovný záznam, ktorým sa preukazuje vecná správnosť účtovníctva; obsahuje výsledky porovnania, posúdenie reálnosti ocenenia a podpis zodpovednej osoby. Rozdiel sa zaúčtuje do obdobia, za ktoré sa inventarizáciou overuje stav (§ 30 ods. 7)."
+        "text": "Skutočný stav sa zisťuje inventúrou (§ 30 ods. 1): fyzickou pri majetku hmotnej povahy (počítanie, váženie, meranie); pri nehmotnom majetku iba ak je to objektívne možné (napr. licenčné kľúče, médiá), inak dokladovo; dokladovou pri záväzkoch, rozdiele majetku a záväzkov a tam, kde fyzická nie je možná; ak je to možné, použije sa kombinácia. Inventúrny súpis (§ 30 ods. 2) je účtovný záznam, ktorý zabezpečuje preukázateľnosť účtovníctva – obsahuje názov ÚJ, dni začatia, vykonania a skončenia inventúry, stav majetku s jednotkami množstva a cenou, miesto uloženia a podpisové záznamy zodpovedných osôb. Inventarizačný rozdiel (§ 30 ods. 5) má dvojaký charakter: manko, ak je skutočný stav nižší než účtovný a nemožno ho preukázať záznamom (pri peniazoch a ceninách sa nazýva schodok), a prebytok, ak je skutočný stav vyšší. Inventarizačný zápis (§ 30 ods. 3) je účtovný záznam, ktorým sa preukazuje vecná správnosť účtovníctva; obsahuje výsledky porovnania, posúdenie reálnosti ocenenia a podpis zodpovednej osoby. Rozdiel sa zaúčtuje do obdobia, za ktoré sa inventarizáciou overuje stav (§ 30 ods. 7)."
       },
       {
         "zaver": "V skratke: účtovná uzávierka je činnosť (uzávierkové operácie + uzatvorenie účtov cez 710 a 702), účtovná závierka je výstup (súvaha + výkaz ziskov a strát + poznámky ako jeden celok). Most medzi nimi a záruka vernosti je inventarizácia, ktorá preukazuje vecnú správnosť účtovníctva. Najprv knihy uzavriem, potom zostavím a zverejním výkazy."
@@ -81,11 +81,11 @@
     },
     {
       "nadpis": "Zostavenie, schválenie, uloženie a zverejnenie",
-      "text": "Po zostavení sa závierka schvaľuje príslušným orgánom ÚJ (napr. valné zhromaždenie) najneskôr do 12 mesiacov od dátumu, ku ktorému sa zostavuje. Ukladá sa do registra účtovných závierok – riadna a mimoriadna do 6 mesiacov od dátumu, ku ktorému sa zostavuje, ak osobitný predpis neustanovuje inak. V praxi pre kalendárny rok platí, že podľa zákona o dani z príjmov treba závierku uložiť v lehote na podanie daňového priznania (spravidla do 31. 3., resp. do predĺženej lehoty). Ak ÚJ nemá závierku do tejto lehoty schválenú, uloží neschválenú a oznámenie o schválení doloží do 15 pracovných dní (overiť). Podáva sa elektronicky cez portál finančnej správy."
+      "text": "Po zostavení sa závierka schvaľuje príslušným orgánom ÚJ (napr. valné zhromaždenie) najneskôr do 12 mesiacov od dátumu, ku ktorému sa zostavuje. Ukladá sa do registra účtovných závierok – riadnu a mimoriadnu individuálnu závierku ÚJ uloží do registra najneskôr do 6 mesiacov od dátumu, ku ktorému sa účtovná závierka zostavuje (§ 23a ods. 3), ak osobitný predpis neustanovuje inak. Lehota na podanie daňového priznania je samostatná lehota podľa zákona o dani z príjmov a netýka sa ukladania závierky do registra. Ak ÚJ ku dňu uloženia ÚZ ešte nemá závierku schválenú, uloží neschválenú a oznámenie o dátume schválenia ÚZ doloží do registra najneskôr do 15 pracovných dní od jej schválenia (§ 23a ods. 4); celkový strop je 1 rok od skončenia účtovného obdobia (§ 23a ods. 7). Podáva sa elektronicky cez portál finančnej správy."
     },
     {
       "nadpis": "Overenie audítorom (§ 19)",
-      "text": "Riadnu a mimoriadnu individuálnu závierku musí mať overenú audítorom obchodná spoločnosť a družstvo, ak ku dňu závierky a za bezprostredne predchádzajúce obdobie spĺňa aspoň dve z troch podmienok: celková suma majetku presiahla 4 000 000 €, čistý obrat presiahol 8 000 000 €, priemerný prepočítaný počet zamestnancov presiahol 50. Povinnosť majú aj subjekty, ktorých cenné papiere sú na regulovanom trhu, a ďalšie podľa osobitných predpisov. Závierka musí byť overená do jedného roka od skončenia obdobia (§ 19 ods. 3)."
+      "text": "Riadnu a mimoriadnu individuálnu závierku musí mať overenú audítorom obchodná spoločnosť a družstvo, ak ku dňu, ku ktorému sa zostavuje ÚZ, a za bezprostredne predchádzajúce účtovné obdobie spĺňa aspoň DVE z troch podmienok (rovnaký časový test ako pri § 2 ods. 10): celková suma majetku presiahla 4 000 000 €, čistý obrat presiahol 8 000 000 €, priemerný prepočítaný počet zamestnancov presiahol 50. POZOR – prahy auditu (§ 19: 4/8/50) sú nižšie ako prahy veľkostnej skupiny VEĽKÁ podľa § 2 ods. 8 (5/10/50): auditu môžu podliehať aj malé ÚJ, ktoré ešte nedosahujú prahy veľkej skupiny. Povinnosť majú aj subjekty, ktorých cenné papiere sú na regulovanom trhu, a ďalšie podľa osobitných predpisov. Závierka musí byť overená do jedného roka od skončenia obdobia (§ 19 ods. 3)."
     },
     {
       "nadpis": "Veľkostné skupiny a štruktúra výkazov",
@@ -306,7 +306,8 @@
     "Myslieť si, že manko z pokladnice je 'manko' – pri peniazoch a ceninách je to schodok.",
     "Tvrdiť, že súvaha aj výkaz ziskov a strát sú stavové výkazy – súvaha je stavová (k dátumu), výkaz ziskov a strát je tokový (za obdobie).",
     "Uvádzať VH z výkazu ziskov a strát ako základ dane – je to len účtovné východisko, ktoré sa ešte upravuje (téza II.8).",
-    "Po zostavení závierky znovu otvárať uzavreté knihy – to je možné len výnimočne podľa § 16 ods. 10 do schválenia závierky."
+    "Po zostavení závierky znovu otvárať uzavreté knihy – to je možné len výnimočne podľa § 16 ods. 10 do schválenia závierky.",
+    "Stotožňovať akýkoľvek úbytok zásob s mankom – prirodzené úbytky v rámci stanovenej normy (§ 30 ods. 5) nie sú mankom; mankom je len nepreukázateľný úbytok nad rámec normy."
   ],
   "test": {
     "vyber_z_moznosti": [

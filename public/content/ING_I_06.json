@@ -5,8 +5,8 @@
   "cislo": 6,
   "nazov": "Konsolidovaná účtovná závierka podľa IFRS a jej právna úprava v SR",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Zákon č. 431/2002 Z. z. o účtovníctve v znení účinnom k máju 2026 (§ 6, § 17a, § 22, § 22a, § 20a–20c, § 21a); IFRS 10, IFRS 12, IAS 27, IAS 28 v znení prevzatom EÚ (nariadenie 1126/2008, konsolidované 2023/1803). Veľkostné kritériá pre oslobodenie a prah CbCR overené k máju 2026.",
+  "verzia": "1.2",
+  "stav_legislativy": "Zákon č. 431/2002 Z. z. o účtovníctve v znení účinnom k máju 2026 (§ 6, § 17a, § 22, § 22a, § 20a–20c, § 21a); IFRS 10, IFRS 12, IAS 27, IAS 28 v znení prevzatom EÚ (nariadenie 1126/2008, konsolidované 2023/1803). Veľkostné kritériá pre oslobodenie a prah CbCR overené k máju 2026 (užívateľ potvrdil: brutto 30/60/250 a netto 25/50/250 platia bezo zmeny). · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "konsolidovaná účtovná závierka (KÚZ)",
     "konsolidovaný celok (§ 6 ods. 4)",
@@ -15,7 +15,7 @@
     "rozhodujúci vplyv / ovládanie (control, IFRS 10)",
     "metóda úplnej konsolidácie",
     "metóda vlastného imania (IAS 28)",
-    "nekontrolujúce podiely (NP)",
+    "nekontrolný podiel (NP / NCI)",
     "goodwill / zisk z výhodnej kúpy (IFRS 3)",
     "individuálna (separátna) ÚZ (IAS 27)",
     "zverejnenia podielov v iných ÚJ (IFRS 12)",
@@ -25,18 +25,18 @@
     "výkaz vybraných údajov",
     "správa s informáciami o dani z príjmov (CbCR, § 21a)"
   ],
-  "princip_mentalny_model": "Konsolidovaná závierka odpovedá na jednu otázku: ako keby skupina (materská + všetky dcéry) bola JEDEN podnik. Individuálne závierky kapitálovo prepojených firiem nedávajú verný obraz – obsahujú duplicity (investícia matky vs. vlastné imanie dcéry) a vnútroskupinové transakcie (vzájomné pohľadávky/záväzky, medzizisk v zásobách, vzájomné náklady a výnosy). KÚZ tieto duplicity ELIMINUJE a prezentuje skupinu ako ekonomickú jednotku (teória ekonomickej jednotky → metóda úplnej konsolidácie: preberá sa 100 % majetku, záväzkov, výnosov a nákladov dcéry bez ohľadu na výšku podielu, a podiel cudzích spoločníkov sa vykáže ako nekontrolujúce podiely). Tri rozhodnutia: (1) KTO konsoliduje a KOHO – kto má ovládanie/rozhodujúci vplyv (§ 22 zákona, IFRS 10) a kedy je oslobodený; (2) AKO – akvizičná metóda IFRS 3 + úplná konsolidácia IFRS 10, prípadne metóda vlastného imania pre pridružené a spoločné podniky (IAS 28); (3) ČO ZVEREJNIŤ – navyše IFRS 12 (podiely v iných ÚJ). KÚZ je len informačný nástroj – nie je základom dane ani podkladom na rozdelenie zisku. Pozor na rozdiel: KÚZ ≠ individuálna/separátna ÚZ matky (IAS 27), kde matka vykazuje investície v obstarávacej cene, podľa IFRS 9, alebo metódou vlastného imania.",
+  "princip_mentalny_model": "Konsolidovaná závierka odpovedá na jednu otázku: ako keby skupina (materská + všetky dcéry) bola JEDEN podnik. Individuálne závierky kapitálovo prepojených firiem nedávajú verný obraz – obsahujú duplicity (investícia matky vs. vlastné imanie dcéry) a vnútroskupinové transakcie (vzájomné pohľadávky/záväzky, medzizisk v zásobách, vzájomné náklady a výnosy). KÚZ tieto duplicity ELIMINUJE a prezentuje skupinu ako ekonomickú jednotku (teória ekonomickej jednotky → metóda úplnej konsolidácie: preberá sa 100 % majetku, záväzkov, výnosov a nákladov dcéry bez ohľadu na výšku podielu, a podiel cudzích spoločníkov sa vykáže ako nekontrolné podiely (NP)). Tri rozhodnutia: (1) KTO konsoliduje a KOHO – kto má ovládanie/rozhodujúci vplyv (§ 22 zákona, IFRS 10) a kedy je oslobodený; (2) AKO – akvizičná metóda IFRS 3 + úplná konsolidácia IFRS 10, prípadne metóda vlastného imania pre pridružené a spoločné podniky (IAS 28); (3) ČO ZVEREJNIŤ – navyše IFRS 12 (podiely v iných ÚJ). KÚZ je len informačný nástroj – nie je základom dane ani podkladom na rozdelenie zisku. Pozor na rozdiel: KÚZ ≠ individuálna/separátna ÚZ matky (IAS 27), kde matka vykazuje investície v obstarávacej cene, podľa IFRS 9, alebo metódou vlastného imania.",
   "jadro_odpovede_10min": {
     "cielova_dlzka_slov": 1450,
     "uvod": "Konsolidovaná účtovná závierka (KÚZ) je závierka zostavená za skupinu kapitálovo prepojených účtovných jednotiek – za konsolidovaný celok, ktorý tvorí materská účtovná jednotka a všetky jej dcérske účtovné jednotky (§ 6 ods. 4 zákona o účtovníctve). Zostavuje ju materská účtovná jednotka. Dôvod je principiálny: ak jedna firma ovláda iné, ich individuálne závierky samostatne nepodávajú verný a pravdivý obraz – obsahujú duplicity z kapitálového prepojenia a z vnútroskupinových dodávok. KÚZ podnikateľských subjektov sa v SR zostavuje podľa IFRS prevzatých EÚ; KÚZ verejnej správy postupmi konsolidácie upravenými opatreniami MF SR. KÚZ má vlastníkom materskej jednotky poskytnúť globálny pohľad na majetok a výnosnosť kapitálu ovládaného skupinou; je daňovo neúčinná a nie je podkladom na výpočet podielov na zisku.",
     "casti": [
       {
         "nadpis": "Podstata, účel a využitie informácií",
-        "text": "KÚZ slúži ako informačný nástroj pre externých adresátov (súčasní aj potenciálni investori, banky úverujúce skupinu) a ako nástroj riadenia a kontroly pre manažment matky. Nie je podkladom na výpočet dane z príjmov právnických osôb (je daňovo neúčinná) ani na výpočet podielov na zisku. Stojí na dvoch teóriách: teória ekonomickej jednotky vníma prepojené podniky ako jeden ekonomický celok („akoby šlo o jednu právnickú osobu“) a aplikuje sa v metóde úplnej konsolidácie – preberá sa 100 % majetku, záväzkov, vlastného imania, nákladov, výnosov a peňažných tokov dcéry bez ohľadu na výšku podielu, pričom cudzí podiel sa vykáže ako nekontrolujúce podiely. Teória záujmov vlastníkov sleduje výnosnosť vloženej investície (historicky podielová konsolidácia, v IFRS zrušená od r. 2014; smernica 2013/34/EÚ ju ešte povoľuje)."
+        "text": "KÚZ slúži ako informačný nástroj pre externých adresátov (súčasní aj potenciálni investori, banky úverujúce skupinu) a ako nástroj riadenia a kontroly pre manažment matky. Nie je podkladom na výpočet dane z príjmov právnických osôb (je daňovo neúčinná) ani na výpočet podielov na zisku. Stojí na dvoch teóriách: teória ekonomickej jednotky vníma prepojené podniky ako jeden ekonomický celok („akoby šlo o jednu právnickú osobu“) a aplikuje sa v metóde úplnej konsolidácie – preberá sa 100 % majetku, záväzkov, vlastného imania, nákladov, výnosov a peňažných tokov dcéry bez ohľadu na výšku podielu, pričom cudzí podiel sa vykáže ako nekontrolné podiely (NP). Teória záujmov vlastníkov sleduje výnosnosť vloženej investície (historicky podielová konsolidácia, v IFRS zrušená od r. 2014; smernica 2013/34/EÚ ju ešte povoľuje)."
       },
       {
         "nadpis": "Kto a koho konsoliduje – ovládanie podľa IFRS 10 a § 22",
-        "text": "Materská jednotka konsoliduje dcéry, ktoré OVLÁDA. Podľa IFRS 10 investor ovláda objekt investície, ak má súčasne: (1) moc nad ním (rozhodovanie o relevantných činnostiach), (2) je vystavený variabilným výnosom z účasti a (3) má schopnosť použiť moc na ovplyvnenie týchto výnosov. Slovenský zákon hovorí o rozhodujúcom vplyve (§ 22 ods. 3): MÚJ má napr. väčšinu hlasovacích práv, právo vymenúvať/odvolávať väčšinu štatutárneho alebo dozorného orgánu, alebo rozhodujúci vplyv na základe dohody či stanov. Dcéra môže byť ovládaná priamo (hrebeňová štruktúra) alebo nepriamo cez iné dcéry (vertikálna štruktúra). Pridružené podniky (podstatný vplyv) a spoločné podniky sa nezahŕňajú úplnou konsolidáciou, ale metódou vlastného imania podľa IAS 28."
+        "text": "Materská jednotka konsoliduje dcéry, ktoré OVLÁDA. Podľa IFRS 10 investor ovláda objekt investície, ak má súčasne: (1) právomoci nad ním (rozhodovanie o relevantných činnostiach), (2) je vystavený premenlivým výnosom (variabilným) z účasti a (3) má schopnosť použiť moc na ovplyvnenie týchto výnosov. Slovenský zákon hovorí o rozhodujúcom vplyve (§ 22 ods. 3): MÚJ má napr. väčšinu hlasovacích práv, právo vymenúvať/odvolávať väčšinu štatutárneho alebo dozorného orgánu, alebo rozhodujúci vplyv na základe dohody či stanov. Dcéra môže byť ovládaná priamo (hrebeňová štruktúra) alebo nepriamo cez iné dcéry (vertikálna štruktúra). Pridružené podniky (podstatný vplyv) a spoločné podniky sa nezahŕňajú úplnou konsolidáciou, ale metódou vlastného imania podľa IAS 28. Pozn.: § 22 ods. 3 ZÚ stojí na FORMÁLNYCH kritériách rozhodujúceho vplyvu (väčšina hlasov, právo vymenovať väčšinu orgánu, dohoda alebo stanovy), zatiaľ čo IFRS 10 stojí na PODSTATE ovládania (3 prvky: právomoci, premenlivé výnosy a väzba medzi nimi). Pri KÚZ podnikateľov zostavovanej podľa IFRS prevzatých EÚ rozhoduje IFRS 10."
       },
       {
         "nadpis": "Proces prípravy a zostavenia KÚZ",
@@ -44,7 +44,7 @@
       },
       {
         "nadpis": "Štruktúra a obsah KÚZ podľa IFRS a osobitosti oproti individuálnej ÚZ matky",
-        "text": "KÚZ tvorí podľa IAS 1 rovnaká sústava výkazov ako individuálna: konsolidovaný výkaz o finančnej situácii (súvaha), konsolidovaný výkaz ziskov a strát a ostatných súčastí komplexného výsledku, konsolidovaný výkaz zmien vlastného imania, konsolidovaný výkaz o peňažných tokoch (IAS 7) a poznámky; poznámky sa nekonsolidujú. Osobitosti oproti individuálnej ÚZ matky: niektoré položky sú eliminované alebo vykázané v inej výške; základné imanie v konsolidovanej súvahe je rovnaké ako ZI matky; iba v KÚZ sa objavia goodwill z konsolidácie, investície v pridruženom/spoločnom podniku metódou vlastného imania a nekontrolujúce podiely (súčasť vlastného imania). Vo výkaze ziskov a strát sa samostatne vykazuje výsledok a komplexný výsledok pripadajúci vlastníkom matky a NP a samostatne podiel na zisku/strate pridružených a spoločných podnikov. V cash flow je špecifická čistá platba – výdavok na obstaranie podielu v dcére znížený o jej peňažné prostriedky."
+        "text": "KÚZ tvorí podľa IAS 1 rovnaká sústava výkazov ako individuálna: konsolidovaný výkaz o finančnej situácii (súvaha), konsolidovaný výkaz ziskov a strát a ostatných súčastí komplexného výsledku, konsolidovaný výkaz zmien vlastného imania, konsolidovaný výkaz o peňažných tokoch (IAS 7) a poznámky; poznámky sa nekonsolidujú. Osobitosti oproti individuálnej ÚZ matky: niektoré položky sú eliminované alebo vykázané v inej výške; základné imanie v konsolidovanej súvahe je rovnaké ako ZI matky; iba v KÚZ sa objavia goodwill z konsolidácie, investície v pridruženom/spoločnom podniku metódou vlastného imania a nekontrolné podiely (NP) (súčasť vlastného imania). Vo výkaze ziskov a strát sa samostatne vykazuje výsledok a komplexný výsledok pripadajúci vlastníkom matky a NP a samostatne podiel na zisku/strate pridružených a spoločných podnikov. V cash flow je špecifická čistá platba – výdavok na obstaranie podielu v dcére znížený o jej peňažné prostriedky."
       },
       {
         "nadpis": "Zverejňovanie v poznámkach podľa IFRS 12",
@@ -52,7 +52,7 @@
       },
       {
         "nadpis": "Individuálna/separátna ÚZ podľa IAS 27",
-        "text": "IAS 27 upravuje individuálnu (separátnu) účtovnú závierku – tú zostavuje matka popri KÚZ (keď to vyžaduje národná legislatíva), alebo investor, ktorý je oslobodený od konsolidácie či od metódy vlastného imania, prípadne investičná jednotka uplatňujúca výnimku z konsolidácie podľa IFRS 10. Kľúčové je oceňovanie podielov: investície do dcér, spoločných a pridružených podnikov účtuje jednotka buď v obstarávacej cene, alebo podľa IFRS 9 (v reálnej hodnote), alebo metódou vlastného imania podľa IAS 28; rovnaký prístup sa uplatní na každú kategóriu investícií. Dividendy z dcér/spoločných/pridružených podnikov sa v separátnej ÚZ vykazujú do výsledku hospodárenia, keď vznikne právo na ne (okrem metódy vlastného imania, kde znižujú účtovnú hodnotu investície). KÚZ teda NIE JE to isté ako individuálna ÚZ matky."
+        "text": "IAS 27 upravuje individuálnu (separátnu) účtovnú závierku – tú zostavuje matka popri KÚZ (keď to vyžaduje národná legislatíva), alebo investor, ktorý je oslobodený od konsolidácie či od metódy vlastného imania, prípadne investičná spoločnosť (investment entity) uplatňujúca výnimku z konsolidácie podľa IFRS 10. Kľúčové je oceňovanie podielov: investície do dcér, spoločných a pridružených podnikov účtuje jednotka buď v obstarávacej cene, alebo podľa IFRS 9 (v reálnej hodnote), alebo metódou vlastného imania podľa IAS 28; rovnaký prístup sa uplatní na každú kategóriu investícií. Dividendy z dcér/spoločných/pridružených podnikov sa v separátnej ÚZ vykazujú do výsledku hospodárenia, keď vznikne právo na ne (okrem metódy vlastného imania, kde znižujú účtovnú hodnotu investície). KÚZ teda NIE JE to isté ako individuálna ÚZ matky."
       },
       {
         "nadpis": "Povinnosť zostaviť KÚZ v SR a oslobodenia (§ 22)",
@@ -64,7 +64,7 @@
       },
       {
         "nadpis": "Ďalšie povinnosti matky v SR (výročná správa, výkaz, CbCR)",
-        "text": "Matka oznamuje dcéram povinnosť zostaviť KÚZ a tie jej poskytnú svoju IÚZ a podklady. Do registra účtovných závierok ukladá do 1 roka od konca obdobia: KÚZ, konsolidovanú výročnú správu, výkaz vybraných údajov z KÚZ a správu audítora; uchováva ich 10 rokov. Konsolidovaná výročná správa (overená audítorom) obsahuje KÚZ, správu audítora, informácie o vývoji a rizikách skupiny, budúcom vývoji, výskume a vývoji; jej súčasťou môže byť konsolidovaná správa o platbách vládam (ťažobný priemysel, klčovanie lesov; nezverejňujú sa platby do 100 000 € jedného druhu v jednom štáte). Výkaz vybraných údajov z KÚZ zostavuje podľa opatrenia MF SR. Správu s informáciami o dani z príjmov (CbCR, § 21a) vyhotovuje konečná MÚJ, ktorá je obchodnou spoločnosťou so skupinou s cezhraničným dosahom, ak jej konsolidované výnosy v dvoch po sebe idúcich obdobiach presiahli 750 mil. €; obsahuje aj výnosy, VH pred zdanením, daň ako náklad bežného obdobia a zaplatenú daň, nerozdelené zisky."
+        "text": "Matka oznamuje dcéram povinnosť zostaviť KÚZ a tie jej poskytnú svoju IÚZ a podklady. Do registra účtovných závierok ukladá do 1 roka od konca obdobia: KÚZ, konsolidovanú výročnú správu, výkaz vybraných údajov z KÚZ a správu audítora; uchováva ich 10 rokov. Konsolidovaná výročná správa (overená audítorom) obsahuje KÚZ, správu audítora, informácie o vývoji a rizikách skupiny, budúcom vývoji, výskume a vývoji; jej súčasťou môže byť konsolidovaná správa o platbách vládam (ťažobný priemysel, klčovanie lesov; nezverejňujú sa platby do 100 000 € jedného druhu v jednom štáte). Výkaz vybraných údajov z KÚZ zostavuje podľa opatrenia MF SR. Správu s informáciami o dani z príjmov (CbCR, § 21a) vyhotovuje konečná MÚJ, ktorá je obchodnou spoločnosťou so skupinou s cezhraničným dosahom, ak jej konsolidované výnosy v dvoch po sebe idúcich obdobiach presiahli 750 mil. €; obsahuje aj výnosy, VH pred zdanením, daň ako náklad bežného obdobia a zaplatenú daň, nerozdelené zisky. Pozor na rozdiel: § 21a ZÚ upravuje VEREJNÝ CbCR (smernica 2021/2101), ktorý sa zverejňuje v registri ÚZ. Paralelne existuje DAŇOVÝ CbCR podľa OECD BEPS Action 13 (transponovaný smernicou 2016/881/EÚ; v SR § 22a zákona č. 442/2012 Z. z. o medzinárodnej pomoci pri správe daní) s rovnakým prahom 750 mil. €, ale je daňovo dôverný a podáva sa finančnej správe — ide o dva odlišné dokumenty s rovnakým prahom."
       },
       {
         "zaver": "Logika tézy: KÚZ zobrazuje skupinu ako jeden podnik – kto ovláda (IFRS 10 / § 22), ten konsoliduje (akvizičná metóda IFRS 3 + úplná konsolidácia, prípadne metóda vlastného imania pre pridružené/spoločné podniky podľa IAS 28), elimináciou duplicít a vnútroskupinových vzťahov. Štruktúra výkazov je ako pri individuálnej ÚZ, ale s NP, goodwillom a podielmi metódou vlastného imania navyše; zverejnenia rozširuje IFRS 12. Treba odlíšiť KÚZ od individuálnej/separátnej ÚZ matky (IAS 27). Slovenský zákon stanovuje povinnosť a oslobodenia (medzistupeň, veľkostné kritériá, nevýznamnosť, nezahrnuteľné dcéry), osobitný režim verejnej správy (§ 22a) a ďalšie povinnosti matky (výročná správa, výkaz vybraných údajov, CbCR)."
@@ -74,19 +74,19 @@
   "rozsirena_baza": [
     {
       "nadpis": "Metóda úplnej konsolidácie vs. metóda vlastného imania (IAS 28)",
-      "text": "Úplná konsolidácia (dcéry, IFRS 10): agregujú sa všetky položky majetku, záväzkov, vlastného imania, nákladov, výnosov a peňažných tokov dcéry v 100 %, eliminujú sa vnútroskupinové vzťahy a vykazujú sa nekontrolujúce podiely. Metóda vlastného imania (pridružené a spoločné podniky, IAS 28): NEagreguje sa majetok ani výsledok investovaného podniku; investícia sa pôvodne vykáže v obstarávacej cene a následne sa upravuje o podiel investora na zmene vlastného imania (zisku/strate) investovaného podniku. Vo výkaze ziskov a strát sa vykazuje samostatný riadok „podiel na zisku/strate pridružených a spoločných podnikov“. Podielová konsolidácia (kedysi pre spoločné podniky) je v IFRS zrušená od r. 2014."
+      "text": "Úplná konsolidácia (dcéry, IFRS 10): agregujú sa všetky položky majetku, záväzkov, vlastného imania, nákladov, výnosov a peňažných tokov dcéry v 100 %, eliminujú sa vnútroskupinové vzťahy a vykazujú sa nekontrolné podiely (NP). Metóda vlastného imania (pridružené a spoločné podniky, IAS 28): NEagreguje sa majetok ani výsledok investovaného podniku; investícia sa pôvodne vykáže v obstarávacej cene a následne sa upravuje o podiel investora na zmene vlastného imania (zisku/strate) investovaného podniku. Vo výkaze ziskov a strát sa vykazuje samostatný riadok „podiel na zisku/strate pridružených a spoločných podnikov“. Podielová konsolidácia (kedysi pre spoločné podniky) je v IFRS zrušená od r. 2014."
     },
     {
-      "nadpis": "Goodwill, zisk z výhodnej kúpy a nekontrolujúce podiely (IFRS 3)",
-      "text": "Pri prvej konsolidácii kapitálu sa investícia matky započíta s podielom na vlastnom imaní dcéry ku dňu akvizície (oceneného v reálnych hodnotách). Kladný rozdiel = goodwill (netestuje sa odpisom, ale na zníženie hodnoty podľa IAS 36), záporný = zisk z výhodnej kúpy (do výsledku). Nekontrolujúce podiely (podiel cudzích spoločníkov na neúplne vlastnenej dcére) sa vykazujú v rámci vlastného imania samostatne. Pri nasledujúcej konsolidácii sa vychádza z prvej a zohľadňujú sa zmeny vlastného imania dcéry od dňa akvizície (rozdelené na podiel matky a NP)."
+      "nadpis": "Goodwill, zisk z výhodnej kúpy a nekontrolné podiely (NP) (IFRS 3)",
+      "text": "Pri prvej konsolidácii kapitálu sa investícia matky započíta s podielom na vlastnom imaní dcéry ku dňu akvizície (oceneného v reálnych hodnotách). Kladný rozdiel = goodwill (netestuje sa odpisom, ale na zníženie hodnoty podľa IAS 36), záporný = zisk z výhodnej kúpy (do výsledku). Nekontrolné podiely (podiel cudzích spoločníkov na neúplne vlastnenej dcére) sa vykazujú v rámci vlastného imania samostatne. Pri nasledujúcej konsolidácii sa vychádza z prvej a zohľadňujú sa zmeny vlastného imania dcéry od dňa akvizície (rozdelené na podiel matky a NP)."
     },
     {
-      "nadpis": "Investičná jednotka – výnimka z konsolidácie",
-      "text": "IFRS 10 obsahuje výnimku pre investičnú jednotku (investment entity): tá svoje dcérske podniky NEkonsoliduje, ale oceňuje investície v nich reálnou hodnotou cez výsledok hospodárenia podľa IFRS 9. Takáto jednotka môže potom zostavovať len individuálnu (separátnu) ÚZ podľa IAS 27 a uplatniť zverejnenia IFRS 12."
+      "nadpis": "Investičná spoločnosť (investment entity) – výnimka z konsolidácie",
+      "text": "IFRS 10 obsahuje výnimku pre investičnú spoločnosť (investment entity): tá svoje dcérske podniky NEkonsoliduje, ale oceňuje investície v nich reálnou hodnotou cez výsledok hospodárenia podľa IFRS 9. Takáto jednotka môže potom zostavovať len individuálnu (separátnu) ÚZ podľa IAS 27 a uplatniť zverejnenia IFRS 12."
     },
     {
       "nadpis": "Smernica EÚ 2013/34 a vzťah k IFRS",
-      "text": "Slovenská úprava KÚZ je ovplyvnená nadnárodne: smernicou 2013/34/EÚ o účtovných závierkach a IFRS prevzatými EÚ (nariadenie 1606/2002, konsolidované znenie nariadenia 1126/2008). Oslobodenia v § 22 zákona o účtovníctve preberajú smernicu (povinné oslobodenia SR musela prevziať, voliteľné prevzala len čiastočne). KÚZ podnikateľov sa zostavuje výlučne podľa IFRS prevzatých EÚ, nie podľa slovenských postupov účtovania."
+      "text": "Slovenská úprava KÚZ je ovplyvnená nadnárodne: smernicou 2013/34/EÚ o účtovných závierkach (článok 26 dáva členským štátom VOLITEĽNÚ možnosť povoliť pomernú konsolidáciu pre joint ventures; SR túto voľbu neuplatnila — v SR sa joint ventures vykazujú výlučne metódou vlastného imania podľa IAS 28) a IFRS prevzatými EÚ (nariadenie 1606/2002, konsolidované znenie nariadenia 1126/2008). Oslobodenia v § 22 zákona o účtovníctve preberajú smernicu (povinné oslobodenia SR musela prevziať, voliteľné prevzala len čiastočne). KÚZ podnikateľov sa zostavuje výlučne podľa IFRS prevzatých EÚ, nie podľa slovenských postupov účtovania."
     },
     {
       "nadpis": "Konsolidované vykazovanie informácií o udržateľnosti",
@@ -101,9 +101,9 @@
       "dopad_na_zd": "KÚZ je daňovo neúčinná – goodwill z konsolidácie nemá vplyv na základ dane. Goodwill = 50 000 €."
     },
     {
-      "nazov": "Nekontrolujúce podiely pri neúplne vlastnenej dcére",
+      "nazov": "Nekontrolné podiely pri neúplne vlastnenej dcére",
       "zadanie": "Matka M vlastní 80 % dcéry D. Vlastné imanie D je 1 000 000 €, zisk D za rok je 200 000 €.",
-      "riesenie": "Pri úplnej konsolidácii sa preberajú aktíva, záväzky, náklady a výnosy D v 100 % bez ohľadu na 80 % podiel. Cudzí 20 % podiel sa vykáže ako nekontrolujúce podiely v rámci vlastného imania: 20 % z 1 000 000 = 200 000 €. Zo zisku 200 000 € sa vo výkaze ziskov a strát samostatne vykáže časť pripadajúca vlastníkom matky (160 000 €) a NP (40 000 €).",
+      "riesenie": "Pri úplnej konsolidácii sa preberajú aktíva, záväzky, náklady a výnosy D v 100 % bez ohľadu na 80 % podiel. Cudzí 20 % podiel sa vykáže ako nekontrolné podiely (NP) v rámci vlastného imania: 20 % z 1 000 000 = 200 000 €. Zo zisku 200 000 € sa vo výkaze ziskov a strát samostatne vykáže časť pripadajúca vlastníkom matky (160 000 €) a NP (40 000 €).",
       "dopad_na_zd": "NP vo vlastnom imaní = 200 000 €; podiel NP na zisku = 40 000 €. Bez vplyvu na daň (KÚZ je daňovo neúčinná)."
     },
     {
@@ -115,7 +115,7 @@
     {
       "nazov": "Test oslobodenia podľa veľkostných kritérií (§ 22)",
       "zadanie": "Skupina (matka + dcéry): súčet majetku z individuálnych závierok 28 mil. €, čistý obrat 65 mil. €, priemerný počet zamestnancov 180. Žiadny subjekt nie je subjektom verejného záujmu.",
-      "riesenie": "Pri brutto kritériách (súčet IÚZ): majetok > 30 mil.? 28 mil. = NIE. Obrat > 60 mil.? 65 mil. = ÁNO. Zamestnanci > 250? 180 = NIE. Splnené je len jedno kritérium z troch. Na vznik povinnosti treba splniť aspoň dve – skupina je teda OSLOBODENÁ od povinnosti zostaviť KÚZ (malá/stredná skupina). Pozn.: matka sa môže rozhodnúť posudzovať buď brutto (30/60/250) alebo netto po konsolidácii (25/50/250).",
+      "riesenie": "Pri brutto kritériách (súčet IÚZ): majetok > 30 mil.? 28 mil. = NIE. Obrat > 60 mil.? 65 mil. = ÁNO. Zamestnanci > 250? 180 = NIE. Splnené je len jedno kritérium z troch. Na vznik povinnosti treba splniť aspoň dve – skupina je teda OSLOBODENÁ od povinnosti zostaviť KÚZ (malá/stredná skupina). Pozn.: voľbu medzi brutto (30/60/250) a netto po konsolidácii (25/50/250) robí materská účtovná jednotka pri prvotnom posúdení povinnosti zostaviť KÚZ; raz zvolený prístup by mala uplatňovať konzistentne v ďalších obdobiach.",
       "dopad_na_zd": "Bez daňového dopadu. Záver: KÚZ sa zostaviť nemusí, lebo nie sú splnené aspoň dve kritériá."
     }
   ],
@@ -240,7 +240,7 @@
   ],
   "pasce_caste_chyby": [
     "Zamieňať konsolidovanú ÚZ s individuálnou/separátnou ÚZ matky (IAS 27) – v separátnej sa investície len oceňujú (OC/IFRS 9/metóda VI), neagregujú sa aktíva dcér.",
-    "Myslieť si, že úplná konsolidácia preberá len podiel matky – preberá 100 % položiek dcéry, cudzí podiel sa vykáže ako nekontrolujúce podiely.",
+    "Myslieť si, že úplná konsolidácia preberá len podiel matky – preberá 100 % položiek dcéry, cudzí podiel sa vykáže ako nekontrolné podiely (NP).",
     "Aplikovať úplnú konsolidáciu na pridružené a spoločné podniky – tie sa vykazujú metódou vlastného imania (IAS 28), nie agregáciou.",
     "Tvrdiť, že KÚZ je podkladom pre daň alebo rozdelenie zisku – je daňovo neúčinná a neslúži na výpočet podielov na zisku.",
     "Považovať veľkostné prahy za jediné kritérium – treba splniť aspoň DVE z troch; a oslobodenie podľa kritérií neplatí pre subjekt verejného záujmu.",
@@ -248,7 +248,8 @@
     "Myslieť si, že podielová konsolidácia spoločných podnikov stále platí v IFRS – bola zrušená (naposledy za rok 2013).",
     "Tvrdiť, že KÚZ verejnej správy sa zostavuje podľa IFRS – zostavuje sa postupmi podľa opatrení MF SR.",
     "Zamieňať goodwill z konsolidácie (vzniká len v KÚZ, testuje sa na zníženie hodnoty podľa IAS 36) s odpisovaným majetkom – goodwill sa neodpisuje.",
-    "Zabúdať na pravidlo troch mesiacov – rozdiel medzi dátumom závierky matky a dcéry nesmie presiahnuť 3 mesiace."
+    "Zabúdať na pravidlo troch mesiacov – rozdiel medzi dátumom závierky matky a dcéry nesmie presiahnuť 3 mesiace.",
+    "Zamieňať konsolidovanú ÚZ verejnej správy (zostavuje správca kapitoly, obec, VÚC) so súhrnnou účtovnou závierkou verejnej správy (zostavuje ministerstvo financií na základe KÚZ ústrednej správy a KÚZ subjektov verejnej správy)."
   ],
   "test": {
     "vyber_z_moznosti": [
@@ -335,8 +336,8 @@
     ],
     "priklad": [
       {
-        "zadanie": "Matka M vlastní 90 % dcéry D, ktorú kúpila za 900 000 €. Vlastné imanie D ku dňu akvizície (v reálnych hodnotách) je 800 000 €. D počas roka dosiahla zisk 100 000 €. D zároveň predala matke tovar za 50 000 € (jej obstarávacia cena 40 000 €), ktorý M k závierke ešte nepredala mimo skupinu. Určte: a) goodwill, b) nekontrolujúce podiely na VI ku dňu akvizície, c) elimináciu medzizisku, d) rozdelenie zisku D.",
-        "riesenie": "a) Goodwill = investícia 900 000 − podiel M na VI dcéry (90 % z 800 000 = 720 000) = 180 000 €. b) NP na VI ku dňu akvizície = 10 % z 800 000 = 80 000 € (vykáže sa vo vlastnom imaní). c) Medzizisk v zásobách = 50 000 − 40 000 = 10 000 €, ktorý sa pri konsolidácii eliminuje (zníži ocenenie zásob na 40 000 € a vylúči nerealizovaný zisk; eliminujú sa aj vzájomné náklady/výnosy z predaja). d) Zisk D 100 000 € sa rozdelí: vlastníkom matky 90 % = 90 000 €, nekontrolujúcim podielom 10 % = 10 000 €. KÚZ je daňovo neúčinná – tieto úpravy nemajú vplyv na základ dane jednotlivých ÚJ."
+        "zadanie": "Matka M vlastní 90 % dcéry D, ktorú kúpila za 900 000 €. Vlastné imanie D ku dňu akvizície (v reálnych hodnotách) je 800 000 €. D počas roka dosiahla zisk 100 000 €. D zároveň predala matke tovar za 50 000 € (jej obstarávacia cena 40 000 €), ktorý M k závierke ešte nepredala mimo skupinu. Určte: a) goodwill, b) nekontrolné podiely (NP) na VI ku dňu akvizície, c) elimináciu medzizisku, d) rozdelenie zisku D.",
+        "riesenie": "a) Goodwill = investícia 900 000 − podiel M na VI dcéry (90 % z 800 000 = 720 000) = 180 000 €. b) NP na VI ku dňu akvizície = 10 % z 800 000 = 80 000 € (vykáže sa vo vlastnom imaní). c) Medzizisk v zásobách = 50 000 − 40 000 = 10 000 €, ktorý sa pri konsolidácii eliminuje (zníži ocenenie zásob na 40 000 € a vylúči nerealizovaný zisk; eliminujú sa aj vzájomné náklady/výnosy z predaja). d) Zisk D 100 000 € sa rozdelí: vlastníkom matky 90 % = 90 000 €, nekontrolnému podielu (NP) 10 % = 10 000 €. KÚZ je daňovo neúčinná – tieto úpravy nemajú vplyv na základ dane jednotlivých ÚJ."
       }
     ]
   },

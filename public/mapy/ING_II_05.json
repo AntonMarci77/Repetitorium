@@ -26,7 +26,7 @@
             "nazov": "Nemodifikovaný (čistý) názor"
           },
           {
-            "nazov": "Dve osi modifikácie: charakter × všeobsiahlosť (ISA 705)"
+            "nazov": "Dve osi modifikácie: charakter × rozšírenosť (pervasiveness) (ISA 705)"
           },
           {
             "nazov": "Tri typy modifikovaného názoru (ISA 705)"
@@ -79,7 +79,7 @@
             "nazov": "významnosť (materialita)"
           },
           {
-            "nazov": "všeobsiahlosť (pervasiveness)"
+            "nazov": "rozšírenosť (pervasiveness) (pervasiveness)"
           },
           {
             "nazov": "obmedzenie rozsahu auditu"
@@ -135,7 +135,7 @@
   "vetvy": [
     "Formovanie názoru a obsah správy (ISA 700)",
     "Nemodifikovaný (čistý) názor",
-    "Dve osi modifikácie: charakter × všeobsiahlosť (ISA 705)",
+    "Dve osi modifikácie: charakter × rozšírenosť (pervasiveness) (ISA 705)",
     "Tri typy modifikovaného názoru (ISA 705)",
     "Odsek so zdôraznením skutočností (Emphasis of Matter, ISA 706)",
     "Odsek o inej skutočnosti (Other Matter, ISA 706)",

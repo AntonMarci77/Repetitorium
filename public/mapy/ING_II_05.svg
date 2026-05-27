@@ -33,18 +33,18 @@
 <rect x="90.0" y="382.8" width="380" height="137.0" rx="12" fill="#ffffff" stroke="#28b065" stroke-width="2.5"/>
 <rect x="90.0" y="382.8" width="7" height="137.0" rx="3.5" fill="#28b065"/>
 <text x="107.0" y="409.8" font-size="14.5" font-weight="700" fill="#1a3868">3. Dve osi modifikácie: charakter ×</text>
-<text x="107.0" y="428.8" font-size="14.5" font-weight="700" fill="#1a3868">všeobsiahlosť (ISA 705)</text>
+<text x="107.0" y="428.8" font-size="14.5" font-weight="700" fill="#1a3868">rozšírenosť (ISA 705)</text>
 <text x="107.0" y="452.8" font-size="13.0" fill="#374151">Dve osi: charakter (závierka významne NESPRÁVNA vs.</text>
-<text x="107.0" y="469.2" font-size="13.0" fill="#374151">NEDOSTATOK dôkazov) × všeobsiahlosť (materiálne</text>
-<text x="107.0" y="485.8" font-size="13.0" fill="#374151">ohraničené vs. všeobsiahle = preniká alebo zásadné</text>
+<text x="107.0" y="469.2" font-size="13.0" fill="#374151">NEDOSTATOK dôkazov) × rozšírenosť (materiálne</text>
+<text x="107.0" y="485.8" font-size="13.0" fill="#374151">ohraničené vs. rozšírené = preniká alebo zásadné</text>
 <text x="107.0" y="502.2" font-size="13.0" fill="#374151">zverejnenia).</text>
 <rect x="90.0" y="539.8" width="380" height="118.0" rx="12" fill="#ffffff" stroke="#803594" stroke-width="2.5"/>
 <rect x="90.0" y="539.8" width="7" height="118.0" rx="3.5" fill="#803594"/>
 <text x="107.0" y="566.8" font-size="14.5" font-weight="700" fill="#1a3868">4. Tri typy modifikovaného názoru (ISA 705)</text>
-<text x="107.0" y="590.8" font-size="13.0" fill="#374151">Z prieniku: VÝHRADA (materiálne, nie všeobsiahle),</text>
-<text x="107.0" y="607.2" font-size="13.0" fill="#374151">ZÁPORNÝ (nesprávnosť materiálna A všeobsiahla),</text>
+<text x="107.0" y="590.8" font-size="13.0" fill="#374151">Z prieniku: VÝHRADA (materiálne, nie rozšírené),</text>
+<text x="107.0" y="607.2" font-size="13.0" fill="#374151">ZÁPORNÝ (nesprávnosť materiálna A rozšírená),</text>
 <text x="107.0" y="623.8" font-size="13.0" fill="#374151">ODMIETNUTIE (nedostatok dôkazov materiálny A</text>
-<text x="107.0" y="640.2" font-size="13.0" fill="#374151">všeobsiahly). Upraví sa Základ pre názor.</text>
+<text x="107.0" y="640.2" font-size="13.0" fill="#374151">rozšírený). Upraví sa Základ pre názor.</text>
 <rect x="90.0" y="677.8" width="380" height="120.5" rx="12" fill="#ffffff" stroke="#6a6eb3" stroke-width="2.5"/>
 <rect x="90.0" y="677.8" width="7" height="120.5" rx="3.5" fill="#6a6eb3"/>
 <text x="107.0" y="704.8" font-size="14.5" font-weight="700" fill="#1a3868">5. Odsek so zdôraznením skutočností (Emphasis</text>

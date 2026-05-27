@@ -5,8 +5,8 @@
   "cislo": 3,
   "nazov": "Audítorská dokumentácia, audítorské dôkazy a významnosť v rámci auditu účtovnej závierky",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Medzinárodné audítorské štandardy (ISA) – znenie uplatňované na Slovensku cez Slovenskú komoru audítorov (SKAU/UDVA), stav k máju 2026. Konkrétne ISA 230, 320, 450, 500, 505, 510, 520, 530. Číselné základne významnosti (napr. 5 % zo zisku pred zdanením) sú odbornými normami praxe (benchmarky), nie pevne stanovené v štandarde – ISA 320 ich nečísluje, vyžaduje odborný úsudok. Štatutárny audit upravuje aj zákon č. 423/2015 Z. z. o štatutárnom audite.",
+  "verzia": "1.2",
+  "stav_legislativy": "Medzinárodné audítorské štandardy (ISA) – znenie uplatňované na Slovensku cez Slovenskú komoru audítorov (SKAU/UDVA), stav k máju 2026. Konkrétne ISA 230, 320, 450, 500, 505, 510, 520, 530. Číselné základne významnosti (napr. 5 % zo zisku pred zdanením) sú odbornými normami praxe (benchmarky), nie pevne stanovené v štandarde – ISA 320 ich nečísluje, vyžaduje odborný úsudok. Štatutárny audit upravuje aj zákon č. 423/2015 Z. z. o štatutárnom audite. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "audítorská dokumentácia (ISA 230)",
     "test skúseného audítora (experienced auditor test)",
@@ -14,7 +14,7 @@
     "významnosť / materialita (ISA 320)",
     "významnosť pre účtovnú závierku ako celok",
     "uplatňovaná základňa (benchmark)",
-    "výkonová významnosť (performance materiality)",
+    "vykonávacia významnosť (performance materiality)",
     "prah triviálnosti (clearly trivial)",
     "riziko auditu (inherentné, kontrolné, zisťovacie)",
     "nepriamy (inverzný) vzťah rizika a významnosti",
@@ -27,7 +27,7 @@
     "výber vzorky (ISA 530)",
     "riziko vyplývajúce z výberu vzorky (sampling risk)"
   ],
-  "princip_mentalny_model": "Audit je systematické ZNIŽOVANIE NEISTOTY k akceptovateľne nízkej úrovni. Tri piliere tézy do seba zapadajú ako reťaz: VÝZNAMNOSŤ hovorí, čo je dosť veľké na to, aby na tom záležalo (kde hľadať a aký prah nesprávnosti je únosný); DÔKAZY hovoria, čím sa presvedčím, že to sedí (dostatočné = koľko, vhodné = akej kvality – relevantné a spoľahlivé, vždy k jednotlivým tvrdeniam); DOKUMENTÁCIA je dôkaz o dôkaze – písomný záznam, ktorý umožní skúsenému audítorovi bez predošlej znalosti zákazky pochopiť, čo a prečo som urobil. Spájacím mechanizmom je RIZIKO. Platí audit risk = inherentné × kontrolné × zisťovacie riziko. Kľúčový vzťah: medzi významnosťou a rizikom auditu je NEPRIAMY (inverzný) vzťah – ak nastavím významnosť NÍZKO (prísnejšie), musím urobiť VIAC práce (väčšie vzorky, viac dôkazov), čím znižujem zisťovacie riziko a tým aj riziko auditu. Riziko zároveň priamo úmerne tlačí na veľkosť vzorky: vyššie riziko → nižšia plánovaná zisťovacia chyba → väčšia vzorka. Mentálne: 'významnosť je sito s veľkosťou ôk; riziko určuje, koľko ráz musím cez sito presypať.'",
+  "princip_mentalny_model": "Audit je systematické ZNIŽOVANIE NEISTOTY k akceptovateľne nízkej úrovni. Tri piliere tézy do seba zapadajú ako reťaz: VÝZNAMNOSŤ hovorí, čo je dosť veľké na to, aby na tom záležalo (kde hľadať a aký prah nesprávnosti je únosný); DÔKAZY hovoria, čím sa presvedčím, že to sedí (dostatočné = koľko, vhodné = akej kvality – relevantné a spoľahlivé, vždy k jednotlivým tvrdeniam); DOKUMENTÁCIA je dôkaz o dôkaze – písomný záznam, ktorý umožní skúsenému audítorovi bez predošlej znalosti zákazky pochopiť, čo a prečo som urobil. Spájacím mechanizmom je RIZIKO. Platí audit risk = inherentné × kontrolné × zisťovacie riziko. Kľúčový vzťah (ISA 320.A1–A2): medzi (plánovanou) významnosťou a posúdeným RIZIKOM VÝZNAMNEJ NESPRÁVNOSTI (RMM) je NEPRIAMY (inverzný) vzťah – pri vyššom posúdenom RMM volí audítor NIŽŠIU plánovanú významnosť, aby udržal AR na akceptovateľnej úrovni; tým rastie rozsah dôkazov (väčšie vzorky, viac dôkazov), čím znižujem zisťovacie riziko a tým aj riziko auditu. Riziko zároveň priamo úmerne tlačí na veľkosť vzorky: vyššie riziko → nižšia plánovaná zisťovacia chyba → väčšia vzorka. Mentálne: 'významnosť je sito s veľkosťou ôk; riziko určuje, koľko ráz musím cez sito presypať.'",
   "jadro_odpovede_10min": {
     "cielova_dlzka_slov": 1450,
     "uvod": "Téza spája tri vzájomne prepojené koncepty auditu účtovnej závierky podľa Medzinárodných audítorských štandardov (ISA): audítorskú dokumentáciu (ISA 230), významnosť čiže materialitu (ISA 320, nadväzne ISA 450) a audítorské dôkazy (ISA 500 a nadväzné štandardy ISA 505, 510, 520, 530). Spoločným menovateľom je riziko auditu – audítor plánuje a vykonáva prácu tak, aby riziko vyjadrenia nesprávneho názoru znížil na akceptovateľne nízku úroveň. Významnosť určuje, čo je dosť veľké, aby to mohlo ovplyvniť rozhodnutia používateľov; dôkazy presviedčajú, že vykázané hodnoty sú správne; a dokumentácia toto všetko zaznamenáva. Medzi významnosťou a rizikom auditu je nepriamy vzťah, ktorý priamo ovplyvňuje rozsah práce a veľkosť vzoriek.",
@@ -42,7 +42,7 @@
       },
       {
         "nadpis": "Uplatňované základne (benchmarky) a príklad výpočtu",
-        "text": "Celková významnosť sa zvyčajne stanoví ako percento z vhodnej základne (benchmark), zvolenej podľa charakteru jednotky a používateľov závierky. Bežné základne a orientačné rozpätia: zisk pred zdanením 5–10 % (typické pre ziskové podniky, používatelia sledujú ziskovosť), výnosy/tržby 0,5–2 %, celkové aktíva 1–2 % (kapitálovo náročné jednotky, napr. realitné spoločnosti), vlastné imanie cca 1–5 %, celkové náklady 0,5–2 % (typické pre neziskové organizácie). Voľba percenta je vecou odborného úsudku a musí byť zdokumentovaná. PRÍKLAD: spoločnosť so ziskom pred zdanením 1 000 000 €. Audítor zvolí základňu zisk pred zdanením a sadzbu 5 %. Celková významnosť = 5 % × 1 000 000 = 50 000 €. Výkonovú významnosť nastaví napr. na 75 % z celkovej = 37 500 € (pri vyššom riziku napr. 50 % = 25 000 €). Prah triviálnosti (clearly trivial) nastaví napr. na 5 % celkovej významnosti = 2 500 €. Ak je zisk volatilný alebo blízko nule, audítor použije normalizovaný zisk alebo inú základňu (výnosy, aktíva)."
+        "text": "Celková významnosť sa zvyčajne stanoví ako percento z vhodnej základne (benchmark), zvolenej podľa charakteru jednotky a používateľov závierky. Bežné základne a orientačné rozpätia: zisk pred zdanením 5–10 % (typické pre ziskové podniky, používatelia sledujú ziskovosť), výnosy/tržby 0,5–2 %, celkové aktíva 1–2 % (kapitálovo náročné jednotky, napr. realitné spoločnosti), vlastné imanie cca 1–5 %, celkové náklady 0,5–2 % (typické pre neziskové organizácie). Voľba percenta je vecou odborného úsudku a musí byť zdokumentovaná. PRÍKLAD: spoločnosť so ziskom pred zdanením 1 000 000 €. Audítor zvolí základňu zisk pred zdanením a sadzbu 5 %. Celková významnosť = 5 % × 1 000 000 = 50 000 €. Vykonávaciu významnosť nastaví napr. na 75 % z celkovej = 37 500 € (pri vyššom riziku orientačne 50 % = 25 000 € — bežná prax je 50–75 %, voľba je vecou odborného úsudku). Prah triviálnosti (clearly trivial) nastaví napr. na 5 % celkovej významnosti = 2 500 € — pozn.: ISA 320 nedefinuje konkrétne percento; orientačná prax je 3–5 %, no nejde o normu, ale o úsudok audítora. Ak je zisk volatilný alebo blízko nule, audítor použije normalizovaný zisk alebo inú základňu (výnosy, aktíva)."
       },
       {
         "nadpis": "Riziko auditu a jeho nepriamy vzťah k významnosti",
@@ -66,7 +66,7 @@
       },
       {
         "nadpis": "Výber vzorky (ISA 530), riziko vzorky a vplyv rizika na jej veľkosť",
-        "text": "Výber vzorky (audit sampling) je aplikácia postupov na MENEJ než 100 % položiek populácie tak, aby každá jednotka mala šancu byť vybraná a aby sa zo vzorky dal urobiť záver o celej populácii. Metódy môžu byť ŠTATISTICKÉ (náhodný výber a vyhodnotenie pravdepodobnosťou, napr. peňažná jednotka – MUS) alebo NEŠTATISTICKÉ (úsudkový výber); žiadna nie je a priori lepšia. RIZIKO VYPLÝVAJÚCE Z VÝBERU VZORKY (sampling risk) je riziko, že záver zo vzorky sa líši od záveru, ku ktorému by audítor dospel testom celej populácie. Má dve podoby: pri TESTOCH KONTROL – riziko, že kontroly vyhodnotí ako účinnejšie/menej účinné než sú; pri SUBSTANTÍVNYCH testoch – riziko, že nesprávnosť nezistí, hoci existuje. Z hľadiska dôsledkov sa rozlišuje riziko ovplyvňujúce ÚČINNOSŤ auditu (alfa, riziko nesprávneho zamietnutia / podhodnotenia spoľahlivosti – vedie k zbytočnej práci) a riziko ovplyvňujúce ÚČELNOSŤ auditu (beta, riziko nesprávneho prijatia / nadhodnotenia spoľahlivosti – nebezpečnejšie, vedie k nesprávnemu názoru). Mimo toho je NEVÝBEROVÉ riziko (non-sampling risk) – chyba z iných príčin (nesprávny postup, nesprávna interpretácia). VPLYV RIZIKA AUDITU NA VEĽKOSŤ VZORKY je PRIAMY: čím vyššie riziko významnej nesprávnosti a čím nižšie akceptovateľné zisťovacie riziko (a teda nižšia významnosť), tým VÄČŠIA musí byť vzorka. Veľkosť vzorky zvyšuje aj vyššia očakávaná chyba a väčšia heterogenita populácie; znižuje ju vyššia tolerovateľná chyba a stratifikácia."
+        "text": "Výber vzorky (audit sampling) je aplikácia postupov na MENEJ než 100 % položiek populácie tak, aby každá jednotka mala šancu byť vybraná a aby sa zo vzorky dal urobiť záver o celej populácii. Metódy môžu byť ŠTATISTICKÉ (náhodný výber a vyhodnotenie pravdepodobnosťou, napr. peňažná jednotka – MUS) alebo NEŠTATISTICKÉ (úsudkový výber); žiadna nie je a priori lepšia. RIZIKO VYPLÝVAJÚCE Z VÝBERU VZORKY (sampling risk) je riziko, že záver zo vzorky sa líši od záveru, ku ktorému by audítor dospel testom celej populácie. Má dve podoby: pri TESTOCH KONTROL – riziko, že kontroly vyhodnotí ako účinnejšie/menej účinné než sú; pri SUBSTANTÍVNYCH testoch – riziko, že nesprávnosť nezistí, hoci existuje. ISA 530 (par. 5(c)) priamo používa pojmy \"riziko nesprávneho prijatia\" (incorrect acceptance) a \"riziko nesprávneho zamietnutia\" (incorrect rejection). V audítorskej literatúre sa pre ne zaužívalo (pedagogické) označenie chyba alfa (nesprávne zamietnutie / podhodnotenie spoľahlivosti – ovplyvňuje účinnosť, vedie k zbytočnej práci) a chyba beta (nesprávne prijatie / nadhodnotenie spoľahlivosti — ovplyvňuje účelnosť, je nebezpečnejšia, lebo vedie k nesprávnemu výroku); ide o štatistickú konvenciu, nie o terminológiu ISA – nebezpečnejšie, vedie k nesprávnemu názoru). Mimo toho je NEVÝBEROVÉ riziko (non-sampling risk) – chyba z iných príčin (nesprávny postup, nesprávna interpretácia). VPLYV RIZIKA AUDITU NA VEĽKOSŤ VZORKY je PRIAMY: čím vyššie riziko významnej nesprávnosti a čím nižšie akceptovateľné zisťovacie riziko (a teda nižšia významnosť), tým VÄČŠIA musí byť vzorka. Veľkosť vzorky zvyšuje aj vyššia očakávaná chyba a väčšia heterogenita populácie; znižuje ju vyššia tolerovateľná chyba a stratifikácia."
       },
       {
         "zaver": "Téza tvorí logickú reťaz: VÝZNAMNOSŤ určí prah dôležitosti a kalibruje rozsah auditu, pričom medzi ňou a rizikom auditu je nepriamy vzťah; RIZIKO (inherentné × kontrolné × zisťovacie) určuje, koľko a akých DÔKAZOV treba získať a priamo úmerne aj veľkosť vzoriek; získané dôkazy a všetky úsudky sa zachytia v DOKUMENTÁCII tak, aby obstáli pred testom skúseného audítora. Zistené nesprávnosti sa nakoniec porovnajú s významnosťou a rozhodnú o názore audítora."
@@ -84,7 +84,7 @@
     },
     {
       "nadpis": "Revízia významnosti počas auditu",
-      "text": "Významnosť stanovená pri plánovaní nie je konečná. Ak audítor počas auditu zistí nové skutočnosti (napr. iný skutočný výsledok hospodárenia než plánovaný, zmena okolností), je povinný významnosť (vrátane výkonovej) prehodnotiť a zvážiť, či sú stále primerané povaha, načasovanie a rozsah postupov. Zníženie významnosti spravidla vyžaduje rozšírenie testovania."
+      "text": "Významnosť stanovená pri plánovaní nie je konečná. Ak audítor počas auditu zistí nové skutočnosti (napr. iný skutočný výsledok hospodárenia než plánovaný, zmena okolností), je povinný významnosť (vrátane vykonávacej) prehodnotiť a zvážiť, či sú stále primerané povaha, načasovanie a rozsah postupov. Zníženie významnosti spravidla vyžaduje rozšírenie testovania."
     },
     {
       "nadpis": "Hierarchia spoľahlivosti dôkazov a 'dopyt nestačí'",
@@ -101,16 +101,16 @@
   ],
   "priklady": [
     {
-      "nazov": "Stanovenie celkovej a výkonovej významnosti zo zisku pred zdanením",
+      "nazov": "Stanovenie celkovej a vykonávacej významnosti zo zisku pred zdanením",
       "zadanie": "Audítor plánuje audit obchodnej spoločnosti so ziskom pred zdanením 1 000 000 €, výnosmi 8 000 000 € a celkovými aktívami 6 000 000 €. Zisk je stabilný, používatelia sledujú ziskovosť. Riziko zákazky je posúdené ako stredné.",
-      "riesenie": "Audítor zvolí ako základňu zisk pred zdanením (vhodné pre ziskový podnik) a sadzbu 5 %. Celková významnosť = 5 % × 1 000 000 = 50 000 €. Kontrola primeranosti k iným základniam: 0,625 % výnosov a 0,83 % aktív – v bežných rozpätiach, voľba je rozumná. Výkonovú významnosť pri strednom riziku nastaví na 75 % celkovej = 37 500 €. Prah triviálnosti (clearly trivial) na 5 % celkovej = 2 500 € – nesprávnosti pod 2 500 € sa nezbierajú. Voľba percent a základne sa zdokumentuje.",
-      "dopad_na_zd": "Celková významnosť 50 000 €; výkonová 37 500 €; prah triviálnosti 2 500 €."
+      "riesenie": "Audítor zvolí ako základňu zisk pred zdanením (vhodné pre ziskový podnik) a sadzbu 5 %. Celková významnosť = 5 % × 1 000 000 = 50 000 €. Kontrola primeranosti k iným základniam: 0,625 % výnosov a 0,83 % aktív – v bežných rozpätiach, voľba je rozumná. Vykonávaciu významnosť pri strednom riziku nastaví na 75 % celkovej = 37 500 €. Prah triviálnosti (clearly trivial) na 5 % celkovej = 2 500 € – nesprávnosti pod 2 500 € sa nezbierajú. Voľba percent a základne sa zdokumentuje.",
+      "dopad_na_zd": "Celková významnosť 50 000 €; vykonávacia 37 500 €; prah triviálnosti 2 500 €."
     },
     {
-      "nazov": "Vplyv rizika a nepriameho vzťahu na výkonovú významnosť a rozsah",
+      "nazov": "Vplyv rizika a nepriameho vzťahu na vykonávaciu významnosť a rozsah",
       "zadanie": "Tá istá spoločnosť, ale audítor zistí slabý vnútorný kontrolný systém a indície možných nesprávností – riziko je VYSOKÉ.",
-      "riesenie": "Pri vyššom riziku auditu chce audítor dosiahnuť nižšie zisťovacie riziko. Uplatní nepriamy vzťah: zníži výkonovú významnosť napr. na 50 % celkovej = 25 000 € (z pôvodných 37 500 €). Nižšia výkonová významnosť znamená prísnejšie sito → audítor musí získať VIAC dôkazov a použiť VÄČŠIE vzorky. Celková významnosť (50 000 €) môže ostať, mení sa hlavne 'vankúš' a rozsah testovania.",
-      "dopad_na_zd": "Výkonová významnosť klesne na 25 000 €; rozsah substantívnych postupov a veľkosť vzoriek vzrastie."
+      "riesenie": "Pri vyššom riziku auditu chce audítor dosiahnuť nižšie zisťovacie riziko. Uplatní nepriamy vzťah: zníži vykonávaciu významnosť napr. na 50 % celkovej = 25 000 € (z pôvodných 37 500 €). Nižšia vykonávacia významnosť znamená prísnejšie sito → audítor musí získať VIAC dôkazov a použiť VÄČŠIE vzorky. Celková významnosť (50 000 €) môže ostať, mení sa hlavne 'vankúš' a rozsah testovania.",
+      "dopad_na_zd": "Vykonávacia významnosť klesne na 25 000 €; rozsah substantívnych postupov a veľkosť vzoriek vzrastie."
     },
     {
       "nazov": "Vyhodnotenie zistených nesprávností (ISA 450)",
@@ -141,7 +141,7 @@
     {
       "subor": "03_Vizualy/ING_II_03_urovne_vyznamnosti.svg",
       "typ": "schéma",
-      "popis": "Tri úrovne významnosti: celková významnosť (pre závierku ako celok) → výkonová významnosť (50–75 %) → prah triviálnosti (clearly trivial), s príkladom prepočtu zo zisku pred zdanením 1 000 000 € pri 5 %."
+      "popis": "Tri úrovne významnosti: celková významnosť (pre závierku ako celok) → vykonávacia významnosť (50–75 %) → prah triviálnosti (clearly trivial), s príkladom prepočtu zo zisku pred zdanením 1 000 000 € pri 5 %."
     },
     {
       "subor": "03_Vizualy/ING_II_03_druhy_dokazov_riziko.svg",
@@ -181,7 +181,7 @@
       "vysvetlenie": "Nepriamy (inverzný): čím nižšiu významnosť audítor stanoví, tým nižšie riziko auditu chce dosiahnuť a tým viac práce (dôkazov, väčšie vzorky) musí vykonať na zníženie zisťovacieho rizika. Vyššia významnosť → menej náročné postupy."
     },
     {
-      "otazka": "Čo je výkonová významnosť a načo slúži?",
+      "otazka": "Čo je vykonávacia významnosť a načo slúži?",
       "odpoved": "Suma nižšia než celková významnosť (typicky 50–75 % z nej), ktorá vytvára bezpečnostný vankúš proti tomu, aby súhrn neopravených a neodhalených nesprávností presiahol celkovú významnosť. Riadi sa ňou rozsah testovania jednotlivých oblastí.",
       "moznosti": [
         "Suma nižšia než celková významnosť (typicky 50–75 % z nej) ako bezpečnostný vankúš proti tomu, aby súhrn neopravených a neodhalených nesprávností presiahol celkovú významnosť",
@@ -242,9 +242,9 @@
     },
     {
       "otazka": "Prečo je externé potvrdenie spoľahlivým dôkazom a čo overuje pri pohľadávkach?",
-      "odpoved": "Pochádza z nezávislého externého zdroja a smeruje priamo audítorovi (ISA 505). Pri pohľadávkach pokrýva najmä tvrdenie existencia (a ocenenie), nie však úplnosť – tú treba overiť opačným smerom.",
+      "odpoved": "Pochádza z nezávislého externého zdroja a smeruje priamo audítorovi (ISA 505). Pri pohľadávkach pokrýva primárne tvrdenia existencia a práva (rights), NIE ocenenie/vymožiteľnosť (tú treba overiť následným inkasom po súvahovom dni). Úplnosť pohľadávok konfirmáciou nezistíme — tú treba testovať opačným smerom (od reality k záznamu).",
       "moznosti": [
-        "Pochádza z nezávislého externého zdroja a smeruje priamo audítorovi (ISA 505); pri pohľadávkach pokrýva najmä existenciu (a ocenenie), nie však úplnosť",
+        "Pochádza z nezávislého externého zdroja a smeruje priamo audítorovi (ISA 505); pri pohľadávkach pokrýva primárne existenciu a práva (rights), nie ocenenie/vymožiteľnosť (tú treba overiť následným inkasom), ani úplnosť",
         "Pochádza priamo od manažmentu jednotky, a preto je najspoľahlivejším dôkazom o úplnosti pohľadávok",
         "Je spoľahlivé, lebo je získané audítorom priamo z účtovných záznamov klienta; pri pohľadávkach pokrýva najmä úplnosť",
         "Pochádza z externého zdroja cez klienta, ktorý žiadosti odosiela aj prijíma; pokrýva existenciu aj úplnosť pohľadávok"
@@ -253,7 +253,7 @@
       "spravne_indexy": [
         0
       ],
-      "vysvetlenie": "Pochádza z nezávislého externého zdroja a smeruje priamo audítorovi (ISA 505). Pri pohľadávkach pokrýva najmä tvrdenie existencia (a ocenenie), nie však úplnosť – tú treba overiť opačným smerom."
+      "vysvetlenie": "Pochádza z nezávislého externého zdroja a smeruje priamo audítorovi (ISA 505). Pri pohľadávkach pokrýva primárne tvrdenia existencia a práva (rights), NIE ocenenie/vymožiteľnosť (tú treba overiť následným inkasom po súvahovom dni). Úplnosť pohľadávok konfirmáciou nezistíme — tú treba testovať opačným smerom (od reality k záznamu)."
     },
     {
       "otazka": "Čo rieši ISA 510 a prečo je relevantná len pri prvotnej zákazke?",
@@ -275,7 +275,7 @@
     "Zamieňať dostatočnosť (kvantita) a vhodnosť (kvalita) dôkazov.",
     "Tvrdiť priamy vzťah medzi významnosťou a rizikom auditu – vzťah je NEPRIAMY (inverzný).",
     "Považovať číselné základne (5 % zo zisku a pod.) za pevné pravidlo ISA 320 – sú to odborné normy praxe, ISA žiada úsudok.",
-    "Pliesť výkonovú významnosť s prahom triviálnosti: výkonová je 50–75 % celkovej (vankúš pre rozsah), prah triviálnosti je oveľa nižší (zbieranie nesprávností).",
+    "Pliesť vykonávaciu významnosť s prahom triviálnosti: vykonávacia je 50–75 % celkovej (vankúš pre rozsah), prah triviálnosti je oveľa nižší (zbieranie nesprávností).",
     "Myslieť si, že samotný dopyt u manažmentu je dostatočný dôkaz – musí byť podložený inými postupmi.",
     "Externé potvrdenie pohľadávky overuje úplnosť – overuje hlavne existenciu; úplnosť sa testuje opačným smerom.",
     "Zostavenie spisu (do ~60 dní) chápať ako priestor na nové postupy alebo vypúšťanie dokumentácie – je to len administratívna kompletizácia.",
@@ -308,7 +308,7 @@
         "vysvetlenie": "ISA 500: dostatočnosť = kvantita (koľko), vhodnosť = kvalita (relevantnosť + spoľahlivosť)."
       },
       {
-        "otazka": "Výkonová významnosť (performance materiality) sa typicky stanoví:",
+        "otazka": "Vykonávacia významnosť (performance materiality) sa typicky stanoví:",
         "moznosti": [
           "vyššia než celková významnosť",
           "ako 50–75 % celkovej významnosti",
@@ -316,7 +316,7 @@
           "vždy presne 10 % zo zisku"
         ],
         "spravna_index": 1,
-        "vysvetlenie": "Výkonová významnosť je suma nižšia než celková (typicky 50–75 % z nej) ako bezpečnostný vankúš."
+        "vysvetlenie": "Vykonávacia významnosť je suma nižšia než celková (typicky 50–75 % z nej) ako bezpečnostný vankúš."
       },
       {
         "otazka": "Ktorý dôkaz je spravidla NAJSPOĽAHLIVEJŠÍ?",
@@ -355,7 +355,7 @@
     "otvorene": [
       {
         "otazka": "Vysvetlite tri úrovne významnosti a uveďte príklad prepočtu zo zisku pred zdanením.",
-        "vzorova_odpoved": "1) Celková významnosť pre závierku ako celok – napr. 5 % zo zisku pred zdanením 1 000 000 € = 50 000 €. 2) Výkonová významnosť – nižšia, vankúš proti súhrnu nesprávností, napr. 75 % = 37 500 € (pri vyššom riziku 50 % = 25 000 €). 3) Prah triviálnosti (clearly trivial) – napr. 5 % celkovej = 2 500 €, nesprávnosti pod ním sa nezbierajú. Voľba základne a percent je vecou úsudku a dokumentuje sa."
+        "vzorova_odpoved": "1) Celková významnosť pre závierku ako celok – napr. 5 % zo zisku pred zdanením 1 000 000 € = 50 000 €. 2) Vykonávacia významnosť – nižšia, vankúš proti súhrnu nesprávností, napr. 75 % = 37 500 € (pri vyššom riziku 50 % = 25 000 €). 3) Prah triviálnosti (clearly trivial) – napr. 5 % celkovej = 2 500 €, nesprávnosti pod ním sa nezbierajú. Voľba základne a percent je vecou úsudku a dokumentuje sa."
       },
       {
         "otazka": "Vysvetlite riziko vyplývajúce z výberu vzorky pri substantívnych testoch a pri testoch kontrol.",
@@ -368,8 +368,8 @@
     ],
     "priklad": [
       {
-        "zadanie": "Spoločnosť má zisk pred zdanením 2 000 000 €. Audítor zvolí základňu zisk pred zdanením a sadzbu 5 %, výkonovú významnosť 75 % a prah triviálnosti 5 % celkovej. Na konci auditu eviduje neopravené nesprávnosti: nadhodnotené výnosy 60 000 € a chýbajúcu opravnú položku k pohľadávkam 55 000 €. (a) Vypočítajte celkovú a výkonovú významnosť a prah triviálnosti. (b) Posúďte dosah neopravených nesprávností.",
-        "riesenie": "(a) Celková významnosť = 5 % × 2 000 000 = 100 000 €. Výkonová = 75 % × 100 000 = 75 000 €. Prah triviálnosti = 5 % × 100 000 = 5 000 €. (b) Súhrn neopravených nesprávností = 60 000 + 55 000 = 115 000 €. Súhrn 115 000 € PRESAHUJE celkovú významnosť 100 000 € → ide o významnú nesprávnosť. Audítor žiada opravu; ak manažment odmietne, smeruje to k modifikácii názoru (výrok s výhradou). Obe položky sú navyše nad prahom triviálnosti (5 000 €), takže sa povinne zbierali."
+        "zadanie": "Spoločnosť má zisk pred zdanením 2 000 000 €. Audítor zvolí základňu zisk pred zdanením a sadzbu 5 %, vykonávaciu významnosť 75 % a prah triviálnosti 5 % celkovej. Na konci auditu eviduje neopravené nesprávnosti: nadhodnotené výnosy 60 000 € a chýbajúcu opravnú položku k pohľadávkam 55 000 €. (a) Vypočítajte celkovú a vykonávaciu významnosť a prah triviálnosti. (b) Posúďte dosah neopravených nesprávností.",
+        "riesenie": "(a) Celková významnosť = 5 % × 2 000 000 = 100 000 €. Vykonávacia = 75 % × 100 000 = 75 000 €. Prah triviálnosti = 5 % × 100 000 = 5 000 €. (b) Súhrn neopravených nesprávností = 60 000 + 55 000 = 115 000 €. Súhrn 115 000 € PRESAHUJE celkovú významnosť 100 000 € → ide o významnú nesprávnosť. Audítor žiada opravu; ak manažment odmietne, smeruje to k modifikácii názoru (výrok s výhradou). Obe položky sú navyše nad prahom triviálnosti (5 000 €), takže sa povinne zbierali."
       }
     ]
   },
@@ -380,7 +380,7 @@
       "typ": "web/overené"
     },
     {
-      "nazov": "ISA 320 Významnosť pri plánovaní a vykonaní auditu – základne, výkonová významnosť, nepriamy vzťah k riziku",
+      "nazov": "ISA 320 Významnosť pri plánovaní a vykonaní auditu – základne, vykonávacia významnosť, nepriamy vzťah k riziku",
       "kde": "https://www.iaasb.org/ (ISA 320); ICAEW Materiality in the audit of financial statements",
       "typ": "web/overené"
     },

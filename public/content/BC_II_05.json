@@ -5,8 +5,8 @@
   "cislo": 5,
   "nazov": "Predikčné a bankrotové modely a udržateľnosť",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Vzorce a interpretačné pásma modelov podľa odbornej literatúry (Altman, Neumaierovci, Taffler, Beaver). Stav CSRD/ESRS overený k máju 2026: smernica Omnibus I (EÚ) 2026/470 finálne prijatá Radou 24. 2. 2026, vyhlásená v Úradnom vestníku EÚ 26. 2. 2026, účinná od 18. 3. 2026; predtým 'Stop-the-clock' smernica (EÚ) 2025/1794 (účinná 17. 4. 2025). Transpozícia odkladu do zákona č. 431/2002 Z. z. o účtovníctve prebehla v SR v júli 2025; transpozícia finálneho zúženia rozsahu (Omnibus I) sa k máju 2026 ešte pripravuje (overiť aktuálne znenie zákona o účtovníctve).",
+  "verzia": "1.2",
+  "stav_legislativy": "Vzorce a interpretačné pásma modelov podľa odbornej literatúry (Altman, Neumaierovci, Taffler, Beaver). Stav CSRD/ESRS k máju 2026: 'Stop-the-clock' smernica (EÚ) 2025/1794 (účinná 17. 4. 2025) a balík OMNIBUS I prezentovaný v JSON podľa návrhu smernice (EÚ) 2026/470 (finalizácia textu v rámci EÚ legislatívneho procesu k februáru 2026). Transpozícia odkladu do zákona č. 431/2002 Z. z. o účtovníctve prebehla v SR v júli 2025; transpozícia finálneho zúženia rozsahu podľa Omnibus I sa v SR ešte pripravuje (transpozičná lehota 19. 3. 2027) – overiť aktuálne znenie zákona o účtovníctve pred štátnicami. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "predikčný (predikčný) model",
     "bankrotový model",
@@ -44,7 +44,11 @@
       },
       {
         "nadpis": "Altmanovo Z'-score – pre nekótované podniky",
-        "text": "Keďže väčšina slovenských s. r. o. nie je na burze, používa sa upravená verzia: Z' = 0,717·x1 + 0,847·x2 + 3,107·x3 + 0,420·x4 + 0,998·x5. Kľúčová zmena je v x4: namiesto trhovej hodnoty sa berie ÚČTOVNÁ hodnota vlastného imania/cudzie zdroje (dlhodobé + krátkodobé záväzky + bankové úvery); zároveň sa zmenili všetky váhy. Pásma sú posunuté: Z' > 2,9 = uspokojivá finančná situácia; 1,23 – 2,9 = sivá zóna; Z' < 1,23 = vážne finančné problémy. Pre bakalársku štátnicu je práve táto verzia najpraktickejšia."
+        "text": "Keďže väčšina slovenských s. r. o. nie je na burze, používa sa upravená verzia: Z' = 0,717·x1 + 0,847·x2 + 3,107·x3 + 0,420·x4 + 0,998·x5. Kľúčová zmena je v x4: namiesto trhovej hodnoty sa berie ÚČTOVNÁ hodnota vlastného imania / CELKOVÉ ZÁVÄZKY (book value of total liabilities), t. j. v slovenskej súvahe všetky záväzky vrátane rezerv a časového rozlíšenia pasív (nielen dlhodobé a krátkodobé záväzky a bankové úvery); zároveň sa zmenili všetky váhy. Pásma sú posunuté: Z' > 2,9 = uspokojivá finančná situácia; 1,23 – 2,9 = sivá zóna; Z' < 1,23 = vážne finančné problémy. Pre bakalársku štátnicu je práve táto verzia najpraktickejšia."
+      },
+      {
+        "nadpis": "Altmanovo Z''-score – pre nevýrobné podniky a rozvíjajúce sa trhy",
+        "text": "Pre podniky mimo výroby (služby, obchod) a pre rozvíjajúce sa trhy (vrátane SR) sa používa Altmanovo Z''-score (Altman 2000): Z'' = 6,56·x1 + 3,26·x2 + 6,72·x3 + 1,05·x4 (bez x5 = tržby/aktíva). Premenné x1–x4 sú obsahovo rovnaké ako pri Z' – x1 = ČPK/aktíva, x2 = nerozdelený zisk/aktíva, x3 = EBIT/aktíva, x4 = účtovná hodnota vlastného imania / celkové záväzky. Pásma: Z'' > 2,6 = bezpečná zóna; 1,1 – 2,6 = sivá zóna; Z'' < 1,1 = pásmo finančných ťažkostí. Výhoda: Z'' nezohľadňuje obrat aktív (x5), čo ho robí robustnejším pre kapitálovo menej intenzívne podniky (banky, služby) a pre porovnanie naprieč odvetviami."
       },
       {
         "nadpis": "Index IN05 (manželia Neumaierovci, ČR)",
@@ -52,7 +56,7 @@
       },
       {
         "nadpis": "Tafflerov a Beaverov model",
-        "text": "Tafflerov model (TZ) v originálnej verzii: TZ = 3,20 + 12,18·x1 + 2,50·x2 − 10,68·x3 + 0,029·x4, kde x1 = zisk pred zdanením/krátkodobé záväzky, x2 = obežný majetok/cudzie zdroje, x3 = krátkodobé záväzky/celkové aktíva, x4 = obdobie bez úveru v dňoch. Tu rozhoduje znamienko: TZ > 0 = finančne zdravý (nízke riziko), TZ < 0 = vysoké riziko bankrotu. Beaverova analýza (1966) je JEDNOROZMERNÁ – nedáva jedno skóre, ale sleduje TREND vybraných ukazovateľov: u ohrozených firiem klesá vlastné imanie/aktíva, pridaná hodnota/aktíva, cash flow/cudzie zdroje a pracovný kapitál/aktíva, kým bankové úvery/cudzie zdroje rastú. Najsilnejším signálom podľa Beavera je pomer cash flow/cudzie zdroje. Beaver ako prvý ukázal, že ukazovatele varujú už 5 rokov pred úpadkom."
+        "text": "Tafflerov model (Taffler–Tisshaw 1983, verzia s konštantou): TZ = 3,20 + 12,18·x1 + 2,50·x2 − 10,68·x3 + 0,029·x4. Model bol pôvodne kalibrovaný pre BRITSKÉ VEREJNE OBCHODOVANÉ spoločnosti, preto má pre slovenské nekótované s. r. o. obmedzenú výpovednú silu – odporúča sa použiť skôr národné indexy (IN05) alebo Altmana Z'/Z'', kde x1 = zisk pred zdanením/krátkodobé záväzky, x2 = obežný majetok/cudzie zdroje, x3 = krátkodobé záväzky/celkové aktíva, x4 = obdobie bez úveru v dňoch. Tu rozhoduje znamienko: TZ > 0 = finančne zdravý (nízke riziko), TZ < 0 = vysoké riziko bankrotu. Beaverova analýza (1966) je UNIVARIATE (jednorozmerná) – sleduje KAŽDÝ ukazovateľ samostatne a nedáva jedno skóre, ale sleduje TREND vybraných ukazovateľov: u ohrozených firiem klesá vlastné imanie/aktíva, pridaná hodnota/aktíva, cash flow/cudzie zdroje a pracovný kapitál/aktíva, kým bankové úvery/cudzie zdroje rastú. Najsilnejším signálom podľa Beavera je pomer cash flow/cudzie zdroje. Beaver ako prvý ukázal, že ukazovatele varujú už 5 rokov pred úpadkom. Tento univariate prístup je kľúčovo odlišný od MULTIVARIATE modelov (Altman, IN05, Taffler), ktoré viaceré ukazovatele kombinujú do jednej diskriminačnej funkcie."
       },
       {
         "nadpis": "Interpretácia, obmedzenia a kombinovanie",
@@ -64,7 +68,7 @@
       },
       {
         "nadpis": "Aktuálny stav CSRD v SR (2025/2026): Stop-the-clock a Omnibus I",
-        "text": "Vývoj sa v rokoch 2025–2026 zásadne zmenil. CSRD bola do SR transponovaná novelou zákona č. 431/2002 Z. z. o účtovníctve (účinnou od 1. 6. 2024; individuálne vykazovanie § 20c, konsolidované § 20g). Následne smernica 'Stop-the-clock' (EÚ) 2025/1794 (účinná 17. 4. 2025) odložila 2. a 3. vlnu o dva roky a SR tento odklad premietla do zákona o účtovníctve v júli 2025. Napokon balík OMNIBUS I bol finalizovaný: smernica (EÚ) 2026/470 prijatá Radou 24. 2. 2026, vyhlásená 26. 2. 2026, účinná od 18. 3. 2026. Zúžila rozsah povinného vykazovania len na veľmi veľké podniky – nad 1 000 zamestnancov A zároveň s čistým obratom nad 450 mil. €; kótované malé a stredné podniky sú z povinnosti úplne vyňaté. Zmena rozsahu platí pre účtovné obdobia začínajúce 1. 1. 2027 a neskôr (prvé správy v 2028). 1. vlna (banky okrem NBS, poisťovne, veľké kótované firmy nad 500 zamestnancov) vykazuje ďalej."
+        "text": "Vývoj sa v rokoch 2025–2026 zásadne zmenil. CSRD bola do SR transponovaná novelou zákona č. 431/2002 Z. z. o účtovníctve (účinnou od 1. 6. 2024; individuálne vykazovanie § 20c, konsolidované § 20g). Následne smernica 'Stop-the-clock' (EÚ) 2025/1794 (účinná 17. 4. 2025) odložila 2. a 3. vlnu o dva roky a SR tento odklad premietla do zákona o účtovníctve v júli 2025. Balík OMNIBUS I je v JSON spracovaný podľa návrhu smernice (EÚ) 2026/470 (finalizácia textu v rámci EÚ legislatívneho procesu k februáru 2026). Návrh zužuje rozsah povinného vykazovania len na veľmi veľké podniky – nad 1 000 zamestnancov A zároveň s čistým obratom nad 450 mil. €; kótované malé a stredné podniky sú z povinnosti úplne vyňaté. Zmena rozsahu má podľa návrhu platiť pre účtovné obdobia začínajúce 1. 1. 2027 a neskôr (prvé správy v 2028). Transpozičná lehota pre SR je 19. 3. 2027 – pred štátnicami treba overiť, či bola novela zákona č. 431/2002 prijatá. 1. vlna (banky okrem NBS, poisťovne, veľké kótované firmy nad 500 zamestnancov) vykazuje ďalej."
       },
       {
         "zaver": "Predikčné a bankrotové modely sú syntetické ukazovatele, ktoré jedným skóre odhadnú pravdepodobnosť úpadku 1–5 rokov dopredu. Pri Altmanovi a IN05 platí 'vyššie skóre = zdravšie', s pásmami bezpečná/sivá/bankrotová; pri Tafflerovi rozhoduje znamienko; Beaver sleduje trendy. Sú varovaním, nie dôkazom – treba ich čítať v čase, kombinovať a doplniť pomerovou analýzou a od roku 2024 aj informáciami o udržateľnosti (ESG) z výročnej správy, ktorých rozsah po Omnibuse I (2026) zostáva len pre najväčšie podniky."
@@ -78,7 +82,7 @@
     },
     {
       "nadpis": "Prečo verzie pre nekótované firmy a národné modely",
-      "text": "Pôvodné Altmanovo Z-score používa trhovú hodnotu vlastného imania (x4), ktorú má len firma s akciami na burze. Drvivá väčšina podnikov v SR sú s. r. o. bez trhovej ceny, preto sa používa Z'-score s účtovnou hodnotou imania a inými váhami, prípadne Z''-score (pre nevýrobné firmy a rozvíjajúce sa trhy, bez ukazovateľa obratu x5). Národné modely (IN) zase rešpektujú odlišnú štruktúru súvah, daňové prostredie a kapitálový trh strednej Európy."
+      "text": "Pôvodné Altmanovo Z-score používa trhovú hodnotu vlastného imania (x4), ktorú má len firma s akciami na burze. Drvivá väčšina podnikov v SR sú s. r. o. bez trhovej ceny, preto sa používa Z'-score s účtovnou hodnotou imania a inými váhami, prípadne Z''-score (pre nevýrobné firmy a rozvíjajúce sa trhy, bez ukazovateľa obratu x5): Z'' = 6,56·x1 + 3,26·x2 + 6,72·x3 + 1,05·x4 s pásmami: Z'' > 2,6 bezpečná, 1,1 – 2,6 sivá, Z'' < 1,1 pásmo finančných ťažkostí. Národné modely (IN) zase rešpektujú odlišnú štruktúru súvah, daňové prostredie a kapitálový trh strednej Európy."
     },
     {
       "nadpis": "Vzťah modelov k pomerovej analýze",
@@ -86,7 +90,7 @@
     },
     {
       "nadpis": "Forma a uistenie správy o udržateľnosti",
-      "text": "Správa o udržateľnosti je samostatnou súčasťou výročnej správy, vykazuje sa v jednotnom elektronickom formáte XHTML s digitálnym tagovaním (nariadenie 2019/815) a ukladá sa do registra účtovných závierok do 12 mesiacov po skončení účtovného obdobia. Vyžaduje sa uistenie štatutárnym audítorom s osobitnou licenciou pre oblasť udržateľnosti – zatiaľ na úrovni 'limited assurance'; pôvodne plánovaný prechod na náročnejšie 'reasonable assurance' bol Omnibusom zrušený. Princíp dvojitej významnosti (double materiality): vykazuje sa vplyv okolia na podnik aj vplyv podniku na okolie."
+      "text": "Správa o udržateľnosti je samostatnou súčasťou výročnej správy, vykazuje sa v jednotnom elektronickom formáte XHTML s digitálnym tagovaním (nariadenie 2019/815) a ukladá sa do registra účtovných závierok do 12 mesiacov po skončení účtovného obdobia. Vyžaduje sa uistenie štatutárnym audítorom s osobitnou licenciou pre oblasť udržateľnosti – zatiaľ na úrovni 'limited assurance'; pôvodne plánovaný prechod na náročnejšie 'reasonable assurance' bol Omnibusom zrušený. Princíp dvojitej významnosti (double materiality) podľa CSRD: vykazuje sa vplyv okolia na podnik (financial materiality) aj vplyv podniku na okolie (impact materiality). To je dôležitý rozdiel oproti globálnym štandardom ISSB (IFRS S1/S2), ktoré uplatňujú len financial materiality (jednoduchú významnosť) – CSRD/ESRS je teda obsahovo širší."
     },
     {
       "nadpis": "Veľkostné kritériá a kategórie účtovných jednotiek",
@@ -121,7 +125,7 @@
     {
       "nazov": "Povinnosť správy o udržateľnosti po Omnibuse I",
       "zadanie": "Slovenská výrobná s. r. o. má 600 zamestnancov, čistý obrat 120 mil. €, nie je kótovaná. Musí za účtovné obdobie 2027 zostaviť správu o udržateľnosti podľa CSRD/ESRS?",
-      "riesenie": "Podľa finálneho znenia Omnibusu I (smernica EÚ 2026/470) sa povinnosť ESG vykazovania vzťahuje len na podniky nad 1 000 zamestnancov A zároveň s čistým obratom nad 450 mil. €, a platí pre obdobia od 1. 1. 2027. Firma má 600 zamestnancov (< 1 000) – kritérium nesplní, povinnosť NEMÁ. (Pozor: presný moment závisí od transpozície Omnibusu I do slovenského zákona o účtovníctve, ktorá sa k máju 2026 ešte pripravuje – overiť. Vykazovať môže dobrovoľne podľa zjednodušeného štandardu.)",
+      "riesenie": "Podľa návrhu Omnibus I (smernica (EÚ) 2026/470) sa povinnosť ESG vykazovania vzťahuje len na podniky nad 1 000 zamestnancov A ZÁROVEŇ s čistým obratom nad 450 mil. € (oba prahy sú KUMULATÍVNE – musia byť splnené súčasne, aby vznikla povinnosť), a platí pre obdobia od 1. 1. 2027. Firma má 600 zamestnancov (< 1 000) – už týmto jedným testom kumulatívnu podmienku nesplní, povinnosť NEMÁ (obrat 120 mil. € by sám o sebe tiež nestačil, lebo je pod 450 mil. €). (Pozor: presný moment závisí od transpozície Omnibusu I do slovenského zákona o účtovníctve, ktorá sa k máju 2026 ešte pripravuje – overiť. Vykazovať môže dobrovoľne podľa zjednodušeného štandardu.)",
       "dopad_na_zd": "Bez priameho daňového dopadu; ide o povinnosť vo výročnej správe, nie o úpravu základu dane."
     }
   ],

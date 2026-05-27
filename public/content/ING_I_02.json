@@ -5,8 +5,8 @@
   "cislo": 2,
   "nazov": "Splatná a odložená daň z príjmov",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Znenie ZDP č. 595/2003 Z. z. účinné k 1. 1. 2026 (po troch konsolidačných balíkoch); Postupy účtovania pre podnikateľov (opatrenie MF SR č. 23054/2002-92, § 10). Sadzby DPPO (10/21/24 %), daň z dividend FO (7 % zo zisku za 2025) a zrážková daň overené k máju 2026.",
+  "verzia": "1.2",
+  "stav_legislativy": "Znenie ZDP č. 595/2003 Z. z. účinné k 1. 1. 2026 (po troch konsolidačných balíkoch); Postupy účtovania pre podnikateľov (opatrenie MF SR č. 23054/2002-92, § 10). Sadzby DPPO (10/21/24 %), daň z dividend FO (historický prehľad: 2017–2023: 7 %; 2024: 10 %; od 2025: 7 %; nezmluvné štáty: 35 %) a zrážková daň overené k máju 2026. Druhé kolo revízie (máj 2026, Klaster E – Dane): opravené N-27/ID 173 (historický prehľad dane z dividend FO 2017–2025+), N-28 (zdaniteľné výnosy pri PO), N-29/ID 175 (rozdelenie min. dane PO 340/960/1920/3840 € od 2024; nový 11 520 € od 1.1.2026), N-30 (§ 10 Postupov + § 19 zák. o účt.), N-31 (formulácia rozdielu pri odpisoch), N-32 (účet 665 pri dividende), N-33/ID 179 (OMEGA – pri sadzbe 21 % OD pohľadávka 735 €).",
   "klucove_pojmy": [
     "splatná daň z príjmov (účet 591)",
     "odložená daň z príjmov (účet 592, súvahový účet 481)",
@@ -58,11 +58,11 @@
       },
       {
         "nadpis": "Základné konštrukčné prvky dane a daň PO",
-        "text": "Konštrukčné prvky dane: daňový subjekt (daňovník PO), predmet dane (príjem/výnos), základ dane, sadzba a zdaňovacie obdobie. Sadzby DPPO (§ 15) od 1. 1. 2025 (platia aj pre 2026): 10 % pri zdaniteľných príjmoch ≤ 100 000 €, 21 % nad 100 000 do 5 mil. €, 24 % nad 5 mil. €; sadzba sa uplatní na celý základ dane a o jej výške rozhoduje výška PRÍJMOV (výnosov), nie základu dane. Po zostavení základu dane sa odpočíta daňová strata (§ 30 – max. 5 období, max. 50 % ZD, mikrodaňovník 100 %), uplatnia prípadné úľavy na dani a porovná sa s minimálnou daňou (§ 46b)."
+        "text": "Konštrukčné prvky dane: daňový subjekt (daňovník PO), predmet dane (príjem/výnos), základ dane, sadzba a zdaňovacie obdobie. Sadzby DPPO (§ 15) od 1. 1. 2025 (platia aj pre 2026): 10 % pri zdaniteľných príjmoch (výnosoch) ≤ 100 000 €, 21 % nad 100 000 € do 5 mil. €, 24 % nad 5 mil. €. Pojem 'zdaniteľné príjmy' v § 15 sa pri PO interpretuje ako účtovné výnosy zaúčtované v účtovníctve (nie príjmy v zmysle peňažných tokov ako u FO). Sadzba sa uplatní na celý základ dane; o jej výške rozhoduje výška zdaniteľných VÝNOSOV za zdaňovacie obdobie, nie základ dane. Po zostavení základu dane sa odpočíta daňová strata (§ 30 – max. 5 období, max. 50 % ZD, mikrodaňovník 100 %), uplatnia prípadné úľavy na dani a porovná sa s minimálnou daňou (§ 46b)."
       },
       {
         "nadpis": "Závislé osoby, dividendy a zrážková daň",
-        "text": "Transakcie závislých osôb (ekonomicky, personálne alebo inak prepojených) musia byť ocenené podľa princípu nezávislého vzťahu (§ 17 ods. 5, § 18) – ak sa líšia od trhových, základ dane sa zvýši; pri kontrole sa rozdiel určí podľa mediánu nezávislých porovnateľných hodnôt a použije sa metodika OECD pre transferové oceňovanie. Prijatá dividenda zo zisku tuzemskej PO je u PO mimo predmetu dane (odpočítateľná položka, trvalý rozdiel); u fyzickej osoby sa zdaňuje zrážkou 7 % zo zisku za rok 2025 (10 % zo zisku za 2024), 35 % voči nespolupracujúcim štátom. Daň vyberaná zrážkou (§ 43) je u príjemcu spravidla vysporiadaná. Oprava chyby minulých období: ak ovplyvnila základ dane, rieši sa dodatočným daňovým priznaním za to obdobie, nie cez bežný rok.",
+        "text": "Transakcie závislých osôb (ekonomicky, personálne alebo inak prepojených) musia byť ocenené podľa princípu nezávislého vzťahu (§ 17 ods. 5, § 18) – ak sa líšia od trhových, základ dane sa zvýši; pri kontrole sa rozdiel určí podľa mediánu nezávislých porovnateľných hodnôt a použije sa metodika OECD pre transferové oceňovanie. Prijatá dividenda zo zisku tuzemskej PO je u PO mimo predmetu dane (odpočítateľná položka, trvalý rozdiel); u fyzickej osoby sa zdaňuje zrážkou: zo zisku za roky 2017–2023 sadzba 7 %; zo zisku za rok 2024 sadzba 10 %; zo zisku za rok 2025 a nasledujúce sadzba 7 %; voči nespolupracujúcim (nezmluvným) štátom 35 %. Daň vyberaná zrážkou (§ 43) je u príjemcu spravidla vysporiadaná. Oprava chyby minulých období: ak ovplyvnila základ dane, rieši sa dodatočným daňovým priznaním za to obdobie, nie cez bežný rok.",
         "zaver": "Pri tejto téze drž tri kotvy: (1) splatná = reálna daň zo základu dane (591/341), odložená = akruálne dorovnanie cez súvahu (592/481); (2) odložená daň vzniká LEN z dočasných rozdielov, ktoré nájdeš porovnaním účtovnej hodnoty a daňovej základne; (3) smer (záväzok/pohľadávka) odvodíš z toho, či v budúcnosti zaplatíš viac alebo menej. Tým spojíš účtovný a daňový pohľad do verného obrazu výsledku po zdanení."
       }
     ]
@@ -82,7 +82,7 @@
     },
     {
       "nadpis": "Úľavy na dani a minimálna daň",
-      "text": "Po výpočte dane môže daňovník uplatniť úľavy na dani (napr. pre prijímateľa investičnej pomoci podľa § 30a, § 30b) – znižujú výslednú daňovú povinnosť. Súčasne sa daň porovná s minimálnou daňou PO (§ 46b, od 2024 nahradila daňové licencie): 340 € až 11 520 € podľa výšky zdaniteľných príjmov; platí sa vyššia z dvoch súm. Kladný rozdiel zaplatenej minimálnej dane nad vypočítanú daň možno započítať v nasledujúcich 3 obdobiach."
+      "text": "Po výpočte dane môže daňovník uplatniť úľavy na dani (napr. pre prijímateľa investičnej pomoci podľa § 30a, § 30b) – znižujú výslednú daňovú povinnosť. Súčasne sa daň porovná s MINIMÁLNOU DAŇOU PO (§ 46b, od 2024 nahradila daňové licencie); platí sa vyššia z dvoch súm. SADZBY MINIMÁLNEJ DANE PO platné od r. 2024 (prvé podanie v r. 2025 za r. 2024): 340 € pri zdaniteľných výnosoch ≤ 50 000 €; 960 € pri 50 001–250 000 €; 1 920 € pri 250 001–500 000 €; 3 840 € nad 500 000 €. NOVÝ 5. stupeň od 1. 1. 2026 (zákon č. 261/2025 Z. z.; prvé podanie v r. 2027 za r. 2026): 11 520 € pre subjekty s výnosmi NAD 5 000 000 €. Pre podanie za rok 2024 a 2025 platí ešte horný strop 3 840 €. Kladný rozdiel zaplatenej minimálnej dane nad vypočítanú daň možno započítať v nasledujúcich 3 zdaňovacích obdobiach."
     },
     {
       "nadpis": "Vzťah k IAS 12 a vlastnému imaniu",
@@ -129,7 +129,7 @@
     },
     {
       "nazov": "Trvalý rozdiel bez odloženej dane (pokuta + dividenda)",
-      "zadanie": "DELTA s.r.o. zaúčtovala v r. 2025 pokutu od daňového úradu 2 000 € a prijala dividendu od tuzemskej s.r.o. 5 000 € zaúčtovanú do výnosov.",
+      "zadanie": "DELTA s.r.o. zaúčtovala v r. 2025 pokutu od daňového úradu 2 000 € a prijala dividendu od tuzemskej s.r.o. 5 000 € zaúčtovanú do výnosov 221/665 (Výnosy z dlhodobého finančného majetku) podľa § 79 Postupov účtovania, prípadne predpis cez 351/665 a inkaso 221/351.",
       "riesenie": "Pokuta od štátu je nedaňová natrvalo (§ 21 ods. 2) → pripočítateľná položka +2 000 €, TRVALÝ rozdiel. Prijatá dividenda od tuzemskej PO nie je predmetom dane → odpočítateľná položka −5 000 €, TRVALÝ rozdiel. Ani jeden sa v budúcnosti nevyrovná, preto NEVZNIKÁ žiadna odložená daň – účtuje sa len ich vplyv na splatnú daň cez daňové priznanie.",
       "dopad_na_zd": "Splatná daň 2025: +2 000 € (pokuta) a −5 000 € (dividenda). Odložená daň: 0 € (trvalé rozdiely)."
     },
@@ -152,7 +152,7 @@
           "popis": "Odložená daňová pohľadávka z dočasných rozdielov (11 000 × 21 %)"
         }
       ],
-      "riesenie": "Základ dane = 60 000 + 8 000 + 3 000 − 5 000 = 66 000 €. Sadzba 21 % (príjmy > 100 000 €). Splatná daň = 66 000 × 21 % = 13 860 € (591/341). Dočasné odpočítateľné rozdiely spolu 11 000 € (rezerva 8 000 + odpisy 3 000) sa v budúcnosti daňovo uznajú → odložená daňová pohľadávka 11 000 × 21 % = 2 310 € (481/592). Dividenda je trvalý rozdiel, odloženú daň nevyvolá. Celkový náklad na daň vo VZaS = 13 860 (591) − 2 310 (592, ako zníženie nákladu) = 11 550 €.",
+      "riesenie": "Základ dane = 60 000 + 8 000 + 3 000 − 5 000 = 66 000 €. Sadzba 21 % (príjmy > 100 000 €). Splatná daň = 66 000 × 21 % = 13 860 € (591/341). Dočasné odpočítateľné rozdiely spolu 11 000 € (rezerva 8 000 € + rozdiel účtovných nad daňovými odpismi 3 000 €) – účtovná zostatková cena majetku je nižšia ako daňová (ÚH < DZ → odpočítateľný dočasný rozdiel), v budúcnosti sa daňovo uznajú vyššie odpisy / čerpanie rezervy → odložená daňová pohľadávka 11 000 × 21 % = 2 310 € (481/592). Dividenda je trvalý rozdiel, odloženú daň nevyvolá. Celkový náklad na daň vo VZaS = 13 860 (591) − 2 310 (592, ako zníženie nákladu) = 11 550 €.",
       "dopad_na_zd": "Splatná daň 13 860 €; odložená daňová pohľadávka 2 310 €; výsledný účtovný náklad na daň 11 550 €."
     }
   ],
@@ -261,10 +261,10 @@
     },
     {
       "otazka": "Kto musí účtovať o odloženej dani?",
-      "odpoved": "Povinne účtovné jednotky s povinnosťou auditu (§ 19 zákona o účtovníctve), ostatné dobrovoľne. Mikro účtovná jednotka o odloženej dani neúčtuje. Odložená daň sa nediskontuje.",
+      "odpoved": "Povinne účtovné jednotky s povinnosťou auditu (§ 19 zákona o účtovníctve), ostatné dobrovoľne. Mikro účtovná jednotka o odloženej dani neúčtuje. Odložená daň sa nediskontuje. (Konkrétny rámec: § 10 Postupov účtovania pre podnikateľov – opatrenie MF SR č. 23054/2002-92, § 19 zákona č. 431/2002 Z. z. o účtovníctve.)",
       "moznosti": [
         "O odloženej dani musí účtovať každá účtovná jednotka vrátane mikro ÚJ; odložená daň sa vždy diskontuje",
-        "Povinne účtovné jednotky s povinnosťou auditu (§ 19 zákona o účtovníctve), ostatné dobrovoľne; mikro účtovná jednotka o odloženej dani neúčtuje. Odložená daň sa nediskontuje",
+        "Povinne účtovné jednotky s povinnosťou auditu (§ 19 zákona o účtovníctve), ostatné dobrovoľne; mikro účtovná jednotka o odloženej dani neúčtuje. Odložená daň sa nediskontuje (§ 10 Postupov účtovania pre podnikateľov; § 19 zák. č. 431/2002 Z. z.)",
         "Povinne len mikro účtovné jednotky; veľké auditované ÚJ o odloženej dani neúčtujú, lebo ju nahrádza splatná daň",
         "Povinne všetky ÚJ okrem akciových spoločností; odložená daň sa diskontuje budúcou sadzbou dane"
       ],
@@ -272,7 +272,7 @@
       "spravne_indexy": [
         1
       ],
-      "vysvetlenie": "Povinne účtovné jednotky s povinnosťou auditu (§ 19 zákona o účtovníctve), ostatné dobrovoľne. Mikro účtovná jednotka o odloženej dani neúčtuje. Odložená daň sa nediskontuje."
+      "vysvetlenie": "Povinne účtovné jednotky s povinnosťou auditu (§ 19 zákona o účtovníctve), ostatné dobrovoľne. Mikro účtovná jednotka o odloženej dani neúčtuje. Odložená daň sa nediskontuje. (Konkrétny rámec: § 10 Postupov účtovania pre podnikateľov – opatrenie MF SR č. 23054/2002-92, § 19 zákona č. 431/2002 Z. z. o účtovníctve.)"
     }
   ],
   "pasce_caste_chyby": [
@@ -372,7 +372,7 @@
     "priklad": [
       {
         "zadanie": "OMEGA s.r.o. (zdaniteľné príjmy 90 000 €) má za r. 2025: VH pred zdanením 40 000 €; účtovné odpisy nad daňové +2 000 € (dočasné); účtovnú rezervu na audit +1 500 € (dočasné); reprezentáciu +600 € (trvalé); oslobodenú dividendu −3 000 € (trvalé). Sadzba 21 % (budúca aj bežná). Vypočítajte základ dane, splatnú daň a odloženú daň a uveďte účtovanie.",
-        "riesenie": "Základ dane = 40 000 + 2 000 + 1 500 + 600 − 3 000 = 41 100 €. Príjmy 90 000 € ≤ 100 000 € → sadzba 10 %! Splatná daň = 41 100 × 10 % = 4 110 € → 591/341. Dočasné odpočítateľné rozdiely 3 500 € (odpisy 2 000 + rezerva 1 500) → odložená daňová pohľadávka 3 500 × 10 % = 350 € → 481/592 (pozor: použiť reálne očakávanú budúcu sadzbu; ak by sa očakávalo 21 %, bolo by 735 €). Reprezentácia a dividenda sú trvalé → bez odloženej dane. Výsledný náklad na daň = 4 110 − 350 = 3 760 €."
+        "riesenie": "Základ dane = 40 000 + 2 000 + 1 500 + 600 − 3 000 = 41 100 €. Príjmy 90 000 € ≤ 100 000 € → sadzba 10 %! Splatná daň = 41 100 × 10 % = 4 110 € → 591/341 (bežná sadzba podľa § 15 pri výnosoch ≤ 100 000 €). Pre ODLOŽENÚ daň je podľa § 10 Postupov účtovania rozhodujúca sadzba OČAKÁVANÁ v období vyrovnania dočasných rozdielov. Keďže zadanie uvádza budúcu (aj bežnú) sadzbu 21 %, dočasné odpočítateľné rozdiely 3 500 € (odpisy 2 000 + rezerva 1 500) vytvárajú odloženú daňovú pohľadávku 3 500 × 21 % = 735 € → 481/592 (NIE 350 €; pôvodný výpočet pri 10 % bol v rozpore so zadaním sadzby). Reprezentácia a dividenda sú trvalé → bez odloženej dane. Výsledný náklad na daň = 4 110 − 735 = 3 375 €. (Alternatívne: ak by sa očakávala budúca sadzba 10 %, treba upraviť zadanie príkladu a OD pohľadávka by bola 350 €.)"
       }
     ]
   },

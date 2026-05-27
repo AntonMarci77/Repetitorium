@@ -5,8 +5,8 @@
   "cislo": 7,
   "nazov": "Manažérske a nákladové účtovníctvo",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Teoretická téza – nie je viazaná na konkrétne znenie zákona. Vychádza zo štandardnej odbornej literatúry (Tumpach: Manažérske a nákladové účtovníctvo, IURA Edition 2008; Král; Macík), overené k máju 2026. Organizačné vedenie vnútropodnikového účtovníctva (jedno-/dvojokruhovo) sa opiera o § 6 zákona č. 431/2002 Z. z. o účtovníctve. Pojmy hodnotového poňatia (kalkulačné náklady) sú v slovenských online zdrojoch spracované len okrajovo – odporúča sa overiť v tlačenej učebnici Tumpach (kap. o vyjadrení a ocenení nákladov).",
+  "verzia": "1.2",
+  "stav_legislativy": "Teoretická téza – nie je viazaná na konkrétne znenie zákona. Vychádza zo štandardnej odbornej literatúry (Tumpach: Manažérske a nákladové účtovníctvo, IURA Edition 2008; Král; Macík), overené k máju 2026. Organizačné vedenie vnútropodnikového účtovníctva (jedno-/dvojokruhovo) sa opiera o § 6 zákona č. 431/2002 Z. z. o účtovníctve. Pojmy hodnotového poňatia (kalkulačné náklady) sú v slovenských online zdrojoch spracované len okrajovo – odporúča sa overiť v tlačenej učebnici Tumpach (kap. o vyjadrení a ocenení nákladov). · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "finančné účtovníctvo",
     "nákladové účtovníctvo",
@@ -18,7 +18,7 @@
     "oportunitné (alternatívne) náklady",
     "druhové členenie nákladov",
     "účelové členenie nákladov (priame/nepriame, réžia)",
-    "fixné a variabilné náklady",
+    "fixné (stále) a variabilné (premenlivé) náklady",
     "miesto vzniku nákladov vs. stredisko zodpovednosti",
     "vnútropodnikové (vopred stanovené) ceny"
   ],
@@ -41,7 +41,7 @@
       },
       {
         "nadpis": "Kalkulačné náklady (hodnotové poňatie)",
-        "text": "Kalkulačné náklady patria do hodnotového poňatia. Sú to náklady, ktoré sa úplne alebo čiastočne líšia od účtovných – buď v účtovníctve vôbec nie sú (dodatkové), alebo majú inú výšku (iné/odlišné). Cieľom je, aby kalkulácia odzrkadlila skutočnú ekonomickú spotrebu zdrojov, nie len účtovne či daňovo doložené sumy. Štyri klasické (skratka O-Ú-R-M): Kalkulačné ODPISY sa stanovujú podľa skutočného opotrebenia a reálnej (často reprodukčnej) hodnoty a životnosti – pokračujú aj po účtovnom odpísaní, ak sa stroj stále používa. Kalkulačné ÚROKY zahŕňajú úrok aj z vlastného kapitálu viazaného v podniku (účtovne sa účtuje len úrok z cudzieho kapitálu) – vlastný kapitál má cenu, lebo mohol byť zúročený inde (oportunitný prvok). Náklady kalkulačného RIZIKA sú vopred zahrnutá rezerva na bežné podnikateľské riziká (zmätky, záruky, nedobytné pohľadávky), ktorá vyrovnáva nepravidelné straty rovnomerne v čase. Kalkulačná (podnikateľská) MZDA oceňuje prácu vlastníka/podnikateľa, ktorý reálne pracuje, ale jeho práca nie je zaúčtovaná ako mzdový náklad."
+        "text": "Kalkulačné náklady patria do hodnotového poňatia. Sú to náklady, ktoré sa úplne alebo čiastočne líšia od účtovných – buď v účtovníctve vôbec nie sú zachytené (DODATKOVÉ kalkulačné náklady, nem. Zusatzkosten), alebo v účtovníctve sú, ale s inou výškou (INÉ/ODLIŠNÉ kalkulačné náklady, nem. Anderskosten). Cieľom je, aby kalkulácia odzrkadlila skutočnú ekonomickú spotrebu zdrojov, nie len účtovne či daňovo doložené sumy. Štyri klasické (skratka O-Ú-R-M): Kalkulačné ODPISY (typicky 'iné/odlišné' – v účtovníctve sú, ale počítajú sa inak: podľa skutočného opotrebenia a reálnej, často reprodukčnej hodnoty a životnosti – pokračujú aj po účtovnom odpísaní, ak sa stroj stále používa). Kalkulačné ÚROKY (zmiešané – úrok z cudzieho kapitálu je v účtovníctve, úrok z vlastného kapitálu je dodatkový – účtovne sa neúčtuje, ale ekonomicky vyjadruje cenu kapitálu, ktorý mohol zarábať inde). Náklady kalkulačného RIZIKA (dodatkové – v účtovníctve nie sú; predstavujú vopred zahrnutú rezervu na bežné podnikateľské riziká: zmätky, záruky, nedobytné pohľadávky, ktorá vyrovnáva nepravidelné straty rovnomerne v čase). Kalkulačná (podnikateľská) MZDA (dodatková – oceňuje prácu vlastníka/podnikateľa, ktorá nie je zaúčtovaná ako mzdový náklad)."
       },
       {
         "nadpis": "Oportunitné a relevantné náklady",
@@ -87,7 +87,7 @@
     },
     {
       "nadpis": "Bod zvratu ako využitie členenia fixné/variabilné",
-      "text": "Členenie na fixné a variabilné náklady umožňuje výpočet bodu zvratu (kritického bodu) – objemu, pri ktorom sa výnosy rovnajú celkovým nákladom a zisk je nulový. Príspevok na úhradu (krycí príspevok) na 1 ks = cena − variabilné náklady na 1 ks; bod zvratu (ks) = fixné náklady / príspevok na 1 ks. Nad bodom zvratu každý ďalší kus prináša zisk vo výške príspevku. Vzorec pre výsledok hospodárenia: VH = (cena × objem) − (fixné náklady + variabilné náklady na ks × objem)."
+      "text": "Členenie na fixné a variabilné náklady umožňuje výpočet bodu zvratu (kritického bodu) – objemu, pri ktorom sa výnosy rovnajú celkovým nákladom a zisk je nulový. Príspevok na úhradu (krycí príspevok) na 1 ks = cena − variabilné náklady na 1 ks; bod zvratu (ks) = fixné náklady / príspevok na 1 ks. Nad bodom zvratu každý ďalší kus prináša zisk vo výške príspevku. Vzorec pre výsledok hospodárenia: VH = (cena × objem) − (fixné náklady + variabilné náklady na ks × objem). POZOR – tento vzorec predstavuje variabilný (kontribučný) model a platí pri identickej výrobe a predaji (žiadna zmena stavu zásob). Pri absorpčnej metóde so zmenou stavu zásob sa časť fixných výrobných nákladov 'uskladní' v rastúcich zásobách a výsledok sa od tohto vzorca môže odlišovať."
     },
     {
       "nadpis": "Prepojenie na tézu I.8 (kalkulácie, ABC, zodpovednostné účtovníctvo, rozpočty)",
@@ -97,9 +97,9 @@
   "priklady": [
     {
       "nazov": "Tri poňatia nákladov na jednom prípade",
-      "zadanie": "Podnikateľ – fyzická osoba podniká vo vlastnej dielni a sám v nej pracuje. Účtovné náklady za rok: materiál 40 000 €, energie a služby 10 000 €, účtovné odpisy stroja 5 000 €, úrok z úveru 2 000 €. Stroj je už účtovne takmer odpísaný, jeho reálne opotrebenie zodpovedá 8 000 €/rok. Vlastný kapitál vo firme by inde zarobil 3 000 €/rok. Mzda, ktorú by podnikateľ dostal v zamestnaní, je 24 000 €/rok. Voľnú časť dielne mohol prenajať za 6 000 €/rok.",
-      "riesenie": "Finančné poňatie (účtovné náklady): 40 000 + 10 000 + 5 000 + 2 000 = 57 000 €. Hodnotové poňatie (pripočítame kalkulačné náklady): kalkulačné odpisy 8 000 namiesto účtovných 5 000 (+3 000), kalkulačný úrok z vlastného kapitálu +3 000, kalkulačná podnikateľská mzda +24 000 → 57 000 + 3 000 + 3 000 + 24 000 = 87 000 €. Manažérske (ekonomické) poňatie (pripočítame oportunitný náklad): obetovaný nájom dielne +6 000 → 87 000 + 6 000 = 93 000 €. Vidno, že čím širšie poňatie, tým väčší 'skutočný' náklad – účtovný zisk môže byť kladný, no ekonomicky podnikateľ nemusí zarábať viac, než by mal v zamestnaní s prenajatou dielňou.",
-      "dopad_na_zd": "Finančné 57 000 € ⊂ hodnotové 87 000 € ⊂ manažérske 93 000 €. (Do daňového základu vstupujú len účtovne/daňovo uznané náklady – kalkulačné a oportunitné náklady sú čisto pre interné rozhodovanie, nie pre daň.)"
+      "zadanie": "Podnikateľ – fyzická osoba podniká vo vlastnej dielni a sám v nej pracuje. Účtovné náklady za rok: materiál 40 000 €, energie a služby 10 000 €, účtovné odpisy stroja 5 000 €, úrok z úveru 2 000 €. Stroj je už účtovne takmer odpísaný, jeho reálne opotrebenie zodpovedá 8 000 €/rok. Vlastný kapitál vo firme by inde zarobil 3 000 €/rok. Mzda, ktorú by podnikateľ dostal v zamestnaní, je 24 000 €/rok. Voľnú časť dielne mohol prenajať za 6 000 €/rok. Z dlhodobej skúsenosti podnik tvorí rezervu na bežné podnikateľské riziká (zmätky, záruky, nedobytné pohľadávky) vo výške 1 500 €/rok – v účtovníctve sa táto suma nezachytáva ako náklad.",
+      "riesenie": "Štyri klasické kalkulačné náklady (skratka O-Ú-R-M): kalkulačné Odpisy, kalkulačné Úroky, kalkulačné Riziko a kalkulačná podnikateľská Mzda. Finančné poňatie (účtovné náklady): 40 000 + 10 000 + 5 000 + 2 000 = 57 000 €. Hodnotové poňatie (pripočítame kalkulačné náklady): kalkulačné odpisy 8 000 namiesto účtovných 5 000 (+3 000), kalkulačný úrok z vlastného kapitálu +3 000, kalkulačné riziko +1 500, kalkulačná podnikateľská mzda +24 000 → 57 000 + 3 000 + 3 000 + 1 500 + 24 000 = 88 500 €. Manažérske (ekonomické) poňatie (pripočítame oportunitný náklad): obetovaný nájom dielne +6 000 → 88 500 + 6 000 = 94 500 €. Vidno, že čím širšie poňatie, tým väčší 'skutočný' náklad – účtovný zisk môže byť kladný, no ekonomicky podnikateľ nemusí zarábať viac, než by mal v zamestnaní s prenajatou dielňou.",
+      "dopad_na_zd": "Finančné 57 000 € ⊂ hodnotové 88 500 € ⊂ manažérske 94 500 €. (Do daňového základu vstupujú len účtovne/daňovo uznané náklady – kalkulačné a oportunitné náklady sú čisto pre interné rozhodovanie, nie pre daň.)"
     },
     {
       "nazov": "Druhové vs. účelové členenie tej istej mzdy",
@@ -116,7 +116,7 @@
     {
       "nazov": "Miesto vzniku vs. stredisko zodpovednosti",
       "zadanie": "Zásobovacie stredisko nakúpilo lacnejší, ale nekvalitný materiál. Vo výrobnej dielni preto vznikli zmätky (nepodarky) v hodnote 4 000 €.",
-      "riesenie": "Miesto vzniku nákladu (zmätkov) je výrobná dielňa – tam náklad fyzicky vznikol. Stredisko zodpovedné za jeho vznik je však zásobovanie, ktoré zvolilo nekvalitný materiál. Pri jednoduchom sledovaní 'kde vznikol' by sa náklad neprávom pripísal výrobe a jej vedúci by bol hodnotený horšie. Zodpovednostné účtovníctvo a vnútropodnikové ceny umožnia preniesť zodpovednosť za 4 000 € na zásobovanie (napr. vnútropodnikovou preúčtovacou cenou alebo zaúčtovaním na účtoch skupiny 59/69), takže odchýlka zaťaží toho, kto ju spôsobil.",
+      "riesenie": "Miesto vzniku nákladu (zmätkov) je výrobná dielňa – tam náklad fyzicky vznikol. Stredisko zodpovedné za jeho vznik je však zásobovanie, ktoré zvolilo nekvalitný materiál. Pri jednoduchom sledovaní 'kde vznikol' by sa náklad neprávom pripísal výrobe a jej vedúci by bol hodnotený horšie. Riešenie závisí od povahy presunu: (a) pri PRAVIDELNÝCH interných výkonoch sa používa vnútropodniková (preúčtovacia) cena, ktorá ocení odovzdaný výkon medzi strediskami; (b) NÁHODNÉ nedostatky (zmätky pre nekvalitný materiál) sa typicky identifikujú v rámci ANALÝZY ODCHÝLOK a hodnotenia strediska – odchýlka sa adresne pripíše zodpovednému stredisku (zásobovanie), nie cez účtovné preúčtovanie 59/69. Vnútropodniková cena a účtové skupiny 59/69 oceňujú a evidujú vnútorný tok výkonov; analýza odchýlok hodnotí stredisko bez nutnosti účtovného preúčtovania.",
       "dopad_na_zd": "Miesto vzniku = výroba; zodpovednosť = zásobovanie. Náklad 4 000 € sa adresne pripíše zodpovednému stredisku."
     }
   ],

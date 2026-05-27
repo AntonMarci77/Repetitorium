@@ -5,8 +5,8 @@
   "cislo": 5,
   "nazov": "Daň z pridanej hodnoty",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Zákon č. 222/2004 Z. z. o DPH v znení účinnom k 1. 1. 2026 (vrátane tretieho konsolidačného balíka – zákon č. 261/2025 Z. z.). Sadzby a registračné limity overené k máju 2026: základná 23 %, znížené 19 % a 5 %; obrat 50 000 € / 62 500 € za kalendárny rok. Smernica Rady 2006/112/ES.",
+  "verzia": "1.2",
+  "stav_legislativy": "Zákon č. 222/2004 Z. z. o DPH v znení účinnom k 1. 1. 2026 (vrátane tretieho konsolidačného balíka – zákon č. 261/2025 Z. z.). Sadzby a registračné limity overené k máju 2026: základná 23 %, znížené 19 % a 5 %; obrat 50 000 € / 62 500 € za kalendárny rok. Smernica Rady 2006/112/ES. Druhé kolo revízie (máj 2026, Klaster E – Dane): opravené N-34/ID 180 (50 % odpočet DPH M1 od 2026 – podmienka vstupnej ceny > 1 700 €), N-35/ID 181 (§ 7 hranica nadobudnutia z EÚ 14 000 € platí bezo zmeny k 1.1.2026), N-36 (zaokrúhlenie koeficientu + ročné vysporiadanie § 50 ods. 4), N-37 (preformulovaná pasca v cdo[0]).",
   "klucove_pojmy": [
     "DPH ako nepriama univerzálna spotrebná daň",
     "daň na výstupe vs. daň na vstupe",
@@ -59,7 +59,7 @@
       },
       {
         "nadpis": "Odpočítanie dane a koeficient (§ 49–51)",
-        "text": "Právo odpočítať daň vzniká platiteľovi v deň, keď pri tovare/službe vznikla daňová povinnosť (§ 49 ods. 1); uplatniť ho možno, len ak má faktúru podľa § 71 (§ 51). Odpočítať možno daň z nákupov použitých na zdaniteľné dodávky platiteľa. Plný odpočet – vstupy len pre zdaniteľné plnenia. Žiadny odpočet – vstupy len pre oslobodené plnenia bez nároku (§ 49 ods. 3). Pomerné odpočítanie (§ 49 ods. 4, § 50) – ak vstup slúži zároveň na plnenia s nárokom aj bez nároku, odpočíta sa len pomerná časť cez KOEFICIENT. Koeficient = (hodnota plnení s nárokom na odpočet) / (hodnota všetkých plnení) za kalendárny rok, zaokrúhlený na dve desatinné miesta NAHOR. Počas roka sa používa koeficient z predchádzajúceho roka (predbežný), po skončení roka sa vykoná ROČNÉ VYSPORIADANIE konečným koeficientom (§ 50 ods. 4). Od 1. 1. 2026 platí pri osobných autách kategórie M1 paušálny 50 % odpočet (plný len pri preukázateľnom výlučne podnikateľskom použití s elektronickou evidenciou jázd)."
+        "text": "Právo odpočítať daň vzniká platiteľovi v deň, keď pri tovare/službe vznikla daňová povinnosť (§ 49 ods. 1); uplatniť ho možno, len ak má faktúru podľa § 71 (§ 51). Odpočítať možno daň z nákupov použitých na zdaniteľné dodávky platiteľa. Plný odpočet – vstupy len pre zdaniteľné plnenia. Žiadny odpočet – vstupy len pre oslobodené plnenia bez nároku (§ 49 ods. 3). Pomerné odpočítanie (§ 49 ods. 4, § 50) – ak vstup slúži zároveň na plnenia s nárokom aj bez nároku, odpočíta sa len pomerná časť cez KOEFICIENT. Koeficient = (hodnota plnení s nárokom na odpočet) / (hodnota všetkých plnení) za kalendárny rok, zaokrúhlený na dve desatinné miesta NAHOR. Počas roka sa používa koeficient z predchádzajúceho roka (predbežný), po skončení roka sa vykoná ROČNÉ VYSPORIADANIE konečným koeficientom (§ 50 ods. 4). Od 1. 1. 2026 (do 30. 6. 2028) platí pri obstaraní osobných áut kategórie M1 (a vozidiel L1e, L3e) so VSTUPNOU CENOU NAD 1 700 € paušálny 50 % odpočet DPH – rovnako pri súvisiacich tovaroch a službách (palivo, údržba, pneumatiky). Plný 100 % odpočet len pri preukázateľnom výlučne podnikateľskom použití s vedením podrobnej elektronickej evidencie jázd. Výnimky (vždy 100 %): krátkodobý prenájom, taxislužba, autoškoly, predvádzacie/testovacie/náhradné vozidlá."
       },
       {
         "nadpis": "Účtovné zobrazenie a zistenie vlastnej DP / nadmerného odpočtu",
@@ -85,7 +85,7 @@
     },
     {
       "nadpis": "Registrácia kvôli obchodu v rámci EÚ (§ 7, § 7a)",
-      "text": "Aj neplatiteľ sa musí registrovať pri cezhraničných obchodoch, no nestáva sa „plným“ platiteľom. § 7 – nadobudnutie tovaru z iných členských štátov nad 14 000 € za kalendárny rok (samozdanenie pri nadobudnutí). § 7a – pred prvým prijatím služby z iného ČŠ s prenosom daňovej povinnosti alebo pred prvým poskytnutím služby do iného ČŠ, bez obratového limitu. Tieto osoby odvedú daň zo zahraničných plnení, no z tuzemských dodávok ostávajú neplatiteľmi."
+      "text": "Aj neplatiteľ sa musí registrovať pri cezhraničných obchodoch, no nestáva sa „plným“ platiteľom. § 7 – nadobudnutie tovaru z iných členských štátov nad 14 000 € za kalendárny rok (samozdanenie pri nadobudnutí). Hranica 14 000 € platí bezo zmeny aj v znení účinnom k 1. 1. 2026 (overené k máju 2026, konsolidačný balík zákona č. 261/2025 Z. z. ju neupravil). § 7a – pred prvým prijatím služby z iného ČŠ s prenosom daňovej povinnosti alebo pred prvým poskytnutím služby do iného ČŠ, bez obratového limitu. Tieto osoby odvedú daň zo zahraničných plnení, no z tuzemských dodávok ostávajú neplatiteľmi."
     },
     {
       "nadpis": "Úprava odpočítanej dane pri investičnom majetku (§ 54)",
@@ -151,7 +151,7 @@
           "popis": "Neodpočítaná časť DPH ako súčasť nákladu"
         }
       ],
-      "riesenie": "Koeficient = 805 000 / (805 000 + 195 000) = 0,805 → zaokrúhli sa na dve desatinné miesta NAHOR = 0,81 (zaokrúhlenie nahor je vždy v prospech platiteľa). Odpočítateľná daň = 10 000 × 0,81 = 8 100 €. Neodpočítateľná časť 1 900 € sa zaúčtuje do nákladov. Počas roka sa použije predbežný koeficient z minulého roka, po skončení roka sa vykoná ročné vysporiadanie konečným koeficientom (0,81).",
+      "riesenie": "Koeficient = 805 000 / (805 000 + 195 000) = 0,805 → zaokrúhli sa na dve desatinné miesta NAHOR = 0,81 (§ 50 ZDPH). Zaokrúhlenie nahor v jednotlivých zdaňovacích obdobiach zvyšuje odpočítateľnú časť dane; ročným vysporiadaním podľa § 50 ods. 4 ZDPH konečným koeficientom sa nepresnosti vyrovnajú – výsledné odpočítanie zodpovedá skutočnej štruktúre plnení za rok. Odpočítateľná daň = 10 000 × 0,81 = 8 100 €. Neodpočítateľná časť 1 900 € sa zaúčtuje do nákladov. Počas roka sa použije predbežný koeficient z minulého roka, po skončení roka sa vykoná ročné vysporiadanie konečným koeficientom (0,81).",
       "dopad_na_zd": "Odpočet len 8 100 € z 10 000 €; 1 900 € je nákladom."
     },
     {
@@ -215,7 +215,7 @@
       "otazka": "Aký je rozdiel medzi zdaniteľnou osobou a platiteľom dane?",
       "odpoved": "Zdaniteľná osoba je každý, kto nezávisle vykonáva ekonomickú činnosť (§ 3). Platiteľom sa stane až registráciou (§ 4, 5): až vtedy má IČ DPH, pripočítava daň, má nárok na odpočet a podáva priznanie aj kontrolný výkaz. Nie každá zdaniteľná osoba je platiteľom.",
       "moznosti": [
-        "Zdaniteľná osoba aj platiteľ vznikajú automaticky začatím ekonomickej činnosti; rozdiel je len v sadzbe dane.",
+        "Zdaniteľná osoba aj platiteľ sú totožné – obaja musia účtovať DPH, fakturovať s daňou a podávať priznanie bez ohľadu na registráciu.",
         "Zdaniteľná osoba je každý, kto nezávisle vykonáva ekonomickú činnosť (§ 3); platiteľom sa stáva až registráciou (§ 4, 5), keď má IČ DPH, pripočítava daň a má nárok na odpočet.",
         "Platiteľ je každý, kto vykonáva ekonomickú činnosť, kým zdaniteľnou osobou sa stáva až registráciou a pridelením IČ DPH.",
         "Zdaniteľná osoba aj platiteľ sú totožné pojmy; obaja vždy fakturujú s daňou a majú nárok na odpočet dane na vstupe."

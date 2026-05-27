@@ -5,8 +5,8 @@
   "cislo": 2,
   "nazov": "Vymedzenie základných účtovných kategórií",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Zákon č. 431/2002 Z. z. o účtovníctve v znení účinnom k 4. 2. 2026 (§ 2, § 25, § 26); Postupy účtovania pre podnikateľov (opatrenie MF SR č. 23054/2002-92 v platnom znení) – § 5, § 19, § 56. Sumy a štruktúra vlastného imania overené k máju 2026.",
+  "verzia": "1.2",
+  "stav_legislativy": "Zákon č. 431/2002 Z. z. o účtovníctve v znení účinnom k 4. 2. 2026 (§ 2, § 25, § 26); Postupy účtovania pre podnikateľov (opatrenie MF SR č. 23054/2002-92 v platnom znení) – § 5, § 19, § 56. Sumy a štruktúra vlastného imania overené k máju 2026. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "majetok (aktíva)",
     "záväzok",
@@ -35,11 +35,11 @@
       },
       {
         "nadpis": "Vlastné imanie (rozdiel majetku a záväzkov)",
-        "text": "Vlastné imanie zákon o účtovníctve priamo nedefinuje ako pojem – pracuje s 'rozdielom majetku a záväzkov'. Z toho plynie súvahová rovnica: Vlastné imanie = Majetok − Záväzky. Je to vlastný (interný) zdroj financovania. Štruktúra (účtová trieda 4): základné imanie (účet 411; min. 5 000 € v s. r. o., 25 000 € v a. s.), kapitálové fondy (napr. emisné ážio 412, ostatné kapitálové fondy 413), fondy zo zisku (zákonný rezervný fond 421 – tvorí sa povinne, min. 10 % ZI v s. r. o., 20 % v a. s.), oceňovacie rozdiely z precenenia (414, 416), výsledok hospodárenia minulých rokov (428 nerozdelený zisk / 429 neuhradená strata) a výsledok hospodárenia bežného obdobia (po uzávierke 431 – VH v schvaľovaní). Vlastné imanie sa neoceňuje samostatne – je dôsledkom ocenenia majetku a záväzkov. Záporné vlastné imanie (záväzky > majetok) je signál krízy."
+        "text": "Vlastné imanie zákon o účtovníctve priamo nedefinuje ako pojem – pracuje s 'rozdielom majetku a záväzkov'. Z toho plynie súvahová rovnica: Vlastné imanie = Majetok − Záväzky. Je to vlastný (interný) zdroj financovania. Štruktúra (účtová trieda 4): základné imanie (účet 411; min. 1 000 € v s. r. o. od 1. 11. 2023 – do 31. 10. 2023 to bolo 5 000 €; 25 000 € v a. s.), kapitálové fondy (napr. emisné ážio 412, ostatné kapitálové fondy 413), fondy zo zisku (zákonný rezervný fond 421 – v a. s. povinný (min. 20 % ZI), v s. r. o. založených pred 1. 11. 2023 bol povinný min. 10 % ZI; pre s. r. o. založené po 1. 11. 2023 zákonom č. 309/2023 Z. z. už nie je povinný (Obchodný zákonník § 67)), oceňovacie rozdiely z precenenia (414, 416), výsledok hospodárenia minulých rokov (428 nerozdelený zisk / 429 neuhradená strata) a výsledok hospodárenia bežného obdobia (po uzávierke 431 – VH v schvaľovaní). Vlastné imanie sa neoceňuje samostatne – je dôsledkom ocenenia majetku a záväzkov. Záporné vlastné imanie (záväzky > majetok) je signál krízy."
       },
       {
         "nadpis": "Rezervy (§ 26 ods. 5 zákona, § 19 Postupov)",
-        "text": "Rezerva je záväzok s neistým časovým vymedzením alebo výškou. Tvorí sa na základe zásady opatrnosti na riziká a straty, ktoré sú pravdepodobné, ich existencia vyplýva z minulej udalosti, ale presná suma alebo termín nie sú známe – preto sa oceňuje odhadom v sume dostatočnej na splnenie povinnosti. Význam: zabezpečuje vecnú a časovú súvislosť (náklad sa zaúčtuje do obdobia, ktoré ho spôsobilo, hoci výdavok príde neskôr) a vernosť obrazu (podnik nepreceňuje zisk). Príklady použitia (§ 19 ods. 7 Postupov): nevyčerpané dovolenky vrátane poistného, reklamácie a záručné opravy, prebiehajúce súdne spory, odstupné, bonusy a odmeny, náklady na zostavenie a audit účtovnej závierky, rekultivácia pozemkov, demolácia budov. Účtovanie: tvorba na ťarchu vecne príslušného nákladového účtu (alebo 548/568 ak druh nemožno priradiť) so súvzťažným zápisom v prospech účtu rezerv (323 krátkodobé, 451/459 dlhodobé). Použitie sa účtuje na ťarchu účtu rezerv v prospech účtu záväzku; nepotrebná rezerva sa zruší opačným zápisom. Rezerva nemá aktívny zostatok. Pozor: nezamieňať s opravnou položkou (tá znižuje ocenenie majetku, je v aktívach) ani s dohadnou položkou (388/389 – známy účel, neznáma presná suma alebo doklad)."
+        "text": "Rezerva je záväzok s neistým časovým vymedzením alebo výškou. Tvorí sa na základe zásady opatrnosti na riziká a straty, ktoré sú pravdepodobné, ich existencia vyplýva z minulej udalosti, ale presná suma alebo termín nie sú známe – preto sa oceňuje odhadom v sume dostatočnej na splnenie povinnosti. Význam: zabezpečuje vecnú a časovú súvislosť (náklad sa zaúčtuje do obdobia, ktoré ho spôsobilo, hoci výdavok príde neskôr) a vernosť obrazu (podnik nepreceňuje zisk). Príklady použitia (§ 19 ods. 7 Postupov): nevyčerpané dovolenky vrátane poistného, reklamácie a záručné opravy, prebiehajúce súdne spory, odstupné, bonusy a odmeny, náklady na zostavenie a audit účtovnej závierky, rekultivácia pozemkov, demolácia budov. Účtovanie: tvorba na ťarchu vecne príslušného nákladového účtu so súvzťažným zápisom v prospech účtu rezerv (323 krátkodobé, 451/459 dlhodobé); pre dlhodobé rezervy sa typicky používajú špecifické nákladové účty – 552 (rezervy zákonné), 562 (rezervy finančné), 574 (rezervy z výsledku hospodárenia); 548/568 (ostatné prevádzkové/finančné náklady) sa použijú len ak druh nemožno priradiť. Použitie sa účtuje na ťarchu účtu rezerv v prospech účtu záväzku; nepotrebná rezerva sa zruší opačným zápisom. Rezerva nemá aktívny zostatok. Pozor: nezamieňať s opravnou položkou (tá znižuje ocenenie majetku, je v aktívach) ani s dohadnou položkou (388/389 – známy účel, neznáma presná suma alebo doklad)."
       },
       {
         "nadpis": "Oceňovanie kategórií (§ 25 zákona)",
@@ -47,7 +47,7 @@
       },
       {
         "nadpis": "Náklady a výnosy (§ 2 ods. 4 písm. c, e)",
-        "text": "Náklad je zníženie ekonomických úžitkov účtovnej jednotky v účtovnom období, ktoré sa dá spoľahlivo oceniť (úbytok majetku alebo vznik záväzku, ktorý znižuje vlastné imanie inak než rozdelením vlastníkom). Výnos je zvýšenie ekonomických úžitkov v účtovnom období, ktoré sa dá spoľahlivo oceniť (prírastok majetku alebo zníženie záväzku, ktoré zvyšuje vlastné imanie inak než vkladom vlastníkov). Pozor na odlíšenie od výdavku/príjmu: výdavok je úbytok peňazí, príjem je prírastok peňazí – v podvojnom účtovníctve náklad ≠ výdavok a výnos ≠ príjem (napr. nákup materiálu na sklad je výdavok, ale ešte nie náklad; náklad vznikne až spotrebou). Účtujú sa v účtovej triede 5 (náklady) a 6 (výnosy); rozdiel výnosov a nákladov je výsledok hospodárenia (zisk/strata), ktorý sa preklápa do vlastného imania."
+        "text": "Náklad je zníženie ekonomických úžitkov účtovnej jednotky v účtovnom období, ktoré sa dá spoľahlivo oceniť (úbytok majetku alebo vznik záväzku, ktorý znižuje vlastné imanie inak než rozdelením medzi vlastníkov (napr. dividenda)). Výnos je zvýšenie ekonomických úžitkov v účtovnom období, ktoré sa dá spoľahlivo oceniť (prírastok majetku alebo zníženie záväzku, ktoré zvyšuje vlastné imanie inak než vkladmi vlastníkov). Pozor na odlíšenie od výdavku/príjmu: výdavok je úbytok peňazí, príjem je prírastok peňazí – v podvojnom účtovníctve náklad ≠ výdavok a výnos ≠ príjem (napr. nákup materiálu na sklad je výdavok, ale ešte nie náklad; náklad vznikne až spotrebou). Účtujú sa v účtovej triede 5 (náklady) a 6 (výnosy); rozdiel výnosov a nákladov je výsledok hospodárenia (zisk/strata), ktorý sa preklápa do vlastného imania."
       },
       {
         "nadpis": "Akruálny princíp pri vykazovaní nákladov a výnosov (§ 3, § 5 Postupov)",
@@ -55,7 +55,7 @@
       },
       {
         "nadpis": "Časové rozlíšenie nákladov a výnosov (§ 56 Postupov, účty 381–385)",
-        "text": "Časové rozlíšenie sa používa, keď je známy vecný obsah, suma aj obdobie, ktorého sa prípad týka (§ 5 ods. 5 Postupov). Štyri kľúčové účty účtovej skupiny 38: 381 – Náklady budúcich období (výdavok bežného obdobia, ktorý je nákladom budúcich období – aktívum, napr. vopred platené nájomné, predplatné); 382 – Komplexné náklady budúcich období (náklady budúcich období sledované k danému účelu, napr. náklady na dlhodobú reklamnú kampaň); 383 – Výdavky budúcich období (náklad bežného obdobia, výdavok príde neskôr – pasívum, napr. nájomné platené pozadu); 384 – Výnosy budúcich období (príjem bežného obdobia, ktorý je výnosom budúcich období – pasívum, napr. nájomné prijaté vopred, predplatné, aj zúčtovanie dotácie na majetok podľa § 52a). Doplnkovo 385 – Príjmy budúcich období (výnos bežného obdobia, príjem príde neskôr – aktívum, napr. nájomné prijaté pozadu). Pomôcka: 'budúcich období' = časť názvu hovorí, do akého obdobia patrí náklad/výnos; ak ide o výdavok/príjem (peniaze), je to 383/385, ak o náklad/výnos vecne, je to 381/384. Aktíva: 381, 382, 385. Pasíva: 383, 384."
+        "text": "Časové rozlíšenie sa používa, keď je známy vecný obsah, suma aj obdobie, ktorého sa prípad týka (§ 5 ods. 5 Postupov). Štyri kľúčové účty účtovej skupiny 38: 381 – Náklady budúcich období (výdavok bežného obdobia, ktorý je nákladom budúcich období – aktívum, napr. vopred platené nájomné, predplatné); 382 – Komplexné náklady budúcich období (náklady budúcich období sledované k danému účelu, napr. náklady na dlhodobú reklamnú kampaň); 383 – Výdavky budúcich období (náklad bežného obdobia, výdavok príde neskôr – pasívum, napr. nájomné platené pozadu); 384 – Výnosy budúcich období (príjem bežného obdobia, ktorý je výnosom budúcich období – pasívum, napr. nájomné prijaté vopred, predplatné, aj zúčtovanie dotácie na majetok podľa § 52a). Doplnkovo 385 – Príjmy budúcich období (výnos bežného obdobia, ktorý jednotka už poskytla, ale úhrada príde až v budúcich obdobiach – aktívum, napr. nájomné, ktoré ÚJ poskytla a inkasuje pozadu). Pomôcka: 'budúcich období' = časť názvu hovorí, do akého obdobia patrí náklad/výnos; ak ide o výdavok/príjem (peniaze), je to 383/385, ak o náklad/výnos vecne, je to 381/384. Aktíva: 381, 382, 385. Pasíva: 383, 384."
       },
       {
         "zaver": "Základné účtovné kategórie tvoria uzavretý a vnútorne prepojený systém. Súvahové (majetok, záväzky vrátane rezerv, vlastné imanie) zachytávajú stav k dátumu a viaže ich rovnica Majetok = Vlastné imanie + Záväzky. Výsledkové (náklady, výnosy) zachytávajú tok za obdobie a ich rozdiel – výsledok hospodárenia – sa premieta do vlastného imania. Spojivom je akruálny princíp, ktorý cez rezervy a časové rozlíšenie zabezpečuje, že každý náklad a výnos je vykázaný v správnom období. Správne vymedzenie a ocenenie každej kategórie je predpokladom verného a pravdivého obrazu účtovnej závierky."
@@ -91,10 +91,10 @@
       "uctovanie": [
         {
           "rok": "2025",
-          "md": "511",
+          "md": "554",
           "d": "323",
           "suma": 4000,
-          "popis": "Tvorba krátkodobej rezervy na záručné opravy (vecne príslušný nákladový účet)"
+          "popis": "Tvorba krátkodobej rezervy na záručné opravy (554 – Tvorba a zúčtovanie ostatných rezerv z prevádzkovej činnosti)"
         },
         {
           "rok": "2026",
@@ -106,12 +106,12 @@
         {
           "rok": "2026",
           "md": "323",
-          "d": "511",
+          "d": "554",
           "suma": 500,
-          "popis": "Zrušenie nepotrebnej časti rezervy (opačný zápis k tvorbe)"
+          "popis": "Zrušenie nepotrebnej časti rezervy (opačný zápis k tvorbe na 554)"
         }
       ],
-      "riesenie": "V r. 2025 sa náklad zaúčtuje do obdobia, ktoré ho spôsobilo (predaj výrobkov) – akruálny princíp, hoci výdavok príde neskôr. V r. 2026 sa rezerva použije na úhradu skutočných opráv; nepotrebných 500 € sa zruší opačným zápisom (zníži náklad r. 2026, resp. zvýši výsledok). Rezerva nemá aktívny zostatok.",
+      "riesenie": "V r. 2025 sa náklad zaúčtuje do obdobia, ktoré ho spôsobilo (predaj výrobkov) – akruálny princíp, hoci výdavok príde neskôr. V r. 2026 sa rezerva použije na úhradu skutočných opráv; nepotrebných 500 € sa zruší opačným zápisom (zníži náklad r. 2026 na účte 554). Rezerva nemá aktívny zostatok.",
       "dopad_na_zd": "Náklad zaúčtovaný v r. 2025 (vernosť obrazu). Daňová uznateľnosť tejto účtovnej rezervy sa rieši v dani z príjmov (rezerva na záruky nie je v § 20 ZDP – pri tvorbe pripočítateľná, pri použití odpočítateľná)."
     },
     {
@@ -140,7 +140,7 @@
           "popis": "Zúčtovanie nájomného za január a február 2026"
         }
       ],
-      "riesenie": "Výdavok nastal celý v r. 2025, ale nákladom je len 1/3 (december). Zvyšok je na účte 381 ako aktívum a do nákladov sa preúčtuje v r. 2026, do ktorého vecne patrí (akruálny princíp). Účet 381 = aktívny účet časového rozlíšenia.",
+      "riesenie": "Výdavok nastal celý v r. 2025, ale nákladom je len 1/3 (december). Zvyšok je na účte 381 ako aktívum a do nákladov sa preúčtuje v r. 2026, do ktorého vecne patrí (akruálny princíp). Účet 381 = aktívny účet časového rozlíšenia. Alternatívne (a vecne korektnejšie) možno už pri úhrade časť pripadajúcu na december (1 000 €) zaúčtovať priamo na 518/221 a na 381 dať len zvyšok 2 000 € – výsledok hospodárenia každého roka je rovnaký, ale prvý zápis lepšie odráža vecnú podstatu (časť úhrady je súčasným nákladom, nie aktívom).",
       "dopad_na_zd": "Náklad r. 2025: 1 000 €; náklad r. 2026: 2 000 €. Časové rozlíšenie zabezpečí správny výsledok každého roka."
     },
     {
@@ -175,8 +175,8 @@
     {
       "nazov": "Výpočet vlastného imania zo súvahovej rovnice",
       "zadanie": "Účtovná jednotka vykazuje majetok 250 000 € (z toho neobežný 180 000 €, obežný 70 000 €) a záväzky spolu 160 000 € (vrátane rezerv 20 000 €).",
-      "riesenie": "Vlastné imanie = Majetok − Záväzky = 250 000 − 160 000 = 90 000 €. Rezervy sú súčasťou cudzích zdrojov (záväzkov), preto sú už zahrnuté v 160 000 €. Pasíva spolu = vlastné imanie (90 000) + záväzky (160 000) = 250 000 € = aktíva → súvaha je vyrovnaná.",
-      "dopad_na_zd": "Bez priameho daňového dopadu – ide o štruktúru súvahy. Vlastné imanie 90 000 € > základné imanie (napr. 5 000 € s. r. o.) → spoločnosť nie je v kríze z dôvodu vlastného imania."
+      "riesenie": "Vlastné imanie = Majetok − Záväzky = 250 000 − 160 000 = 90 000 €. Rezervy sú súčasťou cudzích zdrojov (záväzkov), preto sú už zahrnuté v 160 000 €. Pasíva spolu = vlastné imanie (90 000) + záväzky (160 000) = 250 000 € = aktíva → súvaha je vyrovnaná. Test krízy podľa § 67a Obchodného zákonníka NIE je 'VI > ZI', ale pomer vlastného a cudzieho kapitálu: spoločnosť je v kríze, ak pomer vlastného imania a záväzkov je menej ako 8 : 100 (resp. pomer vlastného imania k cudziemu kapitálu < 0,08). V tomto prípade VI/Záväzky = 90 000/160 000 ≈ 0,56, t. j. ďaleko nad limitom 0,08 → spoločnosť NIE je v kríze.",
+      "dopad_na_zd": "Bez priameho daňového dopadu – ide o štruktúru súvahy. Test krízy podľa § 67a OZ: VI/Z = 90 000/160 000 ≈ 0,56 (limit 0,08) → spoločnosť nie je v kríze. (Minimálne ZI s.r.o. od 1. 11. 2023 je 1 000 €, ZRF povinný len pre s.r.o. založené do 31. 10. 2023.)"
     },
     {
       "nazov": "Odlíšenie nákladu od výdavku",
@@ -403,7 +403,7 @@
           "výsledok hospodárenia minulých rokov"
         ],
         "spravna_index": 2,
-        "vysvetlenie": "Rezerva na záručné opravy je záväzok (cudzí zdroj), nie vlastné imanie. Ostatné tri patria do vlastného imania (trieda 4, skupiny 41–43)."
+        "vysvetlenie": "Rezerva na záručné opravy je záväzok (cudzí zdroj), nie vlastné imanie. Ostatné tri patria do vlastného imania (trieda 4, skupiny 41–43). Pozn.: ZRF už nie je univerzálne povinný – pre s.r.o. založené po 1. 11. 2023 ho zákon 309/2023 zrušil; v a.s. zostáva povinný (20 % ZI)."
       },
       {
         "otazka": "Výnos je podľa zákona o účtovníctve:",
@@ -434,7 +434,7 @@
     "priklad": [
       {
         "zadanie": "Účtovná jednotka k 31. 12. 2025: (a) zaplatila vopred poistné 1 200 € na rok 2026, (b) vytvorila rezervu na nevyčerpané dovolenky vrátane poistného 5 000 €, (c) prijala vopred predplatné na časopis 900 €, z toho 600 € patrí do r. 2026, (d) vykazuje majetok 300 000 € a záväzky (vrátane rezerv) 210 000 €. Zaúčtujte (a)–(c) a vypočítajte vlastné imanie.",
-        "riesenie": "(a) 381/221 1 200 € (náklady budúcich období – celé poistné patrí do 2026). (b) Tvorba rezervy 527/323 (alebo vecne príslušný osobný náklad) 5 000 € – akruálny princíp, povinnosť z odpracovaného času. (c) Prijatie 221/384 900 €; do výnosov r. 2025 sa zúčtuje 300 € (384/602), na účte 384 zostáva 600 € pre r. 2026. (d) Vlastné imanie = 300 000 − 210 000 = 90 000 €. Rezerva z (b) je už súčasťou záväzkov 210 000 €."
+        "riesenie": "(a) 381/221 1 200 € (náklady budúcich období – celé poistné patrí do 2026). (b) Tvorba rezervy 527/323 (alebo vecne príslušný osobný náklad) 5 000 € – akruálny princíp, povinnosť z odpracovaného času. (c) Prijatie 221/384 900 €; do výnosov r. 2025 sa zúčtuje 300 € (384/602), na účte 384 zostáva 600 € pre r. 2026. (d) Vlastné imanie = 300 000 − 210 000 = 90 000 €. Rezerva z (b) je už súčasťou záväzkov 210 000 €. Záverečný zostatok účtu 384 ku 31. 12. 2025 (600 € pasívum) sa v r. 2026 plynule rozpustí do výnosov: 384/648 (resp. 384/602 podľa charakteru) v sume 600 € pri vykonaní služby / uplynutí obdobia, ktorého sa týka."
       }
     ]
   },

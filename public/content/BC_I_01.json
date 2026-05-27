@@ -5,8 +5,8 @@
   "cislo": 1,
   "nazov": "Podstata účtovníctva a jej legislatívny rámec",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Zákon č. 431/2002 Z. z. o účtovníctve v znení účinnom k 4. 2. 2026; Opatrenie MF SR č. 23054/2002-92 (postupy účtovania a rámcová účtová osnova pre podnikateľov) v platnom znení; smernica EÚ 2013/34/EÚ a IFRS v znení EÚ. Sumy a definície overené k máju 2026.",
+  "verzia": "1.2",
+  "stav_legislativy": "Zákon č. 431/2002 Z. z. o účtovníctve v znení účinnom k 4. 2. 2026; Opatrenie MF SR č. 23054/2002-92 (postupy účtovania a rámcová účtová osnova pre podnikateľov) v platnom znení; smernica EÚ 2013/34/EÚ a IFRS v znení EÚ. Sumy a definície overené k máju 2026. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "účtovníctvo",
     "verný a pravdivý obraz",
@@ -22,7 +22,7 @@
     "preukázateľnosť účtovného záznamu (§ 32)",
     "uchovávanie a ochrana účtovnej dokumentácie (§ 35, § 36)"
   ],
-  "princip_mentalny_model": "Účtovníctvo je usporiadaný informačný systém, ktorý meria a zaznamenáva hospodárenie účtovnej jednotky tak, aby podal VERNÝ A PRAVDIVÝ OBRAZ o jej majetku, záväzkoch, vlastnom imaní, nákladoch, výnosoch a výsledku hospodárenia. Drž sa reťazca PRINCÍP → PRAVIDLO → DÔKAZ. Princíp: každá hospodárska skutočnosť (účtovný prípad) sa musí zachytiť úplne, správne, preukázateľne, zrozumiteľne a trvalo (§ 8). Pravidlo: ako sa to robí, určuje legislatíva v troch vrstvách – nadnárodná (smernice EÚ, IFRS), národná zákonná (zákon 431/2002) a vykonávacia (opatrenia MF SR – postupy účtovania, rámcová účtová osnova, opatrenia k závierke). Dôkaz: každý zápis musí stáť na preukázateľnom účtovnom doklade a tvorí súčasť účtovnej dokumentácie, ktorá sa chráni a uchováva (spravidla 10 rokov). Mentálna pomôcka pre celý okruh: 'KTO účtuje (účtovná jednotka) – ČO účtuje (predmet) – KEDY (účtovné obdobie) – AKO (sústava JÚ/PÚ, účty, osnova, rozvrh) – NA ZÁKLADE ČOHO (doklad, dokumentácia) – AKO DLHO (uchovávanie).' Nezamieňaj účtovníctvo (verný obraz) s daňami (spravodlivé vyčíslenie dane) – sú to dva odlišné systémy s odlišným cieľom.",
+  "princip_mentalny_model": "Účtovníctvo je usporiadaný informačný systém, ktorý meria a zaznamenáva hospodárenie účtovnej jednotky tak, aby podal VERNÝ A PRAVDIVÝ OBRAZ o jej majetku, záväzkoch, vlastnom imaní, nákladoch, výnosoch a výsledku hospodárenia. Drž sa reťazca CIEĽ → PRAVIDLO → DÔKAZ. Cieľ: každá hospodárska skutočnosť (účtovný prípad) sa musí zachytiť úplne, správne, preukázateľne, zrozumiteľne a trvalo (§ 8). Pravidlo: ako sa to robí, určuje legislatíva v troch vrstvách – nadnárodná (smernice EÚ, IFRS), národná zákonná (zákon 431/2002) a vykonávacia (opatrenia MF SR – postupy účtovania, rámcová účtová osnova, opatrenia k závierke). Dôkaz: každý zápis musí stáť na preukázateľnom účtovnom doklade a tvorí súčasť účtovnej dokumentácie, ktorá sa chráni a uchováva (spravidla 10 rokov). Mentálna pomôcka pre celý okruh: 'KTO účtuje (účtovná jednotka) – ČO účtuje (predmet) – KEDY (účtovné obdobie) – AKO (sústava JÚ/PÚ, účty, osnova, rozvrh) – NA ZÁKLADE ČOHO (doklad, dokumentácia) – AKO DLHO (uchovávanie).' Nezamieňaj účtovníctvo (verný obraz) s daňami (spravodlivé vyčíslenie dane) – sú to dva odlišné systémy s odlišným cieľom.",
   "jadro_odpovede_10min": {
     "cielova_dlzka_slov": 1400,
     "uvod": "Účtovníctvo je usporiadaný systém zaznamenávania, triedenia a vykazovania informácií o hospodárskej činnosti účtovnej jednotky. Jeho cieľom je podať verný a pravdivý obraz o skutočnostiach, ktoré sú predmetom účtovníctva. Na Slovensku je upravené trojvrstvovo: nadnárodne (smernice EÚ a IFRS v znení EÚ), národne zákonom č. 431/2002 Z. z. o účtovníctve a vykonávacími opatreniami Ministerstva financií SR (postupy účtovania, rámcová účtová osnova, opatrenia k účtovnej závierke). Zákon o účtovníctve je rámcový – stanovuje, kto, čo, kedy a ako účtuje, a opatrenia MF SR ho rozpracúvajú do podrobností.",
@@ -37,7 +37,7 @@
       },
       {
         "nadpis": "Národná právna úprava (zákon 431/2002 a opatrenia MF SR)",
-        "text": "Jadrom národnej úpravy je zákon č. 431/2002 Z. z. o účtovníctve. Je rámcový: definuje, kto je účtovná jednotka, čo je predmet účtovníctva, účtovné obdobie, sústavy, požiadavky na vedenie účtovníctva (§ 8), účtovnú dokumentáciu a závierku. Podrobnosti (§ 4 ods. 2) ustanovuje MF SR opatreniami: postupy účtovania a rámcová účtová osnova pre podnikateľov (Opatrenie MF SR č. 23054/2002-92), samostatné postupy pre neziskový sektor, banky, poisťovne a verejnú správu, a opatrenia k účtovnej závierke (mikro, malé, veľké jednotky). Súvisia ďalšie predpisy: Obchodný zákonník (povinnosť viesť účtovníctvo), zákon o dani z príjmov a predpisy o archívnictve."
+        "text": "Jadrom národnej úpravy je zákon č. 431/2002 Z. z. o účtovníctve. Je rámcový: definuje, kto je účtovná jednotka, čo je predmet účtovníctva, účtovné obdobie, sústavy, požiadavky na vedenie účtovníctva (§ 8), účtovnú dokumentáciu a závierku. Podrobnosti (§ 4 ods. 2) ustanovuje MF SR opatreniami: postupy účtovania a rámcová účtová osnova pre podnikateľov (Opatrenie MF SR č. 23054/2002-92 v platnom znení, naposledy novelizované opatrením MF/014948/2024-74 účinným od 1. 1. 2025), samostatné postupy pre neziskový sektor, banky, poisťovne a verejnú správu, a opatrenia k účtovnej závierke (mikro, malé, veľké jednotky). Súvisia ďalšie predpisy: Obchodný zákonník (povinnosť viesť účtovníctvo), zákon o dani z príjmov a predpisy o archívnictve."
       },
       {
         "nadpis": "Účtovná jednotka a predmet účtovníctva",
@@ -45,11 +45,11 @@
       },
       {
         "nadpis": "Účtovné obdobie",
-        "text": "Účtovné obdobie je časový úsek, za ktorý sa vedie účtovníctvo a zostavuje závierka. Podľa § 3 je ním spravidla kalendárny rok, môže ním byť aj hospodársky rok – 12 nepretržite po sebe idúcich mesiacov nezhodných s kalendárnym rokom; uplatnenie/zmenu treba písomne oznámiť daňovému úradu (do 30 dní od vzniku alebo najmenej 15 dní pred zmenou). Pri vzniku, zániku alebo zmene obdobia môže byť obdobie kratšie ako 12 mesiacov. Platí akruálny princíp: náklady a výnosy sa účtujú do obdobia, s ktorým časovo a vecne súvisia, bez ohľadu na deň úhrady (§ 3 ods. 1 a 2). Hospodársky rok nemôže uplatniť subjekt verejnej správy."
+        "text": "Účtovné obdobie je časový úsek, za ktorý sa vedie účtovníctvo a zostavuje závierka. Podľa § 3 je ním spravidla kalendárny rok, môže ním byť aj hospodársky rok – 12 nepretržite po sebe idúcich mesiacov nezhodných s kalendárnym rokom; uplatnenie/zmenu treba písomne oznámiť daňovému úradu (do 30 dní od vzniku alebo najmenej 15 dní pred zmenou). Hospodársky rok je vždy len 12 nepretržitých mesiacov – nemôže byť dlhší. Pri vzniku, zániku alebo zmene obdobia však môže byť obdobie kratšie ako 12 mesiacov. Platí akruálny princíp: náklady a výnosy sa účtujú do obdobia, s ktorým časovo a vecne súvisia, bez ohľadu na deň úhrady (§ 3 ods. 1 a 2). Hospodársky rok nemôže uplatniť subjekt verejnej správy."
       },
       {
         "nadpis": "Sústavy účtovníctva (JÚ a PÚ)",
-        "text": "Zákon (§ 9) rozlišuje sústavu jednoduchého (JÚ) a podvojného účtovníctva (PÚ). Pravidlom je podvojné účtovníctvo; v jednoduchom môže účtovať len taxatívne vymenovaný okruh – fyzická osoba podnikateľ, vybrané neziskové subjekty (občianske združenia, spoločenstvá vlastníkov bytov, neinvestičné fondy a i.) ak nepodnikajú a ich príjmy za predchádzajúce obdobie nedosiahli 200 000 eur, a cirkvi/náboženské spoločnosti ak nepodnikajú. PÚ sleduje majetok aj jeho zdroje a každý prípad zachytáva podvojne (na strane MD a D dvoch účtov); účtuje výnosy a náklady a zisťuje výsledok hospodárenia akruálne. JÚ je peňažný princíp – sleduje príjmy a výdavky. Prechod medzi sústavami je vždy len k prvému dňu nasledujúceho účtovného obdobia."
+        "text": "Zákon (§ 9) rozlišuje sústavu jednoduchého (JÚ) a podvojného účtovníctva (PÚ). Pravidlom je podvojné účtovníctvo; v jednoduchom môže účtovať len taxatívne vymenovaný okruh – fyzická osoba podnikateľ (§ 9 ods. 2 písm. a), vybrané neziskové subjekty (občianske združenia, spoločenstvá vlastníkov bytov, neinvestičné fondy a i.) ak nepodnikajú a ich príjmy za predchádzajúce obdobie nedosiahli 200 000 eur (§ 9 ods. 2 písm. b), a cirkvi/náboženské spoločnosti ak nepodnikajú (§ 9 ods. 2 písm. c – bez sumového limitu). PÚ sleduje majetok aj jeho zdroje a každý prípad zachytáva podvojne (na strane MD a D dvoch účtov); účtuje výnosy a náklady a zisťuje výsledok hospodárenia akruálne. JÚ je peňažný princíp – sleduje príjmy a výdavky. Prechod medzi sústavami je vždy len k prvému dňu nasledujúceho účtovného obdobia."
       },
       {
         "nadpis": "Účet, rámcová účtová osnova a účtový rozvrh",
@@ -61,7 +61,7 @@
       },
       {
         "nadpis": "Preukázateľnosť, uchovávanie a ochrana dokumentácie",
-        "text": "Účtovníctvo musí byť preukázateľné (§ 8 ods. 4): každý záznam je preukázateľný, ak jeho obsah priamo alebo nepriamo dokazuje skutočnosť (§ 32). Vierohodnosť pôvodu a neporušenosť obsahu možno zabezpečiť podpisovým záznamom, elektronickou výmenou údajov alebo vnútorným kontrolným systémom. Záznam môže byť listinný alebo elektronický a možno ho transformovať (§ 33) pri zachovaní obsahu. Jednotka musí chrániť dokumentáciu proti strate, odcudzeniu, zničeniu a poškodeniu (§ 35 ods. 1). Lehoty uchovávania (§ 35 ods. 3): účtovná závierka, výročná správa a správa audítora 10 rokov; účtovné doklady, účtovné knihy, účtový rozvrh, inventúrne súpisy a inventarizačné zápisy 10 rokov; ostatné záznamy podľa registratúrneho plánu. Na nakladanie sa vzťahujú predpisy o archívnictve a § 36 (záznamy pre prebiehajúce konania a pre vyrubenie dane sa uchovávajú dlhšie)."
+        "text": "Účtovníctvo musí byť preukázateľné (§ 8 ods. 4): každý záznam je preukázateľný, ak jeho obsah priamo alebo nepriamo dokazuje skutočnosť (§ 32). Vierohodnosť pôvodu, neporušenosť obsahu a čitateľnosť možno zabezpečiť podpisovým záznamom, elektronickou výmenou údajov (EDI) alebo obchodnou/audítorskou kontrolnou stopou medzi dokladom a zaúčtovaným prípadom (§ 32 ods. 3 v platnom znení). Záznam môže byť listinný alebo elektronický a možno ho transformovať (§ 33) pri zachovaní obsahu. Jednotka musí chrániť dokumentáciu proti strate, odcudzeniu, zničeniu a poškodeniu (§ 35 ods. 1). Lehoty uchovávania: účtovná závierka a výročná správa 10 rokov nasledujúcich po roku, ktorého sa týkajú (§ 35 ods. 3); správa s informáciami o dani z príjmov a správa o udržateľnosti len 5 rokov (§ 35 ods. 3 písm. b); účtovné doklady, účtovné knihy, účtový rozvrh, inventúrne súpisy a inventarizačné zápisy 10 rokov (§ 35 ods. 3); správa audítora 10 rokov (§ 35 ods. 4). Ostatné záznamy podľa registratúrneho plánu. Na nakladanie sa vzťahujú predpisy o archívnictve a § 36 (záznamy pre prebiehajúce konania a pre vyrubenie dane sa uchovávajú dlhšie)."
       },
       {
         "zaver": "Účtovníctvo je systém, ktorý cez verný a pravdivý obraz prepája hospodárske skutočnosti s ich vykázaním. Pri odpovedi sa drž logiky: podstata a funkcie → tri vrstvy úpravy (EÚ/IFRS, zákon 431/2002, opatrenia MF SR) → kľúčové pojmy (účtovná jednotka, predmet, obdobie, sústavy, účet, osnova, rozvrh) → dokumentácia a doklady → ich preukázateľnosť, uchovávanie a ochrana. Tým komisii ukážeš, že rozumieš nielen pojmom, ale aj prečo sú tak nastavené."
@@ -79,11 +79,11 @@
     },
     {
       "nadpis": "Účtovné knihy v PÚ a JÚ",
-      "text": "V podvojnom účtovníctve sa účtuje v denníku (chronologicky – preukazuje zaúčtovanie všetkých prípadov) a v hlavnej knihe (systematicky podľa vecného hľadiska – účty majetku, záväzkov, vlastného imania, nákladov a výnosov), § 12. Hlavná kniha obsahuje začiatočné stavy, súhrnné obraty MD/D minimálne za mesiac a konečné zostatky. V jednoduchom účtovníctve sa vedie peňažný denník, kniha pohľadávok a záväzkov a pomocné knihy."
+      "text": "V podvojnom účtovníctve sa účtuje v denníku (chronologicky – preukazuje zaúčtovanie všetkých prípadov) a v hlavnej knihe (systematicky podľa vecného hľadiska – účty majetku, záväzkov, vlastného imania, nákladov a výnosov), § 12. Hlavná kniha obsahuje začiatočné stavy, súhrnné obraty MD/D minimálne za mesiac a konečné zostatky. V jednoduchom účtovníctve (podľa Opatrenia MF/27076/2007-74) sa vedie peňažný denník, kniha pohľadávok a záväzkov a pomocné knihy – najmä kniha dlhodobého majetku, kniha zásob, kniha sociálneho fondu, kniha DPH (ak je jednotka platiteľ) a ďalšie pomocné knihy podľa potreby jednotky."
     },
     {
       "nadpis": "Veľkostné skupiny účtovných jednotiek (§ 2 ods. 5–8)",
-      "text": "Podnikateľské jednotky sa zatrieďujú podľa splnenia aspoň dvoch z troch kritérií: mikro – majetok do 450 000 €, čistý obrat do 900 000 €, do 10 zamestnancov; malá – majetok do 5 mil. €, obrat do 10 mil. €, do 50 zamestnancov; veľká – nad tieto hranice. Posudzuje sa za dve po sebe idúce obdobia. Od veľkosti závisí rozsah závierky a povinnosť auditu. (overiť aktuálne prahy k 2026 voči zneniu § 2 ods. 6–8.)"
+      "text": "Podnikateľské jednotky sa zatrieďujú podľa splnenia aspoň dvoch z troch kritérií: mikro – majetok do 450 000 €, čistý obrat do 900 000 €, do 10 zamestnancov; malá – majetok do 5 mil. €, obrat do 10 mil. €, do 50 zamestnancov; veľká – jednotka, ktorá presahuje aspoň dve z troch kritérií malej (t. j. neje mikro ani malá); subjekt verejného záujmu sa za veľkú považuje automaticky. Posudzuje sa za dve po sebe idúce obdobia. Od veľkosti závisí rozsah závierky a povinnosť auditu."
     },
     {
       "nadpis": "Listinná vs. elektronická forma a transformácia záznamu",
@@ -104,13 +104,13 @@
     {
       "nazov": "Posúdenie náležitostí účtovného dokladu (§ 10)",
       "zadanie": "Prijatá faktúra obsahuje: číslo faktúry, dodávateľa a odberateľa, popis 'kancelárske potreby', sumu 240 € a dátum vystavenia 5. 5. 2026. Chýba dátum dodania a doklad nie je nikým podpísaný; jednotka nemá vnútorný kontrolný systém ani EDI.",
-      "riesenie": "Doklad má slovné a číselné označenie, obsah a účastníkov, sumu a dátum vyhotovenia. Dátum uskutočnenia prípadu treba uviesť len ak je odlišný od dátumu vyhotovenia – ak je zhodný, nie je to chyba. Chýba však podpisový záznam zodpovednej osoby (§ 10 ods. 1 písm. f): keďže jednotka nemá EDI ani vnútorný kontrolný systém podľa § 32 ods. 3, podpis je povinný. Doklad treba pred zaúčtovaním doplniť o podpisový záznam, inak nie je preukázateľný.",
+      "riesenie": "Doklad má slovné a číselné označenie, obsah a účastníkov, sumu a dátum vyhotovenia. Dátum uskutočnenia prípadu treba uviesť len ak je odlišný od dátumu vyhotovenia – ak je zhodný, nie je to chyba. Chýba však podpisový záznam zodpovednej osoby (§ 10 ods. 1 písm. f): keďže jednotka nemá EDI, obchodnú/audítorskú kontrolnú stopu (napr. previazanie objednávky → dodací list → faktúra → úhrada) ani iný spôsob preukázania vierohodnosti pôvodu a neporušenosti obsahu podľa § 32 ods. 3 v platnom znení (po novele 2022 zahŕňa aj evidenciu cez ERP), podpis je povinný. Doklad treba pred zaúčtovaním doplniť o podpisový záznam, inak nie je preukázateľný.",
       "dopad_na_zd": "Doklad je neúplný – treba doplniť podpisový záznam; do tej doby nie je preukázateľným podkladom pre zápis."
     },
     {
       "nazov": "Lehota uchovávania dokumentácie (§ 35 ods. 3)",
       "zadanie": "Spoločnosť zostavila účtovnú závierku za rok 2024 a má prijaté faktúry a hlavnú knihu za rok 2024. Pýta sa, dokedy musí tieto dokumenty uchovávať.",
-      "riesenie": "Účtovná závierka aj výročná správa sa uchovávajú 10 rokov nasledujúcich po roku, ktorého sa týkajú – závierka za 2024 teda do konca roka 2034. Účtovné doklady (prijaté faktúry) a účtovné knihy (hlavná kniha) sa rovnako uchovávajú 10 rokov nasledujúcich po roku, ktorého sa týkajú – za 2024 do konca roka 2034. Pri záznamoch dôležitých pre vyrubenie dane môže byť lehota dlhšia podľa § 36 ods. 1.",
+      "riesenie": "Účtovná závierka aj výročná správa sa uchovávajú 10 rokov nasledujúcich po roku, ktorého sa týkajú – závierka za 2024 teda do konca roka 2034. Účtovné doklady (prijaté faktúry) a účtovné knihy (hlavná kniha) sa rovnako uchovávajú 10 rokov nasledujúcich po roku, ktorého sa týkajú – za 2024 do konca roka 2034. Dôležité: lehota uchovávania nezačína plynúť dňom vzniku dokladu, ale prvým dňom roka NASLEDUJÚCEHO po roku, ktorého sa záznam týka – pre rok 2024 teda od 1. 1. 2025. Pri záznamoch dôležitých pre vyrubenie dane môže byť lehota dlhšia podľa § 36 ods. 1.",
       "dopad_na_zd": "Závierka, faktúry aj hlavná kniha za 2024 → uchovať do 31. 12. 2034 (10 rokov)."
     }
   ],
@@ -161,10 +161,10 @@
       "otazka": "Kto môže účtovať v sústave jednoduchého účtovníctva?",
       "odpoved": "Len taxatívne vymenovaný okruh (§ 9 ods. 2): fyzická osoba podnikateľ, vybrané neziskové subjekty (OZ, neinvestičné fondy, spoločenstvá vlastníkov a i.) ak nepodnikajú a príjmy nepresiahli 200 000 €, a cirkvi/náboženské spoločnosti ak nepodnikajú. Ostatní vrátane obchodných spoločností účtujú podvojne.",
       "moznosti": [
-        "Ktorýkoľvek podnikateľský subjekt vrátane obchodných spoločností, ak sa tak rozhodne",
-        "Len taxatívne vymenovaný okruh (§ 9 ods. 2): FO podnikateľ, vybrané neziskové subjekty (ak nepodnikajú a príjmy nepresiahli 200 000 €) a cirkvi, ak nepodnikajú",
-        "Všetky fyzické aj právnické osoby s ročným obratom do 500 000 €",
-        "Len obchodné spoločnosti a družstvá s majetkom do 450 000 €"
+        "Ktorýkoľvek podnikateľ vrátane obchodných spoločností, ak sa tak rozhodne v účtovnom rozvrhu",
+        "FO podnikateľ, vybrané neziskové subjekty (do 200 000 € a nepodnikajú) a cirkvi (nepodnikajúce) podľa § 9 ods. 2",
+        "Všetky fyzické aj právnické osoby s ročným obratom do 500 000 € bez ohľadu na predmet činnosti",
+        "Iba obchodné spoločnosti a družstvá s majetkom do 450 000 € a do 10 zamestnancov v podvojnej forme"
       ],
       "spravna_index": 1,
       "spravne_indexy": [
@@ -189,18 +189,18 @@
     },
     {
       "otazka": "Ako dlho sa uchováva účtovná závierka a účtovné doklady?",
-      "odpoved": "Účtovná závierka, výročná správa aj správa audítora a tiež účtovné doklady, účtovné knihy, účtový rozvrh a inventúrne súpisy 10 rokov nasledujúcich po roku, ktorého sa týkajú (§ 35 ods. 3). Ostatné záznamy podľa registratúrneho plánu.",
+      "odpoved": "Účtovná závierka, výročná správa, účtovné doklady, účtovné knihy, účtový rozvrh a inventúrne súpisy sa uchovávajú 10 rokov nasledujúcich po roku, ktorého sa týkajú (§ 35 ods. 3); správa audítora 10 rokov (§ 35 ods. 4). Správa s informáciami o dani z príjmov a správa o udržateľnosti len 5 rokov (§ 35 ods. 3 písm. b). Ostatné záznamy podľa registratúrneho plánu.",
       "moznosti": [
         "Účtovná závierka aj účtovné doklady 5 rokov nasledujúcich po roku, ktorého sa týkajú",
         "Účtovná závierka 10 rokov, ale účtovné doklady len 3 roky nasledujúce po roku, ktorého sa týkajú",
-        "Účtovná závierka, výročná správa, účtovné doklady, knihy a inventúrne súpisy 10 rokov nasledujúcich po roku, ktorého sa týkajú (§ 35 ods. 3)",
+        "Účtovná závierka, výročná správa, doklady, knihy a inventúrne súpisy 10 rokov (§ 35 ods. 3); správa audítora 10 rokov (§ 35 ods. 4); správa s informáciami o dani z príjmov a správa o udržateľnosti len 5 rokov (§ 35 ods. 3 písm. b)",
         "Účtovná závierka aj účtovné doklady trvalo, bez časového obmedzenia podľa registratúrneho plánu"
       ],
       "spravna_index": 2,
       "spravne_indexy": [
         2
       ],
-      "vysvetlenie": "Účtovná závierka, výročná správa aj správa audítora a tiež účtovné doklady, účtovné knihy, účtový rozvrh a inventúrne súpisy 10 rokov nasledujúcich po roku, ktorého sa týkajú (§ 35 ods. 3). Ostatné záznamy podľa registratúrneho plánu."
+      "vysvetlenie": "Účtovná závierka, výročná správa, účtovné doklady, účtovné knihy, účtový rozvrh a inventúrne súpisy sa uchovávajú 10 rokov nasledujúcich po roku, ktorého sa týkajú (§ 35 ods. 3); správa audítora 10 rokov (§ 35 ods. 4). Správa s informáciami o dani z príjmov a správa o udržateľnosti len 5 rokov (§ 35 ods. 3 písm. b). Ostatné záznamy podľa registratúrneho plánu."
     },
     {
       "otazka": "Čo je predmet účtovníctva?",
@@ -239,8 +239,8 @@
     "Zamieňať rámcovú účtovú osnovu (záväzný rámec od MF SR) s účtovým rozvrhom (konkrétny zoznam účtov jednotky).",
     "Myslieť si, že hospodársky rok môže mať ktokoľvek a kedykoľvek – treba ho oznámiť daňovému úradu a nemôže ho mať subjekt verejnej správy (§ 3).",
     "Vynechať dátum uskutočnenia prípadu vždy – uvádza sa len ak je odlišný od dátumu vyhotovenia (§ 10 ods. 1 písm. e).",
-    "Domnievať sa, že podpis na doklade je vždy povinný – môže ho nahradiť EDI alebo vnútorný kontrolný systém (§ 10 ods. 1 písm. f, § 32 ods. 3).",
-    "Skrátiť lehotu uchovávania – účtovné doklady aj závierka sa uchovávajú 10 rokov, nie 5 (5 rokov je len pre osobitnú správu o dani z príjmov a o udržateľnosti, § 35 ods. 3 písm. b).",
+    "Domnievať sa, že podpis na doklade je vždy povinný – môže ho nahradiť EDI alebo obchodná/audítorská kontrolná stopa (§ 10 ods. 1 písm. f, § 32 ods. 3).",
+    "Skrátiť lehotu uchovávania – účtovná závierka, doklady a knihy sa uchovávajú 10 rokov (§ 35 ods. 3), správa audítora tiež 10 rokov (§ 35 ods. 4); len 5 rokov je 'správa s informáciami o dani z príjmov' (CbCR) a 'správa o udržateľnosti' podľa § 35 ods. 3 písm. b).",
     "Tvrdiť, že IFRS platia pre všetkých – povinné sú najmä pre konsolidované závierky kótovaných spoločností (nariadenie ES 1606/2002), nie pre každú s.r.o."
   ],
   "test": {

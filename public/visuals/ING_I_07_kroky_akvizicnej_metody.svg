@@ -27,7 +27,7 @@
   <text x="86" y="302" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">3</text>
   <text x="120" y="282" font-size="15" font-weight="bold" fill="#4a2f80">Vykázanie a ocenenie v reálnej hodnote</text>
   <text x="120" y="304" font-size="12.5" fill="#3a2a55">identifikovateľné aktíva + prevzaté záväzky v RH (oddelene od goodwillu)</text>
-  <text x="120" y="324" font-size="12.5" fill="#3a2a55">+ NCI: voľba RH (plný GW) alebo pomerný podiel na čistých aktívach (čiastočný GW)</text>
+  <text x="120" y="324" font-size="12.5" fill="#3a2a55">+ NCI (nekontrolný podiel): voľba RH (plný GW) alebo pomerný podiel na čistých aktívach (čiastočný GW)</text>
 
   <line x1="450" y1="338" x2="450" y2="354" stroke="#55607a" stroke-width="2.5" marker-end="url(#ar)"/>
 

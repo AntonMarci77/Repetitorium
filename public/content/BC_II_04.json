@@ -5,8 +5,8 @@
   "cislo": 4,
   "nazov": "Aktivita a zadlženosť, rentabilita a likvidita",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Metodika finančnej analýzy (pomerové ukazovatele) k máju 2026; vzorce a orientačné optimá podľa slovenskej odbornej literatúry (Šlosárová – Blahušiaková) a overených webových zdrojov. Orientačné optimá likvidity sa v literatúre mierne líšia podľa odvetvia a autora (uvedené ako rozpätia).",
+  "verzia": "1.2",
+  "stav_legislativy": "Metodika finančnej analýzy (pomerové ukazovatele) k máju 2026; vzorce a orientačné optimá podľa slovenskej odbornej literatúry (Šlosárová – Blahušiaková) a overených webových zdrojov. Orientačné optimá likvidity sa v literatúre mierne líšia podľa odvetvia a autora (uvedené ako rozpätia). · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "pomerová analýza",
     "ukazovatele aktivity (obrátky a doby obratu)",
@@ -38,7 +38,7 @@
       },
       {
         "nadpis": "Ukazovatele ZADLŽENOSTI – z čoho je podnik financovaný",
-        "text": "Zadlženosť hodnotí kapitálovú štruktúru a riziko z cudzích zdrojov. Celková zadlženosť = cudzí kapitál / celkové aktíva – aká časť majetku je krytá dlhom; za vysokú sa považuje nad 50 %, prakticky maximum okolo 70 % (silne závisí od odvetvia). Stupeň samofinancovania (kvóta vlastného imania) = vlastné imanie / celkové aktíva – finančná nezávislosť; je doplnkom celkovej zadlženosti (spolu = 100 %). Úrokové krytie = EBIT / nákladové úroky – koľkokrát zisk pokryje úroky; optimum okolo 5, nemalo by klesnúť pod 3. Finančná páka = celkové aktíva / vlastné imanie (alebo cudzí kapitál / vlastné imanie) – štruktúra zdrojov, ktorá násobí účinok na ROE."
+        "text": "Zadlženosť hodnotí kapitálovú štruktúru a riziko z cudzích zdrojov. Celková zadlženosť = cudzí kapitál / celkové aktíva – aká časť majetku je krytá dlhom; za vysokú sa považuje nad 50 %, prakticky maximum okolo 70 % (silne závisí od odvetvia). Stupeň samofinancovania (kvóta vlastného imania) = vlastné imanie / celkové aktíva – finančná nezávislosť; je doplnkom celkovej zadlženosti (spolu = 100 %). Úrokové krytie = EBIT / nákladové úroky – koľkokrát zisk pokryje úroky; optimum okolo 5, nemalo by klesnúť pod 3. Finančná páka = celkové aktíva / vlastné imanie – štruktúra zdrojov, ktorá v DuPont rozklade ROE multiplikuje efekt rentability tržieb a obratu aktív. POZOR – samostatným ukazovateľom je pomer zadlženia voči vlastnému imaniu (debt-to-equity ratio = cudzí kapitál / vlastné imanie); v DuPont rozklade ROE sa však používa výlučne A/VI (platí A/VI = 1 + CZ/VI)."
       },
       {
         "nadpis": "Zadlženosť – ekonomická interpretácia a efekt páky",
@@ -50,11 +50,11 @@
       },
       {
         "nadpis": "DuPont rozklad ROE a ekonomická pridaná hodnota (EVA)",
-        "text": "DuPont rozklad ukazuje, ODKIAĽ rentabilita vlastného imania pochádza: ROE = ROS × obrat aktív × finančná páka = (čistý zisk / tržby) × (tržby / aktíva) × (aktíva / vlastné imanie). Teda ROE rastie z lepšej marže (cenotvorba, náklady), z vyššieho obratu (efektívne aktíva) alebo z vyššej páky (viac dlhu) – posledné však zvyšuje riziko. Ekonomická pridaná hodnota EVA = (ROIC − WACC) × investovaný kapitál, kde ROIC = NOPAT / investovaný kapitál (NOPAT = prevádzkový zisk po zdanení) a WACC je vážený priemer nákladov na kapitál. EVA pridáva nad účtovný zisk aj cenu vlastného kapitálu: EVA > 0 znamená, že podnik tvorí hodnotu (zarába viac, než stoja jeho zdroje), EVA < 0 znamená, že hodnotu 'ničí'. Účtovne ziskový podnik môže mať zápornú EVA, ak nepokryje náklady na kapitál."
+        "text": "DuPont rozklad ukazuje, ODKIAĽ rentabilita vlastného imania pochádza: ROE = ROS × obrat aktív × finančná páka = (čistý zisk / tržby) × (tržby / aktíva) × (aktíva / vlastné imanie). Teda ROE rastie z lepšej marže (cenotvorba, náklady), z vyššieho obratu (efektívne aktíva) alebo z vyššej páky (viac dlhu) – posledné však zvyšuje riziko. Ekonomická pridaná hodnota EVA = (ROIC − WACC) × investovaný kapitál, kde ROIC = NOPAT / investovaný kapitál a NOPAT = prevádzkový zisk po zdanení. V originálnej Stern–Stewart metodike sa NOPAT a investovaný kapitál upravujú o tzv. ekvivalenty vlastného imania (kapitalizácia operatívneho leasingu, R&D, goodwill, eliminácia mimoriadnych/jednorazových položiek), aby výsledok lepšie odrážal trvalý prevádzkový zisk; pre potreby BC štátnice stačí pochopenie princípu a uvedenie, že úpravy existujú. a WACC je vážený priemer nákladov na kapitál. EVA pridáva nad účtovný zisk aj cenu vlastného kapitálu: EVA > 0 znamená, že podnik tvorí hodnotu (zarába viac, než stoja jeho zdroje), EVA < 0 znamená, že hodnotu 'ničí'. Účtovne ziskový podnik môže mať zápornú EVA, ak nepokryje náklady na kapitál."
       },
       {
         "nadpis": "Ukazovatele LIKVIDITY – schopnosť hradiť záväzky",
-        "text": "Likvidita vyjadruje schopnosť uhradiť krátkodobé záväzky. Stupne sa líšia tým, čo je v čitateli (je to 'rebrík' – čím vyšší stupeň, tým viac majetku pridávame). Likvidita 1. stupňa – okamžitá (L1) = finančný majetok (peniaze + účty + krátkodobé CP) / krátkodobé záväzky, optimum cca 0,2 – 0,6. Likvidita 2. stupňa – pohotová (L2) = (obežný majetok − zásoby) / krátkodobé záväzky, optimum cca 1,0 – 1,5 (niektoré zdroje 0,7 – 1,2). Likvidita 3. stupňa – bežná (L3) = obežný majetok / krátkodobé záväzky, optimum cca 1,5 – 2,5 (často sa uvádza 2,0 – 2,5); kľúčové je byť výrazne nad 1. Súvisí čistý pracovný kapitál = obežný majetok − krátkodobé záväzky, ktorý je 'vankúšom' obežného majetku financovaného dlhodobými zdrojmi."
+        "text": "Likvidita vyjadruje schopnosť uhradiť krátkodobé záväzky. Stupne sa líšia tým, čo je v čitateli (je to 'rebrík' – čím vyšší stupeň, tým viac majetku pridávame). Likvidita 1. stupňa – okamžitá (L1) = finančný majetok (peniaze + účty + krátkodobé CP) / krátkodobé záväzky, optimum cca 0,2 – 0,6. Likvidita 2. stupňa – pohotová (L2) = (obežný majetok − zásoby) / krátkodobé záväzky, optimum cca 1,0 – 1,5 (niektoré zdroje 0,7 – 1,2). Likvidita 3. stupňa – bežná (L3) = obežný majetok / krátkodobé záväzky, orientačné optimum cca 1,5 – 2,5 (často sa uvádza 2,0 – 2,5); kľúčové je byť výrazne nad 1. Optimum sa však významne líši podľa ODVETVIA: obchod môže byť zdravý už pri 1,2–1,5 vďaka rýchlej obrátkovosti zásob, kým ťažký priemysel zvyčajne potrebuje 2,0–2,5 a viac. Pri interpretácii L3 je preto nutné poznať odvetvové benchmarky. Súvisí čistý pracovný kapitál = obežný majetok − krátkodobé záväzky, ktorý je 'vankúšom' obežného majetku financovaného dlhodobými zdrojmi."
       },
       {
         "nadpis": "Likvidita na báze cash flow a interpretácia",
@@ -84,14 +84,14 @@
     },
     {
       "nadpis": "Predikčné a bankrotové modely ako nadstavba",
-      "text": "Syntetické modely zhŕňajú viacero pomerových ukazovateľov do jedného skóre a varujú pred úpadkom. Altmanovo Z-score (pre kótované a.s.) a Z'-score (pre nekótované, používa účtovné vlastné imanie), index IN05 (manželia Neumaierovci, ČR – nepracuje s trhovou hodnotou, vhodný pre strednú Európu), Tafflerov model (rozhoduje znamienko) a Beaverova jednorozmerná analýza (sleduje trend ukazovateľov, najsilnejší je cash flow / cudzie zdroje). Pravidlo: pri Altmanovi a IN05 vyššie skóre = zdravšia firma, medzi prahmi je 'sivá zóna' neistoty."
+      "text": "Syntetické modely zhŕňajú viacero pomerových ukazovateľov do jedného skóre a varujú pred úpadkom. Altmanovo Z-score (pre kótované a.s.) a Z'-score (pre nekótované, používa účtovné vlastné imanie), index IN05 (manželia Neumaierovci, ČR – nepracuje s trhovou hodnotou, vhodný pre strednú Európu), Tafflerov model (existujú dve hlavné verzie – pôvodný Taffler 1977 s prahmi 0,3/0,2 bez konštanty a Taffler–Tisshaw 1983 s konštantou 3,20, kde rozhoduje znamienko; v téze II.5 je uvedená druhá verzia) a Beaverova jednorozmerná analýza (sleduje trend ukazovateľov, najsilnejší je cash flow / cudzie zdroje). Pravidlo: pri Altmanovi a IN05 vyššie skóre = zdravšia firma, medzi prahmi je 'sivá zóna' neistoty."
     }
   ],
   "priklady": [
     {
       "nazov": "Aktivita – doba inkasa a obrat aktív",
       "zadanie": "Podnik má tržby 1 000 000 €, celkové aktíva 800 000 €, priemerné pohľadávky 100 000 €, priemerné zásoby 150 000 €.",
-      "riesenie": "Obrat celkových aktív = 1 000 000 / 800 000 = 1,25-krát ročne (každé euro aktív vytvorí 1,25 € tržieb). Denné tržby = 1 000 000 / 365 ≈ 2 740 €. Doba inkasa pohľadávok = 100 000 / 2 740 ≈ 36,5 dňa (odberatelia platia v priemere za vyše 36 dní). Doba obratu zásob = 150 000 / 2 740 ≈ 54,8 dňa (zásoby ležia na sklade ~55 dní). Interpretácia: ak doba úhrady záväzkov presahuje 36,5 dňa, podnik financuje pohľadávky obchodným úverom od dodávateľov.",
+      "riesenie": "Obrat celkových aktív = 1 000 000 / 800 000 = 1,25-krát ročne (každé euro aktív vytvorí 1,25 € tržieb). Denné tržby = 1 000 000 / 365 ≈ 2 740 €. Doba inkasa pohľadávok = 100 000 / 2 740 ≈ 36,5 dňa (odberatelia platia v priemere za vyše 36 dní). Doba obratu zásob = priemerné zásoby / (tržby / 365) = 150 000 / 2 740 ≈ 54,8 dňa (zásoby ležia na sklade ~55 dní). Pozn.: v obchodných podnikoch sa metodicky odporúča v menovateli použiť NÁKLADY NA PREDANÝ TOVAR (COGS) namiesto tržieb, čo eliminuje vplyv obchodnej marže; pre konzistentnosť s jadrom je tu použitá tržbová verzia, ktorá je v slovenských učebniciach bežná pri zjednodušenom výpočte. Interpretácia: ak doba úhrady záväzkov presahuje 36,5 dňa, podnik financuje pohľadávky obchodným úverom od dodávateľov.",
       "dopad_na_zd": "Obrat aktív 1,25; doba inkasa ≈ 36,5 dňa; doba obratu zásob ≈ 54,8 dňa."
     },
     {

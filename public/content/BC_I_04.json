@@ -5,8 +5,8 @@
   "cislo": 4,
   "nazov": "Dlhodobý hmotný majetok, dlhodobý nehmotný majetok a zásoby",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.1",
-  "stav_legislativy": "Zákon č. 431/2002 Z. z. o účtovníctve (znenie k 4. 2. 2026, § 25 oceňovanie, § 26 OP a čistá realizačná hodnota); Postupy účtovania pre podnikateľov (opatrenie MF/23054/2002-92, vrátane noviel účinných od 1. 1. 2026); daňové odpisy podľa zákona č. 595/2003 Z. z. (§ 22 – 29) k 1. 1. 2026. Hranice ocenenia (1 700 € HM, 2 400 € NM) a odpisové skupiny 0 – 6 overené k máju 2026.",
+  "verzia": "1.2",
+  "stav_legislativy": "Zákon č. 431/2002 Z. z. o účtovníctve (znenie k 4. 2. 2026, § 25 oceňovanie, § 26 OP a čistá realizačná hodnota); Postupy účtovania pre podnikateľov (opatrenie MF/23054/2002-92, vrátane noviel účinných od 1. 1. 2026); daňové odpisy podľa zákona č. 595/2003 Z. z. (§ 22 – 29) k 1. 1. 2026. Hranice ocenenia (1 700 € HM, 2 400 € NM) a odpisové skupiny 0 – 6 overené k máju 2026. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "dlhodobý hmotný majetok (DHM)",
     "dlhodobý nehmotný majetok (DNM)",
@@ -32,23 +32,23 @@
     "casti": [
       {
         "nadpis": "Obsahové vymedzenie DHM, DNM a zásob",
-        "text": "Dlhodobý hmotný majetok sú samostatné hnuteľné veci (a súbory) s prevádzkovo-technickými funkciami dlhšími ako rok a ocenením nad hranicu určenú účtovnou jednotkou (daňovo > 1 700 €), pozemky, stavby, pestovateľské celky trvalých porastov s plodnosťou nad 3 roky, základné stádo a ťažné zvieratá. Účtuje sa v účtovej triede 0, skupinách 02 (odpisovaný DHM: 021 stavby, 022 samostatné hnuteľné veci, 026 základné stádo) a 03 (neodpisovaný DHM: 031 pozemky, 032 umelecké diela). Dlhodobý nehmotný majetok (skupina 01) sú napr. aktivované náklady na vývoj (012), softvér (013), oceniteľné práva (014), goodwill (015) s použiteľnosťou nad rok a ocenením nad hranicu ÚJ (daňovo > 2 400 €). Zásoby (trieda 1) sú obežný majetok spotrebovaný spravidla do roka: nakupované (materiál 112, tovar 132) a vlastnej výroby (nedokončená výroba 121, polotovary 122, výrobky 123, zvieratá 124)."
+        "text": "Dlhodobý hmotný majetok sú samostatné hnuteľné veci (a súbory) s prevádzkovo-technickými funkciami dlhšími ako rok a ocenením nad hranicu určenú účtovnou jednotkou (môže byť aj 0 € – ÚJ rozhoduje v odpisovom pláne; daňovo je hranica pre DHM > 1 700 €), pozemky, stavby, pestovateľské celky trvalých porastov s plodnosťou nad 3 roky, základné stádo a ťažné zvieratá. Účtuje sa v účtovej triede 0, skupinách 02 (odpisovaný DHM: 021 stavby, 022 samostatné hnuteľné veci, 026 základné stádo) a 03 (neodpisovaný DHM: 031 pozemky, 032 umelecké diela). Dlhodobý nehmotný majetok (skupina 01) sú napr. aktivované náklady na vývoj (012), softvér (013), oceniteľné práva (014), goodwill (015) s použiteľnosťou nad rok a ocenením nad hranicu ÚJ (môže byť aj 0 €; daňovo je hranica pre DNM > 2 400 €). Zásoby (trieda 1) sú obežný majetok spotrebovaný spravidla do roka: nakupované (materiál 112, tovar 132) a vlastnej výroby (nedokončená výroba 121, polotovary 122, výrobky 123, zvieratá 124)."
       },
       {
         "nadpis": "Oceňovanie (§ 25 a § 26 zákona o účtovníctve)",
-        "text": "Spôsob ocenenia určuje § 25: obstarávacou cenou sa oceňuje kúpený hmotný a nehmotný majetok a nakupované zásoby (cena obstarania + náklady súvisiace s obstaraním – doprava, montáž, clo, projektové práce); vlastnými nákladmi sa oceňuje majetok a zásoby vytvorené vlastnou činnosťou, ako aj príchovky a prírastky zvierat – pri zásobách priame náklady, prípadne časť nepriamych, pri dlhodobom majetku priame aj nepriame náklady na výrobu (§ 25 ods. 6 písm. b); menovitou hodnotou peniaze a pohľadávky/záväzky pri vzniku; reálnou hodnotou bezodplatne nadobudnutý majetok, majetok pri kúpe podniku či vklade. Súčasťou obstarávacej ceny DHM nie sú pokuty, úroky z omeškania, kurzové rozdiely, náklady na opravy a údržbu (§ 35 ods. 2 PÚ). Ku dňu závierky sa ocenenie upravuje opravnými položkami a zásoby sa oceňujú čistou realizačnou hodnotou, ak je nižšia (§ 26)."
+        "text": "Spôsob ocenenia určuje § 25: obstarávacou cenou sa oceňuje kúpený hmotný a nehmotný majetok a nakupované zásoby (cena obstarania + náklady súvisiace s obstaraním – doprava, montáž, clo, projektové práce); vlastnými nákladmi sa oceňuje majetok a zásoby vytvorené vlastnou činnosťou, ako aj príchovky a prírastky zvierat – pri zásobách priame náklady, prípadne časť nepriamych, pri dlhodobom majetku priame aj nepriame náklady na výrobu (§ 25 ods. 6 písm. b); menovitou hodnotou peniaze a pohľadávky/záväzky pri vzniku; reálnou hodnotou bezodplatne nadobudnutý majetok, majetok pri kúpe podniku či vklade. Súčasťou obstarávacej ceny DHM nie sú pokuty, úroky z omeškania, kurzové rozdiely, náklady na opravy a údržbu (§ 35 ods. 2 PÚ). DPH: u platiteľa DPH nie je súčasťou OC (uplatňuje sa odpočet cez 343); u neplatiteľa DPH je súčasťou OC (zahŕňa sa do ocenenia majetku). Ku dňu závierky sa ocenenie upravuje opravnými položkami a zásoby sa oceňujú čistou realizačnou hodnotou, ak je nižšia (§ 26)."
       },
       {
         "nadpis": "Obstaranie a zaradenie DHM a DNM",
-        "text": "Obstaranie prechádza kalkulačným účtom: 042 – Obstaranie DHM (resp. 041 – Obstaranie DNM), na ktorom sa zhromaždí obstarávacia cena vrátane vedľajších nákladov. Nákup faktúrou: 042/321 (cena), 042/321 (doprava, montáž), nárok na odpočet DPH 343/321. Po uvedení do užívania sa majetok zaradí: 022/042 (samostatná hnuteľná vec), 021/042 (stavba), resp. 013/041 (softvér). Vytvorenie vlastnou činnosťou sa aktivuje cez účet 042 (resp. 041) súvzťažne s účtami aktivácie 623/624 (vlastné náklady → 042/624 pri DHM). Až zaradením do užívania začína odpisovanie."
+        "text": "Obstaranie prechádza kalkulačným účtom: 042 – Obstaranie DHM (resp. 041 – Obstaranie DNM), na ktorom sa zhromaždí obstarávacia cena vrátane vedľajších nákladov. Nákup faktúrou: 042/321 (cena), 042/321 (doprava, montáž), nárok na odpočet DPH 343/321. Po uvedení do užívania sa majetok zaradí: 022/042 (samostatná hnuteľná vec), 021/042 (stavba), resp. 013/041 (softvér). Vytvorenie vlastnou činnosťou sa aktivuje cez účet 042 (resp. 041) súvzťažne s účtami aktivácie: 623 – 'Aktivácia dlhodobého nehmotného majetku' (zápis 041/623 pri DNM) a 624 – 'Aktivácia dlhodobého hmotného majetku' (zápis 042/624 pri DHM). Až zaradením do užívania začína odpisovanie."
       },
       {
         "nadpis": "Odpisovanie – účtovné odpisy",
-        "text": "Odpisovaním sa vyjadruje opotrebenie majetku a jeho postupné prenášanie do nákladov. Účtovný odpis sa účtuje 551 – Odpisy DNM a DHM (na ťarchu) súvzťažne v prospech oprávok: 081 (k stavbám), 082 (k samostatným hnuteľným veciam), 086 (k základnému stádu), resp. 07x (k DNM, napr. 073 k softvéru). Oprávky sú korekčný (pasívny) účet, ktorý nepriamo znižuje hodnotu majetku – v súvahe sa vykazuje brutto hodnota, oprávky a zostatková cena. Účtovné odpisy si určuje účtovná jednotka v odpisovom pláne podľa predpokladanej doby používania a skutočného opotrebenia (§ 28 PÚ); môžu byť časové aj výkonové a podľa zmeny podmienok sa prehodnocujú."
+        "text": "Odpisovaním sa vyjadruje opotrebenie majetku a jeho postupné prenášanie do nákladov. Účtovný odpis sa účtuje 551 – Odpisy DNM a DHM (na ťarchu) súvzťažne v prospech oprávok: 081 (k stavbám), 082 (k samostatným hnuteľným veciam), 086 (k základnému stádu a ťažným zvieratám), resp. 07x (k DNM, napr. 073 k softvéru). Oprávky sú korekčný (pasívny) účet, ktorý nepriamo znižuje hodnotu majetku – v súvahe sa vykazuje brutto hodnota, oprávky a zostatková cena. Účtovné odpisy si určuje účtovná jednotka v odpisovom pláne podľa predpokladanej doby používania a skutočného opotrebenia (§ 28 PÚ); môžu byť časové aj výkonové a podľa zmeny podmienok sa prehodnocujú."
       },
       {
         "nadpis": "Odpisovanie – daňové odpisy a ich vzťah k účtovným",
-        "text": "Daňové odpisy sú samostatná sústava podľa ZDP (§ 22 – 28). Nepremietajú reálne opotrebenie, ale mechanicky zaraďujú majetok do 7 odpisových skupín (0 – 6) s pevnou dobou: skupina 0 (2 roky, elektromobily), 1 (4 roky, počítače, autá), 2 (6 rokov), 3 (8 rokov), 4 (12 rokov), 5 (20 rokov), 6 (40 rokov, administratívne a bytové budovy). Metódy: rovnomerná (§ 27) a zrýchlená (§ 28, len skupiny 2 a 3). DNM sa daňovo odpisuje v súlade s účtovnými odpismi (nie cez skupiny). Účtovné a daňové odpisy sa spravidla líšia – rozdiel sa vysporiada v daňovom priznaní ako pripočítateľná/odpočítateľná položka a je zdrojom odloženej dane. V účtovníctve sa účtujú LEN účtovné odpisy; daňové existujú len pre výpočet základu dane."
+        "text": "Daňové odpisy sú samostatná sústava podľa ZDP (§ 22 – 28). Nepremietajú reálne opotrebenie, ale mechanicky zaraďujú majetok do 7 odpisových skupín (číslované 0, 1, 2, 3, 4, 5, 6) s pevnou dobou: skupina 0 (2 roky, elektromobily), 1 (4 roky, počítače, autá), 2 (6 rokov), 3 (8 rokov), 4 (12 rokov), 5 (20 rokov), 6 (40 rokov, administratívne a bytové budovy). Metódy: rovnomerná (§ 27) a zrýchlená (§ 28, len skupiny 2 a 3 – pre skupinu 0 (elektromobily) a ostatné skupiny zrýchlené odpisovanie NIE je možné). DNM sa daňovo odpisuje v súlade s účtovnými odpismi (nie cez skupiny). Účtovné a daňové odpisy sa spravidla líšia – rozdiel sa vysporiada v daňovom priznaní ako pripočítateľná/odpočítateľná položka a je zdrojom odloženej dane. V účtovníctve sa účtujú LEN účtovné odpisy; daňové existujú len pre výpočet základu dane."
       },
       {
         "nadpis": "Opravné položky k DHM a DNM (§ 26 ods. 4)",
@@ -74,7 +74,7 @@
   "rozsirena_baza": [
     {
       "nadpis": "Technické zhodnotenie vs. oprava",
-      "text": "Technické zhodnotenie (nadstavby, prístavby, rekonštrukcie, modernizácie nad 1 700 € v úhrne za rok) zvyšuje vstupnú/zostatkovú cenu majetku a predlžuje odpisovanie (§ 29 ZDP, § 35 ods. 3 PÚ); účtuje sa cez 042 a pripočíta k majetku. Naproti tomu oprava a údržba (odstránenie opotrebenia, uvedenie do prevádzkyschopného stavu bez zmeny parametrov) je jednorazový náklad (511/321) a nie je súčasťou ocenenia majetku. TZ sa týka aj vlastného majetku, nielen prenajatého. TZ prenajatého majetku môže odpisovať nájomca, ak ho uhrádza a má písomný súhlas vlastníka; účtuje sa cez 042 u nájomcu."
+      "text": "Technické zhodnotenie (nadstavby, prístavby, rekonštrukcie, modernizácie vyššej ako 1 700 € v úhrne za zdaňovacie obdobie (§ 29 ZDP – striktne väčšia ako, nie 'nad'/'aspoň')) zvyšuje vstupnú/zostatkovú cenu majetku a predlžuje odpisovanie (§ 29 ZDP, § 35 ods. 3 PÚ); účtuje sa cez 042 a pripočíta k majetku. Naproti tomu oprava a údržba (odstránenie opotrebenia, uvedenie do prevádzkyschopného stavu bez zmeny parametrov) je jednorazový náklad (511/321) a nie je súčasťou ocenenia majetku. TZ sa týka aj vlastného majetku, nielen prenajatého. TZ prenajatého majetku môže odpisovať nájomca, ak ho uhrádza a má písomný súhlas vlastníka; účtuje sa cez 042 u nájomcu."
     },
     {
       "nadpis": "Drobný dlhodobý majetok",
@@ -82,7 +82,7 @@
     },
     {
       "nadpis": "Rastlinná a živočíšna výroba – zatriedenie majetku",
-      "text": "V poľnohospodárstve sa ten istý druh majetku triedi podľa funkcie. RASTLINNÁ výroba: pestované plodiny (obilniny, zelenina) určené na zber a predaj sú zásoby; nezobratá úroda na poli ku dňu závierky je nedokončená výroba (121), zmena jej stavu cez 611. Trvalé porasty s dobou plodnosti nad 3 roky (sady, vinice, chmeľnice) sú DHM (025 pestovateľské celky), pred dosiahnutím plodnosti sa neodpisujú. ŽIVOČÍŠNA výroba: mladé zvieratá a zvieratá vo výkrme sú zásoby (124), príchovky a prírastky sa oceňujú vlastnými nákladmi; dospelé plemenné a chovné zvieratá sú DHM – základné stádo a ťažné zvieratá (026), bez ohľadu na obstarávaciu cenu."
+      "text": "V poľnohospodárstve sa ten istý druh majetku triedi podľa funkcie. RASTLINNÁ výroba: pestované plodiny (obilniny, zelenina) určené na zber a predaj sú zásoby; nezobratá úroda na poli ku dňu závierky sa môže účtovať dvomi spôsobmi: PRIMÁRNE ako nedokončená výroba (121) so zmenou stavu cez 611 (E. Gášpárová a väčšina praxe), ALTERNATÍVNE ako výrobky (123) alebo cez špecifický analytický účet podľa rozhodnutia účtovnej jednotky. Trvalé porasty s dobou plodnosti nad 3 roky (sady, vinice, chmeľnice) sú DHM (025 pestovateľské celky), pred dosiahnutím plodnosti sa neodpisujú. ŽIVOČÍŠNA výroba: mladé zvieratá a zvieratá vo výkrme sú zásoby (124), príchovky a prírastky sa oceňujú vlastnými nákladmi; dospelé plemenné a chovné zvieratá sú DHM – základné stádo a ťažné zvieratá (026), bez ohľadu na obstarávaciu cenu."
     },
     {
       "nadpis": "Oceňovanie vlastných výkonov a kalkulácie v poľnohospodárstve",
@@ -169,7 +169,7 @@
         }
       ],
       "riesenie": "Pretože ide o PRECHODNÉ zníženie hodnoty pod účtovnú hodnotu, vytvorí sa OP 10 000 € (553/092), ktorá nepriamo znižuje hodnotu majetku (zostatková cena 40 000 – OP 10 000 = 30 000 €). Keď predpoklad zanikne, OP sa rozpustí (092/553). Účtovné OP k DHM sú daňovo neuznané (pripočítateľná položka pri tvorbe).",
-      "dopad_na_zd": "Tvorba OP +10 000 € (nedaňová); zrušenie −10 000 €."
+      "dopad_na_zd": "Tvorba OP +10 000 € v roku závierky je pripočítateľná položka (nedaňová podľa § 21 ZDP). Zrušenie OP −10 000 € v nasledujúcom roku je ODPOČÍTATEĽNÁ položka – výnos zo zrušenia OP, ktorá pri tvorbe nebola daňovým výdavkom, sa neuznáva za zdaniteľný výnos a odpočítava sa od výsledku hospodárenia v daňovom priznaní."
     },
     {
       "nazov": "Vyradenie DHM predajom",
@@ -204,8 +204,8 @@
           "popis": "DPH na výstupe 23 %"
         }
       ],
-      "riesenie": "Zostatková cena = 53 000 − 42 400 = 10 600 € → na 541. Obstarávacia cena sa vyradí v dvoch zápisoch: oprávky 082/022 (42 400) a zostatková cena 541/022 (10 600). Výnos z predaja 641 = 8 000 €. Predaj bol stratový (ZC 10 600 > tržba 8 000); strata je účtovne aj daňovo uznaná (okrem vybraných druhov majetku).",
-      "dopad_na_zd": "Náklad 541 = 10 600 €, výnos 641 = 8 000 € → účtovne strata 2 600 € (daňovo uznaná pri bežnom stroji)."
+      "riesenie": "Zostatková cena = 53 000 − 42 400 = 10 600 € → na 541. Obstarávacia cena sa vyradí v dvoch zápisoch: oprávky 082/022 (42 400) a zostatková cena 541/022 (10 600). Výnos z predaja 641 = 8 000 €. Predaj bol stratový (ZC 10 600 > tržba 8 000); strata je účtovne uznaná. Daňovo je strata pri predaji DM spravidla uznaná, ALE § 19 ods. 3 písm. b) ZDP daňovú uznateľnosť STRATY z predaja obmedzuje pri vybraných druhoch majetku: osobné automobily kategórie M1, motocykle, lode, lietadlá, bytové domy, rodinné domy, byty a niektoré ďalšie nehnuteľnosti – pri týchto je strata daňovo neuznaná. Pre bežný výrobný stroj sa obmedzenie nevzťahuje, takže strata 2 600 € je daňovo uznaná.",
+      "dopad_na_zd": "Náklad 541 = 10 600 €, výnos 641 = 8 000 € → účtovne strata 2 600 € (daňovo uznaná pri bežnom stroji – pri osobných autách M1, motocykloch, lodiach, lietadlách, bytových/rodinných domoch a bytoch by bola strata podľa § 19 ods. 3 písm. b) ZDP neuznaná)."
     },
     {
       "nazov": "Zásoby spôsob A vs. spôsob B",
@@ -233,6 +233,13 @@
           "popis": "Spotreba materiálu"
         },
         {
+          "rok": "B: zač. stav",
+          "md": "501",
+          "d": "112",
+          "suma": "ZS",
+          "popis": "Začiatočný stav zásob (ak existuje) sa pri spôsobe B na začiatku obdobia preúčtuje do nákladov 501/112 (§ 43 ods. 6 Postupov)"
+        },
+        {
           "rok": "B: nákup",
           "md": "501",
           "d": "321",
@@ -247,7 +254,7 @@
           "popis": "Konečný stav podľa inventarizácie"
         }
       ],
-      "riesenie": "Pri spôsobe A ide nákup cez 111 → 112, spotreba 501/112; na účte 501 je 4 000 €, na 112 ostane 1 000 €. Pri spôsobe B sa celý nákup zaúčtuje hneď do nákladov (501/321 = 5 000), no pri závierke sa konečný stav 1 000 € vráti na sklad (112/501), takže na 501 ostane tiež 4 000 €. Výsledok hospodárenia je rovnaký.",
+      "riesenie": "Pri spôsobe A ide nákup cez 111 → 112, spotreba 501/112; na účte 501 je 4 000 €, na 112 ostane 1 000 €. Pri spôsobe B sa na začiatku obdobia ZAČIATOČNÝ STAV zásob preúčtuje do nákladov 501/112, potom sa celý nákup zaúčtuje hneď do nákladov (501/321 = 5 000), no pri závierke sa konečný stav 1 000 € vráti na sklad (112/501), takže na 501 ostane tiež 4 000 €. Výsledok hospodárenia je rovnaký.",
       "dopad_na_zd": "Náklad (spotreba) 4 000 € pri oboch spôsoboch – výsledok identický."
     },
     {
@@ -259,7 +266,7 @@
           "md": "124",
           "d": "614",
           "suma": 1200,
-          "popis": "Príchovok/prírastok ocenený vlastnými nákladmi (zásoba)"
+          "popis": "Príchovok/prírastok zvierat ocenený vlastnými nákladmi (zásoba) – súvzťažne s účtom 614 'Zmena stavu zvierat'"
         },
         {
           "rok": "preradenie",
@@ -269,7 +276,7 @@
           "popis": "Preradenie dospelého zvieraťa zo zásob do základného stáda (DHM)"
         }
       ],
-      "riesenie": "Príchovky a prírastky zvierat sa oceňujú vlastnými nákladmi (§ 25 ods. 6 písm. b) a účtujú ako zásoba na 124 súvzťažne so zmenou stavu zvierat (skupina 61, účet 614). Po dosiahnutí dospelosti (spôsobilosť reprodukcie) sa zviera preradí zo zásob do dlhodobého majetku – základné stádo 026/124 – a začne sa odpisovať.",
+      "riesenie": "Príchovky a prírastky zvierat sa oceňujú vlastnými nákladmi (§ 25 ods. 6 písm. b) a účtujú ako zásoba na 124 súvzťažne so zmenou stavu zvierat (účet 614 – 'Zmena stavu zvierat', účtová skupina 61). Po dosiahnutí dospelosti (spôsobilosť reprodukcie) sa zviera preradí zo zásob do dlhodobého majetku – základné stádo 026/124 – a začne sa odpisovať.",
       "dopad_na_zd": "Pri preradení žiadny náklad; základné stádo sa následne odpisuje (551/086)."
     }
   ],

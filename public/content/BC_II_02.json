@@ -5,8 +5,8 @@
   "cislo": 2,
   "nazov": "Osobitosti obsahu a rozsahu účtovných závierok podnikateľov v SR podľa veľkostných kritérií",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Zákon č. 431/2002 Z. z. o účtovníctve v znení účinnom k 4. 2. 2026 (§ 2 veľkostné skupiny, § 17–19). Veľkostné prahy sú v znení novely č. 105/2024 Z. z. (transpozícia delegovanej smernice EÚ 2023/2775), účinnej od 1. 6. 2024 a prvýkrát uplatnenej za účtovné obdobie končiace 31. 12. 2023; platia rovnako pre roky 2025 a 2026 – konsolidačný zákon č. 261/2025 Z. z. ich nezmenil (overené k máju 2026 na podnikajte.sk a v texte zákona). Opatrenia k závierke: MF/15464/2013-74 (mikro), MF/23378/2014-74 (malé), MF/23377/2014-74 (veľké a SVZ) v úplnom znení k 19. 1. 2026; opatrenie veľkých/SVZ bolo novelizované opatrením MF/013838/2025-74 s účinnosťou od 1. 1. 2026 (úpravy poznámok). POZOR: v staršej internej tabuľke parametrov boli ešte pôvodné nižšie prahy (350 000 / 700 000 / 4 mil. / 8 mil.) – sú NEAKTUÁLNE, správne sú novelizované hodnoty nižšie.",
+  "verzia": "1.2",
+  "stav_legislativy": "Zákon č. 431/2002 Z. z. o účtovníctve v znení účinnom k 4. 2. 2026 (§ 2 veľkostné skupiny, § 17–19). Veľkostné prahy sú v znení novely č. 105/2024 Z. z. (transpozícia delegovanej smernice EÚ 2023/2775), účinnej od 1. 6. 2024 a prvýkrát uplatnenej za účtovné obdobie končiace 31. 12. 2023; platia rovnako pre roky 2025 a 2026 – konsolidačný zákon č. 261/2025 Z. z. ich nezmenil (overené k máju 2026 na podnikajte.sk a v texte zákona). Opatrenia k závierke: MF/15464/2013-74 (mikro), MF/23378/2014-74 (malé), MF/23377/2014-74 (veľké a SVZ) v úplnom znení k 19. 1. 2026; opatrenie veľkých/SVZ bolo novelizované opatrením MF/013838/2025-74 s účinnosťou od 1. 1. 2026 (úpravy poznámok). POZOR: v staršej internej tabuľke parametrov boli ešte pôvodné nižšie prahy (350 000 / 700 000 / 4 mil. / 8 mil.) – sú NEAKTUÁLNE, správne sú novelizované hodnoty nižšie. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "veľkostná skupina účtovnej jednotky",
     "mikro účtovná jednotka",
@@ -37,7 +37,7 @@
       },
       {
         "nadpis": "Konkrétne prahy mikro / malá / veľká (aktuálne hodnoty)",
-        "text": "MIKRO účtovná jednotka spĺňa aspoň dve z týchto podmienok: celková suma majetku NEpresiahla 450 000 €, čistý obrat NEpresiahol 900 000 €, priemerný počet zamestnancov NEpresiahol 10. MALÁ účtovná jednotka spĺňa aspoň dve z: majetok presiahol 450 000 € ale nepresiahol 5 000 000 €, čistý obrat presiahol 900 000 € ale nepresiahol 10 000 000 €, počet zamestnancov presiahol 10 a nepresiahol 50. VEĽKÁ účtovná jednotka spĺňa aspoň dve z: majetok presiahol 5 000 000 €, čistý obrat presiahol 10 000 000 €, počet zamestnancov presiahol 50. Tieto sumy platia od novely č. 105/2024 Z. z. (od 1. 6. 2024, prvýkrát za obdobie končiace 31. 12. 2023) a sú v platnosti aj pre roky 2025 a 2026. Pozor – sú to ZVÝŠENÉ hodnoty; staršie materiály ešte uvádzajú pôvodné nižšie prahy (350 000 / 700 000 a 4 mil. / 8 mil.), ktoré už neplatia."
+        "text": "MIKRO účtovná jednotka spĺňa aspoň dve z týchto podmienok: celková suma majetku NEpresiahla 450 000 €, čistý obrat NEpresiahol 900 000 €, priemerný počet zamestnancov NEpresiahol 10. MALÁ účtovná jednotka spĺňa aspoň dve z: majetok presiahol 450 000 € ale nepresiahol 5 000 000 €, čistý obrat presiahol 900 000 € ale nepresiahol 10 000 000 €, počet zamestnancov presiahol 10 a nepresiahol 50. VEĽKÁ účtovná jednotka spĺňa aspoň dve z: majetok presiahol 5 000 000 €, čistý obrat presiahol 10 000 000 €, počet zamestnancov presiahol 50. Tieto sumy platia od novely č. 105/2024 Z. z. (od 1. 6. 2024, prvýkrát za obdobie končiace 31. 12. 2023) a sú v platnosti aj pre roky 2025 a 2026. Pozor – sú to ZVÝŠENÉ hodnoty; staršie materiály ešte uvádzajú pôvodné nižšie prahy (350 000 / 700 000 a 4 mil. / 8 mil.), ktoré už neplatia. LOGIKA TRIEDENIA: najprv testujeme prahy MIKRO (≤ 450k / ≤ 900k / ≤ 10) – ak ÚJ spĺňa aspoň 2 z 3, je mikro; ak prahy mikro nespĺňa, NEZNAMENÁ to automaticky, že je malá – ak spĺňa aspoň 2 z 3 prahov VEĽKEJ (5 mil. / 10 mil. / 50), je veľká; ak ani nie mikro ani nie veľká, defaultne patrí do skupiny MALÁ (§ 2 ods. 5–8)."
       },
       {
         "nadpis": "Subjekt verejného záujmu a postup pri zatriedení",
@@ -45,7 +45,7 @@
       },
       {
         "nadpis": "Časový test: prvý deň obdobia a dve po sebe idúce obdobia (§ 2 ods. 10)",
-        "text": "Splnenie kritérií sa posudzuje VŽDY k prvému dňu účtovného obdobia (napr. k 1. 1.) a vyhodnocuje sa za DVE bezprostredne predchádzajúce účtovné obdobia. Jednotka musí zmeniť zatriedenie do inej skupiny až od nasledujúceho účtovného obdobia po tých dvoch po sebe idúcich obdobiach, v ktorých prahy presiahla alebo prestala spĺňať. Dvojročné pravidlo zabraňuje tomu, aby jednorazový výkyv (napr. mimoriadny predaj) firmu hneď preradil. Novovzniknutá jednotka sa zatriedi podľa vlastného rozhodnutia a v tomto zatriedení zostáva aj v bezprostredne nasledujúcom období (spravidla sa zatriedi ako mikro). Po vstupe do likvidácie alebo po vyhlásení konkurzu jednotka svoje zatriedenie nemení."
+        "text": "Splnenie kritérií sa vyhodnocuje za DVE bezprostredne predchádzajúce účtovné obdobia. Zmena zatriedenia do inej skupiny nastáva od PRVÉHO DŇA bezprostredne nasledujúceho účtovného obdobia po dvoch po sebe idúcich obdobiach, v ktorých ÚJ prahy presiahla alebo prestala spĺňať (§ 2 ods. 10). Test sa teda netýka 'každého obdobia automaticky', ale podmieňuje len moment preradenia. Dvojročné pravidlo zabraňuje tomu, aby jednorazový výkyv (napr. mimoriadny predaj) firmu hneď preradil. Novovzniknutá jednotka sa zatriedi podľa vlastného rozhodnutia a v tomto zatriedení zostáva aj v bezprostredne nasledujúcom období (spravidla sa zatriedi ako mikro). Po vstupe do likvidácie alebo po vyhlásení konkurzu jednotka svoje zatriedenie nemení."
       },
       {
         "nadpis": "Tri zložky závierky a spoločný základ (§ 17)",
@@ -87,14 +87,14 @@
     },
     {
       "nadpis": "Mikro režim ako balík úľav",
-      "text": "Zaradenie medzi mikro jednotky prináša okrem skrátenej závierky aj ďalšie zjednodušenia účtovania: neúčtuje sa o odloženej dani, majetok a záväzky sa neoceňujú reálnou hodnotou, nepoužíva sa metóda vlastného imania pri cenných papieroch a podieloch, deriváty sa účtujú zjednodušene, nesleduje sa osobitne vzťah k prepojeným jednotkám a nevýznamné opakujúce sa prípady sa nemusia časovo rozlišovať. Práve tieto úľavy sú dôvodom, prečo si menšie firmy zatriedenie ako mikro spravidla volia."
+      "text": "Zaradenie medzi mikro jednotky prináša okrem skrátenej závierky aj ďalšie zjednodušenia účtovania: neúčtuje sa o odloženej dani, majetok a záväzky sa neoceňujú reálnou hodnotou, nepoužíva sa metóda vlastného imania pri cenných papieroch a podieloch, deriváty sa účtujú zjednodušene, nesleduje sa osobitne vzťah k prepojeným jednotkám a nevýznamné opakujúce sa prípady sa nemusia časovo rozlišovať. Práve tieto úľavy sú dôvodom, prečo si menšie firmy zatriedenie ako mikro spravidla volia. Tieto úľavy upravuje opatrenie MF SR č. MF/15464/2013-74, ktoré obsahuje aj vzor súvahy a výkazu ziskov a strát pre mikro ÚJ (Úč MÚJ)."
     }
   ],
   "priklady": [
     {
       "nazov": "Zatriedenie podľa pravidla 2 z 3",
       "zadanie": "S. r. o. má za predchádzajúce obdobie: celkovú sumu majetku (netto) 600 000 €, čistý obrat 850 000 €, priemerný počet zamestnancov 8. Do ktorej skupiny patrí?",
-      "riesenie": "Testujeme proti prahom MIKRO (≤ 450 000 / ≤ 900 000 / ≤ 10): majetok 600 000 € prah PREKRAČUJE (nespĺňa), obrat 850 000 € ≤ 900 000 (spĺňa), zamestnanci 8 ≤ 10 (spĺňa). Mikro podmienky spĺňa 2 z 3 → jednotka by pri splnení aj za druhé obdobie bola MIKRO. Hoci majetok nominálne 'patrí' do pásma malej, na zaradenie do malej by musela spĺňať 2 z 3 podmienok MALEJ, čo tu neplatí (obrat aj počet zamestnancov sú pod dolnou hranicou malej). Záver: mikro účtovná jednotka.",
+      "riesenie": "Testujeme proti prahom MIKRO (≤ 450 000 / ≤ 900 000 / ≤ 10): majetok 600 000 € prah PREKRAČUJE (nespĺňa), obrat 850 000 € ≤ 900 000 (spĺňa), zamestnanci 8 ≤ 10 (spĺňa). Mikro podmienky spĺňa 2 z 3 → jednotka by pri splnení aj za druhé obdobie bola MIKRO. Hoci majetok nominálne 'patrí' do pásma malej, na zaradenie do malej by musela spĺňať 2 z 3 podmienok MALEJ, čo tu neplatí (obrat aj počet zamestnancov sú pod dolnou hranicou malej). Záver: mikro účtovná jednotka. POZNÁMKA K PASCI: hoci majetok 600 000 € NOMINÁLNE patrí do pásma malej (>450 000 €), na zatriedenie do MALEJ skupiny by ÚJ musela spĺňať 2 z 3 prahov malej. Tu obrat (850k ≤ 10 mil.) aj zamestnanci (8 ≤ 50) ležia v rozsahu malej, ale zároveň aj v rozsahu mikro – preto rozhoduje, že 2 z 3 sú splnené práve PRE MIKRO (obrat 850k ≤ 900k; zam. 8 ≤ 10). Zatriedenie je MIKRO.",
       "dopad_na_zd": "Nepísomné – ide o zatriedenie do veľkostnej skupiny, nie o úpravu základu dane. Dôsledok: skrátená súvaha (len netto) a poznámky Úč MÚJ."
     },
     {

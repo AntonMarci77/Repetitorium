@@ -5,8 +5,8 @@
   "cislo": 6,
   "nazov": "Postup audítora v oblasti dlhodobého nehmotného a hmotného majetku a zásob",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Medzinárodné audítorské štandardy (ISA) v znení účinnom pre audity účtovných závierok 2025/2026; ISA 315 (revidovaný 2019) – kategórie tvrdení. Zákon č. 423/2015 Z. z. o štatutárnom audite v znení k 1. 1. 2026. Slovenské postupy účtovania (opatrenie MF SR č. 23054/2002-92) a oceňovanie majetku a zásob podľa § 25 a § 26 zákona č. 431/2002 Z. z. o účtovníctve.",
+  "verzia": "1.2",
+  "stav_legislativy": "Medzinárodné audítorské štandardy (ISA) v znení účinnom pre audity účtovných závierok 2025/2026; ISA 315 (revidovaný 2019) – kategórie tvrdení. Zákon č. 423/2015 Z. z. o štatutárnom audite v znení k 1. 1. 2026. Slovenské postupy účtovania (opatrenie MF SR č. 23054/2002-92) a oceňovanie majetku a zásob podľa § 25 a § 26 zákona č. 431/2002 Z. z. o účtovníctve. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "audítorské tvrdenia (assertions, ISA 315)",
     "existencia",
@@ -48,7 +48,7 @@
       },
       {
         "nadpis": "Zásoby – účasť audítora na inventúre (ISA 501)",
-        "text": "Ak sú zásoby významné, ISA 501 vyžaduje, aby audítor získal dostatočné a vhodné dôkazy o ich existencii a stave účasťou na fyzickej inventúre (ak je uskutočniteľná). Počas účasti audítor: (1) vyhodnotí pokyny a procedúry manažmentu na vykonanie a kontrolu inventúry, (2) pozoruje dodržiavanie týchto procedúr, (3) inšpekciou overí existenciu a stav zásob a (4) vykoná vlastné testovacie počty – obojsmerne (z fyzických zásob do záznamov = úplnosť, zo záznamov do fyzických zásob = existencia). Sleduje aj cut-off pohybov tovaru na prelome dňa inventúry. Ak je účasť neuskutočniteľná (nie však len nepohodlná), použije alternatívne postupy – napr. inšpekciu dokladov o následnom predaji konkrétnych položiek; ak ani tie nestačia, ide o obmedzenie rozsahu a modifikáciu názoru (ISA 705). Pri zásobách v úschove u tretej strany audítor žiada externé potvrdenie (ISA 505)."
+        "text": "Ak sú zásoby významné, ISA 501 vyžaduje, aby audítor získal dostatočné a vhodné dôkazy o ich existencii a stave účasťou na fyzickej inventúre (ak je uskutočniteľná). Počas účasti audítor: (1) vyhodnotí pokyny a procedúry manažmentu na vykonanie a kontrolu inventúry, (2) pozoruje dodržiavanie týchto procedúr, (3) inšpekciou overí existenciu a stav zásob a (4) vykoná vlastné testovacie počty – obojsmerne (z fyzických zásob do záznamov = úplnosť, zo záznamov do fyzických zásob = existencia). Sleduje aj cut-off pohybov tovaru na prelome dňa inventúry. Ak je účasť NEPRAKTICKÁ (impracticable podľa ISA 501.A12 — napr. inventúra na vzdialenom mieste, vážne bezpečnostné alebo neúmerne vysoké nákladové obmedzenia; samotná nepohodlnosť ani vyššie cestovné náklady nestačia), audítor použije alternatívne postupy – napr. inšpekciu dokladov o následnom predaji konkrétnych položiek; ak ani tie nestačia, ide o obmedzenie rozsahu a modifikáciu názoru (ISA 705). Pri zásobách v úschove u tretej strany audítor žiada externé potvrdenie (ISA 505)."
       },
       {
         "nadpis": "Zásoby – ocenenie (nižšia z OC a NRV), zastarané zásoby",

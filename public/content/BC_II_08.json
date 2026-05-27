@@ -5,8 +5,8 @@
   "cislo": 8,
   "nazov": "Vybrané aspekty úpravy výsledku hospodárenia na základ dane",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.1 (pilot – zapracovaná odborná spätná väzba)",
-  "stav_legislativy": "Znenie ZDP č. 595/2003 Z. z. účinné k 1. 1. 2026; aktuálne sumy a sadzby overené k máju 2026.",
+  "verzia": "1.2",
+  "stav_legislativy": "Znenie ZDP č. 595/2003 Z. z. účinné k 1. 1. 2026; aktuálne sumy a sadzby overené k máju 2026. Druhé kolo revízie (máj 2026, Klaster E – Dane): opravené N-19 (živelná pohroma – úzka interpretácia § 19 ods. 3), N-20/ID 166 (§ 17 ods. 34 luxusné autá 48 000 € platí bezo zmeny k 1.1.2026), N-21 (§ 17 ods. 17 spôsob oznámenia voľby), N-22 (pôvodná lehota splatnosti § 17 ods. 27), N-23/N-25/ID 274 (dividenda mimo predmetu, nie 'oslobodená'; odkaz na sadzby DPPO v ING I.2), N-24 (smer pri voľbe odsunu KR), N-26/ID 277 (účty 591/481/592 + odkaz na ING I.2).",
   "klucove_pojmy": [
     "výsledok hospodárenia pred zdanením (účtovný VH)",
     "základ dane (ZD)",
@@ -48,11 +48,11 @@
       },
       {
         "nadpis": "Nezrealizované kurzové rozdiely (§ 17 ods. 17)",
-        "text": "Kurzové rozdiely z prepočtu neuhradených pohľadávok a záväzkov v cudzej mene ku dňu, ku ktorému sa zostavuje účtovná závierka, sú štandardne súčasťou základu dane už v období, v ktorom o nich účtovná jednotka účtuje. Daňovník sa však môže rozhodnúť zahrnúť tieto nezrealizované kurzové rozdiely do základu dane až v období, keď dôjde k inkasu pohľadávky alebo úhrade záväzku; toto rozhodnutie oznámi správcovi dane. Ide teda o možnosť odložiť zdanenie nerealizovaného kurzového zisku či straty na moment realizácie."
+        "text": "Kurzové rozdiely z prepočtu neuhradených pohľadávok a záväzkov v cudzej mene ku dňu, ku ktorému sa zostavuje účtovná závierka, sú štandardne súčasťou základu dane už v období, v ktorom o nich účtovná jednotka účtuje. Daňovník sa však môže rozhodnúť zahrnúť tieto nezrealizované kurzové rozdiely do základu dane až v období, keď dôjde k inkasu pohľadávky alebo úhrade záväzku; toto rozhodnutie oznámi správcovi dane v lehote na podanie daňového priznania za prvé zdaňovacie obdobie, v ktorom voľbu uplatňuje (oznámenie formou prílohy k DP; konkrétna podoba podľa metodického usmernenia FS SR). Ide teda o možnosť odložiť zdanenie nerealizovaného kurzového zisku či straty na moment realizácie."
       },
       {
         "nadpis": "Manká a škody (§ 21 ods. 2 písm. e, § 19 ods. 3 písm. g)",
-        "text": "Manká a škody sú nedaňovým výdavkom v sume, ktorá presahuje prijaté náhrady. Výnimky daňové v plnej výške bez ohľadu na náhradu: škody spôsobené živelnou pohromou (povodeň, zemetrasenie, krupobitie, blesk) a škody spôsobené neznámym páchateľom, ak je to v tom istom zdaňovacom období potvrdené políciou. Pozor na dve situácie: ak polícia potvrdí, že páchateľ je známy, vzniká nárok (pohľadávka) voči páchateľovi, no škoda nad prijaté náhrady ostáva nedaňová; a ak polícia potvrdenie o neznámom páchateľovi nevydá, ide o pripočítateľnú položku v sume nad náhrady. Daňové je aj stratné v maloobchode do výšky ekonomicky odôvodnenej normy. Extrémne mrazy či sucho podľa stanoviska finančnej správy nie sú živelnou pohromou."
+        "text": "Manká a škody sú nedaňovým výdavkom v sume, ktorá presahuje prijaté náhrady. Výnimky daňové v plnej výške bez ohľadu na náhradu: škody spôsobené živelnou pohromou (povodeň, zemetrasenie, krupobitie, blesk) a škody spôsobené neznámym páchateľom, ak je to v tom istom zdaňovacom období potvrdené políciou. Pozor na dve situácie: ak polícia potvrdí, že páchateľ je známy, vzniká nárok (pohľadávka) voči páchateľovi, no škoda nad prijaté náhrady ostáva nedaňová; a ak polícia potvrdenie o neznámom páchateľovi nevydá, ide o pripočítateľnú položku v sume nad náhrady. Daňové je aj stratné v maloobchode do výšky ekonomicky odôvodnenej normy. Pojem 'živelná pohroma' sa interpretuje úzko podľa § 19 ods. 3 ZDP (povodeň, krupobitie, blesk, zemetrasenie, víchrica). Extrémne mrazy či sucho podľa výkladovej praxe finančnej správy nie sú považované za živelnú pohromu – takéto škody sú v sume nad prijaté náhrady nedaňové."
       },
       {
         "nadpis": "Rezervy (§ 19 ods. 3 písm. f, § 20)",
@@ -74,7 +74,7 @@
     },
     {
       "nadpis": "Výnosy, ktoré nie sú zdaniteľným príjmom",
-      "text": "Na strane výnosov vznikajú odpočítateľné položky: prijatá dividenda (podľa platného režimu zdaňovania podielov na zisku, s výnimkami napr. pri nezmluvných štátoch) je výnosom, ktorý sa zo ZD trvalo vylúči (trvalý rozdiel). Podobne sa vylučujú výnosy už zdanené zrážkou s konečnou daňou. Aktuálny režim treba sledovať, keďže sa mení."
+      "text": "Na strane výnosov vznikajú odpočítateľné položky (trvalé rozdiely): prijatá DIVIDENDA od tuzemskej PO je u prijímateľa-PO MIMO PREDMETU DANE (§ 12 ods. 7 písm. c) ZDP) – nezamieňať s 'oslobodením' (to je iná kategória podľa § 13). Pri dividendách prijatých zo zahraničia je režim podľa zmluvy o zamedzení dvojitého zdanenia; dividendy z nespolupracujúcich (nezmluvných) štátov sa zdaňujú 35 % (§ 51e ZDP). Pre PO platí: sadzby DPPO 10/21/24 % (pozri ING I.2). Podobne sa zo ZD vylučujú výnosy už zdanené zrážkou s konečnou daňou."
     },
     {
       "nadpis": "Daňová vs. účtovná zostatková cena pri vyradení",
@@ -82,7 +82,7 @@
     },
     {
       "nadpis": "Limit pri 'luxusných' autách (§ 17 ods. 34)",
-      "text": "Pri osobnom aute so vstupnou cenou 48 000 € a viac sa testuje, či základ dane dosahuje aspoň úroveň zodpovedajúcu odpisu z 48 000 € (12 000 € ročne); ak nie, odpisy nad limit sa pripočítavajú."
+      "text": "Pri osobnom aute so vstupnou cenou 48 000 € a viac sa testuje, či základ dane dosahuje aspoň úroveň zodpovedajúcu odpisu z 48 000 € (12 000 € ročne pri 4-ročnom rovnomernom odpise); ak nie, odpisy nad limit sa pripočítavajú k základu dane. Tento mechanizmus podľa § 17 ods. 34 ZDP platí v znení účinnom k 1. 1. 2026 bezo zmeny (overené k máju 2026, konsolidačný balík zákona č. 261/2025 Z. z. ho neupravil)."
     },
     {
       "nadpis": "Reprezentácia a reklamné predmety (§ 21 ods. 1 písm. h)",
@@ -119,7 +119,7 @@
     {
       "nazov": "Záväzok po splatnosti – kumulatívne pásma (§ 17 ods. 27)",
       "zadanie": "Záväzok 50 000 €. V r. 2024 prekročil 360 dní po splatnosti, v r. 2025 prekročí 720 dní; stále neuhradený.",
-      "riesenie": "Pásma sú kumulatívne. V r. 2024 (>360 dní) povinné zvýšenie ZD o 20 % = 10 000 €. V r. 2025 (>720 dní) sa dopĺňa do 50 % – t. j. ďalších 30 % = 15 000 €. Predĺženie splatnosti dodatkom by sa neakceptovalo.",
+      "riesenie": "Pásma sú kumulatívne. V r. 2024 (>360 dní) povinné zvýšenie ZD o 20 % = 10 000 €. V r. 2025 (>720 dní) sa dopĺňa do 50 % – t. j. ďalších 30 % = 15 000 €. Predĺženie splatnosti dodatkom by sa neakceptovalo – test sa robí podľa PÔVODNEJ zmluvne dohodnutej lehoty splatnosti (§ 17 ods. 27 ZDP), aby sa zabránilo obchádzaniu pravidla.",
       "dopad_na_zd": "2024: +10 000 € (20 %); 2025: +15 000 € (doplnenie do 50 %). Po úhrade: odpočet už zdanených súm (§ 17 ods. 32)."
     },
     {
@@ -161,7 +161,7 @@
     {
       "nazov": "Nezrealizovaný kurzový rozdiel (§ 17 ods. 17)",
       "zadanie": "Spoločnosť eviduje k 31. 12. 2025 záväzok v USD; precenením vznikol nerealizovaný kurzový rozdiel (strata) 2 000 €.",
-      "riesenie": "Štandardne je 2 000 € súčasťou ZD už v r. 2025. Ak sa daňovník rozhodol (a oznámil správcovi dane) zahŕňať nezrealizované kurzové rozdiely až pri realizácii, v r. 2025 ich z ZD vylúči a zahrnie ich až v období úhrady záväzku.",
+      "riesenie": "Štandardne je 2 000 € súčasťou ZD už v r. 2025. Ak sa daňovník rozhodol (a oznámil správcovi dane) zahŕňať nezrealizované kurzové rozdiely až pri realizácii, v r. 2025 ich z ZD vylúči a zahrnie ich až v období úhrady záväzku. Smer pri voľbe odsunu: nerealizovaná STRATA 2 000 € je v r. 2025 odpočítateľnou položkou (zníži ZD), v roku realizácie (úhrady) sa naopak pripočíta. Pri nerealizovanom ZISKU by to bolo opačne – v roku precenenia pripočítateľná, v roku realizácie odpočítateľná.",
       "dopad_na_zd": "Podľa voľby: buď v r. 2025, alebo odsun do roku realizácie."
     }
   ],
@@ -195,7 +195,7 @@
     },
     {
       "otazka": "Aký je rozdiel medzi trvalým a dočasným rozdielom a ako súvisia s odloženou daňou?",
-      "odpoved": "Trvalý sa nikdy nevyrovná (pokuta od štátu; oslobodená dividenda) a odloženú daň nevyvoláva. Dočasný sa vyrovná v inom období (nezaplatený náklad, OP, rezerva) a vzniká z neho odložená daňová pohľadávka alebo záväzok.",
+      "odpoved": "Trvalý sa nikdy nevyrovná (pokuta od štátu; dividenda mimo predmetu dane (§ 12 ods. 7 písm. c) ZDP)) a odloženú daň nevyvoláva. Dočasný sa vyrovná v inom období (nezaplatený náklad, OP, rezerva) a vzniká z neho odložená daňová pohľadávka alebo záväzok.",
       "moznosti": [
         "Trvalý rozdiel sa nikdy nevyrovná a odloženú daň nevyvoláva; dočasný sa vyrovná v inom období a vyvoláva odloženú daň",
         "Trvalý rozdiel vyvoláva odloženú daň, dočasný nie",
@@ -206,7 +206,7 @@
       "spravne_indexy": [
         0
       ],
-      "vysvetlenie": "Trvalý sa nikdy nevyrovná (pokuta od štátu; oslobodená dividenda) a odloženú daň nevyvoláva. Dočasný sa vyrovná v inom období (nezaplatený náklad, OP, rezerva) a vzniká z neho odložená daňová pohľadávka alebo záväzok."
+      "vysvetlenie": "Trvalý sa nikdy nevyrovná (pokuta od štátu; dividenda mimo predmetu dane (§ 12 ods. 7 písm. c) ZDP)) a odloženú daň nevyvoláva. Dočasný sa vyrovná v inom období (nezaplatený náklad, OP, rezerva) a vzniká z neho odložená daňová pohľadávka alebo záväzok."
     },
     {
       "otazka": "Môže odpočítateľná položka vzniknúť aj na strane výnosov?",
@@ -356,7 +356,8 @@
         "zadanie": "Spoločnosť eviduje k 31.12.2025: (a) nezaplatenú faktúru za právne služby 4 000 € (zaúčtovaná 2025), (b) záväzok 20 000 € po splatnosti 400 dní (prvýkrát cez 360 dní), (c) účtovnú rezervu na bonusy 8 000 €, (d) prijatú oslobodenú dividendu 5 000 € zaúčtovanú do výnosov. Určte úpravy ZD za rok 2025.",
         "riesenie": "(a) +4 000 € pripočítateľná (§ 17 ods. 19). (b) +4 000 € pripočítateľná (20 % z 20 000, prvé pásmo § 17 ods. 27). (c) +8 000 € pripočítateľná (rezerva mimo § 20). (d) −5 000 € odpočítateľná (výnos, ktorý nie je zdaniteľným príjmom – trvalý rozdiel). Spolu: pripočítateľné +16 000 €, odpočítateľné −5 000 €."
       }
-    ]
+    ],
+    "riesenie": " Účtovné zachytenie (pre auditované ÚJ): splatná daň 591/341 zo ZD × sadzba DPPO 10/21/24 % (sadzba podľa zdaniteľných príjmov; bližšie ING I.2); odložená daň z dočasných rozdielov (rezerva +8 000 € a OP/odpisy) cez účty 481 (Odložený daňový záväzok/pohľadávka) a 592 (Odložená daň z príjmov) – pripočítateľná položka rezervy je odpočítateľný dočasný rozdiel → odložená daňová pohľadávka 8 000 × sadzba. Trvalý rozdiel (dividenda mimo predmetu) odloženú daň nevyvoláva."
   },
   "zdroje": [
     {

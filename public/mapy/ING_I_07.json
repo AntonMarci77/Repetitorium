@@ -32,7 +32,7 @@
             "nazov": "Krok 3a: vykázanie a ocenenie aktív a záväzkov"
           },
           {
-            "nazov": "Krok 3b: nekontrolujúci podiel (NCI / NP)"
+            "nazov": "Krok 3b: nekontrolujúci podiel (nekontrolný podiel (NP / NCI) / NCI)"
           },
           {
             "nazov": "Krok 4: goodwill alebo zisk z výhodnej kúpy"
@@ -67,7 +67,7 @@
             "nazov": "identifikovateľné aktíva a prevzaté záväzky v RH"
           },
           {
-            "nazov": "nekontrolujúci podiel (NCI / NP)"
+            "nazov": "nekontrolujúci podiel (NCI / NCI)"
           },
           {
             "nazov": "goodwill"
@@ -119,7 +119,7 @@
     "Podstata akvizičnej metódy a jej štyri kroky",
     "Krok 1 a 2: nadobúdateľ a deň akvizície",
     "Krok 3a: vykázanie a ocenenie aktív a záväzkov",
-    "Krok 3b: nekontrolujúci podiel (NCI / NP)",
+    "Krok 3b: nekontrolujúci podiel (NCI / NCI)",
     "Krok 4: goodwill alebo zisk z výhodnej kúpy",
     "Uplatnenie pri KÚZ a následný test goodwillu (IAS 36)"
   ]

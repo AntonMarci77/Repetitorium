@@ -5,8 +5,8 @@
   "cislo": 3,
   "nazov": "Prenájom dlhodobého hmotného majetku podľa právnej úpravy v SR a IFRS 16",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "SR: Postupy účtovania pre podnikateľov (opatrenie MF/23054/2002-92 v platnom znení; § 30a upravuje účtovanie finančného prenájmu u prenajímateľa aj u nájomcu, znenie naposledy upravené opatrením MF/013819/2025-74 s účinnosťou od 31. 12. 2025); zákon č. 595/2003 Z. z. o dani z príjmov v znení k 1. 1. 2026 (§ 2 písm. s) – finančný prenájom, § 24 ods. 2, § 27/§ 28 – odpisovanie prenajatého majetku štandardnými metódami po zrušení lízingových odpisov od r. 2015, § 29 – technické zhodnotenie); zákon č. 222/2004 Z. z. o DPH (§ 8 ods. 1 písm. c) a § 9 ods. 1 písm. b)); IFRS 16 Lízingy v znení nariadenia (EÚ) 2023/1803. Základná sadzba DPH 23 % (od 1. 1. 2025). Číselné hodnoty overené k máju 2026.",
+  "verzia": "1.2",
+  "stav_legislativy": "SR: Postupy účtovania pre podnikateľov (opatrenie MF/23054/2002-92 v platnom znení; § 30a upravuje účtovanie finančného prenájmu u prenajímateľa aj u nájomcu, znenie naposledy upravené opatrením MF/013819/2025-74 s účinnosťou od 31. 12. 2025); zákon č. 595/2003 Z. z. o dani z príjmov v znení k 1. 1. 2026 (§ 2 písm. s) – finančný prenájom, § 24 ods. 2, § 27/§ 28 – odpisovanie prenajatého majetku štandardnými metódami po zrušení lízingových odpisov od r. 2015, § 29 – technické zhodnotenie); zákon č. 222/2004 Z. z. o DPH (§ 8 ods. 1 písm. c) a § 9 ods. 1 písm. b)); IFRS 16 Lízingy v znení nariadenia (EÚ) 2023/1803. (Sadzba DPH 23 % od 1. 1. 2025 je relevantná len pre SR účtovanie a daňový/DPH režim lízingu; pre samotnú IFRS 16 problematiku nemá vplyv.) Číselné hodnoty overené k máju 2026. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "prenájom (nájom) DHM",
     "finančný prenájom (lízing)",
@@ -17,16 +17,16 @@
     "technické zhodnotenie u nájomcu (§ 29 ZDP)",
     "predčasné ukončenie finančného prenájmu",
     "IFRS 16",
-    "právo užívať aktívum (right-of-use, RoU)",
+    "aktívum z práva užívania (right-of-use, RoU; v texte tiež 'právo užívať aktívum')",
     "záväzok z lízingu",
     "krátkodobý lízing (≤ 12 mesiacov)",
     "lízing s nízkou hodnotou podkladového aktíva",
     "čistá investícia do lízingu"
   ],
-  "princip_mentalny_model": "Celá téza stojí na jednom kontraste. V SR sa pri DHM rozlišuje, KTO ekonomicky 'vlastní' predmet a KTO ho má v súvahe: pri finančnom prenájme je to nájomca (aktivuje majetok 042→022 a záväzok 474, odpisuje, splátku delí na istinu a úrok 562), pri operatívnom prenájme zostáva majetok u prenajímateľa a nájomca len účtuje nájomné do nákladov (518). Rozhodujúci je teda PRECHOD VLASTNÍCTVA / rizík a odmien. IFRS 16 toto rozlíšenie U NÁJOMCU ZRUŠIL: nájomca pri takmer každom lízingu vykáže 'právo užívať aktívum' (right-of-use) a 'záväzok z lízingu' v súčasnej hodnote splátok – mizne pojem operatívny vs. finančný lízing na strane nájomcu, končí 'off-balance-sheet' nájom. Dve výnimky (krátkodobý lízing do 12 mesiacov a lízing s nízkou hodnotou aktíva) sa správajú ako starý operatívny nájom – splátka rovno do nákladov. U PRENAJÍMATEĽA IFRS 16 rozlíšenie finančný vs. operatívny lízing PONECHÁVA (asymetria). Mentálny háčik: SR aj IFRS prenajímateľ = dva svety; nájomca = SR dva svety, IFRS jeden svet (RoU + záväzok) plus dve výnimky.",
+  "princip_mentalny_model": "Celá téza stojí na jednom kontraste. V SR sa pri DHM rozlišuje, KTO ekonomicky 'vlastní' predmet a KTO ho má v súvahe: pri finančnom prenájme je to nájomca (aktivuje majetok 042→022 a záväzok 474, odpisuje, splátku delí na istinu a úrok 562), pri operatívnom prenájme zostáva majetok u prenajímateľa a nájomca len účtuje nájomné do nákladov (518). Rozhodujúci je teda PRECHOD VLASTNÍCTVA / rizík a odmien. IFRS 16 toto rozlíšenie U NÁJOMCU ZRUŠIL: nájomca pri takmer každom lízingu vykáže aktívum z práva užívania (right-of-use, RoU; v texte tiež 'právo užívať aktívum') a 'záväzok z lízingu' v súčasnej hodnote splátok – mizne pojem operatívny vs. finančný lízing na strane nájomcu, končí 'off-balance-sheet' nájom. Dve výnimky (krátkodobý lízing do 12 mesiacov a lízing s nízkou hodnotou aktíva) sa správajú ako starý operatívny nájom – splátka rovno do nákladov. U PRENAJÍMATEĽA IFRS 16 rozlíšenie finančný vs. operatívny lízing PONECHÁVA (asymetria). Mentálny háčik: SR aj IFRS prenajímateľ = dva svety; nájomca = SR dva svety, IFRS jeden svet (RoU + záväzok) plus dve výnimky.",
   "jadro_odpovede_10min": {
     "cielova_dlzka_slov": 1450,
-    "uvod": "Prenájom je dvojstranný vzťah, v ktorom nájomca platí prenajímateľovi dohodnuté splátky za možnosť užívať predmet prenájmu. Pri dlhodobom hmotnom majetku rozlišujeme finančný prenájom (lízing), operatívny prenájom a spätný prenájom. Slovenská úprava (postupy účtovania, zákon o dani z príjmov a o DPH) aj IFRS 16 riešia rovnakú otázku – kto majetok vykáže v súvahe a ako sa rozdelí splátka – ale dospievajú k odlišnému výsledku najmä na strane nájomcu. Práve tento rozdiel je jadrom tézy.",
+    "uvod": "Prenájom je dvojstranný vzťah, v ktorom nájomca platí prenajímateľovi dohodnuté splátky za možnosť užívať predmet prenájmu. Pri dlhodobom hmotnom majetku rozlišujeme finančný prenájom (lízing), operatívny prenájom a spätný prenájom. Slovenská úprava (postupy účtovania, zákon o dani z príjmov a o DPH) aj IFRS 16 (vydaný v januári 2016, účinný v EÚ od 1. 1. 2019) riešia rovnakú otázku – kto majetok vykáže v súvahe a ako sa rozdelí splátka – ale dospievajú k odlišnému výsledku najmä na strane nájomcu. Práve tento rozdiel je jadrom tézy.",
     "casti": [
       {
         "nadpis": "Vymedzenie prenájmu DHM a jeho druhy (SR)",
@@ -58,7 +58,7 @@
       },
       {
         "nadpis": "Predčasné ukončenie finančného prenájmu (SR)",
-        "text": "Delí sa na ukončenie so zavinením nájomcu (predčasné odkúpenie, prevod zmluvy, odovzdanie predmetu pri platobnej neschopnosti, konkurz/reštrukturalizácia) a bez zavinenia (totálna škoda, krádež – predmet zaniká). U nájomcu: doodpísanie zostatkovej ceny (551 / 08x), vyradenie majetku (08x / účet majetku) a finančné vysporiadanie s prenajímateľom (474 / 325, prípadne náklad 548, resp. nárok 474 / 648 alebo 315). U prenajímateľa: prevzatie majetku späť (účet majetku / 325) a vysporiadanie pohľadávky (325 / 374, resp. 315 / 374, prípadne výnos 648)."
+        "text": "Delí sa na ukončenie so zavinením nájomcu (predčasné odkúpenie, prevod zmluvy, odovzdanie predmetu pri platobnej neschopnosti, konkurz/reštrukturalizácia) a bez zavinenia (totálna škoda, krádež – predmet zaniká). U nájomcu: doodpísanie zostatkovej ceny (551 / 08x), vyradenie majetku (08x / účet majetku) a finančné vysporiadanie s prenajímateľom (474 / 325, prípadne náklad 548, resp. nárok 474 / 648 alebo 315). U prenajímateľa: prevzatie majetku späť (účet majetku / 325) a vysporiadanie pohľadávky (325 / 374, resp. 315 / 374, prípadne výnos 648). IFRS 16 (ods. 44–46) rieši ukončenie a zmenu lízingu odlišne: pri zmene rozsahu (skrátenie doby, zníženie počtu aktív) nájomca čiastočne odúčtuje záväzok aj RoU v pomere, akým sa rozsah znížil, a rozdiel zaúčtuje do výsledku hospodárenia. Pri zmenách, ktoré nezmenia rozsah (napr. úprava splátok), sa záväzok prepočíta novou diskontnou sadzbou a rozdiel sa upraví proti RoU (nie do výsledku)."
       }
     ]
   },
@@ -134,7 +134,7 @@
     },
     {
       "nazov": "Tá istá linka podľa IFRS 16 (right-of-use + záväzok)",
-      "zadanie": "Rovnaká linka, doba lízingu 5 rokov, súčasná hodnota lízingových splátok (diskontovaná implicitnou mierou) = 60 000 €, počiatočné priame náklady nájomcu 0. Životnosť linky 6 rokov, prevod vlastníctva sa nepredpokladá. Implicitná úroková sadzba dáva v 1. roku úrok 3 000 €, zníženie záväzku 12 000 €.",
+      "zadanie": "Rovnaká linka, doba lízingu 5 rokov, súčasná hodnota lízingových splátok (diskontovaná implicitnou mierou) = 60 000 €, počiatočné priame náklady nájomcu 0. Životnosť linky 6 rokov, prevod vlastníctva sa nepredpokladá. Implicitná úroková sadzba zhruba 5 % p. a. (vyplýva z pomeru úrokov 3 000 € k istine 60 000 €) dáva v 1. roku úrok 3 000 €, zníženie záväzku 12 000 €.",
       "uctovanie": [
         {
           "rok": "Začiatok",
@@ -169,10 +169,10 @@
       "dopad_na_zd": "IFRS slúži na vykazovanie, nie na daň; daňový základ v SR sa riadi ZDP (odpisy § 27/§ 28 + úrok)."
     },
     {
-      "nazov": "Krátkodobý prenájom / nízka hodnota u nájomcu (IFRS 16 výnimka)",
-      "zadanie": "Spoločnosť si prenajme notebook za 30 €/mesiac na 10 mesiacov (krátkodobý lízing aj nízka hodnota). Uplatní výnimku z vykázania RoU.",
-      "riesenie": "Pri krátkodobom lízingu (doba ≤ 12 mesiacov, bez kúpnej opcie) alebo lízingu s nízkou hodnotou podkladového aktíva (posudzuje sa hodnota aktíva ako nového, v absolútnom vyjadrení; ako orientačný prah sa v Basis for Conclusions uvádza ~5 000 USD) sa nájomca MÔŽE rozhodnúť nevykázať RoU ani záväzok a splátky vykáže priamo do nákladov rovnomerne (alebo na inom systematickom základe). Účtovne sa to podobá starému operatívnemu nájmu. Krátkodobý lízing sa volí za celú triedu aktív; nízka hodnota sa môže uplatniť individuálne.",
-      "dopad_na_zd": "Náklad 30 € mesačne; bez aktivovania RoU a záväzku."
+      "nazov": "Krátkodobý prenájom vs. nízka hodnota u nájomcu (IFRS 16 výnimky)",
+      "zadanie": "Spoločnosť má dve zmluvy. (A) Prenájom notebooku za 30 €/mesiac na 10 mesiacov bez kúpnej opcie. (B) Dlhodobý 3-ročný prenájom kávovaru s obstarávacou hodnotou nového kávovaru ~3 000 €. V oboch prípadoch sa zvažuje uplatnenie výnimky z vykázania RoU.",
+      "riesenie": "Ide o dve ODLIŠNÉ výnimky IFRS 16 (ods. 5–8) s odlišnými podmienkami a odlišnou voľbou. (A) Krátkodobý lízing: doba lízingu ≤ 12 mesiacov pri dátume začiatku, bez kúpnej opcie; výnimka sa volí PRE CELÚ TRIEDU podkladového aktíva. Notebook 10 mes. bez opcie spĺňa — splátka 30 € rovnomerne do nákladov. (B) Lízing s nízkou hodnotou podkladového aktíva: posudzuje sa hodnota aktíva ako NOVÉHO v absolútnom vyjadrení (Basis for Conclusions uvádza orientačný prah ~5 000 USD); výnimka sa volí INDIVIDUÁLNE pre každý lízing. Kávovar v hodnote ~3 000 € spĺňa — splátky idú rovnomerne do nákladov. Pozor: ak je lízing krátkodobý, otázka nízkej hodnoty sa nerieši; ak nie je krátkodobý, môže sa ešte uplatniť výnimka nízkej hodnoty (ale s individuálnou voľbou). Tieto dve výnimky NIE sú zameniteľné.",
+      "dopad_na_zd": "(A) Náklad 30 €/mesiac priamo. (B) Splátky kávovaru priamo do nákladov rovnomerne. V oboch prípadoch bez aktivovania RoU a záväzku."
     },
     {
       "nazov": "Technické zhodnotenie prenajatej budovy u nájomcu (SR)",
@@ -315,18 +315,18 @@
     },
     {
       "otazka": "Ako oceňuje nájomca právo užívať aktívum (RoU) a záväzok podľa IFRS 16?",
-      "odpoved": "Záväzok = súčasná hodnota neuhradených splátok diskontovaná implicitnou (inak prírastkovou výpožičkovou) mierou. RoU = prvotné ocenenie záväzku + splátky uhradené k začiatku/pred ním (mínus stimuly) + počiatočné priame náklady + odhad nákladov na demontáž/obnovu.",
+      "odpoved": "Záväzok = súčasná hodnota neuhradených splátok diskontovaná implicitnou (inak prírastkovou výpožičkovou) mierou. RoU = prvotné ocenenie záväzku + splátky uhradené k začiatku/pred ním (mínus stimuly) + počiatočné priame náklady + DISKONTOVANÁ hodnota odhadovaných nákladov na demontáž/uvedenie do pôvodného stavu (IFRS 16.24(d)).",
       "moznosti": [
         "Záväzok = celková suma dohodnutých platieb vrátane úrokov; RoU = istina znížená o stimuly bez ďalších nákladov",
         "Záväzok = reálna hodnota podkladového aktíva ku dňu závierky; RoU = súčasná hodnota nezaručenej zostatkovej hodnoty",
-        "Záväzok = súčasná hodnota neuhradených splátok diskontovaná implicitnou (inak prírastkovou výpožičkovou) mierou. RoU = prvotné ocenenie záväzku + splátky uhradené k začiatku/pred ním (mínus stimuly) + počiatočné priame náklady + odhad nákladov na demontáž/obnovu",
+        "Záväzok = súčasná hodnota neuhradených splátok diskontovaná implicitnou (inak prírastkovou výpožičkovou) mierou. RoU = prvotné ocenenie záväzku + splátky uhradené k začiatku/pred ním (mínus stimuly) + počiatočné priame náklady + DISKONTOVANÁ hodnota odhadovaných nákladov na demontáž/uvedenie do pôvodného stavu (IFRS 16.24(d))",
         "Záväzok = istina u nájomcu bez diskontovania; RoU = istina navýšená o celé budúce úroky a daň z pridanej hodnoty"
       ],
       "spravna_index": 2,
       "spravne_indexy": [
         2
       ],
-      "vysvetlenie": "Záväzok = súčasná hodnota neuhradených splátok diskontovaná implicitnou (inak prírastkovou výpožičkovou) mierou. RoU = prvotné ocenenie záväzku + splátky uhradené k začiatku/pred ním (mínus stimuly) + počiatočné priame náklady + odhad nákladov na demontáž/obnovu."
+      "vysvetlenie": "Záväzok = súčasná hodnota neuhradených splátok diskontovaná implicitnou (inak prírastkovou výpožičkovou) mierou. RoU = prvotné ocenenie záväzku + splátky uhradené k začiatku/pred ním (mínus stimuly) + počiatočné priame náklady + DISKONTOVANÁ hodnota odhadovaných nákladov na demontáž/uvedenie do pôvodného stavu (IFRS 16.24(d))."
     },
     {
       "otazka": "Čo je čistá investícia do lízingu u prenajímateľa (IFRS 16)?",

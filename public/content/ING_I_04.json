@@ -5,8 +5,8 @@
   "cislo": 4,
   "nazov": "Výnosy zo zmlúv o predaji výkonov podľa IFRS 15",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "IFRS 15 Výnosy zo zmlúv so zákazníkmi v znení prijatom v EÚ (konsolidované nariadenie (EÚ) 2023/1803, konsolidovaný text k 30. 7. 2025). Doplnené Koncepčným rámcom finančného výkazníctva (IASB) a IAS 1. Overené k máju 2026.",
+  "verzia": "1.2",
+  "stav_legislativy": "IFRS 15 Výnosy zo zmlúv so zákazníkmi v znení prijatom v EÚ (konsolidované nariadenie (EÚ) 2023/1803, konsolidovaný text k 30. 7. 2025). Doplnené Koncepčným rámcom finančného výkazníctva (IASB) a IAS 1. Overené k máju 2026. · Druhé kolo kritickej revízie: 2026-05-27.",
   "klucove_pojmy": [
     "zmluva so zákazníkom",
     "5-krokový model (5-step model)",
@@ -18,11 +18,11 @@
     "vykázanie výnosu v určitom okamihu (point in time)",
     "premenlivá protihodnota",
     "významná zložka financovania",
-    "transakcie s vlastníkmi (Koncepčný rámec)",
+    "transakcie s vlastníkmi (mimo IFRS 15, podľa Koncepčného rámca)",
     "transakcie bez komerčnej podstaty",
     "predaj nefinančného majetku neobstarávaného za účelom predaja (IAS 1)"
   ],
-  "princip_mentalny_model": "IFRS 15 stojí na jednej hlavnej zásade: výnos vykazujem vtedy a v tej výške, ako prechádza KONTROLA nad tovarom alebo službou na zákazníka, a to v sume protihodnoty, na ktorú očakávam, že mi vznikne nárok. Starý prístup (IAS 18) sledoval prechod rizík a odmien; IFRS 15 sa pýta inak – KTO RIADI použitie aktíva a berie z neho úžitky? Celý štandard je jeden 5-krokový lievik: (1) je tu vôbec zmluva so zákazníkom (5 kritérií)? → (2) na čo presne sa zaviazujem – koľko je samostatných (odlišných) povinností plnenia? → (3) koľko za to celkovo dostanem (transakčná cena vrátane premenlivých zložiek)? → (4) ako tú cenu rozhodím medzi jednotlivé povinnosti (podľa samostatných predajných cien)? → (5) kedy každú povinnosť vykazujem – naraz v okamihu (point in time), alebo postupne v čase (over time)? Posledný krok je najdôležitejší a najčastejšie skúšaný: over time vykazujem len ak je splnené aspoň jedno z troch kritérií (zákazník súbežne spotrebúva úžitky / vytváram-vylepšujem aktívum pod jeho kontrolou / aktívum nemá pre mňa alternatívne použitie a mám vymožiteľné právo na platbu za doterajšie plnenie). Ak ani jedno – vykazujem v určitom okamihu. Mimo IFRS 15 stoja transakcie s vlastníkmi (rozdiel nad/pod férovú cenu nie je výnos/náklad, ale pohyb vlastného imania), transakcie bez komerčnej podstaty (nemenia budúce peňažné toky → bez výnosu) a predaj nefinančného majetku, ktorý ÚJ nedrží na predaj – ten ide cez IAS 1 ako čistý zisk/strata, nie ako hrubý výnos.",
+  "princip_mentalny_model": "IFRS 15 stojí na jednej hlavnej zásade: výnos vykazujem vtedy a v tej výške, ako prechádza KONTROLA nad tovarom alebo službou na zákazníka, a to v sume protihodnoty, na ktorú očakávam, že mi vznikne nárok. Starý prístup (IAS 18 pre predaj tovarov a služieb, IAS 11 pre dlhodobé zákazkové výroby) sledoval prechod rizík a odmien a percento dokončenia; IFRS 15 sa pýta inak – KTO RIADI použitie aktíva a berie z neho úžitky? Celý štandard je jeden 5-krokový lievik: (1) je tu vôbec zmluva so zákazníkom (5 kritérií)? → (2) na čo presne sa zaviazujem – koľko je samostatných (odlišných) povinností plnenia? → (3) koľko za to celkovo dostanem (transakčná cena vrátane premenlivých zložiek)? → (4) ako tú cenu rozhodím medzi jednotlivé povinnosti (podľa samostatných predajných cien)? → (5) kedy každú povinnosť vykazujem – naraz v okamihu (point in time), alebo postupne v čase (over time)? Posledný krok je najdôležitejší a najčastejšie skúšaný: over time vykazujem len ak je splnené aspoň jedno z troch kritérií (zákazník súbežne spotrebúva úžitky / vytváram-vylepšujem aktívum pod jeho kontrolou / aktívum nemá pre mňa alternatívne použitie a mám vymožiteľné právo na platbu za doterajšie plnenie). Ak ani jedno – vykazujem v určitom okamihu. Mimo IFRS 15 stoja transakcie s vlastníkmi (rozdiel nad/pod reálnu hodnotu (fair value) nie je výnos/náklad, ale pohyb vlastného imania), transakcie bez komerčnej podstaty (nemenia budúce peňažné toky → bez výnosu) a predaj nefinančného majetku, ktorý ÚJ nedrží na predaj – ten ide cez IAS 1 ako čistý zisk/strata, nie ako hrubý výnos.",
   "jadro_odpovede_10min": {
     "cielova_dlzka_slov": 1400,
     "uvod": "IFRS 15 Výnosy zo zmlúv so zákazníkmi je jednotný rámec pre vykazovanie výnosov, ktorý od roku 2018 nahradil IAS 18 a IAS 11. Hlavná zásada je, že účtovná jednotka vykazuje výnosy tak, aby zobrazila prevod prisľúbeného tovaru alebo služieb na zákazníka, a to v sume protihodnoty, pri ktorej očakáva, že jej na ňu vznikne nárok výmenou za daný tovar alebo služby. Kľúčovým pojmom už nie je prechod rizík a odmien, ale prechod KONTROLY nad aktívom. Štandard sa aplikuje cez päť krokov a osobitne rieši, kedy sa výnos vykazuje jednorazovo (v určitom okamihu) a kedy postupne (over time). Mimo jeho pôsobnosti zostávajú transakcie s vlastníkmi, transakcie bez komerčnej podstaty a predaj nefinančného majetku, ktorý ÚJ neobstaráva za účelom predaja.",
@@ -53,7 +53,7 @@
       },
       {
         "nadpis": "Over time vs. point in time – kritériá",
-        "text": "Výnos sa vykazuje POSTUPOM ČASU, ak je splnené aspoň jedno z troch kritérií: a) zákazník súbežne prijíma a spotrebúva úžitky z plnenia v rovnakom čase, ako ÚJ plní (typické opakujúce sa služby – upratovanie, prenájom, predplatné); b) plnením ÚJ vytvára alebo vylepšuje aktívum, ktoré zákazník KONTROLUJE počas jeho vytvárania (napr. stavba na pozemku zákazníka); c) aktívum nemá pre ÚJ alternatívne použitie A ÚJ má vymožiteľné právo na platbu za doteraz dokončené plnenie (zákazková výroba na mieru). Pokrok sa meria výstupovou alebo vstupovou metódou. Ak nie je splnené ANI JEDNO kritérium, povinnosť sa plní v URČITOM OKAMIHU – výnos sa vykáže naraz pri prevode kontroly. Indikátory prevodu kontroly v okamihu: ÚJ má platné právo na platbu, zákazník má vlastnícke právo, ÚJ previedla fyzickú držbu, zákazník prevzal významné riziká a odmeny, zákazník aktívum prevzal. Typický point in time: bežný predaj tovaru v obchode."
+        "text": "Výnos sa vykazuje POSTUPOM ČASU, ak je splnené aspoň jedno z troch kritérií: a) zákazník súbežne prijíma a spotrebúva úžitky z plnenia v rovnakom čase, ako ÚJ plní (typické opakujúce sa služby – upratovanie, prenájom, predplatné); b) plnením ÚJ vytvára alebo vylepšuje aktívum, ktoré zákazník KONTROLUJE počas jeho vytvárania (napr. stavba na pozemku zákazníka); c) aktívum nemá pre ÚJ alternatívne použitie A ÚJ má vymožiteľné právo na platbu za doteraz dokončené plnenie (zákazková výroba na mieru). Pokrok sa meria výstupovou alebo vstupovou metódou. Ak nie je splnené ANI JEDNO kritérium, povinnosť sa plní v URČITOM OKAMIHU – výnos sa vykáže naraz pri prevode kontroly. Indikátory prevodu kontroly v okamihu: ÚJ má platné právo na platbu, zákazník má vlastnícke právo, ÚJ previedla fyzickú držbu, zákazník prevzal významné riziká a odmeny, zákazník aktívum prevzal. Typický point in time: bežný predaj tovaru v obchode. Mapovanie troch kritérií na typické scenáre: kritérium (a) — opakujúce sa služby (upratovanie, prenájom, predplatné, údržba); kritérium (b) — výstavba na pozemku zákazníka, oprava majetku zákazníka, prerábka v cudzom priestore; kritérium (c) — zákazková výroba na mieru bez alternatívneho použitia (špecifický stroj, softvér vyvíjaný pre konkrétneho klienta), kombinovaná s vymožiteľným právom na platbu za doterajšie plnenie."
       },
       {
         "nadpis": "Stanovenie výšky výnosu v bežnom období",
@@ -61,7 +61,7 @@
       },
       {
         "nadpis": "Transakcie mimo IFRS 15",
-        "text": "TRANSAKCIE S VLASTNÍKMI (podľa Koncepčného rámca): ak vlastník predá ÚJ majetok za cenu vyššiu než férová, suma nad férovú hodnotu nie je výnosom – ide o pohyb (rozdelenie/vklad) vo vlastnom imaní, lebo náklad/výnos je definovaný ako zmena imania INÁ než transakcie s vlastníkmi v ich úlohe vlastníka (napr. aj výplata dividend znižuje VI, nie je nákladom). TRANSAKCIE BEZ KOMERČNEJ PODSTATY: nepeňažné výmeny, ktoré významne nemenia riziko, načasovanie ani sumu budúcich peňažných tokov (typicky medzi spriaznenými osobami) – nevykazuje sa z nich výnos. PREDAJ NEFINANČNÉHO MAJETKU NEOBSTARÁVANÉHO NA PREDAJ (IAS 1): pri predaji DM, ktorý ÚJ nedrží na predaj v rámci bežnej činnosti, sa nevykazuje hrubý výnos, ale len ČISTÝ zisk/strata = rozdiel medzi prijatou protihodnotou a účtovnou (zostatkovou) hodnotou majetku."
+        "text": "TRANSAKCIE S VLASTNÍKMI (podľa Koncepčného rámca): ak vlastník predá ÚJ majetok za cenu vyššiu než reálna, suma nad reálnu hodnotu nie je výnosom – ide o pohyb (rozdelenie/vklad) vo vlastnom imaní, lebo náklad/výnos je definovaný ako zmena imania INÁ než transakcie s vlastníkmi v ich úlohe vlastníka (napr. aj výplata dividend znižuje VI, nie je nákladom). TRANSAKCIE BEZ KOMERČNEJ PODSTATY: nepeňažné výmeny, ktoré významne nemenia riziko, načasovanie ani sumu budúcich peňažných tokov (typicky medzi spriaznenými osobami) – nevykazuje sa z nich výnos. PREDAJ NEFINANČNÉHO MAJETKU NEOBSTARÁVANÉHO NA PREDAJ (IAS 1): pri predaji DM, ktorý ÚJ nedrží na predaj v rámci bežnej činnosti, sa nevykazuje hrubý výnos, ale len ČISTÝ zisk/strata = rozdiel medzi prijatou protihodnotou a účtovnou (zostatkovou) hodnotou majetku."
       },
       {
         "zaver": "Odpoveď možno zhrnúť: IFRS 15 vykazuje výnos podľa prechodu KONTROLY cez 5 krokov – zmluva, povinnosti plnenia, transakčná cena, alokácia, vykázanie. Rozhodujúci je 5. krok: over time len pri splnení aspoň jedného z troch kritérií, inak point in time. A treba vedieť, čo do IFRS 15 nepatrí – transakcie s vlastníkmi, transakcie bez komerčnej podstaty a predaj prevádzkového majetku (IAS 1, vykazovaný čistým ziskom/stratou)."
@@ -87,7 +87,7 @@
     },
     {
       "nadpis": "Náklady na zmluvu",
-      "text": "IFRS 15 rieši aj kapitalizáciu nákladov: prírastkové náklady na získanie zmluvy (napr. provízia obchodníka) sa aktivujú, ak ÚJ očakáva ich návratnosť, a odpisujú sa systematicky v súlade s prevodom tovarov/služieb. Náklady na splnenie zmluvy sa aktivujú, ak súvisia priamo so zmluvou, vytvárajú/zlepšujú zdroje na budúce plnenie a očakáva sa ich návratnosť."
+      "text": "IFRS 15 rieši aj kapitalizáciu nákladov: prírastkové náklady na získanie zmluvy (napr. provízia obchodníka) sa aktivujú, ak ÚJ očakáva ich návratnosť, a odpisujú sa systematicky v súlade s prevodom tovarov/služieb. Náklady na splnenie zmluvy sa aktivujú, ak súvisia priamo so zmluvou, vytvárajú/zlepšujú zdroje na budúce plnenie a očakáva sa ich návratnosť. Praktická výnimka (IFRS 15.94): ak by aktivované prírastkové náklady na získanie zmluvy mali amortizačné obdobie kratšie alebo rovné 1 roku, ÚJ ich môže namiesto kapitalizácie vykázať priamo do nákladov."
     }
   ],
   "priklady": [
@@ -100,7 +100,7 @@
     {
       "nazov": "Over time vs. point in time (zákazková výroba na mieru)",
       "zadanie": "STAVCONS buduje špecializovanú výrobnú halu na pozemku zákazníka, zmluvná cena 1 000 000 €, výstavba 2025–2026. K 31. 12. 2025 je rozostavanosť 40 %, ÚJ má vymožiteľné právo na platbu za doterajšie plnenie.",
-      "riesenie": "Aktívum (hala na cudzom pozemku) zákazník kontroluje počas vytvárania – splnené kritérium b) over time; navyše plnenie nemá pre ÚJ alternatívne použitie a je vymožiteľné právo na platbu – kritérium c). Výnos sa preto vykazuje POSTUPOM ČASU podľa pokroku. Výnos 2025 = 40 % × 1 000 000 = 400 000 €. Keby išlo o typový tovar zo skladu predaný naraz, žiadne z troch kritérií by nebolo splnené → point in time, výnos celý pri odovzdaní.",
+      "riesenie": "Aktívum (hala na cudzom pozemku) zákazník kontroluje počas vytvárania – splnené kritérium b) over time. (Kritérium c) by sa zvažovalo len pri zákazkovej výrobe BEZ alternatívneho použitia + vymožiteľnom práve na platbu, čo je v typickej výstavbe na pozemku zákazníka prekrytie skôr výnimočné — preto sa štandardne uvádza len jedno aplikovateľné kritérium.) Výnos sa preto vykazuje POSTUPOM ČASU podľa pokroku. Výnos 2025 = 40 % × 1 000 000 = 400 000 €. Keby išlo o typový tovar zo skladu predaný naraz, žiadne z troch kritérií by nebolo splnené → point in time, výnos celý pri odovzdaní.",
       "dopad_na_zd": "2025: výnos 400 000 € (over time); zvyšok 600 000 € v 2026 podľa dokončenia."
     },
     {
@@ -110,9 +110,9 @@
       "dopad_na_zd": "Výnos za Q1: 27 000 € + záväzok z predpokladanej zľavy 3 000 €."
     },
     {
-      "nazov": "Transakcia s vlastníkom (nad férovú cenu)",
-      "zadanie": "Spoločník predá svojej s.r.o. tovar, ktorého férová (trhová) cena je 50 000 €, za 70 000 €.",
-      "riesenie": "Podľa Koncepčného rámca: do výnosov/nákladov patrí len zmena imania INÁ než transakcie s vlastníkmi. ÚJ vykáže náklad na obstaranie len v reálnej hodnote 50 000 €; rozdiel 20 000 € (suma nad férovú cenu) sa nevykazuje ako náklad, ale ako transakcia s vlastníkom – zníženie vlastného imania (rozdelenie vlastníkovi). Analogicky pri predaji vlastníkovi pod cenu by rozdiel bol vkladom do VI.",
+      "nazov": "Transakcia s vlastníkom (nad reálnu hodnotu)",
+      "zadanie": "Spoločník predá svojej s.r.o. tovar, ktorého reálna (trhová) hodnota je 50 000 €, za 70 000 €.",
+      "riesenie": "Podľa Koncepčného rámca: do výnosov/nákladov patrí len zmena imania INÁ než transakcie s vlastníkmi. ÚJ vykáže náklad na obstaranie len v reálnej hodnote 50 000 €; rozdiel 20 000 € (suma nad reálnu hodnotu) sa nevykazuje ako náklad, ale ako transakcia s vlastníkom – zníženie vlastného imania (rozdelenie vlastníkovi). Analogicky pri predaji vlastníkovi pod cenu by rozdiel bol vkladom do VI.",
       "dopad_na_zd": "Náklad max 50 000 €; 20 000 € = pohyb vo vlastnom imaní, nie výsledkový."
     },
     {
@@ -227,18 +227,18 @@
     },
     {
       "otazka": "Čo je transakcia s vlastníkom a prečo nie je výnosom/nákladom?",
-      "odpoved": "Predaj/nákup medzi ÚJ a vlastníkom za cenu odlišnú od férovej; rozdiel nad/pod férovú cenu je vkladom alebo rozdelením vo vlastnom imaní, pretože náklad/výnos je definovaný ako zmena imania iná než transakcie s vlastníkmi v ich úlohe vlastníka.",
+      "odpoved": "Predaj/nákup medzi ÚJ a vlastníkom za cenu odlišnú od reálnej; rozdiel nad/pod reálnu hodnotu je vkladom alebo rozdelením vo vlastnom imaní, pretože náklad/výnos je definovaný ako zmena imania iná než transakcie s vlastníkmi v ich úlohe vlastníka.",
       "moznosti": [
-        "Predaj/nákup medzi ÚJ a vlastníkom za cenu odlišnú od férovej; rozdiel nad/pod férovú cenu je vkladom alebo rozdelením vo vlastnom imaní, lebo náklad/výnos je definovaný ako zmena imania iná než transakcie s vlastníkmi v ich úlohe vlastníka.",
-        "Predaj/nákup medzi ÚJ a vlastníkom za férovú cenu; celá suma je výnosom/nákladom, pretože vlastník vystupuje ako bežný zákazník podľa IFRS 15.",
+        "Predaj/nákup medzi ÚJ a vlastníkom za cenu odlišnú od reálnej; rozdiel nad/pod reálnu hodnotu je vkladom alebo rozdelením vo vlastnom imaní, lebo náklad/výnos je definovaný ako zmena imania iná než transakcie s vlastníkmi v ich úlohe vlastníka.",
+        "Predaj/nákup medzi ÚJ a vlastníkom za reálnu hodnotu; celá suma je výnosom/nákladom, pretože vlastník vystupuje ako bežný zákazník podľa IFRS 15.",
         "Bezodplatný prevod majetku medzi spriaznenými osobami; celý rozdiel sa vykáže výsledkovo ako mimoriadny náklad alebo výnos.",
-        "Predaj medzi dvoma dcérami tej istej matky; rozdiel nad férovú cenu sa vykáže ako goodwill a testuje sa na zníženie hodnoty."
+        "Predaj medzi dvoma dcérami tej istej matky; rozdiel nad reálnu hodnotu sa vykáže ako goodwill a testuje sa na zníženie hodnoty."
       ],
       "spravna_index": 0,
       "spravne_indexy": [
         0
       ],
-      "vysvetlenie": "Predaj/nákup medzi ÚJ a vlastníkom za cenu odlišnú od férovej; rozdiel nad/pod férovú cenu je vkladom alebo rozdelením vo vlastnom imaní, pretože náklad/výnos je definovaný ako zmena imania iná než transakcie s vlastníkmi v ich úlohe vlastníka."
+      "vysvetlenie": "Predaj/nákup medzi ÚJ a vlastníkom za cenu odlišnú od reálnej; rozdiel nad/pod reálnu hodnotu je vkladom alebo rozdelením vo vlastnom imaní, pretože náklad/výnos je definovaný ako zmena imania iná než transakcie s vlastníkmi v ich úlohe vlastníka."
     }
   ],
   "pasce_caste_chyby": [
@@ -246,7 +246,7 @@
     "Vykazovať over time automaticky pri dlhodobých zmluvách – over time platí LEN ak je splnené aspoň jedno z troch kritérií, inak point in time.",
     "Zabudnúť, že kritériá over time stačí splniť aspoň jedno, nie všetky tri.",
     "Vykazovať hrubý výnos pri predaji prevádzkového majetku (auto, stroj) – ide o čistý zisk/stratu podľa IAS 1.",
-    "Pri transakcii s vlastníkom nad férovú cenu vykázať celú sumu ako náklad/výnos – časť nad férovú cenu je pohyb vlastného imania.",
+    "Pri transakcii s vlastníkom nad reálnu hodnotu vykázať celú sumu ako náklad/výnos – časť nad reálnu hodnotu je pohyb vlastného imania.",
     "Zahrnúť do transakčnej ceny sumy vybrané v mene tretích strán (DPH).",
     "Považovať administratívne úkony na prípravu zmluvy za samostatnú povinnosť plnenia.",
     "Pri zástupcovi (agent) vykázať hrubú sumu namiesto len provízie."
@@ -298,7 +298,7 @@
         "vysvetlenie": "Majetok nie je obstaraný na predaj, preto sa neuplatní IFRS 15; podľa IAS 1 sa vykáže len čistý zisk/strata z vyradenia = 8 000 − 6 500 = 1 500 €."
       },
       {
-        "otazka": "Vlastník predá svojej s.r.o. tovar za 70 000 €, jeho férová cena je 50 000 €. Suma 20 000 € nad férovú cenu sa vykáže ako:",
+        "otazka": "Vlastník predá svojej s.r.o. tovar za 70 000 €, jeho reálna hodnota je 50 000 €. Suma 20 000 € nad reálnu hodnotu sa vykáže ako:",
         "moznosti": [
           "náklad ÚJ",
           "výnos ÚJ",
@@ -306,7 +306,7 @@
           "rezerva"
         ],
         "spravna_index": 2,
-        "vysvetlenie": "Podľa Koncepčného rámca je náklad/výnos zmena imania iná než transakcie s vlastníkmi; rozdiel nad férovú cenu je rozdelenie vlastníkovi → pohyb vo vlastnom imaní."
+        "vysvetlenie": "Podľa Koncepčného rámca je náklad/výnos zmena imania iná než transakcie s vlastníkmi; rozdiel nad reálnu hodnotu je rozdelenie vlastníkovi → pohyb vo vlastnom imaní."
       },
       {
         "otazka": "Ktorá zmluva je vyňatá z pôsobnosti IFRS 15?",
@@ -331,7 +331,7 @@
       },
       {
         "otazka": "Ktoré transakcie nepatria do IFRS 15 a ako sa vykazujú?",
-        "vzorova_odpoved": "Transakcie s vlastníkmi (rozdiel nad/pod férovú cenu = pohyb vo vlastnom imaní podľa Koncepčného rámca), transakcie bez komerčnej podstaty (nemenia budúce peňažné toky → bez výnosu) a predaj nefinančného majetku neobstarávaného na predaj (IAS 1 → vykáže sa len čistý zisk/strata z vyradenia, nie hrubý výnos)."
+        "vzorova_odpoved": "Transakcie s vlastníkmi (rozdiel nad/pod reálnu hodnotu = pohyb vo vlastnom imaní podľa Koncepčného rámca), transakcie bez komerčnej podstaty (nemenia budúce peňažné toky → bez výnosu) a predaj nefinančného majetku neobstarávaného na predaj (IAS 1 → vykáže sa len čistý zisk/strata z vyradenia, nie hrubý výnos)."
       }
     ],
     "priklad": [

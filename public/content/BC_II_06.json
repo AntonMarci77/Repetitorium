@@ -5,8 +5,8 @@
   "cislo": 6,
   "nazov": "Fyzická osoba – podnikateľ",
   "cas_na_odpoved_min": 10,
-  "verzia": "1.0",
-  "stav_legislativy": "Znenie ZDP č. 595/2003 Z. z. účinné k 1. 1. 2026 (tretí konsolidačný balík – zákon č. 261/2025 Z. z.). Sadzby a sumy 2025 aj 2026 overené k máju 2026 (financnasprava.sk, Podnikajte.sk). POZOR: od 1. 1. 2026 platia pri pasívnych a závislých príjmoch FO ŠTYRI progresívne pásma 19/25/30/35 % (predtým 19/25 %).",
+  "verzia": "1.2",
+  "stav_legislativy": "Znenie ZDP č. 595/2003 Z. z. účinné k 1. 1. 2026 (tretí konsolidačný balík – zákon č. 261/2025 Z. z.). Sadzby a sumy 2025 aj 2026 overené k máju 2026 (financnasprava.sk, Podnikajte.sk). POZOR: od 1. 1. 2026 platia pri pasívnych a závislých príjmoch FO ŠTYRI progresívne pásma 19/25/30/35 % (predtým 19/25 %). Druhé kolo revízie (máj 2026, Klaster E – Dane): opravené N-01 (91,8× ŽM jednoznačne), N-02 (§ 7 nie celé zrážkou), N-03 (kľúčový pojem 100 000 €), N-04 (nulový bod NČZD 154,8× ŽM), N-05/ID 273 (DPH 50 000/62 500 €), N-06 (pasca 15 % vs. progresia pri 100 000 €), N-07 (dopočet dane v príklade), N-08 (JÚ v zadaní), N-09/ID 155 (paušál § 6 ods. 4 = 60 %/20 000 €).",
   "klucove_pojmy": [
     "fyzická osoba – podnikateľ (živnostník, SHR, slobodné povolanie)",
     "obchodný register / živnostenský register",
@@ -24,7 +24,8 @@
     "paušálne výdavky (§ 6 ods. 10 – 60 %, max 20 000 €)",
     "daňová evidencia (§ 6 ods. 11)",
     "nezdaniteľné časti základu dane (§ 11)",
-    "daňový bonus na dieťa"
+    "daňový bonus na dieťa",
+    "limit 100 000 € zdaniteľných príjmov pre sadzbu 15 % (§ 15 ZDP)"
   ],
   "princip_mentalny_model": "Daň z príjmov FO je 'krájaná podľa zdroja príjmu'. Najprv si predstav FO ako podnikateľa, ktorý vznikol zápisom (živnosť, OR, register) a má povinnosti pri ŠTARTE (registrácia na DÚ, Sociálnej poisťovni, zdravotnej poisťovni) aj pri SKONČENÍ (zrušenie oprávnenia, odhlásenie, posledné daňové priznanie, úprava základu dane o zásoby a pohľadávky). Daňové bremeno FO tvoria dve vetvy: PRIAME dane (znášajú sa priamo z príjmu/majetku – DPFO, miestne dane) a NEPRIAME dane (sú v cene tovaru – DPH, spotrebné dane; FO ich len preposiela štátu). Jadro je výpočet DPFO: príjmy sa rozdelia do štyroch 'priehradiek' (§ 5 závislá činnosť, § 6 podnikanie/prenájom/dielo, § 7 kapitálový majetok, § 8 ostatné). Z § 5, § 6 a § 8 vznikajú ČIASTKOVÉ základy dane (ČZD), ktoré sa SČÍTAVAJÚ do jedného základu dane a zdania progresívne. § 7 je OSOBITNÝ základ dane (OZD) – stojí bokom, NESČÍTAVA sa s ostatnými, zdaňuje sa sadzbou 19 % (často zrážkou). Kľúčová finta § 6: výdavky si môžem uplatniť tromi spôsobmi – skutočné (účtovníctvo), paušálne (60 %, strop 20 000 €), alebo cez daňovú evidenciu. Voľba spôsobu výdavkov priamo určuje výšku ČZD, a tým daň aj odvody.",
   "jadro_odpovede_10min": {
@@ -53,7 +54,7 @@
       },
       {
         "nadpis": "ČZD zo závislej činnosti (§ 5) a OZD z kapitálového majetku (§ 7)",
-        "text": "Príjmy zo ZÁVISLEJ ČINNOSTI (§ 5) sú príjmy z pracovnoprávneho, štátnozamestnaneckého, služobného či členského pomeru a obdobných vzťahov, v ktorých je daňovník povinný dodržiavať pokyny platiteľa (mzda, odmeny z dohôd, nepeňažné benefity). ČZD = úhrn zdaniteľných príjmov mínus povinné poistné zamestnanca (sociálne a zdravotné odvody). Tento ČZD vstupuje do súčtového základu dane a je z neho možné odpočítať NČZD. Naproti tomu KAPITÁLOVÝ MAJETOK (§ 7) – úroky a výnosy z cenných papierov, úroky z vkladov a poskytnutých pôžičiek, dávky z DDS a pod. – tvorí OSOBITNÝ základ dane. Zdaňuje sa sadzbou 19 % a vo väčšine prípadov sa daň vyberá zrážkou (§ 43) priamo platiteľom (napr. banka pri kreditných úrokoch); takýto príjem je tým daňovo vysporiadaný a do daňového priznania sa už spravidla neuvádza. OZD sa NESČÍTAVA s ostatnými ČZD."
+        "text": "Príjmy zo ZÁVISLEJ ČINNOSTI (§ 5) sú príjmy z pracovnoprávneho, štátnozamestnaneckého, služobného či členského pomeru a obdobných vzťahov, v ktorých je daňovník povinný dodržiavať pokyny platiteľa (mzda, odmeny z dohôd, nepeňažné benefity). ČZD = úhrn zdaniteľných príjmov mínus povinné poistné zamestnanca (sociálne a zdravotné odvody). Tento ČZD vstupuje do súčtového základu dane a je z neho možné odpočítať NČZD. Naproti tomu KAPITÁLOVÝ MAJETOK (§ 7) – úroky a výnosy z cenných papierov, úroky z vkladov a poskytnutých pôžičiek, dávky z DDS a pod. – tvorí OSOBITNÝ základ dane. Zdaňuje sa sadzbou 19 %. Úroky z tuzemských vkladov v banke, dávky z DDS, výnosy z dlhopisov sú spravidla vyberané zrážkou (§ 43) priamo platiteľom – takýto príjem je daňovo vysporiadaný a do daňového priznania sa už neuvádza. Iné príjmy podľa § 7 (napr. úroky z poskytnutých pôžičiek, vybrané zahraničné kapitálové príjmy) sa však vysporiadavajú v daňovom priznaní v rámci OZD so sadzbou 19 %. OZD sa NESČÍTAVA s ostatnými ČZD."
       },
       {
         "nadpis": "ČZD z ostatných príjmov (§ 8)",
@@ -83,7 +84,7 @@
     },
     {
       "nadpis": "Nezdaniteľné časti základu dane (§ 11)",
-      "text": "NČZD znižujú len ČZD z aktívnych príjmov – zo závislej činnosti (§ 5) a z podnikania a SZČ (§ 6 ods. 1 a 2); pasívne príjmy (§ 6 ods. 3 a 4, § 8) ani OZD (§ 7) sa o NČZD znížiť nedajú. NČZD na daňovníka = 21-násobok ŽM (2025: 5 753,79 €; 2026: 5 966,73 €), pri vyššom ZD (nad 92,8-násobok... presnejšie nad 91,8-násobok ŽM) sa kráti podľa vzorca 51,6-násobok − 1/3 ZD a pri vysokom ZD klesne na nulu. Ďalej NČZD na manžela/manželku a príspevky na DDS (III. pilier) do 180 € ročne. Pri paušálnych výdavkoch sa NČZD uplatniť dá – uplatňujú sa na ČZD."
+      "text": "NČZD znižujú len ČZD z aktívnych príjmov – zo závislej činnosti (§ 5) a z podnikania a SZČ (§ 6 ods. 1 a 2); pasívne príjmy (§ 6 ods. 3 a 4, § 8) ani OZD (§ 7) sa o NČZD znížiť nedajú. NČZD na daňovníka = 21-násobok ŽM (2025: 5 753,79 €; 2026: 5 966,73 €), pri vyššom ZD (nad 91,8-násobok ŽM) sa kráti podľa vzorca 51,6-násobok − 1/3 ZD a pri vysokom ZD klesne na nulu (NČZD = 0 pri ZD ≥ 154,8× ŽM = 42 413,65 € v 2025; 43 983,32 € v 2026). Ďalej NČZD na manžela/manželku a príspevky na DDS (III. pilier) do 180 € ročne. Pri paušálnych výdavkoch sa NČZD uplatniť dá – uplatňujú sa na ČZD."
     },
     {
       "nadpis": "Daňový bonus na dieťa",
@@ -120,7 +121,7 @@
     {
       "nazov": "Skladba základu dane z viacerých druhov príjmov (§ 5 + § 6 + § 7 + § 8)",
       "zadanie": "FO mala v roku 2026: mzdu – ČZD § 5 = 12 000 €; živnosť – ČZD § 6 ods. 1 = 8 000 €; úroky z vkladu v banke 200 € (§ 7, daň zrazená bankou); príjem z predaja nehnuteľnosti (neoslobodený) – ČZD § 8 = 5 000 €.",
-      "riesenie": "Súčtový základ dane = aktívne (§ 5 + § 6/1) 12 000 + 8 000 = 20 000 € + pasívne (§ 8) 5 000 € = 25 000 €. Úroky 200 € (§ 7) sú OSOBITNÝ základ dane – už zdanené zrážkou 19 % bankou, do daňového priznania sa nezahŕňajú a NESČÍTAVAJÚ sa. NČZD znižuje len aktívnu časť (12 000 + 8 000 = 20 000 €). Pozn.: ak by celkový príjem zo živnosti presiahol 100 000 €, sadzba pre živnosť by bola progresívna namiesto 15 %.",
+      "riesenie": "Súčtový základ dane = aktívne (§ 5 + § 6/1) 12 000 + 8 000 = 20 000 € + pasívne (§ 8) 5 000 € = 25 000 €. Úroky 200 € (§ 7) sú OSOBITNÝ základ dane – už zdanené zrážkou 19 % bankou, do daňového priznania sa nezahŕňajú a NESČÍTAVAJÚ sa. NČZD znižuje len aktívnu časť (12 000 + 8 000 = 20 000 €). Pozn.: ak by celkový príjem zo živnosti presiahol 100 000 €, sadzba pre živnosť by bola progresívna namiesto 15 %. Dopočet po NČZD: NČZD na daňovníka 2026 = 5 966,73 € (ZD 25 000 € ≤ 91,8× ŽM → plná suma) – znižuje aktívnu časť 20 000 €; aktívna časť po NČZD = 14 033,27 € + pasívna § 8 = 5 000 € → ZD po znížení 19 033,27 €. Pri jednotnej sadzbe 19 % je daň ≈ 19 033,27 × 19 % = 3 616,32 €. (Ak by mala SZČO obrat ≤ 100 000 €, pre § 6/1 časť by platila 15 %; pre § 5 a § 8 zostáva pásmo 19 %.)",
       "dopad_na_zd": "Súčtový ZD = 25 000 € (NČZD len z 20 000 € aktívnej časti) ; OZD § 7 = 200 € (samostatne, zrážka 19 %, mimo priznania)."
     },
     {
@@ -145,10 +146,10 @@
   "caste_doplnujuce_otazky": [
     {
       "otazka": "Aké povinnosti má FO pri začatí podnikania?",
-      "odpoved": "Získať oprávnenie (ohlásenie živnosti / zápis do registra), registrácia na daň z príjmov u správcu dane (cez JKM), prihlásenie do zdravotnej poisťovne do 8 dní, prípadné poistenie v Sociálnej poisťovni od 1. 7. nasledujúceho roka pri prekročení limitu, a registrácia na DPH pri obrate nad 50 000 €.",
+      "odpoved": "Získať oprávnenie (ohlásenie živnosti / zápis do registra), registrácia na daň z príjmov u správcu dane (cez JKM), prihlásenie do zdravotnej poisťovne do 8 dní, prípadné poistenie v Sociálnej poisťovni od 1. 7. nasledujúceho roka pri prekročení limitu, a registrácia na DPH pri obrate nad 50 000 € za kalendárny rok (platiteľom od 1. 1. nasledujúceho roka); pri prekročení 62 500 € v prebiehajúcom roku sa subjekt stáva platiteľom hneď dodaním, ktorým limit prekročí.",
       "moznosti": [
         "Stačí prihlásiť sa do Sociálnej poisťovne do 8 dní; registrácia na daň z príjmov ani zdravotné poistenie sa pri začatí nevyžadujú.",
-        "Získať oprávnenie (ohlásenie živnosti / zápis do registra), registrácia na daň z príjmov (cez JKM), prihlásenie do zdravotnej poisťovne do 8 dní, poistenie v Sociálnej poisťovni od 1. 7. nasledujúceho roka pri prekročení limitu a registrácia na DPH pri obrate nad 50 000 €.",
+        "Získať oprávnenie (ohlásenie živnosti / zápis do registra), registrácia na daň z príjmov (cez JKM), prihlásenie do zdravotnej poisťovne do 8 dní, poistenie v Sociálnej poisťovni od 1. 7. nasledujúceho roka pri prekročení limitu a registrácia na DPH pri obrate nad 50 000 € za kalendárny rok; pri prekročení 62 500 € v prebiehajúcom roku sa stáva platiteľom hneď dodaním, ktorým limit prekročí.",
         "Získať oprávnenie, registrovať sa na DPH ihneď bez ohľadu na obrat a povinne sa prihlásiť do Sociálnej poisťovne už od prvého dňa podnikania.",
         "Len ohlásiť živnosť na živnostenskom úrade; všetky daňové a odvodové registrácie vykoná správca dane automaticky bez súčinnosti podnikateľa."
       ],
@@ -156,7 +157,7 @@
       "spravne_indexy": [
         1
       ],
-      "vysvetlenie": "Získať oprávnenie (ohlásenie živnosti / zápis do registra), registrácia na daň z príjmov u správcu dane (cez JKM), prihlásenie do zdravotnej poisťovne do 8 dní, prípadné poistenie v Sociálnej poisťovni od 1. 7. nasledujúceho roka pri prekročení limitu, a registrácia na DPH pri obrate nad 50 000 €."
+      "vysvetlenie": "Získať oprávnenie (ohlásenie živnosti / zápis do registra), registrácia na daň z príjmov u správcu dane (cez JKM), prihlásenie do zdravotnej poisťovne do 8 dní, prípadné poistenie v Sociálnej poisťovni od 1. 7. nasledujúceho roka pri prekročení limitu, a registrácia na DPH pri obrate nad 50 000 € za kalendárny rok (platiteľom od 1. 1. nasledujúceho roka); pri prekročení 62 500 € v prebiehajúcom roku sa subjekt stáva platiteľom hneď dodaním, ktorým limit prekročí."
     },
     {
       "otazka": "Čo musí FO daňovo vysporiadať pri skončení podnikania?",
@@ -235,18 +236,18 @@
     },
     {
       "otazka": "Dá sa paušál uplatniť pri príjmoch z prenájmu (§ 6 ods. 3)?",
-      "odpoved": "Nie. Pri prenájme nehnuteľností (§ 6 ods. 3) sa paušálne výdavky uplatniť nedajú – len skutočné výdavky alebo daňová evidencia. Paušál je možný len pri § 6 ods. 1, 2 a samostatne pri ods. 4 (použitie diela).",
+      "odpoved": "Nie. Pri prenájme nehnuteľností (§ 6 ods. 3) sa paušálne výdavky uplatniť nedajú – len skutočné výdavky alebo daňová evidencia. Paušál je možný len pri § 6 ods. 1, 2 a samostatne pri ods. 4 (použitie diela). Pre § 6 ods. 4 platí paušál vo výške 60 % z príjmov, maximálne 20 000 € ročne (rovnaké percento a strop ako pre § 6 ods. 1 a 2, ale uplatňujú sa samostatne; § 6 ods. 10 ZDP, znenie účinné k 1. 1. 2026).",
       "moznosti": [
         "Áno. Pri prenájme nehnuteľností (§ 6 ods. 3) sa paušál uplatniť dá vo výške 60 % z príjmov, najviac 20 000 € ročne.",
         "Áno. Pri prenájme (§ 6 ods. 3) sa uplatní paušál 40 % z príjmov, ak prenajímateľ nie je platiteľom DPH.",
-        "Nie. Pri prenájme nehnuteľností (§ 6 ods. 3) sa paušálne výdavky uplatniť nedajú – len skutočné výdavky alebo daňová evidencia; paušál je možný pri § 6 ods. 1, 2 a samostatne pri ods. 4.",
+        "Nie. Pri prenájme nehnuteľností (§ 6 ods. 3) sa paušálne výdavky uplatniť nedajú – len skutočné výdavky alebo daňová evidencia; paušál je možný pri § 6 ods. 1, 2 a samostatne pri ods. 4 (60 % / max 20 000 € ročne aj pre ods. 4).",
         "Nie. Pri prenájme (§ 6 ods. 3) sa nedajú uplatniť žiadne výdavky – príjem z prenájmu sa zdaňuje v plnej výške zrážkou 19 %."
       ],
       "spravna_index": 2,
       "spravne_indexy": [
         2
       ],
-      "vysvetlenie": "Nie. Pri prenájme nehnuteľností (§ 6 ods. 3) sa paušálne výdavky uplatniť nedajú – len skutočné výdavky alebo daňová evidencia. Paušál je možný len pri § 6 ods. 1, 2 a samostatne pri ods. 4 (použitie diela)."
+      "vysvetlenie": "Nie. Pri prenájme nehnuteľností (§ 6 ods. 3) sa paušálne výdavky uplatniť nedajú – len skutočné výdavky alebo daňová evidencia. Paušál je možný len pri § 6 ods. 1, 2 a samostatne pri ods. 4 (použitie diela). Pre § 6 ods. 4 platí paušál vo výške 60 % z príjmov, maximálne 20 000 € ročne (rovnaké percento a strop ako pre § 6 ods. 1 a 2, ale uplatňujú sa samostatne; § 6 ods. 10 ZDP, znenie účinné k 1. 1. 2026)."
     }
   ],
   "pasce_caste_chyby": [
@@ -258,7 +259,8 @@
     "Znižovať o NČZD aj pasívne príjmy (§ 6 ods. 3 a 4, § 8) alebo OZD (§ 7) – NČZD znižujú len aktívne príjmy § 5 a § 6 ods. 1 a 2.",
     "Použiť staré sadzby DPFO 2025 (19/25 %) pre rok 2026 – od 1. 1. 2026 sú ŠTYRI pásma 19/25/30/35 %.",
     "Naviazať zvýhodnenú sadzbu 15 % na základ dane – je naviazaná na zdaniteľný PRÍJEM (obrat) do 100 000 €.",
-    "Zabudnúť pri skončení podnikania (JÚ/daňová evidencia) na úpravu ZD o zásoby a pohľadávky podľa § 17 ods. 8."
+    "Zabudnúť pri skončení podnikania (JÚ/daňová evidencia) na úpravu ZD o zásoby a pohľadávky podľa § 17 ods. 8.",
+    "Pri SZČO § 6 ods. 1 a 2 platí do zdaniteľných príjmov 100 000 € plošne 15 %, nie progresívne pásma 19/25/30/35 %; pásma sa pri SZČO uplatnia až nad limit 100 000 €. Najčastejšia chyba je zámena obratu (zdaniteľných príjmov) a základu dane pri tomto limite."
   ],
   "test": {
     "vyber_z_moznosti": [
