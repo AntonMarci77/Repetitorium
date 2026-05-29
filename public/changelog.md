@@ -8,6 +8,12 @@ Našli ste chybu alebo máte návrh? Použite v aplikácii tlačidlo **„Nahlá
 
 ---
 
+## 2026-05-28
+
+- **Obsah — celkový lift na verziu 1.2:** plošná revízia všetkých 36 téz (drobné opravy formulácií, doplnenia, štylistika). Aktualizácia 7 vizuálov, 7 máp (JSON tree), 3 grafických máp (SVG) a 6 zdrojových esencií. V appke sa pri všetkých tézach krátkodobo zobrazí značka „aktualizované", kým ich neotvoríš.
+- **TTS — oprava (BC I.7 a iné dlhé tézy):** v Chrome/Chromium prehliadačoch sa pri počúvaní jadra dlhého textu hlas po cca 15 sekundách stíchol alebo začal opakovať časť (známy bug Web Speech API). Riešenie: text sa rozdeľuje na vety/chunky (≤ 200 znakov), prehráva sa v poradí a beží keep-alive ping (pause+resume každých 12 s), ktorý resetuje interný watchdog Chromea. Pribudli aj tlačidlá Pauza / Pokračovať / Stop a ukazovateľ pokroku (i / total).
+- **PWA cache — oprava zastaraného obsahu:** používatelia mohli vidieť stále staršie verzie téz (napr. v.1.0/1.1 namiesto nových), lebo prehliadač držal staré JSONy v HTTP cache. Loader teraz vždy revaliduje s serverom (cache: no-cache, lacné 304), service worker bumpnutý na verziu v3 (staré cache sa automaticky zmažú pri inštalácii nového SW).
+
 ## 2026-05-27
 
 - **MC kvíz — nový režim** (`/kviz`): rýchly „klikací" tréning len z testových otázok (ABCD), bez „hovor nahlas" a bez vplyvu na plán opakovaní. Filtre: úroveň (BC/ING/komisia), rozsah (všetky / Okruh I / Okruh II / konkrétna téza), zdroj (doplňujúce / testové / obidva), počet (10 / 20 / všetky). Skóre v % na konci.
