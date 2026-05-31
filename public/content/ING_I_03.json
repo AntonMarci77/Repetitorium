@@ -6,7 +6,7 @@
   "nazov": "Prenájom dlhodobého hmotného majetku podľa právnej úpravy v SR a IFRS 16",
   "cas_na_odpoved_min": 10,
   "verzia": "1.2",
-  "stav_legislativy": "SR: Postupy účtovania pre podnikateľov (opatrenie MF/23054/2002-92 v platnom znení; § 30a upravuje účtovanie finančného prenájmu u prenajímateľa aj u nájomcu, znenie naposledy upravené opatrením MF/013819/2025-74 s účinnosťou od 31. 12. 2025); zákon č. 595/2003 Z. z. o dani z príjmov v znení k 1. 1. 2026 (§ 2 písm. s) – finančný prenájom, § 24 ods. 2, § 27/§ 28 – odpisovanie prenajatého majetku štandardnými metódami po zrušení lízingových odpisov od r. 2015, § 29 – technické zhodnotenie); zákon č. 222/2004 Z. z. o DPH (§ 8 ods. 1 písm. c) a § 9 ods. 1 písm. b)); IFRS 16 Lízingy v znení nariadenia (EÚ) 2023/1803. (Sadzba DPH 23 % od 1. 1. 2025 je relevantná len pre SR účtovanie a daňový/DPH režim lízingu; pre samotnú IFRS 16 problematiku nemá vplyv.) Číselné hodnoty overené k máju 2026. · Druhé kolo kritickej revízie: 2026-05-27.",
+  "stav_legislativy": "SR: Postupy účtovania pre podnikateľov (opatrenie MF/23054/2002-92 v platnom znení; § 30a upravuje účtovanie finančného prenájmu u prenajímateľa aj u nájomcu, znenie naposledy upravené opatrením MF/013819/2025-74 s účinnosťou od 31. 12. 2025); zákon č. 595/2003 Z. z. o dani z príjmov v znení k 1. 1. 2026 (§ 2 písm. s) – finančný prenájom, § 24 ods. 2, § 27/§ 28 – odpisovanie prenajatého majetku štandardnými metódami po zrušení lízingových odpisov od r. 2015, § 29 – technické zhodnotenie); zákon č. 222/2004 Z. z. o DPH (§ 8 ods. 1 písm. c) a § 9 ods. 1 písm. b)); IFRS 16 Lízingy v znení nariadenia (EÚ) 2023/1803. (Sadzba DPH 23 % od 1. 1. 2025 je relevantná len pre SR účtovanie a daňový/DPH režim lízingu; pre samotnú IFRS 16 problematiku nemá vplyv.) Číselné hodnoty overené k máju 2026. · Druhé kolo kritickej revízie: 2026-05-27. Korekcia (30. 5. 2026): opravený smer účtovného zápisu pri operatívnom nájme u prenajímateľa (315/602 namiesto 602/315) — pohľadávka MD, výnos D.",
   "klucove_pojmy": [
     "prenájom (nájom) DHM",
     "finančný prenájom (lízing)",
@@ -50,7 +50,7 @@
       },
       {
         "nadpis": "Vykazovanie finančného prenájmu (SR)",
-        "text": "Nájomca v súvahe vykazuje samostatné hnuteľné veci a ich oprávky a záväzky z nájmu (474) členené na krátkodobú a dlhodobú časť podľa zostatkovej doby splatnosti (cez analytiku k 474); vo výsledovke odpisy a finančné náklady; v poznámkach istinu a finančný náklad podľa splatnosti. Prenajímateľ v súvahe vykazuje pohľadávky z nájmu (374) v členení na krátkodobú a dlhodobú časť, vo výsledovke finančné výnosy a v poznámkach istinu a finančný výnos podľa splatnosti. Pri operatívnom prenájme naopak majetok aj odpisy zostávajú u prenajímateľa (výnos 602/315), nájomca účtuje len nájomné 518 / 325."
+        "text": "Nájomca v súvahe vykazuje samostatné hnuteľné veci a ich oprávky a záväzky z nájmu (474) členené na krátkodobú a dlhodobú časť podľa zostatkovej doby splatnosti (cez analytiku k 474); vo výsledovke odpisy a finančné náklady; v poznámkach istinu a finančný náklad podľa splatnosti. Prenajímateľ v súvahe vykazuje pohľadávky z nájmu (374) v členení na krátkodobú a dlhodobú časť, vo výsledovke finančné výnosy a v poznámkach istinu a finančný výnos podľa splatnosti. Pri operatívnom prenájme naopak majetok aj odpisy zostávajú u prenajímateľa (výnos MD 315 / D 602), nájomca účtuje len nájomné 518 / 325."
       },
       {
         "nadpis": "Technické zhodnotenie u nájomcu (SR)",

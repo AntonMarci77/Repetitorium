@@ -6,7 +6,7 @@
   "nazov": "Účtovníctvo rozpočtových organizácií, príspevkových organizácií a obcí",
   "cas_na_odpoved_min": 10,
   "verzia": "1.2",
-  "stav_legislativy": "Postupy účtovania a rámcová účtová osnova pre územnú samosprávu (obce, VÚC a nimi zriadené RO/PO): opatrenie MF SR č. MF/014454/2022-36 z 12. 12. 2022 (opatrenie 13/2022 FS, oznámenie 484/2022 Z. z.) účinné od 1. 1. 2023, v znení novely MF/014915/2023-361 zo 7. 12. 2023 (od 1. 1. 2024). Pre štátne RO, štátne PO a štátne účelové fondy: opatrenie MF SR č. MF/14522/2022-36 zo 7. 12. 2022 (opatrenie 12/2022 FS) účinné od 1. 1. 2023, v znení novely MF/13953/2023-361 zo 7. 12. 2023 (oznámenie 499/2023 Z. z., od 1. 1. 2024). Obe nové opatrenia od 1. 1. 2023 spoločne nahradili pôvodné MF/16786/2007-31 – to už neplatí ani pre štát, ani pre samosprávu. Účtovná závierka: opatrenie MF/25755/2007-31 v znení MF/13542/2023-36 (úplné znenie od 1. 1. 2024). Rozpočtové pravidlá: zákon č. 523/2004 Z. z. (verejná správa) a č. 583/2004 Z. z. (územná samospráva), obecné zriadenie č. 369/1990 Zb. Účtovníctvo: zákon č. 431/2002 Z. z. Stav a presné identifikátory overené k máju 2026 (MF SR, Slov-lex/ASPI); účty transferov 681–684/691–694, 584/585/588, 318/319/632 potvrdené – pozri referenčný súbor 01_Zdroje/Postupy_uctovania/ROPO_postupy_a_zavierka_REFERENCIA.md. · Druhé kolo kritickej revízie: 2026-05-27.",
+  "stav_legislativy": "Postupy účtovania a rámcová účtová osnova pre územnú samosprávu (obce, VÚC a nimi zriadené RO/PO): opatrenie MF SR č. MF/014454/2022-36 z 12. 12. 2022 (opatrenie 13/2022 FS, oznámenie 484/2022 Z. z.) účinné od 1. 1. 2023, v znení novely MF/014915/2023-361 zo 7. 12. 2023 (od 1. 1. 2024). Pre štátne RO, štátne PO a štátne účelové fondy: opatrenie MF SR č. MF/14522/2022-36 zo 7. 12. 2022 (opatrenie 12/2022 FS) účinné od 1. 1. 2023, v znení novely MF/13953/2023-361 zo 7. 12. 2023 (oznámenie 499/2023 Z. z., od 1. 1. 2024). Obe nové opatrenia od 1. 1. 2023 spoločne nahradili pôvodné MF/16786/2007-31 – to už neplatí ani pre štát, ani pre samosprávu. Účtovná závierka: opatrenie MF/25755/2007-31 v znení MF/13542/2023-36 (úplné znenie od 1. 1. 2024). Rozpočtové pravidlá: zákon č. 523/2004 Z. z. (verejná správa) a č. 583/2004 Z. z. (územná samospráva), obecné zriadenie č. 369/1990 Zb. Účtovníctvo: zákon č. 431/2002 Z. z. Stav a presné identifikátory overené k máju 2026 (MF SR, Slov-lex/ASPI); účty transferov 681–684/691–694, 584/585/588, 318/319/632 potvrdené – pozri referenčný súbor 01_Zdroje/Postupy_uctovania/ROPO_postupy_a_zavierka_REFERENCIA.md. · Druhé kolo kritickej revízie: 2026-05-27. Korekcia (30. 5. 2026): spresnené, že účtovný VH RO môže vzniknúť pri bežných transferoch od zriaďovateľa (od r. 2008 postupy účtovania to umožňujú), nie je automaticky nulový pri všetkých tokoch.",
   "klucove_pojmy": [
     "rozpočtová organizácia (RO)",
     "príspevková organizácia (PO)",
@@ -59,10 +59,10 @@
       },
       {
         "nadpis": "Podstata účtovného VH RO a PO; OP a rezervy v PO",
-        "text": "Účtovný výsledok hospodárenia = výnosy (trieda 6) − náklady (trieda 5), zistený akruálne a prenesený cez 710 na 431 – VH v schvaľovaní. U RO je vďaka mechanizmu transferov (výnos sa rozpúšťa do výšky nákladu/odpisu) a odvodu vlastných príjmov účtovný VH spravidla blízky nule – účtovníctvo je „rozpočtovo neutrálne“. PO môže vykázať zlepšený (kladný) alebo zhoršený (záporný) VH a o jeho použití rozhoduje zriaďovateľ (napr. prídel do rezervného fondu). PO – podobne ako podnikateľ – pracuje s nástrojmi opatrnosti: opravné položky (tvorba MD 558 / D 39x; vyjadrujú prechodné zníženie hodnoty pohľadávok, zásob, majetku) a rezervy na neisté záväzky (tvorba MD náklad 5xx / D 323 krátkodobé alebo 451/459 dlhodobé; použitie alebo zrušenie v prospech výnosov). Platí princíp významnosti – OP ani rezerva bez významného vplyvu na VH sa neúčtuje."
+        "text": "Účtovný výsledok hospodárenia = výnosy (trieda 6) − náklady (trieda 5), zistený akruálne a prenesený cez 710 na 431 – VH v schvaľovaní. U RO je účtovný VH NULOVÝ pri väčšine tokov vďaka mechanizmu časového rozlíšenia: (a) pri vlastných rozpočtových príjmoch sa zinkasovaný výnos kryje rovnakým nákladom z odvodu (588) → VH = 0; (b) pri KAPITÁLOVÝCH transferoch zriaďovateľa sa rozpúšťanie zo 384 účtuje vo výške odpisov/OP/ZC → VH = 0; (c) pri transferoch od iných subjektov verejnej správy, EÚ aj mimo verejnej správy sa zúčtovanie do výnosov viaže na vecnú a časovú súvislosť s nákladmi → VH = 0. Účtovný VH RO **môže vzniknúť** najmä pri BEŽNÝCH transferoch od zriaďovateľa, kde sa zúčtovanie transferu do výnosov (691) účtuje vo vecnej a časovej súvislosti s VÝDAVKAMI z neho, takže ak skutočná spotreba na účely transferu nesedí so zúčtovaným výnosom, vznikne kladný alebo záporný VH (od r. 2008 to postupy účtovania pre RO výslovne pripúšťajú). PO môže vykázať zlepšený (kladný) alebo zhoršený (záporný) VH a o jeho použití rozhoduje zriaďovateľ (napr. prídel do rezervného fondu). PO – podobne ako podnikateľ – pracuje s nástrojmi opatrnosti: opravné položky (tvorba MD 558 / D 39x; vyjadrujú prechodné zníženie hodnoty pohľadávok, zásob, majetku) a rezervy na neisté záväzky (tvorba MD náklad 5xx / D 323 krátkodobé alebo 451/459 dlhodobé; použitie alebo zrušenie v prospech výnosov). Platí princíp významnosti – OP ani rezerva bez významného vplyvu na VH sa neúčtuje."
       },
       {
-        "zaver": "Zapamätateľná kostra odpovede: (1) RO = brutto napojenie, príjmy odvádza (588/351), VH ≈ 0; PO = napojenie príspevkom, kryje menej ako 50 % nákladov, VH +/−, tvorí fondy/OP/rezervy. (2) Transfery: dávam = skupina 58 (náklad), dostávam = skupina 68/69 (výnos), tok cez skupinu 35; kapitálový sa cez 384 rozpúšťa do výnosov vo výške odpisu → neutrálny dopad na VH. (3) Obec: dane na 632, pohľadávky 318/319, a vždy rozlíš účtovný VH od rozpočtového prebytku/schodku."
+        "zaver": "Zapamätateľná kostra odpovede: (1) RO = brutto napojenie, príjmy odvádza (588/351), VH = 0 pri kapitálových transferoch, odvode príjmov a transferoch mimo zriaďovateľa, VH však MÔŽE vzniknúť pri bežných transferoch od zriaďovateľa (časovanie výnos vs. výdavok); PO = napojenie príspevkom, kryje menej ako 50 % nákladov, VH +/−, tvorí fondy/OP/rezervy. (2) Transfery: dávam = skupina 58 (náklad), dostávam = skupina 68/69 (výnos), tok cez skupinu 35; kapitálový sa cez 384 rozpúšťa do výnosov vo výške odpisu → neutrálny dopad na VH. (3) Obec: dane na 632, pohľadávky 318/319, a vždy rozlíš účtovný VH od rozpočtového prebytku/schodku."
       }
     ]
   },
@@ -268,19 +268,19 @@
       "vysvetlenie": "RO je na rozpočet zriaďovateľa napojená brutto – príjmami aj výdavkami; svoje rozpočtové príjmy odvádza zriaďovateľovi (588/351). PO je napojená netto – príspevkom (rozdielom); vlastnými tržbami kryje menej ako 50 % výrobných nákladov a zvyšok dorovná zriaďovateľ príspevkom."
     },
     {
-      "otazka": "Prečo má RO účtovný výsledok hospodárenia spravidla blízky nule?",
-      "odpoved": "Lebo výnosy z transferov sa rozpúšťajú len do výšky nákladov/odpisov a vlastné rozpočtové príjmy musí RO odviesť (588/351). Mechanizmus je rozpočtovo neutrálny, takže náklady a výnosy sa navzájom vyrovnávajú.",
+      "otazka": "Kedy je účtovný VH RO nulový a kedy môže vzniknúť nenulový VH?",
+      "odpoved": "VH je nulový pri (a) odvode vlastných rozpočtových príjmov (výnos sa kryje rovnakým nákladom 588/351), (b) kapitálových transferoch zriaďovateľa (rozpúšťanie zo 384 vo výške odpisu/OP/ZC), (c) transferoch od ostatných subjektov verejnej správy, EÚ a subjektov mimo verejnej správy (časová a vecná súvislosť s nákladmi). Nenulový VH RO môže vzniknúť pri BEŽNÝCH transferoch od ZRIAĎOVATEĽA, kde sa zúčtovanie transferu do výnosov 691 viaže na výdavky z neho a od r. 2008 postupy účtovania umožňujú, aby výsledok takéhoto rozdielu zostal vo VH RO.",
       "moznosti": [
         "Lebo všetky svoje rozpočtové príjmy si môže ponechať a celý transfer zúčtuje do výnosov naraz",
         "Lebo zriaďovateľ jej každý rok dorovná zisk presne na nulu osobitným záverečným zápisom",
-        "Lebo výnosy z transferov sa rozpúšťajú len do výšky nákladov/odpisov a vlastné príjmy musí odviesť (588/351), takže náklady a výnosy sa vyrovnávajú",
+        "VH je nulový pri (a) odvode vlastných rozpočtových príjmov (výnos sa kryje rovnakým nákladom 588/351), (b) kapitálových transferoch zriaďovateľa (rozpúšťanie zo 384 vo výške odpisu/OP/ZC), (c) transfe",
         "Lebo RO neúčtuje o nákladoch ani výnosoch, vedie len peňažné príjmy a výdavky"
       ],
       "spravna_index": 2,
       "spravne_indexy": [
         2
       ],
-      "vysvetlenie": "Lebo výnosy z transferov sa rozpúšťajú len do výšky nákladov/odpisov a vlastné rozpočtové príjmy musí RO odviesť (588/351). Mechanizmus je rozpočtovo neutrálny, takže náklady a výnosy sa navzájom vyrovnávajú."
+      "vysvetlenie": "VH je nulový pri (a) odvode vlastných rozpočtových príjmov (výnos sa kryje rovnakým nákladom 588/351), (b) kapitálových transferoch zriaďovateľa (rozpúšťanie zo 384 vo výške odpisu/OP/ZC), (c) transferoch od ostatných subjektov verejnej správy, EÚ a subjektov mimo verejnej správy (časová a vecná súvislosť s nákladmi). Nenulový VH RO môže vzniknúť pri BEŽNÝCH transferoch od ZRIAĎOVATEĽA, kde sa zúčtovanie transferu do výnosov 691 viaže na výdavky z neho a od r. 2008 postupy účtovania umožňujú, aby výsledok takéhoto rozdielu zostal vo VH RO."
     },
     {
       "otazka": "Ako sa účtuje kapitálový transfer na obstaranie majetku a prečo nejde celý do výnosov hneď?",
@@ -461,7 +461,7 @@
       },
       {
         "otazka": "Porovnajte financovanie RO a PO a uveďte, ako sa to prejaví v ich účtovníctve.",
-        "vzorova_odpoved": "RO je napojená brutto: výdavky limitované rozpočtom, príjmy odvádza zriaďovateľovi (588/351), hospodári cez 224/225 (štát) alebo 221 (obec/VÚC); jej účtovný VH je blízky nule. PO je napojená netto: dostáva príspevok (bežný transfer do výnosov 691/681, kapitálový cez 384), vlastné výnosy si necháva (kryje menej ako 50 % nákladov), môže mať kladný/záporný VH a tvorí fondy, OP a rezervy."
+        "vzorova_odpoved": "RO je napojená brutto: výdavky limitované rozpočtom, príjmy odvádza zriaďovateľovi (588/351), hospodári cez 224/225 (štát) alebo 221 (obec/VÚC); jej účtovný VH je nulový pri odvode príjmov, kapitálových transferoch a transferoch mimo zriaďovateľa, ale môže byť nenulový pri bežných transferoch od zriaďovateľa (od r. 2008 to postupy pripúšťajú). PO je napojená netto: dostáva príspevok (bežný transfer do výnosov 691/681, kapitálový cez 384), vlastné výnosy si necháva (kryje menej ako 50 % nákladov), môže mať kladný/záporný VH a tvorí fondy, OP a rezervy."
       },
       {
         "otazka": "Ako obec účtuje daňové a nedaňové príjmy a aký je rozdiel medzi účtovným VH a rozpočtovým výsledkom obce?",

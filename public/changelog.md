@@ -8,6 +8,15 @@ Našli ste chybu alebo máte návrh? Použite v aplikácii tlačidlo **„Nahlá
 
 ---
 
+## 2026-05-30 — feedback od študentov
+
+- **ING I.3 (Prenájom dlhodobého hmotného majetku) — vecná oprava účtovania:** pri operatívnom nájme u prenajímateľa bolo zaúčtovanie obrátené (`602/315`). Správne je **MD 315 / D 602** — účet 315 (pohľadávka) na strane MD, 602 (výnos) na strane D. Opravené v jadre odpovede, esencii a SVG mape. V poli `stav_legislativy` pribudla pečiatka „Korekcia (30. 5. 2026)".
+- **BC I.9 a BC II.9 (Účtovníctvo a finančné výkazy RO a PO) — spresnenie formulácie o VH RO:** pôvodné tvrdenie „VH rozpočtových organizácií spravidla blízky nule" bolo zjednodušenie. Od roku 2008 postupy účtovania umožňujú, aby VH RO bol **nenulový**. Obsah teraz jasne rozlišuje dva prípady:
+  - **VH = 0** pri: odvode vlastných rozpočtových príjmov (588/351 vs. výnos), kapitálových transferoch zriaďovateľa (rozpúšťanie 384 vo výške odpisov/OP/ZC), transferoch od iných subjektov verejnej správy / EÚ / mimo verejnej správy (časová a vecná súvislosť s nákladmi).
+  - **VH môže byť nenulový** pri bežných transferoch od zriaďovateľa, kde sa zúčtovanie transferu do výnosov 691 viaže na výdavky z neho — ak skutočná spotreba nesedí so zúčtovaným výnosom, vznikne kladný alebo záporný VH.
+
+  Opravených 8 miest v dvoch JSON-och (jadro, záver, doplňujúce otázky vrátane MC možností, vzorové odpovede testu, príklady), plus esencie, SVG mapa BC II.9 a vizuál `BC_I_09_RO_vs_PO_financovanie.svg`. Súlad s opatreniami MF/014454/2022-36 a MF/14522/2022-36 v platnom znení. V `stav_legislativy` oboch téz pribudla pečiatka „Korekcia (30. 5. 2026)".
+
 ## 2026-05-28
 
 - **Obsah — celkový lift na verziu 1.2:** plošná revízia všetkých 36 téz (drobné opravy formulácií, doplnenia, štylistika). Aktualizácia 7 vizuálov, 7 máp (JSON tree), 3 grafických máp (SVG) a 6 zdrojových esencií. V appke sa pri všetkých tézach krátkodobo zobrazí značka „aktualizované", kým ich neotvoríš.
